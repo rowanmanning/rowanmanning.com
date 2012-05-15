@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="<%= @document.language || 'en-GB' %>">
 <head>
 
     <meta charset="utf-8"/>
-    <title><%= @document.title %></title>
+    <title><%= @document.title || 'Untitled Document' %></title>
+
+    <meta name="description" content="<%= @document.description %>">
 
 </head>
 <body>
