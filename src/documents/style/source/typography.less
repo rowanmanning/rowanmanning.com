@@ -1,0 +1,25 @@
+// Typography
+// =========================================================
+
+@type-size-body: 18px;
+
+@type-face-body: Verdana, sans-serif;
+@type-face-heading: 'Averia Serif Libre', serif;
+
+// =========================================================
+
+body {
+    // <TEMP>
+    width: 760px;
+    margin: 0 auto;
+    padding: 20px;
+    // </TEMP>
+
+    font-family: @type-face-body;
+    font-size: @type-size-body;
+}
+
+h1 {
+    font-family: @type-face-heading;
+    .type-size(36px);
+}
