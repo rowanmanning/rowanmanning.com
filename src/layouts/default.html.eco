@@ -7,6 +7,14 @@
 
     <meta name="description" content="<%= @document.description %>">
 
+    <!--
+    This is the compiled and minified CSS, if you're interested
+    in seeing the actual LESS source, then you can find everything
+    you need at `style/source/bootstrap.less`; just follow the
+    trail of imports :)
+    -->
+    <link rel="stylesheet" href="/style/main.css"/>
+
 </head>
 <body>
 
