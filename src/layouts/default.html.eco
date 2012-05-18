@@ -13,7 +13,7 @@
     you need at `style/source/bootstrap.less`; just follow the
     trail of imports :)
     -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Averia+Serif+Libre">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Averia+Serif+Libre:400,400italic,700,700italic">
     <link rel="stylesheet" href="/style/main.css"/>
 
 </head>
