@@ -5,6 +5,7 @@
 
 @type-face-body: Verdana, Geneva, Tahoma, sans-serif;
 @type-face-heading: 'Averia Serif Libre', Baskerville, Times, 'Times New Roman', serif;
+@type-face-code: Consolas, 'Lucida Console', Monaco, monospace;
 
 // =========================================================
 
@@ -24,4 +25,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
     .type-size(36px);
+}
+
+pre, code {
+    font-family: @type-face-code;
 }
