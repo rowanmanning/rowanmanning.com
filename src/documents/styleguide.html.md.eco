@@ -10,7 +10,9 @@ This is a paragraph of text; it is being used to test basic typography and ensur
 
 ## Text-Level Semantics ##
 
-Text-level semantics are important, right? Let's have a look at some of them. We'll start with the <strong>strong element</strong>, and swiftly move onto <em>emphasis</em>. Pretty standard stuff. Let's show off some <abbr title="abbreviation">abbr</abbr>, and elements which <del>save the world</del> <ins>deal with edits to documents</ins>; it's worth noting that the 's' element is used <s>twice</s> once in this document.
+Text-level semantics are important, right? Let's have a look at some of them. We'll start with the <strong>strong element</strong>, and swiftly move onto <em>emphasis</em>. Pretty standard stuff. I'll tag <sub>subscript</sub> and <sup>superscript</sup> onto the end of this paragraph too.
+
+Let's show off some <abbr title="abbreviation">abbr</abbr>, and elements which <del>save the world</del> <ins>deal with edits to documents</ins>; it's worth noting that the 's' element is used <s>twice</s> once in this document.
 
 In reminding myself how to use all these elements, I often refer to <a href="http://csswizardry.com/2011/01/html5-and-text-level-semantics/"><cite>this article from CSS Wizardry</cite></a>. He says: <q>&ldquo;The &lt;q&gt; element is simply used to mark up inline quotations; quotes that are in the context of surrounding copy&rdquo;</q>.
 
