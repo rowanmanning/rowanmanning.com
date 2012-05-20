@@ -30,13 +30,13 @@ p, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, blockquote, dl, ol, ul,
 }
 
 // Heading styles
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, dt, th {
     font-family: @type-face-heading;
 }
 h6, .h6, h5, .h5, h4, .h4 {
     font-weight: normal;
 }
-h6, .h6 {
+h6, .h6, dt, th {
     .type.font-size(@type-size-base + 2);
 }
 h5, .h5 {
@@ -73,7 +73,7 @@ dt {
 }
 dd {
     margin-left: 0;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     padding-left: @type-size-base;
 }
 
