@@ -48,6 +48,22 @@ Last two elements now*: when writing about code, the aptly named <code>code</cod
     <dd>For lists of items which have a title and description.</dd>
 </dl>
 
+### Mixed And Complex Lists ###
+
+ * List item with a paragraph.
+
+ * List item with a nested list.
+    * List item
+    * List item
+    * List item with *another* nested list.
+       1. List item
+       2. List item
+       3. List item
+
+ * List item with a paragraph.
+
+   And another paragraph.
+
 
 ## Block Quotes ##
 
