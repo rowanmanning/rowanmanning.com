@@ -1,0 +1,152 @@
+// Typography
+// =========================================================
+
+@type-size-base: 18px;
+@type-line-height-base: 26px;
+
+@type-face-body: Verdana, Geneva, Tahoma, sans-serif;
+@type-face-heading: 'Averia Serif Libre', Baskerville, Times, 'Times New Roman', serif;
+@type-face-code: Consolas, 'Lucida Console', Monaco, monospace;
+
+@type-color-primary: #111;
+@type-color-secondary: #666;
+
+// =========================================================
+
+// Base typography
+html {
+    .type.root();
+}
+body {
+    font-family: @type-face-body;
+    .type.font-size(@type-size-base);
+    .type.line-height(@type-line-height-base);
+    color: @type-color-primary;
+}
+
+// Base element styles
+p, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, blockquote, dl, ol, ul, hr, pre, table {
+    .type.margin(@type-line-height-base, @type-line-height-base);
+}
+
+// Heading styles
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, dt, th {
+    font-family: @type-face-heading;
+}
+h6, .h6, h5, .h5, h4, .h4 {
+    font-weight: normal;
+}
+h6, .h6, dt, th {
+    .type.font-size(@type-size-base + 2);
+}
+h5, .h5 {
+    .type.font-size(@type-size-base + 4);
+}
+h4, .h4 {
+    .type.font-size(@type-size-base + 6);
+}
+h3, .h3, h2, .h2, h1, .h1 {
+    .type.line-height(@type-size-base + 20);
+}
+h3, .h3 {
+    .type.font-size(@type-size-base + 8);
+}
+h2, .h2 {
+    .type.font-size(@type-size-base + 14);
+    .type.margin(@type-line-height-base * 2, @type-line-height-base);
+}
+h1, .h1 {
+    .type.font-size(@type-size-base + 20);
+}
+
+// Small element styles
+small, sub, sup {
+    .type.font-size(@type-size-base - 4);
+}
+
+// Lists
+ol, ul {
+    padding-left: (@type-size-base * 2);
+}
+ol, ul, dl {
+    p, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, blockquote, dl, ol, ul, hr, pre, table {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 0;
+    margin-bottom: 12px;
+    padding-left: @type-size-base;
+}
+
+// Quotes
+q {
+    font-style: italic;
+    &:before {
+        content: "“";
+    }
+    &:after {
+        content: "”";
+    }
+}
+blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 0 0 @type-size-base;
+    border-left: 5px solid #ccc;
+
+    small {
+        color: @type-color-secondary;
+
+        &:before {
+            content: "—"
+        }
+    }
+}
+
+// Code
+pre, code {
+    font-family: @type-face-code;
+}
+code {
+    padding: 0 4px;
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+}
+pre code {
+    padding: 8px;
+    display: block;
+}
+
+// Tables
+table {
+    width: 100%;
+}
+thead {
+    border-top: 1px solid #ccc;
+}
+tr {
+    border-left: 1px solid #ccc;
+}
+th {
+    background: #e8e8e8;
+    text-align: left;
+}
+th, td {
+    padding: 4px 8px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+
+    tr:nth-child(2n) & {
+        background: #f8f8f8;
+    }
+}
+
+// Highlights
+mark {
+    background: #ff9;
+}
