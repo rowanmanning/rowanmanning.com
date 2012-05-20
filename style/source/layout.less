@@ -1,0 +1,29 @@
+// Layout
+// =========================================================
+
+@layout-min-width: 700px;
+@navigation-min-width: 180px;
+
+// =========================================================
+
+body {
+    min-width: @layout-min-width;
+}
+.navigation, .content {
+    .box-sizing(border-box);
+    padding: 20px;
+    float: left;
+}
+.navigation {
+    width: 25%;
+    *width: 20%;
+    min-width: @navigation-min-width;
+    max-width: 300px;
+}
+
+.content {
+    width: 75%;
+    *width: 60%;
+    min-width: (@layout-min-width - @navigation-min-width);
+    max-width: 800px;
+}

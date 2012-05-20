@@ -7,18 +7,16 @@
 // http://necolas.github.com/normalize.css/
 @import 'vendor/normalize';
 
+// Utilities used by *everything*
+@import 'utilities/clear';
+@import 'utilities/css3';
+
 // Typography time! This defines base typography which
 // everything is based off of, as well as a few useful
 // utilities.
 @import 'utilities/type';
 @import 'typography';
 
-// <TEMP>
-body {
-    width: 760px;
-    margin: 60px auto;
-    padding: 20px;
-    //background: -moz-linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 -1px;
-    //background-size: 100% @type-line-height-base;
-}
-// </TEMP>
+// Layout. This defines the core structure of the page
+// and deals with some of the responsive elements.
+@import 'utilities/grid';
