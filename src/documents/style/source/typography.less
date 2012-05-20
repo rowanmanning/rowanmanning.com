@@ -116,6 +116,25 @@ pre code {
     display: block;
 }
 
+// Tables
+table {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+th {
+    background: #e8e8e8;
+    text-align: left;
+}
+th, td {
+    padding: 4px 8px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+
+    tr:nth-child(2n) & {
+        background: #f8f8f8;
+    }
+}
+
 // Highlights
 mark {
     background: #ff9;
