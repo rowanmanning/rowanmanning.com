@@ -65,6 +65,19 @@ small, sub, sup {
     .type.font-size(@type-size-base - 4);
 }
 
+// Lists
+ol, ul {
+    padding-left: (@type-size-base * 2);
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 0;
+    margin-bottom: 8px;
+    padding-left: @type-size-base;
+}
+
 // Quotes
 q {
     font-style: italic;
