@@ -14,7 +14,7 @@ Text-level semantics are important, right? Let's have a look at some of them. We
 
 Let's show off some <abbr title="abbreviation">abbr</abbr>, and elements which <del>save the world</del> <ins>deal with edits to documents</ins>; it's worth noting that the 's' element is used <s>twice</s> once in this document.
 
-In reminding myself how to use all these elements, I often refer to <a href="http://csswizardry.com/2011/01/html5-and-text-level-semantics/"><cite>this article from CSS Wizardry</cite></a>. He says: <q>&ldquo;The &lt;q&gt; element is simply used to mark up inline quotations; quotes that are in the context of surrounding copy&rdquo;</q>.
+In reminding myself how to use all these elements, I often refer to <a href="http://csswizardry.com/2011/01/html5-and-text-level-semantics/"><cite>this article from CSS Wizardry</cite></a>. He says: <q>The &lt;q&gt; element is simply used to mark up inline quotations; quotes that are in the context of surrounding copy</q>.
 
 Last two elements now*: when writing about code, the aptly named <code>code</code> element comes into play; and lastly, the 'mark' element is useful for <mark>highlighting text</mark> or maybe search terms.
 
@@ -53,6 +53,8 @@ Last two elements now*: when writing about code, the aptly named <code>code</cod
 
 > Block quotes can be used to quote somebody.
 <small>Rowan Manning</small>
+
+With a citation:
 
 > Block quotes can also have a citation!
 <small>Rowan Manning in <cite>This styleguide</cite></small>

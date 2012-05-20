@@ -8,6 +8,9 @@
 @type-face-heading: 'Averia Serif Libre', Baskerville, Times, 'Times New Roman', serif;
 @type-face-code: Consolas, 'Lucida Console', Monaco, monospace;
 
+@type-color-primary: #111;
+@type-color-secondary: #666;
+
 // =========================================================
 
 // Base typography
@@ -18,6 +21,7 @@ body {
     font-family: @type-face-body;
     .type.font-size(@type-size-base);
     .type.line-height(@type-line-height-base);
+    color: @type-color-primary;
 }
 
 // Base element styles
@@ -61,7 +65,32 @@ small, sub, sup {
     .type.font-size(@type-size-base - 4);
 }
 
+// Quotes
+q {
+    font-style: italic;
+    &:before {
+        content: "“";
+    }
+    &:after {
+        content: "”";
+    }
+}
+blockquote {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 0 0 @type-size-base;
+    border-left: 5px solid #ccc;
 
+    small {
+        color: @type-color-secondary;
+
+        &:before {
+            content: "—"
+        }
+    }
+}
+
+// Code
 pre, code {
     font-family: @type-face-code;
 }
