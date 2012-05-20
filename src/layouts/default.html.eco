@@ -19,7 +19,17 @@
 </head>
 <body>
 
-    <%- @content %>
+    <div class="grid row">
+
+        <div class="col-3">
+            <%- @partial 'navigation.html.eco' %>
+        </div>
+
+        <div class="col-9">
+            <%- @content %>
+        </div>
+
+    </div>
 
 </body>
 </html>
