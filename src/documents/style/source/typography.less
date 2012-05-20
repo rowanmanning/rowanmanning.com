@@ -1,7 +1,8 @@
 // Typography
 // =========================================================
 
-@type-size-body: 18px;
+@type-size-base: 18px;
+@type-line-height-base: 26px;
 
 @type-face-body: Verdana, Geneva, Tahoma, sans-serif;
 @type-face-heading: 'Averia Serif Libre', Baskerville, Times, 'Times New Roman', serif;
@@ -9,23 +10,57 @@
 
 // =========================================================
 
+// Base typography
+html {
+    .type.root();
+}
 body {
-    // <TEMP>
-    width: 760px;
-    margin: 0 auto;
-    padding: 20px;
-    // </TEMP>
-
     font-family: @type-face-body;
-    font-size: @type-size-body;
+    .type.font-size(@type-size-base);
+    .type.line-height(@type-line-height-base);
 }
 
-h1, h2, h3, h4, h5, h6 {
+// Base element styles
+p, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, blockquote, dl, ol, ul, hr, pre, table {
+    .type.margin(@type-line-height-base, @type-line-height-base);
+}
+
+// Heading styles
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
     font-family: @type-face-heading;
 }
-h1 {
-    .type-size(36px);
+h6, .h6, h5, .h5, h4, .h4 {
+    font-weight: normal;
 }
+h6, .h6 {
+    .type.font-size(@type-size-base + 2);
+}
+h5, .h5 {
+    .type.font-size(@type-size-base + 4);
+}
+h4, .h4 {
+    .type.font-size(@type-size-base + 6);
+}
+h3, .h3, h2, .h2, h1, .h1 {
+    .type.line-height(@type-size-base + 20);
+}
+h3, .h3 {
+    .type.font-size(@type-size-base + 8);
+    .type.margin(@type-line-height-base, @type-line-height-base);
+}
+h2, .h2 {
+    .type.font-size(@type-size-base + 14);
+    .type.margin(@type-line-height-base * 2, @type-line-height-base);
+}
+h1, .h1 {
+    .type.font-size(@type-size-base + 20);
+}
+
+// Small element styles
+small, sub, sup {
+    .type.font-size(@type-size-base - 4);
+}
+
 
 pre, code {
     font-family: @type-face-code;

@@ -1,0 +1,56 @@
+// Type Utility
+// =========================================================
+
+.type {
+
+    .root () {
+        font-size: 62.5%;
+    }
+
+    .font-size (@pixel-size) when (ispixel(@pixel-size)) {
+        @rem-size: ~`(parseInt("@{pixel-size}") / 10) + 'rem'`;
+        font-size: @pixel-size;
+        font-size: @rem-size;
+    }
+
+    .line-height (@pixel-height) when (ispixel(@pixel-height)) {
+        @rem-height: ~`(parseInt("@{pixel-height}") / 10) + 'rem'`;
+        line-height: @pixel-height;
+        line-height: @rem-height;
+    }
+
+    .margin-top (@pixel-margin) when (ispixel(@pixel-margin)) {
+        @rem-margin: ~`(parseInt("@{pixel-margin}") / 10) + 'rem'`;
+        margin-top: @pixel-margin;
+        margin-top: @rem-margin;
+    }
+
+    .margin-bottom (@pixel-margin) when (ispixel(@pixel-margin)) {
+        @rem-margin: ~`(parseInt("@{pixel-margin}") / 10) + 'rem'`;
+        margin-bottom: @pixel-margin;
+        margin-bottom: @rem-margin;
+    }
+
+    .margin (@pixel-margin-top, @pixel-margin-bottom) when (ispixel(@pixel-margin-top)) and (ispixel(@pixel-margin-bottom)) {
+        .margin-top(@pixel-margin-top);
+        .margin-bottom(@pixel-margin-bottom);
+    }
+
+    .padding-top (@pixel-padding) when (ispixel(@pixel-padding)) {
+        @rem-padding: ~`(parseInt("@{pixel-padding}") / 10) + 'rem'`;
+        padding-top: @pixel-padding;
+        padding-top: @rem-padding;
+    }
+
+    .padding-bottom (@pixel-padding) when (ispixel(@pixel-padding)) {
+        @rem-padding: ~`(parseInt("@{pixel-padding}") / 10) + 'rem'`;
+        padding-bottom: @pixel-padding;
+        padding-bottom: @rem-padding;
+    }
+
+    .padding (@pixel-padding-top, @pixel-padding-bottom) when (ispixel(@pixel-padding-top)) and (ispixel(@pixel-padding-bottom)) {
+        .padding-top(@pixel-padding-top);
+        .padding-bottom(@pixel-padding-bottom);
+    }
+
+}

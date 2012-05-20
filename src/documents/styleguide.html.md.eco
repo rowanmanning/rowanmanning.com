@@ -67,8 +67,6 @@ Last two elements now*: when writing about code, the aptly named <code>code</cod
     sayMessage 'Code blocks can be useful.'
 
 
----
-
 ## Headings ##
 
 # Level 1 Heading #
