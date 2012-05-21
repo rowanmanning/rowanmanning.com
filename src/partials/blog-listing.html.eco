@@ -1,7 +1,12 @@
 
+<% zeroPad = (number, padLength = 2) -> number = '0' + number.toString() while number.toString().length < padLength; number %>
+<% getDayName = (dayNumber) -> ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][dayNumber] %>
+<% getMonthName = (monthNumber) -> ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][monthNumber] %>
+<% getIsoDate = (date) -> date.getUTCFullYear() + '-' + zeroPad(date.getUTCMonth() + 1) + '-' + zeroPad(date.getUTCDate()) + 'T' + zeroPad(date.getUTCHours()) + ':' + zeroPad(date.getUTCMinutes()) + ':' + zeroPad(date.getUTCSeconds()) + 'Z' %>
+
 <% posts = [] %>
 <% for document in @documents: %>
-    <% if document.url.indexOf('/posts') == 0: %>
+    <% if document.url.indexOf('/posts') == 0 && document.private != true: %>
         <% posts.push document %>
     <% end %>
 <% end %>
@@ -11,7 +16,8 @@
         <% for post in posts: %>
             <li>
                 <a href="<%= post.urls[1] %>">
-                    <%= post.title %>
+                    <h3><%= post.title %></h3>
+                    <p>Posted <time datetime="<%= getIsoDate post.date %>"><%= zeroPad(post.date.getDate()) + ' ' + getMonthName(post.date.getMonth()) + ' ' + post.date.getFullYear() %></time></p>
                 </a>
             </li>
         <% end %>
