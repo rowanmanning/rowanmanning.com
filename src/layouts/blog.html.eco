@@ -4,4 +4,4 @@ layout: 'default'
 
 <%- @content %>
 
-<%- @partial 'blog-listing.html.eco', {documents: @documents} %>
+<%- @partial 'blog-listing.html.eco', {posts: @blogPosts('blog')} %>

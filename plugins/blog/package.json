@@ -1,0 +1,9 @@
+{
+    "name": "docpad-plugin-blog",
+    "version": "0.1.0",
+    "private": true,
+    "keywords": [
+        "docpad-plugin"
+    ],
+    "main": "./blog.plugin.coffee"
+}
