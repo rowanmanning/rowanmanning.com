@@ -17,8 +17,7 @@
         "docpad-plugin-less": "1.0.x",
         "docpad-plugin-markdown": "1.0.x",
         "docpad-plugin-partials": "1.0.x",
-        "express": "2.5.x",
-        "moment": "1.6.2"
+        "express": "2.5.x"
     },
     "engines" : {
         "docpad": "5.x",
