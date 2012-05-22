@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
     <title>Rowan's Blog</title>
-    <link href="http://rowanmanning.co.uk<%= @document.url %>" rel="self"/>
-    <link href="http://rowanmanning.co.uk/"/>
+    <link href="http://<%= @site.host + @document.url %>" rel="self"/>
+    <link href="http://<%= @site.host %>/"/>
     <updated><%= @site.date.toISOString() %></updated>
-    <id>http://rowanmanning.co.uk/blog</id>
+    <id>http://<%= @site.host + @document.url %></id>
     <author>
         <name>Rowan Manning</name>
     </author>
@@ -13,9 +13,9 @@
     <% for post in @blogPosts('blog'): %>
         <entry>
             <title><%= post.title %></title>
-            <link href="http://rowanmanning.co.uk<%= post.urls[1] %>"/>
+            <link href="http://<%= @site.host + post.urls[1] %>"/>
             <updated><%= post.date.toISOString() %></updated>
-            <id>http://rowanmanning.co.uk<%= post.urls[1] %></id>
+            <id>http://<%= @site.host + post.urls[1] %></id>
             <content type="html"><%= post.contentRenderedWithoutLayouts %></content>
         </entry>
     <% end %>

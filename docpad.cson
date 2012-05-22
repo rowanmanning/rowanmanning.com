@@ -1,0 +1,7 @@
+{
+    templateData:
+        site:
+            host: 'rowanmanning.co.uk'
+            title: "Rowan Manning"
+            author: "Rowan Manning"
+}
