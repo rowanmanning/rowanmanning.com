@@ -1,7 +1,7 @@
 
 <% posts = [] %>
 <% for document in @documents: %>
-    <% if document.url.indexOf('/posts') == 0 && document.private != true: %>
+    <% if document.url.indexOf('/blog/') == 0 && document.private != true: %>
         <% posts.push document %>
     <% end %>
 <% end %>
