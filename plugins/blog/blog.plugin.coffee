@@ -10,10 +10,10 @@ module.exports = (BasePlugin) ->
         generateBefore: ({}, next) ->
 
             # Extend default template data with ability to get blog posts by directory
-            @docpad.config.templateData.blogPosts = () ->
+            @docpad.config.templateData.blogPosts = (directory) ->
                 posts = []
                 for document in @documents
-                    if document.url.indexOf('/blog/') == 0 && document.private != true
+                    if document.url.indexOf('/' + directory + '/') == 0 && document.private != true
                         posts.push document
                 return posts
 
