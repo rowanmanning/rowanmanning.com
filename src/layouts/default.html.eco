@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="<%= @document.language || 'en-GB' %>">
+<html lang="<%= @document.language || @site.language %>">
 <head>
 
     <meta charset="utf-8"/>
-    <title><%= @document.title || 'Untitled Document' %></title>
+    <title><%= (@document.title || 'Untitled Document') %> : <%= @site.title %></title>
 
-    <meta name="description" content="<%= @document.description %>">
+    <meta name="description" content="<%= @document.description || @site.description %>">
+
+    <link rel="canonical" href="http://<%= @site.host + @document.urls[1] %>"/>
 
     <!--
     This is the compiled and minified CSS, if you're interested

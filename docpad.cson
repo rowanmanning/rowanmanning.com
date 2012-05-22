@@ -4,4 +4,6 @@
             host: 'rowanmanning.co.uk'
             title: "Rowan Manning"
             author: "Rowan Manning"
+            language: 'en-GB',
+            description: 'The personal website of Rowan Manning'
 }
