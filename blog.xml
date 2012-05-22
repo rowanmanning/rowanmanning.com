@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title>Rowan's Blog</title>
+    <link href="http://rowanmanning.co.uk/blog.xml" rel="self"/>
+    <link href="http://rowanmanning.co.uk/"/>
+    <updated>2012-05-22T23:18:36.888Z</updated>
+    <id>http://rowanmanning.co.uk/blog.xml</id>
+    <author>
+        <name>Rowan Manning</name>
+    </author>
+
+    
+        <entry>
+            <title>Hello World!</title>
+            <link href="http://rowanmanning.co.uk/blog/hello-world"/>
+            <updated>2012-05-21T22:06:00.000Z</updated>
+            <id>http://rowanmanning.co.uk/blog/hello-world</id>
+            <content type="html">&lt;h1&gt;Hello World!&lt;/h1&gt;
+
+&lt;p&gt;This is my first blog post.&lt;/p&gt;</content>
+        </entry>
+    
+
+</feed>
