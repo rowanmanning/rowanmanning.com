@@ -7,6 +7,11 @@
 
     <meta name="description" content="<%= @document.description || @site.description %>">
 
+    <!--
+    Site links which include a canonical URL, as well as links to
+    other resources such as the blog atom feed.
+    -->
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="ATOM Feed"/>
     <link rel="canonical" href="http://<%= @site.host + @document.urls[1] %>"/>
 
     <!--
