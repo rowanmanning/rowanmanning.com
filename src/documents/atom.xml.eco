@@ -10,7 +10,7 @@
         <name>Rowan Manning</name>
     </author>
 
-    <% for post in @blogPosts('blog'): %>
+    <% for post in @blogPosts('posts'): %>
         <entry>
             <title><%= post.title %></title>
             <link href="http://<%= @site.host + post.urls[1] %>"/>
