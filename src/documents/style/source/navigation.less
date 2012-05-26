@@ -1,0 +1,25 @@
+// Navigation
+// =========================================================
+
+.nav {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+        .type.line-height(35px);
+
+        a {
+            display: inline-block;
+            padding: 0 10px;
+            text-decoration: none;
+            color: @type-color-primary;
+            -moz-transition: all .25s;
+            border-left: 4px solid #eee;
+
+            &:hover {
+                background-color: #CAE8A7;
+                border-left: 4px solid #7DB578;
+            }
+        }
+    }
+}
