@@ -1,20 +1,28 @@
 
 <ul class="nav site-nav">
-    <li class="home">
-        <a href="/">Home</a>
+
+    <li class="about">
+        <a href="/" title="About Rowan Manning">
+            About Me
+        </a>
     </li>
+
     <li class="blog">
-        <a href="/blog">Blog</a>
+        <a href="/blog" title="Rowan Manning’s Blog">
+            My Blog
+        </a>
     </li>
-    <li class="styleguide">
-        <a href="/styleguide">Styleguide (tmp)</a>
-    </li>
+
 </ul>
 
 <ul class="nav social-nav">
+
     <% for item in @social: %>
         <li class="<%= item.type %>">
-            <a href="<%= item.url %>"><%= item.label %></a>
+            <a href="<%= item.url %>" title="<%= item.description %>" rel="me">
+                <%= item.label %>
+            </a>
         </li>
     <% end %>
+
 </ul>

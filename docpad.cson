@@ -7,8 +7,23 @@
             language: 'en-GB'
             description: 'The personal website of Rowan Manning'
             social: [
-                { type: 'twitter', url: 'http://twitter.com/rowanmanning', label: 'Twitter' }
-                { type: 'github', url: 'http://github.com/rowanmanning', label: 'GitHub' }
-                { type: 'dribbble', url: 'http://dribbble.com/rowanmanning', label: 'Dribbble' }
+                {
+                    type: 'twitter'
+                    url: 'http://twitter.com/rowanmanning'
+                    label: 'Twitter'
+                    description: 'Rowan Manning on Twitter'
+                }
+                {
+                    type: 'github'
+                    url: 'http://github.com/rowanmanning'
+                    label: 'GitHub'
+                    description: 'Rowan Manning’s Open-Source Code on GitHub'
+                }
+                {
+                    type: 'dribbble'
+                    url: 'http://dribbble.com/rowanmanning'
+                    label: 'Dribbble'
+                    description: 'Rowan Manning’s Design Work on Dribbble'
+                }
             ]
 }
