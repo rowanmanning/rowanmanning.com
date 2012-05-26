@@ -3,8 +3,12 @@
 <head>
 
     <meta charset="utf-8"/>
-    <title><%= (@document.title || 'Untitled Document') %> : <%= @site.title %></title>
 
+    <!--
+    Meta information. This stuff is important for search
+    engines and providing extra information about the page.
+    -->
+    <title><%= (@document.title || 'Untitled Document') %> : <%= @site.title %></title>
     <meta name="description" content="<%= @document.description || @site.description %>">
 
     <!--
