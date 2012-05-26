@@ -4,6 +4,11 @@
             host: 'rowanmanning.co.uk'
             title: "Rowan Manning"
             author: "Rowan Manning"
-            language: 'en-GB',
+            language: 'en-GB'
             description: 'The personal website of Rowan Manning'
+            social: [
+                { type: 'twitter', url: 'http://twitter.com/rowanmanning', label: 'Twitter' }
+                { type: 'github', url: 'http://github.com/rowanmanning', label: 'GitHub' }
+                { type: 'dribbble', url: 'http://dribbble.com/rowanmanning', label: 'Dribbble' }
+            ]
 }

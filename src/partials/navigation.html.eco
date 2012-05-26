@@ -12,13 +12,9 @@
 </ul>
 
 <ul class="nav social-nav">
-    <li class="twitter">
-        <a href="http://twitter.com/rowanmanning">Twitter</a>
-    </li>
-    <li class="github">
-        <a href="http://github.com/rowanmanning">GitHub</a>
-    </li>
-    <li class="dribbble">
-        <a href="http://dribbble.com/rowanmanning">Dribbble</a>
-    </li>
+    <% for item in @social: %>
+        <li class="<%= item.type %>">
+            <a href="<%= item.url %>"><%= item.label %></a>
+        </li>
+    <% end %>
 </ul>
