@@ -1,5 +1,5 @@
 ---
-title: 'Blog'
+title: 'Rowan Manning’s Blog'
 layout: 'blog'
 ---
 

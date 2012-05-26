@@ -8,7 +8,7 @@
     Meta information. This stuff is important for search
     engines and providing extra information about the page.
     -->
-    <title><%= (@document.title || 'Untitled Document') %> : <%= @site.title %></title>
+    <title><%= (@document.title || 'Untitled Document') %></title>
     <meta name="description" content="<%= @document.description || @site.description %>">
 
     <!--

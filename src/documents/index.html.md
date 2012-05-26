@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: 'Rowan Manning: Web Geek'
 layout: 'default'
 ---
 
