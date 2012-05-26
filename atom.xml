@@ -4,7 +4,7 @@
     <title>Rowan's Blog</title>
     <link href="http://rowanmanning.co.uk/atom.xml" rel="self"/>
     <link href="http://rowanmanning.co.uk/"/>
-    <updated>2012-05-26T00:21:31.175Z</updated>
+    <updated>2012-05-26T08:17:16.933Z</updated>
     <id>http://rowanmanning.co.uk/atom.xml</id>
     <author>
         <name>Rowan Manning</name>
@@ -13,9 +13,9 @@
     
         <entry>
             <title>Hello World!</title>
-            <link href="http://rowanmanning.co.uk/blog/hello-world"/>
+            <link href="http://rowanmanning.co.uk/posts/hello-world"/>
             <updated>2012-05-21T22:06:00.000Z</updated>
-            <id>http://rowanmanning.co.uk/blog/hello-world</id>
+            <id>http://rowanmanning.co.uk/posts/hello-world</id>
             <content type="html">&lt;h1&gt;Hello World!&lt;/h1&gt;
 
 &lt;p&gt;This is my first blog post.&lt;/p&gt;</content>
