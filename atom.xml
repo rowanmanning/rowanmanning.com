@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
     <title>Rowan's Blog</title>
-    <link href="http://rowanmanning.co.uk/blog.xml" rel="self"/>
+    <link href="http://rowanmanning.co.uk/atom.xml" rel="self"/>
     <link href="http://rowanmanning.co.uk/"/>
-    <updated>2012-05-22T23:18:36.888Z</updated>
-    <id>http://rowanmanning.co.uk/blog.xml</id>
+    <updated>2012-05-26T00:21:31.175Z</updated>
+    <id>http://rowanmanning.co.uk/atom.xml</id>
     <author>
         <name>Rowan Manning</name>
     </author>
