@@ -1,8 +1,13 @@
 
-<!--<a href="/" class="logo">
-    <span class="title">Rowan Manning:</span>
-    <span class="tagline">Web Geek</span>
-</a>-->
+<a href="/" class="logo">
+    <span class="title">
+        Rowan<br/>
+        Manning,
+    </span>
+    <span class="tagline">
+        Web Geek
+    </span>
+</a>
 
 <ul class="nav site-nav">
 

@@ -1,5 +1,5 @@
 ---
-title: 'Rowan Manning: Web Geek'
+title: 'Rowan Manning, Web Geek'
 layout: 'default'
 ---
 

@@ -3,8 +3,10 @@
 
 .logo {
     display: block;
+    padding: 5px 10px;
+    border-left: 4px solid #7db578;
     text-decoration: none;
-    .h1();
+    .h4();
 
     &, &:visited, &:active {
         color: @type-color-primary;
@@ -14,7 +16,7 @@
         display: block;
     }
     .tagline {
-        .type.font-size(20px);
+        .type.font-size(@type-size-base + 2);
         color: @type-color-secondary;
     }
 }
