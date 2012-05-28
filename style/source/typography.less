@@ -10,6 +10,10 @@
 
 @type-color-primary: #111;
 @type-color-secondary: #666;
+@type-color-link: #4b8256;
+@type-color-link-active: #8675bf;
+@type-color-link-visited: #7347ad;
+@type-color-selection: #dbe8cc;
 
 // =========================================================
 
@@ -62,6 +66,18 @@ h1, .h1 {
 // Small element styles
 small, sub, sup {
     .type.font-size(@type-size-base - 4);
+}
+
+// Links
+a {
+    color: @type-color-link;
+
+    &:active {
+        color: @type-color-link-active;
+    }
+    &:visited {
+        color: @type-color-link-visited;
+    }
 }
 
 // Lists
@@ -149,4 +165,14 @@ th, td {
 // Highlights
 mark {
     background: #ff9;
+}
+
+// selection
+::-moz-selection {
+    background: @type-color-selection;
+    color: @type-color-primary;
+}
+::selection {
+    background: @type-color-selection;
+    color: @type-color-primary;
 }

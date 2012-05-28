@@ -1,0 +1,44 @@
+// Navigation
+// =========================================================
+
+.nav {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+        .type.line-height(40px);
+        .type.font-size(@type-size-base + 4);
+        font-family: @type-face-heading;
+
+        a {
+            display: inline-block;
+            padding: 0 10px;
+            text-decoration: none;
+            color: @type-color-primary;
+            -moz-transition: all .25s;
+            border-left: 4px solid #eee;
+
+            &:hover {
+                background-color: #cae8a7;
+                border-left-color: #7db578;
+            }
+        }
+    }
+}
+
+// Social navigation - extension
+.social-nav {
+    .twitter a:hover {
+        background-color: #c9e2ff;
+        border-left-color: #4099ff;
+    }
+    .github a:hover {
+        background-color: #666;
+        border-left-color: #333;
+        color: #fff;
+    }
+    .dribbble a:hover {
+        background-color: #f0cedb;
+        border-left-color: #ea4c89;
+    }
+}
