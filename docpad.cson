@@ -11,18 +11,38 @@
                 url: 'http://twitter.com/rowanmanning'
                 label: 'Twitter'
                 title: 'Rowan Manning on Twitter'
+                description: 'I use Twitter to get my daily dose of the web, I share my findings too.'
+                nav: true
             }
             {
                 type: 'github'
                 url: 'http://github.com/rowanmanning'
                 label: 'GitHub'
                 title: 'Rowan Manning’s Open-Source Code on GitHub'
+                description: 'GitHub is where I keep all my open-source code; fork that shit!'
+                nav: true
             }
             {
                 type: 'dribbble'
                 url: 'http://dribbble.com/rowanmanning'
                 label: 'Dribbble'
                 title: 'Rowan Manning’s Design Work on Dribbble'
+                description: 'On the rare occasions when I design, I post works-in-progress on Dribbble.'
+                nav: true
+            }
+            {
+                type: 'linkedin'
+                url: 'http://www.linkedin.com/in/rowanmanning'
+                label: 'LinkedIn'
+                title: 'Rowan Manning’s Professional Profile on LinkedIn'
+                description: 'If you’re interested in what I’ve achieved professionally, check LinkedIn.'
+            }
+            {
+                type: 'last-fm'
+                url: 'http://www.last.fm/user/rowanmanning'
+                label: 'Last.fm'
+                title: 'Rowan Manning’s Scrobbles on Last.fm'
+                description: 'I scrobble pretty much all the music I listen to on Last.fm.'
             }
         ]
 }

@@ -28,11 +28,13 @@
 <ul class="nav social-nav">
 
     <% for item in @social: %>
-        <li class="<%= item.type %>">
-            <a href="<%= item.url %>" title="<%= item.title %>" rel="me">
-                <%= item.label %>
-            </a>
-        </li>
+        <% if item.nav == true: %>
+            <li class="<%= item.type %>">
+                <a rel="me" href="<%= item.url %>" title="<%= item.title %>">
+                    <%= item.label %>
+                </a>
+            </li>
+        <% end %>
     <% end %>
 
 </ul>

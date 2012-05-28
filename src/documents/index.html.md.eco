@@ -9,13 +9,29 @@ I’m a 24 year old Web Geek from a [beautiful little market town in the UK][amp
 
 I write JavaScript and CoffeeScript (but dabble in PHP and Ruby); I also get a huge kick out of clean, well-written HTML & CSS.
 
-## More… ##
+## A Little More: ##
 
  * Good beer is a passion of mine, my favourite being [Doom Bar][doom]
  * I have a real thing for cats
- * Reading (novels and comic books) absorbs a load of my time
- * I love films that can make me think
+ * Reading (novels, comics, blogs) absorbs a load of my time
+ * I love films that make me think
+ * I love music (mostly rock, or stuff that's older than I am)
  * [Minecraft][mc] is a terrible, terrible afflication of mine
+
+## I'm All Over The Web: ##
+
+<dl>
+    <% for item in @social: %>
+        <dt>
+            <a rel="me" href="<%= item.url %>" title="<%= item.title %>">
+                <%= item.label %>
+            </a>
+        </dt>
+        <dd>
+            <%= item.description %>
+        </dd>
+    <% end %>
+</dl>
 
 
 [ampthill]: http://maps.google.co.uk/maps?ll=52.02967,-0.493162&spn=0.009017,0.019183&t=k&z=16&lci=com.panoramio.all
