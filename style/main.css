@@ -51,7 +51,7 @@ table{border-collapse:collapse;border-spacing:0;}
 .clearfix:after{clear:both;}
 .clear{height:0;line-height:0;margin:0;padding:0;display:block;clear:both;overflow:hidden;font-size:1px;}
 html{font-size:62.5%;}
-body{font-family:Verdana,Geneva,Tahoma,sans-serif;font-size:18px;font-size:1.8rem;line-height:26px;line-height:2.6rem;color:#111111;}
+body{font-family:Verdana,Geneva,Tahoma,sans-serif;font-size:18px;font-size:1.8rem;line-height:26px;line-height:2.6rem;color:#444444;}
 p,h6,.h6,h5,.h5,h4,.h4,h3,.h3,h2,.h2,h1,.h1,blockquote,dl,ol,ul,hr,pre,table{margin-top:26px;margin-top:2.6rem;margin-bottom:26px;margin-bottom:2.6rem;}
 h6,.h6,h5,.h5,h4,.h4,h3,.h3,h2,.h2,h1,.h1,dt,th{font-family:'Averia Serif Libre',Baskerville,Times,'Times New Roman',serif;}
 h6,.h6,h5,.h5,h4,.h4{font-weight:normal;}
@@ -81,8 +81,8 @@ tr{border-left:1px solid #ccc;}
 th{background:#e8e8e8;text-align:left;}
 th,td{padding:4px 8px;border-bottom:1px solid #ccc;border-right:1px solid #ccc;}tr:nth-child(2n) th,tr:nth-child(2n) td{background:#f8f8f8;}
 mark{background:#ff9;}
-::-moz-selection{background:#dbe8cc;color:#111111;}
-::selection{background:#dbe8cc;color:#111111;}
+::-moz-selection{background:#dbe8cc;color:#444444;}
+::selection{background:#dbe8cc;color:#444444;}
 .grid{min-width:320px;max-width:1024px;*width:1024px;zoom:1;}.grid:before,.grid:after{display:table;content:'';}
 .grid:after{clear:both;}
 .col-1{width:8.333333333333334%;*width:45px;float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0 20px;}
@@ -97,12 +97,12 @@ mark{background:#ff9;}
 .col-10{width:83.33333333333334%;*width:810px;float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0 20px;}
 .col-11{width:91.66666666666667%;*width:895px;float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0 20px;}
 .col-12{width:100%;*width:980px;float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0 20px;}
-@media (max-width:600px){.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{width:100%;*width:980px;float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0 20px;}}html{border-top:2px solid #7db578;}
+@media (max-width:650px){.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{width:100%;*width:980px;float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0 20px;}}html{border-top:2px solid #7db578;}
 body{padding:26px 0;background:#fcfcfb url('/style/assets/noise-fcfcfb-s100-i25-o5.png');border-top:8px solid #cae8a7;}
-.logo{display:block;text-decoration:none;margin-top:26px;margin-top:2.6rem;margin-bottom:26px;margin-bottom:2.6rem;font-family:'Averia Serif Libre',Baskerville,Times,'Times New Roman',serif;line-height:38px;line-height:3.8rem;font-size:38px;font-size:3.8rem;}.logo,.logo:visited,.logo:active{color:#111111;}
+.logo{display:block;padding:5px 10px;border-left:4px solid #7db578;text-decoration:none;margin-top:26px;margin-top:2.6rem;margin-bottom:26px;margin-bottom:2.6rem;font-family:'Averia Serif Libre',Baskerville,Times,'Times New Roman',serif;font-weight:normal;font-size:24px;font-size:2.4rem;}.logo,.logo:visited,.logo:active{color:#444444;}
 .logo .title,.logo .tagline{display:block;}
 .logo .tagline{font-size:20px;font-size:2rem;color:#666666;}
-.nav{list-style:none;padding-left:0;}.nav li{line-height:40px;line-height:4rem;font-size:22px;font-size:2.2rem;font-family:'Averia Serif Libre',Baskerville,Times,'Times New Roman',serif;}.nav li a{display:inline-block;padding:0 10px;text-decoration:none;color:#111111;-moz-transition:all .25s;border-left:4px solid #eee;}.nav li a:hover{background-color:#cae8a7;border-left-color:#7db578;}
+.nav{list-style:none;padding-left:0;}.nav li{line-height:40px;line-height:4rem;font-size:22px;font-size:2.2rem;font-family:'Averia Serif Libre',Baskerville,Times,'Times New Roman',serif;}.nav li a{display:inline-block;padding:0 10px;text-decoration:none;color:#444444;-moz-transition:all .25s;border-left:4px solid #eee;}.nav li a:hover{background-color:#cae8a7;border-left-color:#7db578;}
 .social-nav .twitter a:hover{background-color:#c9e2ff;border-left-color:#4099ff;}
 .social-nav .github a:hover{background-color:#666;border-left-color:#333;color:#fff;}
 .social-nav .dribbble a:hover{background-color:#f0cedb;border-left-color:#ea4c89;}
