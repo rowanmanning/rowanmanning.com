@@ -5,24 +5,24 @@
             author: "Rowan Manning"
             language: 'en-GB'
             description: 'The personal website of Rowan Manning'
-            social: [
-                {
-                    type: 'twitter'
-                    url: 'http://twitter.com/rowanmanning'
-                    label: 'Twitter'
-                    description: 'Rowan Manning on Twitter'
-                }
-                {
-                    type: 'github'
-                    url: 'http://github.com/rowanmanning'
-                    label: 'GitHub'
-                    description: 'Rowan Manning’s Open-Source Code on GitHub'
-                }
-                {
-                    type: 'dribbble'
-                    url: 'http://dribbble.com/rowanmanning'
-                    label: 'Dribbble'
-                    description: 'Rowan Manning’s Design Work on Dribbble'
-                }
-            ]
+        social: [
+            {
+                type: 'twitter'
+                url: 'http://twitter.com/rowanmanning'
+                label: 'Twitter'
+                title: 'Rowan Manning on Twitter'
+            }
+            {
+                type: 'github'
+                url: 'http://github.com/rowanmanning'
+                label: 'GitHub'
+                title: 'Rowan Manning’s Open-Source Code on GitHub'
+            }
+            {
+                type: 'dribbble'
+                url: 'http://dribbble.com/rowanmanning'
+                label: 'Dribbble'
+                title: 'Rowan Manning’s Design Work on Dribbble'
+            }
+        ]
 }
