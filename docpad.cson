@@ -44,5 +44,9 @@
                 title: 'Rowan Manning’s Scrobbles on Last.fm'
                 description: 'I scrobble pretty much all the music I listen to on Last.fm.'
             }
+            {
+                url: 'https://plus.google.com/112029391894332163375'
+                hidden: true
+            }
         ]
 }

@@ -56,15 +56,23 @@ layout: 'default'
 
     <dl>
         <% for item in @social: %>
-            <dt>
-                <a rel="me" href="<%= item.url %>" title="<%= item.title %>">
-                    <%= item.label %>
-                </a>
-            </dt>
-            <dd>
-                <%= item.description %>
-            </dd>
+            <% if !item.hidden: %>
+                <dt>
+                    <a rel="me" href="<%= item.url %>" title="<%= item.title %>">
+                        <%= item.label %>
+                    </a>
+                </dt>
+                <dd>
+                    <%= item.description %>
+                </dd>
+            <% end %>
         <% end %>
     </dl>
+
+    <% for item in @social: %>
+        <% if item.hidden: %>
+            <link rel="me" href="<%= item.url %>"/>
+        <% end %>
+    <% end %>
 
 </div>
