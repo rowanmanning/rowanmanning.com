@@ -1,0 +1,9 @@
+---
+layout: 'default'
+---
+
+<div class="col-9">
+
+    <%- @content %>
+
+</div>
