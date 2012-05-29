@@ -1,6 +1,7 @@
 ---
 title: 'Hello World!'
 date: '2012-05-21 23:06'
+summary: 'My first blog post. In here, I talk about all sorts of stuff and ting.'
 layout: 'default'
 ---
 

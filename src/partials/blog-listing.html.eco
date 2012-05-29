@@ -5,7 +5,12 @@
             <li>
                 <a href="<%= post.urls[1] %>">
                     <h3><%= post.title %></h3>
-                    <p>Posted <time datetime="<%= post.moment.format() %>"><%= post.moment.format 'Do MMMM, YYYY' %></time></p>
+                    <p class="meta">
+                        Posted <time datetime="<%= post.moment.format() %>"><%= post.moment.format 'Do MMMM, YYYY' %></time>
+                    </p>
+                    <% if post.summary: %>
+                        <p class="summary"><%= post.summary %></p>
+                    <% end %>
                 </a>
             </li>
         <% end %>

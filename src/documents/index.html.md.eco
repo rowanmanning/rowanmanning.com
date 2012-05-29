@@ -72,7 +72,7 @@ layout: 'wrapping'
 
 <div class="col-4">
 
-    <h3 class="h1">Recent Posts</h3>
+    <h2 class="h1">Recent Posts</h2>
 
     <%- @partial 'blog-listing.html.eco', {posts: @blogPosts('posts', 3)} %>
 
