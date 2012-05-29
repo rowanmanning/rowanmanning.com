@@ -6,10 +6,26 @@
     padding-left: 0;
 
     li {
+        .type.margin(@type-line-height-base, @type-line-height-base);
+
         a {
             display: block;
+            padding: 5px 10px;
+            border-left: 4px solid #eee;
             text-decoration: none;
             color: @type-color-primary;
+            -moz-transition: all .25s;
+
+            &:hover {
+                background-color: #cae8a7;
+                border-left-color: #7db578;
+            }
+
+            .meta {
+                .type.margin-bottom(5px);
+                .type.font-size(@type-size-base - 4);
+                color: @type-color-secondary;
+            }
         }
     }
 }
