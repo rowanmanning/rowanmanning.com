@@ -8,8 +8,8 @@
                     <p class="meta">
                         Posted <time datetime="<%= post.moment.format() %>"><%= post.moment.format 'Do MMMM, YYYY' %></time>
                     </p>
-                    <% if post.summary: %>
-                        <p class="summary"><%= post.summary %></p>
+                    <% if post.description: %>
+                        <p class="description"><%= post.description %></p>
                     <% end %>
                 </a>
             </li>
