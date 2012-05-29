@@ -1,6 +1,6 @@
 ---
 title: 'Rowan Manning, Web Geek'
-layout: 'wrapping'
+layout: 'default'
 ---
 
 <div class="col-5" itemscope itemtype="http://schema.org/Person">
