@@ -106,5 +106,5 @@ body{padding:26px 0;background:#fcfcfb url('/style/assets/noise-fcfcfb-s100-i25-
 .social-nav .twitter a:hover{background-color:#c9e2ff;border-left-color:#4099ff;}
 .social-nav .github a:hover{background-color:#666;border-left-color:#333;color:#fff;}
 .social-nav .dribbble a:hover{background-color:#f0cedb;border-left-color:#ea4c89;}
-.posts{list-style:none;padding-left:0;}.posts li{margin-top:26px;margin-top:2.6rem;margin-bottom:26px;margin-bottom:2.6rem;}.posts li a{display:block;padding:5px 10px;border-left:4px solid #eee;text-decoration:none;color:#444444;-webkit-transition:all 0.25s;-moz-transition:all 0.25s;-ms-transition:all 0.25s;transition:all 0.25s;}.posts li a:hover{background-color:#cae8a7;border-left-color:#7db578;}
+.posts{list-style:none;padding-left:0;}.posts li{max-width:640px;margin-top:26px;margin-top:2.6rem;margin-bottom:26px;margin-bottom:2.6rem;}.posts li a{display:block;padding:5px 10px;border-left:4px solid #eee;text-decoration:none;color:#444444;-webkit-transition:all 0.25s;-moz-transition:all 0.25s;-ms-transition:all 0.25s;transition:all 0.25s;}.posts li a:hover{background-color:#cae8a7;border-left-color:#7db578;}
 .posts li a .meta{margin-bottom:5px;margin-bottom:0.5rem;font-size:14px;font-size:1.4rem;color:#666666;}
