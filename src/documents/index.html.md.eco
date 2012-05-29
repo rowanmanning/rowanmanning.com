@@ -71,5 +71,9 @@ layout: 'wrapping'
 </div>
 
 <div class="col-4">
-    <%- @partial 'blog-listing.html.eco', {posts: @blogPosts('posts')} %>
+
+    <h3 class="h1">Recent Posts</h3>
+
+    <%- @partial 'blog-listing.html.eco', {posts: @blogPosts('posts', 3)} %>
+
 </div>
