@@ -5,6 +5,7 @@
             author: "Rowan Manning"
             language: 'en-GB'
             description: 'The personal website of Rowan Manning'
+            googleAnalyticsAccount: 'UA-5860182-1'
         social: [
             {
                 type: 'twitter'
