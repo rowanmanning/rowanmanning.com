@@ -6,3 +6,11 @@
        -moz-box-sizing: @box-sizing; // firefox 2+
             box-sizing: @box-sizing; // w3c standard
 }
+
+.transition (@transition) {
+    -webkit-transition: @transition; // safari 3.2+
+       -moz-transition: @transition; // firefox 4+
+        -ms-transition: @transition; // internet explorer 10?
+            transition: @transition; // w3c standard
+}
+
