@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-    <title>Rowan's Blog</title>
+    <title>Rowan Manning’s Blog</title>
     <link href="http://<%= @site.host + @document.url %>" rel="self"/>
     <link href="http://<%= @site.host %>/"/>
     <updated><%= @site.date.toISOString() %></updated>
     <id>http://<%= @site.host + @document.url %></id>
     <author>
-        <name>Rowan Manning</name>
+        <name><%= @site.author %></name>
     </author>
 
     <% for post in @blogPosts('posts'): %>
