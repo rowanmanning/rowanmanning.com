@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="<%= @document.language || @site.language %>">
+<head>
+
+    <meta charset="utf-8"/>
+
+    <!--
+    Meta information. This stuff is important for search
+    engines and providing extra information about the page.
+    -->
+    <title><%= (@document.title || 'Untitled Document') %></title>
+    <meta name="description" content="<%= @document.description || @site.description %>">
+
+    <!--
+    Site links which include a canonical URL, as well as links to
+    other resources such as the blog atom feed.
+    -->
+    <link rel="alternate" type="application/atom+xml" href="/blog.xml" title="ATOM Feed"/>
+    <link rel="canonical" href="http://<%= @site.host + @document.urls[1] %>"/>
+
+    <!--
+    This is the compiled and minified CSS, if you're interested
+    in seeing the actual LESS source, then you can find everything
+    you need at `style/source/bootstrap.less`; just follow the
+    trail of imports :)
+    -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Averia+Serif+Libre:400,400italic,700,700italic">
+    <link rel="stylesheet" href="/style/main.css"/>
+
+    <!--
+    Additional configuration for mobile devices.
+    -->
+    <meta name="viewport" content="width=device-width"/>
+
+</head>
+<body>
+
+    <div class="grid">
+
+        <div class="col-3">
+            <%- @partial 'navigation.html.eco', {social: @social} %>
+        </div>
+
+        <%- @content %>
+
+    </div>
+
+</body>
+</html>

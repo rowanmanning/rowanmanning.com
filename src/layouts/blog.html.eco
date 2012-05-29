@@ -2,6 +2,10 @@
 layout: 'default'
 ---
 
-<%- @content %>
+<div class="col-9">
 
-<%- @partial 'blog-listing.html.eco', {posts: @blogPosts('posts')} %>
+    <%- @content %>
+
+    <%- @partial 'blog-listing.html.eco', {posts: @blogPosts('posts')} %>
+
+</div>

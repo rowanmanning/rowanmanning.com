@@ -1,7 +1,7 @@
 ---
 title: 'Shhhh!'
 date: '2012-01-26 10:00'
-layout: 'post'
+layout: 'default'
 private: true
 ---
 

@@ -12,7 +12,7 @@
 <ul class="nav site-nav">
 
     <li class="about">
-        <a href="/about" title="About Rowan Manning">
+        <a href="/" title="About Rowan Manning">
             About Me
         </a>
     </li>
