@@ -10,6 +10,9 @@
     -->
     <title><%= (@document.title || 'Untitled Document') %></title>
     <meta name="description" content="<%= @document.description || @site.description %>">
+    <% if @document.private == true: %>
+        <meta name="robots" content="noindex"/>
+    <% end %>
 
     <!--
     Site links which include a canonical URL, as well as links to
@@ -24,7 +27,7 @@
     you need at `style/source/bootstrap.less`; just follow the
     trail of imports :)
     -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Averia+Serif+Libre:400,400italic,700,700italic">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Averia+Serif+Libre:400,400italic,700,700italic"/>
     <link rel="stylesheet" href="/style/main.css"/>
 
     <!--
@@ -39,7 +42,7 @@
     <meta name="viewport" content="width=device-width"/>
 
     <!--
-    Google told me to put this here, who am I to question?
+    Google Analytics
     -->
     <script type="text/javascript">
     var _gaq = _gaq || [];
