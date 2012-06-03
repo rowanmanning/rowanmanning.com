@@ -1,6 +1,25 @@
 // Media
 // =========================================================
 
+// Media anchors
+.anchor-left, .anchor-right {
+    margin-top: 0;
+    margin-bottom: @type-size-base;
+}
+.anchor-left {
+    float: left;
+    margin-right: @type-line-height-base;
+}
+.anchor-right {
+    float: right;
+    margin-left: @type-line-height-base;
+}
+
+// Figures
+.anchor-right figcaption {
+    text-align: right;
+}
+
 // Images
 img {
     max-width: 100%;
@@ -8,4 +27,33 @@ img {
 }
 figure img {
     .type.margin-bottom(10px);
+}
+
+// Quotes
+blockquote {
+    @border: 5px solid #ccc;
+
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 0 0 @type-size-base;
+    border-left: @border;
+
+    &.anchor-right {
+        padding: 0 @type-size-base 0 0;
+        border-left: none;
+        border-right: @border;
+        text-align: right;
+    }
+
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    small {
+        color: @type-color-secondary;
+
+        &:before {
+            content: "—"
+        }
+    }
 }
