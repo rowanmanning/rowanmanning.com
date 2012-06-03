@@ -2,7 +2,7 @@
 layout: 'default'
 ---
 
-<div class="col-9">
+<div class="col-9 col-tablet-9">
 
     <%- @content %>
 
