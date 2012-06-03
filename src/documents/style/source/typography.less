@@ -30,7 +30,7 @@ body {
 }
 
 // Base element styles
-p, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, blockquote, dl, ol, ul, hr, pre, table {
+p, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, blockquote, dl, figure, ol, ul, hr, pre, table {
     .type.margin(@type-line-height-base, @type-line-height-base);
 }
 
@@ -66,7 +66,7 @@ h1, .h1 {
 }
 
 // Small element styles
-small, sub, sup {
+figcaption, small, sub, sup {
     .type.font-size(@type-size-base - 4);
 }
 
@@ -87,7 +87,7 @@ ol, ul {
     padding-left: (@type-size-base * 2);
 }
 ol, ul, dl {
-    p, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, blockquote, dl, ol, ul, hr, pre, table {
+    p, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, blockquote, dl, figure, ol, ul, hr, pre, table {
         margin-top: 0;
         margin-bottom: 0;
     }
