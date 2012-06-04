@@ -10,12 +10,14 @@
     -->
     <title>Rowan Manning, Web Geek</title>
     <meta name="description" content="The personal website of Rowan Manning">
+    
 
     <!--
     Site links which include a canonical URL, as well as links to
     other resources such as the blog atom feed.
     -->
     <link rel="alternate" type="application/atom+xml" href="/blog.xml" title="ATOM Feed"/>
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap"/>
     <link rel="canonical" href="http://rowanmanning.co.uk/"/>
 
     <!--
@@ -24,7 +26,7 @@
     you need at `style/source/bootstrap.less`; just follow the
     trail of imports :)
     -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Averia+Serif+Libre:400,400italic,700,700italic">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Averia+Serif+Libre:400,400italic,700,700italic"/>
     <link rel="stylesheet" href="/style/main.css"/>
 
     <!--
@@ -39,18 +41,18 @@
     <meta name="viewport" content="width=device-width"/>
 
     <!--
-    Google told me to put this here, who am I to question?
+    Google Analytics
     -->
-    <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-5860182-1']);
-    _gaq.push(['_setDomainName', 'rowanmanning.co.uk']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+    <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-5860182-1']);
+        _gaq.push(['_setDomainName', 'rowanmanning.co.uk']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
     </script>
 
 </head>
@@ -165,7 +167,7 @@
     <h2>A Little More:</h2>
 
     <ul>
-        <li>Good beer is a passion of mine, my favourite being <a href="http://www.sharpsbrewery.co.uk/our-beers/doombar/">Doom Bar</a></li>
+        <li>I enjoy a good beer, my favourite being <a href="http://www.sharpsbrewery.co.uk/our-beers/doombar/">Doom Bar</a></li>
         <li>Cats make me happy</li>
         <li>Reading (novels, comics, blogs) absorbs a load of my time</li>
         <li>I love films that make me think</li>

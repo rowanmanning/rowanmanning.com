@@ -10,13 +10,17 @@
     -->
     <title>Styleguide</title>
     <meta name="description" content="The personal website of Rowan Manning">
+    
+        <meta name="robots" content="noindex"/>
+    
 
     <!--
     Site links which include a canonical URL, as well as links to
     other resources such as the blog atom feed.
     -->
     <link rel="alternate" type="application/atom+xml" href="/blog.xml" title="ATOM Feed"/>
-    <link rel="canonical" href="http://rowanmanning.co.ukundefined"/>
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap"/>
+    <link rel="canonical" href="http://rowanmanning.co.uk/styleguide"/>
 
     <!--
     This is the compiled and minified CSS, if you're interested
@@ -24,7 +28,7 @@
     you need at `style/source/bootstrap.less`; just follow the
     trail of imports :)
     -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Averia+Serif+Libre:400,400italic,700,700italic">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Averia+Serif+Libre:400,400italic,700,700italic"/>
     <link rel="stylesheet" href="/style/main.css"/>
 
     <!--
@@ -39,18 +43,18 @@
     <meta name="viewport" content="width=device-width"/>
 
     <!--
-    Google told me to put this here, who am I to question?
+    Google Analytics
     -->
-    <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-5860182-1']);
-    _gaq.push(['_setDomainName', 'rowanmanning.co.uk']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
+    <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-5860182-1']);
+        _gaq.push(['_setDomainName', 'rowanmanning.co.uk']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
     </script>
 
 </head>
@@ -125,9 +129,11 @@
 
         <div class="col-9 col-tablet-9">
 
+
     <h1>Styleguide</h1>
 
     <p>This is a paragraph of text; it is being used to test basic typography and ensure that longer blocks of content are readable. The rest of this paragraph is going to be filler copy, feel free to ignore it as I'll be rambling on. Please don't let this set a precedent though – the rest of the content in this styleguide may be very useful, and will attempt to explain its purpose. Actually, thinking about it, that's exactly what this paragraph has done!</p>
+
 
     <h2>Text-Level Semantics</h2>
 
@@ -140,6 +146,7 @@
     <p>Last two elements now*: when writing about code, the aptly named <code>code</code> element comes into play; and lastly, the 'mark' element is useful for <mark>highlighting text</mark> or maybe search terms.</p>
 
     <p><small>* Not a guarantee</small></p>
+
 
     <h2>Lists</h2>
 
@@ -199,6 +206,7 @@
         </li>
     </ul>
 
+
     <h2>Block Quotes</h2>
 
     <blockquote>
@@ -216,6 +224,7 @@
             <small>Rowan Manning in <cite>This styleguide</cite></small>
         </p>
     </blockquote>
+
 
     <h2>Code</h2>
 
@@ -260,6 +269,7 @@ sayMessage 'Code blocks can be useful.'
         </tbody>
     </table>
 
+
     <h2>Headings</h2>
 
     <h1>Level 1 Heading</h1>
@@ -286,6 +296,7 @@ sayMessage 'Code blocks can be useful.'
 
     <p>This is a paragraph after a level 6 heading consectetur adipiscing elit. Donec malesuada volutpat libero, posuere lacinia felis aliquet eu. Maecenas venenatis suscipit dapibus. In venenatis dolor sodales diam volutpat tempus. In in augue a orci tincidunt hendrerit at non nibh.</p>
 
+
     <h2>Links</h2>
 
     <ul>
@@ -296,6 +307,59 @@ sayMessage 'Code blocks can be useful.'
         <li><a href="#5">a few of the</a></li>
         <li><a href="#6">different link styles</a></li>
     </ul>
+
+
+    <h2>Media</h2>
+
+    <p>Media can sit in the flow of the document&hellip;</p>
+
+    <figure>
+        <img src="http://placekitten.com/g/900/500" alt="A picture of a cuddly little kitten"/>
+        <figcaption>A Cuddly Little Kitten</figcaption>
+    </figure>
+
+    <p>&hellip;or anchored to one side within the text:</p>
+
+    <div class="anchor-left">
+        <figure>
+            <img src="http://placekitten.com/160/220" alt="A picture of a cuddly little kitten"/>
+            <figcaption>A Cuddly Little Kitten</figcaption>
+        </figure>
+    </div>
+
+    <p>Paragraph to illustrate anchored media ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur nisi justo, consectetur ut semper quis, ultrices vitae magna. Praesent hendrerit venenatis tempus. Proin volutpat augue vitae diam ornare suscipit. Sed eget nisi vitae urna aliquam adipiscing tempor nec urna.</p>
+
+    <div class="anchor-right">
+        <figure>
+            <img src="http://placekitten.com/160/220" alt="A picture of a cuddly little kitten"/>
+            <figcaption>A Cuddly Little Kitten</figcaption>
+        </figure>
+    </div>
+
+    <p>Paragraph to illustrate anchored media Curabitur vitae justo sapien. Morbi sollicitudin, lorem ut varius consequat, neque nisl dignissim lectus, ac iaculis eros diam quis massa. Suspendisse ipsum risus, blandit ut semper eu, aliquet at dui. Duis molestie mollis arcu id pretium. Nulla at dui vel ipsum eleifend porta.</p>
+
+    <p>Paragraph to illustrate anchored media ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur nisi justo, consectetur ut semper quis, ultrices vitae magna. Praesent hendrerit venenatis tempus. Proin volutpat augue vitae diam ornare suscipit. Sed eget nisi vitae urna aliquam adipiscing tempor nec urna.</p>
+
+    <blockquote class="anchor-left">
+        <p>
+            Block quotes can be anchored too<br />
+            <small>Rowan Manning in <cite>This styleguide</cite></small>
+        </p>
+    </blockquote>
+
+    <p>Paragraph to illustrate anchored media Curabitur vitae justo sapien. Morbi sollicitudin, lorem ut varius consequat, neque nisl dignissim lectus, ac iaculis eros diam quis massa. Suspendisse ipsum risus, blandit ut semper eu, aliquet at dui. Duis molestie mollis arcu id pretium. Nulla at dui vel ipsum eleifend porta.</p>
+
+    <p>Paragraph to illustrate anchored media ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur nisi justo, consectetur ut semper quis, ultrices vitae magna. Praesent hendrerit venenatis tempus. Proin volutpat augue vitae diam ornare suscipit. Sed eget nisi vitae urna aliquam adipiscing tempor nec urna.</p>
+
+    <blockquote class="anchor-right">
+        <p>
+            Block quotes can be anchored too<br />
+            <small>Rowan Manning in <cite>This styleguide</cite></small>
+        </p>
+    </blockquote>
+
+    <p>Paragraph to illustrate anchored media Curabitur vitae justo sapien. Morbi sollicitudin, lorem ut varius consequat, neque nisl dignissim lectus, ac iaculis eros diam quis massa. Suspendisse ipsum risus, blandit ut semper eu, aliquet at dui. Duis molestie mollis arcu id pretium. Nulla at dui vel ipsum eleifend porta.</p>
+
 
 </div>
 
