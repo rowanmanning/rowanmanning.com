@@ -6,4 +6,13 @@ layout: 'default'
 
     <%- @content %>
 
+    <!-- Comments (IntenseDebate) -->
+    <script>
+        var idcomments_acct = '<%= @site.intenseDebateAccount %>';
+        var idcomments_post_url = '<%= @document.urls[1] || @document.urls[0] %>';
+        var idcomments_post_id = idcomments_post_url;
+    </script>
+    <span id="IDCommentsPostTitle" style="display: none;"></span>
+    <script type='text/javascript' src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
+
 </div>
