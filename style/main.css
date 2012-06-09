@@ -80,6 +80,7 @@ tr{border-left:1px solid #ccc;}
 th{background:#e8e8e8;text-align:left;}
 th,td{padding:4px 8px;border-bottom:1px solid #ccc;border-right:1px solid #ccc;}tr:nth-child(2n) th,tr:nth-child(2n) td{background:#f8f8f8;}
 mark{background:#ff9;}
+hr{height:0;border:none;border-top:5px solid #eee;color:#ccc;}
 ::-moz-selection{background:#dbe8cc;color:#444444;}
 ::selection{background:#dbe8cc;color:#444444;}
 .anchor-left,.anchor-right{margin-top:0;margin-bottom:18px;}
