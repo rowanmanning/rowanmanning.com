@@ -6,13 +6,17 @@ layout: 'default'
 
     <%- @content %>
 
-    <!-- Comments (IntenseDebate) -->
-    <script>
-        var idcomments_acct = '<%= @site.intenseDebateAccount %>';
-        var idcomments_post_url = '<%= @document.urls[1] || @document.urls[0] %>';
-        var idcomments_post_id = idcomments_post_url;
-    </script>
-    <span id="IDCommentsPostTitle" style="display: none;"></span>
-    <script type='text/javascript' src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
+    <hr/>
+
+    <h3 class="h2">Discussion</h3>
+
+    <p>
+        If you'd like to discuss any of the topics in this post, please get in touch! You can find
+        me on Twitter as
+        @<a href="http://twitter.com/<%= @site.twitterHandle %>"><%= @site.twitterHandle %></a>, or
+        <a href="mailto:<%= @site.email %>?subject=<%= encodeURIComponent @document.title %>">email me about this post</a>.
+    </p>
+
+    <p>Enjoy reading this? <a href="https://twitter.com/share?url=<%= encodeURIComponent 'http://' + @site.host + (@document.urls[1] || @document.urls[0]) %>&via=<%= @site.twitterHandle %>&text=<%= encodeURIComponent @document.title %>">Spread the word on Twitter</a> :)</p>
 
 </div>

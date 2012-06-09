@@ -6,7 +6,8 @@
             language: 'en-GB'
             description: 'The personal website of Rowan Manning'
             googleAnalyticsAccount: 'UA-5860182-1'
-            intenseDebateAccount: 'c4ac9b5c3b96ef276ec45e569b5563f8'
+            twitterHandle: 'rowanmanning'
+            email: 'info@rowanmanning.co.uk'
         social: [
             {
                 type: 'twitter'
