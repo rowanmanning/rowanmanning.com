@@ -51,7 +51,12 @@
 // Column width calculator
 .frag-colspan (@colspan) {
     width: (100% / @frag-column-count) * @colspan;
-    *width: floor((@frag-ie7-width / @frag-column-count) * @colspan) - (@frag-gutter-width * 2); // IE7
+
+    // IE6+7 junk
+    @double-gutter-width: (@frag-gutter-width * 2);
+    @ie7-width-minus-gutter: (@frag-ie7-width - @double-gutter-width);
+    @ie7-single-column-width: floor(@ie7-width-minus-gutter / @frag-column-count);
+    *width: ((@ie7-single-column-width * @colspan) - @double-gutter-width);
 }
 
 //==========================================================
@@ -61,10 +66,16 @@
 .grid {
     .frag-box-sizing(border-box);
     max-width: @frag-max-width;
-    *width: @frag-ie7-width; // IE7
-    padding: 0 @frag-gutter-width;
+    *width: (@frag-ie7-width - (@frag-gutter-width * 2)); // IE7
+    padding-left: @frag-gutter-width;
+    padding-right: @frag-gutter-width;
     overflow: hidden;
     .frag-clearfix();
+
+    .grid {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 // Basic column styling
@@ -77,7 +88,16 @@
 }
 
 // Column clearing
-.col-clear { clear: left; }
+.col-clear {
+    clear: left;
+}
+
+// IE 6+7-specific column clearing
+.ie-clear {
+    display: none;
+    *display: block;
+    *clear: both;
+}
 
 //==========================================================
 // Columns (Base Grid)
@@ -95,13 +115,24 @@
 .col-11 { .frag-colspan(11); }
 .col-12 { .frag-colspan(12); }
 
+// Nested column fix for IE 6+7
+.grid .grid {
+    *width: auto;
+    
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7,
+    .col-8, .col-9, .col-10, .col-11, .col-12 {
+        *width: auto;
+        *float: none;
+    }
+}
+
 //==========================================================
 // Columns (Tablet)
 
 @media (max-width: @frag-break-tablet) {
 
     // Reset unused base columns
-    .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10,
+    .col-5, .col-7, .col-8, .col-9, .col-10,
     .col-11, .col-12 { .frag-colspan(12); }
     .col-clear { clear: none; }
 
