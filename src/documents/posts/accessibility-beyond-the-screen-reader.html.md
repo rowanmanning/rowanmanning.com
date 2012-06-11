@@ -15,21 +15,28 @@ The purpose of this post is to talk about the common misunderstanding that acces
 
 ## Blind Or Part-Sighted Users ##
 
-[...]
+This is the user that our mind immediately jumps to, also the user who we cater for more frequently. These users may rely completely on assistive technology, such as a screen-reader, to access the web. Part-sighted or vision-impaired users may not rely on a screen-reader, but will benefit from larger or easily zoomable type.
+
+[describe some basic techniques here, even just trying to use a screen-reader yourself]
 
 
 ## Colour-Blind Users ##
 
-[...]
+Colour-blind users may find it hard to distinguish between elements on a page if they are similar in colour. This can become a problem when the contrast between two elements is important; for example, between your website's text and background. People with even mild colour-blindness may find it difficult to read content.
+
+[insert notes on tools to help here, note the contrast checker you use]
 
 
 ## Users With Physical Disabilities ##
 
-[...]
+Physical disabilities can encompass anything from minor impairments of motor-skills to paralysis. Motor impairments are common in elderly web users who may rely on a keyboard alone to browse the web – it can be difficuly to operate a mouse which requires small, precise hand movements.
+
+Ensuring that your website is keyboard-accessible is important; it's also quite easy to test! [more here, maybe look at some techniques] 
 
 
 ## Users With Cognitive Disabilities ##
 
-[...]
+Cognitive disabilities get little air-time in my opinion, yet conditions such as dyslexia are extremely common. [make some notes based on the web AIM article we found]
+
 
 [conclusion]
