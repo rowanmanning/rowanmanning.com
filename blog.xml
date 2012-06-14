@@ -4,7 +4,7 @@
     <title>Rowan Manning’s Blog</title>
     <link href="http://rowanmanning.co.uk/blog.xml" rel="self"/>
     <link href="http://rowanmanning.co.uk/"/>
-    <updated>2012-06-09T23:29:46.914Z</updated>
+    <updated>2012-06-14T21:40:03.571Z</updated>
     <id>http://rowanmanning.co.uk/blog.xml</id>
     <author>
         <name>Rowan Manning</name>
@@ -24,19 +24,27 @@
 
 &lt;h2&gt;Blind Or Part-Sighted Users&lt;/h2&gt;
 
-&lt;p&gt;[...]&lt;/p&gt;
+&lt;p&gt;This is the user that our mind tends to jump to when accessibility is mentioned. These users may rely completely on assistive technology, such as a screen-reader, to access the web. Part-sighted or vision-impaired users may not rely on a screen-reader, but will find it difficult to read content if the type is too small or cannot be zoomed.&lt;/p&gt;
+
+&lt;p&gt;There are a wealth of resources available to help make our websites work well for this group. In order to achieve a basic level of support, it helps to ensure that your website is usable in a text-based browser such as Lynx [link?] – writing sensible, semantic markup is a first step. I also can't emphasise what an eye-opener it is to try and use a screen-reader yourself. [cover some more here, or provide links]&lt;/p&gt;
+
+&lt;p&gt;Vision impaired users can be catered for by keeping your type sizes sensible, and ensuring that your content is zoomable. [more info/resources]&lt;/p&gt;
 
 &lt;h2&gt;Colour-Blind Users&lt;/h2&gt;
 
-&lt;p&gt;[...]&lt;/p&gt;
+&lt;p&gt;Colour-blind users may find it hard to distinguish between elements on a page if they are similar in colour. This can become a problem when the contrast between two elements is important; for example, between your website's text and background. People with even mild colour-blindness may find it difficult to read content.&lt;/p&gt;
+
+&lt;p&gt;[insert notes on tools to help here, note the contrast checker you use. also, look into stats here]&lt;/p&gt;
 
 &lt;h2&gt;Users With Physical Disabilities&lt;/h2&gt;
 
-&lt;p&gt;[...]&lt;/p&gt;
+&lt;p&gt;Physical disabilities can encompass anything from minor impairments of motor-skills to paralysis. Motor impairments are common in elderly web users who may rely on a keyboard alone to browse the web – it can be difficuly to operate a mouse which requires small, precise hand movements.&lt;/p&gt;
+
+&lt;p&gt;Ensuring that your website is keyboard-accessible is important; it's also quite easy to test! [more here, maybe look at some techniques] &lt;/p&gt;
 
 &lt;h2&gt;Users With Cognitive Disabilities&lt;/h2&gt;
 
-&lt;p&gt;[...]&lt;/p&gt;
+&lt;p&gt;Cognitive disabilities get little air-time in my opinion, yet conditions such as dyslexia are extremely common. The diversity of this group is huge, and cognitive disabilities can have an adverse affect on memory; problem solving; attention; reading, linguistic and verbal comprehension; math comprehension; and visual comprehension. [make some notes based on the web AIM article we found]&lt;/p&gt;
 
 &lt;p&gt;[conclusion]&lt;/p&gt;</content>
         </entry>
