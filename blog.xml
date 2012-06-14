@@ -4,7 +4,7 @@
     <title>Rowan Manning’s Blog</title>
     <link href="http://rowanmanning.co.uk/blog.xml" rel="self"/>
     <link href="http://rowanmanning.co.uk/"/>
-    <updated>2012-06-14T21:40:03.571Z</updated>
+    <updated>2012-06-14T23:07:01.277Z</updated>
     <id>http://rowanmanning.co.uk/blog.xml</id>
     <author>
         <name>Rowan Manning</name>
@@ -18,35 +18,55 @@
             <id>http://rowanmanning.co.uk/posts/accessibility-beyond-the-screen-reader</id>
             <content type="html">&lt;h1&gt;Accessibility: Beyond The Screen-Reader&lt;/h1&gt;
 
-&lt;p&gt;I'd like to begin this post with a disclaimer: I'm not an accessibility expert. In fact, web accessibility scares me; it's that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!&lt;/p&gt;
+&lt;p&gt;Iʼd like to begin this post with a disclaimer: Iʼm not an accessibility expert. In fact, web accessibility scares me; itʼs that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!&lt;/p&gt;
 
-&lt;p&gt;The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people exclusively. Talking to colleagues and other web professionals got me inspired to explain my understanding of web accessibility; who exactly are we trying to cater for? We'll start with the obvious:&lt;/p&gt;
+&lt;p&gt;The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. Iʼve found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has me inspired to explain &lt;em&gt;my&lt;/em&gt; understanding of web accessibility. Who exactly are we trying to cater for? Weʼll start with the obvious:&lt;/p&gt;
 
 &lt;h2&gt;Blind Or Part-Sighted Users&lt;/h2&gt;
 
-&lt;p&gt;This is the user that our mind tends to jump to when accessibility is mentioned. These users may rely completely on assistive technology, such as a screen-reader, to access the web. Part-sighted or vision-impaired users may not rely on a screen-reader, but will find it difficult to read content if the type is too small or cannot be zoomed.&lt;/p&gt;
+&lt;p&gt;This is the user that we tend to jump to when accessibility is mentioned. These users may rely completely on assistive technology, such as a screen-reader, to access the web. Part-sighted or vision-impaired users may not rely on a screen-reader, but will find it difficult to read content if the type is too small or cannot be zoomed.&lt;/p&gt;
 
-&lt;p&gt;There are a wealth of resources available to help make our websites work well for this group. In order to achieve a basic level of support, it helps to ensure that your website is usable in a text-based browser such as Lynx [link?] – writing sensible, semantic markup is a first step. I also can't emphasise what an eye-opener it is to try and use a screen-reader yourself. [cover some more here, or provide links]&lt;/p&gt;
+&lt;p&gt;There are a wealth of resources available to help make our websites work well for this group. In order to achieve a basic level of support, it helps to ensure that your website is usable in a &lt;a href=&quot;http://lynx.browser.org/&quot; title=&quot;The Lynx Browser&quot;&gt;text-based browser such as Lynx&lt;/a&gt; – writing sensible, semantic markup is a first step. I also canʼt emphasise what an eye-opener it is to &lt;a href=&quot;http://webaim.org/articles/screenreader_testing/&quot; title=&quot;Testing with Screen Readers: Questions and Answers&quot;&gt;try and use a screen-reader yourself&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Vision impaired users can be catered for by keeping your type sizes sensible, and ensuring that your content is zoomable. [more info/resources]&lt;/p&gt;
+&lt;p&gt;Vision impaired users can be catered for by keeping your type sizes sensible (personal preference: &lt;code&gt;&amp;gt;=16px&lt;/code&gt;), and ensuring that your content is zoom-able. Youʼll make this a lot easier by using a scalable font measurement in your CSS such as &lt;code&gt;em&lt;/code&gt; or &lt;code&gt;rem&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h2&gt;Colour-Blind Users&lt;/h2&gt;
 
-&lt;p&gt;Colour-blind users may find it hard to distinguish between elements on a page if they are similar in colour. This can become a problem when the contrast between two elements is important; for example, between your website's text and background. People with even mild colour-blindness may find it difficult to read content.&lt;/p&gt;
+&lt;p&gt;Colour-blind users may find it hard to distinguish between elements on a page if they are similar in colour. This can become a problem when the contrast between two elements is important; for example, between your website text and background. People with even mild colour-blindness may find it difficult to read content.&lt;/p&gt;
 
-&lt;p&gt;[insert notes on tools to help here, note the contrast checker you use. also, look into stats here]&lt;/p&gt;
+&lt;p&gt;When it comes to catering for colour-blind users, subtlety becomes your enemy; there are some great &lt;a href=&quot;http://snook.ca/technical/colour_contrast/colour.html&quot; title=&quot;Colour Contrast Checking Tool&quot;&gt;contrast checking tools online&lt;/a&gt; which can help you immensely.&lt;/p&gt;
 
 &lt;h2&gt;Users With Physical Disabilities&lt;/h2&gt;
 
-&lt;p&gt;Physical disabilities can encompass anything from minor impairments of motor-skills to paralysis. Motor impairments are common in elderly web users who may rely on a keyboard alone to browse the web – it can be difficuly to operate a mouse which requires small, precise hand movements.&lt;/p&gt;
+&lt;p&gt;Physical disabilities can encompass anything from minor impairments of motor-skills to paralysis. Motor impairments are common in elderly web users who may rely on a keyboard alone to browse the web – it can be difficulty to operate a mouse which requires small, precise hand movements.&lt;/p&gt;
 
-&lt;p&gt;Ensuring that your website is keyboard-accessible is important; it's also quite easy to test! [more here, maybe look at some techniques] &lt;/p&gt;
+&lt;p&gt;Ensuring that your website is keyboard-accessible is important, itʼs also quite easy to test: unplug your mouse! There are quite a few resources around the web on this topic, and &lt;a href=&quot;http://www.456bereastreet.com/archive/201104/keyboard_accessibility_again/&quot; title=&quot;Some useful quick-tips on keyboard accessibility&quot;&gt;fixing up your website for keyboard users&lt;/a&gt; is actually relatively easy.&lt;/p&gt;
 
 &lt;h2&gt;Users With Cognitive Disabilities&lt;/h2&gt;
 
-&lt;p&gt;Cognitive disabilities get little air-time in my opinion, yet conditions such as dyslexia are extremely common. The diversity of this group is huge, and cognitive disabilities can have an adverse affect on memory; problem solving; attention; reading, linguistic and verbal comprehension; math comprehension; and visual comprehension. [make some notes based on the web AIM article we found]&lt;/p&gt;
+&lt;p&gt;Cognitive disabilities get little air-time in my opinion, yet conditions such as dyslexia are extremely common. The diversity of this group is huge, and cognitive disabilities can have an adverse effect on memory; problem solving; attention; and reading, linguistic and verbal comprehension to name a few:&lt;/p&gt;
 
-&lt;p&gt;[conclusion]&lt;/p&gt;</content>
+&lt;dl&gt;
+
+    &lt;dt&gt;Memory&lt;dt&gt;
+    &lt;dd&gt;Some users may have difficulties with their long, mid or short-term memories. This can be an issue when moving through a stepped sign-up or purchasing process for example. Clear sign-posting and guidance is essential for these users.&lt;/dd&gt;
+
+    &lt;dt&gt;Problem solving&lt;dt&gt;
+    &lt;dd&gt;For users who have trouble problem-solving, things like form errors or unclear instructions are a nightmare. Instructions should be clear and large changes to the page should be explained to the user.&lt;/dd&gt;
+
+    &lt;dt&gt;Attention&lt;/dt&gt;
+    &lt;dd&gt;Users with conditions such as &lt;abbr title=&quot;Attention Deficit Hyperactivity Disorder&quot;&gt;ADHD&lt;/abbr&gt; can struggle with concentration at the best of times. Avoiding background noise on a page and using visual cues to highlight important content helps these users.&lt;/dd&gt;
+
+    &lt;dt&gt;Reading, linguistic and verbal comprehension&lt;/dt&gt;
+    &lt;dd&gt;This broad category ranges from problems understanding long or complex words and sentence structure, to difficulty processing non-literal text such as sarcasm, metaphor or slang. Clear document structure, supplemental media and uncomplicated writing can help these users a lot.&lt;/dd&gt;
+
+&lt;/dl&gt;
+
+&lt;p&gt;For more information, I can't recommend this &lt;a href=&quot;http://webaim.org/articles/cognitive/&quot; title=&quot;In-depth article on cognitive disabilities and the web&quot;&gt;article on cognitive disabilities&lt;/a&gt; enough. It goes into far more depth than I could on the subject!&lt;/p&gt;
+
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+
+&lt;p style=&quot;color: #f00;&quot;&gt;Todo: write this&lt;/p&gt;</content>
         </entry>
     
 
