@@ -10,7 +10,7 @@ layout: 'post'
 
 Iʼd like to begin this post with a disclaimer: Iʼm not an accessibility expert. In fact, web accessibility scares me; itʼs that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!
 
-The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. Iʼve found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has me inspired to explain *my* understanding of web accessibility; who exactly are we trying to cater for? Weʼll start with the obvious:
+The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. Iʼve found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has me inspired to explain *my* understanding of web accessibility. Who exactly are we trying to cater for? Weʼll start with the obvious:
 
 
 ## Blind Or Part-Sighted Users ##
@@ -33,7 +33,7 @@ When it comes to catering for colour-blind users, subtlety becomes your enemy; t
 
 Physical disabilities can encompass anything from minor impairments of motor-skills to paralysis. Motor impairments are common in elderly web users who may rely on a keyboard alone to browse the web – it can be difficuly to operate a mouse which requires small, precise hand movements.
 
-Ensuring that your website is keyboard-accessible is important; itʼs also quite easy to test! [more here, maybe look at some techniques] 
+Ensuring that your website is keyboard-accessible is important, itʼs also quite easy to test: unplug your mouse! There are quite a few resources around the web on this topic, and [fixing up your website for keyboard users][keyboard-accessibility] is actually relatively easy.
 
 
 ## Users With Cognitive Disabilities ##
@@ -45,6 +45,7 @@ Cognitive disabilities get little air-time in my opinion, yet conditions such as
 
 
 [contrast-checker]: http://snook.ca/technical/colour_contrast/colour.html "Colour Contrast Checking Tool"
+[keyboard-accessibility]: http://www.456bereastreet.com/archive/201104/keyboard_accessibility_again/ "Some useful quick-tips on keyboard accessibility"
 [lynx]: http://lynx.browser.org/ "The Lynx Browser"
 [use-screen-reader]: http://webaim.org/articles/screenreader_testing/ "Testing with Screen Readers: Questions and Answers"
 [webaim-articles]: http://webaim.org/articles/ "Accessibility articles from WebAIM"
