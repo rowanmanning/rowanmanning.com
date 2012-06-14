@@ -38,10 +38,30 @@ Ensuring that your website is keyboard-accessible is important, itʼs also quite
 
 ## Users With Cognitive Disabilities ##
 
-Cognitive disabilities get little air-time in my opinion, yet conditions such as dyslexia are extremely common. The diversity of this group is huge, and cognitive disabilities can have an adverse affect on memory; problem solving; attention; reading, linguistic and verbal comprehension; math comprehension; and visual comprehension. [make some notes based on the web AIM article we found]
+Cognitive disabilities get little air-time in my opinion, yet conditions such as dyslexia are extremely common. The diversity of this group is huge, and cognitive disabilities can have an adverse effect on memory; problem solving; attention; and reading, linguistic and verbal comprehension to name a few:
+
+<dl>
+    
+    <dt>Memory<dt>
+    <dd>Some users may have difficulties with their long, mid or short-term memories. This can be an issue when moving through a stepped sign-up or purchasing process for example. Clear sign-posting and guidance is essential for these users.</dd>
+
+    <dt>Problem solving<dt>
+    <dd>For users who have trouble problem-solving, things like form errors or unclear instructions are a nightmare. Instructions should be clear and large changes to the page should be explained to the user.</dd>
+
+    <dt>Attention</dt>
+    <dd>Users with conditions such as <abbr title="Attention Deficit Hyperactivity Disorder">ADHD</abbr> can struggle with concentration at the best of times. Avoiding background noise on a page and using visual cues to highlight important content helps these users.</dd>
+
+    <dt>Reading, linguistic and verbal comprehension</dt>
+    <dd>This broad category ranges from problems understanding long or complex words and sentence structure, to difficulty processing non-literal text such as sarcasm, metaphor or slang. Clear document structure, supplemental media and uncomplicated writing can help these users a lot.</dd>
+
+</dl>
+
+For more information, I can't recommend this [article on cognitive disabilities][webaim-cognitive] enough. It goes into far more depth than I could on the subject!
 
 
-[conclusion]
+## Conclusion ##
+
+<p style="color: #f00;">Todo: write this</p>
 
 
 [contrast-checker]: http://snook.ca/technical/colour_contrast/colour.html "Colour Contrast Checking Tool"
@@ -49,3 +69,4 @@ Cognitive disabilities get little air-time in my opinion, yet conditions such as
 [lynx]: http://lynx.browser.org/ "The Lynx Browser"
 [use-screen-reader]: http://webaim.org/articles/screenreader_testing/ "Testing with Screen Readers: Questions and Answers"
 [webaim-articles]: http://webaim.org/articles/ "Accessibility articles from WebAIM"
+[webaim-cognitive]: http://webaim.org/articles/cognitive/ "In-depth article on cognitive disabilities and the web"
