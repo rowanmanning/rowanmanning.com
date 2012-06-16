@@ -62,7 +62,7 @@
 
     <div class="grid">
 
-        <div class="col-3 col-tablet-3">
+        <div class="col-3 col-tablet-12 navigation">
             <%- @partial 'navigation.html.eco', {social: @social} %>
         </div>
 
