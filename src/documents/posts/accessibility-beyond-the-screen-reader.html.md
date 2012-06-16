@@ -31,7 +31,7 @@ When it comes to catering for colour-blind users, subtlety becomes your enemy; t
 
 ## Users With Physical Disabilities ##
 
-Physical disabilities can encompass anything from minor impairments of motor-skills to paralysis. Motor impairments are common in elderly web users who may rely on a keyboard alone to browse the web – it can be difficulty to operate a mouse which requires small, precise hand movements.
+Physical disabilities can encompass anything from minor impairments of motor-skills to paralysis. Motor impairments are common in elderly web users who may rely on a keyboard alone to browse the web – it can be difficult to operate a mouse which requires small, precise hand movements.
 
 Ensuring that your website is keyboard-accessible is important, itʼs also quite easy to test: unplug your mouse! There are quite a few resources around the web on this topic, and [fixing up your website for keyboard users][keyboard-accessibility] is actually relatively easy.
 
