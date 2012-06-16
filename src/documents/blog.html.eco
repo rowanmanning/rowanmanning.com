@@ -1,0 +1,18 @@
+---
+title: 'Rowan Manning’s Blog'
+layout: 'default'
+---
+
+<div class="col-5 col-tablet-7">
+
+    <h1>Rowan Manning’s Blog</h1>
+
+    <%- @partial 'blog-listing.html.eco', {posts: @blogPosts('posts')} %>
+
+</div>
+
+<div class="col-4 col-tablet-5">
+
+    <%- @partial 'sidebar/subscribe.html.eco', {feedUrl: @site.atomUrl} %>
+
+</div>

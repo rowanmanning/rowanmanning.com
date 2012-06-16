@@ -1,0 +1,19 @@
+
+<div class="sidebar-section">
+
+    <h3 class="h1">Subscribe</h3>
+
+    <ul class="nav subscribe-nav">
+        <li class="atom">
+            <a href="<%= @feedUrl %>">
+                Get updates via Atom
+            </a>
+        </li>
+        <li class="twitter">
+            <a href="http://twitter.com/<%= @twitterHandle %>">
+                Get updates via Twitter
+            </a>
+        </li>
+    </ul>
+
+</div>

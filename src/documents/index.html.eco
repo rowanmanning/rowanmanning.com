@@ -80,8 +80,8 @@ layout: 'default'
 
 <div class="col-4 col-tablet-5">
 
-    <h2 class="h1">Recent Posts</h2>
+    <%- @partial 'sidebar/blog.html.eco', {posts: @blogPosts('posts', 3), partial: @partial} %>
 
-    <%- @partial 'blog-listing.html.eco', {posts: @blogPosts('posts', 3)} %>
+    <%- @partial 'sidebar/subscribe.html.eco', {feedUrl: @site.atomUrl, twitterHandle: @site.twitterHandle} %>
 
 </div>

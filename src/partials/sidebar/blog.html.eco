@@ -1,0 +1,9 @@
+
+<div class="sidebar-section">
+
+    <h3 class="h1">Recent Posts</h3>
+
+    <%- @partial 'blog-listing.html.eco', {posts: @posts} %>
+    
+</div>
+

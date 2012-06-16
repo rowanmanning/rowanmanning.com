@@ -54,31 +54,34 @@
 @media (max-width: @frag-break-tablet) {
     .navigation {
         margin-bottom: @type-line-height-base;
-    }
-    .logo, .nav {
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-right: @frag-gutter-width;
-        .inline-block();
-        vertical-align: top;
+        
+        .logo, .nav {
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-right: @frag-gutter-width;
+            .inline-block();
+            vertical-align: top;
+        }
     }
 }
 @media (max-width: @frag-break-mobile) {
-    .logo, .nav {
-        display: block;
-        margin-bottom: @type-line-height-base;
-        text-align: center;
-    }
-    .logo {
-        border-left: none;
-
-        .tagline {
-            .inline-block();
-            border-bottom: @logo-border;
+    .navigation {
+        .logo, .nav {
+            display: block;
+            margin-bottom: @type-line-height-base;
+            text-align: center;
         }
-    }
-    .nav li {
-        .inline-block();
+        .logo {
+            border-left: none;
+
+            .tagline {
+                .inline-block();
+                border-bottom: @logo-border;
+            }
+        }
+        .nav li {
+            .inline-block();
+        }
     }
 }
 
@@ -96,5 +99,44 @@
     .dribbble a:hover {
         background-color: #f0cedb;
         border-left-color: #ea4c89;
+    }
+}
+
+// Icons
+.nav {
+    .twitter a:before, .github a:before, .dribbble a:before, .atom a:before {
+        content: "";
+        width: 25px;
+        height: 25px;
+        position: relative;
+        top: 4px;
+        display: inline-block;
+        vertical-align: baseline;
+        background-image: url('assets/nav-icons.png');
+        background-repeat: none;
+    }
+    .twitter a:before {
+        background-position: 0 0;
+    }
+    .twitter a:hover:before {
+        background-position: -25px 0;
+    }
+    .github a:before {
+        background-position: 0 -25px;
+    }
+    .github a:hover:before {
+        background-position: -25px -25px;
+    }
+    .dribbble a:before {
+        background-position: 0 -50px;
+    }
+    .dribbble a:hover:before {
+        background-position: -25px -50px;
+    }
+    .atom a:before {
+        background-position: 0 -75px;
+    }
+    .atom a:hover:before {
+        background-position: -25px -75px;
     }
 }
