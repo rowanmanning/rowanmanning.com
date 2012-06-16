@@ -2,7 +2,7 @@
 layout: 'default'
 ---
 
-<div class="col-9 col-tablet-12">
+<div class="col-5 col-tablet-7">
 
     <%- @content %>
 
@@ -18,5 +18,11 @@ layout: 'default'
     </p>
 
     <p>Enjoy reading this? <a href="https://twitter.com/share?url=<%= encodeURIComponent 'http://' + @site.host + (@document.urls[1] || @document.urls[0]) %>&via=<%= @site.twitterHandle %>&text=<%= encodeURIComponent @document.title %>">Spread the word on Twitter</a> :)</p>
+
+</div>
+
+<div class="col-4 col-tablet-5">
+
+    <%- @partial 'sidebar/subscribe.html.eco', {feedUrl: @site.atomUrl, twitterHandle: @site.twitterHandle} %>
 
 </div>
