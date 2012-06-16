@@ -1,6 +1,30 @@
 // Navigation
 // =========================================================
 
+@logo-border: 4px solid #7db578;
+
+// =========================================================
+
+.logo {
+    display: block;
+    padding: 5px 10px;
+    border-left: @logo-border;
+    text-decoration: none;
+    .h4();
+
+    &, &:visited, &:active {
+        color: @type-color-primary;
+    }
+
+    .title, .tagline {
+        display: block;
+    }
+    .tagline {
+        .type.font-size(@type-size-base + 2);
+        color: @type-color-secondary;
+    }
+}
+
 .nav {
     list-style: none;
     padding-left: 0;
@@ -26,19 +50,84 @@
     }
 }
 
-// Social navigation - extension
-.social-nav {
+// Responsivity
+@media (max-width: @frag-break-tablet) {
+    .navigation {
+        margin-bottom: @type-line-height-base;
+        
+        .logo, .nav {
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-right: @frag-gutter-width;
+            .inline-block();
+            vertical-align: top;
+        }
+    }
+}
+@media (max-width: @frag-break-mobile) {
+    .navigation {
+        .logo, .nav {
+            display: block;
+            margin-bottom: @type-line-height-base;
+            text-align: center;
+        }
+        .logo {
+            border-left: none;
+
+            .tagline {
+                .inline-block();
+                border-bottom: @logo-border;
+            }
+        }
+        .nav li {
+            .inline-block();
+        }
+    }
+}
+
+// Custom styles
+.nav {
     .twitter a:hover {
-        background-color: #c9e2ff;
-        border-left-color: #4099ff;
+        background-color: #cbe4f4;
+        border-left-color: #52ade5;
     }
     .github a:hover {
-        background-color: #666;
-        border-left-color: #333;
-        color: #fff;
+        background-color: #ddd;
+        border-left-color: #444;
     }
     .dribbble a:hover {
-        background-color: #f0cedb;
+        background-color: #f2d1de;
         border-left-color: #ea4c89;
+    }
+    .atom a:hover {
+        background-color: #f4dcc8;
+        border-left-color: #f28d35;
+    }
+}
+
+// Icons
+.nav {
+    .twitter a:before, .github a:before, .dribbble a:before, .atom a:before {
+        content: "";
+        width: 25px;
+        height: 25px;
+        position: relative;
+        top: 4px;
+        display: inline-block;
+        vertical-align: baseline;
+        background-image: url('assets/nav-icons.png');
+        background-repeat: none;
+    }
+    .twitter a:before {
+        background-position: 0 0;
+    }
+    .github a:before {
+        background-position: 0 -25px;
+    }
+    .dribbble a:before {
+        background-position: 0 -50px;
+    }
+    .atom a:before {
+        background-position: 0 -75px;
     }
 }
