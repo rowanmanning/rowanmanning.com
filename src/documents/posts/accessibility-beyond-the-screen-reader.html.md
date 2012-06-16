@@ -19,7 +19,7 @@ This is the user that we tend to jump to when accessibility is mentioned. These 
 
 There are a wealth of resources available to help make our websites work well for this group. In order to achieve a basic level of support, it helps to ensure that your website is usable in a [text-based browser such as Lynx][lynx] – writing sensible, semantic markup is a first step. I also canʼt emphasise what an eye-opener it is to [try and use a screen-reader yourself][use-screen-reader].
 
-Vision impaired users can be catered for by keeping your type sizes sensible (personal preference: `>=16px`), and ensuring that your content is zoom-able. Youʼll make this a lot easier by using a scalable font measurement in your CSS such as `em` or `rem`.
+Vision impaired users can be catered for by keeping your type sizes sensible (personal preference: `>=16px`), and ensuring that your content is zoomable. Youʼll make this a lot easier by using a scalable font measurement in your CSS such as `em` or `rem`.
 
 
 ## Colour-Blind Users ##
@@ -31,7 +31,7 @@ When it comes to catering for colour-blind users, subtlety becomes your enemy; t
 
 ## Users With Physical Disabilities ##
 
-Physical disabilities can encompass anything from minor impairments of motor-skills to paralysis. Motor impairments are common in elderly web users who may rely on a keyboard alone to browse the web – it can be difficult to operate a mouse which requires small, precise hand movements.
+Physical disabilities can encompass anything from minor impairments of motor-skills to paralysis. Motor impairments are common in elderly web users who may rely on a keyboard alone to browse the web – using a mouse requires small, precise hand movements.
 
 Ensuring that your website is keyboard-accessible is important, itʼs also quite easy to test: unplug your mouse! There are quite a few resources around the web on this topic, and [fixing up your website for keyboard users][keyboard-accessibility] is actually relatively easy.
 
