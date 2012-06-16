@@ -66,9 +66,11 @@
 }
 @media (max-width: @frag-break-mobile) {
     .navigation {
+        margin-bottom: 0;
+
         .logo, .nav {
             display: block;
-            margin-bottom: @type-line-height-base;
+            margin-bottom: 15px;
             text-align: center;
         }
         .logo {
@@ -76,11 +78,21 @@
 
             .tagline {
                 .inline-block();
+                padding-bottom: 10px;
                 border-bottom: @logo-border;
             }
         }
         .nav li {
             .inline-block();
+            .type.font-size(@type-size-base);
+
+            a {
+                border-left: none;
+            }
+        }
+        .social-nav a {
+            padding-left: 5px;
+            padding-right: 5px;
         }
     }
 }
