@@ -4,7 +4,7 @@
     <title>Rowan Manning's Blog</title>
     <link href="http://rowanmanning.co.uk/blog.xml" rel="self"/>
     <link href="http://rowanmanning.co.uk/"/>
-    <updated>2012-06-18T22:01:07.634Z</updated>
+    <updated>2012-06-18T22:14:23.683Z</updated>
     <id>http://rowanmanning.co.uk/blog.xml</id>
     <author>
         <name>Rowan Manning</name>
@@ -19,7 +19,7 @@
             <id>http://rowanmanning.co.uk/posts/accessibility-beyond-the-screen-reader</id>
             <content type="html">&lt;p&gt;I'd like to begin this post with a disclaimer: I'm not an accessibility expert. In fact, web accessibility scares me; it's that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!&lt;/p&gt;
 
-&lt;p&gt;The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. I've found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has me inspired to explain &lt;em&gt;my&lt;/em&gt; understanding of web accessibility. Who exactly are we trying to cater for? We'll start with the obvious:&lt;/p&gt;
+&lt;p&gt;The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. I've found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has inspired me to explain &lt;em&gt;my&lt;/em&gt; understanding of web accessibility. Who exactly are we trying to cater for? We'll start with the obvious:&lt;/p&gt;
 
 &lt;h2&gt;Blind Or Part-Sighted Users&lt;/h2&gt;
 
@@ -65,7 +65,7 @@
 
 &lt;h2&gt;Further Reading&lt;/h2&gt;
 
-&lt;p&gt;I've tried covered the basics here but if you're interested in reading more about accessibility, I've listed a couple of resources which I've found useful in the past:&lt;/p&gt;
+&lt;p&gt;I've tried to cover the basics here but if you're interested in reading more about accessibility, I've listed a couple of resources which I've found useful in the past:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://webaim.org/articles/&quot; title=&quot;Accessibility articles from WebAIM&quot;&gt;Excellent articles from WebAIM&lt;/a&gt;&lt;/li&gt;
