@@ -57,12 +57,20 @@ Cognitive disabilities get little air-time in my opinion, yet conditions such as
 For more information, I can't recommend this [article on cognitive disabilities][webaim-cognitive] enough. It goes into far more depth than I could on the subject!
 
 
-## Conclusion ##
+## Further Reading ##
 
-<p style="color: #f00;">Todo: write this</p>
+I've tried covered the basics here but if you're interested in reading more about accessibility, I've listed a couple of resources which I've found useful in the past:
+
+ * [Excellent articles from WebAIM][webaim-articles]
+ * [The BBC's web accessibility guides][bbc-guides]
+ * [Designing with Progressive Enhancement][dwpe] by Filament Group [book]
+
+If you can think of any resources I've missed here, let me know! Thanks for reading :)
 
 
+[bbc-guides]: http://www.bbc.co.uk/accessibility/guides/ "BBC accessibility guides"
 [contrast-checker]: http://snook.ca/technical/colour_contrast/colour.html "Colour Contrast Checking Tool"
+[dwpe]: http://filamentgroup.com/dwpe/ "Designing with Progressive Enhancement"
 [keyboard-accessibility]: http://www.456bereastreet.com/archive/201104/keyboard_accessibility_again/ "Some useful quick-tips on keyboard accessibility"
 [lynx]: http://lynx.browser.org/ "The Lynx Browser"
 [use-screen-reader]: http://webaim.org/articles/screenreader_testing/ "Testing with Screen Readers: Questions and Answers"
