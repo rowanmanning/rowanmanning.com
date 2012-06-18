@@ -3,21 +3,28 @@ title: Rowan Manning's Blog
 layout: 'default'
 ---
 
-<div class="col-6 col-tablet-7">
+<div class="col-6 col-tablet-7" itemscope itemtype="http://schema.org/Blog">
 
-    <h1>Rowan's Blog</h1>
+    <h1 itemprop="name">Rowan's Blog</h1>
+    <meta itemprop="url" content="http://<%= @site.host + @document.urls[1] %>"/>
+
+    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="<%= @site.author.name %>"/>
+        <meta itemprop="url" content="<%= @site.author.url %>"/>
+    </div>
 
     <% if @blogPosts('posts').length > 0: %>
         <ul class="posts">
             <% for post in @blogPosts('posts'): %>
-                <li>
+                <li itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
                     <a href="<%= post.urls[1] %>">
-                        <h3><%= post.title %></h3>
+                        <meta itemprop="url" content="http://<%= @site.host + post.urls[1] %>"/>
+                        <h3 itemprop="name"><%= post.title %></h3>
                         <p class="meta">
-                            Posted <time datetime="<%= post.moment.format() %>"><%= post.moment.format 'Do MMMM, YYYY' %></time>
+                            Posted <time itemprop="dateCreated" datetime="<%= post.moment.format() %>"><%= post.moment.format 'Do MMMM, YYYY' %></time>
                         </p>
                         <% if post.description: %>
-                            <p class="description"><%= post.description %></p>
+                            <p class="description" itemprop="description"><%= post.description %></p>
                         <% end %>
                     </a>
                 </li>
