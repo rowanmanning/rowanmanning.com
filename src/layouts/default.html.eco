@@ -21,6 +21,7 @@
     <link rel="alternate" type="application/atom+xml" href="<%= @site.atomUrlXml %>" title="Rowan Manning's Blog"/>
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap"/>
     <link rel="canonical" href="http://<%= @site.host + (@document.urls[1] || @document.urls[0]) %>"/>
+    <link rel="author" href="<%= @site.author.url %>"/>
 
     <!--
     This is the compiled and minified CSS, if you're interested

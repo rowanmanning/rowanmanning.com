@@ -7,7 +7,8 @@
     <updated><%= @site.date.toISOString() %></updated>
     <id>http://<%= @site.host + @document.url %></id>
     <author>
-        <name><%= @site.author %></name>
+        <name><%= @site.author.name %></name>
+        <uri><%= @site.author.url %></uri>
     </author>
 
     <% for post in @blogPosts('posts'): %>

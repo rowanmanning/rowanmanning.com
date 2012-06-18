@@ -2,7 +2,9 @@
     templateData:
         site:
             host: 'rowanmanning.co.uk'
-            author: "Rowan Manning"
+            author:
+                name: "Rowan Manning"
+                url: 'http://rowanmanning.co.uk/'
             language: 'en-GB'
             description: 'The personal website of Rowan Manning'
             googleAnalyticsAccount: 'UA-5860182-1'
