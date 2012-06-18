@@ -4,7 +4,7 @@
     <title>Rowan Manning's Blog</title>
     <link href="http://rowanmanning.co.uk/blog.xml" rel="self"/>
     <link href="http://rowanmanning.co.uk/"/>
-    <updated>2012-06-18T20:48:27.197Z</updated>
+    <updated>2012-06-18T21:01:45.060Z</updated>
     <id>http://rowanmanning.co.uk/blog.xml</id>
     <author>
         <name>Rowan Manning</name>
@@ -17,9 +17,7 @@
             <link href="http://rowanmanning.co.uk/posts/accessibility-beyond-the-screen-reader"/>
             <updated>2012-06-06T22:05:00.000Z</updated>
             <id>http://rowanmanning.co.uk/posts/accessibility-beyond-the-screen-reader</id>
-            <content type="html">&lt;h1&gt;Accessibility: Beyond The Screen-Reader&lt;/h1&gt;
-
-&lt;p&gt;I'd like to begin this post with a disclaimer: I'm not an accessibility expert. In fact, web accessibility scares me; it's that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!&lt;/p&gt;
+            <content type="html">&lt;p&gt;I'd like to begin this post with a disclaimer: I'm not an accessibility expert. In fact, web accessibility scares me; it's that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!&lt;/p&gt;
 
 &lt;p&gt;The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. I've found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has me inspired to explain &lt;em&gt;my&lt;/em&gt; understanding of web accessibility. Who exactly are we trying to cater for? We'll start with the obvious:&lt;/p&gt;
 
