@@ -11,7 +11,7 @@
         <uri><%= @site.author.url %></uri>
     </author>
 
-    <% for post in @blogPosts('posts'): %>
+    <% for post in @blogPosts('posts', 20): %>
         <entry>
             <title><%= post.title %></title>
             <link href="http://<%= @site.host + post.urls[1] %>"/>
