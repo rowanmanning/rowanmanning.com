@@ -8,7 +8,7 @@ layout: 'post'
 
 I'd like to begin this post with a disclaimer: I'm not an accessibility expert. In fact, web accessibility scares me; it's that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!
 
-The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. I've found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has me inspired to explain *my* understanding of web accessibility. Who exactly are we trying to cater for? We'll start with the obvious:
+The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. I've found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has inspired me to explain *my* understanding of web accessibility. Who exactly are we trying to cater for? We'll start with the obvious:
 
 
 ## Blind Or Part-Sighted Users ##
@@ -59,7 +59,7 @@ For more information, I can't recommend this [article on cognitive disabilities]
 
 ## Further Reading ##
 
-I've tried covered the basics here but if you're interested in reading more about accessibility, I've listed a couple of resources which I've found useful in the past:
+I've tried to cover the basics here but if you're interested in reading more about accessibility, I've listed a couple of resources which I've found useful in the past:
 
  * [Excellent articles from WebAIM][webaim-articles]
  * [The BBC's web accessibility guides][bbc-guides]
