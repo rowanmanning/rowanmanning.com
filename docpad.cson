@@ -9,6 +9,7 @@
             twitterHandle: 'rowanmanning'
             email: 'info@rowanmanning.co.uk'
             atomUrl: 'http://rowanmanning.co.uk/blog.xml'
+            atomUrlXml: 'http://rowanmanning.co.uk/blog.xml'
         social: [
             {
                 type: 'twitter'
