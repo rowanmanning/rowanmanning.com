@@ -19,6 +19,7 @@
     <link rel="alternate" type="application/atom+xml" href="http://rowanmanning.co.uk/blog.xml" title="Rowan Manning's Blog"/>
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap"/>
     <link rel="canonical" href="http://rowanmanning.co.uk/blog"/>
+    <link rel="author" href="http://rowanmanning.co.uk/"/>
 
     <!--
     This is the compiled and minified CSS, if you're interested
@@ -125,28 +126,34 @@
 
         </div>
 
-        <div class="col-6 col-tablet-7">
+        <div class="col-6 col-tablet-7" itemscope itemtype="http://schema.org/Blog">
 
-    <h1>Rowan's Blog</h1>
+    <h1 itemprop="name">Rowan's Blog</h1>
+    <meta itemprop="url" content="http://rowanmanning.co.uk/blog"/>
+
+    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="Rowan Manning"/>
+        <meta itemprop="url" content="http://rowanmanning.co.uk/"/>
+    </div>
 
     
-    <ul class="posts">
-        
-            <li>
-                <a href="/posts/accessibility-beyond-the-screen-reader">
-                    <h3>Accessibility: Beyond The Screen-Reader</h3>
-                    <p class="meta">
-                        Posted <time datetime="2012-06-06T23:05:00+01:00">6th June, 2012</time>
-                    </p>
-                    
-                        <p class="description">Web accessibility isn't just about catering for blind users. In this post, we talk about the other users we need to consider in order to make the web accessible to all.</p>
-                    
-                </a>
-            </li>
-        
-    </ul>
-
-
+        <ul class="posts">
+            
+                <li itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+                    <a href="/posts/accessibility-beyond-the-screen-reader">
+                        <meta itemprop="url" content="http://rowanmanning.co.uk/posts/accessibility-beyond-the-screen-reader"/>
+                        <h3 itemprop="name">Accessibility: Beyond The Screen-Reader</h3>
+                        <p class="meta">
+                            Posted <time itemprop="dateCreated" datetime="2012-06-06T23:05:00+01:00">6th June, 2012</time>
+                        </p>
+                        
+                            <p class="description" itemprop="description">Web accessibility isn't just about catering for blind users. In this post, we talk about the other users we need to consider in order to make the web accessible to all.</p>
+                        
+                    </a>
+                </li>
+            
+        </ul>
+    
 
 </div>
 
@@ -182,6 +189,7 @@
     -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="/script/main.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 </body>
 </html>
