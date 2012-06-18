@@ -1,0 +1,27 @@
+---
+title: '404 Page Not Found'
+layout: 'default'
+---
+
+<div class="col-6 col-tablet-7">
+
+    <h1>Erm&hellip; We couldn't find the page you're looking for&hellip;</h1>
+
+    <figure>
+        <img src="/media/images/404.jpg" alt="Cat Eating a Newspaper"/>
+        <figcaption><small class="secondary">Image credit: <a href="http://www.flickr.com/photos/didbygraham/3892360861">Graham Richardson</a></small></figcaption>
+    </figure>
+
+    <ul>
+        <li>If you found this page by clicking on a link, please contact the site that linked here to sort things out</li>
+        <li>If you typed in the URL manually, check your spelling</li>
+        <li>As a last resort, if you think there's something wrong with this website, then please contact me to let me know: <a href="mailto:<%= @site.email %>?subject=404"><%= @site.email %></a></li>
+    </ul>
+
+</div>
+
+<div class="col-4 col-tablet-5">
+
+    <%- @partial 'sidebar/blog.html.eco', {posts: @blogPosts('posts', 3), partial: @partial} %>
+
+</div>
