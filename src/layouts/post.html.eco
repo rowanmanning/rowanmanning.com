@@ -17,7 +17,10 @@ layout: 'default'
         <a href="mailto:<%= @site.email %>?subject=<%= encodeURIComponent @document.title %>">email me about this post</a>.
     </p>
 
-    <p>Enjoy reading this? <a href="https://twitter.com/share?url=<%= encodeURIComponent 'http://' + @site.host + (@document.urls[1] || @document.urls[0]) %>&via=<%= @site.twitterHandle %>&text=<%= encodeURIComponent @document.title %>">Spread the word on Twitter</a> :)</p>
+    <p>
+        <a class="twitter-share-button" href="https://twitter.com/share?url=<%= encodeURIComponent 'http://' + @site.host + (@document.urls[1] || @document.urls[0]) %>&via=<%= @site.twitterHandle %>&text=<%= encodeURIComponent @document.title %>" data-count="none">Spread the word on Twitter</a>
+        <a class="twitter-follow-button" href="http://twitter.com/<%= @site.twitterHandle %>" data-show-count="false">Follow me</a>
+    </p>
 
 </div>
 
