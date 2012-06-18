@@ -6,8 +6,6 @@ layout: 'post'
 ---
 
 
-# Accessibility: Beyond The Screen-Reader #
-
 I'd like to begin this post with a disclaimer: I'm not an accessibility expert. In fact, web accessibility scares me; it's that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!
 
 The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. I've found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has me inspired to explain *my* understanding of web accessibility. Who exactly are we trying to cater for? We'll start with the obvious:

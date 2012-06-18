@@ -4,28 +4,35 @@
 .posts {
     list-style: none;
     padding-left: 0;
+}
 
-    li {
-        max-width: 640px;
-        .type.margin(@type-line-height-base, @type-line-height-base);
+.post {
+    h1, h3 {
+        margin-bottom: 0;
+    }
+}
 
-        a {
-            display: block;
-            padding: 5px 10px;
-            border-left: 4px solid #eee;
-            text-decoration: none;
-            color: @type-color-primary;
-            .transition(all .25s);
+li.post {
+    max-width: 640px;
+    .type.margin(@type-line-height-base, @type-line-height-base);
 
-            &:hover {
-                border-left-color: #7db578;
-            }
+    a {
+        display: block;
+        padding: 5px 10px;
+        border-left: 4px solid #eee;
+        text-decoration: none;
+        color: @type-color-primary;
+        .transition(all .25s);
 
-            .meta {
-                .type.margin-bottom(5px);
-                .type.font-size(@type-size-base - 4);
-                color: @type-color-secondary;
-            }
+        &:hover {
+            border-left-color: #7db578;
         }
     }
+}
+
+.meta {
+    margin-top: 0;
+    .type.margin-bottom(5px);
+    .type.font-size(@type-size-base - 2);
+    color: @type-color-secondary;
 }

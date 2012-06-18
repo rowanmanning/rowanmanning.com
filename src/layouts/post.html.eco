@@ -2,7 +2,14 @@
 layout: 'default'
 ---
 
-<div class="col-6 col-tablet-7">
+<div class="col-6 col-tablet-7 post">
+
+    <h1><%= @document.title %></h1>
+
+    <div class="meta">
+        Posted <time itemprop="dateCreated" datetime="<%= @document.moment.format() %>"><%= @document.moment.format 'Do MMMM, YYYY' %></time>
+        by <%= @document.author || @site.author.name %>
+    </div>
 
     <%- @content %>
 

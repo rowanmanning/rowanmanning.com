@@ -6,12 +6,12 @@
     <% if @posts.length > 0: %>
         <ul class="posts">
             <% for post in @posts: %>
-                <li>
+                <li class="post">
                     <a href="<%= post.urls[1] %>">
                         <h3><%= post.title %></h3>
-                        <p class="meta">
+                        <div class="meta">
                             Posted <time datetime="<%= post.moment.format() %>"><%= post.moment.format 'Do MMMM, YYYY' %></time>
-                        </p>
+                        </div>
                         <% if post.description: %>
                             <p class="description"><%= post.description %></p>
                         <% end %>
