@@ -8,10 +8,10 @@ layout: 'default'
     <meta itemprop="url" content="http://<%= @site.host + @document.urls[1] %>"/>
     <meta content="Male" itemprop="gender">
 
-    <h1>Hi there, I’m Rowan</h1>
+    <h1>Hi there, I'm Rowan</h1>
 
     <p itemprop="description">
-        I’m <span itemprop="name">Rowan Manning</span>,
+        I'm <span itemprop="name">Rowan Manning</span>,
         a <time datetime="1988-01-26" itemprop="birthDate">24 year old</time>
         <span itemprop="jobTitle">Web Geek</span> from
         <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
@@ -49,7 +49,7 @@ layout: 'default'
         <li>Cats make me happy</li>
         <li>Reading (novels, comics, blogs) absorbs a load of my time</li>
         <li>I love films that make me think</li>
-        <li>I love music (mostly rock, or stuff that’s older than I am)</li>
+        <li>I love music (mostly rock, or stuff that's older than I am)</li>
         <li><a href="http://www.minecraft.net/">Minecraft</a> is a terrible, terrible affliction of mine</li>
     </ul>
 

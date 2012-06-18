@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-    <title>Rowan Manning’s Blog</title>
+    <title>Rowan Manning's Blog</title>
     <link href="http://<%= @site.host + @document.url %>" rel="self"/>
     <link href="http://<%= @site.host %>/"/>
     <updated><%= @site.date.toISOString() %></updated>
