@@ -6,7 +6,7 @@
     <ul class="nav subscribe-nav">
         <li class="atom">
             <a href="<%= @feedUrl %>">
-                <span class="col-mobile-hide">Updates via</span> Atom/RSS
+                <span class="col-mobile-hide">Updates via</span> Feed
             </a>
         </li>
         <li class="twitter">
