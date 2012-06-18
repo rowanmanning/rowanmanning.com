@@ -5,7 +5,7 @@ layout: 'default'
 
 <div class="col-5 col-tablet-7">
 
-    <h1>Rowan Manning’s Blog</h1>
+    <h1>Rowan’s Blog</h1>
 
     <%- @partial 'blog-listing.html.eco', {posts: @blogPosts('posts')} %>
 
