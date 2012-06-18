@@ -4,7 +4,7 @@
     <title>Rowan Manning's Blog</title>
     <link href="http://rowanmanning.co.uk/blog.xml" rel="self"/>
     <link href="http://rowanmanning.co.uk/"/>
-    <updated>2012-06-18T21:01:45.060Z</updated>
+    <updated>2012-06-18T21:58:01.170Z</updated>
     <id>http://rowanmanning.co.uk/blog.xml</id>
     <author>
         <name>Rowan Manning</name>
@@ -63,9 +63,17 @@
 
 &lt;p&gt;For more information, I can't recommend this &lt;a href=&quot;http://webaim.org/articles/cognitive/&quot; title=&quot;In-depth article on cognitive disabilities and the web&quot;&gt;article on cognitive disabilities&lt;/a&gt; enough. It goes into far more depth than I could on the subject!&lt;/p&gt;
 
-&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;h2&gt;Further Reading&lt;/h2&gt;
 
-&lt;p style=&quot;color: #f00;&quot;&gt;Todo: write this&lt;/p&gt;</content>
+&lt;p&gt;I've tried covered the basics here but if you're interested in reading more about accessibility, I've listed a couple of resources which I've found useful in the past:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://webaim.org/articles/&quot; title=&quot;Accessibility articles from WebAIM&quot;&gt;Excellent articles from WebAIM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.bbc.co.uk/accessibility/guides/&quot; title=&quot;BBC accessibility guides&quot;&gt;The BBC's web accessibility guides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://filamentgroup.com/dwpe/&quot; title=&quot;Designing with Progressive Enhancement&quot;&gt;Designing with Progressive Enhancement&lt;/a&gt; by Filament Group [book]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you can think of any resources I've missed here, let me know! Thanks for reading :)&lt;/p&gt;</content>
         </entry>
     
 
