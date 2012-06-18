@@ -6,6 +6,7 @@ layout: 'default'
 <div class="col-6 col-tablet-7" itemscope itemtype="http://schema.org/Person">
     
     <meta itemprop="url" content="http://<%= @site.host + @document.urls[1] %>"/>
+    <meta itemprop="email" content="<%= @site.email %>"/>
     <meta content="Male" itemprop="gender">
 
     <h1>Hi there, I'm Rowan</h1>
@@ -75,6 +76,10 @@ layout: 'default'
             <link rel="me" href="<%= item.url %>"/>
         <% end %>
     <% end %>
+
+    <p>
+        Do you want to chat about something? Feel free to get in touch via any of the networks above, or <a href="mailto:<%= @site.email %>?subject=Hi Rowan">email me</a> if you prefer.
+    </p>
 
 </div>
 
