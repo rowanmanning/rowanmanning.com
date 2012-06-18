@@ -1,6 +1,12 @@
 // CSS3 Utility
 // =========================================================
 
+.border-radius (@radius) {
+    -webkit-border-radius: @radius; // Safari 3-4
+       -moz-border-radius: @radius; // Firefox 1-3.6
+            border-radius: @radius; // W3C standard
+}
+
 .box-sizing (@box-sizing) {
     -webkit-box-sizing: @box-sizing; // safari 3.1–5.0
        -moz-box-sizing: @box-sizing; // firefox 2+

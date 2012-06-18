@@ -88,7 +88,7 @@ hr{height:0;border:none;border-top:5px solid #eee;color:#ccc;}
 .anchor-right{float:right;margin-left:26px;}
 .anchor-left figure,.anchor-right figure{margin-top:0;margin-bottom:0;}
 .anchor-right figcaption{text-align:right;}
-img{max-width:100%;display:block;}
+img{max-width:100%;display:block;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;}
 figure img{margin-bottom:10px;margin-bottom:1rem;}
 blockquote{margin-left:0;margin-right:0;padding:0 0 0 16px;border-left:5px solid #cccccc;}blockquote.anchor-right{padding:0 16px 0 0;border-left:none;border-right:5px solid #cccccc;text-align:right;}
 blockquote p{margin-top:0;margin-bottom:0;}
