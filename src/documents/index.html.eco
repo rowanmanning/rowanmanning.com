@@ -3,7 +3,7 @@ title: 'Rowan Manning, Web Geek'
 layout: 'default'
 ---
 
-<div class="col-5 col-tablet-7" itemscope itemtype="http://schema.org/Person">
+<div class="col-6 col-tablet-7" itemscope itemtype="http://schema.org/Person">
     
     <meta itemprop="url" content="http://<%= @site.host + @document.urls[1] %>"/>
     <meta content="Male" itemprop="gender">
