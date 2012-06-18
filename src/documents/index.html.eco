@@ -11,6 +11,12 @@ layout: 'default'
 
     <h1>Hi there, I'm Rowan</h1>
 
+    <div class="anchor-left">
+        <a itemprop="image" href="/media/images/Rowan.jpg" title="This is me">
+            <img src="/media/images/Rowan.thumb.jpg" alt="Rowan Manning"/>
+        </a>
+    </div>
+
     <p itemprop="description">
         I'm <span itemprop="name">Rowan Manning</span>,
         a <time datetime="1988-01-26" itemprop="birthDate">24 year old</time>
