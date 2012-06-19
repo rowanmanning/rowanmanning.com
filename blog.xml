@@ -4,7 +4,7 @@
     <title>Rowan Manning's Blog</title>
     <link href="http://rowanmanning.co.uk/blog.xml" rel="self"/>
     <link href="http://rowanmanning.co.uk/"/>
-    <updated>2012-06-18T23:01:49.393Z</updated>
+    <updated>2012-06-19T20:14:20.287Z</updated>
     <id>http://rowanmanning.co.uk/blog.xml</id>
     <author>
         <name>Rowan Manning</name>
@@ -15,15 +15,15 @@
         <entry>
             <title>Accessibility: Beyond The Screen-Reader</title>
             <link href="http://rowanmanning.co.uk/posts/accessibility-beyond-the-screen-reader"/>
-            <updated>2012-06-18T22:00:00.000Z</updated>
+            <updated>2012-06-19T20:05:00.000Z</updated>
             <id>http://rowanmanning.co.uk/posts/accessibility-beyond-the-screen-reader</id>
             <content type="html">&lt;p&gt;I'd like to begin this post with a disclaimer: I'm not an accessibility expert. In fact, web accessibility scares me; it's that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!&lt;/p&gt;
 
 &lt;p&gt;The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. I've found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has inspired me to explain &lt;em&gt;my&lt;/em&gt; understanding of web accessibility. Who exactly are we trying to cater for? We'll start with the obvious:&lt;/p&gt;
 
-&lt;h2&gt;Blind Or Part-Sighted Users&lt;/h2&gt;
+&lt;h2&gt;Blind Or Partially Sighted Users&lt;/h2&gt;
 
-&lt;p&gt;This is the user that we tend to jump to when accessibility is mentioned. These users may rely completely on assistive technology, such as a screen-reader, to access the web. Part-sighted or vision-impaired users may not rely on a screen-reader, but will find it difficult to read content if the type is too small or cannot be zoomed.&lt;/p&gt;
+&lt;p&gt;This is the user that we tend to jump to when accessibility is mentioned. These users may rely completely on assistive technology, such as a screen-reader, to access the web. Partially sighted or vision-impaired users may not rely on a screen-reader, but will find it difficult to read content if the type is too small or cannot be zoomed.&lt;/p&gt;
 
 &lt;p&gt;There are a wealth of resources available to help make our websites work well for this group. In order to achieve a basic level of support, it helps to ensure that your website is usable in a &lt;a href=&quot;http://lynx.browser.org/&quot; title=&quot;The Lynx Browser&quot;&gt;text-based browser such as Lynx&lt;/a&gt; – writing sensible, semantic markup is a first step. I also can't emphasise what an eye-opener it is to &lt;a href=&quot;http://webaim.org/articles/screenreader_testing/&quot; title=&quot;Testing with Screen Readers: Questions and Answers&quot;&gt;try and use a screen-reader yourself&lt;/a&gt;.&lt;/p&gt;
 
@@ -63,17 +63,13 @@
 
 &lt;p&gt;For more information, I can't recommend this &lt;a href=&quot;http://webaim.org/articles/cognitive/&quot; title=&quot;In-depth article on cognitive disabilities and the web&quot;&gt;article on cognitive disabilities&lt;/a&gt; enough. It goes into far more depth than I could on the subject!&lt;/p&gt;
 
-&lt;h2&gt;Further Reading&lt;/h2&gt;
+&lt;h2&gt;To Conclude&lt;/h2&gt;
 
-&lt;p&gt;I've tried to cover the basics here but if you're interested in reading more about accessibility, I've listed a couple of resources which I've found useful in the past:&lt;/p&gt;
+&lt;p&gt;So I hope I haven't made accessibility an even scarier word for you! Granted there's a lot to consider, and accessibility can seem like a bit of a minefield, but building accessible websites can be an extremely rewarding endeavour.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://webaim.org/articles/&quot; title=&quot;Accessibility articles from WebAIM&quot;&gt;Excellent articles from WebAIM&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://www.bbc.co.uk/accessibility/guides/&quot; title=&quot;BBC accessibility guides&quot;&gt;The BBC's web accessibility guides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://filamentgroup.com/dwpe/&quot; title=&quot;Designing with Progressive Enhancement&quot;&gt;Designing with Progressive Enhancement&lt;/a&gt; by Filament Group [book]&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;By thinking about these users while you build, not only will you help people with disabilities, but many of the relatively small improvements listed in this post will make your site more usable for &lt;em&gt;everyone&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;If you can think of any resources I've missed here, let me know! Thanks for reading :)&lt;/p&gt;</content>
+&lt;p&gt;Thanks for reading,&lt;br /&gt;Rowan&lt;/p&gt;</content>
         </entry>
     
 
