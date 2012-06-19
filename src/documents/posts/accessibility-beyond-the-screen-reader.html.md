@@ -3,6 +3,13 @@ title: 'Accessibility: Beyond The Screen-Reader'
 date: '2012-06-18 23:00'
 description: Web accessibility isn't just about catering for blind users. In this post, we talk about the other users we need to consider in order to make the web accessible to all.
 layout: 'post'
+reading:
+  - label: Accessibility articles from WebAIM
+  url: http://webaim.org/articles/
+  - label: The BBC's web accessibility guides
+  url: http://www.bbc.co.uk/accessibility/guides/
+  - label: 'Designing with Progressive Enhancement by Filament Group [book]'
+  url: http://filamentgroup.com/dwpe/
 ---
 
 
@@ -11,9 +18,9 @@ I'd like to begin this post with a disclaimer: I'm not an accessibility expert. 
 The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. I've found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has inspired me to explain *my* understanding of web accessibility. Who exactly are we trying to cater for? We'll start with the obvious:
 
 
-## Blind Or Part-Sighted Users ##
+## Blind Or Partially Sighted Users ##
 
-This is the user that we tend to jump to when accessibility is mentioned. These users may rely completely on assistive technology, such as a screen-reader, to access the web. Part-sighted or vision-impaired users may not rely on a screen-reader, but will find it difficult to read content if the type is too small or cannot be zoomed.
+This is the user that we tend to jump to when accessibility is mentioned. These users may rely completely on assistive technology, such as a screen-reader, to access the web. Partially sighted or vision-impaired users may not rely on a screen-reader, but will find it difficult to read content if the type is too small or cannot be zoomed.
 
 There are a wealth of resources available to help make our websites work well for this group. In order to achieve a basic level of support, it helps to ensure that your website is usable in a [text-based browser such as Lynx][lynx] – writing sensible, semantic markup is a first step. I also can't emphasise what an eye-opener it is to [try and use a screen-reader yourself][use-screen-reader].
 
@@ -57,22 +64,14 @@ Cognitive disabilities get little air-time in my opinion, yet conditions such as
 For more information, I can't recommend this [article on cognitive disabilities][webaim-cognitive] enough. It goes into far more depth than I could on the subject!
 
 
-## Further Reading ##
+## To Conclude ##
 
-I've tried to cover the basics here but if you're interested in reading more about accessibility, I've listed a couple of resources which I've found useful in the past:
-
- * [Excellent articles from WebAIM][webaim-articles]
- * [The BBC's web accessibility guides][bbc-guides]
- * [Designing with Progressive Enhancement][dwpe] by Filament Group [book]
-
-If you can think of any resources I've missed here, let me know! Thanks for reading :)
+So I hope I haven't made accessibility an even scarier word for you! Granted there's a lot to consider, but building your site with all of these in mind won't just help the users we've mentioned – some of this is common sense and will make your site more usable for *everyone*.
 
 
-[bbc-guides]: http://www.bbc.co.uk/accessibility/guides/ "BBC accessibility guides"
+
 [contrast-checker]: http://snook.ca/technical/colour_contrast/colour.html "Colour Contrast Checking Tool"
-[dwpe]: http://filamentgroup.com/dwpe/ "Designing with Progressive Enhancement"
 [keyboard-accessibility]: http://www.456bereastreet.com/archive/201104/keyboard_accessibility_again/ "Some useful quick-tips on keyboard accessibility"
 [lynx]: http://lynx.browser.org/ "The Lynx Browser"
 [use-screen-reader]: http://webaim.org/articles/screenreader_testing/ "Testing with Screen Readers: Questions and Answers"
-[webaim-articles]: http://webaim.org/articles/ "Accessibility articles from WebAIM"
 [webaim-cognitive]: http://webaim.org/articles/cognitive/ "In-depth article on cognitive disabilities and the web"

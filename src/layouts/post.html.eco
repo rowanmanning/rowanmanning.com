@@ -35,4 +35,6 @@ layout: 'default'
 
     <%- @partial 'sidebar/subscribe.html.eco', {feedUrl: @site.atomUrl, twitterHandle: @site.twitterHandle} %>
 
+    <%- @partial 'sidebar/further-reading.html.eco', {list: @document.reading} %>
+
 </div>
