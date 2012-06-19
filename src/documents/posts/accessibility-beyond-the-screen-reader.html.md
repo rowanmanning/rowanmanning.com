@@ -66,8 +66,12 @@ For more information, I can't recommend this [article on cognitive disabilities]
 
 ## To Conclude ##
 
-So I hope I haven't made accessibility an even scarier word for you! Granted there's a lot to consider, but building your site with all of these in mind won't just help the users we've mentioned – some of this is common sense and will make your site more usable for *everyone*.
+So I hope I haven't made accessibility an even scarier word for you! Granted there's a lot to consider, and accessibility can seem like a bit of a minefield, but building accessible websites can be an extremely rewarding endeavour.
 
+I hope you've learnt something about potential users of your site. Not only will you help people with disabilities, but many of the relatively small improvements listed in this post will make your site more usable for *everyone*.
+
+Thanks for reading,
+Rowan
 
 
 [contrast-checker]: http://snook.ca/technical/colour_contrast/colour.html "Colour Contrast Checking Tool"
