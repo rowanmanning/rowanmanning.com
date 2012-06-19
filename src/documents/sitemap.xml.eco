@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <% for document in @documents: %>
-        <% if /\.html$/.test(document.url) && document.private != true: %>
+        <% if document.url != '/404.html' && /\.html$/.test(document.url) && document.private != true: %>
             <url>
                 <loc>http://<%= @site.host %><%= document.urls[1] || document.urls[0] %></loc>
                 <lastmod><%= document.momentModified.format() %></lastmod>
