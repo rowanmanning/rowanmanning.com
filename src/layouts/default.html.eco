@@ -18,7 +18,7 @@
     Site links which include a canonical URL, as well as links to
     other resources such as the blog atom feed.
     -->
-    <link rel="alternate" type="application/atom+xml" href="<%= @site.atomUrlXml %>" title="Rowan Manning's Blog"/>
+    <link rel="alternate" type="application/atom+xml" href="<%= @site.atomUrl %>" title="Rowan Manning's Blog"/>
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap"/>
     <link rel="canonical" href="http://<%= @site.host + (@document.urls[1] || @document.urls[0]) %>"/>
     <% if @document.urls[1] != '/': %>

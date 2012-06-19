@@ -10,8 +10,7 @@
             googleAnalyticsAccount: 'UA-5860182-1'
             twitterHandle: 'rowanmanning'
             email: 'info@rowanmanning.co.uk'
-            atomUrl: 'http://rowanmanning.co.uk/blog.xml'
-            atomUrlXml: 'http://rowanmanning.co.uk/blog.xml'
+            atomUrl: 'http://feeds.feedburner.com/rowanmanning'
         social: [
             {
                 type: 'twitter'
