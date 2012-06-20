@@ -54,7 +54,7 @@ Cognitive disabilities get little air-time in my opinion, yet conditions such as
     <dd>For users who have trouble problem-solving, things like form errors or unclear instructions are a nightmare. Instructions should be clear and large changes to the page should be explained to the user.</dd>
 
     <dt>Attention</dt>
-    <dd>Users with conditions such as <abbr title="Attention Deficit Hyperactivity Disorder">ADHD</abbr> can struggle with concentration at the best of times. Avoiding background noise on a page and using visual cues to highlight important content helps these users.</dd>
+    <dd>Users with conditions such as <abbr title="Attention Deficit Hyperactivity Disorder">ADHD</abbr> often struggle to maintain concentration when completing a task. Avoiding background noise on a page and using visual cues to highlight important content helps these users.</dd>
 
     <dt>Reading, linguistic and verbal comprehension</dt>
     <dd>This broad category ranges from problems understanding long or complex words and sentence structure, to difficulty processing non-literal text such as sarcasm, metaphor or slang. Clear document structure, supplemental media and uncomplicated writing can help these users a lot.</dd>
