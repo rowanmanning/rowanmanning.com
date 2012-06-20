@@ -9,7 +9,9 @@
     engines and providing extra information about the page.
     -->
     <title><%= (@document.title || 'Untitled Document') %></title>
-    <meta name="description" content="<%= @document.description || @site.description %>">
+    <% if @document.description: %>
+        <meta name="description" content="<%= @document.description %>">
+    <% end %>
     <% if @document.private == true: %>
         <meta name="robots" content="noindex"/>
     <% end %>
