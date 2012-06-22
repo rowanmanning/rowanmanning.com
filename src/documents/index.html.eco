@@ -6,7 +6,7 @@ layout: 'default'
 
 <div class="col-6 col-tablet-7" itemscope itemtype="http://schema.org/Person">
     
-    <meta itemprop="url" content="http://<%= @site.host + @document.urls[1] %>"/>
+    <meta itemprop="url" content="http://<%= @site.host + @document.url %>"/>
     <meta itemprop="email" content="<%= @site.email %>"/>
     <meta content="Male" itemprop="gender">
 

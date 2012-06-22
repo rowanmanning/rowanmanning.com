@@ -7,7 +7,7 @@ layout: 'default'
 <div class="col-6 col-tablet-7" itemscope itemtype="http://schema.org/Blog">
 
     <h1 itemprop="name">Rowan's Blog</h1>
-    <meta itemprop="url" content="http://<%= @site.host + @document.urls[1] %>"/>
+    <meta itemprop="url" content="http://<%= @site.host + @document.url %>"/>
 
     <div itemprop="author" itemscope itemtype="http://schema.org/Person">
         <meta itemprop="name" content="<%= @site.author.name %>"/>
@@ -18,8 +18,8 @@ layout: 'default'
         <ul class="posts">
             <% for post in @blogPosts('posts'): %>
                 <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-                    <a href="<%= post.urls[1] %>">
-                        <meta itemprop="url" content="http://<%= @site.host + post.urls[1] %>"/>
+                    <a href="<%= post.url %>">
+                        <meta itemprop="url" content="http://<%= @site.host + post.url %>"/>
                         <h3 itemprop="name"><%= post.title %></h3>
                         <div class="meta">
                             Posted <time itemprop="dateCreated" datetime="<%= post.moment.format() %>"><%= post.moment.format 'Do MMMM, YYYY' %></time>

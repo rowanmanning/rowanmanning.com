@@ -14,9 +14,9 @@
     <% for post in @blogPosts('posts', 20): %>
         <entry>
             <title><%= post.title %></title>
-            <link href="http://<%= @site.host + post.urls[1] %>"/>
+            <link href="http://<%= @site.host + post.url %>"/>
             <updated><%= post.date.toISOString() %></updated>
-            <id>http://<%= @site.host + post.urls[1] %></id>
+            <id>http://<%= @site.host + post.url %></id>
             <content type="html"><%= post.contentRenderedWithoutLayouts %></content>
         </entry>
     <% end %>
