@@ -14,7 +14,7 @@ module.exports = (BasePlugin) ->
             moment = require 'moment'
 
             # Loop documents and momentize... yes, it is a word.
-            @docpad.documents.forEach (document) ->
+            @docpad.getCollection('documents').forEach (document) ->
                 fileStats = fs.statSync document.get('fullPath')
                 date = document.get 'date'
                 dateModified = fileStats.mtime

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <% for document in @documents: %>
+    <% for document in @getCollection('documents').toArray(): %>
         <% if document.url != '/404.html' && /\.html$/.test(document.url) && document.private != true: %>
             <url>
                 <loc>http://<%= @site.host %><%= document.urls[1] || document.urls[0] %></loc>
