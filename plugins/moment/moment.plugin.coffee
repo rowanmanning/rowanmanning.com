@@ -6,15 +6,15 @@ module.exports = (BasePlugin) ->
         # Plugin Name
         name: 'moment'
 
-        # After file parsing is complete
-        parseAfter: ({}, next) ->
+        # Before rendering
+        renderBefore: ({collection, templateData}, next) ->
 
             # Dependencies
             fs = require 'fs'
             moment = require 'moment'
 
             # Loop documents and momentize... yes, it is a word.
-            @docpad.getCollection('documents').forEach (document) ->
+            collection.forEach (document) ->
                 fileStats = fs.statSync document.get('fullPath')
                 date = document.get 'date'
                 dateModified = fileStats.mtime
