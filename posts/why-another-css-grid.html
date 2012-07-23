@@ -8,10 +8,12 @@
     Meta information. This stuff is important for search
     engines and providing extra information about the page.
     -->
-    <title>Rowan Manning's Blog</title>
+    <title>Why I Built Another CSS Grid</title>
     
-        <meta name="description" content="Rowan Manning's blog on all things web. Covering code, accessibility, usability, work and cats"/>
+        <meta name="description" content="Building yet another grid system could be seen as bloating an already-bloated landscape; but sometimes, rolling your own tools is one of the best things you can do."/>
     
+    
+        <meta name="robots" content="noindex"/>
     
 
     <!--
@@ -20,7 +22,7 @@
     -->
     <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/rowanmanning" title="Rowan Manning's Blog"/>
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap"/>
-    <link rel="canonical" href="http://rowanmanning.co.uk/blog"/>
+    <link rel="canonical" href="http://rowanmanning.co.uk/posts/why-another-css-grid"/>
     
         <link rel="author" href="http://rowanmanning.co.uk/"/>
     
@@ -132,34 +134,71 @@
 
         </div>
 
-        <div class="col-6 col-tablet-7" itemscope itemtype="http://schema.org/Blog">
+        <div class="col-6 col-tablet-7 post">
 
-    <h1 itemprop="name">Rowan's Blog</h1>
-    <meta itemprop="url" content="http://rowanmanning.co.uk/blog"/>
+    <h1>Why I Built Another CSS Grid</h1>
 
-    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <meta itemprop="name" content="Rowan Manning"/>
-        <meta itemprop="url" content="http://rowanmanning.co.uk/"/>
+    <div class="meta">
+        Posted <time itemprop="dateCreated" datetime="2012-07-22T21:00:00+01:00">22nd July, 2012</time>
+        by Rowan Manning
     </div>
 
-    
-        <ul class="posts">
-            
-                <li class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-                    <a href="/posts/accessibility-beyond-the-screen-reader">
-                        <meta itemprop="url" content="http://rowanmanning.co.uk/posts/accessibility-beyond-the-screen-reader"/>
-                        <h3 itemprop="name">Accessibility: Beyond The Screen-Reader</h3>
-                        <div class="meta">
-                            Posted <time itemprop="dateCreated" datetime="2012-06-19T21:05:00+01:00">19th June, 2012</time>
-                        </div>
-                        
-                            <p class="description" itemprop="description">Web accessibility isn't just about catering for blind users. In this post, we talk about the other users we need to consider in order to make the web accessible to all.</p>
-                        
-                    </a>
-                </li>
-            
-        </ul>
-    
+    <p>A couple of months ago, I decided to set about building a CSS grid system. I realise that I've entered a wildly bloated landscape here (you can't move on the web for fancy new grid systems) but I had my reasons. I'd like to talk about why I built a grid system, and why (maybe) you should too.</p>
+
+<h2>My Problem</h2>
+
+<p>When my website went through its last rebuild, I realised that there was no way I could get by without some kind of grid. I wrote down a couple of requirements that I had:</p>
+
+<ul>
+<li>Fluidity - fixed-width layouts don't do it for me.</li>
+<li>Responsivity - I don't think it's sensible to not provide at least a basic mobile-optimised view.</li>
+<li>IE7 support - a contentious one, I know, but I want at least a sensible looking page in older browsers.</li>
+</ul>
+
+<p>With these requirements in mind, I decided to have a look at what was available. It didn't take me long to realise that there are a million projects out there; a split between massively overcomplicated frameworks which try to <a href="http://www.rachelandrew.co.uk/archives/2012/03/21/stop-solving-problems-you-dont-yet-have/">solve every problem in the world</a> and neat little <a href="http://1kbgrid.com/">micro-grids</a>. While there was some really great ones, none of the libraries felt like quite right for me – I'm hard to please.</p>
+
+<h2>Building</h2>
+
+<p>What suprised me is how quickly I ended up with a good working (IE 6+) prototype. Not only was it fast, but I had a lot of fun!</p>
+
+<p>After a couple of hours spent tweaking and testing, I <a href="http://frag.rowanmanning.co.uk/">ended up with Frag</a>. It's not perfect, it's not extremely feature-rich, but it does exactly the job I need it to do.</p>
+
+<h2>So Why Build Your Own?</h2>
+
+<p>I'm not advocating rolling your own in every situation, but there are a lot of benefits to spending a little time on your own solution to a problem:</p>
+
+<dl>
+
+    <dt>Learning</dt>
+    <dd>I learnt a lot in the process of building Frag, particularly about <a href="https://developer.mozilla.org/en/CSS/Media_queries/">CSS3 media queries</a>. I don't know about you, but I love to learn; throwing yourself into a problem is nearly always the best way to do this.</dd>
+
+    <dt>Understanding</dt>
+    <dd>The benefit of understanding the code you're using inside out is massive. There's nearly always an overhead when learning how to use third-party software. Sometimes, for simple things, this is avoidable by building it yourself.</dd>
+
+    <dt>Giving Back</dt>
+    <dd>Whether or not you expect anyone to use it, you can get a pretty good feeling from releasing open-source software. You might help someone out with a project or with learning a new technology. This is awesome!</dd>
+
+</dl>
+
+<p>If you do end up building something great as a result of this post, I'd be really interested to take a look: tweet it at me!</p>
+
+<p>And if you don't fancy building your own grid system, you could always <a href="http://frag.rowanmanning.co.uk/">use Frag</a> ;)</p>
+
+    <hr/>
+
+    <h3 class="h2">Discussion</h3>
+
+    <p>
+        If you'd like to discuss any of the topics in this post, please get in touch! You can find
+        me on Twitter as
+        @<a href="http://twitter.com/rowanmanning">rowanmanning</a>, or
+        <a href="mailto:info@rowanmanning.co.uk?subject=Why%20I%20Built%20Another%20CSS%20Grid">email me about this post</a>.
+    </p>
+
+    <p>
+        <a class="twitter-share-button" href="https://twitter.com/share?url=http%3A%2F%2Frowanmanning.co.uk%2Fposts%2Fwhy-another-css-grid&via=rowanmanning&text=Why%20I%20Built%20Another%20CSS%20Grid" data-count="none">Spread the word on Twitter</a>
+        <a class="twitter-follow-button" href="http://twitter.com/rowanmanning" data-show-count="false">Follow me</a>
+    </p>
 
 </div>
 
@@ -176,7 +215,7 @@
             </a>
         </li>
         <li class="twitter">
-            <a href="http://twitter.com/">
+            <a href="http://twitter.com/rowanmanning">
                 <span class="col-mobile-hide">Updates via</span> Twitter
             </a>
         </li>
@@ -185,8 +224,10 @@
 </div>
 
 
-</div>
+    
 
+
+</div>
 
     </div>
 
