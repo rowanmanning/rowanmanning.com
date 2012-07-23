@@ -10,7 +10,7 @@
     -->
     <title><%= (@document.title || 'Untitled Document') %></title>
     <% if @document.description: %>
-        <meta name="description" content="<%= @document.description %>">
+        <meta name="description" content="<%= @document.description %>"/>
     <% end %>
     <% if @document.private == true: %>
         <meta name="robots" content="noindex"/>
