@@ -53,4 +53,4 @@ And if you don't fancy building your own grid system, you could always [use Frag
 [1kbgrid]: http://1kbgrid.com/
 [dont-solve-problems]: http://www.rachelandrew.co.uk/archives/2012/03/21/stop-solving-problems-you-dont-yet-have/
 [frag]: http://frag.rowanmanning.co.uk/
-[frag-screengrab]: /media/images/posts/frag-website-screengrab.jpg
+[frag-screengrab]: http://<%= @site.host %>/media/images/posts/frag-website-screengrab.jpg
