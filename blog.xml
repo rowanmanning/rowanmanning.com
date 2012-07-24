@@ -4,13 +4,62 @@
     <title>Rowan Manning's Blog</title>
     <link href="http://rowanmanning.co.uk/blog.xml" rel="self"/>
     <link href="http://rowanmanning.co.uk/"/>
-    <updated>2012-07-23T11:58:07.229Z</updated>
+    <updated>2012-07-24T20:43:46.399Z</updated>
     <id>http://rowanmanning.co.uk/blog.xml</id>
     <author>
         <name>Rowan Manning</name>
         <uri>http://rowanmanning.co.uk/</uri>
     </author>
 
+    
+        <entry>
+            <title>Why I Built Another CSS Grid</title>
+            <link href="http://rowanmanning.co.uk/posts/why-another-css-grid"/>
+            <updated>2012-07-24T20:34:00.000Z</updated>
+            <id>http://rowanmanning.co.uk/posts/why-another-css-grid</id>
+            <content type="html">&lt;p&gt;A couple of months ago, I decided to set about building a CSS grid system. I realise that I've entered a wildly bloated landscape here (you can't move on the web for fancy new grid systems) but I had my reasons. I'd like to talk about why I built a grid system, and why (maybe) you should too.&lt;/p&gt;
+
+&lt;h2&gt;My Problem&lt;/h2&gt;
+
+&lt;p&gt;When my website went through its last rebuild, I realised that there was no way I could get by without some kind of grid. I wrote down a couple of requirements that I had:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fluidity - fixed-width layouts don't do it for me.&lt;/li&gt;
+&lt;li&gt;Responsivity - I don't think it's sensible to not provide at least a basic mobile-optimised view.&lt;/li&gt;
+&lt;li&gt;IE7 support - a contentious one, I know, but I want at least a sensible looking page in older browsers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With these requirements in mind, I decided to have a look at what was available. It didn't take me long to realise that there are a million projects out there; a split between massively overcomplicated frameworks which try to &lt;a href=&quot;http://www.rachelandrew.co.uk/archives/2012/03/21/stop-solving-problems-you-dont-yet-have/&quot;&gt;solve every problem in the world&lt;/a&gt; and neat little &lt;a href=&quot;http://1kbgrid.com/&quot;&gt;micro-grids&lt;/a&gt;. While there were some really great libraries, none of them felt quite right for me – I'm hard to please.&lt;/p&gt;
+
+&lt;h2&gt;Building&lt;/h2&gt;
+
+&lt;p&gt;What suprised me is how quickly I ended up with a good working (IE 6+) prototype. Not only was it fast, but I had a lot of fun!&lt;/p&gt;
+
+&lt;p&gt;After a couple of hours spent tweaking and testing, I &lt;a href=&quot;http://frag.rowanmanning.co.uk/&quot;&gt;ended up with Frag&lt;/a&gt;. It's not perfect, it's not extremely feature-rich, but it does exactly the job I need it to do.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://frag.rowanmanning.co.uk/&quot;&gt;&lt;img src=&quot;/media/images/posts/frag-website-screengrab.jpg&quot; alt=&quot;A screen-grab of the Frag website&quot; title=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;So Why Build Your Own?&lt;/h2&gt;
+
+&lt;p&gt;I'm not advocating rolling your own in every situation, but there are a lot of benefits to spending a little time on your own solution to a problem:&lt;/p&gt;
+
+&lt;dl&gt;
+
+    &lt;dt&gt;Learning&lt;/dt&gt;
+    &lt;dd&gt;I learnt a lot in the process of building Frag, particularly about &lt;a href=&quot;https://developer.mozilla.org/en/CSS/Media_queries/&quot;&gt;CSS3 media queries&lt;/a&gt;. I don't know about you, but I love to learn; throwing yourself into a problem is nearly always the best way to do this.&lt;/dd&gt;
+
+    &lt;dt&gt;Understanding&lt;/dt&gt;
+    &lt;dd&gt;The benefit of understanding the code you're using inside out is massive. There's nearly always an overhead when learning how to use third-party software. Sometimes, for simple things, this is avoidable by building it yourself.&lt;/dd&gt;
+
+    &lt;dt&gt;Giving Back&lt;/dt&gt;
+    &lt;dd&gt;Whether or not you expect anyone to use it, you can get a pretty good feeling from releasing open-source software. You might help someone out with a project or with learning a new technology. This is awesome!&lt;/dd&gt;
+
+&lt;/dl&gt;
+
+&lt;p&gt;If you do end up building something great as a result of this post, I'd be really interested to take a look: tweet it at me!&lt;/p&gt;
+
+&lt;p&gt;And if you don't fancy building your own grid system, you could always &lt;a href=&quot;http://frag.rowanmanning.co.uk/&quot;&gt;use Frag&lt;/a&gt; ;)&lt;/p&gt;</content>
+        </entry>
     
         <entry>
             <title>Accessibility: Beyond The Screen-Reader</title>
