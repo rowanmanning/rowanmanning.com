@@ -1,9 +1,8 @@
 ---
 title: 'Why I Built Another CSS Grid'
-date: '2012-07-22 21:00'
+date: '2012-07-24 21:34'
 description: Building yet another grid system could be seen as bloating an already-bloated landscape; but sometimes, rolling your own tools is one of the best things you can do.
 layout: 'post'
-private: true
 ---
 
 A couple of months ago, I decided to set about building a CSS grid system. I realise that I've entered a wildly bloated landscape here (you can't move on the web for fancy new grid systems) but I had my reasons. I'd like to talk about why I built a grid system, and why (maybe) you should too.
@@ -17,7 +16,7 @@ When my website went through its last rebuild, I realised that there was no way 
  * Responsivity - I don't think it's sensible to not provide at least a basic mobile-optimised view.
  * IE7 support - a contentious one, I know, but I want at least a sensible looking page in older browsers.
 
-With these requirements in mind, I decided to have a look at what was available. It didn't take me long to realise that there are a million projects out there; a split between massively overcomplicated frameworks which try to [solve every problem in the world][dont-solve-problems] and neat little [micro-grids][1kbgrid]. While there was some really great ones, none of the libraries felt like quite right for me – I'm hard to please.
+With these requirements in mind, I decided to have a look at what was available. It didn't take me long to realise that there are a million projects out there; a split between massively overcomplicated frameworks which try to [solve every problem in the world][dont-solve-problems] and neat little [micro-grids][1kbgrid]. While there were some really great libraries, none of them felt quite right for me – I'm hard to please.
 
 
 ## Building ##
