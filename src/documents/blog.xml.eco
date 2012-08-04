@@ -15,7 +15,8 @@
         <entry>
             <title><%= post.title %></title>
             <link href="http://<%= @site.host + post.url %>"/>
-            <updated><%= post.date.toISOString() %></updated>
+            <published><%= post.moment.format() %></published>
+            <updated><%= post.momentModified.format() %></updated>
             <id>http://<%= @site.host + post.url %></id>
             <content type="html"><%= post.contentRenderedWithoutLayouts %></content>
         </entry>

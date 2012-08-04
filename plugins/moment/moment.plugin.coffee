@@ -15,11 +15,10 @@ module.exports = (BasePlugin) ->
 
             # Loop documents and momentize... yes, it is a word.
             collection.forEach (document) ->
-                fileStats = fs.statSync document.get('fullPath')
                 date = document.get 'date'
-                dateModified = fileStats.mtime
-                document.set 'moment', moment(date)
-                document.set 'momentModified', moment(dateModified)
+                dateModified = document.get('modified') || date
+                document.set 'moment', moment.utc(date)
+                document.set 'momentModified', moment.utc(dateModified)
 
             # Done! On to the next task!
             return next?()
