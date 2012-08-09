@@ -25,7 +25,7 @@
                 url: 'http://github.com/rowanmanning'
                 label: 'GitHub'
                 title: 'Rowan Manning\'s Open-Source Code on GitHub'
-                description: 'GitHub is where I keep all my open-source code; fork that shit!'
+                description: 'GitHub is where I keep all my open-source code; I\'d love your feedback :)'
                 nav: true
             }
             {
