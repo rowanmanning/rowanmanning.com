@@ -6,11 +6,11 @@ description: Web accessibility isn't just about catering for blind users. In thi
 layout: 'post'
 reading:
   - label: Accessibility articles from WebAIM
-  url: http://webaim.org/articles/
+    url: http://webaim.org/articles/
   - label: The BBC's web accessibility guides
-  url: http://www.bbc.co.uk/accessibility/guides/
+    url: http://www.bbc.co.uk/accessibility/guides/
   - label: 'Designing with Progressive Enhancement by Filament Group [book]'
-  url: http://filamentgroup.com/dwpe/
+    url: http://filamentgroup.com/dwpe/
 ---
 
 
