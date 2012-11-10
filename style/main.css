@@ -785,11 +785,11 @@ figure img {
 }
 .video {
   width: 100%;
-  min-height: 30%;
+  min-height: 320px;
 }
 @media (max-width: 640px) {
   .video {
-    min-height: 25%;
+    min-height: 260px;
   }
 }
 blockquote {
