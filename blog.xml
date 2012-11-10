@@ -4,7 +4,7 @@
     <title>Rowan Manning's Blog</title>
     <link href="http://rowanmanning.co.uk/blog.xml" rel="self"/>
     <link href="http://rowanmanning.co.uk/"/>
-    <updated>2012-08-09T20:27:03.732Z</updated>
+    <updated>2012-11-10T16:54:54.868Z</updated>
     <id>http://rowanmanning.co.uk/blog.xml</id>
     <author>
         <name>Rowan Manning</name>
@@ -18,48 +18,59 @@
             <published>2012-07-24T21:34:00+00:00</published>
             <updated>2012-07-24T21:34:00+00:00</updated>
             <id>http://rowanmanning.co.uk/posts/why-another-css-grid</id>
-            <content type="html">&lt;p&gt;A couple of months ago, I decided to set about building a CSS grid system. I realise that I've entered a wildly bloated landscape here (you can't move on the web for fancy new grid systems) but I had my reasons. I'd like to talk about why I built a grid system, and why (maybe) you should too.&lt;/p&gt;
+            <content type="html">&lt;p&gt;A couple of months ago, I decided to set about building a CSS grid system. I realise that I&amp;#39;ve entered a wildly bloated landscape here (you can&amp;#39;t move on the web for fancy new grid systems) but I had my reasons. I&amp;#39;d like to talk about why I built a grid system, and why (maybe) you should too.
 
+
+&lt;/p&gt;
 &lt;h2&gt;My Problem&lt;/h2&gt;
+&lt;p&gt;When my website went through its last rebuild, I realised that there was no way I could get by without some kind of grid. I wrote down a couple of requirements that I had:
 
-&lt;p&gt;When my website went through its last rebuild, I realised that there was no way I could get by without some kind of grid. I wrote down a couple of requirements that I had:&lt;/p&gt;
-
+&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Fluidity - fixed-width layouts don't do it for me.&lt;/li&gt;
-&lt;li&gt;Responsivity - I don't think it's sensible to not provide at least a basic mobile-optimised view.&lt;/li&gt;
+&lt;li&gt;Fluidity - fixed-width layouts don&amp;#39;t do it for me.&lt;/li&gt;
+&lt;li&gt;Responsivity - I don&amp;#39;t think it&amp;#39;s sensible to not provide at least a basic mobile-optimised view.&lt;/li&gt;
 &lt;li&gt;IE7 support - a contentious one, I know, but I want at least a sensible looking page in older browsers.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;With these requirements in mind, I decided to have a look at what was available. It didn&amp;#39;t take me long to realise that there are a million projects out there; a split between massively overcomplicated frameworks which try to &lt;a href=&quot;http://www.rachelandrew.co.uk/archives/2012/03/21/stop-solving-problems-you-dont-yet-have/&quot;&gt;solve every problem in the world&lt;/a&gt; and neat little &lt;a href=&quot;http://1kbgrid.com/&quot;&gt;micro-grids&lt;/a&gt;. While there were some really great libraries, none of them felt quite right for me – I&amp;#39;m hard to please.
 
-&lt;p&gt;With these requirements in mind, I decided to have a look at what was available. It didn't take me long to realise that there are a million projects out there; a split between massively overcomplicated frameworks which try to &lt;a href=&quot;http://www.rachelandrew.co.uk/archives/2012/03/21/stop-solving-problems-you-dont-yet-have/&quot;&gt;solve every problem in the world&lt;/a&gt; and neat little &lt;a href=&quot;http://1kbgrid.com/&quot;&gt;micro-grids&lt;/a&gt;. While there were some really great libraries, none of them felt quite right for me – I'm hard to please.&lt;/p&gt;
 
+&lt;/p&gt;
 &lt;h2&gt;Building&lt;/h2&gt;
+&lt;p&gt;What suprised me is how quickly I ended up with a good working (IE 6+) prototype. Not only was it fast, but I had a lot of fun!
 
-&lt;p&gt;What suprised me is how quickly I ended up with a good working (IE 6+) prototype. Not only was it fast, but I had a lot of fun!&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;After a couple of hours spent tweaking and testing, I &lt;a href=&quot;http://frag.rowanmanning.co.uk/&quot;&gt;ended up with Frag&lt;/a&gt;. It&amp;#39;s not perfect, it&amp;#39;s not extremely feature-rich, but it does exactly the job I need it to do.
 
-&lt;p&gt;After a couple of hours spent tweaking and testing, I &lt;a href=&quot;http://frag.rowanmanning.co.uk/&quot;&gt;ended up with Frag&lt;/a&gt;. It's not perfect, it's not extremely feature-rich, but it does exactly the job I need it to do.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://frag.rowanmanning.co.uk/&quot;&gt;&lt;img src=&quot;http://rowanmanning.co.uk/media/images/posts/frag-website-screengrab.jpg&quot; alt=&quot;A screen-grab of the Frag website&quot;&gt;&lt;/a&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://frag.rowanmanning.co.uk/&quot;&gt;&lt;img src=&quot;http://rowanmanning.co.uk/media/images/posts/frag-website-screengrab.jpg&quot; alt=&quot;A screen-grab of the Frag website&quot; title=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
+&lt;/p&gt;
 &lt;h2&gt;So Why Build Your Own?&lt;/h2&gt;
+&lt;p&gt;I&amp;#39;m not advocating rolling your own in every situation, but there are a lot of benefits to spending a little time on your own solution to a problem:
 
-&lt;p&gt;I'm not advocating rolling your own in every situation, but there are a lot of benefits to spending a little time on your own solution to a problem:&lt;/p&gt;
-
+&lt;/p&gt;
 &lt;dl&gt;
 
     &lt;dt&gt;Learning&lt;/dt&gt;
-    &lt;dd&gt;I learnt a lot in the process of building Frag, particularly about &lt;a href=&quot;https://developer.mozilla.org/en/CSS/Media_queries/&quot;&gt;CSS3 media queries&lt;/a&gt;. I don't know about you, but I love to learn; throwing yourself into a problem is nearly always the best way to do this.&lt;/dd&gt;
+    &lt;dd&gt;I learnt a lot in the process of building Frag, particularly about &lt;a href=&quot;https://developer.mozilla.org/en/CSS/Media_queries/&quot;&gt;CSS3 media queries&lt;/a&gt;. I don&amp;#39;t know about you, but I love to learn; throwing yourself into a problem is nearly always the best way to do this.&lt;/dd&gt;
 
     &lt;dt&gt;Understanding&lt;/dt&gt;
-    &lt;dd&gt;The benefit of understanding the code you're using inside out is massive. There's nearly always an overhead when learning how to use third-party software. Sometimes, for simple things, this is avoidable by building it yourself.&lt;/dd&gt;
+    &lt;dd&gt;The benefit of understanding the code you&amp;#39;re using inside out is massive. There&amp;#39;s nearly always an overhead when learning how to use third-party software. Sometimes, for simple things, this is avoidable by building it yourself.&lt;/dd&gt;
 
     &lt;dt&gt;Giving Back&lt;/dt&gt;
     &lt;dd&gt;Whether or not you expect anyone to use it, you can get a pretty good feeling from releasing open-source software. You might help someone out with a project or with learning a new technology. This is awesome!&lt;/dd&gt;
 
 &lt;/dl&gt;
 
-&lt;p&gt;If you do end up building something great as a result of this post, I'd be really interested to take a look: tweet it at me!&lt;/p&gt;
+&lt;p&gt;If you do end up building something great as a result of this post, I&amp;#39;d be really interested to take a look: tweet it at me!
 
-&lt;p&gt;And if you don't fancy building your own grid system, you could always &lt;a href=&quot;http://frag.rowanmanning.co.uk/&quot;&gt;use Frag&lt;/a&gt; ;)&lt;/p&gt;</content>
+&lt;/p&gt;
+&lt;p&gt;And if you don&amp;#39;t fancy building your own grid system, you could always &lt;a href=&quot;http://frag.rowanmanning.co.uk/&quot;&gt;use Frag&lt;/a&gt; ;)
+
+
+&lt;/p&gt;
+</content>
         </entry>
     
         <entry>
@@ -68,34 +79,44 @@
             <published>2012-06-19T21:05:00+00:00</published>
             <updated>2012-06-20T10:30:00+00:00</updated>
             <id>http://rowanmanning.co.uk/posts/accessibility-beyond-the-screen-reader</id>
-            <content type="html">&lt;p&gt;I'd like to begin this post with a disclaimer: I'm not an accessibility expert. In fact, web accessibility scares me; it's that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!&lt;/p&gt;
+            <content type="html">&lt;p&gt;I&amp;#39;d like to begin this post with a disclaimer: I&amp;#39;m not an accessibility expert. In fact, web accessibility scares me; it&amp;#39;s that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!
 
-&lt;p&gt;The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. I've found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has inspired me to explain &lt;em&gt;my&lt;/em&gt; understanding of web accessibility. Who exactly are we trying to cater for? We'll start with the obvious:&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. I&amp;#39;ve found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has inspired me to explain &lt;em&gt;my&lt;/em&gt; understanding of web accessibility. Who exactly are we trying to cater for? We&amp;#39;ll start with the obvious:
 
+
+&lt;/p&gt;
 &lt;h2&gt;Blind Or Partially Sighted Users&lt;/h2&gt;
+&lt;p&gt;This is the user that we tend to jump to when accessibility is mentioned. These users may rely completely on assistive technology, such as a screen-reader, to access the web. Partially sighted or vision-impaired users may not rely on a screen-reader, but will find it difficult to read content if the type is too small or cannot be zoomed.
 
-&lt;p&gt;This is the user that we tend to jump to when accessibility is mentioned. These users may rely completely on assistive technology, such as a screen-reader, to access the web. Partially sighted or vision-impaired users may not rely on a screen-reader, but will find it difficult to read content if the type is too small or cannot be zoomed.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;There are a wealth of resources available to help make our websites work well for this group. In order to achieve a basic level of support, it helps to ensure that your website is usable in a &lt;a href=&quot;http://lynx.browser.org/&quot; title=&quot;The Lynx Browser&quot;&gt;text-based browser such as Lynx&lt;/a&gt; – writing sensible, semantic markup is a first step. I also can&amp;#39;t emphasise what an eye-opener it is to &lt;a href=&quot;http://webaim.org/articles/screenreader_testing/&quot; title=&quot;Testing with Screen Readers: Questions and Answers&quot;&gt;try and use a screen-reader yourself&lt;/a&gt;.
 
-&lt;p&gt;There are a wealth of resources available to help make our websites work well for this group. In order to achieve a basic level of support, it helps to ensure that your website is usable in a &lt;a href=&quot;http://lynx.browser.org/&quot; title=&quot;The Lynx Browser&quot;&gt;text-based browser such as Lynx&lt;/a&gt; – writing sensible, semantic markup is a first step. I also can't emphasise what an eye-opener it is to &lt;a href=&quot;http://webaim.org/articles/screenreader_testing/&quot; title=&quot;Testing with Screen Readers: Questions and Answers&quot;&gt;try and use a screen-reader yourself&lt;/a&gt;.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;Vision impaired users can be catered for by keeping your type sizes sensible (personal preference: &lt;code&gt;&amp;gt;=16px&lt;/code&gt;), and ensuring that your content is zoomable. You&amp;#39;ll make this a lot easier by using a scalable font measurement in your CSS such as &lt;code&gt;em&lt;/code&gt; or &lt;code&gt;rem&lt;/code&gt;.
 
-&lt;p&gt;Vision impaired users can be catered for by keeping your type sizes sensible (personal preference: &lt;code&gt;&amp;gt;=16px&lt;/code&gt;), and ensuring that your content is zoomable. You'll make this a lot easier by using a scalable font measurement in your CSS such as &lt;code&gt;em&lt;/code&gt; or &lt;code&gt;rem&lt;/code&gt;.&lt;/p&gt;
 
+&lt;/p&gt;
 &lt;h2&gt;Colour-Blind Users&lt;/h2&gt;
+&lt;p&gt;Colour-blind users may find it hard to distinguish between elements on a page if they are similar in colour. This can become a problem when the contrast between two elements is important; for example, between your website text and background. People with even mild colour-blindness may find it difficult to read content.
 
-&lt;p&gt;Colour-blind users may find it hard to distinguish between elements on a page if they are similar in colour. This can become a problem when the contrast between two elements is important; for example, between your website text and background. People with even mild colour-blindness may find it difficult to read content.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;When it comes to catering for colour-blind users, subtlety becomes your enemy; there are some great &lt;a href=&quot;http://snook.ca/technical/colour_contrast/colour.html&quot; title=&quot;Colour Contrast Checking Tool&quot;&gt;contrast checking tools online&lt;/a&gt; which can help you immensely.
 
-&lt;p&gt;When it comes to catering for colour-blind users, subtlety becomes your enemy; there are some great &lt;a href=&quot;http://snook.ca/technical/colour_contrast/colour.html&quot; title=&quot;Colour Contrast Checking Tool&quot;&gt;contrast checking tools online&lt;/a&gt; which can help you immensely.&lt;/p&gt;
 
+&lt;/p&gt;
 &lt;h2&gt;Users With Physical Disabilities&lt;/h2&gt;
+&lt;p&gt;Physical disabilities can encompass anything from minor impairments of motor-skills to paralysis. Motor impairments are common in elderly web users who may rely on a keyboard alone to browse the web – using a mouse requires small, precise hand movements.
 
-&lt;p&gt;Physical disabilities can encompass anything from minor impairments of motor-skills to paralysis. Motor impairments are common in elderly web users who may rely on a keyboard alone to browse the web – using a mouse requires small, precise hand movements.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;Ensuring that your website is keyboard-accessible is important, it&amp;#39;s also quite easy to test: unplug your mouse! There are quite a few resources around the web on this topic, and &lt;a href=&quot;http://www.456bereastreet.com/archive/201104/keyboard_accessibility_again/&quot; title=&quot;Some useful quick-tips on keyboard accessibility&quot;&gt;fixing up your website for keyboard users&lt;/a&gt; is actually relatively easy.
 
-&lt;p&gt;Ensuring that your website is keyboard-accessible is important, it's also quite easy to test: unplug your mouse! There are quite a few resources around the web on this topic, and &lt;a href=&quot;http://www.456bereastreet.com/archive/201104/keyboard_accessibility_again/&quot; title=&quot;Some useful quick-tips on keyboard accessibility&quot;&gt;fixing up your website for keyboard users&lt;/a&gt; is actually relatively easy.&lt;/p&gt;
 
+&lt;/p&gt;
 &lt;h2&gt;Users With Cognitive Disabilities&lt;/h2&gt;
+&lt;p&gt;Cognitive disabilities get little air-time in my opinion, yet conditions such as dyslexia are extremely common. The diversity of this group is huge, and cognitive disabilities can have an adverse effect on memory; problem solving; attention; and reading, linguistic and verbal comprehension to name a few:
 
-&lt;p&gt;Cognitive disabilities get little air-time in my opinion, yet conditions such as dyslexia are extremely common. The diversity of this group is huge, and cognitive disabilities can have an adverse effect on memory; problem solving; attention; and reading, linguistic and verbal comprehension to name a few:&lt;/p&gt;
-
+&lt;/p&gt;
 &lt;dl&gt;
 
     &lt;dt&gt;Memory&lt;dt&gt;
@@ -112,15 +133,23 @@
 
 &lt;/dl&gt;
 
-&lt;p&gt;For more information, I can't recommend this &lt;a href=&quot;http://webaim.org/articles/cognitive/&quot; title=&quot;In-depth article on cognitive disabilities and the web&quot;&gt;article on cognitive disabilities&lt;/a&gt; enough. It goes into far more depth than I could on the subject!&lt;/p&gt;
+&lt;p&gt;For more information, I can&amp;#39;t recommend this &lt;a href=&quot;http://webaim.org/articles/cognitive/&quot; title=&quot;In-depth article on cognitive disabilities and the web&quot;&gt;article on cognitive disabilities&lt;/a&gt; enough. It goes into far more depth than I could on the subject!
 
+
+&lt;/p&gt;
 &lt;h2&gt;To Conclude&lt;/h2&gt;
+&lt;p&gt;So I hope I haven&amp;#39;t made accessibility an even scarier word for you! Granted there&amp;#39;s a lot to consider, and accessibility can seem like a bit of a minefield, but building accessible websites can be an extremely rewarding endeavour.
 
-&lt;p&gt;So I hope I haven't made accessibility an even scarier word for you! Granted there's a lot to consider, and accessibility can seem like a bit of a minefield, but building accessible websites can be an extremely rewarding endeavour.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;By thinking about these users while you build, not only will you help people with disabilities, but many of the relatively small improvements listed in this post will make your site more usable for &lt;em&gt;everyone&lt;/em&gt;.
 
-&lt;p&gt;By thinking about these users while you build, not only will you help people with disabilities, but many of the relatively small improvements listed in this post will make your site more usable for &lt;em&gt;everyone&lt;/em&gt;.&lt;/p&gt;
+&lt;/p&gt;
+&lt;p&gt;Thanks for reading,
+Rowan
 
-&lt;p&gt;Thanks for reading,&lt;br /&gt;Rowan&lt;/p&gt;</content>
+
+&lt;/p&gt;
+</content>
         </entry>
     
 

@@ -141,34 +141,44 @@
         by Rowan Manning
     </div>
 
-    <p>I'd like to begin this post with a disclaimer: I'm not an accessibility expert. In fact, web accessibility scares me; it's that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!</p>
+    <p>I&#39;d like to begin this post with a disclaimer: I&#39;m not an accessibility expert. In fact, web accessibility scares me; it&#39;s that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!
 
-<p>The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. I've found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has inspired me to explain <em>my</em> understanding of web accessibility. Who exactly are we trying to cater for? We'll start with the obvious:</p>
+</p>
+<p>The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. I&#39;ve found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has inspired me to explain <em>my</em> understanding of web accessibility. Who exactly are we trying to cater for? We&#39;ll start with the obvious:
 
+
+</p>
 <h2>Blind Or Partially Sighted Users</h2>
+<p>This is the user that we tend to jump to when accessibility is mentioned. These users may rely completely on assistive technology, such as a screen-reader, to access the web. Partially sighted or vision-impaired users may not rely on a screen-reader, but will find it difficult to read content if the type is too small or cannot be zoomed.
 
-<p>This is the user that we tend to jump to when accessibility is mentioned. These users may rely completely on assistive technology, such as a screen-reader, to access the web. Partially sighted or vision-impaired users may not rely on a screen-reader, but will find it difficult to read content if the type is too small or cannot be zoomed.</p>
+</p>
+<p>There are a wealth of resources available to help make our websites work well for this group. In order to achieve a basic level of support, it helps to ensure that your website is usable in a <a href="http://lynx.browser.org/" title="The Lynx Browser">text-based browser such as Lynx</a> – writing sensible, semantic markup is a first step. I also can&#39;t emphasise what an eye-opener it is to <a href="http://webaim.org/articles/screenreader_testing/" title="Testing with Screen Readers: Questions and Answers">try and use a screen-reader yourself</a>.
 
-<p>There are a wealth of resources available to help make our websites work well for this group. In order to achieve a basic level of support, it helps to ensure that your website is usable in a <a href="http://lynx.browser.org/" title="The Lynx Browser">text-based browser such as Lynx</a> – writing sensible, semantic markup is a first step. I also can't emphasise what an eye-opener it is to <a href="http://webaim.org/articles/screenreader_testing/" title="Testing with Screen Readers: Questions and Answers">try and use a screen-reader yourself</a>.</p>
+</p>
+<p>Vision impaired users can be catered for by keeping your type sizes sensible (personal preference: <code>&gt;=16px</code>), and ensuring that your content is zoomable. You&#39;ll make this a lot easier by using a scalable font measurement in your CSS such as <code>em</code> or <code>rem</code>.
 
-<p>Vision impaired users can be catered for by keeping your type sizes sensible (personal preference: <code>&gt;=16px</code>), and ensuring that your content is zoomable. You'll make this a lot easier by using a scalable font measurement in your CSS such as <code>em</code> or <code>rem</code>.</p>
 
+</p>
 <h2>Colour-Blind Users</h2>
+<p>Colour-blind users may find it hard to distinguish between elements on a page if they are similar in colour. This can become a problem when the contrast between two elements is important; for example, between your website text and background. People with even mild colour-blindness may find it difficult to read content.
 
-<p>Colour-blind users may find it hard to distinguish between elements on a page if they are similar in colour. This can become a problem when the contrast between two elements is important; for example, between your website text and background. People with even mild colour-blindness may find it difficult to read content.</p>
+</p>
+<p>When it comes to catering for colour-blind users, subtlety becomes your enemy; there are some great <a href="http://snook.ca/technical/colour_contrast/colour.html" title="Colour Contrast Checking Tool">contrast checking tools online</a> which can help you immensely.
 
-<p>When it comes to catering for colour-blind users, subtlety becomes your enemy; there are some great <a href="http://snook.ca/technical/colour_contrast/colour.html" title="Colour Contrast Checking Tool">contrast checking tools online</a> which can help you immensely.</p>
 
+</p>
 <h2>Users With Physical Disabilities</h2>
+<p>Physical disabilities can encompass anything from minor impairments of motor-skills to paralysis. Motor impairments are common in elderly web users who may rely on a keyboard alone to browse the web – using a mouse requires small, precise hand movements.
 
-<p>Physical disabilities can encompass anything from minor impairments of motor-skills to paralysis. Motor impairments are common in elderly web users who may rely on a keyboard alone to browse the web – using a mouse requires small, precise hand movements.</p>
+</p>
+<p>Ensuring that your website is keyboard-accessible is important, it&#39;s also quite easy to test: unplug your mouse! There are quite a few resources around the web on this topic, and <a href="http://www.456bereastreet.com/archive/201104/keyboard_accessibility_again/" title="Some useful quick-tips on keyboard accessibility">fixing up your website for keyboard users</a> is actually relatively easy.
 
-<p>Ensuring that your website is keyboard-accessible is important, it's also quite easy to test: unplug your mouse! There are quite a few resources around the web on this topic, and <a href="http://www.456bereastreet.com/archive/201104/keyboard_accessibility_again/" title="Some useful quick-tips on keyboard accessibility">fixing up your website for keyboard users</a> is actually relatively easy.</p>
 
+</p>
 <h2>Users With Cognitive Disabilities</h2>
+<p>Cognitive disabilities get little air-time in my opinion, yet conditions such as dyslexia are extremely common. The diversity of this group is huge, and cognitive disabilities can have an adverse effect on memory; problem solving; attention; and reading, linguistic and verbal comprehension to name a few:
 
-<p>Cognitive disabilities get little air-time in my opinion, yet conditions such as dyslexia are extremely common. The diversity of this group is huge, and cognitive disabilities can have an adverse effect on memory; problem solving; attention; and reading, linguistic and verbal comprehension to name a few:</p>
-
+</p>
 <dl>
 
     <dt>Memory<dt>
@@ -185,15 +195,23 @@
 
 </dl>
 
-<p>For more information, I can't recommend this <a href="http://webaim.org/articles/cognitive/" title="In-depth article on cognitive disabilities and the web">article on cognitive disabilities</a> enough. It goes into far more depth than I could on the subject!</p>
+<p>For more information, I can&#39;t recommend this <a href="http://webaim.org/articles/cognitive/" title="In-depth article on cognitive disabilities and the web">article on cognitive disabilities</a> enough. It goes into far more depth than I could on the subject!
 
+
+</p>
 <h2>To Conclude</h2>
+<p>So I hope I haven&#39;t made accessibility an even scarier word for you! Granted there&#39;s a lot to consider, and accessibility can seem like a bit of a minefield, but building accessible websites can be an extremely rewarding endeavour.
 
-<p>So I hope I haven't made accessibility an even scarier word for you! Granted there's a lot to consider, and accessibility can seem like a bit of a minefield, but building accessible websites can be an extremely rewarding endeavour.</p>
+</p>
+<p>By thinking about these users while you build, not only will you help people with disabilities, but many of the relatively small improvements listed in this post will make your site more usable for <em>everyone</em>.
 
-<p>By thinking about these users while you build, not only will you help people with disabilities, but many of the relatively small improvements listed in this post will make your site more usable for <em>everyone</em>.</p>
+</p>
+<p>Thanks for reading,
+Rowan
 
-<p>Thanks for reading,<br />Rowan</p>
+
+</p>
+
 
     <hr/>
 
