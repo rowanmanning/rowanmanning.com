@@ -1115,6 +1115,14 @@ blockquote small:before {
     display: none;
   }
 }
+.section {
+  margin-left: 5%;
+}
+@media (max-width: 1000px) {
+  .section {
+    margin-left: 0;
+  }
+}
 html {
   border-top: 2px solid #7db578;
 }
