@@ -13,8 +13,8 @@ layout: 'default'
     <h1>Hi there, I'm Rowan</h1>
 
     <div class="anchor-left">
-        <a itemprop="image" href="/media/images/Rowan.jpg" title="This is me">
-            <img src="/media/images/Rowan.thumb.jpg" alt="Rowan Manning"/>
+        <a itemprop="image" href="/media/images/Rowan.png" title="This is me">
+            <img src="/media/images/Rowan.thumb.png" alt="Rowan Manning"/>
         </a>
     </div>
 
