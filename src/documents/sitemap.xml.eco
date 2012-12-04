@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <% for document in @getCollection('documents').toJSON(): %>
-        <% if document.url != '/404' && document.extensionRendered == 'html' && document.private != true: %>
+        <% if document.url != '/404' and document.outExtension == 'html' and document.private != true: %>
             <url>
                 <loc>http://<%= @site.host %><%= document.url %></loc>
                 <lastmod><%= document.momentModified.format() %></lastmod>
