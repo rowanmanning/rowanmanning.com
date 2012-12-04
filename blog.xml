@@ -4,13 +4,40 @@
     <title>Rowan Manning's Blog</title>
     <link href="http://rowanmanning.co.uk/blog.xml" rel="self"/>
     <link href="http://rowanmanning.co.uk/"/>
-    <updated>2012-11-10T17:23:33.208Z</updated>
+    <updated>2012-12-04T20:13:44.847Z</updated>
     <id>http://rowanmanning.co.uk/blog.xml</id>
     <author>
         <name>Rowan Manning</name>
         <uri>http://rowanmanning.co.uk/</uri>
     </author>
 
+    
+        <entry>
+            <title>The Mixed Blessing Of Ambition</title>
+            <link href="http://rowanmanning.co.uk/posts/the-mixed-blessing-of-ambition"/>
+            <published>2012-12-04T20:13:00+00:00</published>
+            <updated>2012-12-04T20:13:00+00:00</updated>
+            <id>http://rowanmanning.co.uk/posts/the-mixed-blessing-of-ambition</id>
+            <content type="html">&lt;p&gt;I was talking to a friend recently about getting back into game development; he was very enthusiastic about learning to develop JavaScript games and we were discussing where to start. I had one of those moments when you impart some advice to somebody, and afterwards realise that it&amp;#39;s great advice you&amp;#39;ve been ignoring yourself. The advice in this case was: &amp;quot;Don&amp;#39;t be too ambitious here – you may end up killing your enthusiasm&amp;quot;.
+
+&lt;/p&gt;
+&lt;p&gt;Now I realise this could be read as quite a negative statement; I&amp;#39;m in no way trying to squash ambition entirely – it can be an extremely powerful driving force. Where ambition &lt;em&gt;can&lt;/em&gt; have a negative effect is when you&amp;#39;re being over ambitious in an area you&amp;#39;re unfamiliar with.
+
+&lt;/p&gt;
+&lt;p&gt;Let&amp;#39;s take game development as an example. If you set yourself some &lt;del&gt;ridiculous&lt;/del&gt; stretch goals early on (let&amp;#39;s say a 3D web-based &lt;abbr title=&quot;Massively Multiplayer Online&quot;&gt;MMO&lt;/abbr&gt; game) then unless you&amp;#39;re the kind of person who never gives up, your enthusiasm is likely to wane the more small hurdles you have to jump along the way. This kind of project is excellent once you&amp;#39;ve tried (and maybe failed) a few times on smaller things.
+
+
+&lt;/p&gt;
+&lt;h2&gt;A Bit Of Introspection&lt;/h2&gt;
+&lt;p&gt;After the aforementioned conversation, I took a look through the &amp;#39;Web Projects&amp;#39; folder on my computer. The ratio of released/dead projects in here swings massively in favour of the latter. There&amp;#39;s a clear pattern too – they are nearly all very big projects which I have made a start on before I&amp;#39;ve tackled some of the smaller issues which ended up getting in the way early on. Despite my seemingly limitless enthusiasm for these projects in the early days, it slowly got eaten away until it was no longer a fun way to spend my spare time.
+
+&lt;/p&gt;
+&lt;p&gt;The &amp;#39;successful&amp;#39; projects have a pattern too: they&amp;#39;re all small, realistic, and fun. They&amp;#39;ve all been great learning projects and have paved the way for bigger and better things now that I&amp;#39;ve expanded my knowledge.
+
+&lt;/p&gt;
+&lt;p&gt;My personal take-away here is to remain ambitious, but also keep that side of myself in check. Recognise the pattern, and save some of the bigger projects for later!&lt;/p&gt;
+</content>
+        </entry>
     
         <entry>
             <title>How To Sell Technology</title>
