@@ -229,6 +229,8 @@ cluster.on('exit', function (worker) {
 
 I hope you enjoyed this tutorial. As mentioned above, you can get a hold of the [source code for the examples on GitHub][source]. For more information, check out the [Node.js Cluster module documentation][cluster].
 
+Thanks for reading.
+
 
 [cluster]: http://nodejs.org/api/cluster.html
 [express]: http://expressjs.com/
