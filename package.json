@@ -14,6 +14,7 @@
         "docpad-plugin-cleanurls": "2.4.x",
         "docpad-plugin-coffee": "2.0.x",
         "docpad-plugin-eco": "2.0.x",
+        "docpad-plugin-highlightjs": "2.1.x",
         "docpad-plugin-less": "2.1.x",
         "docpad-plugin-marked": "2.1.x",
         "docpad-plugin-partials": "2.4.x"
