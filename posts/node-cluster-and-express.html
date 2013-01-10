@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+
+    <meta charset="utf-8"/>
+
+    <!--
+    Meta information. This stuff is important for search
+    engines and providing extra information about the page.
+    -->
+    <title>Node Cluster and Express</title>
+    
+        <meta name="description" content="A simple tutorial on using Node 0.8's Cluster module with Express to dramatically improve app performance."/>
+    
+    
+
+    <!--
+    Site links which include a canonical URL, as well as links to
+    other resources such as the blog atom feed.
+    -->
+    <link rel="alternate" type="application/atom+xml" href="http://feeds.feedburner.com/rowanmanning" title="Rowan Manning's Blog"/>
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap"/>
+    <link rel="canonical" href="http://rowanmanning.co.uk/posts/node-cluster-and-express"/>
+    
+        <link rel="author" href="http://rowanmanning.co.uk/"/>
+    
+
+    <!--
+    This is the compiled and minified CSS, if you're interested
+    in seeing the actual LESS source, then you can find everything
+    you need at `style/source/bootstrap.less`; just follow the
+    trail of imports :)
+    -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Averia+Serif+Libre:400,400italic,700,700italic"/>
+    <link rel="stylesheet" href="/style/main.css"/>
+
+    <!--
+    Awesome favicon
+    -->
+    <link rel="icon" href="/favicon.png" type="image/png"/>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+
+    <!--
+    Additional configuration for mobile devices.
+    -->
+    <meta name="viewport" content="width=device-width"/>
+
+    <!--
+    Google Analytics
+    -->
+    <script>
+        if (/^localhost/.test(document.location.host) === false) {
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-5860182-1']);
+            _gaq.push(['_setDomainName', 'rowanmanning.co.uk']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        }
+    </script>
+
+</head>
+<body>
+
+    <div class="grid section">
+
+        <div class="col-2 col-tablet-12 navigation">
+            <a href="/" class="logo">
+    <span class="title">
+        Rowan<br/>
+        Manning,
+    </span>
+    <span class="tagline">
+        Web Geek
+    </span>
+</a>
+
+<ul class="nav site-nav">
+
+    <li class="about">
+        <a href="/" title="About Rowan Manning">
+            About Me
+        </a>
+    </li>
+
+    <li class="blog">
+        <a href="/blog" title="Rowan Manning's Blog">
+            My Blog
+        </a>
+    </li>
+
+</ul>
+
+<ul class="nav social-nav">
+
+    
+        
+            <li class="twitter">
+                <a href="http://twitter.com/rowanmanning" title="Rowan Manning on Twitter">
+                    <span class="col-mobile-hide">Twitter</span>
+                </a>
+            </li>
+        
+    
+        
+            <li class="github">
+                <a href="http://github.com/rowanmanning" title="Rowan Manning's Open-Source Code on GitHub">
+                    <span class="col-mobile-hide">GitHub</span>
+                </a>
+            </li>
+        
+    
+        
+            <li class="dribbble">
+                <a href="http://dribbble.com/rowanmanning" title="Rowan Manning's Design Work on Dribbble">
+                    <span class="col-mobile-hide">Dribbble</span>
+                </a>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+
+</ul>
+
+        </div>
+
+        <div class="col-6 col-tablet-7 post">
+
+    <h1>Node Cluster and Express</h1>
+
+    <div class="meta">
+        Posted <time itemprop="dateCreated" datetime="2013-01-10T20:18:00+00:00">10th January, 2013</time>
+        by Rowan Manning
+    </div>
+
+    <p>Over the last couple of evenings, I&#39;ve been playing with the <a href="http://nodejs.org/api/cluster.html">Node.js Cluster module</a> and using it to dramatically improve the amount of load Express apps can handle. The results have been amazing.
+
+</p>
+<p>The Cluster module is fairly easy to pick up if you&#39;re used to working with Node, but I thought I&#39;d blog about my experience – hopefully it will help you either understand or see the benefit of clustering!
+
+
+</p>
+<h2>What Does Cluster Do?</h2>
+<p>Node.js runs in a single thread. While it&#39;s still very fast in most cases, this really doesn&#39;t take advantage of multiple processors if they&#39;re available. The Cluster module allows you to create a small network of separate processes which can share server ports; this gives your Node app access to the full power of your server.
+
+
+</p>
+<h2>Learn By Example</h2>
+<p>Let&#39;s build a simple Express application to start with. Then we&#39;ll add clustering. If you&#39;d like to follow along, you&#39;ll need to <a href="http://nodejs.org/download/">install Node.js</a> (0.8+ with npm). This tutorial also assumes a moderate amount of JavaScript, Node and <a href="http://expressjs.com/">Express</a> knowledge.
+
+</p>
+<p>All of the source code for the application we&#39;re creating here is <a href="https://github.com/rowanmanning/learning-express-cluster">available on GitHub</a>.
+
+</p>
+<p>Create a new directory for this tutorial, and add a file called <code>package.json</code> with the following code:
+
+</p>
+<pre class="highlighted"><code class="javascript">{
+    <span class="string">"name"</span>: <span class="string">"learning-express-cluster"</span>,
+    <span class="string">"version"</span>: <span class="string">"0.0.1"</span>,
+    <span class="string">"dependencies"</span>: {
+        <span class="string">"express"</span>: <span class="string">"3.0.x"</span>
+    }
+}</code></pre>
+<p>Run <code>npm install</code> from within your project directory, this will install Express. Now we can create a new file, <code>app.js</code>:
+
+</p>
+<pre class="highlighted"><code class="javascript"><span class="comment">// Include Express</span>
+<span class="keyword">var</span> express = require(<span class="string">'express'</span>);
+
+<span class="comment">// Create a new Express application</span>
+<span class="keyword">var</span> app = express();
+
+<span class="comment">// Add a basic route – index page</span>
+app.get(<span class="string">'/'</span>, <span class="function"><span class="keyword">function</span> <span class="params">(req, res)</span> {</span>
+    res.send(<span class="string">'Hello World!'</span>);
+});
+
+<span class="comment">// Bind to a port</span>
+app.listen(<span class="number">3000</span>);
+console.log(<span class="string">'Application running!'</span>);</code></pre>
+<p>Now we have a basic Express app, you can run it from the command line with <code>node app.js</code>. When you go to <a href="http://localhost:3000/">http://localhost:3000/</a>, you should see the message &quot;Hello world!&quot; in your browser.
+
+</p>
+<p>That&#39;s all well and good, but let&#39;s get down to the point of this post – clustering! It&#39;s surprisingly simple; we&#39;ll update <code>app.js</code> line by line and explain the process.
+
+</p>
+<p>First, we add a new line at the very top of the file:
+
+</p>
+<pre class="highlighted"><code class="javascript"><span class="comment">// Include the cluster module</span>
+<span class="keyword">var</span> cluster = require(<span class="string">'cluster'</span>);
+
+...</code></pre>
+<p>Now we&#39;re going to add a conditional to <code>app.js</code> which wraps all of our Express application functionality. Update your file to look like this:
+
+</p>
+<pre class="highlighted"><code class="javascript"><span class="comment">// Include the cluster module</span>
+<span class="keyword">var</span> cluster = require(<span class="string">'cluster'</span>);
+
+<span class="comment">// Code to run if we're in the master process</span>
+<span class="keyword">if</span> (cluster.isMaster) {
+
+    ...
+
+<span class="comment">// Code to run if we're in a worker process</span>
+} <span class="keyword">else</span> {
+
+    <span class="comment">// Include Express</span>
+    <span class="keyword">var</span> express = require(<span class="string">'express'</span>);
+
+    <span class="comment">// Create a new Express application</span>
+    <span class="keyword">var</span> app = express();
+
+    <span class="comment">// Add a basic route – index page</span>
+    app.get(<span class="string">'/'</span>, <span class="function"><span class="keyword">function</span> <span class="params">(req, res)</span> {</span>
+        res.send(<span class="string">'Hello World!'</span>);
+    });
+
+    <span class="comment">// Bind to a port</span>
+    app.listen(<span class="number">3000</span>);
+    console.log(<span class="string">'Application running!'</span>);
+
+}</code></pre>
+<p>What we&#39;re doing here is detecting whether the application is being run in the &#39;master&#39; process (the one you start from the command line) or a &#39;worker&#39; process (a process created by the master).
+
+</p>
+<p>Your application code can stay pretty much the same, which makes it fairly easy to add clustering to an existing application.
+
+</p>
+<p>Let&#39;s write the code for the master process, we&#39;re almost done! Fill out the first half of the conditional to look like this:
+
+</p>
+<pre class="highlighted"><code class="javascript">...
+
+<span class="comment">// Code to run if we're in the master process</span>
+<span class="keyword">if</span> (cluster.isMaster) {
+
+    <span class="comment">// Count the machine's CPUs</span>
+    <span class="keyword">var</span> cpuCount = require(<span class="string">'os'</span>).cpus().length;
+
+    <span class="comment">// Create a worker for each CPU</span>
+    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; cpuCount; i += <span class="number">1</span>) {
+        cluster.fork();
+    }
+
+<span class="comment">// Code to run if we're in a worker process</span>
+} <span class="keyword">else</span> {
+
+...</code></pre>
+<p>All we&#39;re doing above is counting the number of CPUs your machine has, and calling <code>cluster.fork</code> for each. For example, If your machine has four CPUs then <code>cluster.fork</code> will be called four times, creating four new processes.
+
+</p>
+<p>The new worker processes we create will run the same <code>app.js</code> JavaScript file as the master, except it will use the code in the <code>else</code> statement. This is obviously because <code>cluster.isMaster</code> is <code>false</code> within a worker.
+
+</p>
+<p>If you run <code>node app.js</code> now, nothing will look different. The only thing you&#39;ll notice is that the message &quot;Application running!&quot; will appear more than once in your command line.
+
+</p>
+<p>Before we finish up, let&#39;s output the worker ID so you can tell which worker is serving your page each time it loads. Replace the following lines:
+
+</p>
+<pre class="highlighted"><code class="javascript">res.send(<span class="string">'Hello World!'</span>);
+
+...
+
+console.log(<span class="string">'Application running!'</span>);</code></pre>
+<p>with these:
+
+</p>
+<pre class="highlighted"><code class="javascript">res.send(<span class="string">'Hello from Worker '</span> + cluster.worker.id);
+
+...
+
+console.log(<span class="string">'Worker '</span> + cluster.worker.id + <span class="string">' running!'</span>);</code></pre>
+<p>Now when you run the application, you should see the workers being started in your command line. When you revisit <a href="http://localhost:3000/">http://localhost:3000/</a> you should see the message &quot;Hello from Worker X&quot; where X is the ID of the worker serving you.
+
+</p>
+<p>Try opening the page in multiple tabs and browsers – you should see varying workers.
+
+
+</p>
+<h2>The Proof Is In The Pudding</h2>
+<p>So far, you&#39;ve taken my word for it that clustering is fast. The last thing I&#39;m going to do here is run some benchmarks on the application before and after adding clustering.
+
+</p>
+<p>Because the application is so minimal now, I added a long loop to the index route to help illustrate how a clustered application performs better under heavy load.
+
+</p>
+<p>Without clustering:
+
+</p>
+<pre class="highlighted"><code class="bash">$ siege -c100 -t1M http://localhost:3000/
+Transactions:                263 hits
+Availability:                100.00 %
+Elapsed time:                59.50 secs
+Data transferred:            849.99 MB
+Response time:               19.41 secs
+Transaction rate:            4.42 trans/sec
+Throughput:                  14.29 MB/sec
+Concurrency:                 85.79
+Successful transactions:     263
+Failed transactions:         0
+Longest transaction:         34.57
+Shortest transaction:        10.07</code></pre>
+<p>With clustering:
+
+</p>
+<pre class="highlighted"><code class="bash">$ siege -c100 -t1M http://localhost:3000/
+Transactions:                811 hits
+Availability:                100.00 %
+Elapsed time:                59.25 secs
+Data transferred:            2621.08 MB
+Response time:               6.50 secs
+Transaction rate:            13.69 trans/sec
+Throughput:                  44.24 MB/sec
+Concurrency:                 88.96
+Successful transactions:     811
+Failed transactions:         0
+Longest transaction:         16.47
+Shortest transaction:        0.54</code></pre>
+<p>I think you&#39;ll agree that that&#39;s a worthwhile performance increase for only a few lines of code ;)
+
+
+</p>
+<h2>Bonus Code: Coping With Death</h2>
+<p>Last but not least, there&#39;s one last thing that would be useful to add to our application. In the (hopefully unlikely) event that one of our worker processes dies, we&#39;ll want to make sure we spawn another; otherwise we could eventually end up just running an empty master process and losing all our requests!
+
+</p>
+<p>This is also incredibly easy to do by binding to the cluster &#39;exit&#39; event. Add the following code directly beneath the loop which creates our initial workers. It&#39;s fairly self-explanatory:
+
+</p>
+<pre class="highlighted"><code class="javascript">...
+
+<span class="comment">// Listen for dying workers</span>
+cluster.on(<span class="string">'exit'</span>, <span class="function"><span class="keyword">function</span> <span class="params">(worker)</span> {</span>
+
+    <span class="comment">// Replace the dead worker,</span>
+    <span class="comment">// we're not sentimental</span>
+    console.log(<span class="string">'Worker '</span> + worker.id + <span class="string">' died :('</span>);
+    cluster.fork();
+
+});
+
+...</code></pre>
+<p>Now we don&#39;t have to worry as much if something goes horribly wrong in one of our workers!
+
+</p>
+<p>I hope you enjoyed this tutorial. As mentioned above, you can get a hold of the <a href="https://github.com/rowanmanning/learning-express-cluster">source code for the examples on GitHub</a>. For more information, check out the <a href="http://nodejs.org/api/cluster.html">Node.js Cluster module documentation</a>.
+
+</p>
+<p>Thanks for reading.
+
+
+</p>
+
+
+    <hr/>
+
+    <h3 class="h2">Discussion</h3>
+
+    <p>
+        If you'd like to discuss any of the topics in this post, please get in touch! You can find
+        me on Twitter as
+        @<a href="http://twitter.com/rowanmanning">rowanmanning</a>, or
+        <a href="mailto:info@rowanmanning.co.uk?subject=Node%20Cluster%20and%20Express">email me about this post</a>.
+    </p>
+
+    <p>
+        <a class="twitter-share-button" href="https://twitter.com/share?url=http%3A%2F%2Frowanmanning.co.uk%2Fposts%2Fnode-cluster-and-express&via=rowanmanning&text=Node%20Cluster%20and%20Express" data-count="none">Spread the word on Twitter</a>
+        <a class="twitter-follow-button" href="http://twitter.com/rowanmanning" data-show-count="false">Follow me</a>
+    </p>
+
+</div>
+
+<div class="col-4 col-tablet-5">
+
+    <div class="sidebar-section">
+
+    <h3 class="h1">Subscribe</h3>
+
+    <ul class="nav subscribe-nav">
+        <li class="atom">
+            <a href="http://feeds.feedburner.com/rowanmanning">
+                <span class="col-mobile-hide">Updates via</span> Feed
+            </a>
+        </li>
+        <li class="twitter">
+            <a href="http://twitter.com/rowanmanning">
+                <span class="col-mobile-hide">Updates via</span> Twitter
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+
+    
+    
+    <div class="sidebar-section">
+
+        <h3 class="h1">Further Reading</h3>
+
+        <ul>
+            
+                <li><a href="http://nodejs.org/api/cluster.html">Node.js Cluster module documentation</a></li>
+            
+                <li><a href="http://expressjs.com/">Express documentation</a></li>
+            
+        </ul>
+
+    </div>
+
+
+
+
+</div>
+
+    </div>
+
+    <div class="grid section">
+        <div class="col-2 col-tablet-hide col-mobile-hide">&nbsp;</div>
+        <div class="col-10 col-tablet-12">
+            <p class="secondary">
+                <small>Copyright &copy; 2013, Rowan Manning</small>
+            </p>
+        </div>
+    </div>
+
+    <!--
+    JavaScript
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="/script/main.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</body>
+</html>

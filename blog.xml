@@ -4,13 +4,242 @@
     <title>Rowan Manning's Blog</title>
     <link href="http://rowanmanning.co.uk/blog.xml" rel="self"/>
     <link href="http://rowanmanning.co.uk/"/>
-    <updated>2013-01-10T21:17:46.431Z</updated>
+    <updated>2013-01-10T23:55:45.987Z</updated>
     <id>http://rowanmanning.co.uk/blog.xml</id>
     <author>
         <name>Rowan Manning</name>
         <uri>http://rowanmanning.co.uk/</uri>
     </author>
 
+    
+        <entry>
+            <title>Node Cluster and Express</title>
+            <link href="http://rowanmanning.co.uk/posts/node-cluster-and-express"/>
+            <published>2013-01-10T20:18:00+00:00</published>
+            <updated>2013-01-10T20:18:00+00:00</updated>
+            <id>http://rowanmanning.co.uk/posts/node-cluster-and-express</id>
+            <content type="html">&lt;p&gt;Over the last couple of evenings, I&amp;#39;ve been playing with the &lt;a href=&quot;http://nodejs.org/api/cluster.html&quot;&gt;Node.js Cluster module&lt;/a&gt; and using it to dramatically improve the amount of load Express apps can handle. The results have been amazing.
+
+&lt;/p&gt;
+&lt;p&gt;The Cluster module is fairly easy to pick up if you&amp;#39;re used to working with Node, but I thought I&amp;#39;d blog about my experience – hopefully it will help you either understand or see the benefit of clustering!
+
+
+&lt;/p&gt;
+&lt;h2&gt;What Does Cluster Do?&lt;/h2&gt;
+&lt;p&gt;Node.js runs in a single thread. While it&amp;#39;s still very fast in most cases, this really doesn&amp;#39;t take advantage of multiple processors if they&amp;#39;re available. The Cluster module allows you to create a small network of separate processes which can share server ports; this gives your Node app access to the full power of your server.
+
+
+&lt;/p&gt;
+&lt;h2&gt;Learn By Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;#39;s build a simple Express application to start with. Then we&amp;#39;ll add clustering. If you&amp;#39;d like to follow along, you&amp;#39;ll need to &lt;a href=&quot;http://nodejs.org/download/&quot;&gt;install Node.js&lt;/a&gt; (0.8+ with npm). This tutorial also assumes a moderate amount of JavaScript, Node and &lt;a href=&quot;http://expressjs.com/&quot;&gt;Express&lt;/a&gt; knowledge.
+
+&lt;/p&gt;
+&lt;p&gt;All of the source code for the application we&amp;#39;re creating here is &lt;a href=&quot;https://github.com/rowanmanning/learning-express-cluster&quot;&gt;available on GitHub&lt;/a&gt;.
+
+&lt;/p&gt;
+&lt;p&gt;Create a new directory for this tutorial, and add a file called &lt;code&gt;package.json&lt;/code&gt; with the following code:
+
+&lt;/p&gt;
+&lt;pre class=&quot;highlighted&quot;&gt;&lt;code class=&quot;javascript&quot;&gt;{
+    &lt;span class=&quot;string&quot;&gt;&quot;name&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;learning-express-cluster&quot;&lt;/span&gt;,
+    &lt;span class=&quot;string&quot;&gt;&quot;version&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;0.0.1&quot;&lt;/span&gt;,
+    &lt;span class=&quot;string&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;: {
+        &lt;span class=&quot;string&quot;&gt;&quot;express&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;3.0.x&quot;&lt;/span&gt;
+    }
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Run &lt;code&gt;npm install&lt;/code&gt; from within your project directory, this will install Express. Now we can create a new file, &lt;code&gt;app.js&lt;/code&gt;:
+
+&lt;/p&gt;
+&lt;pre class=&quot;highlighted&quot;&gt;&lt;code class=&quot;javascript&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// Include Express&lt;/span&gt;
+&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; express = require(&lt;span class=&quot;string&quot;&gt;'express'&lt;/span&gt;);
+
+&lt;span class=&quot;comment&quot;&gt;// Create a new Express application&lt;/span&gt;
+&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; app = express();
+
+&lt;span class=&quot;comment&quot;&gt;// Add a basic route – index page&lt;/span&gt;
+app.get(&lt;span class=&quot;string&quot;&gt;'/'&lt;/span&gt;, &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;params&quot;&gt;(req, res)&lt;/span&gt; {&lt;/span&gt;
+    res.send(&lt;span class=&quot;string&quot;&gt;'Hello World!'&lt;/span&gt;);
+});
+
+&lt;span class=&quot;comment&quot;&gt;// Bind to a port&lt;/span&gt;
+app.listen(&lt;span class=&quot;number&quot;&gt;3000&lt;/span&gt;);
+console.log(&lt;span class=&quot;string&quot;&gt;'Application running!'&lt;/span&gt;);&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we have a basic Express app, you can run it from the command line with &lt;code&gt;node app.js&lt;/code&gt;. When you go to &lt;a href=&quot;http://localhost:3000/&quot;&gt;http://localhost:3000/&lt;/a&gt;, you should see the message &amp;quot;Hello world!&amp;quot; in your browser.
+
+&lt;/p&gt;
+&lt;p&gt;That&amp;#39;s all well and good, but let&amp;#39;s get down to the point of this post – clustering! It&amp;#39;s surprisingly simple; we&amp;#39;ll update &lt;code&gt;app.js&lt;/code&gt; line by line and explain the process.
+
+&lt;/p&gt;
+&lt;p&gt;First, we add a new line at the very top of the file:
+
+&lt;/p&gt;
+&lt;pre class=&quot;highlighted&quot;&gt;&lt;code class=&quot;javascript&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// Include the cluster module&lt;/span&gt;
+&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; cluster = require(&lt;span class=&quot;string&quot;&gt;'cluster'&lt;/span&gt;);
+
+...&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we&amp;#39;re going to add a conditional to &lt;code&gt;app.js&lt;/code&gt; which wraps all of our Express application functionality. Update your file to look like this:
+
+&lt;/p&gt;
+&lt;pre class=&quot;highlighted&quot;&gt;&lt;code class=&quot;javascript&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// Include the cluster module&lt;/span&gt;
+&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; cluster = require(&lt;span class=&quot;string&quot;&gt;'cluster'&lt;/span&gt;);
+
+&lt;span class=&quot;comment&quot;&gt;// Code to run if we're in the master process&lt;/span&gt;
+&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (cluster.isMaster) {
+
+    ...
+
+&lt;span class=&quot;comment&quot;&gt;// Code to run if we're in a worker process&lt;/span&gt;
+} &lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt; {
+
+    &lt;span class=&quot;comment&quot;&gt;// Include Express&lt;/span&gt;
+    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; express = require(&lt;span class=&quot;string&quot;&gt;'express'&lt;/span&gt;);
+
+    &lt;span class=&quot;comment&quot;&gt;// Create a new Express application&lt;/span&gt;
+    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; app = express();
+
+    &lt;span class=&quot;comment&quot;&gt;// Add a basic route – index page&lt;/span&gt;
+    app.get(&lt;span class=&quot;string&quot;&gt;'/'&lt;/span&gt;, &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;params&quot;&gt;(req, res)&lt;/span&gt; {&lt;/span&gt;
+        res.send(&lt;span class=&quot;string&quot;&gt;'Hello World!'&lt;/span&gt;);
+    });
+
+    &lt;span class=&quot;comment&quot;&gt;// Bind to a port&lt;/span&gt;
+    app.listen(&lt;span class=&quot;number&quot;&gt;3000&lt;/span&gt;);
+    console.log(&lt;span class=&quot;string&quot;&gt;'Application running!'&lt;/span&gt;);
+
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What we&amp;#39;re doing here is detecting whether the application is being run in the &amp;#39;master&amp;#39; process (the one you start from the command line) or a &amp;#39;worker&amp;#39; process (a process created by the master).
+
+&lt;/p&gt;
+&lt;p&gt;Your application code can stay pretty much the same, which makes it fairly easy to add clustering to an existing application.
+
+&lt;/p&gt;
+&lt;p&gt;Let&amp;#39;s write the code for the master process, we&amp;#39;re almost done! Fill out the first half of the conditional to look like this:
+
+&lt;/p&gt;
+&lt;pre class=&quot;highlighted&quot;&gt;&lt;code class=&quot;javascript&quot;&gt;...
+
+&lt;span class=&quot;comment&quot;&gt;// Code to run if we're in the master process&lt;/span&gt;
+&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (cluster.isMaster) {
+
+    &lt;span class=&quot;comment&quot;&gt;// Count the machine's CPUs&lt;/span&gt;
+    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; cpuCount = require(&lt;span class=&quot;string&quot;&gt;'os'&lt;/span&gt;).cpus().length;
+
+    &lt;span class=&quot;comment&quot;&gt;// Create a worker for each CPU&lt;/span&gt;
+    &lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt; (&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; i = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;; i &amp;lt; cpuCount; i += &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;) {
+        cluster.fork();
+    }
+
+&lt;span class=&quot;comment&quot;&gt;// Code to run if we're in a worker process&lt;/span&gt;
+} &lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt; {
+
+...&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;All we&amp;#39;re doing above is counting the number of CPUs your machine has, and calling &lt;code&gt;cluster.fork&lt;/code&gt; for each. For example, If your machine has four CPUs then &lt;code&gt;cluster.fork&lt;/code&gt; will be called four times, creating four new processes.
+
+&lt;/p&gt;
+&lt;p&gt;The new worker processes we create will run the same &lt;code&gt;app.js&lt;/code&gt; JavaScript file as the master, except it will use the code in the &lt;code&gt;else&lt;/code&gt; statement. This is obviously because &lt;code&gt;cluster.isMaster&lt;/code&gt; is &lt;code&gt;false&lt;/code&gt; within a worker.
+
+&lt;/p&gt;
+&lt;p&gt;If you run &lt;code&gt;node app.js&lt;/code&gt; now, nothing will look different. The only thing you&amp;#39;ll notice is that the message &amp;quot;Application running!&amp;quot; will appear more than once in your command line.
+
+&lt;/p&gt;
+&lt;p&gt;Before we finish up, let&amp;#39;s output the worker ID so you can tell which worker is serving your page each time it loads. Replace the following lines:
+
+&lt;/p&gt;
+&lt;pre class=&quot;highlighted&quot;&gt;&lt;code class=&quot;javascript&quot;&gt;res.send(&lt;span class=&quot;string&quot;&gt;'Hello World!'&lt;/span&gt;);
+
+...
+
+console.log(&lt;span class=&quot;string&quot;&gt;'Application running!'&lt;/span&gt;);&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;with these:
+
+&lt;/p&gt;
+&lt;pre class=&quot;highlighted&quot;&gt;&lt;code class=&quot;javascript&quot;&gt;res.send(&lt;span class=&quot;string&quot;&gt;'Hello from Worker '&lt;/span&gt; + cluster.worker.id);
+
+...
+
+console.log(&lt;span class=&quot;string&quot;&gt;'Worker '&lt;/span&gt; + cluster.worker.id + &lt;span class=&quot;string&quot;&gt;' running!'&lt;/span&gt;);&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now when you run the application, you should see the workers being started in your command line. When you revisit &lt;a href=&quot;http://localhost:3000/&quot;&gt;http://localhost:3000/&lt;/a&gt; you should see the message &amp;quot;Hello from Worker X&amp;quot; where X is the ID of the worker serving you.
+
+&lt;/p&gt;
+&lt;p&gt;Try opening the page in multiple tabs and browsers – you should see varying workers.
+
+
+&lt;/p&gt;
+&lt;h2&gt;The Proof Is In The Pudding&lt;/h2&gt;
+&lt;p&gt;So far, you&amp;#39;ve taken my word for it that clustering is fast. The last thing I&amp;#39;m going to do here is run some benchmarks on the application before and after adding clustering.
+
+&lt;/p&gt;
+&lt;p&gt;Because the application is so minimal now, I added a long loop to the index route to help illustrate how a clustered application performs better under heavy load.
+
+&lt;/p&gt;
+&lt;p&gt;Without clustering:
+
+&lt;/p&gt;
+&lt;pre class=&quot;highlighted&quot;&gt;&lt;code class=&quot;bash&quot;&gt;$ siege -c100 -t1M http://localhost:3000/
+Transactions:                263 hits
+Availability:                100.00 %
+Elapsed time:                59.50 secs
+Data transferred:            849.99 MB
+Response time:               19.41 secs
+Transaction rate:            4.42 trans/sec
+Throughput:                  14.29 MB/sec
+Concurrency:                 85.79
+Successful transactions:     263
+Failed transactions:         0
+Longest transaction:         34.57
+Shortest transaction:        10.07&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;With clustering:
+
+&lt;/p&gt;
+&lt;pre class=&quot;highlighted&quot;&gt;&lt;code class=&quot;bash&quot;&gt;$ siege -c100 -t1M http://localhost:3000/
+Transactions:                811 hits
+Availability:                100.00 %
+Elapsed time:                59.25 secs
+Data transferred:            2621.08 MB
+Response time:               6.50 secs
+Transaction rate:            13.69 trans/sec
+Throughput:                  44.24 MB/sec
+Concurrency:                 88.96
+Successful transactions:     811
+Failed transactions:         0
+Longest transaction:         16.47
+Shortest transaction:        0.54&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I think you&amp;#39;ll agree that that&amp;#39;s a worthwhile performance increase for only a few lines of code ;)
+
+
+&lt;/p&gt;
+&lt;h2&gt;Bonus Code: Coping With Death&lt;/h2&gt;
+&lt;p&gt;Last but not least, there&amp;#39;s one last thing that would be useful to add to our application. In the (hopefully unlikely) event that one of our worker processes dies, we&amp;#39;ll want to make sure we spawn another; otherwise we could eventually end up just running an empty master process and losing all our requests!
+
+&lt;/p&gt;
+&lt;p&gt;This is also incredibly easy to do by binding to the cluster &amp;#39;exit&amp;#39; event. Add the following code directly beneath the loop which creates our initial workers. It&amp;#39;s fairly self-explanatory:
+
+&lt;/p&gt;
+&lt;pre class=&quot;highlighted&quot;&gt;&lt;code class=&quot;javascript&quot;&gt;...
+
+&lt;span class=&quot;comment&quot;&gt;// Listen for dying workers&lt;/span&gt;
+cluster.on(&lt;span class=&quot;string&quot;&gt;'exit'&lt;/span&gt;, &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;params&quot;&gt;(worker)&lt;/span&gt; {&lt;/span&gt;
+
+    &lt;span class=&quot;comment&quot;&gt;// Replace the dead worker,&lt;/span&gt;
+    &lt;span class=&quot;comment&quot;&gt;// we're not sentimental&lt;/span&gt;
+    console.log(&lt;span class=&quot;string&quot;&gt;'Worker '&lt;/span&gt; + worker.id + &lt;span class=&quot;string&quot;&gt;' died :('&lt;/span&gt;);
+    cluster.fork();
+
+});
+
+...&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we don&amp;#39;t have to worry as much if something goes horribly wrong in one of our workers!
+
+&lt;/p&gt;
+&lt;p&gt;I hope you enjoyed this tutorial. As mentioned above, you can get a hold of the &lt;a href=&quot;https://github.com/rowanmanning/learning-express-cluster&quot;&gt;source code for the examples on GitHub&lt;/a&gt;. For more information, check out the &lt;a href=&quot;http://nodejs.org/api/cluster.html&quot;&gt;Node.js Cluster module documentation&lt;/a&gt;.
+
+&lt;/p&gt;
+&lt;p&gt;Thanks for reading.
+
+
+&lt;/p&gt;
+</content>
+        </entry>
     
         <entry>
             <title>The Mixed Blessing Of Ambition</title>
