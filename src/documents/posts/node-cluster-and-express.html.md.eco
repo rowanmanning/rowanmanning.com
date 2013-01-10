@@ -129,7 +129,7 @@ if (cluster.isMaster) {
 ...
 ```
 
-All we're doing above is counting the number of CPUs your machine has, and calling `cluster.fork` for each. If your machine has four CPUs, for example, `cluster.fork` will be called twice, creating four new processes.
+All we're doing above is counting the number of CPUs your machine has, and calling `cluster.fork` for each. For example, If your machine has four CPUs then `cluster.fork` will be called four times, creating four new processes.
 
 The new worker processes we create will run the same `app.js` JavaScript file as the master, except it will use the code in the `else` statement. This is obviously because `cluster.isMaster` is `false` within a worker.
 
@@ -226,6 +226,8 @@ cluster.on('exit', function (worker) {
 
 ...
 ```
+
+Now we don't have to worry as much if something goes horribly wrong in one of our workers!
 
 I hope you enjoyed this tutorial. As mentioned above, you can get a hold of the [source code for the examples on GitHub][source]. For more information, check out the [Node.js Cluster module documentation][cluster].
 
