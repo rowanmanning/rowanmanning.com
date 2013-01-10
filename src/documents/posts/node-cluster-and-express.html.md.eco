@@ -205,7 +205,7 @@ Shortest transaction:        0.54
 I think you'll agree that that's a worthwhile performance increase for only a few lines of code ;)
 
 
-## Bonus Code! ##
+## Bonus Code: Coping With Death ##
 
 Last but not least, there's one last thing that would be useful to add to our application. In the (hopefully unlikely) event that one of our worker processes dies, we'll want to make sure we spawn another; otherwise we could eventually end up just running an empty master process and losing all our requests!
 
