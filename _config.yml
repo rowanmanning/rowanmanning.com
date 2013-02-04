@@ -1,0 +1,26 @@
+
+# Jekyll config
+auto: true
+exclude:
+  - Makefile
+lsi: false
+permalink: /posts/:title
+pygments: true
+safe: true
+server: true
+
+# Site details
+lang: en-GB
+host: rowanmanning.co.uk
+
+# Blog details
+blog:
+  title: Rowan Manning's Blog
+
+# Author details
+author:
+  name: Rowan Manning
+  url: http://rowanmanning.co.uk/
+
+# Tracking info
+ga: UA-5860182-1

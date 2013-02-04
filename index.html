@@ -1,0 +1,20 @@
+---
+title: Rowan Manning
+description: Rowan Manning's website.
+layout: page
+lastmod: 2013-02-04 21:32
+---
+
+<h1>Hello World</h1>
+
+<p>This is my website&hellip;</p>
+
+<ul class="posts">
+    {% for post in site.posts %}
+        {% if post.noindex != true %}
+            <li>
+                {% include post.html %}
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
