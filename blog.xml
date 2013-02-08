@@ -4,7 +4,7 @@
     <title>Rowan Manning's Blog</title>
     <link href="http://rowanmanning.co.uk/blog.xml" rel="self"/>
     <link href="http://rowanmanning.co.uk/"/>
-    <updated>2013-01-10T23:55:45.987Z</updated>
+    <updated>2013-02-08T07:41:20.920Z</updated>
     <id>http://rowanmanning.co.uk/blog.xml</id>
     <author>
         <name>Rowan Manning</name>
@@ -362,10 +362,10 @@ cluster.on(&lt;span class=&quot;string&quot;&gt;'exit'&lt;/span&gt;, &lt;span cl
 &lt;p&gt;What suprised me is how quickly I ended up with a good working (IE 6+) prototype. Not only was it fast, but I had a lot of fun!
 
 &lt;/p&gt;
-&lt;p&gt;After a couple of hours spent tweaking and testing, I &lt;a href=&quot;http://frag.rowanmanning.co.uk/&quot;&gt;ended up with Frag&lt;/a&gt;. It&amp;#39;s not perfect, it&amp;#39;s not extremely feature-rich, but it does exactly the job I need it to do.
+&lt;p&gt;After a couple of hours spent tweaking and testing, I &lt;a href=&quot;http://frag.rowanmanning.com/&quot;&gt;ended up with Frag&lt;/a&gt;. It&amp;#39;s not perfect, it&amp;#39;s not extremely feature-rich, but it does exactly the job I need it to do.
 
 &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://frag.rowanmanning.co.uk/&quot;&gt;&lt;img src=&quot;http://rowanmanning.co.uk/media/images/posts/frag-website-screengrab.jpg&quot; alt=&quot;A screen-grab of the Frag website&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;a href=&quot;http://frag.rowanmanning.com/&quot;&gt;&lt;img src=&quot;http://rowanmanning.co.uk/media/images/posts/frag-website-screengrab.jpg&quot; alt=&quot;A screen-grab of the Frag website&quot;&gt;&lt;/a&gt;
 
 
 &lt;/p&gt;
@@ -389,7 +389,7 @@ cluster.on(&lt;span class=&quot;string&quot;&gt;'exit'&lt;/span&gt;, &lt;span cl
 &lt;p&gt;If you do end up building something great as a result of this post, I&amp;#39;d be really interested to take a look: tweet it at me!
 
 &lt;/p&gt;
-&lt;p&gt;And if you don&amp;#39;t fancy building your own grid system, you could always &lt;a href=&quot;http://frag.rowanmanning.co.uk/&quot;&gt;use Frag&lt;/a&gt; ;)
+&lt;p&gt;And if you don&amp;#39;t fancy building your own grid system, you could always &lt;a href=&quot;http://frag.rowanmanning.com/&quot;&gt;use Frag&lt;/a&gt; ;)
 
 
 &lt;/p&gt;
