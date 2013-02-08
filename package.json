@@ -1,11 +1,11 @@
 {
-    "name": "rowanmanning.co.uk",
+    "name": "rowanmanning.com",
     "version": "2.0.1",
     "private": true,
 
     "author": {
         "name": "Rowan Manning",
-        "url": "http://rowanmanning.co.uk/"
+        "url": "http://rowanmanning.com/"
     },
 
     "dependencies": {

@@ -1,16 +1,16 @@
 {
     templateData:
         site:
-            host: 'rowanmanning.co.uk'
+            host: 'rowanmanning.com'
             author:
                 name: "Rowan Manning"
-                url: 'http://rowanmanning.co.uk/'
+                url: 'http://rowanmanning.com/'
             language: 'en-GB'
             description: 'The personal website of Rowan Manning'
             googleAnalyticsAccount: 'UA-5860182-1'
             twitterHandle: 'rowanmanning'
-            email: 'info@rowanmanning.co.uk'
-            atomUrl: 'http://rowanmanning.co.uk/blog.xml'
+            email: 'info@rowanmanning.com'
+            atomUrl: 'http://rowanmanning.com/blog.xml'
         social: [
             {
                 type: 'twitter'
