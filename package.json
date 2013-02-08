@@ -17,7 +17,8 @@
         "docpad-plugin-highlightjs": "2.1.x",
         "docpad-plugin-less": "2.1.x",
         "docpad-plugin-marked": "2.1.x",
-        "docpad-plugin-partials": "2.4.x"
+        "docpad-plugin-partials": "2.4.x",
+        "moment": "1.7.x"
     },
     "engines" : {
         "node": ">=0.8"
