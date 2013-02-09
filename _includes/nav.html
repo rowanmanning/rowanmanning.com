@@ -1,6 +1,40 @@
 
+<a href="/" class="logo">
+    <span class="title">
+        Rowan Manning,
+    </span>
+    <span class="tagline">
+        Web Geek
+    </span>
+</a>
+
 <!-- Site navigation -->
-<ul class="nav">
-    <li><a href="/">Home</a></li>
-    <li><a href="/blog/">Blog</a></li>
+<ul class="nav site-nav">
+
+    <li class="about">
+        <a href="/" title="About Rowan Manning">
+            About Me
+        </a>
+    </li>
+
+    <li class="blog">
+        <a href="/blog/" title="Rowan Manning's Blog">
+            My Blog
+        </a>
+    </li>
+
+</ul>
+
+<ul class="nav social-nav">
+
+    {% for item in site.social %}
+        {% if item.nav == true %}
+            <li class="{{ item.type }}">
+                <a href="{{ item.url }}" title="{{ item.title }}">
+                    <span class="col-mobile-hide">{{ item.label }}</span>
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+
 </ul>

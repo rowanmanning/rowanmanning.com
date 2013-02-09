@@ -2,8 +2,26 @@
 layout: page
 ---
 
+<h1>{{ page.title }}</h1>
+
+<div class="meta flow">
+    Posted <time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ page.date | date: '%d %B, %Y' }}</time>
+    by {{ site.author.name }}
+</div>
+
 {{ content }}
 
 <hr/>
 
-Thanks for reading!
+<h3 class="h2">Discussion</h3>
+
+<p>
+    If you'd like to discuss any of the topics in this post, please get in touch! You can find me on
+    Twitter as @<a href="http://twitter.com/{{ site.twitter }}">{{ site.twitter }}</a>, or
+    <a href="mailto:{{ site.email }}?subject={{ page.title | cgi_escape }}">email me about this post</a>.
+</p>
+
+<p>
+    <a class="twitter-share-button" href="https://twitter.com/share?url={{ 'http://' | cgi_escape }}{{ site.host | cgi_escape }}{{ page.url | cgi_escape }}&via={{ site.twitter }}&text={{ page.title | cgi_escape }}" data-count="none">Spread the word on Twitter</a>
+    <a class="twitter-follow-button" href="http://twitter.com/{{ site.twitter }}" data-show-count="false">Follow me</a>
+</p>

@@ -14,6 +14,8 @@ server: true
 # Site details
 lang: en-GB
 host: rowanmanning.com
+email: info@rowanmanning.com
+twitter: rowanmanning
 
 # Blog details
 blog:
@@ -28,3 +30,42 @@ author:
 track:
   ga: UA-5860182-1
   bitly: 9fa4195591f6
+
+# Social media
+social:
+
+  - type: twitter
+    url: https://twitter.com/rowanmanning
+    label: Twitter
+    title: Rowan Manning on Twitter
+    description: I use Twitter to get my daily dose of the web, I share my findings too.
+    nav: true
+
+  - type: github
+    url: https://github.com/rowanmanning
+    label: GitHub
+    title: Rowan Manning's Open-Source Code on GitHub
+    description: GitHub is where I keep all my open-source code; I'd love your feedback :)
+    nav: true
+
+  - type: dribbble
+    url: http://dribbble.com/rowanmanning
+    label: Dribbble
+    title: Rowan Manning's Design Work on Dribbble
+    description: On the rare occasions when I design, I post works-in-progress on Dribbble.
+    nav: true
+
+  - type: linkedin
+    url: http://www.linkedin.com/in/rowanmanning
+    label: LinkedIn
+    title: Rowan Manning's Professional Profile on LinkedIn
+    description: If you're interested in what I've achieved professionally, check LinkedIn.
+
+  - type: last-fm
+    url: http://www.last.fm/user/rowanmanning
+    label: Last.fm
+    title: Rowan Manning's Scrobbles on Last.fm
+    description: I scrobble pretty much all the music I listen to on Last.fm.
+
+  - url: https://plus.google.com/112029391894332163375
+    hidden: true
