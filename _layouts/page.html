@@ -4,7 +4,16 @@
     {% include head.html %}
 </head>
 <body>
-    {% include nav.html %}
-    {{ content }}
+    <div class="wrapper">
+
+        {% include nav.html %}
+
+        <div class="grid content">
+            <div class="col ca-12">
+                {{ content }}
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
