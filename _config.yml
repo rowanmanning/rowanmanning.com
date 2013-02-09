@@ -2,16 +2,18 @@
 # Jekyll config
 auto: true
 exclude:
+  - CNAME
   - Makefile
+  - README.md
 lsi: false
-permalink: /posts/:title
+permalink: /posts/:title/
 pygments: true
 safe: true
 server: true
 
 # Site details
 lang: en-GB
-host: rowanmanning.co.uk
+host: rowanmanning.com
 
 # Blog details
 blog:
@@ -20,7 +22,7 @@ blog:
 # Author details
 author:
   name: Rowan Manning
-  url: http://rowanmanning.co.uk/
+  url: http://rowanmanning.com/
 
 # Tracking info
 ga: UA-5860182-1
