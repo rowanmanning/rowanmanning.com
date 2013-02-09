@@ -1,0 +1,18 @@
+---
+title: Rowan Manning's Blog
+description: Rowan Manning's blog on all things web. Covering code, accessibility, usability, work and cats
+layout: page
+lastmod: 2013-02-04 21:32
+---
+
+<h1>Rowan's Blog</h1>
+
+<ul class="posts">
+    {% for post in site.posts %}
+        {% if post.noindex != true %}
+            <li>
+                {% include post.html %}
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>

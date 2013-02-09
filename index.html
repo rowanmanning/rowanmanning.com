@@ -1,6 +1,6 @@
 ---
-title: Rowan Manning
-description: Rowan Manning's website.
+title: Rowan Manning, Web Geek
+description: The personal website of Rowan Manning, Web Geek. Rowan loves to solve problems with code, enjoys delicious beer and dreams of cats
 layout: page
 lastmod: 2013-02-04 21:32
 ---
@@ -8,13 +8,3 @@ lastmod: 2013-02-04 21:32
 <h1>Hello World</h1>
 
 <p>This is my website&hellip;</p>
-
-<ul class="posts">
-    {% for post in site.posts %}
-        {% if post.noindex != true %}
-            <li>
-                {% include post.html %}
-            </li>
-        {% endif %}
-    {% endfor %}
-</ul>
