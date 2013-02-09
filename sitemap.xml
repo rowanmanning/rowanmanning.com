@@ -5,30 +5,14 @@ noindex: true
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+    <!-- Pages -->
     {% for page in site.pages %}
-        {% if page.url != '' and page.noindex != true %}
-            <url>
-                <loc>http://{{ site.host }}{{ page.url | replace: 'index.html', '' }}</loc>
-                {% if page.lastmod %}
-                    <lastmod>{{ page.lastmod | date: '%Y-%m-%dT%H:%M:%SZ' }}</lastmod>
-                {% elsif page.date %}
-                    <lastmod>{{ page.date | date: '%Y-%m-%dT%H:%M:%SZ' }}</lastmod>
-                {% endif %}
-            </url>
-        {% endif %}
+        {% include sitemap/url.xml %}
     {% endfor %}
 
-    {% for post in site.posts %}
-        {% if post.url != '' and post.noindex != true %}
-            <url>
-                <loc>http://{{ site.host }}{{ post.url }}</loc>
-                {% if post.lastmod %}
-                    <lastmod>{{ post.lastmod | date: '%Y-%m-%dT%H:%M:%SZ' }}</lastmod>
-                {% else %}
-                    <lastmod>{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}</lastmod>
-                {% endif %}
-            </url>
-        {% endif %}
+    <!-- Posts -->
+    {% for page in site.posts %}
+        {% include sitemap/url.xml %}
     {% endfor %}
 
 </urlset>
