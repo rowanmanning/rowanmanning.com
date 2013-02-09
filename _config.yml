@@ -25,4 +25,6 @@ author:
   url: http://rowanmanning.com/
 
 # Tracking info
-ga: UA-5860182-1
+track:
+  ga: UA-5860182-1
+  bitly: 9fa4195591f6
