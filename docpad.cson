@@ -8,6 +8,7 @@
             language: 'en-GB'
             description: 'The personal website of Rowan Manning'
             googleAnalyticsAccount: 'UA-5860182-1'
+            bitlyVerification: '9fa4195591f6'
             twitterHandle: 'rowanmanning'
             email: 'info@rowanmanning.com'
             atomUrl: 'http://rowanmanning.com/blog.xml'
