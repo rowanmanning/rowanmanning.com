@@ -1041,8 +1041,14 @@ table {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
 }
+.has-icon.date:before {
+  content: "c";
+}
+.has-icon.tags:before {
+  content: "a";
+}
 .has-icon.dribbble:before {
-  content: "\e002";
+  content: "d";
   color: #ea4c89;
 }
 .has-icon.dribbble:hover {
@@ -1050,7 +1056,7 @@ table {
   background-color: #f2d1de;
 }
 .has-icon.feed:before {
-  content: "\e004";
+  content: "f";
   color: #f28d35;
 }
 .has-icon.feed:hover {
@@ -1058,7 +1064,7 @@ table {
   background-color: #f4dcc8;
 }
 .has-icon.github:before {
-  content: "\e003";
+  content: "g";
   color: #444444;
 }
 .has-icon.github:hover {
@@ -1066,7 +1072,7 @@ table {
   background-color: #dddddd;
 }
 .has-icon.twitter:before {
-  content: "\e001";
+  content: "t";
   color: #52ade5;
 }
 .has-icon.twitter:hover {
@@ -1106,6 +1112,14 @@ table {
 
 .blocklink:hover, .noisy, .swatch, .footer:before, html, body:before, .wrapper:before, .page {
   background-image: url("assets/100-65-5.png");
+}
+
+.post {
+  border-left: 5px solid #eadbcd;
+  padding-left: 10px;
+}
+.post:hover {
+  border-left: 5px solid #7db578;
 }
 
 .swatches {
@@ -1206,11 +1220,21 @@ body {
   color: #747474;
 }
 
-.flow, p, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, blockquote, dl, figure, ol, ul, hr, pre, table {
+.flow, p, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, blockquote, dl, figure, ol, ul, hr, pre, table, .half-flow, .double-flow {
   display: block;
   margin-top: 0;
   margin-bottom: 26px;
   margin-bottom: 2.6rem;
+}
+
+.half-flow {
+  margin-bottom: 13px;
+  margin-bottom: 1.3rem;
+}
+
+.double-flow {
+  margin-bottom: 52px;
+  margin-bottom: 5.2rem;
 }
 
 .interrupt {
@@ -1237,13 +1261,13 @@ h6, .h6, dt, th {
 }
 
 h5, .h5 {
-  font-size: 26px;
-  font-size: 2.6rem;
+  font-size: 24px;
+  font-size: 2.4rem;
 }
 
 h4, .h4 {
-  font-size: 30px;
-  font-size: 3rem;
+  font-size: 26px;
+  font-size: 2.6rem;
 }
 
 h3, .h3, h2, .h2, h1, .h1 {
@@ -1252,21 +1276,21 @@ h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h3, .h3 {
+  font-size: 30px;
+  font-size: 3rem;
+}
+
+h2, .h2 {
   font-size: 34px;
   font-size: 3.4rem;
 }
 
-h2, .h2 {
+h1, .h1 {
   font-size: 38px;
   font-size: 3.8rem;
 }
 
-h1, .h1 {
-  font-size: 42px;
-  font-size: 4.2rem;
-}
-
-figcaption, small, sub, sup {
+figcaption, small, .small, sub, sup {
   font-size: 16px;
   font-size: 1.6rem;
 }

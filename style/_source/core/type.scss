@@ -15,10 +15,16 @@ body {
 .secondary {
     color: $c-grey;
 }
-.flow {
+.flow, .half-flow, .double-flow {
     display: block;
     margin-top: 0;
     @include rem("margin-bottom", $t-lineheight);
+}
+.half-flow {
+    @include rem("margin-bottom", $t-lineheight / 2);
+}
+.double-flow {
+    @include rem("margin-bottom", $t-lineheight * 2);
 }
 .interrupt {
     margin-bottom: 0;
@@ -44,26 +50,26 @@ h6, .h6, dt, th {
     @include rem("font-size", $t-height + 4px);
 }
 h5, .h5 {
-    @include rem("font-size", $t-height + 8px);
+    @include rem("font-size", $t-height + 6px);
 }
 h4, .h4 {
-    @include rem("font-size", $t-height + 12px);
+    @include rem("font-size", $t-height + 8px);
 }
 h3, .h3, h2, .h2, h1, .h1 {
     @include rem("line-height", $t-lineheight * 2);
 }
 h3, .h3 {
-    @include rem("font-size", $t-height + 16px);
+    @include rem("font-size", $t-height + 12px);
 }
 h2, .h2 {
-    @include rem("font-size", $t-height + 20px);
+    @include rem("font-size", $t-height + 16px);
 }
 h1, .h1 {
-    @include rem("font-size", $t-height + 24px);
+    @include rem("font-size", $t-height + 20px);
 }
 
 // Small element styles
-figcaption, small, sub, sup {
+figcaption, small, .small, sub, sup {
     @include rem("font-size", $t-height - 2px);
 }
 

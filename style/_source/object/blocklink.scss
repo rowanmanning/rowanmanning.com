@@ -28,9 +28,19 @@
         font-weight: normal;
         -webkit-font-smoothing: antialiased;
     }
+
+    // Site
+    &.date:before {
+        content: "c";
+    }
+    &.tags:before {
+        content: "a";
+    }
+
+    // Social
     &.dribbble {
         &:before {
-            content: "\e002";
+            content: "d";
             color: $c-dribbble;
         }
         &:hover {
@@ -40,7 +50,7 @@
     }
     &.feed {
         &:before {
-            content: "\e004";
+            content: "f";
             color: $c-feed;
         }
         &:hover {
@@ -50,7 +60,7 @@
     }
     &.github {
         &:before {
-            content: "\e003";
+            content: "g";
             color: $c-github;
         }
         &:hover {
@@ -60,7 +70,7 @@
     }
     &.twitter {
         &:before {
-            content: "\e001";
+            content: "t";
             color: $c-twitter;
         }
         &:hover {

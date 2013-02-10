@@ -1,8 +1,10 @@
 
 <div class="post">
     <a href="{{ post.url }}" class="stealth-a">
-        <h4>{{ post.title }}</h4>
-        <p class="secondary">Posted {{ post.date | date: '%d %B, %Y' }}</p>
+        <h4 class="half-flow">{{ post.title }}</h4>
+        <p class="secondary small half-flow">
+            <span class="has-icon date">Posted {{ post.date | date: '%d %B %Y' }}</span>
+        </p>
         <p>{{ post.description }}</p>
     </a>
 </div>

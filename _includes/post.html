@@ -2,7 +2,10 @@
 <div class="post">
     <a href="{{ post.url }}" class="stealth-a">
         <h3>{{ post.title }}</h3>
-        <p class="secondary">Posted {{ post.date | date: '%d %B, %Y' }}</p>
+        <p class="secondary small half-flow">
+            <span class="has-icon date">Posted {{ post.date | date: '%d %B %Y' }}</span>{% if post.tags != empty %}, &nbsp;
+            <span class="has-icon tags">Tagged with {{ post.tags | join: ', ' }}</span>{% endif %}
+        </p>
         <p>{{ post.description }}</p>
     </a>
 </div>
