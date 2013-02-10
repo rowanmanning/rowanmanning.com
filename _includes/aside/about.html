@@ -1,16 +1,30 @@
 
-<div class="double-flow">
+<div class="double-flow" itemscope itemtype="http://schema.org/Person">
 
     <h3 class="h1 half-flow">About Me</h3>
 
-    <a href="/about/" title="Rowan Manning" class="move-left">
+    <meta itemprop="url" content="http://{{ site.host }}/about/"/>
+    <meta itemprop="email" content="{{ site.email }}"/>
+    <meta content="Male" itemprop="gender"/>
+
+    <a href="http://{{ site.host }}/media/images/Rowan.png" title="Rowan Manning" itemprop="image" class="move-left">
         <img src="/media/images/Rowan.thumb.png" alt="Rowan Manning" class="about-avatar"/>
     </a>
 
-    <p class="half-flow">
-        Hi! I'm Rowan Manning, a 25 year old Web Geek and Front-End/JavaScript Developer from the UK. I love to solve problems with
-        code, and I'm currently doing exactly that for
-        <a href="http://www.nature.com/">Nature Publishing Group</a> in London.
+    <p itemprop="description" class="half-flow">
+        Hi! I'm <span itemprop="name">Rowan Manning</span>,
+        a <time datetime="1988-01-26" itemprop="birthDate">25 year old</time> year old
+        Web Geek and <span itemprop="jobTitle">Front-End/JavaScript Developer</span> from the UK.
+        I love to solve problems with code, and I'm currently doing exactly that for
+        <span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+            <span itemprop="name"><a itemprop="url" href="http://www.nature.com/">Nature Publishing Group</a></span>,
+            in
+            <span itemprop="location" itemscope itemtype="http://schema.org/PostalAddress">
+                <meta itemprop="addressLocality" content="London"/>
+                <meta itemprop="addressCountry" content="UK"/>
+                <span itemprop="name">London</span>.
+            </span>
+        </span>
     </p>
 
     <a href="/about/" class="blocklink">Read more about me</a>

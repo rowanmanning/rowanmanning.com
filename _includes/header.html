@@ -38,7 +38,7 @@
     {% for item in site.social %}
         {% if item.nav == true %}
             <li>
-                <a href="{{ item.url }}" title="{{ item.title }}" class="{{ item.type }} blocklink has-icon">
+                <a href="{{ item.url }}" title="{{ item.title }}" class="{{ item.type }} blocklink has-icon" rel="me">
                     <span class="label">{{ item.label }}</span>
                 </a>
             </li>
