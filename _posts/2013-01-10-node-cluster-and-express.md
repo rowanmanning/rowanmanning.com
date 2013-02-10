@@ -173,36 +173,36 @@ Without clustering:
 
 {% highlight bash %}
 $ siege -c100 -t1M http://localhost:3000/
-Transactions:                263 hits
-Availability:                100.00 %
-Elapsed time:                59.50 secs
-Data transferred:            849.99 MB
-Response time:               19.41 secs
-Transaction rate:            4.42 trans/sec
-Throughput:                  14.29 MB/sec
-Concurrency:                 85.79
-Successful transactions:     263
-Failed transactions:         0
-Longest transaction:         34.57
-Shortest transaction:        10.07
+#> Transactions:                263 hits
+#> Availability:                100.00 %
+#> Elapsed time:                59.50 secs
+#> Data transferred:            849.99 MB
+#> Response time:               19.41 secs
+#> Transaction rate:            4.42 trans/sec
+#> Throughput:                  14.29 MB/sec
+#> Concurrency:                 85.79
+#> Successful transactions:     263
+#> Failed transactions:         0
+#> Longest transaction:         34.57
+#> Shortest transaction:        10.07
 {% endhighlight %}
 
 With clustering:
 
 {% highlight bash %}
 $ siege -c100 -t1M http://localhost:3000/
-Transactions:                811 hits
-Availability:                100.00 %
-Elapsed time:                59.25 secs
-Data transferred:            2621.08 MB
-Response time:               6.50 secs
-Transaction rate:            13.69 trans/sec
-Throughput:                  44.24 MB/sec
-Concurrency:                 88.96
-Successful transactions:     811
-Failed transactions:         0
-Longest transaction:         16.47
-Shortest transaction:        0.54
+#> Transactions:                811 hits
+#> Availability:                100.00 %
+#> Elapsed time:                59.25 secs
+#> Data transferred:            2621.08 MB
+#> Response time:               6.50 secs
+#> Transaction rate:            13.69 trans/sec
+#> Throughput:                  44.24 MB/sec
+#> Concurrency:                 88.96
+#> Successful transactions:     811
+#> Failed transactions:         0
+#> Longest transaction:         16.47
+#> Shortest transaction:        0.54
 {% endhighlight %}
 
 I think you'll agree that that's a worthwhile performance increase for only a few lines of code ;)
