@@ -25,3 +25,8 @@ body:before {
     @extend %noisy;
     background-color: $c-cream;
 }
+
+// 404
+.error-404 {
+    background-color: $c-cream;
+}

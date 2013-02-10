@@ -1210,6 +1210,13 @@ table {
     float: right;
   }
 }
+.error-404 .grid {
+  max-width: 640px;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 img, .video {
   max-width: 100%;
   display: block;
@@ -1535,5 +1542,9 @@ body:before {
 }
 
 .page {
+  background-color: #fffaf5;
+}
+
+.error-404 {
   background-color: #fffaf5;
 }
