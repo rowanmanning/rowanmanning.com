@@ -49,24 +49,27 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, dt, th {
 }
 h6, .h6, dt, th {
     @include rem("font-size", $t-height + 4px);
+    @include rem("line-height", $t-lineheight + 4px);
 }
 h5, .h5 {
     @include rem("font-size", $t-height + 6px);
+    @include rem("line-height", $t-lineheight + 6px);
 }
 h4, .h4 {
     @include rem("font-size", $t-height + 8px);
-}
-h3, .h3, h2, .h2, h1, .h1 {
-    @include rem("line-height", $t-lineheight * 2);
+    @include rem("line-height", $t-lineheight + 8px);
 }
 h3, .h3 {
     @include rem("font-size", $t-height + 12px);
+    @include rem("line-height", $t-lineheight + 12px);
 }
 h2, .h2 {
     @include rem("font-size", $t-height + 16px);
+    @include rem("line-height", $t-lineheight + 16px);
 }
 h1, .h1 {
     @include rem("font-size", $t-height + 20px);
+    @include rem("line-height", $t-lineheight + 20px);
 }
 
 // Small element styles
