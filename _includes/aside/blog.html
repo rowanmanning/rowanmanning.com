@@ -9,7 +9,7 @@
             {% if post.noindex != true and numposts < 3 %}
                 {% assign numposts = numposts | plus:1 %}
                 <li class="flow">
-                    {% include post.html %}
+                    {% include aside/post.html %}
                 </li>
             {% endif %}
         {% endfor %}

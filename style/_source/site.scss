@@ -11,6 +11,10 @@ $c-green-dk: #7db578;
 $c-grey: #747474;
 $c-grey-dk: #333;
 
+// Variables: layout
+$gutter: 20px;
+$frag-gutter-width: $gutter * 2;
+
 // Vendor styles
 @import "vendor/bitmanic/rem";
 @import "vendor/necolas/normalize";
@@ -19,6 +23,7 @@ $c-grey-dk: #333;
 // Objects
 @import "object/clear";
 @import "object/list";
+@import "object/move";
 @import "object/noisy";
 @import "object/swatch";
 

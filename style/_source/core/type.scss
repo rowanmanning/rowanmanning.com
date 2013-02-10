@@ -68,8 +68,9 @@ figcaption, small, sub, sup {
 }
 
 // Links
-a {
+a, .a {
     color: $c-green-dk;
+    text-decoration: underline;
 
     &:active {
         color: $c-green-dk;
@@ -80,6 +81,16 @@ a {
 }
 .secondary a {
     color: $c-grey;
+}
+.stealth-a {
+    &, &:active, &:visited {
+        color: $c-grey-dk;
+        text-decoration: none;
+
+        .secondary & {
+            color: $c-grey;
+        }
+    }
 }
 
 // Lists

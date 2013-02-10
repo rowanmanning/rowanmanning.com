@@ -740,6 +740,20 @@ table {
   padding-left: 0;
 }
 
+.move-left {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 26px;
+  padding-bottom: 2.6rem;
+}
+
+.move-right {
+  float: right;
+  padding-left: 20px;
+  padding-bottom: 26px;
+  padding-bottom: 2.6rem;
+}
+
 .noisy, .swatch, html, body:before, .wrapper:before {
   background-image: url("assets/100-65-5.png");
 }
@@ -887,17 +901,26 @@ figcaption, small, sub, sup {
   font-size: 1.6rem;
 }
 
-a {
+a, .a {
+  color: #7db578;
+  text-decoration: underline;
+}
+a:active, .a:active {
   color: #7db578;
 }
-a:active {
-  color: #7db578;
-}
-a:visited {
+a:visited, .a:visited {
   color: #4b8146;
 }
 
 .secondary a {
+  color: #747474;
+}
+
+.stealth-a, .stealth-a:active, .stealth-a:visited {
+  color: #333333;
+  text-decoration: none;
+}
+.secondary .stealth-a, .secondary .stealth-a:active, .secondary .stealth-a:visited {
   color: #747474;
 }
 
