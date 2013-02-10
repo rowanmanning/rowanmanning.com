@@ -1,11 +1,12 @@
 
-<div class="post">
+<div class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     <a href="{{ post.url }}" class="stealth-a">
-        <h3>{{ post.title }}</h3>
+        <meta itemprop="url" content="http://{{ site.host }}{{ post.url }}"/>
+        <h3 itemprop="name">{{ post.title }}</h3>
         <p class="secondary small half-flow">
-            <span class="has-icon date">Posted {{ post.date | date: '%d %B %Y' }}</span>{% if post.tags != empty %}; &nbsp;
-            <span class="has-icon tags">Tagged with {{ post.tags | join: ', ' }}</span>{% endif %}
+            <span class="has-icon date">Posted <time itemprop="dateCreated" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ post.date | date: '%d %B %Y' }}</time></span>{% if post.tags != empty %}; &nbsp;
+            <span class="has-icon tags">Tagged with <span itemprop="keywords">{{ post.tags | join: ', ' }}</span></span>{% endif %}
         </p>
-        <p>{{ post.description }}</p>
+        <p itemprop="description">{{ post.description }}</p>
     </a>
 </div>

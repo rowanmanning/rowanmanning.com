@@ -3,7 +3,7 @@
     <a href="{{ post.url }}" class="stealth-a">
         <h4 class="half-flow">{{ post.title }}</h4>
         <p class="secondary small half-flow">
-            <span class="has-icon date">Posted {{ post.date | date: '%d %B %Y' }}</span>
+            <span class="has-icon date">Posted <time datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ post.date | date: '%d %B %Y' }}</time></span>
         </p>
         <p>{{ post.description }}</p>
     </a>

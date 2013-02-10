@@ -8,17 +8,23 @@ lastmod: 2013-02-09 21:44
 
 <h2 class="h1">Recent Posts</h2>
 
-<ul class="list posts">
-    {% assign numposts = 0 %}
-    {% for post in site.posts %}
-        {% if post.noindex != true and numposts < 4 %}
-            {% assign numposts = numposts | plus:1 %}
-            <li class="flow">
-                {% include post.html %}
-            </li>
-        {% endif %}
-    {% endfor %}
-</ul>
+<div itemscope itemtype="http://schema.org/Blog">
+
+    {% include blog-meta.html %}
+
+    <ul class="list posts">
+        {% assign numposts = 0 %}
+        {% for post in site.posts %}
+            {% if post.noindex != true and numposts < 4 %}
+                {% assign numposts = numposts | plus:1 %}
+                <li class="flow">
+                    {% include post.html %}
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+</div>
 
 <div class="flow">
     <a href="/blog/" class="blocklink">View more posts</a>

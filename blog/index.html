@@ -7,12 +7,18 @@ aside: blog
 
 <h1>Blog Archive</h1>
 
-<ul class="list posts">
-    {% for post in site.posts %}
-        {% if post.noindex != true %}
-            <li class="flow">
-                {% include post.html %}
-            </li>
-        {% endif %}
-    {% endfor %}
-</ul>
+<div itemscope itemtype="http://schema.org/Blog">
+
+    {% include blog-meta.html %}
+    
+    <ul class="list posts">
+        {% for post in site.posts %}
+            {% if post.noindex != true %}
+                <li class="flow">
+                    {% include post.html %}
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+
+</div>
