@@ -8,7 +8,8 @@ layout: post
 A couple of months ago, I decided to set about building a CSS grid system. I realise that I've entered a wildly bloated landscape here (you can't move on the web for fancy new grid systems) but I had my reasons. I'd like to talk about why I built a grid system, and why (maybe) you should too.
 
 
-## My Problem ##
+My Problem {.topper}
+----------
 
 When my website went through its last rebuild, I realised that there was no way I could get by without some kind of grid. I wrote down a couple of requirements that I had:
 
@@ -19,7 +20,8 @@ When my website went through its last rebuild, I realised that there was no way 
 With these requirements in mind, I decided to have a look at what was available. It didn't take me long to realise that there are a million projects out there; a split between massively overcomplicated frameworks which try to [solve every problem in the world][dont-solve-problems] and neat little [micro-grids][1kbgrid]. While there were some really great libraries, none of them felt quite right for me – I'm hard to please.
 
 
-## Building ##
+Building {.topper}
+--------
 
 What suprised me is how quickly I ended up with a good working (IE 6+) prototype. Not only was it fast, but I had a lot of fun!
 
@@ -30,7 +32,8 @@ After a couple of hours spent tweaking and testing, I [ended up with Frag][frag]
 </a>
 
 
-## So Why Build Your Own? ##
+So Why Build Your Own? {.topper}
+----------------------
 
 I'm not advocating rolling your own in every situation, but there are a lot of benefits to spending a little time on your own solution to a problem:
 

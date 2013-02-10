@@ -12,7 +12,8 @@ Now I realise this could be read as quite a negative statement; I'm in no way tr
 Let's take game development as an example. If you set yourself some <del>ridiculous</del> stretch goals early on (let's say a 3D web-based <abbr title="Massively Multiplayer Online">MMO</abbr> game) then unless you're the kind of person who never gives up, your enthusiasm is likely to wane the more small hurdles you have to jump along the way. This kind of project is excellent once you've tried (and maybe failed) a few times on smaller things.
 
 
-## A Bit Of Introspection ##
+A Bit Of Introspection {.topper}
+----------------------
 
 After the aforementioned conversation, I took a look through the 'Web Projects' folder on my computer. The ratio of released/dead projects in here swings massively in favour of the latter. There's a clear pattern too – they are nearly all very big projects which I have made a start on before I've tackled some of the smaller issues which ended up getting in the way early on. Despite my seemingly limitless enthusiasm for these projects in the early days, it slowly got eaten away until it was no longer a fun way to spend my spare time.
 
