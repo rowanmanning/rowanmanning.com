@@ -5,9 +5,13 @@
 
         <h3 class="h1">Further Reading</h3>
 
-        <ul>
+        <ul class="list">
             {% for link in page.reading %}
-                <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+                <li>
+                    <a href="{{ link.url }}" class="blocklink has-icon {{ link.type }}">
+                        {{ link.label }}
+                    </a>
+                </li>
             {% endfor %}
         </ul>
 

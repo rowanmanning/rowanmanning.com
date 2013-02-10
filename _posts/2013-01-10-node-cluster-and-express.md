@@ -6,8 +6,10 @@ tags: [Express, JS, Node, Cluster]
 reading:
   - label: Node.js Cluster module documentation
     url: http://nodejs.org/api/cluster.html
+    type: link
   - label: Express documentation
     url: http://expressjs.com/
+    type: link
 layout: post
 ---
 

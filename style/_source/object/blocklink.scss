@@ -2,12 +2,13 @@
 
 // Block links (mainly used in lists)
 .blocklink {
-    @include rem("line-height", $t-height * 2);
+    @include rem("line-height", $t-height);
     @extend .stealth-a;
     @include inline-block;
     border-left: 5px solid $c-cream-dk;
-    padding-left: $gutter / 2;
-    padding-right: $gutter / 2;
+    padding: 0 ($gutter / 2);
+    @include rem("padding-top", $t-height / 2);
+    @include rem("padding-bottom", $t-height / 2);
 
     &:hover {
         @extend %noisy;
@@ -30,8 +31,14 @@
     }
 
     // Site
+    &.book:before {
+        content: "b";
+    }
     &.date:before {
         content: "c";
+    }
+    &.link:before {
+        content: "l";
     }
     &.tags:before {
         content: "a";

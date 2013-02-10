@@ -7,10 +7,13 @@ tags: [Accessibility]
 reading:
   - label: Accessibility articles from WebAIM
     url: http://webaim.org/articles/
+    type: link
   - label: The BBC's web accessibility guides
     url: http://www.bbc.co.uk/accessibility/guides/
-  - label: Designing with Progressive Enhancement by Filament Group [book]
+    type: link
+  - label: Designing with Progressive Enhancement by Filament Group
     url: http://filamentgroup.com/dwpe/
+    type: book
 layout: post
 ---
 

@@ -1015,14 +1015,17 @@ table {
   }
 }
 .blocklink {
-  line-height: 36px;
-  line-height: 3.6rem;
+  line-height: 18px;
+  line-height: 1.8rem;
   display: inline-block;
   *display: block;
   *zoom: 1;
   border-left: 5px solid #eadbcd;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 10px;
+  padding-top: 9px;
+  padding-top: 0.9rem;
+  padding-bottom: 9px;
+  padding-bottom: 0.9rem;
 }
 .blocklink:hover {
   border-left: 5px solid #7db578;
@@ -1041,8 +1044,14 @@ table {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
 }
+.has-icon.book:before {
+  content: "b";
+}
 .has-icon.date:before {
   content: "c";
+}
+.has-icon.link:before {
+  content: "l";
 }
 .has-icon.tags:before {
   content: "a";
