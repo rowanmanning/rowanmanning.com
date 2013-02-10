@@ -1,0 +1,61 @@
+---
+title: About Rowan Manning
+description: About Rowan Manning, a Web Geek and Front-End/JavaScript Developer from the UK
+layout: page
+aside: about
+---
+
+<h1>About Me</h1>
+
+<a href="/media/images/Rowan.png" title="This is me">
+    <img src="/media/images/Rowan.thumb.png" alt="Rowan Manning"/>
+</a>
+
+<p>
+    Hi! I'm Rowan Manning, a 25 year old Web Geek and Front-End/JavaScript Developer from the UK. I love to solve problems with code,
+    and I'm currently doing exactly that for
+    <a href="http://www.nature.com/">Nature Publishing Group</a> in London.
+</p>
+
+<p>
+    I write JavaScript and CoffeeScript (but have dabbled in PHP and Ruby); I get a huge kick out of
+    clean, well-written HTML &amp; CSS.
+</p>
+
+<h2>A Little More:</h2>
+
+<ul>
+    <li>I enjoy a good beer, my favourite being <a href="http://www.sharpsbrewery.co.uk/our-beers/doombar/">Doom Bar</a></li>
+    <li>Cats make me happy</li>
+    <li>Reading (novels, comics, blogs) absorbs a load of my time</li>
+    <li>I love films that make me think</li>
+    <li>I love music (mostly rock, or stuff that's older than I am)</li>
+    <li><a href="http://www.minecraft.net/">Minecraft</a> is a terrible, terrible affliction of mine</li>
+</ul>
+
+<h2>I'm All Over The Web:</h2>
+
+<dl>
+    {% for item in site.social %}
+        {% if item.hidden != true %}
+            <dt>
+                <a rel="me" href="{{ item.url }}" title="{{ item.title }}">
+                    {{ item.label }}
+                </a>
+            </dt>
+            <dd>
+                {{ item.description }}
+            </dd>
+        {% endif %}
+    {% endfor %}
+</dl>
+
+{% for item in site.social %}
+    {% if item.hidden == true %}
+        <link rel="me" href="{{ item.url }}"/>
+    {% endif %}
+{% endfor %}
+
+<p>
+    Do you want to chat about something? Feel free to get in touch via any of the networks above, or <a href="mailto:{{ site.email }}?subject=Hi Rowan">email me</a> if you prefer.
+</p>

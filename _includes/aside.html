@@ -1,9 +1,12 @@
 
 {% case page.aside %}
+{% when 'about' %}
+    {% include aside/subscribe.html %}
+    {% include aside/blog.html %}
 {% when 'blog' %}
     {% include aside/subscribe.html %}
 {% when 'home' %}
-    {% include aside/blog.html %}
+    {% include aside/about.html %}
     {% include aside/subscribe.html %}
 {% when 'post' %}
     {% include aside/subscribe.html %}

@@ -823,6 +823,7 @@ body {
 }
 
 .flow, p, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, blockquote, dl, figure, ol, ul, hr, pre, table {
+  display: block;
   margin-top: 0;
   margin-bottom: 26px;
   margin-bottom: 2.6rem;

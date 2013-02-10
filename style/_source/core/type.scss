@@ -16,6 +16,7 @@ body {
     color: $c-grey;
 }
 .flow {
+    display: block;
     margin-top: 0;
     @include rem("margin-bottom", $t-lineheight);
 }

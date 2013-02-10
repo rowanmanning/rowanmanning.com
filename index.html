@@ -6,57 +6,18 @@ aside: home
 lastmod: 2013-02-09 21:44
 ---
 
-<h1>Hi there, I'm Rowan</h1>
-
-<a href="/media/images/Rowan.png" title="This is me">
-    <img src="/media/images/Rowan.thumb.png" alt="Rowan Manning"/>
-</a>
-
-<p itemprop="description">
-    I'm Rowan Manning, a 24 year old Web Geek from Ampthill, a beautiful little market town in the
-    UK. I love to solve problems with code, and I'm currently working for
-    <a href="http://www.nature.com/">Nature Publishing Group</a> in London.
-</p>
-
-<p>
-    I write JavaScript and CoffeeScript (but have dabbled in PHP and Ruby); I get a huge kick out of
-    clean, well-written HTML &amp; CSS.
-</p>
-
-<h2>A Little More:</h2>
-
-<ul>
-    <li>I enjoy a good beer, my favourite being <a href="http://www.sharpsbrewery.co.uk/our-beers/doombar/">Doom Bar</a></li>
-    <li>Cats make me happy</li>
-    <li>Reading (novels, comics, blogs) absorbs a load of my time</li>
-    <li>I love films that make me think</li>
-    <li>I love music (mostly rock, or stuff that's older than I am)</li>
-    <li><a href="http://www.minecraft.net/">Minecraft</a> is a terrible, terrible affliction of mine</li>
-</ul>
-
-<h2>I'm All Over The Web:</h2>
-
-<dl>
-    {% for item in site.social %}
-        {% if item.hidden != true %}
-            <dt>
-                <a rel="me" href="{{ item.url }}" title="{{ item.title }}">
-                    {{ item.label }}
-                </a>
-            </dt>
-            <dd>
-                {{ item.description }}
-            </dd>
+<ul class="list posts">
+    {% assign numposts = 0 %}
+    {% for post in site.posts %}
+        {% if post.noindex != true and numposts < 4 %}
+            {% assign numposts = numposts | plus:1 %}
+            <li class="flow">
+                {% include post.html %}
+            </li>
         {% endif %}
     {% endfor %}
-</dl>
+</ul>
 
-{% for item in site.social %}
-    {% if item.hidden == true %}
-        <link rel="me" href="{{ item.url }}"/>
-    {% endif %}
-{% endfor %}
-
-<p>
-    Do you want to chat about something? Feel free to get in touch via any of the networks above, or <a href="mailto:{{ site.email }}?subject=Hi Rowan">email me</a> if you prefer.
-</p>
+<div class="flow">
+    <a href="/blog/">Blog archive</a>
+</div>
