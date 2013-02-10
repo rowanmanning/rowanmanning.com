@@ -1,0 +1,13 @@
+// object/browser-upgrade
+
+// Browser upgrade message
+.browser-upgrade {
+    padding: 5px 0;
+    background: #ff6;
+    font-size: 14px;
+    text-align: center;
+
+    a, a:hover, a:visited {
+        color: $c-grey-dk;
+    }
+}

@@ -1101,6 +1101,16 @@ table {
   background-color: #cbe4f4;
 }
 
+.browser-upgrade {
+  padding: 5px 0;
+  background: #ff6;
+  font-size: 14px;
+  text-align: center;
+}
+.browser-upgrade a, .browser-upgrade a:hover, .browser-upgrade a:visited {
+  color: #333333;
+}
+
 .clearfix {
   zoom: 1;
 }
