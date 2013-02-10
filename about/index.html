@@ -37,27 +37,25 @@ aside: about
 
 <h2 class="topper">I'm All Over The Web:</h2>
 
-<dl>
+<ul class="list">
     {% for item in site.social %}
         {% if item.hidden != true %}
-            <dt>
-                <a rel="me" href="{{ item.url }}" title="{{ item.title }}">
+            <li>
+                <a rel="me" href="{{ item.url }}" title="{{ item.title }}" class="blocklink has-icon {{item.type}}">
                     {{ item.label }}
                 </a>
-            </dt>
-            <dd>
-                {{ item.description }}
-            </dd>
+            </li>
         {% endif %}
     {% endfor %}
-</dl>
+    <li>
+        <a href="{{ site.email }}" class="blocklink has-icon email">
+            Email me
+        </a>
+    </li>
+</ul>
 
 {% for item in site.social %}
     {% if item.hidden == true %}
         <link rel="me" href="{{ item.url }}"/>
     {% endif %}
 {% endfor %}
-
-<p>
-    Do you want to chat about something? Feel free to get in touch via any of the networks above, or <a href="mailto:{{ site.email }}?subject=Hi Rowan">email me</a> if you prefer.
-</p>

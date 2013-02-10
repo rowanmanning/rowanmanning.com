@@ -39,6 +39,7 @@
     }
     &.email:before {
         content: "e";
+        color: $c-green-dk;
     }
     &.link:before {
         content: "l";
@@ -76,6 +77,16 @@
         &:hover {
             border-left: 5px solid $c-github;
             background-color: $c-github-lt;
+        }
+    }
+    &.linkedin {
+        &:before {
+            content: "i";
+            color: $c-linkedin;
+        }
+        &:hover {
+            border-left: 5px solid $c-linkedin;
+            background-color: $c-linkedin-lt;
         }
     }
     &.twitter {

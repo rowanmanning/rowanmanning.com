@@ -1052,6 +1052,7 @@ table {
 }
 .has-icon.email:before {
   content: "e";
+  color: #7db578;
 }
 .has-icon.link:before {
   content: "l";
@@ -1082,6 +1083,14 @@ table {
 .has-icon.github:hover {
   border-left: 5px solid #444444;
   background-color: #dddddd;
+}
+.has-icon.linkedin:before {
+  content: "i";
+  color: #71c5ef;
+}
+.has-icon.linkedin:hover {
+  border-left: 5px solid #71c5ef;
+  background-color: #bae2f6;
 }
 .has-icon.twitter:before {
   content: "t";
