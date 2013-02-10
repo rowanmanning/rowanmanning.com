@@ -754,7 +754,7 @@ table {
   padding-bottom: 2.6rem;
 }
 
-.noisy, .swatch, html, body:before, .wrapper:before {
+.noisy, .swatch, .footer:before, html, body:before, .wrapper:before, .page {
   background-image: url("assets/100-65-5.png");
 }
 
@@ -789,25 +789,6 @@ table {
   background-color: #7db578;
 }
 
-html {
-  min-height: 100%;
-  background-color: #fffaf5;
-}
-
-body:before, .wrapper:before {
-  content: "";
-  height: 10px;
-  display: block;
-}
-
-body:before {
-  background-color: #7db578;
-}
-
-.wrapper:before {
-  background-color: #cae8a7;
-}
-
 .content {
   padding-top: 60px;
   padding-top: 6rem;
@@ -817,6 +798,13 @@ body:before {
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.fullpad {
+  padding-top: 20px;
+  padding-top: 2rem;
+  padding-bottom: 20px;
+  padding-bottom: 2rem;
 }
 
 html {
@@ -1033,4 +1021,36 @@ hr {
 ::selection {
   background: #7db578;
   color: #fff;
+}
+
+.footer {
+  padding-bottom: 26px;
+  padding-bottom: 2.6rem;
+}
+
+.footer:before {
+  background-color: #7db578;
+}
+
+html {
+  min-height: 100%;
+  background-color: #eadbcd;
+}
+
+.footer:before, body:before, .wrapper:before {
+  content: "";
+  height: 10px;
+  display: block;
+}
+
+body:before {
+  background-color: #7db578;
+}
+
+.wrapper:before {
+  background-color: #cae8a7;
+}
+
+.page {
+  background-color: #fffaf5;
 }

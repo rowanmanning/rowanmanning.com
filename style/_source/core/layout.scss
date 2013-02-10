@@ -11,3 +11,7 @@
     margin-left: auto;
     margin-right: auto;
 }
+.fullpad {
+    @include rem('padding-top', $gutter);
+    @include rem('padding-bottom', $gutter);
+}

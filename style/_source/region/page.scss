@@ -1,10 +1,10 @@
-// core/glitter
+// region/page
 
 // Core container styles
 html {
     @extend %noisy;
     min-height: 100%;
-    background-color: $c-cream;
+    background-color: $c-cream-dk;
 }
 %before-bar {
     content: "";
@@ -20,4 +20,8 @@ body:before {
     @extend %before-bar;
     @extend %noisy;
     background-color: $c-green;
+}
+.page {
+    @extend %noisy;
+    background-color: $c-cream;
 }

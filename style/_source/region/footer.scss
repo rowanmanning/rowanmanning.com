@@ -1,0 +1,11 @@
+// region/footer
+
+// Page footer styles
+.footer {
+    @include rem('padding-bottom', $t-lineheight);
+}
+.footer:before {
+    @extend %before-bar;
+    @extend %noisy;
+    background-color: $c-green-dk;
+}

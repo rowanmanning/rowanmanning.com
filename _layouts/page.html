@@ -4,27 +4,40 @@
     {% include head.html %}
 </head>
 <body>
-    <div class="wrapper">
-
-        <div class="grid content">
+    
+    <!-- Page -->
+    <div class="wrapper page">
+        <div class="grid">
 
             <!-- Header -->
-            <div class="col ca-12 cb-12 cc-2">
+            <div class="col ca-12 cb-12 cc-2 fullpad header">
                 {% include nav.html %}
             </div>
 
             <!-- Main content -->
-            <div class="col ca-12 cb-8 cc-7">
+            <div class="col ca-12 cb-8 cc-7 fullpad main">
                 {{ content }}
             </div>
 
             <!-- Aside content -->
-            <div class="col ca-12 cb-4 cc-3">
+            <div class="col ca-12 cb-4 cc-3 fullpad aside">
                 {% include aside.html %}
             </div>
 
         </div>
-
     </div>
+
+    <!-- Footer -->
+    <div class="wrapper">
+        <div class="footer">
+            <div class="grid">
+                <div class="col ca-hide cb-hide cc-show cc-2">&nbsp;</div>
+                <div class="col ca-12 cb-12 cc-10 fullpad">
+                    {% include footer.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
