@@ -1,0 +1,11 @@
+
+{% case page.aside %}
+{% when 'blog' %}
+    {% include aside/subscribe.html %}
+{% when 'home' %}
+    {% include aside/blog.html %}
+    {% include aside/subscribe.html %}
+{% when 'post' %}
+    {% include aside/subscribe.html %}
+    {% include aside/reading.html %}
+{% endcase %}

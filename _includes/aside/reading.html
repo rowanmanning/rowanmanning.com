@@ -1,0 +1,16 @@
+
+{% if page.reading and page.reading != empty %}
+
+    <div>
+
+        <h3>Further Reading</h3>
+
+        <ul>
+            {% for link in page.reading %}
+                <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+            {% endfor %}
+        </ul>
+
+    </div>
+
+{% endif %}

@@ -20,6 +20,7 @@ twitter: rowanmanning
 # Blog details
 blog:
   title: Rowan Manning's Blog
+  feed: http://rowanmanning.com/blog.xml
 
 # Author details
 author:

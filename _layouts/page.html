@@ -6,12 +6,23 @@
 <body>
     <div class="wrapper">
 
-        {% include nav.html %}
-
         <div class="grid content">
+
+            <!-- Header -->
+            <div class="col ca-12">
+                {% include nav.html %}
+            </div>
+
+            <!-- Main content -->
             <div class="col ca-12">
                 {{ content }}
             </div>
+
+            <!-- Aside content -->
+            <div class="col ca-12">
+                {% include aside.html %}
+            </div>
+
         </div>
 
     </div>
