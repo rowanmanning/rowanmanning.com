@@ -1152,6 +1152,14 @@ table {
 .post:hover {
   border-left: 5px solid #7db578;
 }
+.post .post-meta .has-icon {
+  display: block;
+}
+@media (min-width: 680px) {
+  .post .post-meta .has-icon {
+    display: inline;
+  }
+}
 
 .swatches {
   clear: both;
