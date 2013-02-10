@@ -1,10 +1,13 @@
 // region/header
 
 // General nav styles
-.logo, .site-nav, .social-nav {
-    float: left;
-    margin-right: $gutter * 2;
-    margin-bottom: 0;
+.logo, .nav {
+    @extend .clearfix;
+    @include rem("margin-bottom", $t-lineheight / 2);
+
+    > li {
+        float: left;
+    }
 }
 .social-nav {
     margin-right: 0;
@@ -36,6 +39,17 @@
 // Break-point alpha
 @media (min-width: $frag-break-bravo) {
 
+    // General nav styles
+    .logo, .nav {
+        float: left;
+        margin-right: $gutter * 3;
+        margin-bottom: 0;
+
+        > li {
+            float: none;
+        }
+    }
+
     // Blocklink overrides
     .header .blocklink .label {
         display: inline;
@@ -47,10 +61,14 @@
 @media (min-width: $frag-break-charlie) {
 
     // General nav styles
-    .logo, .site-nav, .social-nav {
+    .logo, .nav {
         float: none;
         margin-right: 0;
         @include rem("margin-bottom", $t-lineheight);
+
+        > li {
+            float: none;
+        }
     }
 
 }
