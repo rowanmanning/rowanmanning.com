@@ -7,10 +7,10 @@ aside: blog
 
 <h1>Rowan's Blog</h1>
 
-<ul class="posts">
+<ul class="list posts">
     {% for post in site.posts %}
         {% if post.noindex != true %}
-            <li>
+            <li class="flow">
                 {% include post.html %}
             </li>
         {% endif %}

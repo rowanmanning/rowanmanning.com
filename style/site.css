@@ -735,6 +735,11 @@ table {
   clear: both;
 }
 
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
 .noisy, .swatch, html, body:before, .wrapper:before {
   background-image: url("assets/100-65-5.png");
 }
