@@ -1050,6 +1050,9 @@ table {
 .has-icon.date:before {
   content: "c";
 }
+.has-icon.email:before {
+  content: "e";
+}
 .has-icon.link:before {
   content: "l";
 }
@@ -1111,7 +1114,8 @@ table {
   border-left: 5px solid #7db578;
 }
 .logo:hover {
-  background: transparent;
+  background-color: transparent;
+  background-image: none !important;
 }
 .logo .title, .logo .tagline {
   display: block;
@@ -1448,6 +1452,10 @@ hr {
 ::selection {
   background: #7db578;
   color: #fff;
+}
+
+.about-avatar {
+  width: 100px;
 }
 
 .footer {

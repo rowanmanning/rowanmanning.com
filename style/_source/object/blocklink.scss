@@ -37,6 +37,9 @@
     &.date:before {
         content: "c";
     }
+    &.email:before {
+        content: "e";
+    }
     &.link:before {
         content: "l";
     }
