@@ -1,17 +1,17 @@
 
-{% if page.url == '/index.html': %}<h1>{% endif %}
-<a href="/" class="flow blocklink logo">
-    <span class="h6 interrupt title">
-        Rowan<br/>Manning,
-    </span>
-    <span class="secondary small tagline">
-        Web Geek
-    </span>
-</a>
-{% if page.url == '/index.html': %}</h1>{% endif %}
+<{% if page.url == '/index.html': %}h1{% else %}div{% endif %} class="flow logo">
+    <a href="/" class="flow blocklink">
+        <span class="h6 interrupt title">
+            Rowan<br/>Manning,
+        </span>
+        <span class="secondary small tagline">
+            Web Geek
+        </span>
+    </a>
+</{% if page.url == '/index.html': %}h1{% else %}div{% endif %}>
 
 <!-- Site navigation -->
-<ul class="list nav site-nav">
+<ul class="list site-nav">
 
     <li class="home">
         <a href="/" class="blocklink">
@@ -33,13 +33,13 @@
 
 </ul>
 
-<ul class="list nav social-nav">
+<ul class="list social-nav">
 
     {% for item in site.social %}
         {% if item.nav == true %}
             <li>
                 <a href="{{ item.url }}" title="{{ item.title }}" class="{{ item.type }} blocklink has-icon">
-                    {{ item.label }}
+                    <span class="label">{{ item.label }}</span>
                 </a>
             </li>
         {% endif %}
