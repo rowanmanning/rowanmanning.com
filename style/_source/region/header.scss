@@ -30,6 +30,7 @@
 // Blocklink overrides
 .header .blocklink .label {
     display: none;
+    *display: inline;
 }
 
 // Break-point alpha

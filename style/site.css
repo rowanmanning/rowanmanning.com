@@ -1038,7 +1038,7 @@ table {
   *display: block;
   *zoom: 1;
   margin-right: 5px;
-  font-family: icon;
+  font-family: 'icon';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -1459,6 +1459,8 @@ hr {
 
 .about-avatar {
   width: 100px;
+  height: 100px;
+  max-width: 100px;
 }
 
 .footer {
@@ -1497,6 +1499,7 @@ hr {
 
 .header .blocklink .label {
   display: none;
+  *display: inline;
 }
 
 @media (min-width: 680px) {

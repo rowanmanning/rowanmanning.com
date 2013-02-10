@@ -3,4 +3,6 @@
 // About avatar
 .about-avatar {
     width: 100px;
+    height: 100px;
+    max-width: 100px; // IE8 fix
 }
