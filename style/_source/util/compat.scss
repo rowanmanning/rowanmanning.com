@@ -1,0 +1,8 @@
+// util/compat
+
+// Inline-block
+@mixin inline-block() {
+    display: inline-block;
+    *display: block;
+    *zoom: 1;
+}

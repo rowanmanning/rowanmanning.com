@@ -12,19 +12,19 @@
 <ul class="list nav site-nav">
 
     <li class="home">
-        <a href="/">
+        <a href="/" class="blocklink">
             Home
         </a>
     </li>
 
     <li class="about">
-        <a href="/about/" title="About Rowan Manning">
+        <a href="/about/" title="About Rowan Manning" class="blocklink">
             About
         </a>
     </li>
 
     <li class="blog">
-        <a href="/blog/" title="Rowan Manning's Blog">
+        <a href="/blog/" title="Rowan Manning's Blog" class="blocklink">
             Blog
         </a>
     </li>
@@ -35,8 +35,8 @@
 
     {% for item in site.social %}
         {% if item.nav == true %}
-            <li class="{{ item.type }}">
-                <a href="{{ item.url }}" title="{{ item.title }}">
+            <li>
+                <a href="{{ item.url }}" title="{{ item.title }}" class="{{ item.type }} blocklink has-icon">
                     <span class="col-mobile-hide">{{ item.label }}</span>
                 </a>
             </li>

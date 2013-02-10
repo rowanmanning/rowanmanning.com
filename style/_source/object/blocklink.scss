@@ -1,0 +1,71 @@
+// object/blocklink
+
+// Block links (mainly used in lists)
+.blocklink {
+    @include rem("line-height", $t-height * 2);
+    @extend .stealth-a;
+    @include inline-block;
+    border-left: 5px solid $c-cream-dk;
+    padding-left: $gutter / 2;
+    padding-right: $gutter / 2;
+
+    &:hover {
+        @extend %noisy;
+        border-left: 5px solid $c-green-dk;
+        background-color: $c-green;
+    }
+}
+
+// Icon classes
+.has-icon {
+    &:before {
+        content: "";
+        @include inline-block;
+        margin-right: 5px;
+        font-family: icon;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        -webkit-font-smoothing: antialiased;
+    }
+    &.dribbble {
+        &:before {
+            content: "\e002";
+            color: $c-dribbble;
+        }
+        &:hover {
+            border-left: 5px solid $c-dribbble;
+            background-color: $c-dribbble-lt;
+        }
+    }
+    &.feed {
+        &:before {
+            content: "\e004";
+            color: $c-feed;
+        }
+        &:hover {
+            border-left: 5px solid $c-feed;
+            background-color: $c-feed-lt;
+        }
+    }
+    &.github {
+        &:before {
+            content: "\e003";
+            color: $c-github;
+        }
+        &:hover {
+            border-left: 5px solid $c-github;
+            background-color: $c-github-lt;
+        }
+    }
+    &.twitter {
+        &:before {
+            content: "\e001";
+            color: $c-twitter;
+        }
+        &:hover {
+            border-left: 5px solid $c-twitter;
+            background-color: $c-twitter-lt;
+        }
+    }
+}

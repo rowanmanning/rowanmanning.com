@@ -1014,6 +1014,66 @@ table {
     clear: none;
   }
 }
+.blocklink {
+  line-height: 36px;
+  line-height: 3.6rem;
+  display: inline-block;
+  *display: block;
+  *zoom: 1;
+  border-left: 5px solid #eadbcd;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.blocklink:hover {
+  border-left: 5px solid #7db578;
+  background-color: #cae8a7;
+}
+
+.has-icon:before {
+  content: "";
+  display: inline-block;
+  *display: block;
+  *zoom: 1;
+  margin-right: 5px;
+  font-family: icon;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+.has-icon.dribbble:before {
+  content: "\e002";
+  color: #ea4c89;
+}
+.has-icon.dribbble:hover {
+  border-left: 5px solid #ea4c89;
+  background-color: #f2d1de;
+}
+.has-icon.feed:before {
+  content: "\e004";
+  color: #f28d35;
+}
+.has-icon.feed:hover {
+  border-left: 5px solid #f28d35;
+  background-color: #f4dcc8;
+}
+.has-icon.github:before {
+  content: "\e003";
+  color: #444444;
+}
+.has-icon.github:hover {
+  border-left: 5px solid #444444;
+  background-color: #dddddd;
+}
+.has-icon.twitter:before {
+  content: "\e001";
+  color: #52ade5;
+}
+.has-icon.twitter:hover {
+  border-left: 5px solid #52ade5;
+  background-color: #cbe4f4;
+}
+
 .clearfix {
   zoom: 1;
 }
@@ -1044,7 +1104,7 @@ table {
   padding-bottom: 2.6rem;
 }
 
-.noisy, .swatch, .footer:before, html, body:before, .wrapper:before, .page {
+.blocklink:hover, .noisy, .swatch, .footer:before, html, body:before, .wrapper:before, .page {
   background-image: url("assets/100-65-5.png");
 }
 
@@ -1077,6 +1137,14 @@ table {
 
 .sw4 {
   background-color: #7db578;
+}
+
+@font-face {
+  font-family: 'icon';
+  src: url("assets/fonts/icomoon.eot");
+  src: url("assets/fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("assets/fonts/icomoon.woff") format("woff"), url("assets/fonts/icomoon.ttf") format("truetype"), url("assets/fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .content {
@@ -1218,11 +1286,11 @@ a:visited, .a:visited {
   color: #747474;
 }
 
-.stealth-a, .stealth-a:active, .stealth-a:visited {
+.stealth-a, .blocklink, .stealth-a:active, .blocklink:active, .stealth-a:visited, .blocklink:visited {
   color: #333333;
   text-decoration: none;
 }
-.secondary .stealth-a, .secondary .stealth-a:active, .secondary .stealth-a:visited {
+.secondary .stealth-a, .secondary .blocklink, .secondary .stealth-a:active, .secondary .blocklink:active, .secondary .stealth-a:visited, .secondary .blocklink:visited {
   color: #747474;
 }
 
