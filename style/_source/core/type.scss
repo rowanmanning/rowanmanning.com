@@ -5,7 +5,7 @@ html {
     font-size: 62.5%;
 }
 body {
-    font-family: "Varela Round", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $t-family;
     @include rem("font-size", $t-height);
     @include rem("line-height", $t-lineheight);
     color: $c-grey-dk;
@@ -43,6 +43,7 @@ p, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, blockquote, dl, figure,
 
 // Heading styles
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, dt, th {
+    font-family: $t-family-heading;
     color: $c-grey-dk;
     font-weight: normal;
 }
@@ -109,9 +110,6 @@ ol, ul, dl {
         margin-bottom: 0;
     }
 }
-dt {
-    font-weight: bold;
-}
 dd {
     margin-left: 0;
     margin-bottom: 12px;
@@ -123,7 +121,7 @@ blockquote {
     margin-left: 0;
     margin-right: 0;
     padding: 0 0 0 $t-height;
-    border-left: 10px solid $c-cream-dk;
+    border-left: 5px solid $c-cream-dk;
     p {
         margin-top: 0;
         margin-bottom: 0;
@@ -147,7 +145,7 @@ q {
 
 // Code
 pre, code {
-    font-family: Consolas, "Lucida Console", Monaco, monospace;
+    font-family: $t-family-mono;
 }
 code {
     padding: 0 4px;
