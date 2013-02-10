@@ -16,7 +16,7 @@ Think about what makes you buy a product. For me, I'm attracted to a product if 
 
 I can illustrate this very easily. Look at the following ad for Microsoft Surface, this is one of their launch pieces:
 
-<iframe class="video" src="http://www.youtube.com/embed/U7UlE-o8DQQ" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+<iframe class="flow video" src="http://www.youtube.com/embed/U7UlE-o8DQQ" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 
 You can also find a similar example with the [Surface Teaser](http://youtu.be/dpzu3HM2CIo) and tentatively the [Motorola RAZR M Ad](http://youtu.be/F5wDYaxjbxg).
 
@@ -24,7 +24,7 @@ What does the Surface advert tell us about the product? The answer is nothing be
 
 As a comparison (don't stamp me with "Fan-boy" yet), let's look at the iPad launch ad:
 
-<iframe class="video" src="http://www.youtube.com/embed/_N3TW_HA-PE" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+<iframe class="flow video" src="http://www.youtube.com/embed/_N3TW_HA-PE" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 
 I won't make a list but from only thirty seconds of footage I know an awful lot about what the product actually does! It's exciting. They haven't even *really* focused on the hardware, because that's not what the customer cares about – the customer cares about functionality.
 
@@ -32,7 +32,7 @@ There are other product ads that recognise this too – the [Samsung Galaxy S3](
 
 I'll pull up one more set of examples before I apply this to web design. Web Browsers aren't particularly exciting to anyone outside of web development. However, watch this Internet Explorer advertisement and marvel at its ability to spend a whole minute *trying* to make a browser look cool:
 
-<iframe class="video" src="http://www.youtube.com/embed/WA8sLsM3McU" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+<iframe class="flow video" src="http://www.youtube.com/embed/WA8sLsM3McU" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 
 Then watch even just one of these [Google Chrome commercials](http://www.youtube.com/user/googlechrome). Google have a different strategy here, they stop trying to talk about the browser and look at why and how we use it. They tell some very human stories which don't try to dress up the product, In fact they avoid making their product the centre of attention at all.
 

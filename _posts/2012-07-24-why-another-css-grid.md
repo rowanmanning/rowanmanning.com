@@ -25,7 +25,9 @@ What suprised me is how quickly I ended up with a good working (IE 6+) prototype
 
 After a couple of hours spent tweaking and testing, I [ended up with Frag][frag]. It's not perfect, it's not extremely feature-rich, but it does exactly the job I need it to do.
 
-[![A screen-grab of the Frag website][frag-screengrab]][frag]
+<a href="http://frag.rowanmanning.com/" class="flow">
+    <img src="http://{{ site.host }}/media/images/posts/frag-website-screengrab.jpg" alt="A screen-grab of the Frag website"/>
+</a>
 
 
 ## So Why Build Your Own? ##
@@ -53,4 +55,3 @@ And if you don't fancy building your own grid system, you could always [use Frag
 [1kbgrid]: http://1kbgrid.com/
 [dont-solve-problems]: http://www.rachelandrew.co.uk/archives/2012/03/21/stop-solving-problems-you-dont-yet-have/
 [frag]: http://frag.rowanmanning.com/
-[frag-screengrab]: http://{{ site.host }}/media/images/posts/frag-website-screengrab.jpg

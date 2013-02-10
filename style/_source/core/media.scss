@@ -1,0 +1,19 @@
+// core/media
+
+// Images
+img, .video {
+    max-width: 100%;
+    @include frag-box;
+    border: 10px solid $c-cream-dk;
+}
+.video {
+    width: 100%;
+    min-height: 260px;
+
+    @media (min-width: $frag-break-bravo) {
+        min-height: 360px;
+    }
+    @media (min-width: $frag-break-charlie) {
+        min-height: 420px;
+    }
+}

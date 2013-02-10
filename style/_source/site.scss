@@ -29,6 +29,7 @@ $frag-gutter-width: $gutter * 2;
 
 // Site styles
 @import "core/layout";
+@import "core/media";
 @import "core/type";
 @import "region/footer";
 @import "region/page";

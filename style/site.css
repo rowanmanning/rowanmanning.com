@@ -807,6 +807,30 @@ table {
   padding-bottom: 2rem;
 }
 
+img, .video {
+  max-width: 100%;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 10px solid #eadbcd;
+}
+
+.video {
+  width: 100%;
+  min-height: 260px;
+}
+@media (min-width: 680px) {
+  .video {
+    min-height: 360px;
+  }
+}
+@media (min-width: 1100px) {
+  .video {
+    min-height: 420px;
+  }
+}
+
 html {
   font-size: 62.5%;
 }
@@ -935,7 +959,7 @@ blockquote {
   margin-left: 0;
   margin-right: 0;
   padding: 0 0 0 18px;
-  border-left: 5px solid #eadbcd;
+  border-left: 10px solid #eadbcd;
 }
 blockquote p {
   margin-top: 0;
@@ -973,7 +997,7 @@ pre code {
   display: block;
   background: #3f3f3f;
   color: #dcdcdc;
-  border: 5px solid #eadbcd;
+  border: 10px solid #eadbcd;
 }
 
 table {
