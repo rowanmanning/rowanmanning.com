@@ -6,7 +6,7 @@ aside: post
 <h1 class="interrupt">{{ page.title }}</h1>
 
 <div class="secondary small flow">
-    <span class="has-icon date">Posted {{ page.date | date: '%d %B %Y' }}</span>{% if page.tags != empty %}, &nbsp;
+    <span class="has-icon date">Posted {{ page.date | date: '%d %B %Y' }}</span>{% if page.tags != empty %}; &nbsp;
     <span class="has-icon tags">Tagged with {{ page.tags | join: ', ' }}</span>{% endif %}
 </div>
 
