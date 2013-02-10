@@ -7,11 +7,22 @@
 
 // Additional grid styles
 .grid {
-    max-width: 1400px;
+    max-width: 1800px;
     margin-left: auto;
     margin-right: auto;
+}
+.col {
+    max-width: 800px;
 }
 .fullpad {
     @include rem('padding-top', $gutter);
     @include rem('padding-bottom', $gutter);
+}
+
+// Break-point charlie
+@media (min-width: $frag-break-charlie) {
+    .aside {
+        max-width: 420px;
+        float: right;
+    }
 }
