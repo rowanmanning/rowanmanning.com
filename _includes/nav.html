@@ -1,12 +1,14 @@
 
-<a href="/" class="flow logo">
-    <span class="title">
-        Rowan Manning,
+{% if page.url == '/index.html': %}<h1>{% endif %}
+<a href="/" class="flow blocklink logo">
+    <span class="h6 interrupt title">
+        Rowan<br/>Manning,
     </span>
-    <span class="tagline">
+    <span class="secondary small tagline">
         Web Geek
     </span>
 </a>
+{% if page.url == '/index.html': %}</h1>{% endif %}
 
 <!-- Site navigation -->
 <ul class="list nav site-nav">

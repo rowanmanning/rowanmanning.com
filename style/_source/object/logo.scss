@@ -1,0 +1,15 @@
+// object/logo
+
+// Site logo styling
+.logo {
+    @include rem("line-height", $t-lineheight);
+    border-left: 5px solid $c-green-dk;
+
+    &:hover {
+        background: transparent;
+    }
+
+    .title, .tagline {
+        display: block;
+    }
+}
