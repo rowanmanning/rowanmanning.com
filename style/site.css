@@ -1057,6 +1057,9 @@ table {
 .has-icon.link:before {
   content: "l";
 }
+.has-icon.repo:before {
+  content: "g";
+}
 .has-icon.tags:before {
   content: "a";
 }

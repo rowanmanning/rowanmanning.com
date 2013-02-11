@@ -44,6 +44,9 @@
     &.link:before {
         content: "l";
     }
+    &.repo:before {
+        content: "g";
+    }
     &.tags:before {
         content: "a";
     }
