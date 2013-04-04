@@ -1,8 +1,13 @@
 ---
 title: Building CSSDB
 date: 2013-03-30 00:38
+lastmod: 2013-04-04 20:59
 description: How I tackled the build of CSSDB over a weekend. Outlining my technological decisions, and how the site kept nice and snappy under heavy load.
 tags: [CSS, Express, JS, Node]
+reading:
+  - label: CSSDB source code on GitHub
+    url: https://github.com/rowanmanning/cssdb
+    type: repo
 layout: post
 ---
 
@@ -79,7 +84,10 @@ I had a lot of fun building [CSSDB][cssdb]. As well as being well suited to buil
 
 All-in-all, I haven't regretted any of my choices (yet). The site's remained fast and responsive under a moderate (but increasing) load, and I'm getting a steady flow of submissions.
 
-It's my intention to open-source the code behind the site at some point soon – I'd like to have some more people's eyes on it and get some community participation going. Before I do that, though, some house-keeping is in order: CSSDB was built over a weekend, with little consideration for maintainability and ease-of-understanding for anyone other than me :)
+<p>
+    <s>It's my intention to open-source the code behind the site at some point soon – I'd like to have some more people's eyes on it and get some community participation going. Before I do that, though, some house-keeping is in order: CSSDB was built over a weekend, with little consideration for maintainability and ease-of-understanding for anyone other than me.</s>
+    <ins>The source-code for CSSDB is <a href="https://github.com/rowanmanning/cssdb">available on GitHub</a>.</ins>
+</p>
 
 Anyway, I hope you've enjoyed my ramblings! Maybe you learned something, or have something to teach me? I'd love to get some feedback on my approach to this build or the site itself.
 
