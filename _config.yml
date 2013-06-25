@@ -1,15 +1,15 @@
 
 # Jekyll config
-auto: true
 exclude:
   - CNAME
   - Makefile
   - README.md
+future: false
 lsi: false
 permalink: /posts/:title/
 pygments: true
 safe: true
-server: true
+timezone: Europe/London
 
 # Site details
 lang: en-GB

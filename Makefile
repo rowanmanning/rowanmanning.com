@@ -19,5 +19,5 @@ compile-sass:
 # Build the site
 build:
 	@echo "Building site...";
-	@jekyll;
+	@jekyll build --watch;
 	@echo "  > Done"

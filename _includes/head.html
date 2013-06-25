@@ -22,7 +22,7 @@
 <!-- Tracking -->
 <meta name="bitly-verification" content="{{ site.track.bitly }}"/>
 <script>
-    if (/^localhost/.test(document.location.host) === false) {
+    if (/^localhost|dev\.rowanmanning.com/.test(document.location.host) === false) {
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', '{{ site.track.ga }}']);
         _gaq.push(['_setDomainName', '{{ site.host }}']);
