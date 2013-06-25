@@ -2,17 +2,14 @@
 title: "JavaScript For Beginners: Async"
 date: 2013-06-25 19:28
 description: An introduction to asynchronous JavaScript, part of a series on JavaScript for Beginners.
-tags: [Beginners, JS, Node]
+tags: [Beginners, JS]
 layout: post
 noindex: true
 ---
 
+This is the first in a series of posts which will explain some of the concepts and terminology which are thrown about in JavaScript land, with a focus on beginners. In this post we'll be looking at the term "Async"; what it means and why it matters to you as a JavaScript developer.
 
-Recently, I was reminded of my early days in JavaScript. Like many others, I got into JavaScript through the gateway <del>drug</del> <ins>library</ins> that is jQuery.
-
-In particular I remember that, being a self-taught JavaScript noob, I was often left behind in technical conversations among my more experienced computer-sciency peers. One of the biggest barriers was some of the terminology thrown about – yes, even terms like "async".
-
-This post (or series of posts) is my attempt to clarify some of these terms/concepts to the next generation of JavaScript newbies.
+Recently, I was reminded of my early days in development. Being a self-taught JavaScript noob, it was easy to get left behind in technical conversations among more computer-sciency peers. One of the barriers was the terminology being used, terms like "Async".
 
 
 So, What Does "Async" Mean? {.topper}
@@ -75,6 +72,6 @@ In Summary {.topper}
 
 So to recap, synchronous code is executed in sequence – each statement waits for the previous statement to finish before executing. Asynchronous code doesn't have to wait – your program can continue to run. You do this to keep your site or app responsive, reducing waiting time for the user.
 
-I hope this has been useful; I was surprised at how difficult it was to put into words! This has been a fun excercise, though.
+Thanks for reading. Let me know if there's a topic you'd like to be covered in this series!
 
-If there's a phrase you often come across but don't fully understand then tweet me – I'll have a go at explaining it :)
+Rowan
