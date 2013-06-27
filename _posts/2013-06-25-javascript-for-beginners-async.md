@@ -67,6 +67,18 @@ doSomeOtherImportantThings();
 In the second example, `doSomeOtherImportantThings` doesn't have to wait for the tweets to load.
 
 
+How To Program Asynchronously {.topper}
+-----------------------------
+
+Although the purpose of this post is to explain the term, it would feel incomplete without a short overview of *how* to program asynchronously. I'm sure you'd like to know how to apply this knowledge.
+
+More often than not, this is done for you by browser/server APIs (XMLHttpRequest, Node `fs` module) or third-party libraries (jQuery.ajax). Most of the time, this is as far as you need to go – you wouldn't asynchronize *everything*, as this can actually lead to less performant (and very complex) code.
+
+As a general rule of thumb, you use asynchronous code when performing expensive and time-consuming operations. You wouldn't use it to change a CSS class on an element, for example.
+
+For when you need them, there are plenty of libraries which aid you in writing asynchronous code; [Async.js][async] is an excellent example.
+
+
 In Summary {.topper}
 ----------
 
@@ -75,3 +87,7 @@ So to recap, synchronous code is executed in sequence – each statement waits f
 Thanks for reading. Let me know if there's a topic you'd like to be covered in this series!
 
 Rowan
+
+
+
+[async]: https://github.com/caolan/async
