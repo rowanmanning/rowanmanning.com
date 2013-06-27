@@ -1,10 +1,9 @@
 ---
 title: "JavaScript For Beginners: Async"
-date: 2013-06-25 19:28
+date: 2013-06-27 20:15
 description: An introduction to asynchronous JavaScript, part of a series on JavaScript for Beginners.
 tags: [Beginners, JS]
 layout: post
-noindex: true
 ---
 
 This is the first in a series of posts which will explain some of the concepts and terminology which are thrown about in JavaScript land, with a focus on beginners. In this post we'll be looking at the term "Async"; what it means and why it matters to you as a JavaScript developer.
