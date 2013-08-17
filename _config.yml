@@ -1,0 +1,13 @@
+
+# Jekyll config
+exclude:
+  - bower.json
+  - CNAME
+  - Makefile
+  - README.md
+future: false
+lsi: false
+permalink: /posts/:title/
+pygments: true
+safe: true
+timezone: Europe/London
