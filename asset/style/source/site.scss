@@ -1,0 +1,23 @@
+
+// Colors
+$c-green: #7db578;
+$c-green-lt: #cae8a7;
+
+// Grid config
+$frag-max-width: 1800px;
+$frag-gutter-width: 20px;
+
+// Spacing
+$spacing: $frag-gutter-width;
+$spacing-small: $spacing / 2;
+
+// Vendor styles
+@import "../../vendor/frag/lib/frag";
+@import "../../vendor/pigeon/lib/pigeon";
+
+// Root/page styles
+@import "core/root";
+@import "core/page";
+
+// Objects
+@import "object/prose";

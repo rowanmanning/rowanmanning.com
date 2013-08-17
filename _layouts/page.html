@@ -43,7 +43,42 @@
 </head>
 <body>
 
-    {{ content }}
+    <!-- Main page container -->
+    <div class="space space-above grid page">
+
+        <div class="col dsk-2 tab-12 mob-12">
+
+            <!-- Site banner -->
+            <div role="banner">
+                {% include banner.html %}
+            </div>
+
+            <!-- Site navigation -->
+            <div role="navigation">
+                {% include nav.html %}
+            </div>
+
+        </div>
+
+        <!-- Post content -->
+        <div class="col dsk-6 tab-8 mob-12" role="main">
+            {{ content }}
+        </div>
+
+        <!-- Sidebar -->
+        <div class="space col dsk-4 tab-4 mob-12" role="complementary">
+            <p>Sidebar</p>
+        </div>
+
+    </div>
+
+    <!-- Site footer -->
+    <div class="grid page">
+        <div class="col dsk-2 tab-hide">&nbsp;</div>
+        <div class="col dsk-10 tab-9 mob-12" role="contentinfo">
+            {% include footer.html %}
+        </div>
+    </div>
 
 </body>
 </html>

@@ -32,7 +32,7 @@
 /* Grid: Base styles */
 .grid {
   width: auto;
-  max-width: 1200px;
+  max-width: 1800px;
   *width: 980px;
 }
 .grid .grid {
@@ -1368,4 +1368,41 @@ th, td {
 caption {
   font-weight: bold;
   text-align: left;
+}
+
+html, body {
+  border-top: 15px solid #7db578;
+}
+
+body {
+  border-top-color: #cae8a7;
+}
+
+@media all and (max-width: 1000px) {
+  html {
+    font-size: 60%;
+  }
+}
+@media all and (max-width: 640px) {
+  html, body {
+    border-top-width: 10px;
+  }
+
+  html {
+    font-size: 56%;
+  }
+}
+.page {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+@media all and (max-width: 640px) {
+  .page {
+    padding: 0;
+  }
+}
+
+.prose {
+  max-width: 600px;
 }
