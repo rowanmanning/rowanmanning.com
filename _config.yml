@@ -1,4 +1,13 @@
 
+# Site details
+lang: en-GB
+host: rowanmanning.com
+
+# Tracking info
+track:
+  ga: UA-5860182-1
+  bitly: 9fa4195591f6
+
 # Jekyll config
 exclude:
   - bower.json

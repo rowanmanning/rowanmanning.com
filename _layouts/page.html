@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+    
+    <!-- Page meta-information -->
+    <meta charset="utf-8"/>
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}"/>
+    <!-- TODO: swap these over before launch -->
+    <meta name="robots" content="noindex"/>
+    <!--{% if page.noindex %}<meta name="robots" content="noindex"/>{% endif %}-->
+
+    <!-- Site links -->
+    <!-- TODO: uncomment once these pages exist -->
+    <!-- <link rel="alternate" type="application/atom+xml" href="/blog.xml" title="Rowan Manning's Blog"/> -->
+    <!-- <link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap"/> -->
+    <link rel="canonical" href="http://{{ site.host }}{{ page.url | replace: 'index.html', '' }}"/>
+    {% if page.url != '/index.html': %}<link rel="author" href="http://{{ site.host }}/"/>{% endif %}
+
+    <!-- Styles -->
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="/asset/style/site.min.css"/>
+    <!-- TODO: uncomment once these icons exist -->
+    <!-- <link rel="icon" href="/favicon.png" type="image/png"/> -->
+    <!-- <link rel="shortcut icon" href="/favicon.ico"/> -->
+
+    <!-- Tracking -->
+    <meta name="bitly-verification" content="{{ site.track.bitly }}"/>
+    <script>
+        if (/^(www\.)?rowanmanning.com$/.test(document.location.host)) {
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', '{{ site.track.ga }}']);
+            _gaq.push(['_setDomainName', '{{ site.host }}']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        }
+    </script>
+
+</head>
+<body>
+
+    {{ content }}
+
+</body>
+</html>
