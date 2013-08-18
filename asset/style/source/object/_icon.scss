@@ -21,13 +21,26 @@
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
 }
+.icon-book:before {
+    content: "b";
+}
 .icon-dribbble:before {
     content: "d";
     color: $c-dribbble;
 }
+.icon-feed:before {
+    content: "f";
+    color: $c-feed;
+}
 .icon-github:before {
     content: "g";
     color: $c-github;
+}
+.icon-link:before {
+    content: "l";
+}
+.icon-repo:before {
+    content: "g";
 }
 .icon-twitter:before {
     content: "t";
