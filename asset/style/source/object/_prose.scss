@@ -1,5 +1,24 @@
 
-// Prose object – ensure line width doesn't get crazy
+// Prose object – styles which apply to body text
 .prose {
     max-width: 600px;
+
+    // Media
+    img, .video {
+        max-width: 100%;
+        @extend .frag-box;
+        border: 10px solid $c-cream;
+    }
+    .video {
+        width: 100%;
+        min-height: 420px;
+
+        @media all and (max-width: $frag-break-tablet) {
+            min-height: 360px;
+        }
+        @media all and (max-width: $frag-break-mobile) {
+            min-height: 260px;
+        }
+    }
 }
+
