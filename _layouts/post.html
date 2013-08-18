@@ -43,7 +43,7 @@ sidebar: post
     </li>
 
     <li class="tile">
-        <a class="block-link shh-a" href="mailto:{{ site.email }}?subject={{ page.title | cgi_escape }}">
+        <a class="block-link shh-a" href="mailto:{{ site.email }}?subject={{ page.title | uri_escape }}">
             <span class="block-link-inner hover-hi">
                 <span class="icon icon-email"></span>
                 Email me about this

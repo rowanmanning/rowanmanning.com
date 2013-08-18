@@ -43,8 +43,15 @@
     content: "g";
     color: $c-github;
 }
+.icon-google:before {
+    // TODO add Google colour/icon
+}
 .icon-link:before {
     content: "l";
+}
+.icon-linkedin:before {
+    content: "i";
+    color: $c-linkedin;
 }
 .icon-repo:before {
     content: "g";
