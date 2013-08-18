@@ -4,12 +4,12 @@
     max-width: 600px;
 
     // Media
-    img, .video {
+    .media-image, .media-video {
         max-width: 100%;
         @extend .frag-box;
         border: 10px solid $c-cream;
     }
-    .video {
+    .media-video {
         width: 100%;
         min-height: 420px;
 
