@@ -24,13 +24,16 @@
                     <img src="/media{{ post.id }}.jpg" alt="{{ post.subject }}" itemprop="image"/>
                 </div>
 
-                <p class="smallprint space-less post-meta">
-                    Posted <time itemprop="dateCreated" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ post.date | date: '%d %B %Y' }}</time>
+                <div class="smallprint space-less post-meta">
+                    <div>
+                        Posted <time itemprop="dateCreated" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ post.date | date: '%d %B %Y' }}</time>
+                    </div>
                     {% if post.tags != empty %}
-                        <br/>
-                        Tagged with <span itemprop="keywords">{{ post.tags | join: ', ' }}</span>
+                        <div>
+                            Tagged with <span itemprop="keywords">{{ post.tags | join: ', ' }}</span>
+                        </div>
                     {% endif %}
-                </p>
+                </div>
 
                 <p class="cramp post-summary" itemprop="description">
                     {{ post.description }}

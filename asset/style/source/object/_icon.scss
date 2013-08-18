@@ -24,9 +24,16 @@
 .icon-book:before {
     content: "b";
 }
+.icon-date:before {
+    content: "c";
+}
 .icon-dribbble:before {
     content: "d";
     color: $c-dribbble;
+}
+.icon-email:before {
+    content: "e";
+    color: $c-green-dk;
 }
 .icon-feed:before {
     content: "f";
@@ -41,6 +48,9 @@
 }
 .icon-repo:before {
     content: "g";
+}
+.icon-tags:before {
+    content: "a";
 }
 .icon-twitter:before {
     content: "t";
