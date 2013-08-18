@@ -21,7 +21,7 @@
                 </h3>
 
                 <div class="image">
-                    <img src="/media{{ post.id }}.jpg" alt="{{ post.subject }}" itemprop="image"/>
+                    <img src="/media/images/{{ post.id | replace: '/posts/', 'post-thumbs/' }}.jpg" alt="{{ post.subject }}" itemprop="image"/>
                 </div>
 
                 <div class="smallprint space-less post-meta">
