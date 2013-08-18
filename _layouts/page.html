@@ -59,19 +59,19 @@
         </div>
 
         <!-- Post content -->
-        <div class="col dsk-6 tab-8 mob-12" role="main">
+        <div class="col dsk-6 tab-8 mob-12 space-more" role="main">
             {{ content }}
         </div>
 
         <!-- Sidebar -->
-        <div class="space col dsk-4 tab-4 mob-12" role="complementary">
-            <p>Sidebar</p>
+        <div class="space col dsk-4 tab-4 mob-12 space-more" role="complementary">
+            {% include sidebar.html %}
         </div>
 
     </div>
 
     <!-- Site footer -->
-    <div class="grid page space space-above-more">
+    <div class="grid page space">
         <div class="col dsk-2 tab-hide">&nbsp;</div>
         <div class="col dsk-6 tab-8 mob-12" role="contentinfo">
             {% include footer.html %}

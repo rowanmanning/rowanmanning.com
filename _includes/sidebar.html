@@ -1,0 +1,16 @@
+
+{% case page.aside %}
+    {% when 'home' %}
+
+        <!-- Recent Projects -->
+        <h2 class="heading-bar">Projects</h2>
+        {% include projects.html count="3" top="true" %}
+        <a href="/projects/" class="block-link align-alt shh-a">
+            <span class="block-link-inner hover-hi">View all projects &raquo;</span>
+        </a>
+
+    {% else %}
+
+        <p>Sidebar</p>
+
+{% endcase %}
