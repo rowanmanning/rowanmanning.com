@@ -1,0 +1,9 @@
+
+// Heading bar object
+.heading-bar {
+    display: block;
+    padding: $spacing-small;
+    background-color: $c-cream;
+    border-bottom: 5px solid $c-green-lt;
+    @include rem(font-size, $pigeon-type-size);
+}
