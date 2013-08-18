@@ -15,7 +15,7 @@ noindex: true
         <uri>http://{{ site.host }}/</uri>
     </author>
 
-    {% for post in site.posts %}
+    {% for post in site.categories.blog %}
         {% if post.noindex != true %}
             <entry>
                 <title>{{ post.title }}</title>

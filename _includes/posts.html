@@ -11,7 +11,7 @@
     </div>
 
     <ol class="stack posts">
-        {% for post in site.posts limit:include.count %}
+        {% for post in site.categories.blog limit:include.count %}
 
             <li class="space pad box img-split post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
                 <meta itemprop="url" content="http://{{ site.host }}{{ post.url }}"/>

@@ -1,0 +1,27 @@
+
+<!-- Project list -->
+<div>
+
+    <ol class="stack projects">
+        {% for project in site.categories.projects limit:include.count %}
+
+            <li class="space pad box img-split project">
+
+                <h3 class="h4 space-less project-title">
+                    <a href="{{ project.projectUrl }}" class="shh-a">{{ project.title }}</a>
+                </h3>
+
+                <div class="image">
+                    <img src="/media/projects/{{ project.id | replace: '/posts/', '' | replace: '-project', '' }}.jpg" alt="{{ project.title }}"/>
+                </div>
+
+                <div class="project-summary">
+                    {{ project.content }}
+                </div>
+
+            </li>
+
+        {% endfor %}
+    </ol>
+
+</div>
