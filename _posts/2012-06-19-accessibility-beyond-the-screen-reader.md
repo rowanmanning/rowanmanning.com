@@ -4,6 +4,7 @@ date: 2012-06-19 21:05
 lastmod: 2012-06-20 10:30
 description: Web accessibility isn't just about catering for blind users. In this post, we talk about the other users we need to consider in order to make the web accessible to all.
 tags: [Accessibility]
+subject: accessibility
 reading:
   - label: Accessibility articles from WebAIM
     url: http://webaim.org/articles/

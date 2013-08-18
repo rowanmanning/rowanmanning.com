@@ -1,0 +1,45 @@
+
+<!-- Post list -->
+<div itemscope itemtype="http://schema.org/Blog">
+
+    <meta itemprop="name" content="Rowan Manning's Blog"/>
+    <meta itemprop="url" content="http://{{ site.host }}/blog/"/>
+
+    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="Rowan Manning"/>
+        <meta itemprop="url" content="http://{{ site.host }}/"/>
+    </div>
+
+    <ol class="stack posts">
+        {% for post in site.posts limit:include.count %}
+
+            <li class="space pad box img-split post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+                <meta itemprop="url" content="http://{{ site.host }}{{ post.url }}"/>
+
+                <h3 class="h4 space-less post-title">
+                    <a href="{{ post.url }}" class="shh-a" itemprop="name">{{ post.title }}</a>
+                </h3>
+
+                <div class="image">
+                    <img src="/media{{ post.id }}.jpg" alt="{{ post.subject }}" itemprop="image"/>
+                </div>
+
+                <p class="smallprint space-less post-meta">
+                    Posted <time itemprop="dateCreated" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ post.date | date: '%d %B %Y' }}</time>
+                    {% if post.tags != empty %}
+                        <br/>
+                        Tagged with <span itemprop="keywords">{{ post.tags | join: ', ' }}</span>
+                    {% endif %}
+                </p>
+
+                <p class="cramp post-summary" itemprop="description">
+                    {{ post.description }}
+                    <a href="{{ post.url }}">Read about {{ post.subject }}</a>.
+                </p>
+
+            </li>
+
+        {% endfor %}
+    </ol>
+
+</div>

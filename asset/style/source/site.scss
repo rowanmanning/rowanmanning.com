@@ -2,10 +2,18 @@
 // Colors
 $c-green: #7db578;
 $c-green-lt: #cae8a7;
+$c-green-dk: #4c8847;
+$c-cream: #f7f5f0;
+$c-cream-dk: #eae3d1;
 
 // Grid config
 $frag-max-width: 1800px;
 $frag-gutter-width: 20px;
+
+// Type config
+$pigeon-type-face: Verdana, Geneva, Tahoma, sans-serif;
+$pigeon-type-line-height: 25px;
+$pigeon-type-color-link: $c-green-dk;
 
 // Spacing
 $spacing: $frag-gutter-width;
@@ -20,4 +28,11 @@ $spacing-small: $spacing / 2;
 @import "core/page";
 
 // Objects
+@import "object/align";
+@import "object/block-link";
+@import "object/box";
+@import "object/hover-hi";
+@import "object/pad";
 @import "object/prose";
+@import "object/tile";
+@import "object/img-split";
