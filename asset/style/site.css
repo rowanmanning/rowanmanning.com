@@ -830,7 +830,7 @@ table {
  *
  *     <p class="hide"> ... </p>
  */
-.hide {
+.hide, .icon-label {
   position: absolute;
   left: -9999px;
   max-width: 999px;
@@ -838,7 +838,7 @@ table {
 }
 
 /* Right-to-left support */
-[dir=rtl] .hide {
+[dir=rtl] .hide, [dir=rtl] .icon-label {
   left: auto;
   right: -9999px;
 }
@@ -1240,7 +1240,7 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 17px;
   font-size:  1.7rem;
   color: #333333;
@@ -1254,7 +1254,7 @@ blockquote, caption, dl, figure, ol, ul, hr, pre, table {
 
 /* Heading typography */
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, caption, dt, th {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: normal;
 }
 
@@ -1290,7 +1290,7 @@ h1, .h1 {
 
 /* Links */
 a {
-  color: #4781ba;
+  color: #4c8847;
 }
 a:visited {
   color: #7f629c;
@@ -1403,6 +1403,198 @@ body {
   }
 }
 
+.align {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-alt {
+  text-align: right;
+}
+
+.block-link {
+  display: block;
+}
+.block-link .block-link-inner {
+  padding: 10px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background-color: #f7f5f0;
+}
+@media all and (max-width: 640px) {
+  .block-link .block-link-inner {
+    display: block;
+    text-align: center;
+  }
+}
+
+.box {
+  display: block;
+  background-color: #f7f5f0;
+}
+
+.hover-hi:hover {
+  background-color: #cae8a7;
+}
+
+.hover-hi-dribbble:hover {
+  background-color: #f2d1de;
+}
+
+.hover-hi-feed:hover {
+  background-color: #f4dcc8;
+}
+
+.hover-hi-github:hover {
+  background-color: #dddddd;
+}
+
+.hover-hi-linkedin:hover {
+  background-color: #bae2f6;
+}
+
+.hover-hi-twitter:hover {
+  background-color: #cbe4f4;
+}
+
+@font-face {
+  font-family: 'icon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon:before {
+  content: "";
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  font-family: 'icon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-dribbble:before {
+  content: "d";
+  color: #ea4c89;
+}
+
+.icon-github:before {
+  content: "g";
+  color: #444444;
+}
+
+.icon-twitter:before {
+  content: "t";
+  color: #52ade5;
+}
+
+.pad {
+  padding: 20px;
+}
+
 .prose {
   max-width: 600px;
+}
+
+.tile {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.img-split {
+  padding-left: 40%;
+  position: relative;
+  overflow: hidden;
+}
+.img-split .image {
+  width: 33%;
+  min-height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: #eae3d1;
+  border-right: 10px solid #cae8a7;
+}
+.img-split .image img {
+  margin-left: -30%;
+  margin-top: -30%;
+}
+@media all and (max-width: 1000px) {
+  .img-split {
+    padding-left: 20px;
+    padding-top: 150px;
+  }
+  .img-split .image {
+    width: 100%;
+    height: 120px;
+    min-height: 0;
+    border-right: none;
+    border-bottom: 10px solid #cae8a7;
+  }
+  .img-split .image img {
+    margin-left: 0;
+    margin-top: -25%;
+    width: 100%;
+  }
+}
+@media all and (max-width: 640px) {
+  .img-split {
+    padding-top: 100px;
+  }
+  .img-split .image {
+    height: 80px;
+  }
+}
+
+.banner-img {
+  width: auto;
+  max-width: 80%;
+  border-bottom: 10px solid #cae8a7;
+}
+
+.banner-name {
+  font-size: 37px;
+  font-size:  3.7rem;
+  line-height: 31px;
+  line-height:  3.1rem;
+}
+
+.banner-surname {
+  font-size: 26px;
+  font-size:  2.6rem;
+}
+
+@media all and (max-width: 1000px) {
+  .banner-name {
+    font-size: 31px;
+    font-size:  3.1rem;
+    line-height: 26px;
+    line-height:  2.6rem;
+  }
+
+  .banner-surname {
+    font-size: 22px;
+    font-size:  2.2rem;
+  }
+}
+@media all and (max-width: 1000px) {
+  .banner-img {
+    width: 55px;
+    margin-right: 20px;
+    float: left;
+    border: none;
+  }
+
+  .banner-name {
+    margin-left: 20px;
+  }
 }

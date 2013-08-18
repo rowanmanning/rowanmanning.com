@@ -1,0 +1,37 @@
+
+// Banner styles
+.banner {
+
+}
+.banner-img {
+    width: auto;
+    max-width: 80%;
+    border-bottom: 10px solid $c-green-lt;
+}
+.banner-name {
+    @include rem(font-size, $pigeon-type-size-2);
+    @include rem(line-height, $pigeon-type-size-3);
+}
+.banner-surname {
+    @include rem(font-size, $pigeon-type-size-4);
+}
+@media all and (max-width: $frag-break-tablet) {
+    .banner-name {
+        @include rem(font-size, $pigeon-type-size-3);
+        @include rem(line-height, $pigeon-type-size-4);
+    }
+    .banner-surname {
+        @include rem(font-size, $pigeon-type-size-5);
+    }
+}
+@media all and (max-width: $frag-break-tablet) {
+    .banner-img {
+        width: 55px;
+        margin-right: $spacing;
+        float: left;
+        border: none;
+    }
+    .banner-name {
+        margin-left: $spacing;
+    }
+}
