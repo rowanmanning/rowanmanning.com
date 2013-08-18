@@ -1,5 +1,5 @@
 ---
-title: HangoverBadger
+title: The Hangover Badger
 projectUrl: http://hangoverbadger.co.uk/
 layout: project
 ---
