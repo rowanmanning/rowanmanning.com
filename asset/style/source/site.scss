@@ -38,6 +38,7 @@ $spacing-small: $spacing / 2;
 // Root/page styles
 @import "core/root";
 @import "core/page";
+@import "core/code";
 
 // Objects
 @import "object/align";
