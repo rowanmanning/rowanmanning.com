@@ -44,7 +44,8 @@
     color: $c-github;
 }
 .icon-google:before {
-    // TODO add Google colour/icon
+    content: "o";
+    color: $c-google;
 }
 .icon-link:before {
     content: "l";
