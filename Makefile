@@ -32,3 +32,8 @@ build:
 	@echo "Building site..."
 	@jekyll build
 	@echo "  > Done"
+
+# Build the site
+build-watch:
+	@echo "Watching and building site..."
+	@jekyll build --watch
