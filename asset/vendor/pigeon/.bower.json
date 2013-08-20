@@ -1,6 +1,6 @@
 {
   "name": "pigeon",
-  "version": "1.2.2",
+  "version": "1.2.4",
   "description": "Pigeon is an OOCSS framework for rapid prototyping and building smart, scalable websites.",
   "keywords": [
     "css",
@@ -16,11 +16,11 @@
     "url": "http://rowanmanning.co.uk/"
   },
   "main": "build/pigeon.css",
-  "_release": "1.2.2",
+  "_release": "1.2.4",
   "_resolution": {
     "type": "version",
-    "tag": "1.2.2",
-    "commit": "ab8a7d64959db08b2b9ee12e77f5e9fcbd26810a"
+    "tag": "1.2.4",
+    "commit": "63ded41b336fc71451936ab7eb5e91b3d35b1922"
   },
   "_source": "git://github.com/rowanmanning/pigeon.git",
   "_target": "~1.2"
