@@ -66,4 +66,7 @@
 }
 .icon-label {
     @extend .hide;
+    *position: static;
+    *max-width: auto;
+    *overflow: auto;
 }
