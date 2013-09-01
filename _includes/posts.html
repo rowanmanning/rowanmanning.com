@@ -13,7 +13,7 @@
     <ol class="stack posts">
         {% for post in site.categories.blog limit:include.count %}
 
-            <li class="space pad box img-split{% if include.top: %}-top{% endif %} post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <li class="space pad box img-split {% if include.top: %}img-split-top{% endif %} post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
                 <meta itemprop="url" content="http://{{ site.host }}{{ post.url }}"/>
 
                 <h3 class="h4 post-title">

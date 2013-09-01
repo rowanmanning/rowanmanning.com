@@ -7,7 +7,7 @@
 
     .image {
         width: 33%;
-        min-height: 400px;
+        height: 100%;
         position: absolute;
         top: 0;
         left: 0;
@@ -16,71 +16,53 @@
         border-right: 10px solid $c-green-lt;
 
         img {
-            margin-left: -30%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -200px;
+            margin-top: -200px;
+            display: block;
+            width: 400px;
+            height: 400px;
         }
     }
 
     @media all and (max-width: $frag-break-tablet) {
         padding-left: $spacing;
-        padding-top: 150px;
+        padding-top: 180px;
 
         .image {
             width: 100%;
-            height: 120px;
-            min-height: 0;
+            height: 150px;
             border-right: none;
             border-bottom: 10px solid $c-green-lt;
 
             img {
+                left: 0;
                 margin-left: 0;
-                margin-top: -25%;
+                margin-top: -50%;
                 width: 100%;
+                height: auto;
             }
-        }
-    }
-
-    @media all and (max-width: $frag-break-mobile) {
-        padding-top: 100px;
-
-        .image {
-            height: 80px;
         }
     }
 }
 .img-split-top {
-    padding-top: 230px;
-    position: relative;
-    overflow: hidden;
+    padding-left: $spacing;
+    padding-top: 180px;
 
     .image {
         width: 100%;
-        height: 200px;
-        position: absolute;
-        top: 0;
-        left: 0;
-        overflow: hidden;
-        background-color: $c-cream-dk;
+        height: 150px;
+        border-right: none;
         border-bottom: 10px solid $c-green-lt;
 
         img {
-            margin-top: -25%;
+            left: 0;
+            margin-left: 0;
+            margin-top: -50%;
             width: 100%;
-        }
-    }
-
-    @media all and (max-width: $frag-break-tablet) {
-        padding-top: 150px;
-
-        .image {
-            height: 120px;
-        }
-    }
-
-    @media all and (max-width: $frag-break-mobile) {
-        padding-top: 230px;
-
-        .image {
-            height: 200px;
+            height: auto;
         }
     }
 }
