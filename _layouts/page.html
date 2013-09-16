@@ -6,9 +6,7 @@
     <meta charset="utf-8"/>
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.description }}"/>
-    <!-- TODO: swap these over before launch -->
-    <meta name="robots" content="noindex"/>
-    <!--{% if page.noindex %}<meta name="robots" content="noindex"/>{% endif %}-->
+    {% if page.noindex %}<meta name="robots" content="noindex"/>{% endif %}
 
     <!-- Site links -->
     <link rel="alternate" type="application/atom+xml" href="/blog.xml" title="Rowan Manning's Blog"/>
