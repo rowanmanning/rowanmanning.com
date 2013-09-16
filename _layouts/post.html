@@ -26,32 +26,32 @@ sidebar: post
 
     {{ content }}
 
+    <h3 class="heading-bar space-above-more">Discussion</h3>
+
+    <p>
+        If you'd like to discuss this post, or any of the topics mentioned, please get in touch!
+    </p>
+
+    <ul class="blocklineup space-more">
+
+        <li class="tile">
+            <a class="block-link shh-a" href="https://twitter.com/share?url={{ 'http://' | cgi_escape }}{{ site.host | cgi_escape }}{{ page.url | cgi_escape }}&amp;via=rowanmanning&amp;text={{ page.title | cgi_escape }}" target="_blank">
+                <span class="block-link-inner hover-hi-twitter">
+                    <span class="icon icon-twitter"></span>
+                    Tweet about this post
+                </span>
+            </a>
+        </li>
+
+        <li class="tile">
+            <a class="block-link shh-a" href="mailto:{{ site.email }}?subject={{ page.title | uri_escape }}">
+                <span class="block-link-inner hover-hi">
+                    <span class="icon icon-email"></span>
+                    Email me about this
+                </span>
+            </a>
+        </li>
+
+    </ul>
+
 </div>
-
-<h3 class="heading-bar space-above-more">Discussion</h3>
-
-<p>
-    If you'd like to discuss any of the topics in this post, please get in touch!
-</p>
-
-<ul class="blocklineup space-more">
-
-    <li class="tile">
-        <a class="block-link shh-a" href="https://twitter.com/share?url={{ 'http://' | cgi_escape }}{{ site.host | cgi_escape }}{{ page.url | cgi_escape }}&amp;via=rowanmanning&amp;text={{ page.title | cgi_escape }}" target="_blank">
-            <span class="block-link-inner hover-hi-twitter">
-                <span class="icon icon-twitter"></span>
-                Tweet about this post
-            </span>
-        </a>
-    </li>
-
-    <li class="tile">
-        <a class="block-link shh-a" href="mailto:{{ site.email }}?subject={{ page.title | uri_escape }}">
-            <span class="block-link-inner hover-hi">
-                <span class="icon icon-email"></span>
-                Email me about this
-            </span>
-        </a>
-    </li>
-
-</ul>

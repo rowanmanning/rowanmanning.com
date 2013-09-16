@@ -2,6 +2,9 @@
 // Prose object – styles which apply to body text
 .prose {
     max-width: 600px;
+    @media all and (min-width: 1480px) {
+        margin-left: 8%;
+    }
 
     // Media
     .media-image, .media-video {
