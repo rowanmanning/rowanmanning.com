@@ -1,0 +1,35 @@
+
+// Add a subject highlight to an element
+.subj {
+    border-left: 10px solid $c-green-lt;
+    @media all and (max-width: $frag-break-mobile) {
+        border-left-width: 5px;
+    }
+}
+.subj-a11y {
+    border-color: #3871b3;
+}
+.subj-badger {
+    border-color: #777;
+}
+.subj-brewth {
+    border-color: #dccca4;
+}
+.subj-css {
+    border-color: #ec457c;
+}
+.subj-cssdb {
+    border-color: #59c3be;
+}
+.subj-jekyll {
+    border-color: #c00;
+}
+.subj-js {
+    border-color: #ffd600;
+}
+.subj-node {
+    border-color: #8bc84b;
+}
+.subj-thinking {
+    border-color: #83d1ee;
+}

@@ -2,6 +2,7 @@
 title: CSSDB
 projectUrl: http://cssdb.co/
 layout: project
+subject-id: cssdb
 ---
 
 <p class="cramp">

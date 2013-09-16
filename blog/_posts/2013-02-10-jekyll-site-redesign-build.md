@@ -4,6 +4,7 @@ date: 2013-02-11 00:16
 description: I rebuilt my site with Jekyll, along with a small design refresh; it went so smoothly I thought I'd blog about it. Definitely something to consider if you're building a small site.
 tags: [Jekyll, Rebuild, Redesign]
 subject: my site rebuild
+subject-id: jekyll
 reading:
   - label: Jekyll documentation
     url: https://github.com/mojombo/jekyll#readme

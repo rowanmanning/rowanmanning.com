@@ -2,6 +2,7 @@
 title: The Hangover Badger
 projectUrl: http://hangoverbadger.co.uk/
 layout: project
+subject-id: badger
 ---
 
 <p class="cramp">

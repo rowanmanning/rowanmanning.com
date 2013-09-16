@@ -4,6 +4,7 @@ date: 2012-07-24 21:34
 description: Building yet another grid system could be seen as bloating an already-bloated landscape; but sometimes, rolling your own tools is one of the best things you can do.
 tags: [CSS, Frag, Grid, RWD]
 subject: Frag
+subject-id: css
 layout: post
 ---
 
