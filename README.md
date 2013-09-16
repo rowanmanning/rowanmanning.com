@@ -9,7 +9,7 @@ Licence
 
 Site content is Copyright Rowan Manning. You may not use any of the page content or posts without my permission. Site content encompasses (but is not limited to) blog posts and images.
 
-The site design, CSS and markup (excluding actual content) is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License][cc-by-nc-sa].
+The site design, CSS and markup (excluding actual content) is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License][cc-by-nc-sa]. It would still be polite not to completely rip off my site – if you're going to use the design, make enough changes to differentiate from mine.
 
 [![Creative Commons Licence][cc-img]][cc-by-nc-sa]
 
