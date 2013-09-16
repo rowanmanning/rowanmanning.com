@@ -13,16 +13,12 @@
     <ol class="stack posts">
         {% for post in site.categories.blog limit:include.count %}
 
-            <li class="space pad box img-split {% if include.top: %}img-split-top{% endif %} post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <li class="space pad box post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
                 <meta itemprop="url" content="http://{{ site.host }}{{ post.url }}"/>
 
                 <h3 class="h4 post-title">
                     <a href="{{ post.url }}" class="shh-a" itemprop="name">{{ post.title }}</a>
                 </h3>
-
-                <div class="image">
-                    <img src="/media/images/{{ post.id | replace: '/posts/', 'post-thumbs/' }}.jpg" alt="{{ post.subject }}" itemprop="image"/>
-                </div>
 
                 <div class="smallprint space-less post-meta">
                     <time itemprop="dateCreated" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ post.date | date: '%d %B %Y' }}</time>

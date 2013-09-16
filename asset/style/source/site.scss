@@ -51,12 +51,8 @@ $spacing-small: $spacing / 2;
 @import "object/icon";
 @import "object/pad";
 @import "object/post";
-@import "object/post-image";
 @import "object/prose";
 @import "object/tile";
-
-// Objects (rely on source order)
-@import "object/img-split";
 
 // Regions
 @import "region/banner";
