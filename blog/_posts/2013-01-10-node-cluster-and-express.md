@@ -1,7 +1,8 @@
 ---
 title: Node Cluster and Express
 date: 2013-01-10 20:18
-description: A simple tutorial on using Node 0.8's Cluster module with Express to dramatically improve app performance.
+lastmod: 2013-09-21 13:54
+description: A simple tutorial on using Node.js 0.8+'s Cluster module with Express to dramatically improve app performance.
 tags: [Express, JS, Node, Cluster]
 subject: clustering
 subject-id: node
@@ -41,7 +42,7 @@ Create a new directory for this tutorial, and add a file called `package.json` w
     "name": "learning-express-cluster",
     "version": "0.0.1",
     "dependencies": {
-        "express": "3.0.x"
+        "express": "~3.4"
     }
 }
 {% endhighlight %}
