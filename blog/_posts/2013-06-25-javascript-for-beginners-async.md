@@ -2,8 +2,8 @@
 title: "JavaScript For Beginners: Async"
 date: 2013-06-27 20:15
 description: An introduction to asynchronous JavaScript, part of a series on JavaScript for Beginners.
-subject: async
-subject-id: js
+cta: Learn about async
+subject: js
 tags: [Beginners, JS]
 layout: post
 ---

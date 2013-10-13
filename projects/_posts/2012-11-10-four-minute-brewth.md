@@ -2,7 +2,7 @@
 title: The Four-Minute Brewth
 projectUrl: http://fourminute.brewth.info/
 layout: project
-subject-id: brewth
+subject: brewth
 ---
 
 <p class="cramp">

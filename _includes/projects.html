@@ -5,7 +5,7 @@
     <ol class="stack projects">
         {% for project in site.categories.projects limit:include.count %}
 
-            <li class="space pad box subj subj-{{ project.subject-id }} project">
+            <li class="space pad box subj subj-{{ project.subject }} project">
 
                 <h3 class="h4 space-less project-title">
                     <a href="{{ project.projectUrl }}" class="shh-a">{{ project.title }}</a>

@@ -3,8 +3,8 @@ title: How To Sell Technology
 date: 2012-11-10 16:15
 description: The dressing up of technology in advertising doesn't work for me. I like to know how the product looks, feels and works in as short a time as possible. The same applies to web design.
 tags: [Advertising, Rant, Tech]
-subject: selling technology
-subject-id: thinking
+cta: Read about selling technology
+subject: thinking
 layout: post
 ---
 

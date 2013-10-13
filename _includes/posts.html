@@ -13,7 +13,7 @@
     <ol class="stack posts">
         {% for post in site.categories.blog limit:include.count %}
 
-            <li class="space pad box subj subj-{{ post.subject-id }} post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <li class="space pad box subj subj-{{ post.subject }} post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
                 <meta itemprop="url" content="http://{{ site.host }}{{ post.url }}"/>
 
                 <h3 class="h4 post-title">
@@ -29,7 +29,7 @@
 
                 <p class="cramp post-summary" itemprop="description">
                     {{ post.description }}
-                    <a href="{{ post.url }}">Read about {{ post.subject }}</a>.
+                    <a href="{{ post.url }}">{% if post.cta %}{{ post.cta }}{% else %}Read more{% endif %}</a>.
                 </p>
 
             </li>
