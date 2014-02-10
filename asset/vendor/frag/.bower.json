@@ -26,5 +26,6 @@
     "commit": "4e2db9d926549f7c00a2c26804c52015abed7eaa"
   },
   "_source": "git://github.com/rowanmanning/frag.git",
-  "_target": "~2.1"
+  "_target": "~2.1",
+  "_originalSource": "frag"
 }
