@@ -14,13 +14,28 @@
         {% for post in site.categories.blog limit:include.count %}
 
             <li class="space pad box subj subj-{{ post.subject }} post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-                <meta itemprop="url" content="http://{{ site.host }}{{ post.url }}"/>
+                {% if post.crossPost.url %}
+                    <meta itemprop="url" content="{{ post.crossPost.url }}"/>
+                {% else %}
+                    <meta itemprop="url" content="http://{{ site.host }}{{ post.url }}"/>
+                {% endif %}
+
+                {% if post.crossPost.url %}
+                    <small class="cross-post-indicator">Cross-post</small>
+                {% endif %}
 
                 <h3 class="h4 post-title">
-                    <a href="{{ post.url }}" class="shh-a" itemprop="name">{{ post.title }}</a>
+                    {% if post.crossPost.url %}
+                        <a href="{{ post.crossPost.url }}" target="_blank" class="shh-a" itemprop="name">{{ post.title }}</a>
+                    {% else %}
+                        <a href="{{ post.url }}" class="shh-a" itemprop="name">{{ post.title }}</a>
+                    {% endif %}
                 </h3>
 
                 <div class="smallprint space-less post-meta">
+                    {% if post.crossPost.siteName %}
+                        Posted on <a href="{{ post.crossPost.siteUrl }}">{{ post.crossPost.siteName }}</a>;
+                    {% endif %}
                     <time itemprop="dateCreated" datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ post.date | date: '%d %B %Y' }}</time>
                     {% if post.tags != empty %}
                         in <span itemprop="keywords">{{ post.tags | join: ', ' }}</span>
@@ -29,7 +44,11 @@
 
                 <p class="cramp post-summary" itemprop="description">
                     {{ post.description }}
-                    <a href="{{ post.url }}">{% if post.cta %}{{ post.cta }}{% else %}Read more{% endif %}</a>.
+                    {% if post.crossPost.url %}
+                        <a href="{{ post.crossPost.url }}" target="_blank">{% if post.cta %}{{ post.cta }}{% else %}Read more{% endif %}</a>.
+                    {% else %}
+                        <a href="{{ post.url }}">{% if post.cta %}{{ post.cta }}{% else %}Read more{% endif %}</a>.
+                    {% endif %}
                 </p>
 
             </li>
