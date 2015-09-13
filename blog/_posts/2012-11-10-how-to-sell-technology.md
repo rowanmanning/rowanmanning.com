@@ -13,7 +13,7 @@ I'm going to talk about something which irritates me; you'll have to forgive me 
 The dressing up of technology in advertising doesn't work for me. I like to know how the product looks, feels and works in as short a time as possible. The same principals apply to web design.
 
 
-Sell It To Me {.space-above-more}
+Sell It To Me
 -------------
 
 Think about what makes you buy a product. For me, I'm attracted to a product if I believe it can make my life easier or more enjoyable in some way (and also if I think it will make me cooler… lol jk). For somebody looking for those qualities, it's important to see the key features of the product very quickly. A common theme I'm seeing in tech advertising is a little worrying, there's  no attempt to build a connection between potential customers and the product in question; what I'm seeing is an attempt to appeal to people's impulse and sense of "cool".
@@ -41,7 +41,7 @@ I'll pull up one more set of examples before I apply this to web design. Web Bro
 Then watch even just one of these [Google Chrome commercials](http://www.youtube.com/user/googlechrome). Google have a different strategy here, they stop trying to talk about the browser and look at why and how we use it. They tell some very human stories which don't try to dress up the product, In fact they avoid making their product the centre of attention at all.
 
 
-So How Does This Apply To Web Design? {.space-above-more}
+So How Does This Apply To Web Design?
 -------------------------------------
 
 The rights, wrongs, and near-atrocities of the highlighted adverts can be applied directly to building websites, particularly when working on a home page or landing page which is supposed to draw potential users/customers in.
@@ -51,7 +51,7 @@ The mistake I see in the Microsoft Surface ads is that they focus far too much o
 With the Internet Explorer commercial, to an outsider it may not even be clear what the ad is about. They've made the mistake of trying to make a browser look amazing to regular people, many of whom [don't even know what a browser is](http://youtu.be/o4MwTvtyrUQ). If you're faced with the problem of promoting a product which is not very easily understandable, then a good way to do this is to tell a story. A story can not only help someone understand an abstract concept, but can also really help them see *value* in it – they connect with the human element in a story.
 
 
-To Conclude {.space-above-more}
+To Conclude
 -----------
 
 So, I probably took quite a long time to get to quite a simple point, but I thought it would be nice to illustrate the importance of user-focused design with a more 'real-world' example (and vent a little of my personal frustration).

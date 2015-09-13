@@ -20,7 +20,7 @@ It's been about 9 months since my last site design/refresh, and the code was sta
 Jekyll is a beautifully simple static site generator from [Tom Preston Werner][tom]. The ease-of-use with this tool is crazy, I had so much fun with the rewrite just because Jekyll works in exactly the way you'd expect it to.
 
 
-My Previous Site {.space-above-more}
+My Previous Site
 ----------------
 
 My site was originally built using [DocPad][docpad], another static site generator, but where Jekyll comes out on top for me is it's simplicity. For some people, I'm sure the massive flexibility of DocPad would be a must-have – you can change nearly everything about it – however I'd started to find this more of a hindrance than anything. The complexity of my site was starting to get in the way of me actually publishing anything.
@@ -30,7 +30,7 @@ My second bugbear with my previous site was that I had to generate it locally in
 Spurred on by the [success others had with moving to Jekyll][csswizardry-jekyll], I decided this was the way to go.
 
 
-Transitioning {.space-above-more}
+Transitioning
 -------------
 
 Luckily, having come from another static site generator, a lot of my content was already in Markdown format. This meant I didn't have to mess around with outputting from a database, or work with a bunch of generated files.
@@ -38,7 +38,7 @@ Luckily, having come from another static site generator, a lot of my content was
 As porting blog posts was actually pretty easy, the bulk of the work involved moving my templates and partials from Eco to Liquid. This took a while because I'd customised quite a lot in my previous site to allow nicely formatted dates and the like. All in all, the initial port took a couple of hours.
 
 
-Rebuild {.space-above-more}
+Rebuild
 -------
 
 Once I had my site ported over to Jekyll, it was time for a redesign. As is always the case, I'd neglected the code quality of my own site far more than I would any work or freelance project.
@@ -48,7 +48,7 @@ I made the move from LESS to Sass, which I've been meaning to do for a while, an
 I'm now also using an excellent [icon font from Icomoon][icomoon]. This has reduced the number of images used for styling to only one – the background noise. I'm really pleased with this! I'd recommend Icomoon to anyone wanting to start out with icon fonts.
 
 
-Open-Source {.space-above-more}
+Open-Source
 -----------
 
 Lastly, I'm a huge lover of open-source; it seemed a bit hypocritical of me to keep my personal site in a private repository as it has been for the last year. I decided to open-source the code to my site, and it's now [available on GitHub][repo]. Feel free to peruse, learn and teach!
@@ -56,7 +56,7 @@ Lastly, I'm a huge lover of open-source; it seemed a bit hypocritical of me to k
 If you spot anything that I've missed out, please let me know (or open a pull-request).
 
 
-Your Site? {.space-above-more}
+Your Site?
 ----------
 
 If you're in need of a small site or blog, I can't recommend Jekyll enough. Transitioning was relatively simple, it's very powerful, and can be hosted for free on GitHub!

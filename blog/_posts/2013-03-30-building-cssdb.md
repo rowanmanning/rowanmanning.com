@@ -20,7 +20,7 @@ I launched on Monday to little fanfare, but on Tuesday the site suddenly seemed 
 After a couple more days, I thought it might be interesting to write up my decisions. So here we are.
 
 
-On Paper {.space-above-more}
+On Paper
 --------
 
 Before jumping into development work, there were a few decisions I'm glad I made before touching a line of code. I wanted the site to be as automated as possible. I couldn't have known it at the time, but this turned out to be one of the best decisions I made considering the traffic and volume of submissions I started to get.
@@ -30,7 +30,7 @@ There were two tasks which stood out to me as painful to complete manually. The 
 To get an initial prototype out the door, [GitHub][github] seemed an absolute no-brainer. The GitHub API is stable and well-documented – it could give me all the information I needed and had sensible rate limiting. Once this decision was made, a lot of the automation work just fell into place.
 
 
-The Server Stack {.space-above-more}
+The Server Stack
 ----------------
 
 Having experimented a lot in [Node.js][node], it seemed a logical choice to me. I love writing JavaScript, and Node is extremely performant.
@@ -44,7 +44,7 @@ I've used Nodejitsu before, but one of my bugbears there is that database hostin
 In the end, I discovered (and decided on) [Modulus][modulus]. Their focus is on Node.js and MongoDB (at the moment) and it just seemed to fit perfectly with what I was trying to achieve. After a week, I'm so glad I made this decision. Modulus' service is excellent, it's reliable under load and I found their customer service outstanding; I'm impressed.
 
 
-Building The Node App {.space-above-more}
+Building The Node App
 ---------------------
 
 I immediately started development with [Express][express], a beautifully simple web framework. I used the [native MongoDB wrapper for Node][node-mongo] over bloated ODM libraries, as I wasn't doing anything particularly complex with storage. The all-important task scheduling was built with [node-cron][node-cron].
@@ -60,7 +60,7 @@ I won't go into too much technical detail here, but what I ended up with was a f
 All of this gives me a lot of flexibility – I can (and do) process new libraries happily on my morning commute!
 
 
-Designing The Site {.space-above-more}
+Designing The Site
 ------------------
 
 I'm not a designer, as may be evident, so I elected to go with a very simple minimalist design. Afterwards I found out that I'd inadvertently done "Flat Design", apparently it's a trend.
@@ -68,7 +68,7 @@ I'm not a designer, as may be evident, so I elected to go with a very simple min
 After sending an early version of the site out to some friends for feedback, the talented [Bevan Stephens][bevan] went above-and-beyond the call of duty and gave me some excellent advice which helped me tighten up the design.
 
 
-Building The Front-End {.space-above-more}
+Building The Front-End
 ----------------------
 
 The last part of the build was the front-end. There's no client-side JavaScript whatsoever (except some tracking nonsense) so framework-wise that was an easy decision to make.
@@ -79,7 +79,7 @@ In terms of CSS, I used a couple of my own libraries. This is mainly because I w
 * [Frag][frag]: *"A fluid, responsive, simple grid system for CSS"*
 
 
-Conclusion {.space-above-more}
+Conclusion
 ----------
 
 I had a lot of fun building [CSSDB][cssdb]. As well as being well suited to building performant sites, the technologies I chose are enjoyable to work with.

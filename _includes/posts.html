@@ -3,11 +3,11 @@
 <div itemscope itemtype="http://schema.org/Blog">
 
     <meta itemprop="name" content="Rowan Manning's Blog"/>
-    <meta itemprop="url" content="http://{{ site.host }}/blog/"/>
+    <meta itemprop="url" content="http://{{ site.data.meta.hostname }}/blog/"/>
 
     <div itemprop="author" itemscope itemtype="http://schema.org/Person">
         <meta itemprop="name" content="Rowan Manning"/>
-        <meta itemprop="url" content="http://{{ site.host }}/"/>
+        <meta itemprop="url" content="http://{{ site.data.meta.hostname }}/"/>
     </div>
 
     <ol class="stack posts">
@@ -17,7 +17,7 @@
                 {% if post.crossPost.url %}
                     <meta itemprop="url" content="{{ post.crossPost.url }}"/>
                 {% else %}
-                    <meta itemprop="url" content="http://{{ site.host }}{{ post.url }}"/>
+                    <meta itemprop="url" content="http://{{ site.data.meta.hostname }}{{ post.url }}"/>
                 {% endif %}
 
                 {% if post.crossPost.url %}
@@ -26,7 +26,7 @@
 
                 <h3 class="h4 post-title">
                     {% if post.crossPost.url %}
-                        <a href="{{ post.crossPost.url }}" target="_blank" class="shh-a" itemprop="name">{{ post.title }}</a>
+                        <a href="{{ post.crossPost.url }}" class="shh-a" itemprop="name">{{ post.title }}</a>
                     {% else %}
                         <a href="{{ post.url }}" class="shh-a" itemprop="name">{{ post.title }}</a>
                     {% endif %}
@@ -45,7 +45,7 @@
                 <p class="cramp post-summary" itemprop="description">
                     {{ post.description }}
                     {% if post.crossPost.url %}
-                        <a href="{{ post.crossPost.url }}" target="_blank">{% if post.cta %}{{ post.cta }}{% else %}Read more{% endif %}</a>.
+                        <a href="{{ post.crossPost.url }}">{% if post.cta %}{{ post.cta }}{% else %}Read more{% endif %}</a>.
                     {% else %}
                         <a href="{{ post.url }}">{% if post.cta %}{{ post.cta }}{% else %}Read more{% endif %}</a>.
                     {% endif %}

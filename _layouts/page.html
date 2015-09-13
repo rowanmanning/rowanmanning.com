@@ -11,25 +11,25 @@
     <!-- Site links -->
     <link rel="alternate" type="application/atom+xml" href="/blog.xml" title="Rowan Manning's Blog"/>
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap"/>
-    <link rel="canonical" href="http://{{ site.host }}{{ page.url | replace: 'index.html', '' }}"/>
-    {% if page.url != '/index.html': %}<link rel="author" href="http://{{ site.host }}/"/>{% endif %}
+    <link rel="canonical" href="http://{{ site.data.meta.hostname }}{{ page.url | replace: 'index.html', '' }}"/>
+    {% if page.url != '/index.html': %}<link rel="author" href="http://{{ site.data.meta.hostname }}/"/>{% endif %}
 
     <!-- Styles -->
     <meta name="viewport" content="width=device-width"/>
     <!--[if gt IE 6]><!-->
-        <link rel="stylesheet" href="/asset/style/site.min.css"/>
+        <link rel="stylesheet" href="/asset/style/site.css"/>
     <!--<![endif]-->
     <link rel="icon" href="/favicon.png" type="image/png"/>
     <link rel="shortcut icon" href="/favicon.ico"/>
 
     <!-- Tracking -->
-    <meta name="bitly-verification" content="{{ site.track.bitly }}"/>
+    <meta name="bitly-verification" content="9fa4195591f6"/>
     <meta property="twitter:account_id" content="1512912557"/>
     <script>
         if (/^(www\.)?rowanmanning.com$/.test(document.location.host)) {
             var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', '{{ site.track.ga }}']);
-            _gaq.push(['_setDomainName', '{{ site.host }}']);
+            _gaq.push(['_setAccount', 'UA-5860182-1']);
+            _gaq.push(['_setDomainName', '{{ site.data.meta.hostname }}']);
             _gaq.push(['_trackPageview']);
             (function() {
                 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;

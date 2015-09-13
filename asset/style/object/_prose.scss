@@ -6,6 +6,11 @@
         margin-left: 8%;
     }
 
+    // Headings
+    h2 {
+        @extend .space-above-more;
+    }
+
     // Media
     .media-image, .media-video {
         max-width: 100%;

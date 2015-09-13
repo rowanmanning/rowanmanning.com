@@ -1,25 +1,24 @@
 ---
-layout: nil
 noindex: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
     <title>Rowan Manning's Blog</title>
-    <link href="http://{{ site.host }}{{ page.url }}" rel="self"/>
-    <link href="http://{{ site.host }}/"/>
+    <link href="http://{{ site.data.meta.hostname }}{{ page.url }}" rel="self"/>
+    <link href="http://{{ site.data.meta.hostname }}/"/>
     <updated>{{ site.time | date: '%Y-%m-%dT%H:%M:%SZ' }}</updated>
-    <id>http://{{ site.host }}{{ page.url }}</id>
+    <id>http://{{ site.data.meta.hostname }}{{ page.url }}</id>
     <author>
         <name>Rowan Manning</name>
-        <uri>http://{{ site.host }}/</uri>
+        <uri>http://{{ site.data.meta.hostname }}/</uri>
     </author>
 
     {% for post in site.categories.blog %}
         {% if post.noindex != true %}
             <entry>
                 <title>{{ post.title }}</title>
-                <link href="http://{{ site.host }}{{ post.url }}"/>
+                <link href="http://{{ site.data.meta.hostname }}{{ post.url }}"/>
                 <published>{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}</published>
                 <updated>
                     {% if post.lastmod %}
@@ -28,7 +27,7 @@ noindex: true
                         {{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}
                     {% endif %}
                 </updated>
-                <id>http://{{ site.host }}{{ post.url }}</id>
+                <id>http://{{ site.data.meta.hostname }}{{ post.url }}</id>
                 <content type="html">{{ post.content | xml_escape }}</content>
             </entry>
         {% endif %}

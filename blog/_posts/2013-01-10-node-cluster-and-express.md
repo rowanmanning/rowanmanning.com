@@ -22,13 +22,13 @@ Over the last couple of evenings, I've been playing with the [Node.js Cluster mo
 The Cluster module is fairly easy to pick up if you're used to working with Node, but I thought I'd blog about my experience – hopefully it will help you either understand or see the benefit of clustering!
 
 
-What Does Cluster Do? {.space-above-more}
+What Does Cluster Do?
 ---------------------
 
 Node.js runs in a single thread. While it's still very fast in most cases, this really doesn't take advantage of multiple processors if they're available. The Cluster module allows you to create a small network of separate processes which can share server ports; this gives your Node app access to the full power of your server.
 
 
-Learn By Example {.space-above-more}
+Learn By Example
 ----------------
 
 Let's build a simple Express application to start with. Then we'll add clustering. If you'd like to follow along, you'll need to [install Node.js][node-install] (0.8+ with npm). This tutorial also assumes a moderate amount of JavaScript, Node and [Express][express] knowledge.
@@ -168,7 +168,7 @@ Now when you run the application, you should see the workers being started in yo
 Try opening the page in multiple tabs and browsers – you should see varying workers.
 
 
-The Proof Is In The Pudding {.space-above-more}
+The Proof Is In The Pudding
 ---------------------------
 
 So far, you've taken my word for it that clustering is fast. The last thing I'm going to do here is run some benchmarks on the application before and after adding clustering.
@@ -214,7 +214,7 @@ $ siege -c100 -t1M http://localhost:3000/
 I think you'll agree that that's a worthwhile performance increase for only a few lines of code ;)
 
 
-Bonus Code: Coping With Death {.space-above-more}
+Bonus Code: Coping With Death
 -----------------------------
 
 Last but not least, there's one last thing that would be useful to add to our application. In the (hopefully unlikely) event that one of our worker processes dies, we'll want to make sure we spawn another; otherwise we could eventually end up just running an empty master process and losing all our requests!

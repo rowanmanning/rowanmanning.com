@@ -25,7 +25,7 @@ I'd like to begin this post with a disclaimer: I'm not an accessibility expert. 
 The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. I've found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has inspired me to explain *my* understanding of web accessibility. Who exactly are we trying to cater for? We'll start with the obvious:
 
 
-Blind Or Partially Sighted Users {.space-above-more}
+Blind Or Partially Sighted Users
 --------------------------------
 
 This is the user that we tend to jump to when accessibility is mentioned. These users may rely completely on assistive technology, such as a screen-reader, to access the web. Partially sighted or vision-impaired users may not rely on a screen-reader, but will find it difficult to read content if the type is too small or cannot be zoomed.
@@ -35,7 +35,7 @@ There are a wealth of resources available to help make our websites work well fo
 Vision impaired users can be catered for by keeping your type sizes sensible (personal preference: `>=16px`), and ensuring that your content is zoomable. You'll make this a lot easier by using a scalable font measurement in your CSS such as `em` or `rem`.
 
 
-Colour-Blind Users {.space-above-more}
+Colour-Blind Users
 ------------------
 
 Colour-blind users may find it hard to distinguish between elements on a page if they are similar in colour. This can become a problem when the contrast between two elements is important; for example, between your website text and background. People with even mild colour-blindness may find it difficult to read content.
@@ -43,7 +43,7 @@ Colour-blind users may find it hard to distinguish between elements on a page if
 When it comes to catering for colour-blind users, subtlety becomes your enemy; there are some great [contrast checking tools online][contrast-checker] which can help you immensely.
 
 
-Users With Physical Disabilities {.space-above-more}
+Users With Physical Disabilities
 --------------------------------
 
 Physical disabilities can encompass anything from minor impairments of motor-skills to paralysis. Motor impairments are common in elderly web users who may rely on a keyboard alone to browse the web – using a mouse requires small, precise hand movements.
@@ -51,7 +51,7 @@ Physical disabilities can encompass anything from minor impairments of motor-ski
 Ensuring that your website is keyboard-accessible is important, it's also quite easy to test: unplug your mouse! There are quite a few resources around the web on this topic, and [fixing up your website for keyboard users][keyboard-accessibility] is actually relatively easy.
 
 
-Users With Cognitive Disabilities {.space-above-more}
+Users With Cognitive Disabilities
 ---------------------------------
 
 Cognitive disabilities get little air-time in my opinion, yet conditions such as dyslexia are extremely common. The diversity of this group is huge, and cognitive disabilities can have an adverse effect on memory; problem solving; attention; and reading, linguistic and verbal comprehension to name a few:
@@ -75,7 +75,7 @@ Cognitive disabilities get little air-time in my opinion, yet conditions such as
 For more information, I can't recommend this [article on cognitive disabilities][webaim-cognitive] enough. It goes into far more depth than I could on the subject!
 
 
-To Conclude {.space-above-more}
+To Conclude
 -----------
 
 So I hope I haven't made accessibility an even scarier word for you! Granted there's a lot to consider, and accessibility can seem like a bit of a minefield, but building accessible websites can be an extremely rewarding endeavour.

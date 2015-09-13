@@ -1,23 +1,34 @@
 
-# Site details
-lang: en-GB
-host: rowanmanning.com
-email: info@rowanmanning.com
-
-# Tracking info
-track:
-  ga: UA-5860182-1
-  bitly: 9fa4195591f6
-
-# Jekyll config
+# Files and directories to exclude from compilation
 exclude:
-  - bower.json
   - CNAME
+  - Gemfile
+  - Gemfile.lock
   - Makefile
   - README.md
+
+# Whether to publish future posts
 future: false
+
+# Source code highlighter
+highlighter: pygments
+
+# Don't produce an index for related posts
 lsi: false
+
+# Markdown parser
+markdown: kramdown
+
+# Post permalink format
 permalink: /posts/:title/
-pygments: true
+
+# Disable custom plugins, and ignore symbolic links
 safe: true
+
+# Sass compilation
+sass:
+  sass_dir: asset/style
+  style: :compressed
+
+# Timezone setting
 timezone: Europe/London

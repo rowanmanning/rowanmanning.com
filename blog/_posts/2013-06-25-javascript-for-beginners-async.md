@@ -13,7 +13,7 @@ This is the first in a series of posts which will explain some of the concepts a
 Recently, I was reminded of my early days in development. Being a self-taught JavaScript noob, it was easy to get left behind in technical conversations among more computer-sciency peers. One of the barriers was the terminology being used, terms like "Async".
 
 
-So, What Does "Async" Mean? {.space-above-more}
+So, What Does "Async" Mean?
 ---------------------------
 
 Async is short for "asynchronous". It's easier to understand async if you first understand what "synchronous", the opposite, means.
@@ -43,7 +43,7 @@ In the example above, the output will be different: "First", "Third", "Second". 
 *"So why the hell use asynchronous code instead of synchronous code?"* I hear you ask! I'll explain.
 
 
-Why Asynchronous? {.space-above-more}
+Why Asynchronous?
 -----------------
 
 When JavaScript is executed, synchronous code has the potential to block further execution until it has finished what it's doing. In English, long-running JavaScript functions can make the UI or server unresponsive until the function has returned. Obviously this can result in a terrible user-experience.
@@ -68,7 +68,7 @@ doSomeOtherImportantThings();
 In the second example, `doSomeOtherImportantThings` doesn't have to wait for the tweets to load.
 
 
-How To Program Asynchronously {.space-above-more}
+How To Program Asynchronously
 -----------------------------
 
 Although the purpose of this post is to explain the term, it would feel incomplete without a short overview of *how* to program asynchronously. I'm sure you'd like to know how to apply this knowledge.
@@ -80,7 +80,7 @@ As a general rule of thumb, you use asynchronous code when performing expensive 
 For when you need them, there are plenty of libraries which aid you in writing asynchronous code; [Async.js][async] is an excellent example.
 
 
-In Summary {.space-above-more}
+In Summary
 ----------
 
 So to recap, synchronous code is executed in sequence – each statement waits for the previous statement to finish before executing. Asynchronous code doesn't have to wait – your program can continue to run. You do this to keep your site or app responsive, reducing waiting time for the user.
