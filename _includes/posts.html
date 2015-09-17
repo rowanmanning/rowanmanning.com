@@ -11,7 +11,7 @@
     </div>
 
     <ol class="stack posts">
-        {% for post in site.categories.blog limit:include.count %}
+        {% for post in site.posts limit:include.count %}
 
             <li class="space pad box subj subj-{{ post.subject }} post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
                 {% if post.crossPost.url %}
