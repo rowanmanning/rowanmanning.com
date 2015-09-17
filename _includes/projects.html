@@ -2,8 +2,10 @@
 <!-- Project list -->
 <div>
 
+    {% assign projects = site.projects | reverse %}
+
     <ol class="stack projects">
-        {% for project in site.categories.projects limit:include.count %}
+        {% for project in projects limit:include.count %}
 
             <li class="space pad box subj subj-{{ project.subject }} project">
 
