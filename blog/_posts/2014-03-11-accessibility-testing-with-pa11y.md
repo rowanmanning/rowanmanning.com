@@ -11,4 +11,5 @@ subject: a11y
 tags: [Accessibility]
 layout: cross-post
 noindex: true
+sitemap: false
 ---

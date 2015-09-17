@@ -3,6 +3,7 @@ title: CSSDB
 projectUrl: http://cssdb.co/
 layout: project
 subject: cssdb
+sitemap: false
 ---
 
 <p class="cramp">

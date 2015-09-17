@@ -3,6 +3,7 @@ title: The Four-Minute Brewth
 projectUrl: http://fourminute.brewth.info/
 layout: project
 subject: brewth
+sitemap: false
 ---
 
 <p class="cramp">

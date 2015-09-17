@@ -7,6 +7,10 @@ exclude:
   - Makefile
   - README.md
 
+# Extensions to use
+gems:
+  - jekyll-sitemap
+
 # Whether to publish future posts
 future: false
 
@@ -21,9 +25,6 @@ markdown: kramdown
 
 # Post permalink format
 permalink: /posts/:title/
-
-# Disable custom plugins, and ignore symbolic links
-safe: true
 
 # Sass compilation
 sass:

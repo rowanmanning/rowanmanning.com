@@ -3,6 +3,7 @@ title: Joblint
 projectUrl: http://joblint.org/
 layout: project
 subject: joblint
+sitemap: false
 ---
 
 <p class="cramp">

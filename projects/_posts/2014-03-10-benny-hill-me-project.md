@@ -3,6 +3,7 @@ title: Benny Hill Me
 projectUrl: http://bennyhill.me/
 layout: project
 subject: bennyhill
+sitemap: false
 ---
 
 <p class="cramp">
