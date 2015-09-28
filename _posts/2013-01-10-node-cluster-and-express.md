@@ -246,5 +246,5 @@ Thanks for reading.
 
 [cluster]: http://nodejs.org/api/cluster.html
 [express]: http://expressjs.com/
-[node-install]: http://nodejs.org/download/
+[node-install]: https://nodejs.org/
 [source]: https://github.com/rowanmanning/learning-express-cluster
