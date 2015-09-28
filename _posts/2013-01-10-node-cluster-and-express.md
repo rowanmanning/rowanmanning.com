@@ -1,5 +1,5 @@
 ---
-title: Node Cluster and Express
+title: Node.js Cluster and Express
 date: 2013-01-10 20:18
 lastmod: 2013-09-21 13:54
 description: A simple tutorial on using Node.js 0.8+'s Cluster module with Express to dramatically improve app performance.
@@ -19,19 +19,19 @@ layout: post
 
 Over the last couple of evenings, I've been playing with the [Node.js Cluster module][cluster] and using it to dramatically improve the amount of load Express apps can handle. The results have been amazing.
 
-The Cluster module is fairly easy to pick up if you're used to working with Node, but I thought I'd blog about my experience – hopefully it will help you either understand or see the benefit of clustering!
+The Cluster module is fairly easy to pick up if you're used to working with Node.js, but I thought I'd blog about my experience – hopefully it will help you either understand or see the benefit of clustering!
 
 
 What Does Cluster Do?
 ---------------------
 
-Node.js runs in a single thread. While it's still very fast in most cases, this really doesn't take advantage of multiple processors if they're available. The Cluster module allows you to create a small network of separate processes which can share server ports; this gives your Node app access to the full power of your server.
+Node.js runs in a single thread. While it's still very fast in most cases, this really doesn't take advantage of multiple processors if they're available. The Cluster module allows you to create a small network of separate processes which can share server ports; this gives your Node.js app access to the full power of your server.
 
 
 Learn By Example
 ----------------
 
-Let's build a simple Express application to start with. Then we'll add clustering. If you'd like to follow along, you'll need to [install Node.js][node-install] (0.8+ with npm). This tutorial also assumes a moderate amount of JavaScript, Node and [Express][express] knowledge.
+Let's build a simple Express application to start with. Then we'll add clustering. If you'd like to follow along, you'll need to [install Node.js][node-install] 0.10+. This tutorial also assumes a moderate amount of JavaScript, Node.js and [Express][express] knowledge.
 
 All of the source code for the application we're creating here is [available on GitHub][source].
 
@@ -40,9 +40,9 @@ Create a new directory for this tutorial, and add a file called `package.json` w
 {% highlight javascript %}
 {
     "name": "learning-express-cluster",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "dependencies": {
-        "express": "~3.4"
+        "express": "^4"
     }
 }
 {% endhighlight %}
@@ -160,7 +160,7 @@ res.send('Hello from Worker ' + cluster.worker.id);
 
 ...
 
-console.log('Worker ' + cluster.worker.id + ' running!');
+console.log('Worker %d running!', cluster.worker.id);
 {% endhighlight %}
 
 Now when you run the application, you should see the workers being started in your command line. When you revisit http://localhost:3000/ you should see the message "Hello from Worker X" where X is the ID of the worker serving you.
@@ -229,7 +229,7 @@ cluster.on('exit', function (worker) {
 
     // Replace the dead worker,
     // we're not sentimental
-    console.log('Worker ' + worker.id + ' died :(');
+    console.log('Worker %d died :(', worker.id);
     cluster.fork();
 
 });
