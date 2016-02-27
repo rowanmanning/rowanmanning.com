@@ -7,10 +7,6 @@ exclude:
   - Makefile
   - README.md
 
-# Site collections
-collections:
-  - projects
-
 # Extensions to use
 gems:
   - jekyll-redirect-from
