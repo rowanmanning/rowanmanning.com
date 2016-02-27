@@ -3,11 +3,11 @@
 <div itemscope itemtype="http://schema.org/Blog">
 
     <meta itemprop="name" content="Rowan Manning's Blog"/>
-    <meta itemprop="url" content="http://{{ site.data.meta.hostname }}/blog/"/>
+    <meta itemprop="url" content="http://rowanmanning.com/blog/"/>
 
     <div itemprop="author" itemscope itemtype="http://schema.org/Person">
         <meta itemprop="name" content="Rowan Manning"/>
-        <meta itemprop="url" content="http://{{ site.data.meta.hostname }}/"/>
+        <meta itemprop="url" content="http://rowanmanning.com/"/>
     </div>
 
     <ol class="stack posts">
@@ -17,7 +17,7 @@
                 {% if post.crossPost.url %}
                     <meta itemprop="url" content="{{ post.crossPost.url }}"/>
                 {% else %}
-                    <meta itemprop="url" content="http://{{ site.data.meta.hostname }}{{ post.url }}"/>
+                    <meta itemprop="url" content="http://rowanmanning.com{{ post.url }}"/>
                 {% endif %}
 
                 {% if post.crossPost.url %}

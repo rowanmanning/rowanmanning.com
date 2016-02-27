@@ -31,7 +31,7 @@ What suprised me is how quickly I ended up with a good working (IE 6+) prototype
 After a couple of hours spent tweaking and testing, I [ended up with Frag][frag]. It's not perfect, it's not extremely feature-rich, but it does exactly the job I need it to do.
 
 <a href="http://fragcss.com/" class="space">
-    <img src="http://{{ site.data.meta.hostname }}/media/images/posts/frag-website-screengrab.jpg" alt="A screen-grab of the Frag website" class="media-image"/>
+    <img src="http://rowanmanning.com/media/images/posts/frag-website-screengrab.jpg" alt="A screen-grab of the Frag website" class="media-image"/>
 </a>
 
 

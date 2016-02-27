@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang }}">
+<html lang="en-GB">
 <head>
-    
+
     <!-- Page meta-information -->
     <meta charset="utf-8"/>
     <title>{{ page.title }}</title>
@@ -11,8 +11,8 @@
     <!-- Site links -->
     <link rel="alternate" type="application/atom+xml" href="/blog.xml" title="Rowan Manning's Blog"/>
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap"/>
-    <link rel="canonical" href="http://{{ site.data.meta.hostname }}{{ page.url | replace: 'index.html', '' }}"/>
-    {% if page.url != '/index.html': %}<link rel="author" href="http://{{ site.data.meta.hostname }}/"/>{% endif %}
+    <link rel="canonical" href="http://rowanmanning.com{{ page.url | replace: 'index.html', '' }}"/>
+    {% if page.url != '/index.html': %}<link rel="author" href="http://rowanmanning.com/"/>{% endif %}
 
     <!-- Styles -->
     <meta name="viewport" content="width=device-width"/>
@@ -29,7 +29,7 @@
         if (/^(www\.)?rowanmanning.com$/.test(document.location.host)) {
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-5860182-1']);
-            _gaq.push(['_setDomainName', '{{ site.data.meta.hostname }}']);
+            _gaq.push(['_setDomainName', 'rowanmanning.com']);
             _gaq.push(['_trackPageview']);
             (function() {
                 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
