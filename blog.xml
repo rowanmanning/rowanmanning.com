@@ -1,5 +1,4 @@
 ---
-noindex: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-GB">
@@ -15,7 +14,7 @@ noindex: true
     </author>
 
     {% for post in site.posts %}
-        {% if post.noindex != true %}
+        {% if post.sitemap != true %}
             <entry>
                 <title>{{ post.title }}</title>
                 <link href="http://rowanmanning.com{{ post.url }}"/>

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /diary/
+Disallow: /frag/
+Disallow: /gifs/
+Disallow: /pigeon/

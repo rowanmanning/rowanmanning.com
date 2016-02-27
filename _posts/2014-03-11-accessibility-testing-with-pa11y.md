@@ -10,6 +10,5 @@ cta: Learn how to use pa11y
 subject: a11y
 tags: [Accessibility]
 layout: cross-post
-noindex: true
 sitemap: false
 ---

@@ -10,6 +10,5 @@ cta: Learn about Nature's beta program
 subject: node
 tags: [JS, Node]
 layout: cross-post
-noindex: true
 sitemap: false
 ---
