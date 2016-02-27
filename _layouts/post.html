@@ -2,29 +2,26 @@
 layout: page
 ---
 
-<div class="prose">
+<article>
 
-    <h1>{{ page.title }}</h1>
-
-    <div class="space smallprint">
+    <header>
+        <h1>{{ page.title }}</h1>
         <div>
-            <span class="icon icon-date"></span>
-            Posted <time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ page.date | date: '%d %B %Y' }}</time>
+            Posted on <time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ page.date | date: '%d %B %Y' }}</time>
             by Rowan Manning
             {% if page.lastmod %}
-                (<i class="there-is-more"><time datetime="{{ page.lastmod | date: '%Y-%m-%dT%H:%M:%SZ' }}" title="{{ page.lastmod | date: '%d %B %Y' }}">updated</time></i>)
+                (<time datetime="{{ page.lastmod | date: '%Y-%m-%dT%H:%M:%SZ' }}" title="{{ page.lastmod | date: '%d %B %Y' }}">updated</time>)
             {% endif %}
         </div>
         {% if page.tags != empty %}
             <div>
-                <span class="icon icon-tags"></span>
                 Tagged with {{ page.tags | join: ', ' }}
             </div>
         {% endif %}
-    </div>
+    </header>
 
     {% if page.crossPost.siteName %}
-        <div class="space smallprint box pad-less">
+        <div>
             Originally posted on <a href="{{ page.crossPost.siteUrl }}">{{ page.crossPost.siteName }}</a>.
             <a href="{{ page.crossPost.url }}">Read the original post</a>.
         </div>
@@ -32,57 +29,42 @@ layout: page
 
     {{ content }}
 
-    {% if page.reading and page.reading != empty %}
+    <footer>
 
-        <!-- Further reading -->
-
-        <h3 class="heading-bar space-above-more">Further Reading</h2>
-
-        <div class="space-more">
-
-            <ul class="blocklineup space-more">
+        {% if page.reading and page.reading != empty %}
+            <h3>Further Reading</h3>
+            <ul>
                 {% for link in page.reading %}
-                    <li class="tile">
-                        <a href="{{ link.url }}" class="block-link shh-a">
-                            <span class="block-link-inner hover-hi">
-                                <span class="icon icon-{{ link.type }}"></span>
-                                {{ link.label }}
-                            </span>
-                        </a>
+                    <li>
+                        <a href="{{ link.url }}">{{ link.label }}</a>
                     </li>
                 {% endfor %}
             </ul>
+        {% endif %}
 
-        </div>
 
-    {% endif %}
+        <h3>Discussion</h3>
 
-    <h3 class="heading-bar space-above-more">Discussion</h3>
+        <p>
+            If you'd like to discuss this post, or any of the topics mentioned, please get in touch!
+        </p>
 
-    <p>
-        If you'd like to discuss this post, or any of the topics mentioned, please get in touch!
-    </p>
+        <ul>
 
-    <ul class="blocklineup space-more">
-
-        <li class="tile">
-            <a class="block-link shh-a" href="https://twitter.com/share?url={{ 'http://' | cgi_escape }}rowanmanning.com{{ page.url | cgi_escape }}&amp;via=rowanmanning&amp;text={{ page.title | cgi_escape }}" target="_blank">
-                <span class="block-link-inner hover-hi-twitter">
-                    <span class="icon icon-twitter"></span>
+            <li>
+                <a href="https://twitter.com/share?url={{ 'http://' | cgi_escape }}rowanmanning.com{{ page.url | cgi_escape }}&amp;via=rowanmanning&amp;text={{ page.title | cgi_escape }}" target="_blank">
                     Tweet about this post
-                </span>
-            </a>
-        </li>
+                </a>
+            </li>
 
-        <li class="tile">
-            <a class="block-link shh-a" href="mailto:info@rowanmanning.com?subject={{ page.title | uri_escape }}">
-                <span class="block-link-inner hover-hi">
-                    <span class="icon icon-email"></span>
+            <li>
+                <a href="mailto:info@rowanmanning.com?subject={{ page.title | uri_escape }}">
                     Email me about this
-                </span>
-            </a>
-        </li>
+                </a>
+            </li>
 
-    </ul>
+        </ul>
 
-</div>
+    </footer>
+
+</article>

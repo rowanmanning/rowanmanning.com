@@ -12,13 +12,11 @@
     <link rel="alternate" type="application/atom+xml" href="/blog.xml" title="Rowan Manning's Blog"/>
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap"/>
     <link rel="canonical" href="http://rowanmanning.com{{ page.url | replace: 'index.html', '' }}"/>
-    {% if page.url != '/index.html': %}<link rel="author" href="http://rowanmanning.com/"/>{% endif %}
+    {% if page.url != '/': %}<link rel="author" href="http://rowanmanning.com/"/>{% endif %}
 
     <!-- Styles -->
     <meta name="viewport" content="width=device-width"/>
-    <!--[if gt IE 6]><!-->
-        <link rel="stylesheet" href="/asset/style/site.css"/>
-    <!--<![endif]-->
+    <!--[if gt IE 8]><!--><link rel="stylesheet" href="/asset/style/site.css"/><!--<![endif]-->
     <link rel="icon" href="/favicon.png" type="image/png"/>
     <link rel="shortcut icon" href="/favicon.ico"/>
 
@@ -44,37 +42,13 @@
 
     <!--[if lte IE 8]>{% include browser-upgrade.html %}<![endif]-->
 
-    <!-- Main page container -->
-    <div class="space space-above grid page">
+    {% include header.html %}
 
-        <div class="col dsk-2 tab-12 mob-12 space-more">
+    <main role="main">
+        {{ content }}
+    </main>
 
-            <!-- Site banner -->
-            <div role="banner">
-                {% include banner.html %}
-            </div>
-
-            <!-- Site navigation -->
-            <div role="navigation">
-                {% include nav.html %}
-            </div>
-
-        </div>
-
-        <!-- Page content -->
-        <div class="col dsk-8 tab-12 mob-12 space-more" role="main">
-            {{ content }}
-        </div>
-
-    </div>
-
-    <!-- Site footer -->
-    <div class="grid page space">
-        <div class="col dsk-2 tab-hide">&nbsp;</div>
-        <div class="col dsk-6 tab-8 mob-12" role="contentinfo">
-            {% include footer.html %}
-        </div>
-    </div>
+    {% include footer.html %}
 
 </body>
 </html>
