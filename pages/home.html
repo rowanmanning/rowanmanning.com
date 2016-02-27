@@ -4,13 +4,12 @@ description: The personal website of Rowan Manning, Web Geek. Rowan loves to sol
 layout: page
 sidebar: home
 permalink: /
-redirect_from: /projects/
+redirect_from:
+  - /blog/
+  - /posts/
+  - /projects/
 ---
 
-<h2 class="heading-bar">Recent Blog Posts</h2>
+<h2 class="hide">Blog Posts</h2>
 
-{% include posts.html count="5" %}
-
-<a href="/blog/" class="block-link align-alt shh-a">
-    <span class="block-link-inner hover-hi">View all blog posts &raquo;</span>
-</a>
+{% include posts.html %}
