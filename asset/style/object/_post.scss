@@ -3,9 +3,3 @@
 .post .post-title {
     margin: 0;
 }
-
-// Cross-post indicator
-.cross-post-indicator {
-    @include rem(font-size, 12px);
-    text-transform: uppercase;
-}

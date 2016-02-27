@@ -23,6 +23,13 @@ layout: page
         {% endif %}
     </div>
 
+    {% if page.crossPost.siteName %}
+        <div class="space smallprint box pad-less">
+            Originally posted on <a href="{{ page.crossPost.siteUrl }}">{{ page.crossPost.siteName }}</a>.
+            <a href="{{ page.crossPost.url }}">Read the original post</a>.
+        </div>
+    {% endif %}
+
     {{ content }}
 
     {% if page.reading and page.reading != empty %}
