@@ -1,2 +1,42 @@
 ---
 ---
+
+// Variables
+
+$font-size: 16px;
+$font-size-small: 14px;
+
+$font-family: Verdana, Geneva, Tahoma, sans-serif;
+$font-family-heading: $font-family;
+$font-family-mono: Courier, "Courier New", "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+
+$color-cream: #f7f5f0;
+$color-cream-dark: #eae3d1;
+$color-green: #7db578;
+$color-green-dark: #4c8847;
+$color-green-light: #cae8a7;
+$color-purple: #7f629c;
+$color-yellow: #ffb;
+
+$spacing: 25px;
+$spacing-small: 10px;
+$spacing-rule: 5px;
+
+
+// Vendor styles
+
+@import "vendor/normalize";
+
+
+// Core styles
+
+@import "core/typography";
+@import "core/code";
+
+
+// BEM objects
+
+@import "object/media";
+@import "object/page";
+@import "object/quote";
+@import "object/table";

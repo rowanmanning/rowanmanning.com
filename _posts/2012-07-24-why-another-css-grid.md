@@ -30,9 +30,12 @@ What surprised me is how quickly I ended up with a good working (IE 6+) prototyp
 
 After a couple of hours spent tweaking and testing, I [ended up with Frag][frag]. It's not perfect, it's not extremely feature-rich, but it does exactly the job I need it to do.
 
-<a href="http://fragcss.com/">
-    <img src="http://rowanmanning.com/media/images/posts/frag-website-screengrab.jpg" alt="A screen-grab of the Frag website"/>
-</a>
+<figure class="media">
+    <a href="http://fragcss.com/" class="media__link">
+        <img class="media__image" src="/media/images/posts/frag-website-screengrab.jpg" alt="A screen-grab of the Frag website"/>
+    </a>
+    <figcaption class="media__caption">A screen-grab of the Frag website</figcaption>
+</figure>
 
 
 So Why Build Your Own?

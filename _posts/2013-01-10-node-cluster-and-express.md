@@ -37,7 +37,7 @@ All of the source code for the application we're creating here is [available on 
 
 Create a new directory for this tutorial, and add a file called `package.json` with the following code:
 
-{% highlight javascript %}
+{% highlight json %}
 {
     "name": "learning-express-cluster",
     "version": "1.0.0",

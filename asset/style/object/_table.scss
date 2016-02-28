@@ -1,0 +1,37 @@
+
+.table {
+    overflow: auto;
+    margin-bottom: $spacing;
+}
+
+.table__data {
+    margin-bottom: 0;
+
+    $border: 1px solid $color-cream-dark;
+    border-bottom: $border;
+    border-right: $border;
+
+    th {
+        background-color: $color-cream-dark;
+    }
+
+    td, th {
+        padding: ($spacing-small / 2) $spacing-small;
+        border-top: $border;
+        border-left: $border;
+    }
+
+    tfoot {
+        td, th {
+            border-top: 2px solid $color-cream-dark;
+        }
+    }
+}
+
+.table--wide .table__data {
+    min-width: 100%;
+}
+
+.table--striped tbody tr:nth-child(odd) td {
+    background-color: $color-cream;
+}
