@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<article vocab="http://schema.org/" typeof="BlogPosting" resource="http://rowanmanning.com{{ page.url }}">
+<article vocab="http://schema.org/" typeof="BlogPosting" resource="http://rowanmanning.com{{ page.url }}" class="blog-post">
 
     <meta property="name" content="{{ page.title }}"/>
     <meta property="url" content="http://rowanmanning.com{{ page.url }}"/>
@@ -13,30 +13,28 @@ layout: page
 
         <h1 property="headline">{{ page.title }}</h1>
 
-        <div>
+        <p class="blog-post__meta">
             Posted on <time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%SZ' }}" property="datePublished">{{ page.date | date: '%d %B %Y' }}</time>
-            by <span property="author" vocab="http://schema.org/" typeof="Person"><span property="name">Rowan Manning</span></span>
+            by <span property="author" vocab="http://schema.org/" typeof="Person"><span property="name">Rowan Manning</span></span>.
             {% if page.lastmod %}
                 (<time datetime="{{ page.lastmod | date: '%Y-%m-%dT%H:%M:%SZ' }}" title="{{ page.lastmod | date: '%d %B %Y' }}"  property="dateModified">updated</time>)
             {% endif %}
-        </div>
 
-        {% if page.tags != empty %}
-            <div>
-                Tagged with <span property="keywords">{{ page.tags | join: ', ' }}</span>
-            </div>
-        {% endif %}
+            {% if page.tags != empty %}
+                <br/>Tagged with <span property="keywords">{{ page.tags | join: ', ' }}</span>.
+            {% endif %}
+        </p>
 
     </header>
 
     {% if page.crossPost.siteName %}
-        <div>
+        <p class="blog-post__cross-post-indicator">
             Originally posted on <a href="{{ page.crossPost.siteUrl }}">{{ page.crossPost.siteName }}</a>.
             <a href="{{ page.crossPost.url }}">Read the original post</a>.
-        </div>
+        </p>
     {% endif %}
 
-    <div property="articleBody">
+    <div property="articleBody" class="blog-post__content">
         {{ content }}
     </div>
 

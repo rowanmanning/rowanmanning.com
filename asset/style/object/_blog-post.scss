@@ -1,0 +1,24 @@
+
+// Blog post block
+.blog-post {
+
+    // Meta element
+    &__meta {
+        font-size: $font-size-small;
+    }
+
+    // Cross post indicator element
+    &__cross-post-indicator {
+        padding: $spacing-small;
+        background: $color-cream;
+        font-size: $font-size-small;
+    }
+
+    // Content element
+    &__content,
+    &__content h2 {
+        margin-top: $spacing-large;
+    }
+
+
+}

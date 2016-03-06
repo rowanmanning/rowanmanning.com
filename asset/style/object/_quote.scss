@@ -1,22 +1,26 @@
 
+// Quote block
 .quote {
     margin-left: 0;
     margin-right: 0;
     padding-left: $spacing - $spacing-rule;
     border-left: solid $spacing-rule $color-cream-dark;
-}
 
-.quote__body,
-.quote__attribution {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.quote__attribution {
-    font-size: $font-size-small;
-    font-style: italic;
-
-    &:before {
-        content: "—";
+    // Body and attribution elements
+    &__body,
+    &__attribution {
+        margin-top: 0;
+        margin-bottom: 0;
     }
+
+    // Attribution element
+    &__attribution {
+        font-size: $font-size-small;
+        font-style: italic;
+
+        &:before {
+            content: "—";
+        }
+    }
+
 }

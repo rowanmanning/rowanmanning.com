@@ -5,6 +5,7 @@ body {
     font-family: $font-family;
     font-size: $font-size;
     line-height: 1.563;
+    color: $color-gray-dark;
 }
 
 
@@ -135,8 +136,8 @@ q {
 hr {
     height: 0;
     border: none;
-    border-top: $spacing-rule solid $color-cream-dark;
-    color: $color-cream-dark;
+    border-top: $spacing-rule solid $color-cream;
+    color: $color-cream;
 }
 
 

@@ -1,34 +1,40 @@
 
+// Media block
 .media {
     background-color: $color-cream-dark;
     border: solid $spacing-rule $color-cream-dark;
     border-radius: $spacing-rule;
-}
 
-.media__link {
-    display: block;
-}
-
-.media__image {
-    display: block;
-    max-width: 100%;
-    min-width: 100%;
-}
-
-.media__youtube {
-    display: block;
-    width: 100%;
-    min-height: 400px;
-
-    @media all and (max-width: 640px) {
-        min-height: 260px;
+    // Link element
+    &__link {
+        display: block;
     }
-}
 
-.media__caption {
-    padding: $spacing-small;
-    padding-bottom: $spacing-small - $spacing-rule;
-    font-size: $font-size-small;
-    font-style: italic;
-    text-align: center;
+    // Image element
+    &__image {
+        display: block;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    // YouTube element
+    &__youtube {
+        display: block;
+        width: 100%;
+        min-height: 400px;
+
+        @media all and (max-width: 640px) {
+            min-height: 260px;
+        }
+    }
+
+    // Caption element
+    &__caption {
+        padding: $spacing-small;
+        padding-bottom: $spacing-small - $spacing-rule;
+        font-size: $font-size-small;
+        font-style: italic;
+        text-align: center;
+    }
+
 }
