@@ -1,24 +1,31 @@
 
-<section>
+<section vocab="http://schema.org/" typeof="Blog" resource="http://rowanmanning.com/">
 
-    <h2>Rowan Manning's Blog</h2>
+    <meta property="url" content="http://rowanmanning.com/"/>
+    <meta property="mainEntityOfPage" content="http://rowanmanning.com/"/>
+
+    <h2 property="name">Rowan Manning's Blog</h2>
 
     <ol>
         {% for post in site.posts %}
 
             <li>
-                <article>
+                <article property="blogPost" vocab="http://schema.org/" typeof="BlogPosting" resource="http://rowanmanning.com{{ post.url }}">
+
+                    <meta property="name" content="{{ post.title }}"/>
+                    <meta property="url" content="http://rowanmanning.com{{ post.url }}"/>
+                    <meta property="mainEntityOfPage" content="http://rowanmanning.com{{ post.url }}"/>
 
                     <header>
-                        <h3>
+                        <h3 property="headline">
                             <a href="{{ post.url }}">{{ post.title }}</a>
                         </h3>
                     </header>
 
                     <footer>
                         <p>
-                            Posted on <time datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ post.date | date: '%d %B %Y' }}</time>{% if post.tags == empty %}.{% endif %}
-                            {% if post.tags != empty %}in {{ post.tags | join: ', ' }}.{% endif %}
+                            Posted on <time datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}" property="datePublished">{{ post.date | date: '%d %B %Y' }}</time>{% if post.tags == empty %}.{% endif %}
+                            {% if post.tags != empty %}in <span property="keywords">{{ post.tags | join: ', ' }}</span>.{% endif %}
                         </p>
                         {% if post.crossPost.siteName %}
                             <p>
@@ -28,7 +35,7 @@
                     </footer>
 
                     <p>
-                        {{ post.description }}
+                        <span property="description">{{ post.description }}</span>
                         <a href="{{ post.url }}">{% if post.cta %}{{ post.cta }}{% else %}Read more{% endif %}</a>.
                     </p>
 

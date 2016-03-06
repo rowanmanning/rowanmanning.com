@@ -2,22 +2,31 @@
 layout: page
 ---
 
-<article>
+<article vocab="http://schema.org/" typeof="BlogPosting" resource="http://rowanmanning.com{{ page.url }}">
+
+    <meta property="name" content="{{ page.title }}"/>
+    <meta property="url" content="http://rowanmanning.com{{ page.url }}"/>
+    <meta property="mainEntityOfPage" content="http://rowanmanning.com{{ page.url }}"/>
+    <meta property="description" content="{{ page.description }}">
 
     <header>
-        <h1>{{ page.title }}</h1>
+
+        <h1 property="headline">{{ page.title }}</h1>
+
         <div>
-            Posted on <time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%SZ' }}">{{ page.date | date: '%d %B %Y' }}</time>
-            by Rowan Manning
+            Posted on <time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%SZ' }}" property="datePublished">{{ page.date | date: '%d %B %Y' }}</time>
+            by <span property="author" vocab="http://schema.org/" typeof="Person"><span property="name">Rowan Manning</span></span>
             {% if page.lastmod %}
-                (<time datetime="{{ page.lastmod | date: '%Y-%m-%dT%H:%M:%SZ' }}" title="{{ page.lastmod | date: '%d %B %Y' }}">updated</time>)
+                (<time datetime="{{ page.lastmod | date: '%Y-%m-%dT%H:%M:%SZ' }}" title="{{ page.lastmod | date: '%d %B %Y' }}"  property="dateModified">updated</time>)
             {% endif %}
         </div>
+
         {% if page.tags != empty %}
             <div>
-                Tagged with {{ page.tags | join: ', ' }}
+                Tagged with <span property="keywords">{{ page.tags | join: ', ' }}</span>
             </div>
         {% endif %}
+
     </header>
 
     {% if page.crossPost.siteName %}
@@ -27,7 +36,9 @@ layout: page
         </div>
     {% endif %}
 
-    {{ content }}
+    <div property="articleBody">
+        {{ content }}
+    </div>
 
     <footer>
 
