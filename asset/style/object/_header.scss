@@ -1,0 +1,78 @@
+
+// Header block
+.header {
+    margin-bottom: $spacing * 2;
+    border-top: $spacing-rule solid $color-green;
+    background: $color-cream;
+
+    &:before {
+        content: "";
+        display: block;
+        border-top: $spacing-rule solid $color-green-light;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+
+    // Content element
+    &__content {
+        padding-top: $spacing-small;
+        padding-bottom: $spacing-small;
+    }
+
+    // Site name element
+    &__site-name {
+        float: left;
+
+        h1 {
+            @include body-typography;
+            margin-bottom: 0;
+        }
+
+        @media all and (max-width: 600px) {
+            float: none;
+            margin-bottom: $spacing-rule;
+        }
+    }
+
+    // Navigation element
+    &__navigation {
+        float: right;
+
+        ul {
+            margin-bottom: 0;
+        }
+
+        @media all and (max-width: 600px) {
+            float: none;
+            font-size: $font-size-small;
+        }
+    }
+
+    // Navigation item element
+    &__navigation-item a {
+        display: block;
+        padding: 0 $spacing-rule;
+
+        &:hover {
+            background-color: $color-cream-dark;
+        }
+
+        @media all and (max-width: 600px) {
+            padding: 0 2px;
+        }
+    }
+
+    // Navigation item selected modifier
+    &__navigation-item--selected a {
+        &, &:hover {
+            background-color: $color-green-light;
+        }
+    }
+
+}

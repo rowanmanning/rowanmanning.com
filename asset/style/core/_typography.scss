@@ -1,11 +1,15 @@
 
 // Font basics
 
-body {
+@mixin body-typography {
     font-family: $font-family;
     font-size: $font-size;
     line-height: 1.563;
     color: $color-gray-dark;
+}
+
+body {
+    @include body-typography;
 }
 
 
@@ -152,5 +156,5 @@ figure {
 // Selection
 
 ::selection {
-    background: $color-green-light;
+    background-color: $color-green-light;
 }

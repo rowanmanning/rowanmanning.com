@@ -1,36 +1,51 @@
 
-<header role="banner">
+<header role="banner" class="header">
+    <div class="page__content header__content clearfix">
 
-    {% if page.url == '/': %}
-        <h1><a href="/">Rowan Manning</a></h1>
-    {% else %}
-        <a href="/">Rowan Manning</a>
-    {% endif %}
+        <div class="header__site-name">
+            {% if page.url == '/': %}
+                <h1><a href="/">Rowan Manning</a></h1>
+            {% else %}
+                <a href="/">Rowan Manning</a>
+            {% endif %}
+        </div>
 
-    <nav role="navigation">
-        <ul>
+        <nav role="navigation" class="header__navigation">
+            <ul class="inline-list">
 
-            <li>
-                <a href="/">Blog</a>
-            </li>
+                <li class="
+                    header__navigation-item
+                    {% assign firstUrlPart = page.url | slice: 0, 7 %}
+                    {% if page.url == '/' or firstUrlPart == '/posts/' %}
+                        header__navigation-item--selected
+                    {% endif %}
+                ">
+                    <a href="/">Blog</a>
+                </li>
 
-            <li>
-                <a href="/about/">About</a>
-            </li>
+                <li class="
+                    header__navigation-item
+                    {% if page.url == '/about/' %}
+                        header__navigation-item--selected
+                    {% endif %}
+                ">
+                    <a href="/about/">About</a>
+                </li>
 
-            <li>
-                <a href="https://twitter.com/rowanmanning" rel="me">Twitter</a>
-            </li>
+                <li class="header__navigation-item">
+                    <a href="https://twitter.com/rowanmanning" rel="me">Twitter</a>
+                </li>
 
-            <li>
-                <a href="https://github.com/rowanmanning" rel="me">GitHub</a>
-            </li>
+                <li class="header__navigation-item">
+                    <a href="https://github.com/rowanmanning" rel="me">GitHub</a>
+                </li>
 
-            <li>
-                <a href="/blog.xml">Feed</a>
-            </li>
+                <li class="header__navigation-item">
+                    <a href="/blog.xml">Feed</a>
+                </li>
 
-        </ul>
-    </nav>
+            </ul>
+        </nav>
 
+    </div>
 </header>

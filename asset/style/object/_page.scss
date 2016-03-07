@@ -1,7 +1,15 @@
 
 // Page block
 .page {
-    max-width: 650px;
-    margin: 0 auto;
-    padding: 0 $spacing;
+
+    // Content element
+    &__content {
+        max-width: 650px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: $spacing;
+        padding-right: $spacing;
+        overflow: hidden;
+    }
+
 }
