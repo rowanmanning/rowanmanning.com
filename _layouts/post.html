@@ -38,10 +38,13 @@ layout: page
         {{ content }}
     </div>
 
+
     <footer>
 
+        <hr/>
+
         {% if page.reading and page.reading != empty %}
-            <h3>Further Reading</h3>
+            <h3 class="h5 space--small">Further Reading</h3>
             <ul>
                 {% for link in page.reading %}
                     <li>
@@ -52,10 +55,10 @@ layout: page
         {% endif %}
 
 
-        <h3>Discussion</h3>
+        <h3 class="h5 space--small">Discussion</h3>
 
-        <p>
-            If you'd like to discuss this post, or any of the topics mentioned, please get in touch!
+        <p class="space--small">
+            If you'd like to discuss this post please get in touch!
         </p>
 
         <ul>
@@ -68,7 +71,7 @@ layout: page
 
             <li>
                 <a href="mailto:info@rowanmanning.com?subject={{ page.title | uri_escape }}">
-                    Email me about this
+                    Email me
                 </a>
             </li>
 

@@ -14,4 +14,9 @@
         font-size: $font-size-small;
     }
 
+    // Content element
+    &__content {
+        margin-bottom: $spacing * 2;
+    }
+
 }
