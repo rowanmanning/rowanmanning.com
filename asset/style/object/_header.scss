@@ -28,13 +28,14 @@
     // Site name element
     &__site-name {
         float: left;
-        font-weight: bold;
-        color: $color-green-dark;
+
+        &, h1 {
+            @include body-typography;
+            font-weight: bold;
+        }
 
         h1 {
-            @include body-typography;
             margin-bottom: 0;
-            font-weight: bold;
         }
 
         @media all and (max-width: 600px) {
@@ -51,9 +52,18 @@
             margin-bottom: 0;
         }
 
+        li {
+            margin-left: $spacing-rule;
+        }
+
         @media all and (max-width: 600px) {
             float: none;
             font-size: $font-size-small;
+
+            li {
+                margin-left: 0;
+                margin-right: $spacing-rule;
+            }
         }
     }
 
@@ -61,6 +71,7 @@
     &__navigation-item a {
         display: block;
         padding: 0 $spacing-rule;
+        border-radius: $spacing-rule;
 
         &:hover {
             background-color: $color-cream-dark;
@@ -71,11 +82,36 @@
         }
     }
 
+
     // Navigation item selected modifier
     &__navigation-item--selected a {
         &, &:hover {
             background-color: $color-green-light;
         }
+    }
+
+    // Navigation item icons
+    &__navigation-item--icon a {
+        width: 25px;
+        padding: 0;
+        text-indent: -10000px;
+        overflow: hidden;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 22px;
+
+        @media all and (max-width: 600px) {
+            background-size: 20px;
+        }
+    }
+    &__navigation-item--twitter a {
+        background-image: url('../image/icon-twitter.svg');
+    }
+    &__navigation-item--github a {
+        background-image: url('../image/icon-github.svg');
+    }
+    &__navigation-item--feed a {
+        background-image: url('../image/icon-feed.svg');
     }
 
 }

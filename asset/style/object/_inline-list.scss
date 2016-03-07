@@ -3,8 +3,10 @@
 .inline-list {
     list-style: none;
     padding-left: 0;
+    @include clearfix;
 
     > li {
-        display: inline-block;
+        display: block;
+        float: left;
     }
 }

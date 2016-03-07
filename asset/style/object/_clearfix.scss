@@ -1,7 +1,14 @@
 
+// Clearfix mixin
+@mixin clearfix {
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
 // Clearfix block
 .clearfix:after {
-    content: "";
-    display: block;
-    clear: both;
+    @include clearfix;
 }
