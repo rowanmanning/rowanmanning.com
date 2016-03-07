@@ -5,6 +5,13 @@
     border: solid $spacing-rule $color-cream-dark;
     border-radius: $spacing-rule;
 
+    // Pinned-left modifier
+    &--pinned-left {
+        float: left;
+        margin-right: $spacing;
+        margin-bottom: $spacing-small;
+    }
+
     // Link element
     &__link {
         display: block;
@@ -16,6 +23,9 @@
         max-width: 100%;
         min-width: 100%;
     }
+    &--pinned-left &__image {
+        min-width: auto;
+    }
 
     // YouTube element
     &__youtube {
@@ -26,6 +36,9 @@
         @media all and (max-width: 640px) {
             min-height: 260px;
         }
+    }
+    &--pinned-left &__youtube {
+        min-width: auto;
     }
 
     // Caption element

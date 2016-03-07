@@ -8,6 +8,12 @@ permalink: /about/
 About Me
 ========
 
+<figure class="media media--pinned-left">
+    <a href="/media/images/Rowan.png" class="media__link">
+        <img class="media__image" src="/media/images/Rowan.thumb.png" alt="Rowan Manning" width="100"/>
+    </a>
+</figure>
+
 Hi, I'm Rowan. I'm a Node.js and front end developer with 8 years experience building websites.
 I’ve enjoyed working in a broad range of environments and industries, and I am based in London.
 
