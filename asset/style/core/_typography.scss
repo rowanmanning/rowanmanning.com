@@ -8,7 +8,7 @@
     color: $color-gray-dark;
 }
 
-body {
+body, .reset-type {
     @include body-typography;
 }
 
@@ -55,6 +55,7 @@ h3, .h3 {
 }
 
 h2, .h2 {
+    margin-top: $spacing-large;
     font-size: $font-size + 8px;
 }
 

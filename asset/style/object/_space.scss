@@ -1,0 +1,11 @@
+
+// Space block
+.space {
+    margin-bottom: $spacing;
+
+    // Small modifier
+    &--small {
+        margin-bottom: $spacing-small;
+    }
+
+}
