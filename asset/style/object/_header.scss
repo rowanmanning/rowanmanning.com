@@ -28,10 +28,13 @@
     // Site name element
     &__site-name {
         float: left;
+        font-weight: bold;
+        color: $color-green-dark;
 
         h1 {
             @include body-typography;
             margin-bottom: 0;
+            font-weight: bold;
         }
 
         @media all and (max-width: 600px) {
