@@ -1,5 +1,5 @@
 ---
-title: "JavaScript For Beginners: Async"
+title: "JavaScript for Beginners: Async"
 date: 2013-06-27 20:15
 description: An introduction to asynchronous JavaScript, part of a series on JavaScript for Beginners.
 cta: Learn about async

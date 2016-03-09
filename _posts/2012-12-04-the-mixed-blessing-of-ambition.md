@@ -1,5 +1,5 @@
 ---
-title: The Mixed Blessing Of Ambition
+title: The Mixed Blessing of Ambition
 date: 2012-12-04 20:13
 description: I love being ambitious when it comes to development, but this quality can be a double-edged sword. Ease yourself into the bigger projects.
 cta: Read my thoughts on ambition
