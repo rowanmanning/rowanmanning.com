@@ -1,7 +1,6 @@
 ---
 title: About Rowan Manning
 description: About Rowan Manning, a Developer, Designer and Web Geek from the UK
-layout: page
 permalink: /about/
 ---
 

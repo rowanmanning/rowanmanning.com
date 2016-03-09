@@ -13,7 +13,6 @@ reading:
   - label: Express documentation
     url: http://expressjs.com/
     type: link
-layout: post
 ---
 
 

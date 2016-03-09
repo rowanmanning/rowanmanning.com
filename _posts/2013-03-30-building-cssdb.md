@@ -10,7 +10,6 @@ reading:
   - label: CSSDB source code on GitHub
     url: https://github.com/rowanmanning/cssdb
     type: repo
-layout: post
 ---
 
 Last weekend I built [CSSDB][cssdb], a curated collection of great CSS, Sass, LESS and Stylus libraries. It was primarily an excercise in learning, but it was also a site which I could have made excellent use of (especially in the early stages of my development career).

@@ -4,7 +4,6 @@ date: 2012-12-04 20:13
 description: I love being ambitious when it comes to development, but this quality can be a double-edged sword. Ease yourself into the bigger projects.
 cta: Read my thoughts on ambition
 subject: thinking
-layout: post
 ---
 
 I was talking to a friend recently about getting back into game development; he was very enthusiastic about learning to develop JavaScript games and we were discussing where to start. I had one of those moments when you impart some advice to somebody, and afterwards realise that it's great advice you've been ignoring yourself. The advice in this case was: "Don't be too ambitious here – you may end up killing your enthusiasm".

@@ -5,7 +5,6 @@ description: Building yet another grid system could be seen as bloating an alrea
 cta: Read about Frag
 subject: css
 tags: [CSS, Grid, Responsive]
-layout: post
 ---
 
 A couple of months ago, I decided to set about building a CSS grid system. I realise that I've entered a wildly bloated landscape here (you can't move on the web for fancy new grid systems) but I had my reasons. I'd like to talk about why I built a grid system, and why (maybe) you should too.

@@ -5,7 +5,6 @@ description: An introduction to asynchronous JavaScript, part of a series on Jav
 cta: Learn about async
 subject: javascript
 tags: [JavaScript, Tutorial]
-layout: post
 ---
 
 This is the first in a series of posts which will explain some of the concepts and terminology which are thrown about in JavaScript land, with a focus on beginners. In this post we'll be looking at the term "Async"; what it means and why it matters to you as a JavaScript developer.

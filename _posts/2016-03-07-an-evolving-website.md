@@ -5,7 +5,6 @@ description: A short journey through iterations of my website, from 2010–2016,
 cta: Come with me now on a journey through time and space
 subject: design
 tags: [Design]
-layout: post
 ---
 
 

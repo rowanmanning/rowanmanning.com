@@ -12,7 +12,6 @@ reading:
   - label: This site on GitHub
     url: https://github.com/rowanmanning/rowanmanning.github.com
     type: repo
-layout: post
 ---
 
 It's been about 9 months since my last site design/refresh, and the code was starting to show it's age (that's got to be a separate post – just how quickly standards change). I recently built a couple of small sites with [Jekyll][jekyll] and decided to port by existing blog over to it.

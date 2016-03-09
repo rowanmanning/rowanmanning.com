@@ -5,7 +5,6 @@ description: The dressing up of technology in advertising doesn't work for me. I
 cta: Read about selling technology
 subject: thinking
 tags: [Rant, Advertising]
-layout: post
 ---
 
 I'm going to talk about something which irritates me; you'll have to forgive me if I descend into a rant at first, but trust me – there's a point to this!

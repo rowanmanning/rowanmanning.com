@@ -9,7 +9,6 @@ crossPost:
 cta: Learn about Nature's beta program
 subject: node-js
 tags: [Node.js, JavaScript]
-layout: post
 ---
 
 

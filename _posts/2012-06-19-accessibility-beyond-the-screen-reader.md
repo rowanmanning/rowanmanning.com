@@ -16,7 +16,6 @@ reading:
   - label: Designing with Progressive Enhancement by Filament Group
     url: http://filamentgroup.com/dwpe/
     type: book
-layout: post
 ---
 
 
