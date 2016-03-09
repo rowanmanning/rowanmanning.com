@@ -25,6 +25,10 @@ gems:
   - jekyll-redirect-from
   - jekyll-sitemap
 
+# Kramdown config
+kramdown:
+  input: GFM
+
 # Post permalink format
 permalink: /posts/:title/
 

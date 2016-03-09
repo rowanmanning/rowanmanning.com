@@ -26,9 +26,9 @@ Basic Command-Line Usage
 
 The simplest way to quickly test a web page, is to execute the `pa11y` command with a URL. The following example will run tests on the Nature home page:
 
-{% highlight sh %}
+```sh
 pa11y nature.com
-{% endhighlight %}
+```
 
 {%
     include figure.html
