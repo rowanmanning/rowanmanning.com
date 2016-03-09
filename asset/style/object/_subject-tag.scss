@@ -1,0 +1,17 @@
+
+// Subject tag block
+.subject-tag {
+    display: inline-block;
+    padding: 0 3px;
+    background-color: $color-cream;
+    border-radius: $spacing-rule;
+
+    // Subject modifiers
+    @each $subject, $colors in $color-subjects {
+        &--#{$subject} {
+            background-color: map-get($colors, background-light);
+            color: map-get($colors, text);
+        }
+    }
+
+}

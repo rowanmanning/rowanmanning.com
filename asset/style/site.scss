@@ -19,6 +19,44 @@ $color-green-light: #cae8a7;
 $color-purple: #7f629c;
 $color-yellow: #ffb;
 
+$color-subjects: (
+    accessibility: (
+        background: #2190c4,
+        background-light: lighten(#2190c4, 45%),
+        text: $color-gray-dark
+    ),
+    css: (
+        background: #6c4b9e,
+        background-light: lighten(#6c4b9e, 45%),
+        text: $color-gray-dark
+    ),
+    design: (
+        background: #f39e24,
+        background-light: lighten(#f39e24, 35%),
+        text: $color-gray-dark
+    ),
+    javascript: (
+        background: #ffd600,
+        background-light: lighten(#ffd600, 35%),
+        text: $color-gray-dark
+    ),
+    node-js: (
+        background: #8bc84b,
+        background-light: lighten(#8bc84b, 30%),
+        text: $color-gray-dark
+    ),
+    open-source: (
+        background: #ff90fb,
+        background-light: lighten(#ff90fb, 17%),
+        text: $color-gray-dark
+    ),
+    thinking: (
+        background: #5edad6,
+        background-light: lighten(#5edad6, 30%),
+        text: $color-gray-dark
+    )
+);
+
 $spacing: 25px;
 $spacing-small: 10px;
 $spacing-large: 35px;
@@ -50,4 +88,6 @@ $spacing-rule: 5px;
 @import "object/page";
 @import "object/quote";
 @import "object/space";
+@import "object/subject-border";
+@import "object/subject-tag";
 @import "object/table";

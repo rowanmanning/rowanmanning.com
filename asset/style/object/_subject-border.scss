@@ -1,0 +1,13 @@
+
+// Subject border block
+.subject-border {
+    border-left: $spacing-rule solid $color-cream-dark;
+
+    // Subject modifiers
+    @each $subject, $colors in $color-subjects {
+        &--#{$subject} {
+            border-color: map-get($colors, background);
+        }
+    }
+
+}

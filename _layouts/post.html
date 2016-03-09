@@ -13,7 +13,7 @@ layout: page
 
         <h1 property="headline">{{ page.title }}</h1>
 
-        <p class="blog-post__meta">
+        <p class="blog-post__meta subject-border subject-border--{{ page.subject }}">
             Posted on <time datetime="{{ page.date | date: '%Y-%m-%dT%H:%M:%SZ' }}" property="datePublished">{{ page.date | date: '%d %B %Y' }}</time>
             by <span property="author" vocab="http://schema.org/" typeof="Person"><span property="name">Rowan Manning</span></span>.
             {% if page.lastmod %}
@@ -21,7 +21,12 @@ layout: page
             {% endif %}
 
             {% if page.tags != empty %}
-                <br/>Tagged with <span property="keywords">{{ page.tags | join: ', ' }}</span>.
+                <br/>Tagged with
+                <span property="keywords">
+                    {% for tag in page.tags %}
+                        <span class="subject-tag subject-tag--{{ tag | slugify }}">{{ tag }}</span>{% unless forloop.last == true %}, {% else %}.{% endunless %}
+                    {% endfor %}
+                </span>
             {% endif %}
         </p>
 

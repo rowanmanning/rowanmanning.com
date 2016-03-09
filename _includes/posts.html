@@ -9,7 +9,7 @@
     <ol class="clean-list">
         {% for post in site.posts %}
 
-            <li class="blog-post-listing blog-post-listing--subject-{{ post.subject }}">
+            <li class="blog-post-listing subject-border subject-border--{{ post.subject }}">
                 <article property="blogPost" vocab="http://schema.org/" typeof="BlogPosting" resource="http://rowanmanning.com{{ post.url }}">
 
                     <meta property="name" content="{{ post.title }}"/>
@@ -25,7 +25,14 @@
                     <footer>
                         <p class="blog-post-listing__meta">
                             Posted on <time datetime="{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}" property="datePublished">{{ post.date | date: '%d %B %Y' }}</time>{% if post.tags == empty %}.{% endif %}
-                            {% if post.tags != empty %}in <span property="keywords">{{ post.tags | join: ', ' }}</span>.{% endif %}
+                            {% if post.tags != empty %}
+                                in
+                                <span property="keywords">
+                                    {% for tag in post.tags %}
+                                        <span class="subject-tag subject-tag--{{ tag | slugify }}">{{ tag }}</span>{% unless forloop.last == true %}, {% else %}.{% endunless %}
+                                    {% endfor %}
+                                </span>
+                            {% endif %}
                             {% if post.crossPost.siteName %}
                                 Originally posted on <a href="{{ post.crossPost.siteUrl }}">{{ post.crossPost.siteName }}</a>.
                             {% endif %}

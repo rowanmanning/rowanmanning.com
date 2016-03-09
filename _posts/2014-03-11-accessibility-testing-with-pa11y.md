@@ -7,7 +7,7 @@ crossPost:
   siteUrl: http://cruft.io/
   url: http://cruft.io/posts/accessibility-testing-with-pa11y/
 cta: Learn how to use pa11y
-subject: a11y
+subject: accessibility
 tags: [Accessibility]
 layout: post
 ---

@@ -3,9 +3,9 @@ title: Node.js Cluster and Express
 date: 2013-01-10 20:18
 lastmod: 2013-09-21 13:54
 description: A simple tutorial on using Node.js 0.8+'s Cluster module with Express to dramatically improve app performance.
-tags: [Express, JS, Node, Cluster]
 cta: Learn about clustering and express
-subject: node
+subject: node-js
+tags: [Node.js, JavaScript, Express, Cluster]
 reading:
   - label: Node.js Cluster module documentation
     url: http://nodejs.org/api/cluster.html

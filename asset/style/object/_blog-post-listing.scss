@@ -3,36 +3,6 @@
 .blog-post-listing {
     margin-bottom: $spacing;
     padding-left: $spacing;
-    border-left: $spacing-rule solid $color-green-light;
-
-    // Subject modifiers
-    &--subject-a11y {
-        border-color: #3871b3;
-    }
-    &--subject-css {
-        border-color: #ec457c;
-    }
-    &--subject-cssdb {
-        border-color: #59c3be;
-    }
-    &--subject-design {
-        border-color: #a77dd3;
-    }
-    &--subject-jekyll {
-        border-color: #c00;
-    }
-    &--subject-joblint {
-        border-color: #c8b0e8;
-    }
-    &--subject-js {
-        border-color: #ffd600;
-    }
-    &--subject-node {
-        border-color: #8bc84b;
-    }
-    &--subject-thinking {
-        border-color: #83d1ee;
-    }
 
     // Headline element
     &__headline {

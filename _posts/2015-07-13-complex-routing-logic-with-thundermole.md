@@ -7,8 +7,8 @@ crossPost:
   siteUrl: http://cruft.io/
   url: http://cruft.io/posts/complex-routing-logic-with-thundermole/
 cta: Learn about Nature's beta program
-subject: node
-tags: [JS, Node]
+subject: node-js
+tags: [Node.js, JavaScript]
 layout: post
 ---
 

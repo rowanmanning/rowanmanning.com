@@ -2,9 +2,9 @@
 title: Why I Built Another CSS Grid
 date: 2012-07-24 21:34
 description: Building yet another grid system could be seen as bloating an already-bloated landscape; but sometimes, rolling your own tools is one of the best things you can do.
-tags: [CSS, Frag, Grid, RWD]
 cta: Read about Frag
 subject: css
+tags: [CSS, Grid, Responsive]
 layout: post
 ---
 

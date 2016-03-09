@@ -3,9 +3,9 @@ title: "Accessibility: Beyond the Screen-Reader"
 date: 2012-06-19 21:05
 lastmod: 2012-06-20 10:30
 description: Web accessibility isn't just about catering for blind users. In this post, we talk about the other users we need to consider in order to make the web accessible to all.
-tags: [Accessibility]
 cta: Read about accessibility
-subject: a11y
+subject: accessibility
+tags: [Accessibility]
 reading:
   - label: Accessibility articles from WebAIM
     url: http://webaim.org/articles/
@@ -57,7 +57,7 @@ Users With Cognitive Disabilities
 Cognitive disabilities get little air-time in my opinion, yet conditions such as dyslexia are extremely common. The diversity of this group is huge, and cognitive disabilities can have an adverse effect on memory; problem solving; attention; and reading, linguistic and verbal comprehension to name a few:
 
 <dl>
-    
+
     <dt>Memory</dt>
     <dd>Some users may have difficulties with their long, mid or short-term memories. This can be an issue when moving through a stepped sign-up or purchasing process for example. Clear sign-posting and guidance is essential for these users.</dd>
 
