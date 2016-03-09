@@ -24,6 +24,7 @@ exclude:
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jemoji
 
 # Kramdown config
 kramdown:

@@ -129,7 +129,7 @@ I've kept some of the things that I now consider almost signatures of my site: t
     hide-caption=true
 %}
 
-Thanks for reading :)
+Thanks for reading :relaxed:
 
 
 

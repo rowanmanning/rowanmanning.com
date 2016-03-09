@@ -55,7 +55,7 @@ Giving Back
 
 If you do end up building something great as a result of this post, I'd be really interested to take a look: tweet it at me!
 
-And if you don't fancy building your own grid system, you could always [use Frag][frag] ;)
+And if you don't fancy building your own grid system, you could always [use Frag][frag] :wink:
 
 
 

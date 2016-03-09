@@ -52,7 +52,7 @@ We're big fans of open-source, and as soon as Thundermole no longer needed to ho
 
 For when you want to write your own API, we've outlined a [Thundermole API Specification][api-spec].
 
-As with all of our open-source projects, we love contributions and feedback. It'd also be pretty cool to say you wrote code that sits in front of Nature journals :)
+As with all of our open-source projects, we love contributions and feedback. It'd also be pretty cool to say you wrote code that sits in front of Nature journals :wink:
 
 
 

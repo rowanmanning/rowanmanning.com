@@ -203,7 +203,7 @@ $ siege -c100 -t1M http://localhost:3000/
 #> Shortest transaction:        0.54
 ```
 
-I think you'll agree that that's a worthwhile performance increase for only a few lines of code ;)
+I think you'll agree that that's a worthwhile performance increase for only a few lines of code :wink:
 
 
 Bonus Code: Coping With Death

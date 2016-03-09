@@ -68,7 +68,7 @@ To Conclude
 
 So, I probably took quite a long time to get to quite a simple point, but I thought it would be nice to illustrate the importance of user-focused design with a more 'real-world' example (and vent a little of my personal frustration).
 
-Next time you're working on a design (or anything else targeted at customers for that matter), remember to think about the information they need before you think about ways to make your product look 'hip' and 'cool'. They will thank you for it, and I won't rant about it :)
+Next time you're working on a design (or anything else targeted at customers for that matter), remember to think about the information they need before you think about ways to make your product look 'hip' and 'cool'. They will thank you for it, and I won't rant about it :relaxed:
 
 
 
