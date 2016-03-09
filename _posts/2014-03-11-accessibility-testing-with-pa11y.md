@@ -30,10 +30,12 @@ The simplest way to quickly test a web page, is to execute the `pa11y` command w
 pa11y nature.com
 {% endhighlight %}
 
-<figure class="media">
-    <img class="media__image" src="/media/images/posts/accessibility-testing-with-pa11y/cli-report.png" alt="pa11y command-line output"/>
-    <figcaption class="media__caption">pa11y command-line output</figcaption>
-</figure>
+{%
+    include figure.html
+    type="image"
+    image="/media/images/posts/accessibility-testing-with-pa11y/cli-report.png"
+    caption="pa11y command-line output"
+%}
 
 You'll see some output in the command line which describes some of the errors/warnings encountered. This is fine for quickly testing a page, but things start to get interesting when you play with pa11y's options.
 
@@ -93,10 +95,12 @@ If you prefer to generate a visual accessibility report that can be shared with 
 pa11y --reporter html nature.com > results.html
 {% endhighlight %}
 
-<figure class="media">
-    <img class="media__image" src="/media/images/posts/accessibility-testing-with-pa11y/html-report.png" alt="pa11y HTML output"/>
-    <figcaption class="media__caption">pa11y HTML output</figcaption>
-</figure>
+{%
+    include figure.html
+    type="image"
+    image="/media/images/posts/accessibility-testing-with-pa11y/html-report.png"
+    caption="pa11y HTML output"
+%}
 
 
 Anything Missing?

@@ -18,11 +18,14 @@ Diagonal Lines! Border Radius! Box Shadows! Bright Colours! I think this design 
 
 Here's a fun fact which embarrasses me now: several interviewers said that mentioning beer on my CV/website is part of the reason I got an interview. Bro.
 
-<figure class="media">
-    <a href="/media/images/posts/an-evolving-website/2010.jpg">
-        <img class="media__image" src="/media/images/posts/an-evolving-website/2010.jpg" alt="2010 Design"/>
-    </a>
-</figure>
+{%
+    include figure.html
+    type="image"
+    image="/media/images/posts/an-evolving-website/2010.jpg"
+    link="/media/images/posts/an-evolving-website/2010.jpg"
+    caption="2010 Design"
+    hide-caption=true
+%}
 
 
 2011 aka "Jaunty Angles"
@@ -34,11 +37,14 @@ Look at those images! They're not straight, and I'm doing it with _CSS_! This de
   * A design for a project that never got finished. Yep, still happens
   * Me with my cats. Yep
 
-<figure class="media">
-    <a href="/media/images/posts/an-evolving-website/2011.jpg">
-        <img class="media__image" src="/media/images/posts/an-evolving-website/2011.jpg" alt="2011 Design"/>
-    </a>
-</figure>
+{%
+    include figure.html
+    type="image"
+    image="/media/images/posts/an-evolving-website/2011.jpg"
+    link="/media/images/posts/an-evolving-website/2011.jpg"
+    caption="2011 Design"
+    hide-caption=true
+%}
 
 
 2012 aka "Birth of a Blog"
@@ -48,11 +54,14 @@ Finally, my site does something more than advertise the fact that I like beer! A
 
 One aspect of this site needs tearing down. **Look at that profile picture**. <abbr title="Be right back">BRB</abbr> – I'm going to curl up in a ball for a while. I oddly decided that for a home page, this image and some "about me" text was more important than the posts.
 
-<figure class="media">
-    <a href="/media/images/posts/an-evolving-website/2012.jpg">
-        <img class="media__image" src="/media/images/posts/an-evolving-website/2012.jpg" alt="2012 Design"/>
-    </a>
-</figure>
+{%
+    include figure.html
+    type="image"
+    image="/media/images/posts/an-evolving-website/2012.jpg"
+    link="/media/images/posts/an-evolving-website/2012.jpg"
+    caption="2012 Design"
+    hide-caption=true
+%}
 
 
 2013 aka "What the Pinky Cream?"
@@ -62,11 +71,14 @@ OK what's going on here? "What's with the pinky cream?", I yell at past-Rowan. A
 
 The pinky cream isn't _that_ far from <abbr title="Financial Times">FT</abbr> pink. If I believed in anything supernatural I might read this as a sign that I was destined to work there.
 
-<figure class="media">
-    <a href="/media/images/posts/an-evolving-website/2013.jpg">
-        <img class="media__image" src="/media/images/posts/an-evolving-website/2013.jpg" alt="2013 Design"/>
-    </a>
-</figure>
+{%
+    include figure.html
+    type="image"
+    image="/media/images/posts/an-evolving-website/2013.jpg"
+    link="/media/images/posts/an-evolving-website/2013.jpg"
+    caption="2013 Design"
+    hide-caption=true
+%}
 
 
 2014 aka "Boxes and Projects"
@@ -76,11 +88,14 @@ Here's where I got carried away with [Jekyll][jekyll] and decided that I had to 
 
 The green bar at the top just keeps growing, and this is the first design to not display my age anywhere.
 
-<figure class="media">
-    <a href="/media/images/posts/an-evolving-website/2014.jpg">
-        <img class="media__image" src="/media/images/posts/an-evolving-website/2014.jpg" alt="2014 Design"/>
-    </a>
-</figure>
+{%
+    include figure.html
+    type="image"
+    image="/media/images/posts/an-evolving-website/2014.jpg"
+    link="/media/images/posts/an-evolving-website/2014.jpg"
+    caption="2014 Design"
+    hide-caption=true
+%}
 
 
 2015 aka "Spring Clean"
@@ -88,11 +103,14 @@ The green bar at the top just keeps growing, and this is the first design to not
 
 Projects are dead! There's a lot less competing for your attention now, and I think that's a good thing. This is probably the smallest design iteration there has been, which might mean I'm settling on something?
 
-<figure class="media">
-    <a href="/media/images/posts/an-evolving-website/2015.jpg">
-        <img class="media__image" src="/media/images/posts/an-evolving-website/2015.jpg" alt="2015 Design"/>
-    </a>
-</figure>
+{%
+    include figure.html
+    type="image"
+    image="/media/images/posts/an-evolving-website/2015.jpg"
+    link="/media/images/posts/an-evolving-website/2015.jpg"
+    caption="2015 Design"
+    hide-caption=true
+%}
 
 
 2016 aka "Stripped Back"
@@ -102,11 +120,14 @@ And here we are with the new design! I've continued what I was doing with the 20
 
 I've kept some of the things that I now consider almost signatures of my site: the green header bar, and the post colours. I'm pretty pleased with the outcome! Fingers crossed I'll start writing again.
 
-<figure class="media">
-    <a href="/media/images/posts/an-evolving-website/2016.jpg">
-        <img class="media__image" src="/media/images/posts/an-evolving-website/2016.jpg" alt="2016 Design"/>
-    </a>
-</figure>
+{%
+    include figure.html
+    type="image"
+    image="/media/images/posts/an-evolving-website/2016.jpg"
+    link="/media/images/posts/an-evolving-website/2016.jpg"
+    caption="2016 Design"
+    hide-caption=true
+%}
 
 Thanks for reading :)
 

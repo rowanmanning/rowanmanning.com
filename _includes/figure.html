@@ -1,0 +1,23 @@
+
+<figure class="media">
+    {% if include.link %}<a href="{{ include.link }}" class="media__link">{% endif %}
+
+    {% case include.type %}
+
+        {% when "image" %}
+        <img class="media__image" src="{{ include.image }}" alt="{{ include.caption }}"/>
+
+        {% when "youtube" %}
+        <iframe class="media__youtube" src="http://www.youtube.com/embed/{{ include.youtube-id }}" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+
+    {% endcase %}
+
+    {% if include.link %}</a>{% endif %}
+
+    {% if include.caption %}
+        {% unless include.hide-caption %}
+            <figcaption class="media__caption">{{ include.caption }}</figcaption>
+        {% endunless %}
+    {% endif %}
+
+</figure>
