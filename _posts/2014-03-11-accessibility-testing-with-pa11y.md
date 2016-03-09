@@ -41,15 +41,15 @@ You'll see some output in the command line which describes some of the errors/wa
 
 Use the WCAG2AAA standard:
 
-{% highlight sh %}
+```sh
 pa11y --standard WCAG2AAA nature.com
-{% endhighlight %}
+```
 
 Filter out certain rules or types:
 
-{% highlight sh %}
+```sh
 pa11y --ignore "notice;warning" nature.com
-{% endhighlight %}
+```
 
 Combining these options means you can get what you need out of pa11y with very little effort.
 
@@ -59,15 +59,15 @@ Reporting With JSON
 
 Reporting results as JSON can be extremely useful when you want to do things with the data, especially if you're using pa11y as part of Continuous Integration. We'll outline some uses below:
 
-{% highlight sh %}
+```sh
 pa11y --reporter json nature.com
-{% endhighlight %}
+```
 
 Output to a file:
 
-{% highlight sh %}
+```sh
 pa11y --reporter json nature.com > results.json
-{% endhighlight %}
+```
 
 
 Reporting With CSV
@@ -75,15 +75,15 @@ Reporting With CSV
 
 You can also output CSV reports with pa11y, which can be useful if you need to do some manual processing or for ease of importing into a database. This is also very simple:
 
-{% highlight sh %}
+```sh
 pa11y --reporter csv nature.com
-{% endhighlight %}
+```
 
 Output to a file:
 
-{% highlight sh %}
+```sh
 pa11y --reporter csv nature.com > results.csv
-{% endhighlight %}
+```
 
 
 Reporting With HTML
@@ -91,9 +91,9 @@ Reporting With HTML
 
 If you prefer to generate a visual accessibility report that can be shared with non-programmers, you can use the HTML reporter:
 
-{% highlight sh %}
+```sh
 pa11y --reporter html nature.com > results.html
-{% endhighlight %}
+```
 
 {%
     include figure.html

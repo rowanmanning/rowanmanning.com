@@ -29,7 +29,7 @@ All of the source code for the application we're creating here is [available on 
 
 Create a new directory for this tutorial, and add a file called `package.json` with the following code:
 
-{% highlight json %}
+```json
 {
     "name": "learning-express-cluster",
     "version": "1.0.0",
@@ -37,11 +37,11 @@ Create a new directory for this tutorial, and add a file called `package.json` w
         "express": "^4"
     }
 }
-{% endhighlight %}
+```
 
 Run `npm install` from within your project directory, this will install Express. Now we can create a new file, `app.js`:
 
-{% highlight javascript %}
+```js
 // Include Express
 var express = require('express');
 
@@ -56,7 +56,7 @@ app.get('/', function (req, res) {
 // Bind to a port
 app.listen(3000);
 console.log('Application running!');
-{% endhighlight %}
+```
 
 Now we have a basic Express app, you can run it from the command line with `node app.js`. When you go to http://localhost:3000/, you should see the message "Hello world!" in your browser.
 
@@ -64,16 +64,16 @@ That's all well and good, but let's get down to the point of this post – clust
 
 First, we add a new line at the very top of the file:
 
-{% highlight javascript %}
+```js
 // Include the cluster module
 var cluster = require('cluster');
 
 ...
-{% endhighlight %}
+```
 
 Now we're going to add a conditional to `app.js` which wraps all of our Express application functionality. Update your file to look like this:
 
-{% highlight javascript %}
+```js
 // Include the cluster module
 var cluster = require('cluster');
 
@@ -101,7 +101,7 @@ if (cluster.isMaster) {
     console.log('Application running!');
 
 }
-{% endhighlight %}
+```
 
 What we're doing here is detecting whether the application is being run in the 'master' process (the one you start from the command line) or a 'worker' process (a process created by the master).
 
@@ -109,7 +109,7 @@ Your application code can stay pretty much the same, which makes it fairly easy 
 
 Let's write the code for the master process, we're almost done! Fill out the first half of the conditional to look like this:
 
-{% highlight javascript %}
+```js
 ...
 
 // Code to run if we're in the master process
@@ -127,7 +127,7 @@ if (cluster.isMaster) {
 } else {
 
 ...
-{% endhighlight %}
+```
 
 All we're doing above is counting the number of CPUs your machine has, and calling `cluster.fork` for each. For example, If your machine has four CPUs then `cluster.fork` will be called four times, creating four new processes.
 
@@ -137,23 +137,23 @@ If you run `node app.js` now, nothing will look different. The only thing you'll
 
 Before we finish up, let's output the worker ID so you can tell which worker is serving your page each time it loads. Replace the following lines:
 
-{% highlight javascript %}
+```js
 res.send('Hello World!');
 
 ...
 
 console.log('Application running!');
-{% endhighlight %}
+```
 
 with these:
 
-{% highlight javascript %}
+```js
 res.send('Hello from Worker ' + cluster.worker.id);
 
 ...
 
 console.log('Worker %d running!', cluster.worker.id);
-{% endhighlight %}
+```
 
 Now when you run the application, you should see the workers being started in your command line. When you revisit http://localhost:3000/ you should see the message "Hello from Worker X" where X is the ID of the worker serving you.
 
@@ -169,7 +169,7 @@ Because the application is so minimal now, I added a long loop to the index rout
 
 Without clustering:
 
-{% highlight bash %}
+```sh
 $ siege -c100 -t1M http://localhost:3000/
 #> Transactions:                263 hits
 #> Availability:                100.00 %
@@ -183,11 +183,11 @@ $ siege -c100 -t1M http://localhost:3000/
 #> Failed transactions:         0
 #> Longest transaction:         34.57
 #> Shortest transaction:        10.07
-{% endhighlight %}
+```
 
 With clustering:
 
-{% highlight bash %}
+```sh
 $ siege -c100 -t1M http://localhost:3000/
 #> Transactions:                811 hits
 #> Availability:                100.00 %
@@ -201,7 +201,7 @@ $ siege -c100 -t1M http://localhost:3000/
 #> Failed transactions:         0
 #> Longest transaction:         16.47
 #> Shortest transaction:        0.54
-{% endhighlight %}
+```
 
 I think you'll agree that that's a worthwhile performance increase for only a few lines of code ;)
 
@@ -213,7 +213,7 @@ Last but not least, there's one last thing that would be useful to add to our ap
 
 This is also incredibly easy to do by binding to the cluster 'exit' event. Add the following code directly beneath the loop which creates our initial workers. It's fairly self-explanatory:
 
-{% highlight javascript %}
+```js
 ...
 
 // Listen for dying workers
@@ -227,7 +227,7 @@ cluster.on('exit', function (worker) {
 });
 
 ...
-{% endhighlight %}
+```
 
 Now we don't have to worry as much if something goes horribly wrong in one of our workers!
 
