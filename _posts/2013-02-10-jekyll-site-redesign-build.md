@@ -5,18 +5,12 @@ description: I rebuilt my site with Jekyll, along with a small design refresh; i
 cta: Read about my site rebuild
 subject: design
 tags: [Design, Jekyll]
-reading:
-  - label: Jekyll documentation
-    url: https://github.com/mojombo/jekyll#readme
-    type: link
-  - label: This site on GitHub
-    url: https://github.com/rowanmanning/rowanmanning.github.com
-    type: repo
 ---
+
 
 It's been about 9 months since my last site design/refresh, and the code was starting to show it's age (that's got to be a separate post – just how quickly standards change). I recently built a couple of small sites with [Jekyll][jekyll] and decided to port by existing blog over to it.
 
-Jekyll is a beautifully simple static site generator from [Tom Preston Werner][tom]. The ease-of-use with this tool is crazy, I had so much fun with the rewrite just because Jekyll works in exactly the way you'd expect it to.
+Jekyll is a beautifully simple static site generator. The ease-of-use with this tool is crazy, I had so much fun with the rewrite just because Jekyll works in exactly the way you'd expect it to.
 
 
 My Previous Site
@@ -64,9 +58,15 @@ Thanks for reading,
 Rowan
 
 
+For further reading on this subject, see:
+
+  - [Jekyll documentation][jekyll]
+  - [This site on GitHub][repo]
+
+
+
 [csswizardry-jekyll]: http://csswizardry.com/2012/12/a-new-css-wizardry/
 [docpad]: http://docpad.org/
 [icomoon]: http://icomoon.io/
-[jekyll]: https://github.com/mojombo/jekyll
-[repo]: https://github.com/rowanmanning/rowanmanning.github.com
-[tom]: http://tom.preston-werner.com/
+[jekyll]: https://jekyllrb.com/
+[repo]: https://github.com/rowanmanning/rowanmanning.github.io

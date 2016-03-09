@@ -6,13 +6,6 @@ description: A simple tutorial on using Node.js 0.8+'s Cluster module with Expre
 cta: Learn about clustering and express
 subject: node-js
 tags: [Node.js, JavaScript, Express, Cluster]
-reading:
-  - label: Node.js Cluster module documentation
-    url: http://nodejs.org/api/cluster.html
-    type: link
-  - label: Express documentation
-    url: http://expressjs.com/
-    type: link
 ---
 
 
@@ -241,6 +234,13 @@ Now we don't have to worry as much if something goes horribly wrong in one of ou
 I hope you enjoyed this tutorial. As mentioned above, you can get a hold of the [source code for the examples on GitHub][source]. For more information, check out the [Node.js Cluster module documentation][cluster].
 
 Thanks for reading.
+
+
+For further reading on this subject, see:
+
+- [Node.js Cluster module documentation][cluster]
+- [Express documentation][express]
+
 
 
 [cluster]: http://nodejs.org/api/cluster.html

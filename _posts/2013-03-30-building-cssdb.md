@@ -6,11 +6,8 @@ description: How I tackled the build of CSSDB over a weekend. Outlining my techn
 cta: Read about CSSDB
 subject: css
 tags: [CSS, JavaScript, Node.js, Express]
-reading:
-  - label: CSSDB source code on GitHub
-    url: https://github.com/rowanmanning/cssdb
-    type: repo
 ---
+
 
 Last weekend I built [CSSDB][cssdb], a curated collection of great CSS, Sass, LESS and Stylus libraries. It was primarily an excercise in learning, but it was also a site which I could have made excellent use of (especially in the early stages of my development career).
 
@@ -94,6 +91,7 @@ Anyway, I hope you've enjoyed my ramblings! Maybe you learned something, or have
 
 Thanks for reading,  
 Rowan.
+
 
 
 [bevan]: http://bevanstephens.com/

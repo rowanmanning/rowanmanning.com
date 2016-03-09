@@ -6,16 +6,6 @@ description: Web accessibility isn't just about catering for blind users. In thi
 cta: Read about accessibility
 subject: accessibility
 tags: [Accessibility]
-reading:
-  - label: Accessibility articles from WebAIM
-    url: http://webaim.org/articles/
-    type: link
-  - label: The BBC's web accessibility guides
-    url: http://www.bbc.co.uk/accessibility/guides/
-    type: link
-  - label: Designing with Progressive Enhancement by Filament Group
-    url: http://filamentgroup.com/dwpe/
-    type: book
 ---
 
 
@@ -81,12 +71,23 @@ So I hope I haven't made accessibility an even scarier word for you! Granted the
 
 By thinking about these users while you build, not only will you help people with disabilities, but many of the relatively small improvements listed in this post will make your site more usable for *everyone*.
 
-Thanks for reading,
+Thanks for reading,  
 Rowan
 
 
+For further reading on this subject, see:
+
+- [Accessibility articles from WebAIM][webaim-articles]
+- [The BBC's web accessibility guides][bbc-guides]
+- [Designing with Progressive Enhancement][dwpe], a book by Filament Group
+
+
+
+[bbc-guides]: http://www.bbc.co.uk/accessibility/guides/
 [contrast-checker]: http://snook.ca/technical/colour_contrast/colour.html "Colour Contrast Checking Tool"
+[dwpe]: http://filamentgroup.com/dwpe/
 [keyboard-accessibility]: http://www.456bereastreet.com/archive/201104/keyboard_accessibility_again/ "Some useful quick-tips on keyboard accessibility"
 [lynx]: http://lynx.browser.org/ "The Lynx Browser"
 [use-screen-reader]: http://webaim.org/articles/screenreader_testing/ "Testing with Screen Readers: Questions and Answers"
+[webaim-articles]: http://webaim.org/articles/
 [webaim-cognitive]: http://webaim.org/articles/cognitive/ "In-depth article on cognitive disabilities and the web"

@@ -48,18 +48,6 @@ layout: page
 
         <hr/>
 
-        {% if page.reading and page.reading != empty %}
-            <h3 class="h5 space--small">Further Reading</h3>
-            <ul>
-                {% for link in page.reading %}
-                    <li>
-                        <a href="{{ link.url }}">{{ link.label }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
-        {% endif %}
-
-
         <h3 class="h5 space--small">Discussion</h3>
 
         <p class="space--small">
