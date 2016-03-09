@@ -238,8 +238,8 @@ Thanks for reading.
 
 For further reading on this subject, see:
 
-- [Node.js Cluster module documentation][cluster]
-- [Express documentation][express]
+  * [Node.js Cluster module documentation][cluster]
+  * [Express documentation][express]
 
 
 

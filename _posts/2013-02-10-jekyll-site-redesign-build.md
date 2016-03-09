@@ -60,8 +60,8 @@ Rowan
 
 For further reading on this subject, see:
 
-  - [Jekyll documentation][jekyll]
-  - [This site on GitHub][repo]
+  * [Jekyll documentation][jekyll]
+  * [This site on GitHub][repo]
 
 
 

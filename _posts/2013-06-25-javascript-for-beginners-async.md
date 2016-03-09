@@ -7,6 +7,7 @@ subject: javascript
 tags: [JavaScript, Tutorial]
 ---
 
+
 This is the first in a series of posts which will explain some of the concepts and terminology which are thrown about in JavaScript land, with a focus on beginners. In this post we'll be looking at the term "Async"; what it means and why it matters to you as a JavaScript developer.
 
 Recently, I was reminded of my early days in development. Being a self-taught JavaScript noob, it was easy to get left behind in technical conversations among more computer-sciency peers. One of the barriers was the terminology being used, terms like "Async".

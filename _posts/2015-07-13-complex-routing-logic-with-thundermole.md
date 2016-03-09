@@ -16,12 +16,12 @@ Over the last year, we have begun the process of migrating many [Nature journals
 
 The beta program had many requirements:
 
-  - Opted out users should see the old version of the site on the legacy platform
-  - Opted in users should see the new version of the site on the new platform
-  - Old-style URLs should redirect to new-style URLs for opted-in users
-  - New-style URLs should redirect to old-style URLs for opted-out users
-  - We should be able to run a private beta for internal users
-  - We should be able to automatically opt-in a percentage of users as the beta matures
+  * Opted out users should see the old version of the site on the legacy platform
+  * Opted in users should see the new version of the site on the new platform
+  * Old-style URLs should redirect to new-style URLs for opted-in users
+  * New-style URLs should redirect to old-style URLs for opted-out users
+  * We should be able to run a private beta for internal users
+  * We should be able to automatically opt-in a percentage of users as the beta matures
 
 It quickly became apparent that we'd need a layer in front of both platforms; with requests being routed based on whether the user is allowed to see the beta, and whether they've opted in.
 

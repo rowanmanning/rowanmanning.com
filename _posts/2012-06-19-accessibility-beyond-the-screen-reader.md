@@ -45,21 +45,17 @@ Users With Cognitive Disabilities
 
 Cognitive disabilities get little air-time in my opinion, yet conditions such as dyslexia are extremely common. The diversity of this group is huge, and cognitive disabilities can have an adverse effect on memory; problem solving; attention; and reading, linguistic and verbal comprehension to name a few:
 
-<dl>
+Memory
+  : Some users may have difficulties with their long, mid or short-term memories. This can be an issue when moving through a stepped sign-up or purchasing process for example. Clear sign-posting and guidance is essential for these users.
 
-    <dt>Memory</dt>
-    <dd>Some users may have difficulties with their long, mid or short-term memories. This can be an issue when moving through a stepped sign-up or purchasing process for example. Clear sign-posting and guidance is essential for these users.</dd>
+Problem solving
+  : For users who have trouble problem-solving, things like form errors or unclear instructions are a nightmare. Instructions should be clear and large changes to the page should be explained to the user.
 
-    <dt>Problem solving</dt>
-    <dd>For users who have trouble problem-solving, things like form errors or unclear instructions are a nightmare. Instructions should be clear and large changes to the page should be explained to the user.</dd>
+Attention
+  : Users with conditions such as <abbr title="Attention Deficit Hyperactivity Disorder">ADHD</abbr> often struggle to maintain concentration when completing a task. Avoiding background noise on a page and using visual cues to highlight important content helps these users.
 
-    <dt>Attention</dt>
-    <dd>Users with conditions such as <abbr title="Attention Deficit Hyperactivity Disorder">ADHD</abbr> often struggle to maintain concentration when completing a task. Avoiding background noise on a page and using visual cues to highlight important content helps these users.</dd>
-
-    <dt>Reading, linguistic and verbal comprehension</dt>
-    <dd>This broad category ranges from problems understanding long or complex words and sentence structure, to difficulty processing non-literal text such as sarcasm, metaphor or slang. Clear document structure, supplemental media and uncomplicated writing can help these users a lot.</dd>
-
-</dl>
+Reading, linguistic and verbal comprehension
+  : This broad category ranges from problems understanding long or complex words and sentence structure, to difficulty processing non-literal text such as sarcasm, metaphor or slang. Clear document structure, supplemental media and uncomplicated writing can help these users a lot.
 
 For more information, I can't recommend this [article on cognitive disabilities][webaim-cognitive] enough. It goes into far more depth than I could on the subject!
 
@@ -77,9 +73,9 @@ Rowan
 
 For further reading on this subject, see:
 
-- [Accessibility articles from WebAIM][webaim-articles]
-- [The BBC's web accessibility guides][bbc-guides]
-- [Designing with Progressive Enhancement][dwpe], a book by Filament Group
+  * [Accessibility articles from WebAIM][webaim-articles]
+  * [The BBC's web accessibility guides][bbc-guides]
+  * [Designing with Progressive Enhancement][dwpe], a book by Filament Group
 
 
 

@@ -47,11 +47,11 @@ I immediately started development with [Express][express], a beautifully simple 
 
 I won't go into too much technical detail here, but what I ended up with was a flow as outlined below. I'm quite pleased with how little manual work is involved:
 
-1. Somebody submits a library on the site
-2. The new library is stored in the database and marked as inactive.
-3. Every 30 minutes, an email is sent to me outlining any new inactive libraries. Each library has a unique activation link as well as a link for me to look at the library on GitHub.
-4. When I click on an activation link, the repository details for that library are fetched from GitHub, and it becomes visible on the site.
-5. From this point on, every 20 minutes, any libraries which have not been updated in the last two days are re-fetched from GitHub. This keeps the stats nice and fresh.
+  1. Somebody submits a library on the site
+  2. The new library is stored in the database and marked as inactive.
+  3. Every 30 minutes, an email is sent to me outlining any new inactive libraries. Each library has a unique activation link as well as a link for me to look at the library on GitHub.
+  4. When I click on an activation link, the repository details for that library are fetched from GitHub, and it becomes visible on the site.
+  5. From this point on, every 20 minutes, any libraries which have not been updated in the last two days are re-fetched from GitHub. This keeps the stats nice and fresh.
 
 All of this gives me a lot of flexibility – I can (and do) process new libraries happily on my morning commute!
 
@@ -71,8 +71,8 @@ The last part of the build was the front-end. There's no client-side JavaScript 
 
 In terms of CSS, I used a couple of my own libraries. This is mainly because I wanted to give them a bit of use, and they're actually well suited to a small website. Also, I'm quite familiar with them!
 
-* [Pigeon][pigeon]: *"An OOCSS framework for rapid prototyping and building smart, scalable sites"*
-* [Frag][frag]: *"A fluid, responsive, simple grid system for CSS"*
+  * [Pigeon][pigeon]: *"An OOCSS framework for rapid prototyping and building smart, scalable sites"*
+  * [Frag][frag]: *"A fluid, responsive, simple grid system for CSS"*
 
 
 Conclusion
@@ -82,10 +82,8 @@ I had a lot of fun building [CSSDB][cssdb]. As well as being well suited to buil
 
 All-in-all, I haven't regretted any of my choices (yet). The site's remained fast and responsive under a moderate (but increasing) load, and I'm getting a steady flow of submissions.
 
-<p>
-    <s>It's my intention to open-source the code behind the site at some point soon – I'd like to have some more people's eyes on it and get some community participation going. Before I do that, though, some house-keeping is in order: CSSDB was built over a weekend, with little consideration for maintainability and ease-of-understanding for anyone other than me.</s>
-    <ins>The source-code for CSSDB is <a href="https://github.com/rowanmanning/cssdb">available on GitHub</a>.</ins>
-</p>
+<s>It's my intention to open-source the code behind the site at some point soon – I'd like to have some more people's eyes on it and get some community participation going. Before I do that, though, some house-keeping is in order: CSSDB was built over a weekend, with little consideration for maintainability and ease-of-understanding for anyone other than me.</s>
+<ins>The source-code for CSSDB is [available on GitHub][repo].</ins>
 
 Anyway, I hope you've enjoyed my ramblings! Maybe you learned something, or have something to teach me? I'd love to get some feedback on my approach to this build or the site itself.
 
@@ -105,3 +103,4 @@ Rowan.
 [node-cron]: https://github.com/ncb000gt/node-cron
 [node-mongo]: https://github.com/mongodb/node-mongodb-native
 [pigeon]: http://pigeoncss.com/
+[repo]: https://github.com/rowanmanning/cssdb

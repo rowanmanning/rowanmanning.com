@@ -30,9 +30,9 @@ Here's a fun fact which embarrasses me now: several interviewers said that menti
 
 Look at those images! They're not straight, and I'm doing it with _CSS_! This design reminds me of a wallpapered wall with a border, but in the house of somebody with no style. Thumbnails defining me include:
 
-  - Me with my head in my hands. Yep, still applies
-  - A design for a project that never got finished. Yep, still happens
-  - Me with my cats. Yep
+  * Me with my head in my hands. Yep, still applies
+  * A design for a project that never got finished. Yep, still happens
+  * Me with my cats. Yep
 
 <figure class="media">
     <a href="/media/images/posts/an-evolving-website/2011.jpg">
