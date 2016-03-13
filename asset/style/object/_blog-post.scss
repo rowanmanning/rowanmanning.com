@@ -8,6 +8,20 @@
         padding-left: $spacing - $spacing-rule;
     }
 
+    // Publication status element
+    &__publication-status {
+        padding: $spacing-small;
+        background-color: $color-cream;
+        border: $spacing-rule solid $color-cream-dark;
+        font-style: italic;
+
+        // Draft modifier
+        &--draft {
+            background-color: $color-orange;
+            border-color: $color-orange-dark;
+        }
+    }
+
     // Cross post indicator element
     &__cross-post-indicator {
         padding: $spacing-small;

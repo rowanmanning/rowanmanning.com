@@ -15,7 +15,7 @@ layout:
     </author>
 
     {% for post in site.posts %}
-        {% if post.sitemap != true %}
+        {% if post.sitemap != false %}
             <entry>
                 <title>{{ post.title }}</title>
                 <link href="http://rowanmanning.com{{ post.url }}"/>

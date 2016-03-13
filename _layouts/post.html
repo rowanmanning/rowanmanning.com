@@ -30,6 +30,10 @@ layout: page
             {% endif %}
         </p>
 
+        {% if page.sitemap == false %}
+            {% include draft-notice.html %}
+        {% endif %}
+
     </header>
 
     {% if page.crossPost.siteName %}
@@ -43,33 +47,36 @@ layout: page
         {{ content }}
     </div>
 
-
     <footer>
+        {% if page.sitemap == false %}
+            {% include draft-notice.html %}
+        {% else %}
 
-        <hr/>
+            <hr/>
 
-        <h3 class="h5 space--small">Discussion</h3>
+            <h3 class="h5 space--small">Discussion</h3>
 
-        <p class="space--small">
-            If you'd like to discuss this post please get in touch!
-        </p>
+            <p class="space--small">
+                If you'd like to discuss this post please get in touch!
+            </p>
 
-        <ul>
+            <ul>
 
-            <li>
-                <a href="https://twitter.com/share?url={{ 'http://' | cgi_escape }}rowanmanning.com{{ page.url | cgi_escape }}&amp;via=rowanmanning&amp;text={{ page.title | cgi_escape }}" target="_blank">
-                    Tweet about this post
-                </a>
-            </li>
+                <li>
+                    <a href="https://twitter.com/share?url={{ 'http://' | cgi_escape }}rowanmanning.com{{ page.url | cgi_escape }}&amp;via=rowanmanning&amp;text={{ page.title | cgi_escape }}" target="_blank">
+                        Tweet about this post
+                    </a>
+                </li>
 
-            <li>
-                <a href="mailto:info@rowanmanning.com?subject={{ page.title | uri_escape }}">
-                    Email me
-                </a>
-            </li>
+                <li>
+                    <a href="mailto:info@rowanmanning.com?subject={{ page.title | uri_escape }}">
+                        Email me
+                    </a>
+                </li>
 
-        </ul>
+            </ul>
 
+        {% endif %}
     </footer>
 
 </article>
