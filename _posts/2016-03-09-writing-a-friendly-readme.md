@@ -6,7 +6,7 @@ cta: Learn how to write a lovable README
 subject: open-source
 tags: [Open-Source, Writing, Documentation]
 sitemap: false
-review-commit: ce5dedf49aae7e78e790a1a5f948d9c006a70946
+review-commit: b3bb4e88b7f36fdc27848d93bba992e5c4bb2a1d
 ---
 
 
