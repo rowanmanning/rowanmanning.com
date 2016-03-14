@@ -31,7 +31,7 @@ layout: page
         </p>
 
         {% if page.sitemap == false %}
-            {% include draft-notice.html %}
+            {% include draft-notice.html review-commit=page.review-commit %}
         {% endif %}
 
     </header>
@@ -49,7 +49,7 @@ layout: page
 
     <footer>
         {% if page.sitemap == false %}
-            {% include draft-notice.html %}
+            {% include draft-notice.html review-commit=page.review-commit %}
         {% else %}
 
             <hr/>

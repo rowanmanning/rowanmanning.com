@@ -2,4 +2,10 @@
 <p class="blog-post__publication-status blog-post__publication-status--draft">
     This post has not been published yet, which means I'm gathering feedback
     and getting it reviewed. Please don't share it publicly yet :)
+    {% if include.review-commit %}
+        <br/>
+        <a href="https://github.com/rowanmanning/rowanmanning.github.io/commit/{{ include.review-commit }}">
+            <b>Reviewers can make comments here</b>
+        </a>
+    {% endif %}
 </p>
