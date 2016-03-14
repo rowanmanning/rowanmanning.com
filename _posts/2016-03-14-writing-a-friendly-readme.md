@@ -1,12 +1,10 @@
 ---
 title: "Writing a Friendly README"
-date: 2016-03-09 20:00
+date: 2016-03-14 17:25
 description: A README is one of the first things people see when they find your open source project. It should be helpful, welcoming, and friendly.
 cta: Learn how to write a lovable README
 subject: open-source
 tags: [Open-Source, Writing, Documentation]
-sitemap: false
-review-commit: b3bb4e88b7f36fdc27848d93bba992e5c4bb2a1d
 ---
 
 
