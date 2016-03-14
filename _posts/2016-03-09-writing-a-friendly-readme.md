@@ -4,7 +4,7 @@ date: 2016-03-09 20:00
 description: A README is one of the first things people see when they find your open source project. It should be helpful, welcoming, and friendly.
 cta: Learn how to write a lovable README
 subject: open-source
-tags: [Open-Source, Writing]
+tags: [Open-Source, Writing, Documentation]
 sitemap: false
 review-commit: ce5dedf49aae7e78e790a1a5f948d9c006a70946
 ---
@@ -12,7 +12,7 @@ review-commit: ce5dedf49aae7e78e790a1a5f948d9c006a70946
 
 Your project's README is pretty important; it's often the first thing that a person new to your project will see, and is frequently the only source of documentation. Your README does the same job for your open source project as a website does for a company, and while websites get a lot of user-experience attention, our README files are rarely even considered from a user perspective.
 
-This post will guide us through writing a friendly README – one that will be helpful and meet developers (our users) needs, whether they're new to the project or know it well, whether they're a veteran developer or a newcomer.
+This post will guide us through writing a friendly README – one that will be helpful and meet developers' (our users) needs, whether they're new to the project or know it well, whether they're a veteran developer or a newcomer.
 
 We'll be tackling this in sections, using a pretend library called "Paddington" as an example. Let's start from the top.
 
@@ -22,7 +22,7 @@ Project Heading
 
 While the existence of ["the fold" is debatable][the-fold], it's fairly widely agreed that the top part of a website should be used to display the _most_ important information. We can apply the same principle to our README.
 
-So what are the most important things? The project name is pretty important, as is what it actually _does_. So let's add those in (I promise the whole post isn't this obvious):
+So what are the most important things? The project name is pretty important, as is what it actually _does_. So let's ease ourselves in by adding those:
 
 {%
     include figure.html
@@ -32,7 +32,7 @@ So what are the most important things? The project name is pretty important, as 
     caption="Project heading with name and description"
 %}
 
-The above mostly cater for new users, but this top part of the README should help our existing users too; they have a few easy-to-answer questions. When I visit a project that I'm familiar with, I want to know:
+The above mostly caters for new users, but this top part of the README should help our existing users too; they have a few easy-to-answer questions. When I visit a project that I'm familiar with, I want to know:
 
   * What's the latest version?
   * Is the build passing?
