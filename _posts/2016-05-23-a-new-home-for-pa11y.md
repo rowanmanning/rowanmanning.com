@@ -35,14 +35,14 @@ This is the part of this post I'm most enthused about! We have so many plans for
 The core team has grown and we now have more people supporting the various projects day to day. This means faster response times to issues and way better communication on all fronts.
 
   - [We're now on Twitter][twitter]
-  - We're announcing releases and including release notes in every one
+  - We're announcing releases and writing up release notes
   - We're in the process of setting up a community chat for the projects
 
 We'll start to introduce core team members soon via the new website. Which brings me nicely onto the next announcement&hellip;
 
 ### A New Website
 
-We're working on a [brand new website][website] for Pa11y which will act as a central point for all of the projects. Our current website does nothing for us, and we're aiming to make it useful to users and contributors alike.
+We're working on a [brand new website][website] for Pa11y which will act as a central point for all of the projects. Our current website does little for us, and we're aiming to make it more useful to users and contributors alike.
 
   - We're finally adopting a [code of conduct]
   - We've written an extensive [contributors guide]
