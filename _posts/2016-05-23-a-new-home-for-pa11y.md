@@ -28,7 +28,7 @@ For contributors it means that we'll be able to start giving out write access, a
 The Future
 ----------
 
-This is the part of this post I'm most excited about! We have so many plans for the months ahead, which we can now share with you all.
+This is the part of this post I'm most enthused about! We have so many plans for the months ahead, which we can now share with you all.
 
 ### The Team
 
