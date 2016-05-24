@@ -1,12 +1,10 @@
 ---
 title: "A New Home For Pa11y"
-date: 2016-05-23 09:00
+date: 2016-05-23 18:30
 description: Pa11y has moved to a new organisation on GitHub. It's a time of change for the project, and the team is extremely excited about the future.
 cta: Read about Pa11y's move
 subject: accessibility
 tags: [Accessibility, Pa11y]
-sitemap: false
-review-commit: 16b0387ddecf33786cbe5a0372e85bc2d89f9297
 ---
 
 
