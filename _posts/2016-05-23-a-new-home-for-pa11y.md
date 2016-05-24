@@ -20,7 +20,7 @@ We're extremely grateful to both Nature Publishing Group and, later, Springer Na
 What Does This Mean?
 --------------------
 
-For users of Pa11y, you'll continue to be fully supported. In fact our level of support is getting better as more contributors join the project. Springer Nature will continue to sponsor the projects with developer time; the move allows other companies to do the same without their developers contributing to another company's software on work time.
+For users of Pa11y, you'll continue to be fully supported. In fact our level of support is getting better as more contributors join the project. Springer Nature will continue to sponsor the projects with developer time; the move allows other companies to do the same without their developers contributing to repos in another company’s organisation on work time.
 
 For contributors it means that we'll be able to start giving out write access, and you can help to govern the projects. We've seen more and more contributions from people all over the world, and we're excited to be able to work more closely with you all!
 
