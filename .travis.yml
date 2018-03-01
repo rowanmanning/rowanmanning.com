@@ -1,0 +1,19 @@
+
+# Build using Ruby
+language: ruby
+cache: bundler
+rvm:
+  - 2.5
+
+# Install
+install:
+  - make install
+
+# Build script (just deploy the site)
+script:
+  - make deploy
+
+# Only deploy master!
+branches:
+  only:
+    - master
