@@ -13,7 +13,7 @@ About Me
     </a>
 </figure>
 
-Hi, I'm Rowan. I'm a Node.js and front end developer with 8 years experience building websites.
+Hi, I'm Rowan. I'm a Node.js and front end developer with 10 years experience building websites.
 I’ve enjoyed working in a broad range of environments and industries, and I am based in London.
 
 I write JavaScript mostly in a functional style, spending more time in Node.js than on the client-side.
@@ -68,7 +68,7 @@ Employment
             <i>Senior Developer, February 2016 – Present</i>
         </h3>
 
-        <p class="space--small">Technologies: HTML, CSS, JavaScript, Node.js, Docker</p>
+        <p class="space--small">Technologies: HTML, CSS, JavaScript, Node.js</p>
     </li>
 
     <li class="space">
@@ -117,6 +117,3 @@ Interests
 ---------
 
 Work/life balance is important to me – a rested developer is a good developer! Outside of work I love to draw; [illustration and comic art mostly](https://twitter.com/rowandraws). I also read a lot, my favourite genre being dystopian fiction (Margaret Atwood is hands down the best author). I occasionally go running, but this is less of an interest and more so that I can eat all the food.
-
-
-[Download this page as a PDF CV](/rowan-manning-cv.pdf).
