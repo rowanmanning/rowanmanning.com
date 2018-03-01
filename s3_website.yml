@@ -1,0 +1,28 @@
+# Note:
+# AWS information is set using AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
+# environment variables
+
+# AWS config
+cloudfront_distribution_id: EHGE4J7JW887
+cloudfront_invalidate_root: true
+cloudfront_wildcard_invalidation: true
+s3_bucket: rowanmanning.com
+s3_endpoint: eu-west-2
+s3_reduced_redundancy: true
+
+# Site information
+site: _site
+index_document: index.html
+error_document: error.html
+
+# Cache control and performance
+max_age:
+  "asset/*": 21600
+  "*": 3600
+gzip: true
+
+# Redirects
+redirects:
+  blog/index.html: /
+  post/index.html: /
+  projects/index.html: /

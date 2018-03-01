@@ -18,10 +18,10 @@ exclude:
   - Gemfile.lock
   - Makefile
   - README.md
+  - s3_website.yml
 
 # Extensions to use
 plugins:
-  - jekyll-redirect-from
   - jekyll-sitemap
   - jemoji
 
