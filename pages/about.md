@@ -19,7 +19,7 @@ I’ve enjoyed working in a broad range of environments and industries, and I am
 I write JavaScript mostly in a functional style, spending more time in Node.js than on the client-side.
 I write clean, semantic HTML and CSS. I am a big proponent of progressive enhancement, TDD, and Open Source.
 
-I maintain a lot of personal projects. including Joblint, a command-line tool for testing job posts, and pa11y, an accessibility testing dashboard.
+I maintain a lot of personal projects. including Joblint, a command-line tool for testing job posts, and Pa11y, an accessibility testing dashboard.
 I have also coached students in my spare time at Codebar – an initiative to make technology more diverse and welcoming.
 
 
@@ -40,7 +40,7 @@ Open Source
 
   - **Joblint:** A Node.js command-line tool and website to test job posts for issues with sexism, culture, and expectations. Joblint gained a lot of traction initially, resonating with developers who were fed up of screening terrible job posts. It gave me a good introduction to managing a popular project with a lot of issues and pull requests coming in. [Visit Joblint](http://joblint.org/).
 
-  - **pa11y:** A Node.js-based dashboard and command-line tool to test websites for common accessibility issues. pa11y uses PhantomJS to load pages and run a series of checks, it then generates reports in JSON, CSV, and HTML. [View the pa11y source code on GitHub](https://github.com/springernature/pa11y).
+  - **Pa11y:** A Node.js-based dashboard and command-line tool to test websites for common accessibility issues. Pa11y uses Headless Chrome to load pages and run a series of checks, it then generates reports in JSON, CSV, and HTML. [View the Pa11y source code on GitHub](https://github.com/pa11y/pa11y).
 
   - **Pacer:** A flexible, fault-tolerant, Redis-based rate-limiter for Node.js. Pacer can easily be used as middleware in a Connect/Express-based API, and can rate limit based on the type of consumer accessing the API. I built this as part of another personal project and split it out. [View the Pacer source code on GitHub](https://github.com/rowanmanning/pacer).
 
@@ -54,7 +54,7 @@ Speaking and Writing
 
   - **Personal Blog:** I maintain a [personal development blog](http://rowanmanning.com/). Writing benefits my own learning massively, and I enjoy sharing knowledge with my peers.
 
-  - **Cruft:** I also help maintain and write for [Cruft, a blog for the technology department at Nature](http://cruft.io/). I have published several posts and coordinate other contributions.
+  - **Cruft:** I used to help maintain and write for [Cruft, a blog for the technology department at Nature](http://cruft.io/). I published several posts and coordinated other contributions.
 
 
 Employment
