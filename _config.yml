@@ -14,7 +14,6 @@ defaults:
 
 # Files and directories to exclude from compilation
 exclude:
-  - CNAME
   - Gemfile
   - Gemfile.lock
   - Makefile
