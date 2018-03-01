@@ -18,4 +18,4 @@ The site design, CSS and markup (excluding actual content) is licensed under a [
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_GB
 [cc-img]: http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png
-[site]: http://rowanmanning.com/
+[site]: https://rowanmanning.com/

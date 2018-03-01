@@ -52,7 +52,7 @@ Speaking and Writing
 
   - **UX For Your Node Modules:** I gave a talk at the London Node User Group in 2014, speaking about the importance of a good README with a focus on Node.js projects. The talk was well-received, and I enjoyed it despite my nerves – I’d do it again. [Slides are available here](https://speakerdeck.com/rowanmanning/ux-for-your-node-modules).
 
-  - **Personal Blog:** I maintain a [personal development blog](http://rowanmanning.com/). Writing benefits my own learning massively, and I enjoy sharing knowledge with my peers.
+  - **Personal Blog:** I maintain a [personal development blog](https://rowanmanning.com/). Writing benefits my own learning massively, and I enjoy sharing knowledge with my peers.
 
   - **Cruft:** I used to help maintain and write for [Cruft, a blog for the technology department at Nature](http://cruft.io/). I published several posts and coordinated other contributions.
 

@@ -5,20 +5,20 @@ layout:
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-GB">
 
     <title>Rowan Manning's Blog</title>
-    <link href="http://rowanmanning.com{{ page.url }}" rel="self"/>
-    <link href="http://rowanmanning.com/"/>
+    <link href="https://rowanmanning.com{{ page.url }}" rel="self"/>
+    <link href="https://rowanmanning.com/"/>
     <updated>{{ site.time | date: '%Y-%m-%dT%H:%M:%SZ' }}</updated>
-    <id>http://rowanmanning.com{{ page.url }}</id>
+    <id>https://rowanmanning.com{{ page.url }}</id>
     <author>
         <name>Rowan Manning</name>
-        <uri>http://rowanmanning.com/</uri>
+        <uri>https://rowanmanning.com/</uri>
     </author>
 
     {% for post in site.posts %}
         {% if post.sitemap != false %}
             <entry>
                 <title>{{ post.title }}</title>
-                <link href="http://rowanmanning.com{{ post.url }}"/>
+                <link href="https://rowanmanning.com{{ post.url }}"/>
                 <published>{{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}</published>
                 <updated>
                     {% if post.lastmod %}
@@ -27,7 +27,7 @@ layout:
                         {{ post.date | date: '%Y-%m-%dT%H:%M:%SZ' }}
                     {% endif %}
                 </updated>
-                <id>http://rowanmanning.com{{ post.url }}</id>
+                <id>https://rowanmanning.com{{ post.url }}</id>
                 <content type="html">{{ post.content | xml_escape }}</content>
             </entry>
         {% endif %}
