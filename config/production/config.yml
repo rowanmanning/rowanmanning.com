@@ -2,8 +2,7 @@
 # Config for production environment
 
 # Set the base URL
-# baseURL: https://rowanmanning.com/
-baseURL: https://rowanmanning.github.io/rowanmanning.com/
+baseURL: https://rowanmanning.com/
 
 # Set up site analytics
 params:
