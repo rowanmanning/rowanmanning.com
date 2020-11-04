@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan's Blog | Rowan Manning</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-11-04T23:54:17+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.github.io/rowanmanning.com/posts/</id><entry><title type="html">A New Home For Pa11y</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/a-new-home-for-pa11y/" rel="alternate" type="text/html"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/accessibility-testing-with-pa11y/" rel="related" type="text/html" title="Accessibility Testing with pa11y"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/accessibility-beyond-the-screen-reader/" rel="related" type="text/html" title="Accessibility: Beyond the Screen-Reader"/><id>https://rowanmanning.github.io/rowanmanning.com/posts/a-new-home-for-pa11y/</id><published>2016-05-23T18:30:00+00:00</published><updated>2016-05-23T18:30:00+00:00</updated><content type="html"><![CDATA[<blockquote>Pa11y has moved to a new organisation on GitHub. It&rsquo;s a time of change for the project, and the team is extremely excited about the future.</blockquote><p>I&rsquo;m out of breath because I practically ran home to write this post. I&rsquo;m excited because, as of today, <a href="https://github.com/pa11y/pa11y">Pa11y</a> and all of the projects around it have moved to a <a href="https://github.com/pa11y">new GitHub organisation</a>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan's Blog | Rowan Manning</title><link href="https://rowanmanning.com/posts/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/posts/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-11-04T23:56:50+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/posts/</id><entry><title type="html">A New Home For Pa11y</title><link href="https://rowanmanning.com/posts/a-new-home-for-pa11y/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/accessibility-testing-with-pa11y/" rel="related" type="text/html" title="Accessibility Testing with pa11y"/><link href="https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/" rel="related" type="text/html" title="Accessibility: Beyond the Screen-Reader"/><id>https://rowanmanning.com/posts/a-new-home-for-pa11y/</id><published>2016-05-23T18:30:00+00:00</published><updated>2016-05-23T18:30:00+00:00</updated><content type="html"><![CDATA[<blockquote>Pa11y has moved to a new organisation on GitHub. It&rsquo;s a time of change for the project, and the team is extremely excited about the future.</blockquote><p>I&rsquo;m out of breath because I practically ran home to write this post. I&rsquo;m excited because, as of today, <a href="https://github.com/pa11y/pa11y">Pa11y</a> and all of the projects around it have moved to a <a href="https://github.com/pa11y">new GitHub organisation</a>.</p>
 <p>This is an important step for us, we&rsquo;re moving towards being a self-governing team and away from any one company. We believe this will help us better achieve our goal – to help make the web more accessible for everyone.</p>
 <p>We&rsquo;re extremely grateful to both Nature Publishing Group and, later, Springer Nature for guiding Pa11y through the early years. We&rsquo;d also like to thank Springer Nature for transferring the repositories over to the new organisation.</p>
 <h2 id="what-does-this-mean">What Does This Mean?</h2>
@@ -33,7 +33,7 @@
 <h2 id="thank-you">Thank You</h2>
 <p>Thank you for reading up on Pa11y, thank you for using it, and thank you for contributing. Together we&rsquo;re going to improve the accessibility of the web for everyone!</p>
 <p>Rowan, and the Pa11y team ❤️</p>
-]]></content><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/accessibility" term="accessibility" label="Accessibility"/><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/pa11y" term="pa11y" label="Pa11y"/></entry><entry><title type="html">Writing a Friendly README</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/writing-a-friendly-readme/" rel="alternate" type="text/html"/><id>https://rowanmanning.github.io/rowanmanning.com/posts/writing-a-friendly-readme/</id><published>2016-03-14T17:25:00+00:00</published><updated>2016-03-14T17:25:00+00:00</updated><content type="html"><![CDATA[<blockquote>A README is one of the first things people see when they find your open source project. It should be helpful, welcoming, and friendly.</blockquote><p>Your project&rsquo;s README is pretty important; it&rsquo;s often the first thing that a person new to your project will see, and is frequently the only source of documentation. Your README does the same job for your open source project as a website does for a company, and while websites get a lot of user-experience attention, our README files are rarely even considered from a user perspective.</p>
+]]></content><category scheme="https://rowanmanning.com/tags/accessibility" term="accessibility" label="Accessibility"/><category scheme="https://rowanmanning.com/tags/pa11y" term="pa11y" label="Pa11y"/></entry><entry><title type="html">Writing a Friendly README</title><link href="https://rowanmanning.com/posts/writing-a-friendly-readme/" rel="alternate" type="text/html"/><id>https://rowanmanning.com/posts/writing-a-friendly-readme/</id><published>2016-03-14T17:25:00+00:00</published><updated>2016-03-14T17:25:00+00:00</updated><content type="html"><![CDATA[<blockquote>A README is one of the first things people see when they find your open source project. It should be helpful, welcoming, and friendly.</blockquote><p>Your project&rsquo;s README is pretty important; it&rsquo;s often the first thing that a person new to your project will see, and is frequently the only source of documentation. Your README does the same job for your open source project as a website does for a company, and while websites get a lot of user-experience attention, our README files are rarely even considered from a user perspective.</p>
 <p>This post will guide us through writing a friendly README – one that will be helpful and meet developers' (our users) needs, whether they&rsquo;re new to the project or know it well, whether they&rsquo;re a veteran developer or a newcomer.</p>
 <p>We&rsquo;ll be tackling this in sections, using a pretend library called &ldquo;Paddington&rdquo; as an example. Let&rsquo;s start from the top.</p>
 <h2 id="project-heading">Project Heading</h2>
@@ -45,7 +45,7 @@
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-01-md" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/writing-a-friendly-readme/heading-01.png"
+			src="/media/images/posts/writing-a-friendly-readme/heading-01.png"
 			alt="Project heading with name and description"
 		/>
 	</a>
@@ -76,7 +76,7 @@
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-02-md" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/writing-a-friendly-readme/heading-02.png"
+			src="/media/images/posts/writing-a-friendly-readme/heading-02.png"
 			alt="Project heading with badges added"
 		/>
 	</a>
@@ -95,7 +95,7 @@
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-03-md" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/writing-a-friendly-readme/heading-03.png"
+			src="/media/images/posts/writing-a-friendly-readme/heading-03.png"
 			alt="Full project heading with an example"
 		/>
 	</a>
@@ -115,7 +115,7 @@
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-table-of-contents-01-md" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/writing-a-friendly-readme/table-of-contents-01.png"
+			src="/media/images/posts/writing-a-friendly-readme/table-of-contents-01.png"
 			alt="A nicely linked table of contents"
 		/>
 	</a>
@@ -135,7 +135,7 @@
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-requirements-01-md" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/writing-a-friendly-readme/requirements-01.png"
+			src="/media/images/posts/writing-a-friendly-readme/requirements-01.png"
 			alt="Project requirements"
 		/>
 	</a>
@@ -158,7 +158,7 @@
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-01-md" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/writing-a-friendly-readme/usage-01.png"
+			src="/media/images/posts/writing-a-friendly-readme/usage-01.png"
 			alt="How to install Paddington"
 		/>
 	</a>
@@ -176,7 +176,7 @@
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-02-md" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/writing-a-friendly-readme/usage-02.png"
+			src="/media/images/posts/writing-a-friendly-readme/usage-02.png"
 			alt="How to use Paddington"
 		/>
 	</a>
@@ -194,7 +194,7 @@
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-03-md" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/writing-a-friendly-readme/usage-03.png"
+			src="/media/images/posts/writing-a-friendly-readme/usage-03.png"
 			alt="Edge-cases and errors"
 		/>
 	</a>
@@ -215,7 +215,7 @@
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-contributing-01-md" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/writing-a-friendly-readme/contributing-01.png"
+			src="/media/images/posts/writing-a-friendly-readme/contributing-01.png"
 			alt="Contribution guidelines"
 		/>
 	</a>
@@ -236,7 +236,7 @@
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-support-and-migration-01-md" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/writing-a-friendly-readme/support-and-migration-01.png"
+			src="/media/images/posts/writing-a-friendly-readme/support-and-migration-01.png"
 			alt="Support and migration"
 		/>
 	</a>
@@ -255,7 +255,7 @@
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-license-01-md" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/writing-a-friendly-readme/license-01.png"
+			src="/media/images/posts/writing-a-friendly-readme/license-01.png"
 			alt="License and copyright information"
 		/>
 	</a>
@@ -283,17 +283,17 @@
 <h2 id="the-full-readme">The Full README</h2>
 <p>Now we have a friendly README! You can <a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-readme-md">view the whole thing here</a>.</p>
 <p>I&rsquo;m hoping more people think about the user&rsquo;s needs when writing documentation, and please let me know if you think I&rsquo;ve missed anything. I&rsquo;m interested to hear your tips and opinions on what constitutes a helpful README.</p>
-]]></content><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/open-source" term="open-source" label="Open-Source"/><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/writing" term="writing" label="Writing"/><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/documentation" term="documentation" label="Documentation"/></entry><entry><title type="html">An Evolving Website</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/an-evolving-website/" rel="alternate" type="text/html"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/jekyll-site-redesign/build/" rel="related" type="text/html" title="Jekyll Site Redesign/Build"/><id>https://rowanmanning.github.io/rowanmanning.com/posts/an-evolving-website/</id><published>2016-03-07T20:15:00+00:00</published><updated>2016-03-07T20:15:00+00:00</updated><content type="html"><![CDATA[<blockquote>A short journey through iterations of my website, from 2010–2016, and all of the odd decisions I&rsquo;ve made along the way.</blockquote><p>In an attempt to encourage myself to post more, I&rsquo;ve given my website a design refresh! Whether this tactic works or not remains to be seen, but it prompted me to look through all of my old site designs. I thought it&rsquo;d be fun to post them here.</p>
+]]></content><category scheme="https://rowanmanning.com/tags/open-source" term="open-source" label="Open-Source"/><category scheme="https://rowanmanning.com/tags/writing" term="writing" label="Writing"/><category scheme="https://rowanmanning.com/tags/documentation" term="documentation" label="Documentation"/></entry><entry><title type="html">An Evolving Website</title><link href="https://rowanmanning.com/posts/an-evolving-website/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/jekyll-site-redesign/build/" rel="related" type="text/html" title="Jekyll Site Redesign/Build"/><id>https://rowanmanning.com/posts/an-evolving-website/</id><published>2016-03-07T20:15:00+00:00</published><updated>2016-03-07T20:15:00+00:00</updated><content type="html"><![CDATA[<blockquote>A short journey through iterations of my website, from 2010–2016, and all of the odd decisions I&rsquo;ve made along the way.</blockquote><p>In an attempt to encourage myself to post more, I&rsquo;ve given my website a design refresh! Whether this tactic works or not remains to be seen, but it prompted me to look through all of my old site designs. I thought it&rsquo;d be fun to post them here.</p>
 <h2 id="2010-aka-corners-and-shadows">2010 aka &ldquo;Corners and Shadows&rdquo;</h2>
 <p>Diagonal Lines! Border Radius! Box Shadows! Bright Colours! I think this design <a href="http://theoatmeal.com/comics/design_hell">really pops</a>, don&rsquo;t you? Just look at those icons. Yes, that <em>is</em> Google Buzz (I guess I was optimistic).</p>
 <p>Here&rsquo;s a fun fact which embarrasses me now: several interviewers said that mentioning beer on my CV/website is part of the reason I got an interview. Bro.</p>
 
 <figure class="media ">
 
-	<a href="/rowanmanning.com/media/images/posts/an-evolving-website/2010.jpg" class="media__link">
+	<a href="/media/images/posts/an-evolving-website/2010.jpg" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/an-evolving-website/2010.jpg"
+			src="/media/images/posts/an-evolving-website/2010.jpg"
 			alt="2010 Design"
 		/>
 	</a>
@@ -312,10 +312,10 @@
 
 <figure class="media ">
 
-	<a href="/rowanmanning.com/media/images/posts/an-evolving-website/2011.jpg" class="media__link">
+	<a href="/media/images/posts/an-evolving-website/2011.jpg" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/an-evolving-website/2011.jpg"
+			src="/media/images/posts/an-evolving-website/2011.jpg"
 			alt="2011 Design"
 		/>
 	</a>
@@ -330,10 +330,10 @@
 
 <figure class="media ">
 
-	<a href="/rowanmanning.com/media/images/posts/an-evolving-website/2012.jpg" class="media__link">
+	<a href="/media/images/posts/an-evolving-website/2012.jpg" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/an-evolving-website/2012.jpg"
+			src="/media/images/posts/an-evolving-website/2012.jpg"
 			alt="2012 Design"
 		/>
 	</a>
@@ -348,10 +348,10 @@
 
 <figure class="media ">
 
-	<a href="/rowanmanning.com/media/images/posts/an-evolving-website/2013.jpg" class="media__link">
+	<a href="/media/images/posts/an-evolving-website/2013.jpg" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/an-evolving-website/2013.jpg"
+			src="/media/images/posts/an-evolving-website/2013.jpg"
 			alt="2013 Design"
 		/>
 	</a>
@@ -366,10 +366,10 @@
 
 <figure class="media ">
 
-	<a href="/rowanmanning.com/media/images/posts/an-evolving-website/2014.jpg" class="media__link">
+	<a href="/media/images/posts/an-evolving-website/2014.jpg" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/an-evolving-website/2014.jpg"
+			src="/media/images/posts/an-evolving-website/2014.jpg"
 			alt="2014 Design"
 		/>
 	</a>
@@ -383,10 +383,10 @@
 
 <figure class="media ">
 
-	<a href="/rowanmanning.com/media/images/posts/an-evolving-website/2015.jpg" class="media__link">
+	<a href="/media/images/posts/an-evolving-website/2015.jpg" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/an-evolving-website/2015.jpg"
+			src="/media/images/posts/an-evolving-website/2015.jpg"
 			alt="2015 Design"
 		/>
 	</a>
@@ -401,10 +401,10 @@
 
 <figure class="media ">
 
-	<a href="/rowanmanning.com/media/images/posts/an-evolving-website/2016.jpg" class="media__link">
+	<a href="/media/images/posts/an-evolving-website/2016.jpg" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/an-evolving-website/2016.jpg"
+			src="/media/images/posts/an-evolving-website/2016.jpg"
 			alt="2016 Design"
 		/>
 	</a>
@@ -414,7 +414,7 @@
 </figure>
 
 <p>Thanks for reading ☺️</p>
-]]></content><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/design" term="design" label="Design"/></entry><entry><title type="html">Complex Routing Logic with Thundermole</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/complex-routing-logic-with-thundermole/" rel="alternate" type="text/html"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/building-cssdb/" rel="related" type="text/html" title="Building CSSDB"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/node.js-cluster-and-express/" rel="related" type="text/html" title="Node.js Cluster and Express"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/javascript-for-beginners-async/" rel="related" type="text/html" title="JavaScript for Beginners: Async"/><id>https://rowanmanning.github.io/rowanmanning.com/posts/complex-routing-logic-with-thundermole/</id><published>2015-07-13T10:45:00+00:00</published><updated>2015-07-13T10:45:00+00:00</updated><content type="html"><![CDATA[<blockquote>An insight into how we run our Nature journals beta program using Thundermole.</blockquote><p>Over the last year, we have begun the process of migrating many <a href="http://www.nature.com/siteindex/index.html">Nature journals</a> to our new platform. Because journals on the new platform also come with a significant redesign, we were required to run an opt-in beta program to trial the new design and gather feedback.</p>
+]]></content><category scheme="https://rowanmanning.com/tags/design" term="design" label="Design"/></entry><entry><title type="html">Complex Routing Logic with Thundermole</title><link href="https://rowanmanning.com/posts/complex-routing-logic-with-thundermole/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/building-cssdb/" rel="related" type="text/html" title="Building CSSDB"/><link href="https://rowanmanning.com/posts/node.js-cluster-and-express/" rel="related" type="text/html" title="Node.js Cluster and Express"/><link href="https://rowanmanning.com/posts/javascript-for-beginners-async/" rel="related" type="text/html" title="JavaScript for Beginners: Async"/><id>https://rowanmanning.com/posts/complex-routing-logic-with-thundermole/</id><published>2015-07-13T10:45:00+00:00</published><updated>2015-07-13T10:45:00+00:00</updated><content type="html"><![CDATA[<blockquote>An insight into how we run our Nature journals beta program using Thundermole.</blockquote><p>Over the last year, we have begun the process of migrating many <a href="http://www.nature.com/siteindex/index.html">Nature journals</a> to our new platform. Because journals on the new platform also come with a significant redesign, we were required to run an opt-in beta program to trial the new design and gather feedback.</p>
 <p>The beta program had many requirements:</p>
 <ul>
 <li>Opted out users should see the old version of the site on the legacy platform</li>
@@ -441,7 +441,7 @@
 <p><a href="https://github.com/springernature/thundermole">https://github.com/springernature/thundermole</a></p>
 <p>For when you want to write your own API, we&rsquo;ve outlined a <a href="https://github.com/springernature/thundermole/blob/master/docs/API-Specification.md">Thundermole API Specification</a>.</p>
 <p>As with all of our open-source projects, we love contributions and feedback. It&rsquo;d also be pretty cool to say you wrote code that sits in front of Nature journals 😉</p>
-]]></content><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/node.js" term="node.js" label="Node.js"/><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/javascript" term="javascript" label="JavaScript"/></entry><entry><title type="html">Accessibility Testing with pa11y</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/accessibility-testing-with-pa11y/" rel="alternate" type="text/html"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/accessibility-beyond-the-screen-reader/" rel="related" type="text/html" title="Accessibility: Beyond the Screen-Reader"/><id>https://rowanmanning.github.io/rowanmanning.com/posts/accessibility-testing-with-pa11y/</id><published>2014-03-11T09:10:00+00:00</published><updated>2014-03-11T09:10:00+00:00</updated><content type="html"><![CDATA[<blockquote>An overview of using the pa11y accessibility testing tool to find issues with your web pages.</blockquote><p><a href="https://github.com/springernature/pa11y">pa11y</a> is a command-line tool used to find accessibility issues in web pages. Nature built and released pa11y to address a short-fall in automatable accessibility testing; it uses <a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML CodeSniffer</a> in <a href="http://phantomjs.org/">PhantomJS</a> to raise common issues and reports them in both human and machine readable formats. This post assumes that you&rsquo;ve installed pa11y (<a href="https://github.com/springernature/pa11y#requirements">requirements and instructions</a>).</p>
+]]></content><category scheme="https://rowanmanning.com/tags/node.js" term="node.js" label="Node.js"/><category scheme="https://rowanmanning.com/tags/javascript" term="javascript" label="JavaScript"/></entry><entry><title type="html">Accessibility Testing with pa11y</title><link href="https://rowanmanning.com/posts/accessibility-testing-with-pa11y/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/" rel="related" type="text/html" title="Accessibility: Beyond the Screen-Reader"/><id>https://rowanmanning.com/posts/accessibility-testing-with-pa11y/</id><published>2014-03-11T09:10:00+00:00</published><updated>2014-03-11T09:10:00+00:00</updated><content type="html"><![CDATA[<blockquote>An overview of using the pa11y accessibility testing tool to find issues with your web pages.</blockquote><p><a href="https://github.com/springernature/pa11y">pa11y</a> is a command-line tool used to find accessibility issues in web pages. Nature built and released pa11y to address a short-fall in automatable accessibility testing; it uses <a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML CodeSniffer</a> in <a href="http://phantomjs.org/">PhantomJS</a> to raise common issues and reports them in both human and machine readable formats. This post assumes that you&rsquo;ve installed pa11y (<a href="https://github.com/springernature/pa11y#requirements">requirements and instructions</a>).</p>
 <p>pa11y is most useful when it&rsquo;s used almost like a linter – the numbers of errors, warnings, and notices are probably some of the most useful statistics, especially when plotted on a graph over time.</p>
 <p>Due to the fact that pa11y is a command-line tool, we can report the errors found but we can&rsquo;t, for example, highlight elements in the DOM to illustrate these errors. However it does report a snippet of HTML for context as well as a CSS selector which you can use in-browser to find the relevant element.</p>
 <p>It&rsquo;s also important to note that <em>pa11y is not a replacement for regular accessibility testing</em>. It&rsquo;s not a magic bullet, and won&rsquo;t catch everything that you could – it&rsquo;s complementary to your existing workflow (which should include testing with actual users).</p>
@@ -454,7 +454,7 @@
 	
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/accessibility-testing-with-pa11y/cli-report.png"
+			src="/media/images/posts/accessibility-testing-with-pa11y/cli-report.png"
 			alt="pa11y command-line output"
 		/>
 	
@@ -490,7 +490,7 @@
 	
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/accessibility-testing-with-pa11y/html-report.png"
+			src="/media/images/posts/accessibility-testing-with-pa11y/html-report.png"
 			alt="pa11y HTML output"
 		/>
 	
@@ -505,7 +505,7 @@
 <p>We want pa11y to be useful for as many people as possible. If you think we&rsquo;re missing a killer feature that is stopping you from using pa11y, then we&rsquo;re more than happy to listen!</p>
 <p><a href="https://github.com/springernature/pa11y/issues">Raise an issue</a> on GitHub or, even better, raise an issue with a pull-request.</p>
 <p>Also, if you&rsquo;re doing anything interesting with pa11y, we&rsquo;d love to hear about it.</p>
-]]></content><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/accessibility" term="accessibility" label="Accessibility"/></entry><entry><title type="html">JavaScript for Beginners: Async</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/javascript-for-beginners-async/" rel="alternate" type="text/html"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/building-cssdb/" rel="related" type="text/html" title="Building CSSDB"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/node.js-cluster-and-express/" rel="related" type="text/html" title="Node.js Cluster and Express"/><id>https://rowanmanning.github.io/rowanmanning.com/posts/javascript-for-beginners-async/</id><published>2013-06-27T20:15:00+00:00</published><updated>2013-06-27T20:15:00+00:00</updated><content type="html"><![CDATA[<blockquote>An introduction to asynchronous JavaScript, part of a series on JavaScript for Beginners.</blockquote><p>This is the first in a series of posts which will explain some of the concepts and terminology which are thrown about in JavaScript land, with a focus on beginners. In this post we&rsquo;ll be looking at the term &ldquo;Async&rdquo;; what it means and why it matters to you as a JavaScript developer.</p>
+]]></content><category scheme="https://rowanmanning.com/tags/accessibility" term="accessibility" label="Accessibility"/></entry><entry><title type="html">JavaScript for Beginners: Async</title><link href="https://rowanmanning.com/posts/javascript-for-beginners-async/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/building-cssdb/" rel="related" type="text/html" title="Building CSSDB"/><link href="https://rowanmanning.com/posts/node.js-cluster-and-express/" rel="related" type="text/html" title="Node.js Cluster and Express"/><id>https://rowanmanning.com/posts/javascript-for-beginners-async/</id><published>2013-06-27T20:15:00+00:00</published><updated>2013-06-27T20:15:00+00:00</updated><content type="html"><![CDATA[<blockquote>An introduction to asynchronous JavaScript, part of a series on JavaScript for Beginners.</blockquote><p>This is the first in a series of posts which will explain some of the concepts and terminology which are thrown about in JavaScript land, with a focus on beginners. In this post we&rsquo;ll be looking at the term &ldquo;Async&rdquo;; what it means and why it matters to you as a JavaScript developer.</p>
 <p>Recently, I was reminded of my early days in development. Being a self-taught JavaScript noob, it was easy to get left behind in technical conversations among more computer-sciency peers. One of the barriers was the terminology being used, terms like &ldquo;Async&rdquo;.</p>
 <h2 id="so-what-does-async-mean">So, What Does &ldquo;Async&rdquo; Mean?</h2>
 <p>Async is short for &ldquo;asynchronous&rdquo;. It&rsquo;s easier to understand async if you first understand what &ldquo;synchronous&rdquo;, the opposite, means.</p>
@@ -544,7 +544,7 @@
 <p>So to recap, synchronous code is executed in sequence – each statement waits for the previous statement to finish before executing. Asynchronous code doesn&rsquo;t have to wait – your program can continue to run. You do this to keep your site or app responsive, reducing waiting time for the user.</p>
 <p>Thanks for reading. Let me know if there&rsquo;s a topic you&rsquo;d like to be covered in this series!</p>
 <p>Rowan</p>
-]]></content><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/javascript" term="javascript" label="JavaScript"/><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/tutorial" term="tutorial" label="Tutorial"/></entry><entry><title type="html">Building CSSDB</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/building-cssdb/" rel="alternate" type="text/html"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/node.js-cluster-and-express/" rel="related" type="text/html" title="Node.js Cluster and Express"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/why-i-built-another-css-grid/" rel="related" type="text/html" title="Why I Built Another CSS Grid"/><id>https://rowanmanning.github.io/rowanmanning.com/posts/building-cssdb/</id><published>2013-03-30T00:38:00+00:00</published><updated>2013-04-04T20:59:00+00:00</updated><content type="html"><![CDATA[<blockquote>How I tackled the build of CSSDB over a weekend. Outlining my technological decisions, and how the site kept nice and snappy under heavy load.</blockquote><p>Last weekend I built <a href="http://cssdb.co/">CSSDB</a>, a curated collection of great CSS, Sass, LESS and Stylus libraries. It was primarily an excercise in learning, but it was also a site which I could have made excellent use of (especially in the early stages of my development career).</p>
+]]></content><category scheme="https://rowanmanning.com/tags/javascript" term="javascript" label="JavaScript"/><category scheme="https://rowanmanning.com/tags/tutorial" term="tutorial" label="Tutorial"/></entry><entry><title type="html">Building CSSDB</title><link href="https://rowanmanning.com/posts/building-cssdb/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/node.js-cluster-and-express/" rel="related" type="text/html" title="Node.js Cluster and Express"/><link href="https://rowanmanning.com/posts/why-i-built-another-css-grid/" rel="related" type="text/html" title="Why I Built Another CSS Grid"/><id>https://rowanmanning.com/posts/building-cssdb/</id><published>2013-03-30T00:38:00+00:00</published><updated>2013-04-04T20:59:00+00:00</updated><content type="html"><![CDATA[<blockquote>How I tackled the build of CSSDB over a weekend. Outlining my technological decisions, and how the site kept nice and snappy under heavy load.</blockquote><p>Last weekend I built <a href="http://cssdb.co/">CSSDB</a>, a curated collection of great CSS, Sass, LESS and Stylus libraries. It was primarily an excercise in learning, but it was also a site which I could have made excellent use of (especially in the early stages of my development career).</p>
 <p>I launched on Monday to little fanfare, but on Tuesday the site suddenly seemed to explode in popularity. This was quite unexpected, but I was excited to see my technical decisions come under some strain – it was addictive to watch my metrics and see how the site performed under load.</p>
 <p>After a couple more days, I thought it might be interesting to write up my decisions. So here we are.</p>
 <h2 id="on-paper">On Paper</h2>
@@ -586,7 +586,7 @@
 <p>Anyway, I hope you&rsquo;ve enjoyed my ramblings! Maybe you learned something, or have something to teach me? I&rsquo;d love to get some feedback on my approach to this build or the site itself.</p>
 <p>Thanks for reading,<br>
 Rowan.</p>
-]]></content><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/css" term="css" label="CSS"/><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/javascript" term="javascript" label="JavaScript"/><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/node.js" term="node.js" label="Node.js"/><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/express" term="express" label="Express"/></entry><entry><title type="html">Jekyll Site Redesign/Build</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/jekyll-site-redesign/build/" rel="alternate" type="text/html"/><id>https://rowanmanning.github.io/rowanmanning.com/posts/jekyll-site-redesign/build/</id><published>2013-02-11T00:16:00+00:00</published><updated>2013-02-11T00:16:00+00:00</updated><content type="html"><![CDATA[<blockquote>I rebuilt my site with Jekyll, along with a small design refresh; it went so smoothly I thought I&rsquo;d blog about it. Definitely something to consider if you&rsquo;re building a small site.</blockquote><p>It&rsquo;s been about 9 months since my last site design/refresh, and the code was starting to show it&rsquo;s age (that&rsquo;s got to be a separate post – just how quickly standards change). I recently built a couple of small sites with <a href="https://jekyllrb.com/">Jekyll</a> and decided to port by existing blog over to it.</p>
+]]></content><category scheme="https://rowanmanning.com/tags/css" term="css" label="CSS"/><category scheme="https://rowanmanning.com/tags/javascript" term="javascript" label="JavaScript"/><category scheme="https://rowanmanning.com/tags/node.js" term="node.js" label="Node.js"/><category scheme="https://rowanmanning.com/tags/express" term="express" label="Express"/></entry><entry><title type="html">Jekyll Site Redesign/Build</title><link href="https://rowanmanning.com/posts/jekyll-site-redesign/build/" rel="alternate" type="text/html"/><id>https://rowanmanning.com/posts/jekyll-site-redesign/build/</id><published>2013-02-11T00:16:00+00:00</published><updated>2013-02-11T00:16:00+00:00</updated><content type="html"><![CDATA[<blockquote>I rebuilt my site with Jekyll, along with a small design refresh; it went so smoothly I thought I&rsquo;d blog about it. Definitely something to consider if you&rsquo;re building a small site.</blockquote><p>It&rsquo;s been about 9 months since my last site design/refresh, and the code was starting to show it&rsquo;s age (that&rsquo;s got to be a separate post – just how quickly standards change). I recently built a couple of small sites with <a href="https://jekyllrb.com/">Jekyll</a> and decided to port by existing blog over to it.</p>
 <p>Jekyll is a beautifully simple static site generator. The ease-of-use with this tool is crazy, I had so much fun with the rewrite just because Jekyll works in exactly the way you&rsquo;d expect it to.</p>
 <h2 id="my-previous-site">My Previous Site</h2>
 <p>My site was originally built using <a href="http://docpad.org/">DocPad</a>, another static site generator, but where Jekyll comes out on top for me is it&rsquo;s simplicity. For some people, I&rsquo;m sure the massive flexibility of DocPad would be a must-have – you can change nearly everything about it – however I&rsquo;d started to find this more of a hindrance than anything. The complexity of my site was starting to get in the way of me actually publishing anything.</p>
@@ -611,7 +611,7 @@ Rowan</p>
 <li><a href="https://jekyllrb.com/">Jekyll documentation</a></li>
 <li><a href="https://github.com/rowanmanning/rowanmanning.github.io">This site on GitHub</a></li>
 </ul>
-]]></content><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/design" term="design" label="Design"/><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/jekyll" term="jekyll" label="Jekyll"/></entry><entry><title type="html">Node.js Cluster and Express</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/node.js-cluster-and-express/" rel="alternate" type="text/html"/><id>https://rowanmanning.github.io/rowanmanning.com/posts/node.js-cluster-and-express/</id><published>2013-01-10T20:18:00+00:00</published><updated>2013-09-21T13:54:00+00:00</updated><content type="html"><![CDATA[<blockquote>A simple tutorial on using Node.js 0.8+&rsquo;s Cluster module with Express to dramatically improve app performance.</blockquote><p>Over the last couple of evenings, I&rsquo;ve been playing with the <a href="http://nodejs.org/api/cluster.html">Node.js Cluster module</a> and using it to dramatically improve the amount of load Express apps can handle. The results have been amazing.</p>
+]]></content><category scheme="https://rowanmanning.com/tags/design" term="design" label="Design"/><category scheme="https://rowanmanning.com/tags/jekyll" term="jekyll" label="Jekyll"/></entry><entry><title type="html">Node.js Cluster and Express</title><link href="https://rowanmanning.com/posts/node.js-cluster-and-express/" rel="alternate" type="text/html"/><id>https://rowanmanning.com/posts/node.js-cluster-and-express/</id><published>2013-01-10T20:18:00+00:00</published><updated>2013-09-21T13:54:00+00:00</updated><content type="html"><![CDATA[<blockquote>A simple tutorial on using Node.js 0.8+&rsquo;s Cluster module with Express to dramatically improve app performance.</blockquote><p>Over the last couple of evenings, I&rsquo;ve been playing with the <a href="http://nodejs.org/api/cluster.html">Node.js Cluster module</a> and using it to dramatically improve the amount of load Express apps can handle. The results have been amazing.</p>
 <p>The Cluster module is fairly easy to pick up if you&rsquo;re used to working with Node.js, but I thought I&rsquo;d blog about my experience – hopefully it will help you either understand or see the benefit of clustering!</p>
 <h2 id="what-does-cluster-do">What Does Cluster Do?</h2>
 <p>Node.js runs in a single thread. While it&rsquo;s still very fast in most cases, this really doesn&rsquo;t take advantage of multiple processors if they&rsquo;re available. The Cluster module allows you to create a small network of separate processes which can share server ports; this gives your Node.js app access to the full power of your server.</p>
@@ -769,14 +769,14 @@ Rowan</p>
 <li><a href="http://nodejs.org/api/cluster.html">Node.js Cluster module documentation</a></li>
 <li><a href="http://expressjs.com/">Express documentation</a></li>
 </ul>
-]]></content><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/node.js" term="node.js" label="Node.js"/><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/javascript" term="javascript" label="JavaScript"/><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/express" term="express" label="Express"/><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/cluster" term="cluster" label="Cluster"/></entry><entry><title type="html">The Mixed Blessing of Ambition</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/the-mixed-blessing-of-ambition/" rel="alternate" type="text/html"/><id>https://rowanmanning.github.io/rowanmanning.com/posts/the-mixed-blessing-of-ambition/</id><published>2012-12-04T20:13:00+00:00</published><updated>2012-12-04T20:13:00+00:00</updated><content type="html"><![CDATA[<blockquote>I love being ambitious when it comes to development, but this quality can be a double-edged sword. Ease yourself into the bigger projects.</blockquote><p>I was talking to a friend recently about getting back into game development; he was very enthusiastic about learning to develop JavaScript games and we were discussing where to start. I had one of those moments when you impart some advice to somebody, and afterwards realise that it&rsquo;s great advice you&rsquo;ve been ignoring yourself. The advice in this case was: &ldquo;Don&rsquo;t be too ambitious here – you may end up killing your enthusiasm&rdquo;.</p>
+]]></content><category scheme="https://rowanmanning.com/tags/node.js" term="node.js" label="Node.js"/><category scheme="https://rowanmanning.com/tags/javascript" term="javascript" label="JavaScript"/><category scheme="https://rowanmanning.com/tags/express" term="express" label="Express"/><category scheme="https://rowanmanning.com/tags/cluster" term="cluster" label="Cluster"/></entry><entry><title type="html">The Mixed Blessing of Ambition</title><link href="https://rowanmanning.com/posts/the-mixed-blessing-of-ambition/" rel="alternate" type="text/html"/><id>https://rowanmanning.com/posts/the-mixed-blessing-of-ambition/</id><published>2012-12-04T20:13:00+00:00</published><updated>2012-12-04T20:13:00+00:00</updated><content type="html"><![CDATA[<blockquote>I love being ambitious when it comes to development, but this quality can be a double-edged sword. Ease yourself into the bigger projects.</blockquote><p>I was talking to a friend recently about getting back into game development; he was very enthusiastic about learning to develop JavaScript games and we were discussing where to start. I had one of those moments when you impart some advice to somebody, and afterwards realise that it&rsquo;s great advice you&rsquo;ve been ignoring yourself. The advice in this case was: &ldquo;Don&rsquo;t be too ambitious here – you may end up killing your enthusiasm&rdquo;.</p>
 <p>Now I realise this could be read as quite a negative statement; I&rsquo;m in no way trying to squash ambition entirely – it can be an extremely powerful driving force. Where ambition <em>can</em> have a negative effect is when you&rsquo;re being over ambitious in an area you&rsquo;re unfamiliar with.</p>
 <p>Let&rsquo;s take game development as an example. If you set yourself some <!-- raw HTML omitted -->ridiculous<!-- raw HTML omitted --> stretch goals early on (let&rsquo;s say a 3D web-based <!-- raw HTML omitted -->MMO<!-- raw HTML omitted --> game) then unless you&rsquo;re the kind of person who never gives up, your enthusiasm is likely to wane the more small hurdles you have to jump along the way. This kind of project is excellent once you&rsquo;ve tried (and maybe failed) a few times on smaller things.</p>
 <h2 id="a-bit-of-introspection">A Bit Of Introspection</h2>
 <p>After the aforementioned conversation, I took a look through the &lsquo;Web Projects&rsquo; folder on my computer. The ratio of released/dead projects in here swings massively in favour of the latter. There&rsquo;s a clear pattern too – they are nearly all very big projects which I have made a start on before I&rsquo;ve tackled some of the smaller issues which ended up getting in the way early on. Despite my seemingly limitless enthusiasm for these projects in the early days, it slowly got eaten away until it was no longer a fun way to spend my spare time.</p>
 <p>The &lsquo;successful&rsquo; projects have a pattern too: they&rsquo;re all small, realistic, and fun. They&rsquo;ve all been great learning projects and have paved the way for bigger and better things now that I&rsquo;ve expanded my knowledge.</p>
 <p>My personal take-away here is to remain ambitious, but also keep that side of myself in check. Recognise the pattern, and save some of the bigger projects for later!</p>
-]]></content></entry><entry><title type="html">How to Sell Technology</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/how-to-sell-technology/" rel="alternate" type="text/html"/><id>https://rowanmanning.github.io/rowanmanning.com/posts/how-to-sell-technology/</id><published>2012-11-10T16:15:00+00:00</published><updated>2012-11-10T16:15:00+00:00</updated><content type="html"><![CDATA[<blockquote>The dressing up of technology in advertising doesn&rsquo;t work for me. I like to know how the product looks, feels and works in as short a time as possible. The same applies to web design.</blockquote><p>I&rsquo;m going to talk about something which irritates me; you&rsquo;ll have to forgive me if I descend into a rant at first, but trust me – there&rsquo;s a point to this!</p>
+]]></content></entry><entry><title type="html">How to Sell Technology</title><link href="https://rowanmanning.com/posts/how-to-sell-technology/" rel="alternate" type="text/html"/><id>https://rowanmanning.com/posts/how-to-sell-technology/</id><published>2012-11-10T16:15:00+00:00</published><updated>2012-11-10T16:15:00+00:00</updated><content type="html"><![CDATA[<blockquote>The dressing up of technology in advertising doesn&rsquo;t work for me. I like to know how the product looks, feels and works in as short a time as possible. The same applies to web design.</blockquote><p>I&rsquo;m going to talk about something which irritates me; you&rsquo;ll have to forgive me if I descend into a rant at first, but trust me – there&rsquo;s a point to this!</p>
 <p>The dressing up of technology in advertising doesn&rsquo;t work for me. I like to know how the product looks, feels and works in as short a time as possible. The same principals apply to web design.</p>
 <h2 id="sell-it-to-me">Sell It To Me</h2>
 <p>Think about what makes you buy a product. For me, I&rsquo;m attracted to a product if I believe it can make my life easier or more enjoyable in some way (and also if I think it will make me cooler… lol jk). For somebody looking for those qualities, it&rsquo;s important to see the key features of the product very quickly. A common theme I&rsquo;m seeing in tech advertising is a little worrying, there&rsquo;s  no attempt to build a connection between potential customers and the product in question; what I&rsquo;m seeing is an attempt to appeal to people&rsquo;s impulse and sense of &ldquo;cool&rdquo;.</p>
@@ -825,7 +825,7 @@ Rowan</p>
 <h2 id="to-conclude">To Conclude</h2>
 <p>So, I probably took quite a long time to get to quite a simple point, but I thought it would be nice to illustrate the importance of user-focused design with a more &lsquo;real-world&rsquo; example (and vent a little of my personal frustration).</p>
 <p>Next time you&rsquo;re working on a design (or anything else targeted at customers for that matter), remember to think about the information they need before you think about ways to make your product look &lsquo;hip&rsquo; and &lsquo;cool&rsquo;. They will thank you for it, and I won&rsquo;t rant about it ☺️</p>
-]]></content><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/rant" term="rant" label="Rant"/><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/advertising" term="advertising" label="Advertising"/></entry><entry><title type="html">Why I Built Another CSS Grid</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/why-i-built-another-css-grid/" rel="alternate" type="text/html"/><id>https://rowanmanning.github.io/rowanmanning.com/posts/why-i-built-another-css-grid/</id><published>2012-07-24T21:34:00+00:00</published><updated>2012-07-24T21:34:00+00:00</updated><content type="html"><![CDATA[<blockquote>Building yet another grid system could be seen as bloating an already-bloated landscape; but sometimes, rolling your own tools is one of the best things you can do.</blockquote><p>A couple of months ago, I decided to set about building a CSS grid system. I realise that I&rsquo;ve entered a wildly bloated landscape here (you can&rsquo;t move on the web for fancy new grid systems) but I had my reasons. I&rsquo;d like to talk about why I built a grid system, and why (maybe) you should too.</p>
+]]></content><category scheme="https://rowanmanning.com/tags/rant" term="rant" label="Rant"/><category scheme="https://rowanmanning.com/tags/advertising" term="advertising" label="Advertising"/></entry><entry><title type="html">Why I Built Another CSS Grid</title><link href="https://rowanmanning.com/posts/why-i-built-another-css-grid/" rel="alternate" type="text/html"/><id>https://rowanmanning.com/posts/why-i-built-another-css-grid/</id><published>2012-07-24T21:34:00+00:00</published><updated>2012-07-24T21:34:00+00:00</updated><content type="html"><![CDATA[<blockquote>Building yet another grid system could be seen as bloating an already-bloated landscape; but sometimes, rolling your own tools is one of the best things you can do.</blockquote><p>A couple of months ago, I decided to set about building a CSS grid system. I realise that I&rsquo;ve entered a wildly bloated landscape here (you can&rsquo;t move on the web for fancy new grid systems) but I had my reasons. I&rsquo;d like to talk about why I built a grid system, and why (maybe) you should too.</p>
 <h2 id="my-problem">My Problem</h2>
 <p>When my website went through its last rebuild, I realised that there was no way I could get by without some kind of grid. I wrote down a couple of requirements that I had:</p>
 <ul>
@@ -843,7 +843,7 @@ Rowan</p>
 	<a href="http://fragcss.com/" class="media__link">
 		<img
 			class="media__image"
-			src="/rowanmanning.com/media/images/posts/frag-website-screengrab.jpg"
+			src="/media/images/posts/frag-website-screengrab.jpg"
 			alt="A screen-grab of the Frag website"
 		/>
 	</a>
@@ -866,7 +866,7 @@ Rowan</p>
 </dl>
 <p>If you do end up building something great as a result of this post, I&rsquo;d be really interested to take a look: tweet it at me!</p>
 <p>And if you don&rsquo;t fancy building your own grid system, you could always <a href="http://fragcss.com/">use Frag</a> 😉</p>
-]]></content><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/css" term="css" label="CSS"/><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/grid" term="grid" label="Grid"/><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/responsive" term="responsive" label="Responsive"/></entry><entry><title type="html">Accessibility: Beyond the Screen-Reader</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/accessibility-beyond-the-screen-reader/" rel="alternate" type="text/html"/><id>https://rowanmanning.github.io/rowanmanning.com/posts/accessibility-beyond-the-screen-reader/</id><published>2012-06-19T21:05:00+00:00</published><updated>2012-06-20T10:30:00+00:00</updated><content type="html"><![CDATA[<blockquote>Web accessibility isn&rsquo;t just about catering for blind users. In this post, we talk about the other users we need to consider in order to make the web accessible to all. cta: Read about accessibility</blockquote><p>I&rsquo;d like to begin this post with a disclaimer: I&rsquo;m not an accessibility expert. In fact, web accessibility scares me; it&rsquo;s that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!</p>
+]]></content><category scheme="https://rowanmanning.com/tags/css" term="css" label="CSS"/><category scheme="https://rowanmanning.com/tags/grid" term="grid" label="Grid"/><category scheme="https://rowanmanning.com/tags/responsive" term="responsive" label="Responsive"/></entry><entry><title type="html">Accessibility: Beyond the Screen-Reader</title><link href="https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/" rel="alternate" type="text/html"/><id>https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/</id><published>2012-06-19T21:05:00+00:00</published><updated>2012-06-20T10:30:00+00:00</updated><content type="html"><![CDATA[<blockquote>Web accessibility isn&rsquo;t just about catering for blind users. In this post, we talk about the other users we need to consider in order to make the web accessible to all. cta: Read about accessibility</blockquote><p>I&rsquo;d like to begin this post with a disclaimer: I&rsquo;m not an accessibility expert. In fact, web accessibility scares me; it&rsquo;s that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!</p>
 <p>The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. I&rsquo;ve found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has inspired me to explain <em>my</em> understanding of web accessibility. Who exactly are we trying to cater for? We&rsquo;ll start with the obvious:</p>
 <h2 id="blind-or-partially-sighted-users">Blind Or Partially Sighted Users</h2>
 <p>This is the user that we tend to jump to when accessibility is mentioned. These users may rely completely on assistive technology, such as a screen-reader, to access the web. Partially sighted or vision-impaired users may not rely on a screen-reader, but will find it difficult to read content if the type is too small or cannot be zoomed.</p>
@@ -902,4 +902,4 @@ Rowan</p>
 <li><a href="http://www.bbc.co.uk/accessibility/guides/">The BBC&rsquo;s web accessibility guides</a></li>
 <li><a href="http://filamentgroup.com/dwpe/">Designing with Progressive Enhancement</a>, a book by Filament Group</li>
 </ul>
-]]></content><category scheme="https://rowanmanning.github.io/rowanmanning.com/tags/accessibility" term="accessibility" label="Accessibility"/></entry></feed>
+]]></content><category scheme="https://rowanmanning.com/tags/accessibility" term="accessibility" label="Accessibility"/></entry></feed>
