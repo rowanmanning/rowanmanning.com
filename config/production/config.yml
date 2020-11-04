@@ -4,3 +4,8 @@
 # Set the base URL
 # baseURL: https://rowanmanning.com/
 baseURL: https://rowanmanning.github.io/rowanmanning.com/
+
+# Set up site analytics
+params:
+  analytics:
+    fathomSiteId: "LZDRDPSO"

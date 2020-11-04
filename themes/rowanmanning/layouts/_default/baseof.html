@@ -50,7 +50,8 @@
 
 	{{ "<!--<![endif]-->" | safeHTML }}
 
-	{{- partial "site/icons.html" -}}
+	{{ partial "site/icons.html" . -}}
+	{{ partial "site/analytics.html" . -}}
 
 </head>
 <body class="page">
