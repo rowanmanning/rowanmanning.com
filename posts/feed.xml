@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan's Blog | Rowan Manning</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-11-04T21:49:11+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.github.io/rowanmanning.com/posts/</id><entry><title type="html">A New Home For Pa11y</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/a-new-home-for-pa11y/" rel="alternate" type="text/html"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/accessibility-testing-with-pa11y/" rel="related" type="text/html" title="Accessibility Testing with pa11y"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/accessibility-beyond-the-screen-reader/" rel="related" type="text/html" title="Accessibility: Beyond the Screen-Reader"/><id>https://rowanmanning.github.io/rowanmanning.com/posts/a-new-home-for-pa11y/</id><published>2016-05-23T18:30:00+00:00</published><updated>2016-05-23T18:30:00+00:00</updated><content type="html"><![CDATA[<blockquote>Pa11y has moved to a new organisation on GitHub. It&rsquo;s a time of change for the project, and the team is extremely excited about the future.</blockquote><p>I&rsquo;m out of breath because I practically ran home to write this post. I&rsquo;m excited because, as of today, <a href="https://github.com/pa11y/pa11y">Pa11y</a> and all of the projects around it have moved to a <a href="https://github.com/pa11y">new GitHub organisation</a>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan's Blog | Rowan Manning</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-11-04T23:30:04+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.github.io/rowanmanning.com/posts/</id><entry><title type="html">A New Home For Pa11y</title><link href="https://rowanmanning.github.io/rowanmanning.com/posts/a-new-home-for-pa11y/" rel="alternate" type="text/html"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/accessibility-testing-with-pa11y/" rel="related" type="text/html" title="Accessibility Testing with pa11y"/><link href="https://rowanmanning.github.io/rowanmanning.com/posts/accessibility-beyond-the-screen-reader/" rel="related" type="text/html" title="Accessibility: Beyond the Screen-Reader"/><id>https://rowanmanning.github.io/rowanmanning.com/posts/a-new-home-for-pa11y/</id><published>2016-05-23T18:30:00+00:00</published><updated>2016-05-23T18:30:00+00:00</updated><content type="html"><![CDATA[<blockquote>Pa11y has moved to a new organisation on GitHub. It&rsquo;s a time of change for the project, and the team is extremely excited about the future.</blockquote><p>I&rsquo;m out of breath because I practically ran home to write this post. I&rsquo;m excited because, as of today, <a href="https://github.com/pa11y/pa11y">Pa11y</a> and all of the projects around it have moved to a <a href="https://github.com/pa11y">new GitHub organisation</a>.</p>
 <p>This is an important step for us, we&rsquo;re moving towards being a self-governing team and away from any one company. We believe this will help us better achieve our goal – to help make the web more accessible for everyone.</p>
 <p>We&rsquo;re extremely grateful to both Nature Publishing Group and, later, Springer Nature for guiding Pa11y through the early years. We&rsquo;d also like to thank Springer Nature for transferring the repositories over to the new organisation.</p>
 <h2 id="what-does-this-mean">What Does This Mean?</h2>
@@ -290,7 +290,7 @@
 
 <figure class="media ">
 
-	<a href="/media/images/posts/an-evolving-website/2010.jpg" class="media__link">
+	<a href="/rowanmanning.com/media/images/posts/an-evolving-website/2010.jpg" class="media__link">
 		<img
 			class="media__image"
 			src="/rowanmanning.com/media/images/posts/an-evolving-website/2010.jpg"
@@ -312,7 +312,7 @@
 
 <figure class="media ">
 
-	<a href="/media/images/posts/an-evolving-website/2011.jpg" class="media__link">
+	<a href="/rowanmanning.com/media/images/posts/an-evolving-website/2011.jpg" class="media__link">
 		<img
 			class="media__image"
 			src="/rowanmanning.com/media/images/posts/an-evolving-website/2011.jpg"
@@ -330,7 +330,7 @@
 
 <figure class="media ">
 
-	<a href="/media/images/posts/an-evolving-website/2012.jpg" class="media__link">
+	<a href="/rowanmanning.com/media/images/posts/an-evolving-website/2012.jpg" class="media__link">
 		<img
 			class="media__image"
 			src="/rowanmanning.com/media/images/posts/an-evolving-website/2012.jpg"
@@ -348,7 +348,7 @@
 
 <figure class="media ">
 
-	<a href="/media/images/posts/an-evolving-website/2013.jpg" class="media__link">
+	<a href="/rowanmanning.com/media/images/posts/an-evolving-website/2013.jpg" class="media__link">
 		<img
 			class="media__image"
 			src="/rowanmanning.com/media/images/posts/an-evolving-website/2013.jpg"
@@ -366,7 +366,7 @@
 
 <figure class="media ">
 
-	<a href="/media/images/posts/an-evolving-website/2014.jpg" class="media__link">
+	<a href="/rowanmanning.com/media/images/posts/an-evolving-website/2014.jpg" class="media__link">
 		<img
 			class="media__image"
 			src="/rowanmanning.com/media/images/posts/an-evolving-website/2014.jpg"
@@ -383,7 +383,7 @@
 
 <figure class="media ">
 
-	<a href="/media/images/posts/an-evolving-website/2015.jpg" class="media__link">
+	<a href="/rowanmanning.com/media/images/posts/an-evolving-website/2015.jpg" class="media__link">
 		<img
 			class="media__image"
 			src="/rowanmanning.com/media/images/posts/an-evolving-website/2015.jpg"
@@ -401,7 +401,7 @@
 
 <figure class="media ">
 
-	<a href="/media/images/posts/an-evolving-website/2016.jpg" class="media__link">
+	<a href="/rowanmanning.com/media/images/posts/an-evolving-website/2016.jpg" class="media__link">
 		<img
 			class="media__image"
 			src="/rowanmanning.com/media/images/posts/an-evolving-website/2016.jpg"
