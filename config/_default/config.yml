@@ -1,0 +1,43 @@
+
+# Default config
+
+# Set default language
+languageCode: "en-gb"
+
+# Site title and author
+title: "Rowan Manning"
+author:
+  name: "Rowan Manning"
+  website: "https://rowanmanning.com/"
+  github: "rowanmanning"
+  twitter: "rowanmanning"
+
+# Configure the themes
+theme: ["hugo-atom-feed", "rowanmanning"]
+
+# We only want the tags taxonomy
+taxonomies:
+  tag: "tags"
+
+# Simplify the permalinks for blog posts
+permalinks:
+  posts: "/posts/:title/"
+
+# Enable emoji rendering
+enableEmoji: true
+
+# Use classes for syntax highlighting
+markup:
+  highlight:
+    noClasses: false
+
+# Restrict the output of RSS feeds, and add ATOM feeds for sections
+outputs:
+  home: ["HTML"]
+  page: ["HTML"]
+  section: ["HTML", "ATOM"]
+  taxonomy: ["HTML"]
+  term: ["HTML"]
+
+# Publish to the "build" directory
+publishDir: "build"

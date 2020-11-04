@@ -1,0 +1,75 @@
+
+{{ define "title" }}
+	{{ .Site.Title }}
+{{ end }}
+
+{{ define "hero" }}
+	<header class="hero">
+		<div class="hero__inner">
+			<h1 class="hero__title">{{ .Site.Title }}</h1>
+			{{ if .Content }}
+				<div class="hero__body content-body">{{ .Content }}</div>
+			{{ end }}
+		</div>
+	</header>
+{{ end }}
+
+{{ define "main" }}
+
+	{{/* Default tile set */}}
+	{{ $tiles := .Params.tiles }}
+	{{- if not $tiles -}}
+		{{- $postsTile := (dict "type" "list" "section" "posts") -}}
+		{{- $pagesTile := (dict "type" "summary" "page" "about") -}}
+		{{- $tiles = (slice $postsTile $pagesTile) -}}
+	{{- end -}}
+
+	{{/* Content tiles */}}
+	{{ if $tiles }}
+		<div class="tile-layout">
+			{{ range $tiles }}
+				<section class="tile-layout__tile">
+
+					{{/* List content in a site section */}}
+					{{ if eq .type "list" }}
+						{{ $page := $.GetPage .section }}
+						<header class="content-head">
+							<h1 class="content-head__title">
+								<a href="{{ $page.RelPermalink }}">
+									{{ .title | default $page.Title }}
+								</a>
+							</h1>
+							{{- partial "content-head-links.html" $page -}}
+						</header>
+						{{ $limit := .limit | default 3 }}
+						{{ $pages := (where $.Site.RegularPages.ByDate.Reverse "Section" .section ) }}
+						<ol class="content-list content-list--condensed">
+							{{ range first $limit $pages }}
+								<li>{{- partial "content-summary.html" . -}}</li>
+							{{ end }}
+						</ol>
+						<div class="content-body">
+							<a href="{{ $page.RelPermalink }}">More from {{ $page.Title }}</a>
+						</div>
+
+					{{/* Output a summary for a page */}}
+					{{ else if eq .type "summary" }}
+						{{ $page := $.GetPage .page }}
+						<header class="content-head">
+							<h1 class="content-head__title">
+								<a href="{{ $page.RelPermalink }}">
+									{{ .title | default $page.Title }}
+								</a>
+							</h1>
+						</header>
+						<div class="content-body">
+							<p>{{ $page.Summary }} <a href="{{ $page.RelPermalink }}">Read more</a></p>
+						</div>
+					{{ end }}
+
+				</section>
+			{{ end }}
+		</div>
+	{{ end }}
+
+{{ end }}

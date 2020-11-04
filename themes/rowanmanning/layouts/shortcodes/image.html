@@ -1,0 +1,16 @@
+
+<figure class="media {{ if (isset .Params "pin") }}media--pin-{{.Get "pin"}}{{ end }}">
+
+	{{ if (isset .Params "link") }}<a href="{{ .Get "link" }}" class="media__link">{{ end }}
+		<img
+			class="media__image"
+			src="{{ .Get "src" | relURL }}"
+			alt="{{ .Get "caption" }}"
+		/>
+	{{ if (isset .Params "link") }}</a>{{ end }}
+
+	{{ if and (isset .Params "caption") (not (isset .Params "hide-caption")) }}
+		<figcaption class="media__caption">{{ .Get "caption" }}</figcaption>
+	{{ end }}
+
+</figure>

@@ -1,0 +1,27 @@
+
+{{ define "title" }}
+	All {{ .Data.Plural }} | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+
+	{{/* Main page content head */}}
+	<header class="content-head">
+		<h1 class="content-head__title">All {{ .Data.Plural }}</h1>
+	</header>
+
+	{{/* Main page content body */}}
+	{{ if .Content }}
+		<div class="content-body">
+			{{ .Content }}
+		</div>
+	{{ end }}
+
+	{{/* List of tags */}}
+	<ol class="inline-list">
+		{{ range .Pages.ByTitle }}
+			<li><a href="{{ .RelPermalink }}" class="tag tag--{{ replace (.Title | urlize) "." "-" }}">{{ .Title }} ({{ .Pages | len }})</a></li>
+		{{ end }}
+	</ol>
+
+{{ end }}

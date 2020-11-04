@@ -1,0 +1,51 @@
+
+<article vocab="http://schema.org/" typeof="BlogPosting" resource="{{ .Permalink }}">
+
+	<meta property="name" content="{{ .Title }}" />
+	<meta property="url" content="{{ .Permalink }}" />
+	<meta property="mainEntityOfPage" content="{{ .Permalink }}" />
+	<meta property="description" content="{{ .Description }}" />
+
+	<header class="content-head">
+
+		<h1 property="headline" class="content-head__title">{{ .Title }}</h1>
+
+		<p class="content-head__meta content-highlight content-highlight--{{ .Params.highlight }}">
+			Posted on <time datetime="{{ .Date }}" property="datePublished">{{ .Date.Format "02 January 2006" }}</time>
+			by <span property="author" vocab="http://schema.org/" typeof="Person"><span property="name">{{ .Site.Author.name }}</span></span>
+
+			{{- if gt .Lastmod .Date }}
+				(<time datetime="{{ .Params.lastmod }}" title="{{ .Params.lastmod.Format "02 January 2006" }}"  property="dateModified">updated</time>)
+			{{- end -}}
+
+			{{- if .Params.tags -}}
+				.<br/>Tagged with
+				<span property="keywords">
+					{{- range $key, $tag := .Params.tags -}}
+						{{- if ne $key 0 }}<span class="hidden">, </span>{{ end -}}
+						<a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}" class="tag tag--{{ replace ($tag | urlize) "." "-" }}">{{ $tag }}</a>
+					{{- end -}}
+				</span>
+			{{ end }}
+		</p>
+
+		{{ if (and .Params.crossPost .Params.crossPost.siteName) }}
+			<p class="content-head__source notification notification--source">
+				<span class="notification__message">
+					Originally posted on <a href="{{ .Params.crossPost.siteUrl }}">{{ .Params.crossPost.siteName }}</a>,
+					<a href="{{ .Params.crossPost.url }}">Read the original post here</a>
+				</span>
+			</p>
+		{{ end }}
+
+	</header>
+
+	{{ if .Content }}
+		<div property="articleBody" class="content-body">
+			{{ if .Draft }}{{ partial "draft-notice.html" . }}{{ end }}
+			{{ .Content }}
+			{{ if .Draft }}{{ partial "draft-notice.html" . }}{{ end }}
+		</div>
+	{{ end }}
+
+</article>

@@ -1,0 +1,23 @@
+
+{{ if .Parent }}
+	{{ $scratch := newScratch }}
+	{{ $scratch.Set "position" 1 }}
+	<nav class="breadcrumb">
+		<ol itemscope itemtype="https://schema.org/BreadcrumbList">
+			{{- template "breadcrumb" (dict "page" .Parent "scratch" $scratch) -}}
+		</ol>
+	</nav>
+{{ end }}
+
+{{ define "breadcrumb" }}
+	{{- if .page.Parent -}}
+		{{- template "breadcrumb" (dict "page" .page.Parent "scratch" .scratch) -}}
+	{{- end -}}
+	<li class="breadcrumb__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<a itemprop="item" href="{{ .page.Permalink }}">
+			<span itemprop="name">{{ .page.Title }}</span>
+		</a>
+		<meta itemprop="position" content="{{ .scratch.Get "position" }}" />
+	</li>
+	{{ .scratch.Add "position" 1 }}
+{{ end }}

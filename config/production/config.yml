@@ -1,0 +1,6 @@
+
+# Config for production environment
+
+# Set the base URL
+# baseURL: https://rowanmanning.com/
+baseURL: https://rowanmanning.github.io/new-website-test/

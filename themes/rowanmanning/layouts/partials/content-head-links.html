@@ -1,0 +1,19 @@
+
+<aside class="content-head__links">
+	<ul>
+		{{ if .OutputFormats.Get "ATOM" }}
+			{{ with .OutputFormats.Get "ATOM" }}
+				<li>
+					<a href="{{ .RelPermalink }}" rel="alternate" type="application/atom+xml" title="Atom Feed for {{ $.Params.Title }}" class="content-head__icon content-head__icon--feed">Atom Feed for {{ $.Params.Title }}</a>
+				</li>
+			{{ end }}
+		{{ end }}
+		{{ if .OutputFormats.Get "RSS" }}
+			{{ with .OutputFormats.Get "RSS" }}
+				<li>
+					<a href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="RSS Feed for {{ $.Params.Title }}" class="content-head__icon content-head__icon--feed">RSS Feed for {{ $.Params.Title }}</a>
+				<li>
+			{{ end }}
+		{{ end }}
+	</ul>
+</aside>

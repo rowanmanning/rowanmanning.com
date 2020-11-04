@@ -1,0 +1,11 @@
+
+{{ $videoId := "" }}
+{{ if .IsNamedParams }}
+	{{ $videoId = .Get "id" }}
+{{ else }}
+	{{ $videoId = .Get 0 }}
+{{ end }}
+
+<figure class="media">
+	<iframe class="media__youtube" src="http://www.youtube.com/embed/{{ $videoId }}" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+</figure>

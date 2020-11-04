@@ -1,0 +1,27 @@
+
+{{ define "title" }}
+	&ldquo;{{ .Title }}&rdquo; {{ .Data.Singular }} | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+
+	{{/* Main page content head */}}
+	<header class="content-head">
+		<h1 class="content-head__title">Content with {{ .Data.Singular }} &ldquo;{{ .Title }}&rdquo;</h1>
+	</header>
+
+	{{/* Main page content body */}}
+	{{ if .Content }}
+		<div class="content-body">
+			{{ .Content }}
+		</div>
+	{{ end }}
+
+	{{/* List of content */}}
+	<ol class="content-list">
+		{{ range .Pages }}
+			<li>{{- partial "content-summary.html" . -}}</li>
+		{{ end }}
+	</ol>
+
+{{ end }}

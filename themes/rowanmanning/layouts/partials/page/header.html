@@ -1,0 +1,41 @@
+
+<header role="banner" class="header">
+	<div class="header__inner">
+
+		<a href="{{ .Site.BaseURL }}" class="header__site-name">{{ .Site.Title }}</a>
+
+		<nav role="navigation" class="header__navigation">
+			<ul>
+
+				{{ $currentPage := . }}
+				{{ range .Site.Menus.main }}
+					{{ $isMenuCurrent := $currentPage.IsMenuCurrent "main" . }}
+					{{ $hasMenuCurrent := $currentPage.HasMenuCurrent "main" . }}
+					{{ $parentIsCurrent := false }}
+					{{ if $currentPage.Parent }}{{ $parentIsCurrent = $currentPage.Parent.IsMenuCurrent "main" . }}{{ end }}
+					<li class="header__navigation-item {{if or $isMenuCurrent $hasMenuCurrent $parentIsCurrent }}header__navigation-item--selected{{end}}">
+						<a href="{{ .URL }}">{{ .Name }}</a>
+					</li>
+				{{ end }}
+
+				{{ if (and .Site.Author .Site.Author.github) }}
+					<li class="header__navigation-item">
+						<a href="https://github.com/{{ .Site.Author.github }}" rel="me" title="GitHub" class="header__icon header__icon--github">
+							GitHub
+						</a>
+					</li>
+				{{ end }}
+
+				{{ if (and .Site.Author .Site.Author.twitter) }}
+					<li class="header__navigation-item">
+						<a href="https://twitter.com/{{ .Site.Author.twitter }}" rel="me" title="Twitter" class="header__icon header__icon--twitter">
+							Twitter
+						</a>
+					</li>
+				{{ end }}
+
+			</ul>
+		</nav>
+
+	</div>
+</header>
