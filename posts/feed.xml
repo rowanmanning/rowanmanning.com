@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan's Blog | Rowan Manning</title><link href="https://rowanmanning.github.io/new-website-test/posts/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.github.io/new-website-test/posts/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-11-04T21:42:11+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.github.io/new-website-test/posts/</id><entry><title type="html">A New Home For Pa11y</title><link href="https://rowanmanning.github.io/new-website-test/posts/a-new-home-for-pa11y/" rel="alternate" type="text/html"/><link href="https://rowanmanning.github.io/new-website-test/posts/accessibility-testing-with-pa11y/" rel="related" type="text/html" title="Accessibility Testing with pa11y"/><link href="https://rowanmanning.github.io/new-website-test/posts/accessibility-beyond-the-screen-reader/" rel="related" type="text/html" title="Accessibility: Beyond the Screen-Reader"/><id>https://rowanmanning.github.io/new-website-test/posts/a-new-home-for-pa11y/</id><published>2016-05-23T18:30:00+00:00</published><updated>2016-05-23T18:30:00+00:00</updated><content type="html"><![CDATA[<blockquote>Pa11y has moved to a new organisation on GitHub. It&rsquo;s a time of change for the project, and the team is extremely excited about the future.</blockquote><p>I&rsquo;m out of breath because I practically ran home to write this post. I&rsquo;m excited because, as of today, <a href="https://github.com/pa11y/pa11y">Pa11y</a> and all of the projects around it have moved to a <a href="https://github.com/pa11y">new GitHub organisation</a>.</p>
+<p>This is an important step for us, we&rsquo;re moving towards being a self-governing team and away from any one company. We believe this will help us better achieve our goal – to help make the web more accessible for everyone.</p>
+<p>We&rsquo;re extremely grateful to both Nature Publishing Group and, later, Springer Nature for guiding Pa11y through the early years. We&rsquo;d also like to thank Springer Nature for transferring the repositories over to the new organisation.</p>
+<h2 id="what-does-this-mean">What Does This Mean?</h2>
+<p>For users of Pa11y, you&rsquo;ll continue to be fully supported. In fact our level of support is getting better as more contributors join the project. Springer Nature will continue to sponsor the projects with developer time; the move allows other companies to do the same without their developers contributing to repos in another company’s organisation on work time.</p>
+<p>For contributors it means that we&rsquo;ll be able to start giving out write access, and you can help to govern the projects. We&rsquo;ve seen more and more contributions from people all over the world, and we&rsquo;re excited to be able to work more closely with you all!</p>
+<h2 id="the-future">The Future</h2>
+<p>This is the part of this post I&rsquo;m most enthused about! We have so many plans for the months ahead, which we can now share with you all.</p>
+<h3 id="the-team">The Team</h3>
+<p>The core team has grown and we now have more people supporting the various projects day to day. This means faster response times to issues and way better communication on all fronts.</p>
+<ul>
+<li><a href="https://twitter.com/pa11yorg">We&rsquo;re now on Twitter</a></li>
+<li>We&rsquo;re announcing releases and writing up release notes</li>
+<li>We&rsquo;re in the process of setting up a community chat for the projects</li>
+</ul>
+<p>We&rsquo;ll start to introduce core team members soon via the new website. Which brings me nicely onto the next announcement…</p>
+<h3 id="a-new-website">A New Website</h3>
+<p>We&rsquo;re working on a <a href="http://pa11y.github.io/">brand new website</a> for Pa11y which will act as a central point for all of the projects. Our current website does little for us, and we&rsquo;re aiming to make it more useful to users and contributors alike.</p>
+<ul>
+<li>We&rsquo;re finally adopting a <a href="http://pa11y.github.io/contributing/code-of-conduct/">code of conduct</a></li>
+<li>We&rsquo;ve written an extensive <a href="http://pa11y.github.io/contributing/">contributors guide</a></li>
+<li>We&rsquo;re making it easier to <a href="http://pa11y.github.io/contact/">contact us</a></li>
+</ul>
+<p>We&rsquo;d really love your feedback on the new site. It&rsquo;s not ready for prime-time yet, but it&rsquo;ll get closer with your help :)</p>
+<h3 id="pa11y-sidekick">Pa11y Sidekick</h3>
+<p>The Pa11y team is very excited to announce plans for our next project. We&rsquo;re code-naming this project &ldquo;Sidekick&rdquo;.</p>
+<p>What is <a href="https://github.com/pa11y/sidekick">Pa11y Sidekick</a> going to do? Still to be defined, but our rough proposal at this stage: &ldquo;like Travis, but for a11y testing, and with graphs&rdquo;. A spangly replacement for <a href="https://github.com/pa11y/pa11y-dashboard">pa11y-dashboard</a> and <a href="https://github.com/pa11y/pa11y-webservice">pa11y-webservice</a>.</p>
+<ul>
+<li><a href="https://github.com/pa11y/sidekick/blob/master/PROPOSAL.md">Read the proposal for Pa11y Sidekick</a></li>
+<li><a href="https://github.com/pa11y/sidekick/issues">Suggest features</a>, you will definitely have ideas that we didn&rsquo;t consider!</li>
+<li>Let us know what you think! The project will be much better with your ideas and feedback</li>
+</ul>
+<h2 id="thank-you">Thank You</h2>
+<p>Thank you for reading up on Pa11y, thank you for using it, and thank you for contributing. Together we&rsquo;re going to improve the accessibility of the web for everyone!</p>
+<p>Rowan, and the Pa11y team ❤️</p>
+]]></content><category scheme="https://rowanmanning.github.io/new-website-test/tags/accessibility" term="accessibility" label="Accessibility"/><category scheme="https://rowanmanning.github.io/new-website-test/tags/pa11y" term="pa11y" label="Pa11y"/></entry><entry><title type="html">Writing a Friendly README</title><link href="https://rowanmanning.github.io/new-website-test/posts/writing-a-friendly-readme/" rel="alternate" type="text/html"/><id>https://rowanmanning.github.io/new-website-test/posts/writing-a-friendly-readme/</id><published>2016-03-14T17:25:00+00:00</published><updated>2016-03-14T17:25:00+00:00</updated><content type="html"><![CDATA[<blockquote>A README is one of the first things people see when they find your open source project. It should be helpful, welcoming, and friendly.</blockquote><p>Your project&rsquo;s README is pretty important; it&rsquo;s often the first thing that a person new to your project will see, and is frequently the only source of documentation. Your README does the same job for your open source project as a website does for a company, and while websites get a lot of user-experience attention, our README files are rarely even considered from a user perspective.</p>
+<p>This post will guide us through writing a friendly README – one that will be helpful and meet developers' (our users) needs, whether they&rsquo;re new to the project or know it well, whether they&rsquo;re a veteran developer or a newcomer.</p>
+<p>We&rsquo;ll be tackling this in sections, using a pretend library called &ldquo;Paddington&rdquo; as an example. Let&rsquo;s start from the top.</p>
+<h2 id="project-heading">Project Heading</h2>
+<p>While the existence of <a href="http://iampaddy.com/lifebelow600/">&ldquo;the fold&rdquo; is debatable</a>, it&rsquo;s fairly widely agreed that the top part of a website should be used to display the <em>most</em> important information. We can apply the same principle to our README.</p>
+<p>So what are the most important things? The project name is pretty important, as is what it actually <em>does</em>. So let&rsquo;s ease ourselves in by adding those:</p>
+
+<figure class="media ">
+
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-01-md" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/writing-a-friendly-readme/heading-01.png"
+			alt="Project heading with name and description"
+		/>
+	</a>
+
+	
+		<figcaption class="media__caption">Project heading with name and description</figcaption>
+	
+
+</figure>
+
+<p>The above mostly caters for new users, but this top part of the README should help our existing users too; they have a few easy-to-answer questions. When I visit a project that I&rsquo;m familiar with, I want to know:</p>
+<ul>
+<li>What&rsquo;s the latest version?</li>
+<li>Is the build passing?</li>
+</ul>
+<p>As a new user, I have a few easy-to-answer questions as well:</p>
+<ul>
+<li>What language is it written in?</li>
+<li>What versions of that language does it support?</li>
+<li>Is it tested?</li>
+<li>What&rsquo;s the license?</li>
+</ul>
+<p>We can answer all of these questions with <strong>badges</strong>! 🎉</p>
+<p>I opt for a row of badges just beneath the project description. A single row doesn&rsquo;t occupy a lot of space and can convey an awful lot of information:</p>
+
+<figure class="media ">
+
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-02-md" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/writing-a-friendly-readme/heading-02.png"
+			alt="Project heading with badges added"
+		/>
+	</a>
+
+	
+		<figcaption class="media__caption">Project heading with badges added</figcaption>
+	
+
+</figure>
+
+<p>Aren&rsquo;t they beautiful? I use a <a href="http://shields.io/">service called shields.io</a> which provides consistent badge images as well as a way to add custom badges for license information etc.</p>
+<p>Lastly as part of the heading section, if the project or library is simple enough to allow it, we can add a quick usage example. This really helps new users understand what your project does and can be just as helpful as the description.</p>
+
+<figure class="media ">
+
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-03-md" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/writing-a-friendly-readme/heading-03.png"
+			alt="Full project heading with an example"
+		/>
+	</a>
+
+	
+		<figcaption class="media__caption">Full project heading with an example</figcaption>
+	
+
+</figure>
+
+<p>We&rsquo;ve covered a lot in our top section in a relatively small amount of space. Well done, us! Now we need to move on to some of the more meaty questions that users have. Our README is going to get longer and potentially difficult to navigate, a sensible thing to do now would be to add a table of contents.</p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<p>A table of contents is useful even in a relatively short README. It eases the pain of having to search for information, and gives the user some helpful jump-links to different parts of your documentation.</p>
+
+<figure class="media ">
+
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-table-of-contents-01-md" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/writing-a-friendly-readme/table-of-contents-01.png"
+			alt="A nicely linked table of contents"
+		/>
+	</a>
+
+	
+		<figcaption class="media__caption">A nicely linked table of contents</figcaption>
+	
+
+</figure>
+
+<p>If the user just wants to check the usage guide then why should they have to scroll through the installation instructions, which are potentially only useful the first time somebody uses your project?</p>
+<h2 id="requirements">Requirements</h2>
+<p>Now we&rsquo;ve reached a part of the documentation which is more useful to new users than anyone else, let&rsquo;s be really friendly and make sure they get what they need. This is the place to add all of the requirements your project has: language, language versions, package managers, operating systems. Anything that isn&rsquo;t covered as part of the project&rsquo;s actual installation.</p>
+
+<figure class="media ">
+
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-requirements-01-md" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/writing-a-friendly-readme/requirements-01.png"
+			alt="Project requirements"
+		/>
+	</a>
+
+	
+		<figcaption class="media__caption">Project requirements</figcaption>
+	
+
+</figure>
+
+<p>This can be written in prose or as a list, as long as it&rsquo;s abundantly clear. This helps you too – it means fewer issues being opened asking why somebody can&rsquo;t get your project running.</p>
+<p>You should also assume zero prior knowledge when documenting requirements. Make sure you add links to the language and package managers required, you may be aiding a user who&rsquo;s completely new to these.</p>
+<h2 id="usage">Usage</h2>
+<p>Your usage documentation is probably the most important part of your README, without it very few people are going to trawl through your code to get it working.</p>
+<p>Depending on the kind of project you&rsquo;re writing a README for, this section could take many forms. You might need documentation for a programmatic API, a web interface, a web API, or a command-line tool; sometimes several of these. The guidelines below reference a JavaScript API, but you can apply them to other interfaces as well.</p>
+<p>Firstly we need to mention how to get hold of the code, whether it&rsquo;s by cloning the repo or installing through a package manager. Don&rsquo;t forget to link out to anything useful, to prevent anyone from getting stuck.</p>
+
+<figure class="media ">
+
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-01-md" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/writing-a-friendly-readme/usage-01.png"
+			alt="How to install Paddington"
+		/>
+	</a>
+
+	
+		<figcaption class="media__caption">How to install Paddington</figcaption>
+	
+
+</figure>
+
+<p>When documenting an API, keep it clear and simple. This means documenting the majority use-case first, your happy path. This keeps everything nicely focused for first-time users. In our case, we outline the method arguments and return values, ideally with examples. The less ambiguous this is, the fewer questions you&rsquo;ll get.</p>
+
+<figure class="media ">
+
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-02-md" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/writing-a-friendly-readme/usage-02.png"
+			alt="How to use Paddington"
+		/>
+	</a>
+
+	
+		<figcaption class="media__caption">How to use Paddington</figcaption>
+	
+
+</figure>
+
+<p>Once we&rsquo;ve covered our happy path, it&rsquo;s also useful to document any errors that a user might come across as well as edge-cases. This can form a sub-section towards the end of your usage documentation, and is geared towards people who have already installed and used your project. Try to include a few keywords that stuck or confused users might search for.</p>
+
+<figure class="media ">
+
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-03-md" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/writing-a-friendly-readme/usage-03.png"
+			alt="Edge-cases and errors"
+		/>
+	</a>
+
+	
+		<figcaption class="media__caption">Edge-cases and errors</figcaption>
+	
+
+</figure>
+
+<h2 id="contributing">Contributing</h2>
+<p>This part of your README is important, and can make a difference as to whether a user will become a contributor. Even if you have a <a href="https://help.github.com/articles/setting-guidelines-for-repository-contributors/"><code>CONTRIBUTING</code> file</a>, assuming no prior knowledge of GitHub and open source, a user might not find it. This section should cover the basics and then link out to your <code>CONTRIBUTING</code> file if you have one.</p>
+<p>You can help yourself here too, add short instructions on how to run the tests and the criteria for accepting pull requests. This means that your review and acceptance process will be as frictionless as possible.</p>
+<p>This is also where you should add a link to your code of conduct, if you have one. You can make new contributors feel more comfortable, and assure them that any issues they have will be resolved. A good code of conduct to use is the <a href="http://contributor-covenant.org/">Contributor Covenant</a>.</p>
+
+<figure class="media ">
+
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-contributing-01-md" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/writing-a-friendly-readme/contributing-01.png"
+			alt="Contribution guidelines"
+		/>
+	</a>
+
+	
+		<figcaption class="media__caption">Contribution guidelines</figcaption>
+	
+
+</figure>
+
+<h2 id="support-and-migration">Support and Migration</h2>
+<p>A section on the support status of your project is very helpful, especially once you&rsquo;ve released a few different major versions. This section is mostly useful to existing users who may need some hand-holding through a migration between major versions of your project.</p>
+<p>A full migration guide might be a bit long to add to your README, I use a <code>MIGRATION</code> file in the root of my project repositories and link to it from this section (<a href="https://github.com/springernature/pa11y/blob/master/MIGRATION.md">see pa11y for an example</a>).</p>
+<p>If you have a support plan for older versions, outline it here. Also you can use a simple table to document the major releases and their end-of-support dates.</p>
+
+<figure class="media ">
+
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-support-and-migration-01-md" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/writing-a-friendly-readme/support-and-migration-01.png"
+			alt="Support and migration"
+		/>
+	</a>
+
+	
+		<figcaption class="media__caption">Support and migration</figcaption>
+	
+
+</figure>
+
+<h2 id="license">License</h2>
+<p>Lastly you should add a copyright notice and a link to the license that your project is released under. Without this information a lot of users, especially working in larger organisations, won&rsquo;t be able to use your project. Even if you distribute your project with a <code>LICENSE</code> file, it&rsquo;s helpful to include a link to it here.</p>
+
+<figure class="media ">
+
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-license-01-md" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/writing-a-friendly-readme/license-01.png"
+			alt="License and copyright information"
+		/>
+	</a>
+
+	
+		<figcaption class="media__caption">License and copyright information</figcaption>
+	
+
+</figure>
+
+<h2 id="other-sections">Other Sections</h2>
+<p>What we&rsquo;ve covered here is by no means all that your README could document. Other sections I&rsquo;ve used in my projects include:</p>
+<dl>
+<dt><a href="https://github.com/rowanmanning/proclaim#why">Why?</a></dt>
+<dd>If your project does something already catered for by another project or is particularly complex, it&rsquo;s useful to provide some justification.</dd>
+<dt><a href="https://github.com/springernature/pa11y#common-questions">Common Questions</a></dt>
+<dd>A place for frequently asked questions, to reduce duplicate issues being opened.</dd>
+<dt><a href="https://github.com/rowanmanning/commandeer#examples">Examples</a></dt>
+<dd>Links out to example code or pointers on getting example applications running.</dd>
+<dt><a href="https://github.com/rowanmanning/joblint#thanks">Thanks</a></dt>
+<dd>A section listing and thanking people who contributed to the project in a non-technical capacity.</dd>
+<dt>Changelog</dt>
+<dd>A description of and a link to your project&rsquo;s change log.</dd>
+</dl>
+<h2 id="the-full-readme">The Full README</h2>
+<p>Now we have a friendly README! You can <a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-readme-md">view the whole thing here</a>.</p>
+<p>I&rsquo;m hoping more people think about the user&rsquo;s needs when writing documentation, and please let me know if you think I&rsquo;ve missed anything. I&rsquo;m interested to hear your tips and opinions on what constitutes a helpful README.</p>
+]]></content><category scheme="https://rowanmanning.github.io/new-website-test/tags/open-source" term="open-source" label="Open-Source"/><category scheme="https://rowanmanning.github.io/new-website-test/tags/writing" term="writing" label="Writing"/><category scheme="https://rowanmanning.github.io/new-website-test/tags/documentation" term="documentation" label="Documentation"/></entry><entry><title type="html">An Evolving Website</title><link href="https://rowanmanning.github.io/new-website-test/posts/an-evolving-website/" rel="alternate" type="text/html"/><link href="https://rowanmanning.github.io/new-website-test/posts/jekyll-site-redesign/build/" rel="related" type="text/html" title="Jekyll Site Redesign/Build"/><id>https://rowanmanning.github.io/new-website-test/posts/an-evolving-website/</id><published>2016-03-07T20:15:00+00:00</published><updated>2016-03-07T20:15:00+00:00</updated><content type="html"><![CDATA[<blockquote>A short journey through iterations of my website, from 2010–2016, and all of the odd decisions I&rsquo;ve made along the way.</blockquote><p>In an attempt to encourage myself to post more, I&rsquo;ve given my website a design refresh! Whether this tactic works or not remains to be seen, but it prompted me to look through all of my old site designs. I thought it&rsquo;d be fun to post them here.</p>
+<h2 id="2010-aka-corners-and-shadows">2010 aka &ldquo;Corners and Shadows&rdquo;</h2>
+<p>Diagonal Lines! Border Radius! Box Shadows! Bright Colours! I think this design <a href="http://theoatmeal.com/comics/design_hell">really pops</a>, don&rsquo;t you? Just look at those icons. Yes, that <em>is</em> Google Buzz (I guess I was optimistic).</p>
+<p>Here&rsquo;s a fun fact which embarrasses me now: several interviewers said that mentioning beer on my CV/website is part of the reason I got an interview. Bro.</p>
+
+<figure class="media ">
+
+	<a href="/media/images/posts/an-evolving-website/2010.jpg" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/an-evolving-website/2010.jpg"
+			alt="2010 Design"
+		/>
+	</a>
+
+	
+
+</figure>
+
+<h2 id="2011-aka-jaunty-angles">2011 aka &ldquo;Jaunty Angles&rdquo;</h2>
+<p>Look at those images! They&rsquo;re not straight, and I&rsquo;m doing it with <em>CSS</em>! This design reminds me of a wallpapered wall with a border, but in the house of somebody with no style. Thumbnails defining me include:</p>
+<ul>
+<li>Me with my head in my hands. Yep, still applies</li>
+<li>A design for a project that never got finished. Yep, still happens</li>
+<li>Me with my cats. Yep</li>
+</ul>
+
+<figure class="media ">
+
+	<a href="/media/images/posts/an-evolving-website/2011.jpg" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/an-evolving-website/2011.jpg"
+			alt="2011 Design"
+		/>
+	</a>
+
+	
+
+</figure>
+
+<h2 id="2012-aka-birth-of-a-blog">2012 aka &ldquo;Birth of a Blog&rdquo;</h2>
+<p>Finally, my site does something more than advertise the fact that I like beer! Actually this is the point where my current green colour entered the scene, as well as that bar across the top.</p>
+<p>One aspect of this site needs tearing down. <strong>Look at that profile picture</strong>. <!-- raw HTML omitted -->BRB<!-- raw HTML omitted --> – I&rsquo;m going to curl up in a ball for a while. I oddly decided that for a home page, this image and some &ldquo;about me&rdquo; text was more important than the posts.</p>
+
+<figure class="media ">
+
+	<a href="/media/images/posts/an-evolving-website/2012.jpg" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/an-evolving-website/2012.jpg"
+			alt="2012 Design"
+		/>
+	</a>
+
+	
+
+</figure>
+
+<h2 id="2013-aka-what-the-pinky-cream">2013 aka &ldquo;What the Pinky Cream?&rdquo;</h2>
+<p>OK what&rsquo;s going on here? &ldquo;What&rsquo;s with the pinky cream?&rdquo;, I yell at past-Rowan. At least in this design I&rsquo;ve switched the ordering/priority of blog posts and bio.</p>
+<p>The pinky cream isn&rsquo;t <em>that</em> far from <!-- raw HTML omitted -->FT<!-- raw HTML omitted --> pink. If I believed in anything supernatural I might read this as a sign that I was destined to work there.</p>
+
+<figure class="media ">
+
+	<a href="/media/images/posts/an-evolving-website/2013.jpg" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/an-evolving-website/2013.jpg"
+			alt="2013 Design"
+		/>
+	</a>
+
+	
+
+</figure>
+
+<h2 id="2014-aka-boxes-and-projects">2014 aka &ldquo;Boxes and Projects&rdquo;</h2>
+<p>Here&rsquo;s where I got carried away with <a href="https://jekyllrb.com/">Jekyll</a> and decided that I had to use <em>all</em> the features. Adding projects just overcomplicated everything. I still like the individual post colours, and I&rsquo;m glad the pinky cream has been tamed into slightly less pink boxes.</p>
+<p>The green bar at the top just keeps growing, and this is the first design to not display my age anywhere.</p>
+
+<figure class="media ">
+
+	<a href="/media/images/posts/an-evolving-website/2014.jpg" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/an-evolving-website/2014.jpg"
+			alt="2014 Design"
+		/>
+	</a>
+
+	
+
+</figure>
+
+<h2 id="2015-aka-spring-clean">2015 aka &ldquo;Spring Clean&rdquo;</h2>
+<p>Projects are dead! There&rsquo;s a lot less competing for your attention now, and I think that&rsquo;s a good thing. This is probably the smallest design iteration there has been, which might mean I&rsquo;m settling on something?</p>
+
+<figure class="media ">
+
+	<a href="/media/images/posts/an-evolving-website/2015.jpg" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/an-evolving-website/2015.jpg"
+			alt="2015 Design"
+		/>
+	</a>
+
+	
+
+</figure>
+
+<h2 id="2016-aka-stripped-back">2016 aka &ldquo;Stripped Back&rdquo;</h2>
+<p>And here we are with the new design! I&rsquo;ve continued what I was doing with the 2015 spring clean and really stripped back the home page to just blog posts.</p>
+<p>I&rsquo;ve kept some of the things that I now consider almost signatures of my site: the green header bar, and the post colours. I&rsquo;m pretty pleased with the outcome! Fingers crossed I&rsquo;ll start writing again.</p>
+
+<figure class="media ">
+
+	<a href="/media/images/posts/an-evolving-website/2016.jpg" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/an-evolving-website/2016.jpg"
+			alt="2016 Design"
+		/>
+	</a>
+
+	
+
+</figure>
+
+<p>Thanks for reading ☺️</p>
+]]></content><category scheme="https://rowanmanning.github.io/new-website-test/tags/design" term="design" label="Design"/></entry><entry><title type="html">Complex Routing Logic with Thundermole</title><link href="https://rowanmanning.github.io/new-website-test/posts/complex-routing-logic-with-thundermole/" rel="alternate" type="text/html"/><link href="https://rowanmanning.github.io/new-website-test/posts/building-cssdb/" rel="related" type="text/html" title="Building CSSDB"/><link href="https://rowanmanning.github.io/new-website-test/posts/node.js-cluster-and-express/" rel="related" type="text/html" title="Node.js Cluster and Express"/><link href="https://rowanmanning.github.io/new-website-test/posts/javascript-for-beginners-async/" rel="related" type="text/html" title="JavaScript for Beginners: Async"/><id>https://rowanmanning.github.io/new-website-test/posts/complex-routing-logic-with-thundermole/</id><published>2015-07-13T10:45:00+00:00</published><updated>2015-07-13T10:45:00+00:00</updated><content type="html"><![CDATA[<blockquote>An insight into how we run our Nature journals beta program using Thundermole.</blockquote><p>Over the last year, we have begun the process of migrating many <a href="http://www.nature.com/siteindex/index.html">Nature journals</a> to our new platform. Because journals on the new platform also come with a significant redesign, we were required to run an opt-in beta program to trial the new design and gather feedback.</p>
+<p>The beta program had many requirements:</p>
+<ul>
+<li>Opted out users should see the old version of the site on the legacy platform</li>
+<li>Opted in users should see the new version of the site on the new platform</li>
+<li>Old-style URLs should redirect to new-style URLs for opted-in users</li>
+<li>New-style URLs should redirect to old-style URLs for opted-out users</li>
+<li>We should be able to run a private beta for internal users</li>
+<li>We should be able to automatically opt-in a percentage of users as the beta matures</li>
+</ul>
+<p>It quickly became apparent that we&rsquo;d need a layer in front of both platforms; with requests being routed based on whether the user is allowed to see the beta, and whether they&rsquo;ve opted in.</p>
+<h2 id="enter-thundermole">Enter Thundermole</h2>
+<p>The routing application we ended up building was code-named <em>Thundermole</em>. We wrote it in JavaScript as we have a lot of experience proxying requests with <a href="https://nodejs.org/">Node.js</a>. We also wanted something light-weight that wouldn&rsquo;t add much overhead to page loads.</p>
+<p>However most of our existing user-authentication logic and application routing existed as part of our new Ruby-based platform. We didn&rsquo;t want to rewrite this logic in JavaScript so Thundermole quickly simplified further into a proxy application that routes requests based on an API response.</p>
+<p>This allowed us to inject a very small proxy layer (Thundermole) in front of both platforms, and reuse all of the existing application logic in a Ruby-based API. The application flow looks like this:</p>
+<ol>
+<li>A user request comes into Thundermole</li>
+<li>Thundermole calls our beta program API with the user request&rsquo;s headers and path</li>
+<li>The API responds with a proxy target depending on the user&rsquo;s opt-in status</li>
+<li>Thundermole routes the original user request to the specified target</li>
+</ol>
+<p>Thundermole&rsquo;s role in our stack became very clear and simple: Proxy user requests to different applications based on an API response.</p>
+<h2 id="open-sourcing">Open-Sourcing</h2>
+<p>We&rsquo;re big fans of open-source, and as soon as Thundermole no longer needed to hold any business logic we decided that it belongs in the public domain. You can browse the source code and use Thundermole in your own stack here:</p>
+<p><a href="https://github.com/springernature/thundermole">https://github.com/springernature/thundermole</a></p>
+<p>For when you want to write your own API, we&rsquo;ve outlined a <a href="https://github.com/springernature/thundermole/blob/master/docs/API-Specification.md">Thundermole API Specification</a>.</p>
+<p>As with all of our open-source projects, we love contributions and feedback. It&rsquo;d also be pretty cool to say you wrote code that sits in front of Nature journals 😉</p>
+]]></content><category scheme="https://rowanmanning.github.io/new-website-test/tags/node.js" term="node.js" label="Node.js"/><category scheme="https://rowanmanning.github.io/new-website-test/tags/javascript" term="javascript" label="JavaScript"/></entry><entry><title type="html">Accessibility Testing with pa11y</title><link href="https://rowanmanning.github.io/new-website-test/posts/accessibility-testing-with-pa11y/" rel="alternate" type="text/html"/><link href="https://rowanmanning.github.io/new-website-test/posts/accessibility-beyond-the-screen-reader/" rel="related" type="text/html" title="Accessibility: Beyond the Screen-Reader"/><id>https://rowanmanning.github.io/new-website-test/posts/accessibility-testing-with-pa11y/</id><published>2014-03-11T09:10:00+00:00</published><updated>2014-03-11T09:10:00+00:00</updated><content type="html"><![CDATA[<blockquote>An overview of using the pa11y accessibility testing tool to find issues with your web pages.</blockquote><p><a href="https://github.com/springernature/pa11y">pa11y</a> is a command-line tool used to find accessibility issues in web pages. Nature built and released pa11y to address a short-fall in automatable accessibility testing; it uses <a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML CodeSniffer</a> in <a href="http://phantomjs.org/">PhantomJS</a> to raise common issues and reports them in both human and machine readable formats. This post assumes that you&rsquo;ve installed pa11y (<a href="https://github.com/springernature/pa11y#requirements">requirements and instructions</a>).</p>
+<p>pa11y is most useful when it&rsquo;s used almost like a linter – the numbers of errors, warnings, and notices are probably some of the most useful statistics, especially when plotted on a graph over time.</p>
+<p>Due to the fact that pa11y is a command-line tool, we can report the errors found but we can&rsquo;t, for example, highlight elements in the DOM to illustrate these errors. However it does report a snippet of HTML for context as well as a CSS selector which you can use in-browser to find the relevant element.</p>
+<p>It&rsquo;s also important to note that <em>pa11y is not a replacement for regular accessibility testing</em>. It&rsquo;s not a magic bullet, and won&rsquo;t catch everything that you could – it&rsquo;s complementary to your existing workflow (which should include testing with actual users).</p>
+<h2 id="basic-command-line-usage">Basic Command-Line Usage</h2>
+<p>The simplest way to quickly test a web page, is to execute the <code>pa11y</code> command with a URL. The following example will run tests on the Nature home page:</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pa11y nature.com
+</code></pre></div>
+<figure class="media ">
+
+	
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/accessibility-testing-with-pa11y/cli-report.png"
+			alt="pa11y command-line output"
+		/>
+	
+
+	
+		<figcaption class="media__caption">pa11y command-line output</figcaption>
+	
+
+</figure>
+
+<p>You&rsquo;ll see some output in the command line which describes some of the errors/warnings encountered. This is fine for quickly testing a page, but things start to get interesting when you play with pa11y&rsquo;s options.</p>
+<p>Use the WCAG2AAA standard:</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pa11y --standard WCAG2AAA nature.com
+</code></pre></div><p>Filter out certain rules or types:</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pa11y --ignore <span class="s2">&#34;notice;warning&#34;</span> nature.com
+</code></pre></div><p>Combining these options means you can get what you need out of pa11y with very little effort.</p>
+<h2 id="reporting-with-json">Reporting With JSON</h2>
+<p>Reporting results as JSON can be extremely useful when you want to do things with the data, especially if you&rsquo;re using pa11y as part of Continuous Integration. We&rsquo;ll outline some uses below:</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pa11y --reporter json nature.com
+</code></pre></div><p>Output to a file:</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pa11y --reporter json nature.com &gt; results.json
+</code></pre></div><h2 id="reporting-with-csv">Reporting With CSV</h2>
+<p>You can also output CSV reports with pa11y, which can be useful if you need to do some manual processing or for ease of importing into a database. This is also very simple:</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pa11y --reporter csv nature.com
+</code></pre></div><p>Output to a file:</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pa11y --reporter csv nature.com &gt; results.csv
+</code></pre></div><h2 id="reporting-with-html">Reporting With HTML</h2>
+<p>If you prefer to generate a visual accessibility report that can be shared with non-programmers, you can use the HTML reporter:</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pa11y --reporter html nature.com &gt; results.html
+</code></pre></div>
+<figure class="media ">
+
+	
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/accessibility-testing-with-pa11y/html-report.png"
+			alt="pa11y HTML output"
+		/>
+	
+
+	
+		<figcaption class="media__caption">pa11y HTML output</figcaption>
+	
+
+</figure>
+
+<h2 id="anything-missing">Anything Missing?</h2>
+<p>We want pa11y to be useful for as many people as possible. If you think we&rsquo;re missing a killer feature that is stopping you from using pa11y, then we&rsquo;re more than happy to listen!</p>
+<p><a href="https://github.com/springernature/pa11y/issues">Raise an issue</a> on GitHub or, even better, raise an issue with a pull-request.</p>
+<p>Also, if you&rsquo;re doing anything interesting with pa11y, we&rsquo;d love to hear about it.</p>
+]]></content><category scheme="https://rowanmanning.github.io/new-website-test/tags/accessibility" term="accessibility" label="Accessibility"/></entry><entry><title type="html">JavaScript for Beginners: Async</title><link href="https://rowanmanning.github.io/new-website-test/posts/javascript-for-beginners-async/" rel="alternate" type="text/html"/><link href="https://rowanmanning.github.io/new-website-test/posts/building-cssdb/" rel="related" type="text/html" title="Building CSSDB"/><link href="https://rowanmanning.github.io/new-website-test/posts/node.js-cluster-and-express/" rel="related" type="text/html" title="Node.js Cluster and Express"/><id>https://rowanmanning.github.io/new-website-test/posts/javascript-for-beginners-async/</id><published>2013-06-27T20:15:00+00:00</published><updated>2013-06-27T20:15:00+00:00</updated><content type="html"><![CDATA[<blockquote>An introduction to asynchronous JavaScript, part of a series on JavaScript for Beginners.</blockquote><p>This is the first in a series of posts which will explain some of the concepts and terminology which are thrown about in JavaScript land, with a focus on beginners. In this post we&rsquo;ll be looking at the term &ldquo;Async&rdquo;; what it means and why it matters to you as a JavaScript developer.</p>
+<p>Recently, I was reminded of my early days in development. Being a self-taught JavaScript noob, it was easy to get left behind in technical conversations among more computer-sciency peers. One of the barriers was the terminology being used, terms like &ldquo;Async&rdquo;.</p>
+<h2 id="so-what-does-async-mean">So, What Does &ldquo;Async&rdquo; Mean?</h2>
+<p>Async is short for &ldquo;asynchronous&rdquo;. It&rsquo;s easier to understand async if you first understand what &ldquo;synchronous&rdquo;, the opposite, means.</p>
+<p>In programming, we can simplify the definition of synchronous code as &ldquo;a bunch of statements in sequence&rdquo;; so each statement in your code is executed one after the other. This means each statement has to wait for the previous one to finish executing.</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;First&#39;</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Second&#39;</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Third&#39;</span><span class="p">);</span>
+</code></pre></div><p>The statements above will execute in order, outputting &ldquo;First&rdquo;, &ldquo;Second&rdquo;, &ldquo;Third&rdquo; to the console. That&rsquo;s because it&rsquo;s written synchronously.</p>
+<p>Asynchronous code takes statements outside of the main program flow, allowing the code after the asynchronous call to be executed immediately without waiting. You&rsquo;ve probably used asynchronous programming before with <code>jQuery.ajax</code> or similar:</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;First&#39;</span><span class="p">);</span>
+<span class="nx">jQuery</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;page.html&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Second&#34;</span><span class="p">);</span>
+<span class="p">});</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Third&#39;</span><span class="p">);</span>
+</code></pre></div><p>In the example above, the output will be different: &ldquo;First&rdquo;, &ldquo;Third&rdquo;, &ldquo;Second&rdquo;. This is because the function passed into <code>jQuery.get</code> is not called immediately – it has to wait for jQuery to fetch the page you asked for before it can execute.</p>
+<p><em>&ldquo;So why the hell use asynchronous code instead of synchronous code?&quot;</em> I hear you ask! I&rsquo;ll explain.</p>
+<h2 id="why-asynchronous">Why Asynchronous?</h2>
+<p>When JavaScript is executed, synchronous code has the potential to block further execution until it has finished what it&rsquo;s doing. In English, long-running JavaScript functions can make the UI or server unresponsive until the function has returned. Obviously this can result in a terrible user-experience.</p>
+<p>For example: if you want to load your latest tweets onto a web page, and you do this synchronously, then a visitor to your site won&rsquo;t be able to do anything until those tweets are loaded. This could cause a long delay before they even get to see the content of your site! I&rsquo;ve illustrated the problem below:</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="nx">tweets</span> <span class="o">=</span> <span class="nx">loadTweetsSync</span><span class="p">();</span>
+<span class="c1">// ... Wait
+</span><span class="c1">// ... Do something with the tweets
+</span><span class="c1"></span><span class="nx">doSomeOtherImportantThings</span><span class="p">();</span>
+</code></pre></div><div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="nx">loadTweetsAsync</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// ... Wait
+</span><span class="c1"></span>    <span class="c1">// ... Do something with the tweets
+</span><span class="c1"></span><span class="p">});</span>
+<span class="nx">doSomeOtherImportantThings</span><span class="p">();</span>
+</code></pre></div><p>In the second example, <code>doSomeOtherImportantThings</code> doesn&rsquo;t have to wait for the tweets to load.</p>
+<h2 id="how-to-program-asynchronously">How To Program Asynchronously</h2>
+<p>Although the purpose of this post is to explain the term, it would feel incomplete without a short overview of <em>how</em> to program asynchronously. I&rsquo;m sure you&rsquo;d like to know how to apply this knowledge.</p>
+<p>More often than not, this is done for you by browser/server APIs (XMLHttpRequest, Node <code>fs</code> module) or third-party libraries (jQuery.ajax). Most of the time, this is as far as you need to go – you wouldn&rsquo;t asynchronize <em>everything</em>, as this can actually lead to less performant (and very complex) code.</p>
+<p>As a general rule of thumb, you use asynchronous code when performing expensive and time-consuming operations. You wouldn&rsquo;t use it to change a CSS class on an element, for example.</p>
+<p>For when you need them, there are plenty of libraries which aid you in writing asynchronous code; <a href="https://github.com/caolan/async">Async.js</a> is an excellent example.</p>
+<h2 id="in-summary">In Summary</h2>
+<p>So to recap, synchronous code is executed in sequence – each statement waits for the previous statement to finish before executing. Asynchronous code doesn&rsquo;t have to wait – your program can continue to run. You do this to keep your site or app responsive, reducing waiting time for the user.</p>
+<p>Thanks for reading. Let me know if there&rsquo;s a topic you&rsquo;d like to be covered in this series!</p>
+<p>Rowan</p>
+]]></content><category scheme="https://rowanmanning.github.io/new-website-test/tags/javascript" term="javascript" label="JavaScript"/><category scheme="https://rowanmanning.github.io/new-website-test/tags/tutorial" term="tutorial" label="Tutorial"/></entry><entry><title type="html">Building CSSDB</title><link href="https://rowanmanning.github.io/new-website-test/posts/building-cssdb/" rel="alternate" type="text/html"/><link href="https://rowanmanning.github.io/new-website-test/posts/node.js-cluster-and-express/" rel="related" type="text/html" title="Node.js Cluster and Express"/><link href="https://rowanmanning.github.io/new-website-test/posts/why-i-built-another-css-grid/" rel="related" type="text/html" title="Why I Built Another CSS Grid"/><id>https://rowanmanning.github.io/new-website-test/posts/building-cssdb/</id><published>2013-03-30T00:38:00+00:00</published><updated>2013-04-04T20:59:00+00:00</updated><content type="html"><![CDATA[<blockquote>How I tackled the build of CSSDB over a weekend. Outlining my technological decisions, and how the site kept nice and snappy under heavy load.</blockquote><p>Last weekend I built <a href="http://cssdb.co/">CSSDB</a>, a curated collection of great CSS, Sass, LESS and Stylus libraries. It was primarily an excercise in learning, but it was also a site which I could have made excellent use of (especially in the early stages of my development career).</p>
+<p>I launched on Monday to little fanfare, but on Tuesday the site suddenly seemed to explode in popularity. This was quite unexpected, but I was excited to see my technical decisions come under some strain – it was addictive to watch my metrics and see how the site performed under load.</p>
+<p>After a couple more days, I thought it might be interesting to write up my decisions. So here we are.</p>
+<h2 id="on-paper">On Paper</h2>
+<p>Before jumping into development work, there were a few decisions I&rsquo;m glad I made before touching a line of code. I wanted the site to be as automated as possible. I couldn&rsquo;t have known it at the time, but this turned out to be one of the best decisions I made considering the traffic and volume of submissions I started to get.</p>
+<p>There were two tasks which stood out to me as painful to complete manually. The first: handling and adding submissions; the second: keeping repository stats (stars, forks, etc.) up to date.</p>
+<p>To get an initial prototype out the door, <a href="http://github.com/">GitHub</a> seemed an absolute no-brainer. The GitHub API is stable and well-documented – it could give me all the information I needed and had sensible rate limiting. Once this decision was made, a lot of the automation work just fell into place.</p>
+<h2 id="the-server-stack">The Server Stack</h2>
+<p>Having experimented a lot in <a href="http://nodejs.org/">Node.js</a>, it seemed a logical choice to me. I love writing JavaScript, and Node is extremely performant.</p>
+<p>I&rsquo;d also been keen to work with a document store, which also makes sense for the site if you consider each library to be a document – there are no relations needed. For this, I chose <a href="http://www.mongodb.org/">MongoDB</a>.</p>
+<p>Once I&rsquo;d made some choices on my development stack, I had to consider hosting. Here I&rsquo;ll come clean: I can hack my way around server-side code just fine, but I have to draw the line at sysadmin work. Quite frankly it doesn&rsquo;t excite me that much, and I normally end up frustrated. For this reason, I started looking at cloud hosting platforms.</p>
+<p>I&rsquo;ve used Nodejitsu before, but one of my bugbears there is that database hosting has to be purchased through a third-party. I ideally wanted a single service rather than cobbling together my app with server resources from a few different companies; this could get pricey quite quickly.</p>
+<p>In the end, I discovered (and decided on) <a href="https://modulus.io/">Modulus</a>. Their focus is on Node.js and MongoDB (at the moment) and it just seemed to fit perfectly with what I was trying to achieve. After a week, I&rsquo;m so glad I made this decision. Modulus' service is excellent, it&rsquo;s reliable under load and I found their customer service outstanding; I&rsquo;m impressed.</p>
+<h2 id="building-the-node-app">Building The Node App</h2>
+<p>I immediately started development with <a href="http://expressjs.com/">Express</a>, a beautifully simple web framework. I used the <a href="https://github.com/mongodb/node-mongodb-native">native MongoDB wrapper for Node</a> over bloated ODM libraries, as I wasn&rsquo;t doing anything particularly complex with storage. The all-important task scheduling was built with <a href="https://github.com/ncb000gt/node-cron">node-cron</a>.</p>
+<p>I won&rsquo;t go into too much technical detail here, but what I ended up with was a flow as outlined below. I&rsquo;m quite pleased with how little manual work is involved:</p>
+<ol>
+<li>Somebody submits a library on the site</li>
+<li>The new library is stored in the database and marked as inactive.</li>
+<li>Every 30 minutes, an email is sent to me outlining any new inactive libraries. Each library has a unique activation link as well as a link for me to look at the library on GitHub.</li>
+<li>When I click on an activation link, the repository details for that library are fetched from GitHub, and it becomes visible on the site.</li>
+<li>From this point on, every 20 minutes, any libraries which have not been updated in the last two days are re-fetched from GitHub. This keeps the stats nice and fresh.</li>
+</ol>
+<p>All of this gives me a lot of flexibility – I can (and do) process new libraries happily on my morning commute!</p>
+<h2 id="designing-the-site">Designing The Site</h2>
+<p>I&rsquo;m not a designer, as may be evident, so I elected to go with a very simple minimalist design. Afterwards I found out that I&rsquo;d inadvertently done &ldquo;Flat Design&rdquo;, apparently it&rsquo;s a trend.</p>
+<p>After sending an early version of the site out to some friends for feedback, the talented <a href="http://bevanstephens.com/">Bevan Stephens</a> went above-and-beyond the call of duty and gave me some excellent advice which helped me tighten up the design.</p>
+<h2 id="building-the-front-end">Building The Front-End</h2>
+<p>The last part of the build was the front-end. There&rsquo;s no client-side JavaScript whatsoever (except some tracking nonsense) so framework-wise that was an easy decision to make.</p>
+<p>In terms of CSS, I used a couple of my own libraries. This is mainly because I wanted to give them a bit of use, and they&rsquo;re actually well suited to a small website. Also, I&rsquo;m quite familiar with them!</p>
+<ul>
+<li><a href="http://pigeoncss.com/">Pigeon</a>: <em>&ldquo;An OOCSS framework for rapid prototyping and building smart, scalable sites&rdquo;</em></li>
+<li><a href="http://fragcss.com/">Frag</a>: <em>&ldquo;A fluid, responsive, simple grid system for CSS&rdquo;</em></li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>I had a lot of fun building <a href="http://cssdb.co/">CSSDB</a>. As well as being well suited to building performant sites, the technologies I chose are enjoyable to work with.</p>
+<p>All-in-all, I haven&rsquo;t regretted any of my choices (yet). The site&rsquo;s remained fast and responsive under a moderate (but increasing) load, and I&rsquo;m getting a steady flow of submissions.</p>
+<p><!-- raw HTML omitted -->It&rsquo;s my intention to open-source the code behind the site at some point soon – I&rsquo;d like to have some more people&rsquo;s eyes on it and get some community participation going. Before I do that, though, some house-keeping is in order: CSSDB was built over a weekend, with little consideration for maintainability and ease-of-understanding for anyone other than me.<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->The source-code for CSSDB is <a href="https://github.com/rowanmanning/cssdb">available on GitHub</a>.<!-- raw HTML omitted --></p>
+<p>Anyway, I hope you&rsquo;ve enjoyed my ramblings! Maybe you learned something, or have something to teach me? I&rsquo;d love to get some feedback on my approach to this build or the site itself.</p>
+<p>Thanks for reading,<br>
+Rowan.</p>
+]]></content><category scheme="https://rowanmanning.github.io/new-website-test/tags/css" term="css" label="CSS"/><category scheme="https://rowanmanning.github.io/new-website-test/tags/javascript" term="javascript" label="JavaScript"/><category scheme="https://rowanmanning.github.io/new-website-test/tags/node.js" term="node.js" label="Node.js"/><category scheme="https://rowanmanning.github.io/new-website-test/tags/express" term="express" label="Express"/></entry><entry><title type="html">Jekyll Site Redesign/Build</title><link href="https://rowanmanning.github.io/new-website-test/posts/jekyll-site-redesign/build/" rel="alternate" type="text/html"/><id>https://rowanmanning.github.io/new-website-test/posts/jekyll-site-redesign/build/</id><published>2013-02-11T00:16:00+00:00</published><updated>2013-02-11T00:16:00+00:00</updated><content type="html"><![CDATA[<blockquote>I rebuilt my site with Jekyll, along with a small design refresh; it went so smoothly I thought I&rsquo;d blog about it. Definitely something to consider if you&rsquo;re building a small site.</blockquote><p>It&rsquo;s been about 9 months since my last site design/refresh, and the code was starting to show it&rsquo;s age (that&rsquo;s got to be a separate post – just how quickly standards change). I recently built a couple of small sites with <a href="https://jekyllrb.com/">Jekyll</a> and decided to port by existing blog over to it.</p>
+<p>Jekyll is a beautifully simple static site generator. The ease-of-use with this tool is crazy, I had so much fun with the rewrite just because Jekyll works in exactly the way you&rsquo;d expect it to.</p>
+<h2 id="my-previous-site">My Previous Site</h2>
+<p>My site was originally built using <a href="http://docpad.org/">DocPad</a>, another static site generator, but where Jekyll comes out on top for me is it&rsquo;s simplicity. For some people, I&rsquo;m sure the massive flexibility of DocPad would be a must-have – you can change nearly everything about it – however I&rsquo;d started to find this more of a hindrance than anything. The complexity of my site was starting to get in the way of me actually publishing anything.</p>
+<p>My second bugbear with my previous site was that I had to generate it locally in order to publish to GitHub Pages. This didn&rsquo;t seem like an issue at first, but having to keep a source and output branch on GitHub was becoming a pain. Jekyll, on the other hand, is running on GitHub pages allowing me to just make my changes and push once.</p>
+<p>Spurred on by the <a href="http://csswizardry.com/2012/12/a-new-css-wizardry/">success others had with moving to Jekyll</a>, I decided this was the way to go.</p>
+<h2 id="transitioning">Transitioning</h2>
+<p>Luckily, having come from another static site generator, a lot of my content was already in Markdown format. This meant I didn&rsquo;t have to mess around with outputting from a database, or work with a bunch of generated files.</p>
+<p>As porting blog posts was actually pretty easy, the bulk of the work involved moving my templates and partials from Eco to Liquid. This took a while because I&rsquo;d customised quite a lot in my previous site to allow nicely formatted dates and the like. All in all, the initial port took a couple of hours.</p>
+<h2 id="rebuild">Rebuild</h2>
+<p>Once I had my site ported over to Jekyll, it was time for a redesign. As is always the case, I&rsquo;d neglected the code quality of my own site far more than I would any work or freelance project.</p>
+<p>I made the move from LESS to Sass, which I&rsquo;ve been meaning to do for a while, and have used <!-- raw HTML omitted -->OOCSS<!-- raw HTML omitted --> wherever possible. The site&rsquo;s code is now a much better representation of my abilities (at least for the next month or two…).</p>
+<p>I&rsquo;m now also using an excellent <a href="http://icomoon.io/">icon font from Icomoon</a>. This has reduced the number of images used for styling to only one – the background noise. I&rsquo;m really pleased with this! I&rsquo;d recommend Icomoon to anyone wanting to start out with icon fonts.</p>
+<h2 id="open-source">Open-Source</h2>
+<p>Lastly, I&rsquo;m a huge lover of open-source; it seemed a bit hypocritical of me to keep my personal site in a private repository as it has been for the last year. I decided to open-source the code to my site, and it&rsquo;s now <a href="https://github.com/rowanmanning/rowanmanning.github.io">available on GitHub</a>. Feel free to peruse, learn and teach!</p>
+<p>If you spot anything that I&rsquo;ve missed out, please let me know (or open a pull-request).</p>
+<h2 id="your-site">Your Site?</h2>
+<p>If you&rsquo;re in need of a small site or blog, I can&rsquo;t recommend Jekyll enough. Transitioning was relatively simple, it&rsquo;s very powerful, and can be hosted for free on GitHub!</p>
+<p>Thanks for reading,<br>
+Rowan</p>
+<p>For further reading on this subject, see:</p>
+<ul>
+<li><a href="https://jekyllrb.com/">Jekyll documentation</a></li>
+<li><a href="https://github.com/rowanmanning/rowanmanning.github.io">This site on GitHub</a></li>
+</ul>
+]]></content><category scheme="https://rowanmanning.github.io/new-website-test/tags/design" term="design" label="Design"/><category scheme="https://rowanmanning.github.io/new-website-test/tags/jekyll" term="jekyll" label="Jekyll"/></entry><entry><title type="html">Node.js Cluster and Express</title><link href="https://rowanmanning.github.io/new-website-test/posts/node.js-cluster-and-express/" rel="alternate" type="text/html"/><id>https://rowanmanning.github.io/new-website-test/posts/node.js-cluster-and-express/</id><published>2013-01-10T20:18:00+00:00</published><updated>2013-09-21T13:54:00+00:00</updated><content type="html"><![CDATA[<blockquote>A simple tutorial on using Node.js 0.8+&rsquo;s Cluster module with Express to dramatically improve app performance.</blockquote><p>Over the last couple of evenings, I&rsquo;ve been playing with the <a href="http://nodejs.org/api/cluster.html">Node.js Cluster module</a> and using it to dramatically improve the amount of load Express apps can handle. The results have been amazing.</p>
+<p>The Cluster module is fairly easy to pick up if you&rsquo;re used to working with Node.js, but I thought I&rsquo;d blog about my experience – hopefully it will help you either understand or see the benefit of clustering!</p>
+<h2 id="what-does-cluster-do">What Does Cluster Do?</h2>
+<p>Node.js runs in a single thread. While it&rsquo;s still very fast in most cases, this really doesn&rsquo;t take advantage of multiple processors if they&rsquo;re available. The Cluster module allows you to create a small network of separate processes which can share server ports; this gives your Node.js app access to the full power of your server.</p>
+<h2 id="learn-by-example">Learn By Example</h2>
+<p>Let&rsquo;s build a simple Express application to start with. Then we&rsquo;ll add clustering. If you&rsquo;d like to follow along, you&rsquo;ll need to <a href="https://nodejs.org/">install Node.js</a> 0.10+. This tutorial also assumes a moderate amount of JavaScript, Node.js and <a href="http://expressjs.com/">Express</a> knowledge.</p>
+<p>All of the source code for the application we&rsquo;re creating here is <a href="https://github.com/rowanmanning/learning-express-cluster">available on GitHub</a>.</p>
+<p>Create a new directory for this tutorial, and add a file called <code>package.json</code> with the following code:</p>
+<div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
+    <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;learning-express-cluster&#34;</span><span class="p">,</span>
+    <span class="nt">&#34;version&#34;</span><span class="p">:</span> <span class="s2">&#34;1.0.0&#34;</span><span class="p">,</span>
+    <span class="nt">&#34;dependencies&#34;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="nt">&#34;express&#34;</span><span class="p">:</span> <span class="s2">&#34;^4&#34;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div><p>Run <code>npm install</code> from within your project directory, this will install Express. Now we can create a new file, <code>app.js</code>:</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// Include Express
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;express&#39;</span><span class="p">);</span>
+
+<span class="c1">// Create a new Express application
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">express</span><span class="p">();</span>
+
+<span class="c1">// Add a basic route – index page
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">);</span>
+<span class="p">});</span>
+
+<span class="c1">// Bind to a port
+</span><span class="c1"></span><span class="nx">app</span><span class="p">.</span><span class="nx">listen</span><span class="p">(</span><span class="mi">3000</span><span class="p">);</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Application running!&#39;</span><span class="p">);</span>
+</code></pre></div><p>Now we have a basic Express app, you can run it from the command line with <code>node app.js</code>. When you go to http://localhost:3000/, you should see the message &ldquo;Hello world!&rdquo; in your browser.</p>
+<p>That&rsquo;s all well and good, but let&rsquo;s get down to the point of this post – clustering! It&rsquo;s surprisingly simple; we&rsquo;ll update <code>app.js</code> line by line and explain the process.</p>
+<p>First, we add a new line at the very top of the file:</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// Include the cluster module
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">cluster</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;cluster&#39;</span><span class="p">);</span>
+
+<span class="p">...</span>
+</code></pre></div><p>Now we&rsquo;re going to add a conditional to <code>app.js</code> which wraps all of our Express application functionality. Update your file to look like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="c1">// Include the cluster module
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">cluster</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;cluster&#39;</span><span class="p">);</span>
+
+<span class="c1">// Code to run if we&#39;re in the master process
+</span><span class="c1"></span><span class="k">if</span> <span class="p">(</span><span class="nx">cluster</span><span class="p">.</span><span class="nx">isMaster</span><span class="p">)</span> <span class="p">{</span>
+
+    <span class="p">...</span>
+
+<span class="c1">// Code to run if we&#39;re in a worker process
+</span><span class="c1"></span><span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+
+    <span class="c1">// Include Express
+</span><span class="c1"></span>    <span class="kd">var</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;express&#39;</span><span class="p">);</span>
+
+    <span class="c1">// Create a new Express application
+</span><span class="c1"></span>    <span class="kd">var</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">express</span><span class="p">();</span>
+
+    <span class="c1">// Add a basic route – index page
+</span><span class="c1"></span>    <span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">);</span>
+    <span class="p">});</span>
+
+    <span class="c1">// Bind to a port
+</span><span class="c1"></span>    <span class="nx">app</span><span class="p">.</span><span class="nx">listen</span><span class="p">(</span><span class="mi">3000</span><span class="p">);</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Application running!&#39;</span><span class="p">);</span>
+
+<span class="p">}</span>
+</code></pre></div><p>What we&rsquo;re doing here is detecting whether the application is being run in the &lsquo;master&rsquo; process (the one you start from the command line) or a &lsquo;worker&rsquo; process (a process created by the master).</p>
+<p>Your application code can stay pretty much the same, which makes it fairly easy to add clustering to an existing application.</p>
+<p>Let&rsquo;s write the code for the master process, we&rsquo;re almost done! Fill out the first half of the conditional to look like this:</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="p">...</span>
+
+<span class="c1">// Code to run if we&#39;re in the master process
+</span><span class="c1"></span><span class="k">if</span> <span class="p">(</span><span class="nx">cluster</span><span class="p">.</span><span class="nx">isMaster</span><span class="p">)</span> <span class="p">{</span>
+
+    <span class="c1">// Count the machine&#39;s CPUs
+</span><span class="c1"></span>    <span class="kd">var</span> <span class="nx">cpuCount</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;os&#39;</span><span class="p">).</span><span class="nx">cpus</span><span class="p">().</span><span class="nx">length</span><span class="p">;</span>
+
+    <span class="c1">// Create a worker for each CPU
+</span><span class="c1"></span>    <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">cpuCount</span><span class="p">;</span> <span class="nx">i</span> <span class="o">+=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">cluster</span><span class="p">.</span><span class="nx">fork</span><span class="p">();</span>
+    <span class="p">}</span>
+
+<span class="c1">// Code to run if we&#39;re in a worker process
+</span><span class="c1"></span><span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+
+<span class="p">...</span>
+</code></pre></div><p>All we&rsquo;re doing above is counting the number of CPUs your machine has, and calling <code>cluster.fork</code> for each. For example, If your machine has four CPUs then <code>cluster.fork</code> will be called four times, creating four new processes.</p>
+<p>The new worker processes we create will run the same <code>app.js</code> JavaScript file as the master, except it will use the code in the <code>else</code> statement. This is obviously because <code>cluster.isMaster</code> is <code>false</code> within a worker.</p>
+<p>If you run <code>node app.js</code> now, nothing will look different. The only thing you&rsquo;ll notice is that the message &ldquo;Application running!&rdquo; will appear more than once in your command line.</p>
+<p>Before we finish up, let&rsquo;s output the worker ID so you can tell which worker is serving your page each time it loads. Replace the following lines:</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">);</span>
+
+<span class="p">...</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Application running!&#39;</span><span class="p">);</span>
+</code></pre></div><p>with these:</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">&#39;Hello from Worker &#39;</span> <span class="o">+</span> <span class="nx">cluster</span><span class="p">.</span><span class="nx">worker</span><span class="p">.</span><span class="nx">id</span><span class="p">);</span>
+
+<span class="p">...</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Worker %d running!&#39;</span><span class="p">,</span> <span class="nx">cluster</span><span class="p">.</span><span class="nx">worker</span><span class="p">.</span><span class="nx">id</span><span class="p">);</span>
+</code></pre></div><p>Now when you run the application, you should see the workers being started in your command line. When you revisit http://localhost:3000/ you should see the message &ldquo;Hello from Worker X&rdquo; where X is the ID of the worker serving you.</p>
+<p>Try opening the page in multiple tabs and browsers – you should see varying workers.</p>
+<h2 id="the-proof-is-in-the-pudding">The Proof Is In The Pudding</h2>
+<p>So far, you&rsquo;ve taken my word for it that clustering is fast. The last thing I&rsquo;m going to do here is run some benchmarks on the application before and after adding clustering.</p>
+<p>Because the application is so minimal now, I added a long loop to the index route to help illustrate how a clustered application performs better under heavy load.</p>
+<p>Without clustering:</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">$ siege -c100 -t1M http://localhost:3000/
+<span class="c1">#&gt; Transactions:                263 hits</span>
+<span class="c1">#&gt; Availability:                100.00 %</span>
+<span class="c1">#&gt; Elapsed time:                59.50 secs</span>
+<span class="c1">#&gt; Data transferred:            849.99 MB</span>
+<span class="c1">#&gt; Response time:               19.41 secs</span>
+<span class="c1">#&gt; Transaction rate:            4.42 trans/sec</span>
+<span class="c1">#&gt; Throughput:                  14.29 MB/sec</span>
+<span class="c1">#&gt; Concurrency:                 85.79</span>
+<span class="c1">#&gt; Successful transactions:     263</span>
+<span class="c1">#&gt; Failed transactions:         0</span>
+<span class="c1">#&gt; Longest transaction:         34.57</span>
+<span class="c1">#&gt; Shortest transaction:        10.07</span>
+</code></pre></div><p>With clustering:</p>
+<div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">$ siege -c100 -t1M http://localhost:3000/
+<span class="c1">#&gt; Transactions:                811 hits</span>
+<span class="c1">#&gt; Availability:                100.00 %</span>
+<span class="c1">#&gt; Elapsed time:                59.25 secs</span>
+<span class="c1">#&gt; Data transferred:            2621.08 MB</span>
+<span class="c1">#&gt; Response time:               6.50 secs</span>
+<span class="c1">#&gt; Transaction rate:            13.69 trans/sec</span>
+<span class="c1">#&gt; Throughput:                  44.24 MB/sec</span>
+<span class="c1">#&gt; Concurrency:                 88.96</span>
+<span class="c1">#&gt; Successful transactions:     811</span>
+<span class="c1">#&gt; Failed transactions:         0</span>
+<span class="c1">#&gt; Longest transaction:         16.47</span>
+<span class="c1">#&gt; Shortest transaction:        0.54</span>
+</code></pre></div><p>I think you&rsquo;ll agree that that&rsquo;s a worthwhile performance increase for only a few lines of code 😉</p>
+<h2 id="bonus-code-coping-with-death">Bonus Code: Coping With Death</h2>
+<p>Last but not least, there&rsquo;s one last thing that would be useful to add to our application. In the (hopefully unlikely) event that one of our worker processes dies, we&rsquo;ll want to make sure we spawn another; otherwise we could eventually end up just running an empty master process and losing all our requests!</p>
+<p>This is also incredibly easy to do by binding to the cluster &lsquo;exit&rsquo; event. Add the following code directly beneath the loop which creates our initial workers. It&rsquo;s fairly self-explanatory:</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="p">...</span>
+
+<span class="c1">// Listen for dying workers
+</span><span class="c1"></span><span class="nx">cluster</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;exit&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">worker</span><span class="p">)</span> <span class="p">{</span>
+
+    <span class="c1">// Replace the dead worker,
+</span><span class="c1"></span>    <span class="c1">// we&#39;re not sentimental
+</span><span class="c1"></span>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Worker %d died :(&#39;</span><span class="p">,</span> <span class="nx">worker</span><span class="p">.</span><span class="nx">id</span><span class="p">);</span>
+    <span class="nx">cluster</span><span class="p">.</span><span class="nx">fork</span><span class="p">();</span>
+
+<span class="p">});</span>
+
+<span class="p">...</span>
+</code></pre></div><p>Now we don&rsquo;t have to worry as much if something goes horribly wrong in one of our workers!</p>
+<p>I hope you enjoyed this tutorial. As mentioned above, you can get a hold of the <a href="https://github.com/rowanmanning/learning-express-cluster">source code for the examples on GitHub</a>. For more information, check out the <a href="http://nodejs.org/api/cluster.html">Node.js Cluster module documentation</a>.</p>
+<p>Thanks for reading.</p>
+<p>For further reading on this subject, see:</p>
+<ul>
+<li><a href="http://nodejs.org/api/cluster.html">Node.js Cluster module documentation</a></li>
+<li><a href="http://expressjs.com/">Express documentation</a></li>
+</ul>
+]]></content><category scheme="https://rowanmanning.github.io/new-website-test/tags/node.js" term="node.js" label="Node.js"/><category scheme="https://rowanmanning.github.io/new-website-test/tags/javascript" term="javascript" label="JavaScript"/><category scheme="https://rowanmanning.github.io/new-website-test/tags/express" term="express" label="Express"/><category scheme="https://rowanmanning.github.io/new-website-test/tags/cluster" term="cluster" label="Cluster"/></entry><entry><title type="html">The Mixed Blessing of Ambition</title><link href="https://rowanmanning.github.io/new-website-test/posts/the-mixed-blessing-of-ambition/" rel="alternate" type="text/html"/><id>https://rowanmanning.github.io/new-website-test/posts/the-mixed-blessing-of-ambition/</id><published>2012-12-04T20:13:00+00:00</published><updated>2012-12-04T20:13:00+00:00</updated><content type="html"><![CDATA[<blockquote>I love being ambitious when it comes to development, but this quality can be a double-edged sword. Ease yourself into the bigger projects.</blockquote><p>I was talking to a friend recently about getting back into game development; he was very enthusiastic about learning to develop JavaScript games and we were discussing where to start. I had one of those moments when you impart some advice to somebody, and afterwards realise that it&rsquo;s great advice you&rsquo;ve been ignoring yourself. The advice in this case was: &ldquo;Don&rsquo;t be too ambitious here – you may end up killing your enthusiasm&rdquo;.</p>
+<p>Now I realise this could be read as quite a negative statement; I&rsquo;m in no way trying to squash ambition entirely – it can be an extremely powerful driving force. Where ambition <em>can</em> have a negative effect is when you&rsquo;re being over ambitious in an area you&rsquo;re unfamiliar with.</p>
+<p>Let&rsquo;s take game development as an example. If you set yourself some <!-- raw HTML omitted -->ridiculous<!-- raw HTML omitted --> stretch goals early on (let&rsquo;s say a 3D web-based <!-- raw HTML omitted -->MMO<!-- raw HTML omitted --> game) then unless you&rsquo;re the kind of person who never gives up, your enthusiasm is likely to wane the more small hurdles you have to jump along the way. This kind of project is excellent once you&rsquo;ve tried (and maybe failed) a few times on smaller things.</p>
+<h2 id="a-bit-of-introspection">A Bit Of Introspection</h2>
+<p>After the aforementioned conversation, I took a look through the &lsquo;Web Projects&rsquo; folder on my computer. The ratio of released/dead projects in here swings massively in favour of the latter. There&rsquo;s a clear pattern too – they are nearly all very big projects which I have made a start on before I&rsquo;ve tackled some of the smaller issues which ended up getting in the way early on. Despite my seemingly limitless enthusiasm for these projects in the early days, it slowly got eaten away until it was no longer a fun way to spend my spare time.</p>
+<p>The &lsquo;successful&rsquo; projects have a pattern too: they&rsquo;re all small, realistic, and fun. They&rsquo;ve all been great learning projects and have paved the way for bigger and better things now that I&rsquo;ve expanded my knowledge.</p>
+<p>My personal take-away here is to remain ambitious, but also keep that side of myself in check. Recognise the pattern, and save some of the bigger projects for later!</p>
+]]></content></entry><entry><title type="html">How to Sell Technology</title><link href="https://rowanmanning.github.io/new-website-test/posts/how-to-sell-technology/" rel="alternate" type="text/html"/><id>https://rowanmanning.github.io/new-website-test/posts/how-to-sell-technology/</id><published>2012-11-10T16:15:00+00:00</published><updated>2012-11-10T16:15:00+00:00</updated><content type="html"><![CDATA[<blockquote>The dressing up of technology in advertising doesn&rsquo;t work for me. I like to know how the product looks, feels and works in as short a time as possible. The same applies to web design.</blockquote><p>I&rsquo;m going to talk about something which irritates me; you&rsquo;ll have to forgive me if I descend into a rant at first, but trust me – there&rsquo;s a point to this!</p>
+<p>The dressing up of technology in advertising doesn&rsquo;t work for me. I like to know how the product looks, feels and works in as short a time as possible. The same principals apply to web design.</p>
+<h2 id="sell-it-to-me">Sell It To Me</h2>
+<p>Think about what makes you buy a product. For me, I&rsquo;m attracted to a product if I believe it can make my life easier or more enjoyable in some way (and also if I think it will make me cooler… lol jk). For somebody looking for those qualities, it&rsquo;s important to see the key features of the product very quickly. A common theme I&rsquo;m seeing in tech advertising is a little worrying, there&rsquo;s  no attempt to build a connection between potential customers and the product in question; what I&rsquo;m seeing is an attempt to appeal to people&rsquo;s impulse and sense of &ldquo;cool&rdquo;.</p>
+<p>I can illustrate this very easily. Look at the following ad for Microsoft Surface, this is one of their launch pieces:</p>
+
+
+
+	
+
+
+<figure class="media">
+	<iframe class="media__youtube" src="http://www.youtube.com/embed/U7UlE-o8DQQ" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+</figure>
+
+<p>You can also find a similar example with the <a href="http://youtu.be/dpzu3HM2CIo">Surface Teaser</a> and tentatively the <a href="http://youtu.be/F5wDYaxjbxg">Motorola RAZR M Ad</a>.</p>
+<p>What does the Surface advert tell us about the product? The answer is nothing beyond some hardware details – I know it has a keyboard and a touch screen but what can I actually do with it? How will it make my life better?</p>
+<p>As a comparison (don&rsquo;t stamp me with &ldquo;Fan-boy&rdquo; yet), let&rsquo;s look at the iPad launch ad:</p>
+
+
+
+	
+
+
+<figure class="media">
+	<iframe class="media__youtube" src="http://www.youtube.com/embed/_N3TW_HA-PE" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+</figure>
+
+<p>I won&rsquo;t make a list but from only thirty seconds of footage I know an awful lot about what the product actually does! It&rsquo;s exciting. They haven&rsquo;t even <em>really</em> focused on the hardware, because that&rsquo;s not what the customer cares about – the customer cares about functionality.</p>
+<p>There are other product ads that recognise this too – the <a href="http://youtu.be/6o0T44_4hb8">Samsung Galaxy S3</a> and the <a href="http://youtu.be/SbXnCQtQTWc">Nokia Lumia</a>. Notice a pattern? They are letting the product sell itself.</p>
+<p>I&rsquo;ll pull up one more set of examples before I apply this to web design. Web Browsers aren&rsquo;t particularly exciting to anyone outside of web development. However, watch this Internet Explorer advertisement and marvel at its ability to spend a whole minute <em>trying</em> to make a browser look cool:</p>
+
+
+
+	
+
+
+<figure class="media">
+	<iframe class="media__youtube" src="http://www.youtube.com/embed/WA8sLsM3McU" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+</figure>
+
+<p>Then watch even just one of these <a href="http://www.youtube.com/user/googlechrome">Google Chrome commercials</a>. Google have a different strategy here, they stop trying to talk about the browser and look at why and how we use it. They tell some very human stories which don&rsquo;t try to dress up the product, In fact they avoid making their product the centre of attention at all.</p>
+<h2 id="so-how-does-this-apply-to-web-design">So How Does This Apply To Web Design?</h2>
+<p>The rights, wrongs, and near-atrocities of the highlighted adverts can be applied directly to building websites, particularly when working on a home page or landing page which is supposed to draw potential users/customers in.</p>
+<p>The mistake I see in the Microsoft Surface ads is that they focus far too much on presentation over clear information. We&rsquo;ve all seen this on the web before – the home page where you&rsquo;re not able to find the information you need because of an overly distracting visual. In the advertisements from other tablet/phone manufacturers, we&rsquo;re given a list of features which allow you to see the benefit of the product immediately. When designing a landing page your goal should be to deliver information to the user as quickly and efficiently as possible, not wow them with impressive visuals.</p>
+<p>With the Internet Explorer commercial, to an outsider it may not even be clear what the ad is about. They&rsquo;ve made the mistake of trying to make a browser look amazing to regular people, many of whom <a href="http://youtu.be/o4MwTvtyrUQ">don&rsquo;t even know what a browser is</a>. If you&rsquo;re faced with the problem of promoting a product which is not very easily understandable, then a good way to do this is to tell a story. A story can not only help someone understand an abstract concept, but can also really help them see <em>value</em> in it – they connect with the human element in a story.</p>
+<h2 id="to-conclude">To Conclude</h2>
+<p>So, I probably took quite a long time to get to quite a simple point, but I thought it would be nice to illustrate the importance of user-focused design with a more &lsquo;real-world&rsquo; example (and vent a little of my personal frustration).</p>
+<p>Next time you&rsquo;re working on a design (or anything else targeted at customers for that matter), remember to think about the information they need before you think about ways to make your product look &lsquo;hip&rsquo; and &lsquo;cool&rsquo;. They will thank you for it, and I won&rsquo;t rant about it ☺️</p>
+]]></content><category scheme="https://rowanmanning.github.io/new-website-test/tags/rant" term="rant" label="Rant"/><category scheme="https://rowanmanning.github.io/new-website-test/tags/advertising" term="advertising" label="Advertising"/></entry><entry><title type="html">Why I Built Another CSS Grid</title><link href="https://rowanmanning.github.io/new-website-test/posts/why-i-built-another-css-grid/" rel="alternate" type="text/html"/><id>https://rowanmanning.github.io/new-website-test/posts/why-i-built-another-css-grid/</id><published>2012-07-24T21:34:00+00:00</published><updated>2012-07-24T21:34:00+00:00</updated><content type="html"><![CDATA[<blockquote>Building yet another grid system could be seen as bloating an already-bloated landscape; but sometimes, rolling your own tools is one of the best things you can do.</blockquote><p>A couple of months ago, I decided to set about building a CSS grid system. I realise that I&rsquo;ve entered a wildly bloated landscape here (you can&rsquo;t move on the web for fancy new grid systems) but I had my reasons. I&rsquo;d like to talk about why I built a grid system, and why (maybe) you should too.</p>
+<h2 id="my-problem">My Problem</h2>
+<p>When my website went through its last rebuild, I realised that there was no way I could get by without some kind of grid. I wrote down a couple of requirements that I had:</p>
+<ul>
+<li>Fluidity - fixed-width layouts don&rsquo;t do it for me.</li>
+<li>Responsivity - I don&rsquo;t think it&rsquo;s sensible to not provide at least a basic mobile-optimised view.</li>
+<li>IE7 support - a contentious one, I know, but I want at least a sensible looking page in older browsers.</li>
+</ul>
+<p>With these requirements in mind, I decided to have a look at what was available. It didn&rsquo;t take me long to realise that there are a million projects out there; a split between massively overcomplicated frameworks which try to <a href="http://www.rachelandrew.co.uk/archives/2012/03/21/stop-solving-problems-you-dont-yet-have/">solve every problem in the world</a> and neat little <a href="http://1kbgrid.com/">micro-grids</a>. While there were some really great libraries, none of them felt quite right for me – I&rsquo;m hard to please.</p>
+<h2 id="building">Building</h2>
+<p>What surprised me is how quickly I ended up with a good working (IE 6+) prototype. Not only was it fast, but I had a lot of fun!</p>
+<p>After a couple of hours spent tweaking and testing, I <a href="http://fragcss.com/">ended up with Frag</a>. It&rsquo;s not perfect, it&rsquo;s not extremely feature-rich, but it does exactly the job I need it to do.</p>
+
+<figure class="media ">
+
+	<a href="http://fragcss.com/" class="media__link">
+		<img
+			class="media__image"
+			src="/new-website-test/media/images/posts/frag-website-screengrab.jpg"
+			alt="A screen-grab of the Frag website"
+		/>
+	</a>
+
+	
+		<figcaption class="media__caption">A screen-grab of the Frag website</figcaption>
+	
+
+</figure>
+
+<h2 id="so-why-build-your-own">So Why Build Your Own?</h2>
+<p>I&rsquo;m not advocating rolling your own in every situation, but there are a lot of benefits to spending a little time on your own solution to a problem:</p>
+<dl>
+<dt>Learning</dt>
+<dd>I learnt a lot in the process of building Frag, particularly about <a href="https://developer.mozilla.org/en/CSS/Media_queries/">CSS3 media queries</a>. I don&rsquo;t know about you, but I love to learn; throwing yourself into a problem is nearly always the best way to do this.</dd>
+<dt>Understanding</dt>
+<dd>The benefit of understanding the code you&rsquo;re using inside out is massive. There&rsquo;s nearly always an overhead when learning how to use third-party software. Sometimes, for simple things, this is avoidable by building it yourself.</dd>
+<dt>Giving Back</dt>
+<dd>Whether or not you expect anyone to use it, you can get a pretty good feeling from releasing open-source software. You might help someone out with a project or with learning a new technology. This is awesome!</dd>
+</dl>
+<p>If you do end up building something great as a result of this post, I&rsquo;d be really interested to take a look: tweet it at me!</p>
+<p>And if you don&rsquo;t fancy building your own grid system, you could always <a href="http://fragcss.com/">use Frag</a> 😉</p>
+]]></content><category scheme="https://rowanmanning.github.io/new-website-test/tags/css" term="css" label="CSS"/><category scheme="https://rowanmanning.github.io/new-website-test/tags/grid" term="grid" label="Grid"/><category scheme="https://rowanmanning.github.io/new-website-test/tags/responsive" term="responsive" label="Responsive"/></entry><entry><title type="html">Accessibility: Beyond the Screen-Reader</title><link href="https://rowanmanning.github.io/new-website-test/posts/accessibility-beyond-the-screen-reader/" rel="alternate" type="text/html"/><id>https://rowanmanning.github.io/new-website-test/posts/accessibility-beyond-the-screen-reader/</id><published>2012-06-19T21:05:00+00:00</published><updated>2012-06-20T10:30:00+00:00</updated><content type="html"><![CDATA[<blockquote>Web accessibility isn&rsquo;t just about catering for blind users. In this post, we talk about the other users we need to consider in order to make the web accessible to all. cta: Read about accessibility</blockquote><p>I&rsquo;d like to begin this post with a disclaimer: I&rsquo;m not an accessibility expert. In fact, web accessibility scares me; it&rsquo;s that daunting consideration when kicking off a web project that can send shivers down the spines of the hardiest developers. Luckily, us web folk love a challenge!</p>
+<p>The purpose of this post is to talk about the common misunderstanding that accessibility means catering for blind people almost exclusively. I&rsquo;ve found myself frustrated by “accessibility tunnel-vision” on a number of occasions recently which has inspired me to explain <em>my</em> understanding of web accessibility. Who exactly are we trying to cater for? We&rsquo;ll start with the obvious:</p>
+<h2 id="blind-or-partially-sighted-users">Blind Or Partially Sighted Users</h2>
+<p>This is the user that we tend to jump to when accessibility is mentioned. These users may rely completely on assistive technology, such as a screen-reader, to access the web. Partially sighted or vision-impaired users may not rely on a screen-reader, but will find it difficult to read content if the type is too small or cannot be zoomed.</p>
+<p>There are a wealth of resources available to help make our websites work well for this group. In order to achieve a basic level of support, it helps to ensure that your website is usable in a <a href="http://lynx.browser.org/" title="The Lynx Browser">text-based browser such as Lynx</a> – writing sensible, semantic markup is a first step. I also can&rsquo;t emphasise what an eye-opener it is to <a href="http://webaim.org/articles/screenreader_testing/" title="Testing with Screen Readers: Questions and Answers">try and use a screen-reader yourself</a>.</p>
+<p>Vision impaired users can be catered for by keeping your type sizes sensible (personal preference: <code>&gt;=16px</code>), and ensuring that your content is zoomable. You&rsquo;ll make this a lot easier by using a scalable font measurement in your CSS such as <code>em</code> or <code>rem</code>.</p>
+<h2 id="colour-blind-users">Colour-Blind Users</h2>
+<p>Colour-blind users may find it hard to distinguish between elements on a page if they are similar in colour. This can become a problem when the contrast between two elements is important; for example, between your website text and background. People with even mild colour-blindness may find it difficult to read content.</p>
+<p>When it comes to catering for colour-blind users, subtlety becomes your enemy; there are some great <a href="http://snook.ca/technical/colour_contrast/colour.html" title="Colour Contrast Checking Tool">contrast checking tools online</a> which can help you immensely.</p>
+<h2 id="users-with-physical-disabilities">Users With Physical Disabilities</h2>
+<p>Physical disabilities can encompass anything from minor impairments of motor-skills to paralysis. Motor impairments are common in elderly web users who may rely on a keyboard alone to browse the web – using a mouse requires small, precise hand movements.</p>
+<p>Ensuring that your website is keyboard-accessible is important, it&rsquo;s also quite easy to test: unplug your mouse! There are quite a few resources around the web on this topic, and <a href="http://www.456bereastreet.com/archive/201104/keyboard_accessibility_again/" title="Some useful quick-tips on keyboard accessibility">fixing up your website for keyboard users</a> is actually relatively easy.</p>
+<h2 id="users-with-cognitive-disabilities">Users With Cognitive Disabilities</h2>
+<p>Cognitive disabilities get little air-time in my opinion, yet conditions such as dyslexia are extremely common. The diversity of this group is huge, and cognitive disabilities can have an adverse effect on memory; problem solving; attention; and reading, linguistic and verbal comprehension to name a few:</p>
+<dl>
+<dt>Memory</dt>
+<dd>Some users may have difficulties with their long, mid or short-term memories. This can be an issue when moving through a stepped sign-up or purchasing process for example. Clear sign-posting and guidance is essential for these users.</dd>
+<dt>Problem solving</dt>
+<dd>For users who have trouble problem-solving, things like form errors or unclear instructions are a nightmare. Instructions should be clear and large changes to the page should be explained to the user.</dd>
+<dt>Attention</dt>
+<dd>Users with conditions such as <!-- raw HTML omitted -->ADHD<!-- raw HTML omitted --> often struggle to maintain concentration when completing a task. Avoiding background noise on a page and using visual cues to highlight important content helps these users.</dd>
+<dt>Reading, linguistic and verbal comprehension</dt>
+<dd>This broad category ranges from problems understanding long or complex words and sentence structure, to difficulty processing non-literal text such as sarcasm, metaphor or slang. Clear document structure, supplemental media and uncomplicated writing can help these users a lot.</dd>
+</dl>
+<p>For more information, I can&rsquo;t recommend this <a href="http://webaim.org/articles/cognitive/" title="In-depth article on cognitive disabilities and the web">article on cognitive disabilities</a> enough. It goes into far more depth than I could on the subject!</p>
+<h2 id="to-conclude">To Conclude</h2>
+<p>So I hope I haven&rsquo;t made accessibility an even scarier word for you! Granted there&rsquo;s a lot to consider, and accessibility can seem like a bit of a minefield, but building accessible websites can be an extremely rewarding endeavour.</p>
+<p>By thinking about these users while you build, not only will you help people with disabilities, but many of the relatively small improvements listed in this post will make your site more usable for <em>everyone</em>.</p>
+<p>Thanks for reading,<br>
+Rowan</p>
+<p>For further reading on this subject, see:</p>
+<ul>
+<li><a href="http://webaim.org/articles/">Accessibility articles from WebAIM</a></li>
+<li><a href="http://www.bbc.co.uk/accessibility/guides/">The BBC&rsquo;s web accessibility guides</a></li>
+<li><a href="http://filamentgroup.com/dwpe/">Designing with Progressive Enhancement</a>, a book by Filament Group</li>
+</ul>
+]]></content><category scheme="https://rowanmanning.github.io/new-website-test/tags/accessibility" term="accessibility" label="Accessibility"/></entry></feed>
