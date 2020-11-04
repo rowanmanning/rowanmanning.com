@@ -15,7 +15,7 @@ menu:
 	width="100"
 >}}
 
-I’m Rowan Manning, a Principal Engineer at the Financial Times, where I oversee several of the teams responsible for delivering [Financial Times](https://ft.com/). Before this I lead the [Origami](https://origami.ft.com/) team who produce the FT's component system.
+I’m Rowan Manning, a Principal Engineer at the Financial Times, where I oversee several of the teams responsible for delivering [FT.com](https://ft.com/). Before this I lead the [Origami](https://origami.ft.com/) team who produce the FT's component system.
 
 Before the FT I worked at Nature Publishing Group (now [Springer Nature](https://www.springernature.com/)) as a front end engineer, and various small companies before Nature.
 
