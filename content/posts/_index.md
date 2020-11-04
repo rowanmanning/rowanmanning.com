@@ -9,4 +9,4 @@ aliases:
   - /blog/
 ---
 
-This is my blog.
+This is my blog, which I use to sporadically (basically never) post about web development. Anything pre-2014 is bad and you shouldn't read it.

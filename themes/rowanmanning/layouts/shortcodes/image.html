@@ -1,7 +1,7 @@
 
 <figure class="media {{ if (isset .Params "pin") }}media--pin-{{.Get "pin"}}{{ end }}">
 
-	{{ if (isset .Params "link") }}<a href="{{ .Get "link" }}" class="media__link">{{ end }}
+	{{ if (isset .Params "link") }}<a href="{{ .Get "link" | relURL }}" class="media__link">{{ end }}
 		<img
 			class="media__image"
 			src="{{ .Get "src" | relURL }}"
