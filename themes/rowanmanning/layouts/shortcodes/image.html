@@ -1,16 +1,56 @@
 
-<figure class="media {{ if (isset .Params "pin") }}media--pin-{{.Get "pin"}}{{ end }}">
+{{/* Get the image source */}}
+{{- $imageSource := "" -}}
+{{- if .IsNamedParams -}}
+	{{- $imageSource = .Get "src" -}}
+{{- else -}}
+	{{- $imageSource = .Get 0 -}}
+{{- end -}}
 
-	{{ if (isset .Params "link") }}<a href="{{ .Get "link" | relURL }}" class="media__link">{{ end }}
-		<img
-			class="media__image"
-			src="{{ .Get "src" | relURL }}"
-			alt="{{ .Get "caption" }}"
-		/>
-	{{ if (isset .Params "link") }}</a>{{ end }}
+{{/* Get the image alt text */}}
+{{- $alt := "" -}}
+{{- if .IsNamedParams -}}
+	{{- $alt = .Get "alt" -}}
+{{- else -}}
+	{{- $alt = .Get 1 -}}
+{{- end -}}
 
-	{{ if and (isset .Params "caption") (not (isset .Params "hide-caption")) }}
-		<figcaption class="media__caption">{{ .Get "caption" }}</figcaption>
+{{/* Get the image caption */}}
+{{- $caption := "" -}}
+{{- if .IsNamedParams -}}
+	{{- $caption = .Get "caption" -}}
+{{- else -}}
+	{{- $caption = .Get 2 -}}
+{{- end -}}
+
+{{/* Get the image link */}}
+{{- $link := "" -}}
+{{- if .IsNamedParams -}}
+	{{- $link = .Get "link" -}}
+{{- end -}}
+
+{{/* Default the image link to the image source */}}
+{{- $linkIsImage := false -}}
+{{- if not $link -}}
+	{{- $link = $imageSource -}}
+	{{- $linkIsImage = true -}}
+{{- end -}}
+
+{{/* If no alt text is present but a caption is, use the caption */}}
+{{- if and (not $alt) $caption -}}
+	{{- $alt = $caption -}}
+{{- end -}}
+
+{{/* Error if there's no alt text */}}
+{{- if not $alt -}}
+	{{- errorf "Missing image alt attribute: %s" .Position -}}
+{{- end -}}
+
+<figure class="image" data-component="image">
+	<a href="{{ $link | relURL }}" {{ if $linkIsImage }}data-role="image:modal"{{ end }}>
+		<img src="{{ $imageSource | relURL }}" alt="{{ $alt }}" />
+	</a>
+	{{ if $caption }}
+		<figcaption class="image__caption">{{ $caption }}</figcaption>
 	{{ end }}
-
 </figure>

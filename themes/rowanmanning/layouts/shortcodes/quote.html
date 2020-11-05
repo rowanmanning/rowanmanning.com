@@ -1,10 +1,11 @@
 
-{{ $citation := "" }}
-{{ if .IsNamedParams }}
-	{{ $citation = .Get "cite" }}
-{{ else }}
-	{{ $citation = .Get 0 }}
-{{ end }}
+{{/* Get the quote citation */}}
+{{- $citation := "" -}}
+{{- if .IsNamedParams -}}
+	{{- $citation = .Get "cite" -}}
+{{- else -}}
+	{{- $citation = .Get 0 -}}
+{{- end -}}
 
 <figure class="quote">
 	<blockquote class="quote__body">{{ .Inner }}</blockquote>

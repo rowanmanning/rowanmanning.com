@@ -1,0 +1,36 @@
+
+{{/* Get the song track ID */}}
+{{- $trackId := "" -}}
+{{- if .IsNamedParams -}}
+	{{- $trackId = .Get "id" -}}
+{{- else -}}
+	{{- $trackId = .Get 0 -}}
+{{- end -}}
+
+{{/* Get the song caption */}}
+{{- $caption := "" -}}
+{{- if .IsNamedParams -}}
+	{{- $caption = .Get "caption" -}}
+{{- else -}}
+	{{- $caption = .Get 1 -}}
+{{- end -}}
+
+{{/* Default the song caption to a generic string */}}
+{{- $caption = $caption | default "Listen on Spotify" -}}
+
+{{/* Error if there's no track ID */}}
+{{- if not $trackId -}}
+	{{- errorf "Missing song track ID: %s" .Position -}}
+{{- end -}}
+
+<figure class="embed">
+	<iframe
+		class="embed__spotify-track"
+		src="https://open.spotify.com/embed/track/{{ $trackId }}"
+		frameborder="0"
+		allowtransparency="true"
+		allow="encrypted-media"
+		title="{{ $caption }}"
+	></iframe>
+	<figcaption class="embed__caption">{{ $caption }}</figcaption>
+</figure>

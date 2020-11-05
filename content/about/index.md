@@ -7,13 +7,12 @@ menu:
     weight: 60
 ---
 
-{{<image
-	src="/about/rowan.png"
-	caption="Rowan Manning"
-	hide-caption=true
-	pin="right"
-	width="100"
->}}
+{{< pin right >}}
+	{{< image
+		src="/about/rowan.png"
+		alt="Rowan Manning"
+	>}}
+{{< /pin >}}
 
 I’m Rowan Manning, a Principal Engineer at the Financial Times, where I oversee several of the teams responsible for delivering [FT.com](https://ft.com/). Before this I lead the [Origami](https://origami.ft.com/) team who produce the FT's component system.
 
@@ -21,13 +20,12 @@ Before the FT I worked at Nature Publishing Group (now [Springer Nature](https:/
 
 I mostly write HTML, CSS, and JavaScript (client-side and Node.js) and people have been paying me to do this for ~12 years. I think websites should be progressively enhanced and accessible to everyone.
 
-{{<image
-	src="/about/tootsie.png"
-	caption="My cat, Tootsie"
-	hide-caption=true
-	pin="left"
-	width="100"
->}}
+{{< pin left >}}
+	{{< image
+		src="/about/tootsie.png"
+		alt="My cat, Tootsie"
+	>}}
+{{< /pin >}}
 
 I maintained [Pa11y](https://pa11y.org/), an accessibility testing tool, and other free software projects until I got super burned out by open source. Now I use my spare time to play {{< abbr "Dungeons & Dragons" >}}D&amp;D{{< /abbr >}} (I love the world-building) or Minecraft (I love the world-building).
 

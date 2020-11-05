@@ -1,0 +1,36 @@
+
+{{/* Get the video ID */}}
+{{- $videoId := "" -}}
+{{- if .IsNamedParams -}}
+	{{- $videoId = .Get "id" -}}
+{{- else -}}
+	{{- $videoId = .Get 0 -}}
+{{- end -}}
+
+{{/* Get the video caption */}}
+{{- $caption := "" -}}
+{{- if .IsNamedParams -}}
+	{{- $caption = .Get "caption" -}}
+{{- else -}}
+	{{- $caption = .Get 1 -}}
+{{- end -}}
+
+{{/* Default the video caption to a generic string */}}
+{{- $caption = $caption | default "Watch on YouTube" -}}
+
+{{/* Error if there's no video ID */}}
+{{- if not $videoId -}}
+	{{- errorf "Missing video ID: %s" .Position -}}
+{{- end -}}
+
+<figure class="embed">
+	<iframe
+		class="embed__youtube-video"
+		src="https://www.youtube.com/embed/{{ $videoId }}"
+		frameborder="0"
+		allowtransparency="true"
+		allow="fullscreen"
+		title="{{ $caption }}"
+	></iframe>
+	<figcaption class="embed__caption">{{ $caption }}</figcaption>
+</figure>

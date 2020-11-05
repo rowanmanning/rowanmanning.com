@@ -13,6 +13,7 @@ $site-base-url: "{{ "/" | relURL }}";
 @import "tokens/typography";
 
 // Shared extensible styles
+@import "shared/hidden";
 @import "shared/icon";
 @import "shared/layout";
 @import "shared/link";
@@ -25,16 +26,17 @@ $site-base-url: "{{ "/" | relURL }}";
 @import "components/content-highlight";
 @import "components/content-list";
 @import "components/content-summary";
+@import "components/embed";
 @import "components/footer";
 @import "components/header";
 @import "components/hero";
-@import "components/hidden";
 @import "components/highlight";
+@import "components/image";
 @import "components/inline-list";
 @import "components/main";
-@import "components/media";
 @import "components/notification";
 @import "components/page";
+@import "components/pin";
 @import "components/table";
 @import "components/tag";
 @import "components/tile-layout";
