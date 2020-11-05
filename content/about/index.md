@@ -8,7 +8,7 @@ menu:
 ---
 
 {{<image
-	src="/media/images/Rowan.png"
+	src="/about/rowan.png"
 	caption="Rowan Manning"
 	hide-caption=true
 	pin="right"
@@ -22,7 +22,7 @@ Before the FT I worked at Nature Publishing Group (now [Springer Nature](https:/
 I mostly write HTML, CSS, and JavaScript (client-side and Node.js) and people have been paying me to do this for ~12 years. I think websites should be progressively enhanced and accessible to everyone.
 
 {{<image
-	src="/media/images/Tootsie.png"
+	src="/about/tootsie.png"
 	caption="My cat, Tootsie"
 	hide-caption=true
 	pin="left"
