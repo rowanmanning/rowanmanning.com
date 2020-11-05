@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan's Blog | Rowan Manning</title><link href="https://rowanmanning.com/posts/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/posts/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-11-05T08:57:38+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/posts/</id><entry><title type="html">A New Home For Pa11y</title><link href="https://rowanmanning.com/posts/a-new-home-for-pa11y/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/accessibility-testing-with-pa11y/" rel="related" type="text/html" title="Accessibility Testing with pa11y"/><link href="https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/" rel="related" type="text/html" title="Accessibility: Beyond the Screen-Reader"/><id>https://rowanmanning.com/posts/a-new-home-for-pa11y/</id><published>2016-05-23T18:30:00+00:00</published><updated>2016-05-23T18:30:00+00:00</updated><content type="html"><![CDATA[<blockquote>Pa11y has moved to a new organisation on GitHub. It&rsquo;s a time of change for the project, and the team is extremely excited about the future.</blockquote><p>I&rsquo;m out of breath because I practically ran home to write this post. I&rsquo;m excited because, as of today, <a href="https://github.com/pa11y/pa11y">Pa11y</a> and all of the projects around it have moved to a <a href="https://github.com/pa11y">new GitHub organisation</a>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan's Blog | Rowan Manning</title><link href="https://rowanmanning.com/posts/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/posts/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-11-05T18:01:38+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/posts/</id><entry><title type="html">A New Home For Pa11y</title><link href="https://rowanmanning.com/posts/a-new-home-for-pa11y/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/accessibility-testing-with-pa11y/" rel="related" type="text/html" title="Accessibility Testing with pa11y"/><link href="https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/" rel="related" type="text/html" title="Accessibility: Beyond the Screen-Reader"/><id>https://rowanmanning.com/posts/a-new-home-for-pa11y/</id><published>2016-05-23T18:30:00+00:00</published><updated>2016-05-23T18:30:00+00:00</updated><content type="html"><![CDATA[<blockquote>Pa11y has moved to a new organisation on GitHub. It&rsquo;s a time of change for the project, and the team is extremely excited about the future.</blockquote><p>I&rsquo;m out of breath because I practically ran home to write this post. I&rsquo;m excited because, as of today, <a href="https://github.com/pa11y/pa11y">Pa11y</a> and all of the projects around it have moved to a <a href="https://github.com/pa11y">new GitHub organisation</a>.</p>
 <p>This is an important step for us, we&rsquo;re moving towards being a self-governing team and away from any one company. We believe this will help us better achieve our goal – to help make the web more accessible for everyone.</p>
 <p>We&rsquo;re extremely grateful to both Nature Publishing Group and, later, Springer Nature for guiding Pa11y through the early years. We&rsquo;d also like to thank Springer Nature for transferring the repositories over to the new organisation.</p>
 <h2 id="what-does-this-mean">What Does This Mean?</h2>
@@ -40,20 +40,13 @@
 <p>While the existence of <a href="http://iampaddy.com/lifebelow600/">&ldquo;the fold&rdquo; is debatable</a>, it&rsquo;s fairly widely agreed that the top part of a website should be used to display the <em>most</em> important information. We can apply the same principle to our README.</p>
 <p>So what are the most important things? The project name is pretty important, as is what it actually <em>does</em>. So let&rsquo;s ease ourselves in by adding those:</p>
 
-<figure class="media ">
-
-	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-01-md" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/writing-a-friendly-readme/heading-01.png"
-			alt="Project heading with name and description"
-		/>
+<figure class="image" data-component="image">
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-01-md" >
+		<img src="/media/images/posts/writing-a-friendly-readme/heading-01.png" alt="Project heading with name and description" />
 	</a>
-
 	
-		<figcaption class="media__caption">Project heading with name and description</figcaption>
+		<figcaption class="image__caption">Project heading with name and description</figcaption>
 	
-
 </figure>
 
 <p>The above mostly caters for new users, but this top part of the README should help our existing users too; they have a few easy-to-answer questions. When I visit a project that I&rsquo;m familiar with, I want to know:</p>
@@ -71,79 +64,51 @@
 <p>We can answer all of these questions with <strong>badges</strong>! 🎉</p>
 <p>I opt for a row of badges just beneath the project description. A single row doesn&rsquo;t occupy a lot of space and can convey an awful lot of information:</p>
 
-<figure class="media ">
-
-	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-02-md" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/writing-a-friendly-readme/heading-02.png"
-			alt="Project heading with badges added"
-		/>
+<figure class="image" data-component="image">
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-02-md" >
+		<img src="/media/images/posts/writing-a-friendly-readme/heading-02.png" alt="Project heading with badges added" />
 	</a>
-
 	
-		<figcaption class="media__caption">Project heading with badges added</figcaption>
+		<figcaption class="image__caption">Project heading with badges added</figcaption>
 	
-
 </figure>
 
 <p>Aren&rsquo;t they beautiful? I use a <a href="http://shields.io/">service called shields.io</a> which provides consistent badge images as well as a way to add custom badges for license information etc.</p>
 <p>Lastly as part of the heading section, if the project or library is simple enough to allow it, we can add a quick usage example. This really helps new users understand what your project does and can be just as helpful as the description.</p>
 
-<figure class="media ">
-
-	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-03-md" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/writing-a-friendly-readme/heading-03.png"
-			alt="Full project heading with an example"
-		/>
+<figure class="image" data-component="image">
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-03-md" >
+		<img src="/media/images/posts/writing-a-friendly-readme/heading-03.png" alt="Full project heading with an example" />
 	</a>
-
 	
-		<figcaption class="media__caption">Full project heading with an example</figcaption>
+		<figcaption class="image__caption">Full project heading with an example</figcaption>
 	
-
 </figure>
 
 <p>We&rsquo;ve covered a lot in our top section in a relatively small amount of space. Well done, us! Now we need to move on to some of the more meaty questions that users have. Our README is going to get longer and potentially difficult to navigate, a sensible thing to do now would be to add a table of contents.</p>
 <h2 id="table-of-contents">Table of Contents</h2>
 <p>A table of contents is useful even in a relatively short README. It eases the pain of having to search for information, and gives the user some helpful jump-links to different parts of your documentation.</p>
 
-<figure class="media ">
-
-	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-table-of-contents-01-md" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/writing-a-friendly-readme/table-of-contents-01.png"
-			alt="A nicely linked table of contents"
-		/>
+<figure class="image" data-component="image">
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-table-of-contents-01-md" >
+		<img src="/media/images/posts/writing-a-friendly-readme/table-of-contents-01.png" alt="A nicely linked table of contents" />
 	</a>
-
 	
-		<figcaption class="media__caption">A nicely linked table of contents</figcaption>
+		<figcaption class="image__caption">A nicely linked table of contents</figcaption>
 	
-
 </figure>
 
 <p>If the user just wants to check the usage guide then why should they have to scroll through the installation instructions, which are potentially only useful the first time somebody uses your project?</p>
 <h2 id="requirements">Requirements</h2>
 <p>Now we&rsquo;ve reached a part of the documentation which is more useful to new users than anyone else, let&rsquo;s be really friendly and make sure they get what they need. This is the place to add all of the requirements your project has: language, language versions, package managers, operating systems. Anything that isn&rsquo;t covered as part of the project&rsquo;s actual installation.</p>
 
-<figure class="media ">
-
-	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-requirements-01-md" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/writing-a-friendly-readme/requirements-01.png"
-			alt="Project requirements"
-		/>
+<figure class="image" data-component="image">
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-requirements-01-md" >
+		<img src="/media/images/posts/writing-a-friendly-readme/requirements-01.png" alt="Project requirements" />
 	</a>
-
 	
-		<figcaption class="media__caption">Project requirements</figcaption>
+		<figcaption class="image__caption">Project requirements</figcaption>
 	
-
 </figure>
 
 <p>This can be written in prose or as a list, as long as it&rsquo;s abundantly clear. This helps you too – it means fewer issues being opened asking why somebody can&rsquo;t get your project running.</p>
@@ -153,56 +118,35 @@
 <p>Depending on the kind of project you&rsquo;re writing a README for, this section could take many forms. You might need documentation for a programmatic API, a web interface, a web API, or a command-line tool; sometimes several of these. The guidelines below reference a JavaScript API, but you can apply them to other interfaces as well.</p>
 <p>Firstly we need to mention how to get hold of the code, whether it&rsquo;s by cloning the repo or installing through a package manager. Don&rsquo;t forget to link out to anything useful, to prevent anyone from getting stuck.</p>
 
-<figure class="media ">
-
-	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-01-md" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/writing-a-friendly-readme/usage-01.png"
-			alt="How to install Paddington"
-		/>
+<figure class="image" data-component="image">
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-01-md" >
+		<img src="/media/images/posts/writing-a-friendly-readme/usage-01.png" alt="How to install Paddington" />
 	</a>
-
 	
-		<figcaption class="media__caption">How to install Paddington</figcaption>
+		<figcaption class="image__caption">How to install Paddington</figcaption>
 	
-
 </figure>
 
 <p>When documenting an API, keep it clear and simple. This means documenting the majority use-case first, your happy path. This keeps everything nicely focused for first-time users. In our case, we outline the method arguments and return values, ideally with examples. The less ambiguous this is, the fewer questions you&rsquo;ll get.</p>
 
-<figure class="media ">
-
-	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-02-md" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/writing-a-friendly-readme/usage-02.png"
-			alt="How to use Paddington"
-		/>
+<figure class="image" data-component="image">
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-02-md" >
+		<img src="/media/images/posts/writing-a-friendly-readme/usage-02.png" alt="How to use Paddington" />
 	</a>
-
 	
-		<figcaption class="media__caption">How to use Paddington</figcaption>
+		<figcaption class="image__caption">How to use Paddington</figcaption>
 	
-
 </figure>
 
 <p>Once we&rsquo;ve covered our happy path, it&rsquo;s also useful to document any errors that a user might come across as well as edge-cases. This can form a sub-section towards the end of your usage documentation, and is geared towards people who have already installed and used your project. Try to include a few keywords that stuck or confused users might search for.</p>
 
-<figure class="media ">
-
-	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-03-md" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/writing-a-friendly-readme/usage-03.png"
-			alt="Edge-cases and errors"
-		/>
+<figure class="image" data-component="image">
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-03-md" >
+		<img src="/media/images/posts/writing-a-friendly-readme/usage-03.png" alt="Edge-cases and errors" />
 	</a>
-
 	
-		<figcaption class="media__caption">Edge-cases and errors</figcaption>
+		<figcaption class="image__caption">Edge-cases and errors</figcaption>
 	
-
 </figure>
 
 <h2 id="contributing">Contributing</h2>
@@ -210,20 +154,13 @@
 <p>You can help yourself here too, add short instructions on how to run the tests and the criteria for accepting pull requests. This means that your review and acceptance process will be as frictionless as possible.</p>
 <p>This is also where you should add a link to your code of conduct, if you have one. You can make new contributors feel more comfortable, and assure them that any issues they have will be resolved. A good code of conduct to use is the <a href="http://contributor-covenant.org/">Contributor Covenant</a>.</p>
 
-<figure class="media ">
-
-	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-contributing-01-md" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/writing-a-friendly-readme/contributing-01.png"
-			alt="Contribution guidelines"
-		/>
+<figure class="image" data-component="image">
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-contributing-01-md" >
+		<img src="/media/images/posts/writing-a-friendly-readme/contributing-01.png" alt="Contribution guidelines" />
 	</a>
-
 	
-		<figcaption class="media__caption">Contribution guidelines</figcaption>
+		<figcaption class="image__caption">Contribution guidelines</figcaption>
 	
-
 </figure>
 
 <h2 id="support-and-migration">Support and Migration</h2>
@@ -231,39 +168,25 @@
 <p>A full migration guide might be a bit long to add to your README, I use a <code>MIGRATION</code> file in the root of my project repositories and link to it from this section (<a href="https://github.com/springernature/pa11y/blob/master/MIGRATION.md">see pa11y for an example</a>).</p>
 <p>If you have a support plan for older versions, outline it here. Also you can use a simple table to document the major releases and their end-of-support dates.</p>
 
-<figure class="media ">
-
-	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-support-and-migration-01-md" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/writing-a-friendly-readme/support-and-migration-01.png"
-			alt="Support and migration"
-		/>
+<figure class="image" data-component="image">
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-support-and-migration-01-md" >
+		<img src="/media/images/posts/writing-a-friendly-readme/support-and-migration-01.png" alt="Support and migration" />
 	</a>
-
 	
-		<figcaption class="media__caption">Support and migration</figcaption>
+		<figcaption class="image__caption">Support and migration</figcaption>
 	
-
 </figure>
 
 <h2 id="license">License</h2>
 <p>Lastly you should add a copyright notice and a link to the license that your project is released under. Without this information a lot of users, especially working in larger organisations, won&rsquo;t be able to use your project. Even if you distribute your project with a <code>LICENSE</code> file, it&rsquo;s helpful to include a link to it here.</p>
 
-<figure class="media ">
-
-	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-license-01-md" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/writing-a-friendly-readme/license-01.png"
-			alt="License and copyright information"
-		/>
+<figure class="image" data-component="image">
+	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-license-01-md" >
+		<img src="/media/images/posts/writing-a-friendly-readme/license-01.png" alt="License and copyright information" />
 	</a>
-
 	
-		<figcaption class="media__caption">License and copyright information</figcaption>
+		<figcaption class="image__caption">License and copyright information</figcaption>
 	
-
 </figure>
 
 <h2 id="other-sections">Other Sections</h2>
@@ -288,18 +211,11 @@
 <p>Diagonal Lines! Border Radius! Box Shadows! Bright Colours! I think this design <a href="http://theoatmeal.com/comics/design_hell">really pops</a>, don&rsquo;t you? Just look at those icons. Yes, that <em>is</em> Google Buzz (I guess I was optimistic).</p>
 <p>Here&rsquo;s a fun fact which embarrasses me now: several interviewers said that mentioning beer on my CV/website is part of the reason I got an interview. Bro.</p>
 
-<figure class="media ">
-
-	<a href="/media/images/posts/an-evolving-website/2010.jpg" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/an-evolving-website/2010.jpg"
-			alt="2010 Design"
-		/>
+<figure class="image" data-component="image">
+	<a href="/media/images/posts/an-evolving-website/2010.jpg" data-role="image:modal">
+		<img src="/media/images/posts/an-evolving-website/2010.jpg" alt="2010 Design" />
 	</a>
-
 	
-
 </figure>
 
 <h2 id="2011-aka-jaunty-angles">2011 aka &ldquo;Jaunty Angles&rdquo;</h2>
@@ -310,107 +226,65 @@
 <li>Me with my cats. Yep</li>
 </ul>
 
-<figure class="media ">
-
-	<a href="/media/images/posts/an-evolving-website/2011.jpg" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/an-evolving-website/2011.jpg"
-			alt="2011 Design"
-		/>
+<figure class="image" data-component="image">
+	<a href="/media/images/posts/an-evolving-website/2011.jpg" data-role="image:modal">
+		<img src="/media/images/posts/an-evolving-website/2011.jpg" alt="2011 Design" />
 	</a>
-
 	
-
 </figure>
 
 <h2 id="2012-aka-birth-of-a-blog">2012 aka &ldquo;Birth of a Blog&rdquo;</h2>
 <p>Finally, my site does something more than advertise the fact that I like beer! Actually this is the point where my current green colour entered the scene, as well as that bar across the top.</p>
 <p>One aspect of this site needs tearing down. <strong>Look at that profile picture</strong>. <!-- raw HTML omitted -->BRB<!-- raw HTML omitted --> – I&rsquo;m going to curl up in a ball for a while. I oddly decided that for a home page, this image and some &ldquo;about me&rdquo; text was more important than the posts.</p>
 
-<figure class="media ">
-
-	<a href="/media/images/posts/an-evolving-website/2012.jpg" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/an-evolving-website/2012.jpg"
-			alt="2012 Design"
-		/>
+<figure class="image" data-component="image">
+	<a href="/media/images/posts/an-evolving-website/2012.jpg" data-role="image:modal">
+		<img src="/media/images/posts/an-evolving-website/2012.jpg" alt="2012 Design" />
 	</a>
-
 	
-
 </figure>
 
 <h2 id="2013-aka-what-the-pinky-cream">2013 aka &ldquo;What the Pinky Cream?&rdquo;</h2>
 <p>OK what&rsquo;s going on here? &ldquo;What&rsquo;s with the pinky cream?&rdquo;, I yell at past-Rowan. At least in this design I&rsquo;ve switched the ordering/priority of blog posts and bio.</p>
 <p>The pinky cream isn&rsquo;t <em>that</em> far from <!-- raw HTML omitted -->FT<!-- raw HTML omitted --> pink. If I believed in anything supernatural I might read this as a sign that I was destined to work there.</p>
 
-<figure class="media ">
-
-	<a href="/media/images/posts/an-evolving-website/2013.jpg" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/an-evolving-website/2013.jpg"
-			alt="2013 Design"
-		/>
+<figure class="image" data-component="image">
+	<a href="/media/images/posts/an-evolving-website/2013.jpg" data-role="image:modal">
+		<img src="/media/images/posts/an-evolving-website/2013.jpg" alt="2013 Design" />
 	</a>
-
 	
-
 </figure>
 
 <h2 id="2014-aka-boxes-and-projects">2014 aka &ldquo;Boxes and Projects&rdquo;</h2>
 <p>Here&rsquo;s where I got carried away with <a href="https://jekyllrb.com/">Jekyll</a> and decided that I had to use <em>all</em> the features. Adding projects just overcomplicated everything. I still like the individual post colours, and I&rsquo;m glad the pinky cream has been tamed into slightly less pink boxes.</p>
 <p>The green bar at the top just keeps growing, and this is the first design to not display my age anywhere.</p>
 
-<figure class="media ">
-
-	<a href="/media/images/posts/an-evolving-website/2014.jpg" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/an-evolving-website/2014.jpg"
-			alt="2014 Design"
-		/>
+<figure class="image" data-component="image">
+	<a href="/media/images/posts/an-evolving-website/2014.jpg" data-role="image:modal">
+		<img src="/media/images/posts/an-evolving-website/2014.jpg" alt="2014 Design" />
 	</a>
-
 	
-
 </figure>
 
 <h2 id="2015-aka-spring-clean">2015 aka &ldquo;Spring Clean&rdquo;</h2>
 <p>Projects are dead! There&rsquo;s a lot less competing for your attention now, and I think that&rsquo;s a good thing. This is probably the smallest design iteration there has been, which might mean I&rsquo;m settling on something?</p>
 
-<figure class="media ">
-
-	<a href="/media/images/posts/an-evolving-website/2015.jpg" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/an-evolving-website/2015.jpg"
-			alt="2015 Design"
-		/>
+<figure class="image" data-component="image">
+	<a href="/media/images/posts/an-evolving-website/2015.jpg" data-role="image:modal">
+		<img src="/media/images/posts/an-evolving-website/2015.jpg" alt="2015 Design" />
 	</a>
-
 	
-
 </figure>
 
 <h2 id="2016-aka-stripped-back">2016 aka &ldquo;Stripped Back&rdquo;</h2>
 <p>And here we are with the new design! I&rsquo;ve continued what I was doing with the 2015 spring clean and really stripped back the home page to just blog posts.</p>
 <p>I&rsquo;ve kept some of the things that I now consider almost signatures of my site: the green header bar, and the post colours. I&rsquo;m pretty pleased with the outcome! Fingers crossed I&rsquo;ll start writing again.</p>
 
-<figure class="media ">
-
-	<a href="/media/images/posts/an-evolving-website/2016.jpg" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/an-evolving-website/2016.jpg"
-			alt="2016 Design"
-		/>
+<figure class="image" data-component="image">
+	<a href="/media/images/posts/an-evolving-website/2016.jpg" data-role="image:modal">
+		<img src="/media/images/posts/an-evolving-website/2016.jpg" alt="2016 Design" />
 	</a>
-
 	
-
 </figure>
 
 <p>Thanks for reading ☺️</p>
@@ -449,20 +323,13 @@
 <p>The simplest way to quickly test a web page, is to execute the <code>pa11y</code> command with a URL. The following example will run tests on the Nature home page:</p>
 <div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pa11y nature.com
 </code></pre></div>
-<figure class="media ">
-
+<figure class="image" data-component="image">
+	<a href="/media/images/posts/accessibility-testing-with-pa11y/cli-report.png" data-role="image:modal">
+		<img src="/media/images/posts/accessibility-testing-with-pa11y/cli-report.png" alt="pa11y command-line output" />
+	</a>
 	
-		<img
-			class="media__image"
-			src="/media/images/posts/accessibility-testing-with-pa11y/cli-report.png"
-			alt="pa11y command-line output"
-		/>
+		<figcaption class="image__caption">pa11y command-line output</figcaption>
 	
-
-	
-		<figcaption class="media__caption">pa11y command-line output</figcaption>
-	
-
 </figure>
 
 <p>You&rsquo;ll see some output in the command line which describes some of the errors/warnings encountered. This is fine for quickly testing a page, but things start to get interesting when you play with pa11y&rsquo;s options.</p>
@@ -485,20 +352,13 @@
 <p>If you prefer to generate a visual accessibility report that can be shared with non-programmers, you can use the HTML reporter:</p>
 <div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pa11y --reporter html nature.com &gt; results.html
 </code></pre></div>
-<figure class="media ">
-
+<figure class="image" data-component="image">
+	<a href="/media/images/posts/accessibility-testing-with-pa11y/html-report.png" data-role="image:modal">
+		<img src="/media/images/posts/accessibility-testing-with-pa11y/html-report.png" alt="pa11y HTML output" />
+	</a>
 	
-		<img
-			class="media__image"
-			src="/media/images/posts/accessibility-testing-with-pa11y/html-report.png"
-			alt="pa11y HTML output"
-		/>
+		<figcaption class="image__caption">pa11y HTML output</figcaption>
 	
-
-	
-		<figcaption class="media__caption">pa11y HTML output</figcaption>
-	
-
 </figure>
 
 <h2 id="anything-missing">Anything Missing?</h2>
@@ -782,39 +642,48 @@ Rowan</p>
 <p>Think about what makes you buy a product. For me, I&rsquo;m attracted to a product if I believe it can make my life easier or more enjoyable in some way (and also if I think it will make me cooler… lol jk). For somebody looking for those qualities, it&rsquo;s important to see the key features of the product very quickly. A common theme I&rsquo;m seeing in tech advertising is a little worrying, there&rsquo;s  no attempt to build a connection between potential customers and the product in question; what I&rsquo;m seeing is an attempt to appeal to people&rsquo;s impulse and sense of &ldquo;cool&rdquo;.</p>
 <p>I can illustrate this very easily. Look at the following ad for Microsoft Surface, this is one of their launch pieces:</p>
 
-
-
-	
-
-
-<figure class="media">
-	<iframe class="media__youtube" src="http://www.youtube.com/embed/U7UlE-o8DQQ" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+<figure class="embed">
+	<iframe
+		class="embed__youtube-video"
+		src="https://www.youtube.com/embed/U7UlE-o8DQQ"
+		frameborder="0"
+		allowtransparency="true"
+		allow="fullscreen"
+		title="Watch on YouTube"
+	></iframe>
+	<figcaption class="embed__caption">Watch on YouTube</figcaption>
 </figure>
 
 <p>You can also find a similar example with the <a href="http://youtu.be/dpzu3HM2CIo">Surface Teaser</a> and tentatively the <a href="http://youtu.be/F5wDYaxjbxg">Motorola RAZR M Ad</a>.</p>
 <p>What does the Surface advert tell us about the product? The answer is nothing beyond some hardware details – I know it has a keyboard and a touch screen but what can I actually do with it? How will it make my life better?</p>
 <p>As a comparison (don&rsquo;t stamp me with &ldquo;Fan-boy&rdquo; yet), let&rsquo;s look at the iPad launch ad:</p>
 
-
-
-	
-
-
-<figure class="media">
-	<iframe class="media__youtube" src="http://www.youtube.com/embed/_N3TW_HA-PE" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+<figure class="embed">
+	<iframe
+		class="embed__youtube-video"
+		src="https://www.youtube.com/embed/_N3TW_HA-PE"
+		frameborder="0"
+		allowtransparency="true"
+		allow="fullscreen"
+		title="Watch on YouTube"
+	></iframe>
+	<figcaption class="embed__caption">Watch on YouTube</figcaption>
 </figure>
 
 <p>I won&rsquo;t make a list but from only thirty seconds of footage I know an awful lot about what the product actually does! It&rsquo;s exciting. They haven&rsquo;t even <em>really</em> focused on the hardware, because that&rsquo;s not what the customer cares about – the customer cares about functionality.</p>
 <p>There are other product ads that recognise this too – the <a href="http://youtu.be/6o0T44_4hb8">Samsung Galaxy S3</a> and the <a href="http://youtu.be/SbXnCQtQTWc">Nokia Lumia</a>. Notice a pattern? They are letting the product sell itself.</p>
 <p>I&rsquo;ll pull up one more set of examples before I apply this to web design. Web Browsers aren&rsquo;t particularly exciting to anyone outside of web development. However, watch this Internet Explorer advertisement and marvel at its ability to spend a whole minute <em>trying</em> to make a browser look cool:</p>
 
-
-
-	
-
-
-<figure class="media">
-	<iframe class="media__youtube" src="http://www.youtube.com/embed/WA8sLsM3McU" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+<figure class="embed">
+	<iframe
+		class="embed__youtube-video"
+		src="https://www.youtube.com/embed/WA8sLsM3McU"
+		frameborder="0"
+		allowtransparency="true"
+		allow="fullscreen"
+		title="Watch on YouTube"
+	></iframe>
+	<figcaption class="embed__caption">Watch on YouTube</figcaption>
 </figure>
 
 <p>Then watch even just one of these <a href="http://www.youtube.com/user/googlechrome">Google Chrome commercials</a>. Google have a different strategy here, they stop trying to talk about the browser and look at why and how we use it. They tell some very human stories which don&rsquo;t try to dress up the product, In fact they avoid making their product the centre of attention at all.</p>
@@ -838,20 +707,13 @@ Rowan</p>
 <p>What surprised me is how quickly I ended up with a good working (IE 6+) prototype. Not only was it fast, but I had a lot of fun!</p>
 <p>After a couple of hours spent tweaking and testing, I <a href="http://fragcss.com/">ended up with Frag</a>. It&rsquo;s not perfect, it&rsquo;s not extremely feature-rich, but it does exactly the job I need it to do.</p>
 
-<figure class="media ">
-
-	<a href="http://fragcss.com/" class="media__link">
-		<img
-			class="media__image"
-			src="/media/images/posts/frag-website-screengrab.jpg"
-			alt="A screen-grab of the Frag website"
-		/>
+<figure class="image" data-component="image">
+	<a href="http://fragcss.com/" >
+		<img src="/media/images/posts/frag-website-screengrab.jpg" alt="A screen-grab of the Frag website" />
 	</a>
-
 	
-		<figcaption class="media__caption">A screen-grab of the Frag website</figcaption>
+		<figcaption class="image__caption">A screen-grab of the Frag website</figcaption>
 	
-
 </figure>
 
 <h2 id="so-why-build-your-own">So Why Build Your Own?</h2>
