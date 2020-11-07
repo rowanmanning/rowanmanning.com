@@ -47,7 +47,7 @@
 {{- end -}}
 
 <figure class="image" data-component="image">
-	<a href="{{ $link | relURL }}" {{ if $linkIsImage }}data-role="image:modal"{{ end }}>
+	<a href="{{ $link | relURL }}" {{ if $linkIsImage }}data-role="image:link"{{ end }}>
 		<img src="{{ $imageSource | relURL }}" alt="{{ $alt }}" />
 	</a>
 	{{ if $caption }}

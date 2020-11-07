@@ -28,27 +28,30 @@
 	{{ end }}
 
 	{{/* Output Styles */}}
-	{{- "<!--[if gt IE 8]><!-->" | safeHTML }}
-		<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width" />
 
-		{{/* Styleshets */}}
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" />
-		{{ $sassOptions := (dict "outputStyle" "compressed" "enableSourceMap" true "targetPath" "main.css") -}}
-		{{ $styles := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "sass/main.scss" . | toCSS $sassOptions | resources.Fingerprint "sha512" -}}
-		<link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+	{{/* Styleshets */}}
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" />
+	{{ $sassOptions := (dict "outputStyle" "compressed" "enableSourceMap" true "targetPath" "main.css") -}}
+	{{ $styles := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "sass/main.scss" . | toCSS $sassOptions | resources.Fingerprint "sha512" -}}
+	<link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
 
-		{{/* Hero customisation */}}
-		{{ if .Params.hero }}
-			<style>
-				.hero {
-					{{- if .Params.hero.backgroundColorTop }}--color-hero-background-top: {{ .Params.hero.backgroundColorTop }};{{ end }}
-					{{- if .Params.hero.backgroundColorBottom }}--color-hero-background-bottom: {{ .Params.hero.backgroundColorBottom }};{{ end }}
-					{{- if .Params.hero.textColor }}--color-hero-text: {{ .Params.hero.textColor }};{{ end }}
-				}
-			</style>
-		{{ end }}
+	{{/* Hero customisation */}}
+	{{ if .Params.hero }}
+		<style>
+			.hero {
+				{{- if .Params.hero.backgroundColorTop }}--color-hero-background-top: {{ .Params.hero.backgroundColorTop }};{{ end }}
+				{{- if .Params.hero.backgroundColorBottom }}--color-hero-background-bottom: {{ .Params.hero.backgroundColorBottom }};{{ end }}
+				{{- if .Params.hero.textColor }}--color-hero-text: {{ .Params.hero.textColor }};{{ end }}
+			}
+		</style>
+	{{ end }}
 
-	{{ "<!--<![endif]-->" | safeHTML }}
+	{{/* Site JavaScript */}}
+	{{- $jsOptions := (dict "params" (dict)) -}}
+	{{/* {{ $js := resources.Get "js/main.js" | js.Build $jsOptions | resources.Fingerprint "sha512" }} */}}
+	{{ $js := resources.Get "js/main.js" | js.Build $jsOptions }}
+	<script src="{{ $js.RelPermalink }}" defer></script>
 
 	{{ partial "site/icons.html" . -}}
 	{{ partial "site/analytics.html" . -}}

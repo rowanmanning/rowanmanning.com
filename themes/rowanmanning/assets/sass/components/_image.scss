@@ -2,10 +2,10 @@
 // Image block
 .image {
 	@extend %base-typography;
-	--color-media-background: var(--colorvalue-cream);
+	--color-image-background: var(--colorvalue-cream);
 	
-	background-color: var(--color-media-background);
-	border: solid var(--spacing-rule) var(--color-media-background);
+	background-color: var(--color-image-background);
+	border: solid var(--spacing-rule) var(--color-image-background);
 	border-radius: var(--spacing-rule);
 	
 	a {
@@ -26,4 +26,38 @@
 	line-height: var(--line-height-small);
 	font-style: italic;
 	text-align: center;
+}
+
+// Image dialog element
+.image__dialog {
+	background: transparent;
+	border: none;
+	padding: var(--spacing-line);
+	position: fixed;
+
+	&::backdrop {
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	> .image__dialog-image {
+		border: solid var(--spacing-half-line) var(--colorvalue-white);
+		max-height: calc(100vh - (var(--spacing-line) * 2));
+		max-width: calc(100vw - (var(--spacing-line) * 2));
+		box-sizing: border-box;
+	}
+}
+
+.image__dialog-close {
+	@extend %icon;
+	display: block;
+	border: none;
+	appearance: none;
+	background-image: url("#{$site-base-url}icons/close.svg");
+	width: var(--spacing-onepointfive-line);
+	height: var(--spacing-onepointfive-line);
+	background-color: transparent;
+	padding: 0;
+	position: absolute;
+	right: var(--spacing-half-line);
+	top: var(--spacing-half-line);
 }
