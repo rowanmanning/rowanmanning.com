@@ -12,7 +12,7 @@
 
 	{{/* Site links */}}
 	<link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap" />
-	<link rel="canonical" href="{{ .Permalink }}"/>
+	<link rel="canonical" href="{{ .Permalink }}" />
 	{{ if (and (not .IsHome) .Site.Author .Site.Author.website) }}
 		<link rel="author" href="{{ .Site.Author.website }}" />
 	{{ end }}
@@ -52,6 +52,7 @@
 
 	{{ partial "site/icons.html" . -}}
 	{{ partial "site/analytics.html" . -}}
+	{{- partial "site/social.html" . -}}
 
 </head>
 <body class="page">

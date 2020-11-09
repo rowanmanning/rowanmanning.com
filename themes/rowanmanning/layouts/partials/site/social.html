@@ -1,0 +1,29 @@
+
+{{ if eq .Kind "page" }}
+
+	{{/* Twitter summary card */}}
+	<meta name="twitter:card" content="summary" />
+	<meta property="twitter:url" content="{{ .Permalink }}">
+	<meta name="twitter:title" content="{{ .Title }}" />
+	{{ if .Site.Author.twitter }}<meta name="twitter:site" content="@{{ .Site.Author.twitter }}" />{{ end }}
+	{{ if .Description }}<meta name="twitter:description" content="{{ .Description }}" />{{ end }}
+
+	{{/* Open Graph */}}
+	<meta property="og:type" content="{{ if .Section }}article{{ else }}website{{ end }}" />
+	<meta property="og:site_name" content="{{ .Site.Title }}" />
+	<meta property="og:title" content="{{ .Title }}" />
+	<meta property="og:url" content="{{ .Permalink }}" />
+	{{ if .Description }}<meta property="og:description" content="{{ .Description }}" />{{ end }}
+
+	{{/* Open Graph article */}}
+	{{ if .Section }}
+		<meta property="article:published_time" content="{{ .Date }}" />
+		{{ if gt .Lastmod .Date -}}
+			<meta property="article:modified_time" content="{{ .Lastmod }}" />
+		{{ end }}
+		{{ if .Params.tags }}{{ range .Params.tags -}}
+			<meta property="article:tag" content="{{ . }}" />
+		{{ end }}{{ end }}
+	{{ end }}
+
+{{ end }}
