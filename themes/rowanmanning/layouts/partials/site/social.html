@@ -5,8 +5,8 @@
 	<meta name="twitter:card" content="summary" />
 	<meta property="twitter:url" content="{{ .Permalink }}">
 	<meta name="twitter:title" content="{{ .Title }}" />
-	{{- $logoSourceImage := resources.Get "logo.png" }}
-	{{ if $logoSourceImage }}<meta name="twitter:image" content="{{ ($logoSourceImage.Resize "120x").Permalink }}" />{{ end }}
+	{{- $logoSourceImage := resources.Get "logo-twitter.png" }}
+	{{ if $logoSourceImage }}<meta name="twitter:image" content="{{ $logoSourceImage.Permalink }}" />{{ end }}
 	{{ if .Site.Author.twitter }}<meta name="twitter:site" content="@{{ .Site.Author.twitter }}" />{{ end }}
 	{{ if .Description }}<meta name="twitter:description" content="{{ .Description }}" />{{ end }}
 
