@@ -1,7 +1,7 @@
 ---
 title: "Week 2: Islands in the Stream"
 date: 2020-11-08T21:00:00
-tags: ["Food", "Music"]
+tags: ["Games", "Food", "Music"]
 highlight: "lime"
 description: "A week of compulsively checking election results, craving cinnamon buns, and having one song on repeat."
 ---

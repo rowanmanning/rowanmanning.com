@@ -1,7 +1,7 @@
 ---
 title: "Week 1: Plumbing"
 date: 2020-11-01T21:00:00
-tags: ["Renting", "Films"]
+tags: ["Games", "Renting", "Films"]
 highlight: "blue"
 description: "A week without running water, finding a new favourite board game, and two Christmas films which don't compare to The Princess Switch."
 ---
