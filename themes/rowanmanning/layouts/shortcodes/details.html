@@ -1,0 +1,21 @@
+
+{{/* Get the content warning title */}}
+{{- $title := "" -}}
+{{- if .IsNamedParams -}}
+	{{- $title = .Get "title" -}}
+{{- else -}}
+	{{- $title = .Get 0 -}}
+{{- end -}}
+
+{{/* Get the content warning ID */}}
+{{- $id := "" -}}
+{{- if .IsNamedParams -}}
+	{{- $id = .Get "id" -}}
+{{- else -}}
+	{{- $id = .Get 1 -}}
+{{- end -}}
+
+<details {{ if $id }}id="{{ $id }}"{{ end }}>
+	<summary>{{ $title }}</summary>
+	{{ .Inner }}
+</details>

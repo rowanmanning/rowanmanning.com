@@ -8,7 +8,7 @@
 	}
 
 	// Reset default margins
-	blockquote, caption, dl, figure, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
+	blockquote, caption, details, dl, figure, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
 		margin-top: 0;
 		margin-bottom: var(--spacing-line);
 	}
@@ -161,4 +161,33 @@
 		}
 	}
 
+	// Details / summary element
+	details {
+		padding-left: var(--spacing-line);
+	}
+	summary {
+		font-style: italic;
+		font-weight: bold;
+		list-style: none;
+		margin-bottom: var(--spacing-half-line);
+	}
+	summary::-webkit-details-marker {
+		display: none;
+	}
+	summary::before {
+		border: solid 1px var(--colorvalue-cream-dark);
+		color: var(--colorvalue-gray-light);
+		content: "+";
+		display: inline-block;
+		font-size: var(--font-size-small);
+		font-style: normal;
+		height: var(--spacing-line);
+		margin-left: -24px;
+		margin-right: var(--spacing-rule);
+		text-align: center;
+		width: var(--spacing-line);
+	}
+	details[open] summary::before {
+		content: "-";
+	}
 }
