@@ -7,8 +7,16 @@ The source code for [rowanmanning.com](https://rowanmanning.com/).
 ## Running locally
 
   1. Install [Hugo](https://gohugo.io/)
-  2. Run `hugo server`
-  3. Visit [http://localhost:1313/](http://localhost:1313/)
+
+  2. Clone this repo locally and initialise submodules:
+
+     ```bash
+     git clone https://github.com/rowanmanning/rowanmanning.com.git && cd rowanmanning.com && submodule init && git submodule update
+     ```
+
+  3. Run `hugo server`
+
+  4. Visit [http://localhost:1313/](http://localhost:1313/)
 
 
 ## Licence
