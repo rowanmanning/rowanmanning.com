@@ -1,0 +1,12 @@
+
+# Config for staging environment
+
+# Set the base URL
+baseURL: https://rowanmanning.com/
+
+# Build draft and future content
+buildDrafts: true
+buildFuture: true
+
+# Enable a robots.txt file
+enableRobotsTXT: true

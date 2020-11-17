@@ -7,8 +7,13 @@
 	<title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 
-	{{/* Hide drafts */}}
-	{{ if .Draft }}<meta name="robots" content="noindex" />{{ end }}
+	{{/* Hide drafts and pages on the staging site */}}
+	{{ if or .Draft (eq .Hugo.Environment "staging") }}<meta name="robots" content="noindex" />{{ end }}
+
+	{{/* If on the staging site and content is not a draft, redirect to production */}}
+	{{ if and (not .Draft) (eq .Hugo.Environment "staging") }}
+		<meta http-equiv="refresh" content="0;URL='{{ .Permalink }}'" />
+	{{ end }}
 
 	{{/* Site links */}}
 	<link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap" />
