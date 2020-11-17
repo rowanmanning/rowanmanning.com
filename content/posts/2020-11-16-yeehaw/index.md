@@ -76,3 +76,10 @@ This is because I've been burned _a lot of times_ by getting a project most of t
 ## Tip #4: Write Documentation
 
 I will die on this hill. The smallest side project deserves some documentation, at least on how to get it running locally. Trust me, if you take a pause and come back to your project a week or month later you're going to love your past self if you left instructions. A [README](/posts/writing-a-friendly-readme/) will do most of the time.
+
+
+## Tip #5: When the Fun Stops, Stop
+
+If I'm spending my precious spare time writing code, I sure as hell better be enjoying myself. It's not worth the hit to your mental health to try and push through when you're no longer enjoying working on a side project. I've only got good at taking this advice from myself relatively recently; I used to force myself to continue working on things because of the sunk cost.
+
+Now if I sense that a side project has become a grind, perhaps I've bitten off more than I chew or my original idea just doesn't strike me as fun any more, I just stop. It's not a waste of time if you learned even a small thing, and maybe a bit of code you wrote somewhere in the project will be useful another time.
