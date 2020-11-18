@@ -19,7 +19,7 @@ Way back in March this year, early on in lockdown, I had a burst of inspiration 
 
 This idea came out of a Slack conversation with [Leaf](https://twitter.com/keirog), I don't remember why or which channel, but for some reason it made sense for two horse emoji to race across the screen which Leaf did by repeatedly editing a message until they reached the finish line. It was _gripping_, and while I was watching the two little :horse_racing: step along my Slack window I made a mental note that this joy could be replicated using computers.
 
-[I got it finished](https://github.com/rowanmanning/yeehaw#readme), which isn't the actual point of this post (though you should definitely go and try it if you use Slack). This post explores the process I go through when I'm attempting a fun side project; I've outlined several tips which have helped to make sure:
+[I got it finished](https://github.com/rowanmanning/yeehaw#readme), which isn't the actual point of this post (though you should definitely go and try it if you use Slack). This post explores the process I go through when I'm attempting a fun side project; I've outlined several tips which have helped me to make sure:
 
   1. I finish the project (because otherwise how will I make my friends laugh?)
   2. I actually enjoy building it (because otherwise why bother?)
@@ -73,7 +73,7 @@ Hosting:
 
 I try to get something running in production as quickly as possible (normally a page that only says "Hello World") and have the pipeline from development to production set up immediately so that my changes are live almost as soon as I've pushed them.
 
-This isn't a concept I made up, lots of engineering teams use [Continuous Deployment](https://en.wikipedia.org/wiki/Continuous_deployment), but why only reap the benefits on _real_ work projects?
+This isn't a concept I made up, lots of engineering teams use [Continuous Deployment](https://en.wikipedia.org/wiki/Continuous_deployment), but why only reap the benefits on work projects?
 
 For most of my Heroku-based projects, my process is:
 
