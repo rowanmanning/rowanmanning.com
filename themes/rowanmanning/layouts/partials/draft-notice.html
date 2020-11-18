@@ -2,6 +2,10 @@
 <p class="notification notification--draft">
 	<span class="notification__message">
 		This post has not been published, which means I'm gathering feedback
-		and getting it reviewed. Please don't share it publicly yet
+		and getting it reviewed. Please don't share it publicly yet.
+		{{ if .Params.draftFeedback }}
+			Thanks so much for reviewing this,
+			<strong><a href="{{ .Params.draftFeedback }}">you can provide feedback on this draft here</a></strong>.
+		{{ end }}
 	</span>
 </p>
