@@ -14,9 +14,9 @@ Way back in March this year, early on in lockdown, I had a burst of inspiration 
 
 This idea came out of a Slack conversation with [Leaf](https://twitter.com/keirog), I don't remember why or which channel, but for some reason it made sense for two horse emoji to race across the screen which Leaf did by repeatedly editing a message until they reached the finish line. It was _gripping_, and while I was watching the two little :horse_racing: step along my Slack window I made a mental note that this joy could be replicated using computers.
 
-[I got it finished](https://github.com/rowanmanning/yeehaw#readme), which isn't the actual point of this post (though you should definitely go and try it if you use Slack). This post mostly explores the process I go through when I'm attempting a fun side project, and what I do to make sure that:
+[I got it finished](https://github.com/rowanmanning/yeehaw#readme), which isn't the actual point of this post (though you should definitely go and try it if you use Slack). This post explores the process I go through when I'm attempting a fun side project; I've outlined several tips which have helped to make sure:
 
-  1. I finish the thing (because otherwise how will I make my friends laugh?)
+  1. I finish the project (because otherwise how will I make my friends laugh?)
   2. I actually enjoy building it (because otherwise why bother?)
 
 {{< image src="/posts/yeehaw/demo.gif" alt="Four horse racing emoji race across the screen from right to left, reaching the finish line in turn" link="https://github.com/rowanmanning/yeehaw#readme" >}}
@@ -66,9 +66,13 @@ Hosting:
 
 ## Tip #3: Get it in Production Early
 
-I try to get something running in production as quickly as possible (normally a page that only says "Hello World") and have the pipeline from development to production set up immediately. For most of my Heroku-based project this looks like:
+I try to get something running in production as quickly as possible (normally a page that only says "Hello World") and have the pipeline from development to production set up immediately so that my changes are live almost as soon as I've pushed them.
 
-  1. Create an empty repo (normally private to start with) on GitHub and push my starting-point "Hello World" code
+This isn't a concept I made up, lots of engineering teams use [Continuous Deployment](https://en.wikipedia.org/wiki/Continuous_deployment), but why only reap the benefits on _real_ work projects?
+
+For most of my Heroku-based projects, my process is:
+
+  1. Create an empty repo on GitHub (normally private to start with) and push my starting-point "Hello World" code
   2. Create a Heroku app and [connect it to the repo](https://devcenter.heroku.com/articles/github-integration), automatically deploying whenever a commit is pushed to the `main` branch
 
 I do this because I've been burned _a lot of times_ by getting a project most of the way done and then realising that I've gone down a rabbit-hole that makes production a pain in the ass to set up. Also, if every commit you push ends up on a public URL then you know that your project will work when you're finally ready to go live; the final fun step of showing people what you built is so much easier, as is getting early feedback.
@@ -77,6 +81,8 @@ I do this because I've been burned _a lot of times_ by getting a project most of
 ## Tip #4: Write Documentation
 
 I will die on this hill. The smallest side project deserves some documentation, at least on how to get it running locally. Trust me, if you take a pause and come back to your project a week or month later you're going to love your past self if you left instructions. A [README](/posts/writing-a-friendly-readme/) will do most of the time.
+
+Yeehaw requires a lot of fiddly setup, including having to create your own distributed Slack app if you want to run it locally. With some [clear documentation](https://github.com/rowanmanning/yeehaw#slack-app-setup) on this, I know that next time I want to work on the project I won't spend hours trying to remember how it works.
 
 
 ## Tip #5: When the Fun Stops, Stop
