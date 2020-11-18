@@ -28,7 +28,7 @@ I find it really easy to go off on tangents when I'm building something in my sp
 
 Defining a clear end goal helps me here, something short like: _"Make it so that people can easily race horses in Slack"_.
 
-I try to periodically check that whatever I'm working on moves me closer to that goal, and if the answer is no then I drop what I'm doing and refocus. This can be easier said than done, I find setting an actual reminder every hour or so is a good shout, or having a post-it displayed clearly nearby.
+I try to periodically check that whatever I'm working on moves me closer to that goal, and if the answer is no then I drop what I'm doing and refocus. This can be easier said than done, so I find setting an actual reminder every hour or so is a good shout, or having a post-it displayed clearly nearby.
 
 You don't need to drop the extra things _forever_, if you think the idea you got side-tracked on is worth adding later then write it down and add it after you've shipped a version 1.
 
@@ -46,16 +46,16 @@ Something I used to say a lot is "I'm going to use this side project to learn X 
 I have a list of go-to technologies when it comes to getting a project built quickly. I have my own reasoning for each of these which may apply to you, but it's best to stick with what you're comfortable using if you just want to get the thing finished. If you're not a big side-project person then this might be the same stack you use at work.
 
 Server-side Languages: JavaScript via [Node.js](https://nodejs.org/)
-: I write JavaScript faster than I write any other programming language, it's familiar and I know how to get things done using it, also if I'm writing in something typed then I get really caught up in defining everything perfectly.
+: I write JavaScript faster than I write any other programming language; it's familiar and I know how to get things done using it. In comparison if I'm writing in something typed then I get really caught up in defining everything perfectly.
 
 Server-side Frameworks: [Express](https://expressjs.com/)
 : I've been using Express for years, so again it's really familiar. It's also so commonplace that you can find the answer to almost any question quickly. I appreciate the flexibility of being able to dump everything in one file or split it up as appropriate. I don't have a templating engine I use commonly, though I enjoyed using [htm](https://github.com/developit/htm) with [Hyperons](https://github.com/i-like-robots/hyperons) recently.
 
 Database: [MongoDB](https://www.mongodb.com/)
-: Tech bros on the internet seem to _hate_ MongoDB. I've never bothered to find out why, but that alone is a great reason to use it for every project. I find MongoDB to be super quick to get set up, I can't be bothered with migrations for a side project, and they're never going to be high traffic enough to warrant worrying about performance or anything.
+: Tech bros on the internet seem to _hate_ MongoDB. I've never bothered to find out why, but that alone is a great reason to use it for every project. I find MongoDB to be super quick to get set up in comparison to other databases. I can't be bothered with migrations for a side project, and mine are never going to be high traffic enough to warrant worrying about performance or anything.
 
 Client-side Languages: JavaScript and [Sass](https://sass-lang.com/)
-: I avoid client-side JavaScript as much as possible; normally I build something with progressive enhancement in mind and then when it comes to the "enhance with JavaScript" bit I just can't be bothered. I use Sass still, but it feels like I'm getting closer to a time where I don't need a preprocessor for most things.
+: I avoid client-side JavaScript as much as possible; normally I build something with progressive enhancement in mind and then when it comes to the "enhance with JavaScript" bit I just can't be bothered. I still use Sass, but it feels like I'm getting closer to a time where I don't need a preprocessor for most things.
 
 Client-side Frameworks:
 : I still haven't learned how to do a React because who needs more Facebook in their life? See above note on progressive enhancement and client-side JavaScript, but I'm sure at some point I'll learn something and update the way I do things.
@@ -71,7 +71,7 @@ I try to get something running in production as quickly as possible (normally a 
   1. Create an empty repo (normally private to start with) on GitHub and push my starting-point "Hello World" code
   2. Create a Heroku app and [connect it to the repo](https://devcenter.heroku.com/articles/github-integration), automatically deploying whenever a commit is pushed to the `main` branch
 
-This is because I've been burned _a lot of times_ by getting a project most of the way done and then realising that I've gone down a rabbit-hole that makes production a pain in the ass to set up. Also if every commit you push ends up on a public URL then you know that your project will work when you're finally ready to go live, the final fun step of showing people what you built is so much easier, as is getting early feedback.
+I do this because I've been burned _a lot of times_ by getting a project most of the way done and then realising that I've gone down a rabbit-hole that makes production a pain in the ass to set up. Also, if every commit you push ends up on a public URL then you know that your project will work when you're finally ready to go live; the final fun step of showing people what you built is so much easier, as is getting early feedback.
 
 
 ## Tip #4: Write Documentation
