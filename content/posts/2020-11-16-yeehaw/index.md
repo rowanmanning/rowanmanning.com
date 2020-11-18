@@ -7,6 +7,11 @@ highlight: "pink"
 tags: ["Side Projects"]
 draft: true
 draftFeedback: https://docs.google.com/document/d/1zCBwqtUecREn71eYqmJc5DUSGXHGikdIC4UuUJvtwAU/edit
+reviewers:
+  - name: Jennifer Johnson
+    website: https://medium.com/@jkerr321
+  - name: Sam Parkinson
+    website: https://uncomplicated.systems/
 ---
 
 

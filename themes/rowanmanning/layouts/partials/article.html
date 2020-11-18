@@ -48,4 +48,49 @@
 		</div>
 	{{ end }}
 
+	<footer class="content-foot">
+		<p class="content-foot__thanks">
+			Thanks for reading!
+			{{ if .Params.reviewers }}
+				Also huge thanks to
+				{{ $reviewers := .Params.reviewers -}}
+				{{- $hasTwoReviewers := eq (len $reviewers) 2 -}}
+				{{ range $key, $reviewer := $reviewers -}}
+					{{- $isFirst := eq $key 0 -}}
+					{{- $isLast := eq $key (sub (len $reviewers) 1) -}}
+					{{- if and $isLast (not $isFirst) }} and {{ end -}}
+					{{ if $reviewer.website }}<a href="{{ $reviewer.website }}">{{ end }}
+						{{- $reviewer.name -}}
+					{{ if $reviewer.website }}</a>{{ end }}{{ if and (not $isLast) (not $hasTwoReviewers) }}, {{ end }}
+				{{- end }}
+				for reviewing this post.
+			{{ end }}
+
+		</p>
+
+		<ul class="content-foot__links">
+			{{ $pageType := singularize .Type }}
+			{{ if .Parent }}
+				{{ $parent := .Parent }}
+				{{ with $parent.OutputFormats.Get "ATOM" }}
+					<li>
+						<a href="{{ .RelPermalink }}" rel="alternate" type="application/atom+xml" title="Atom Feed for {{ $parent.Params.Title }}" class="content-foot__icon content-foot__icon--feed">Subscribe here</a>
+						if you enjoyed this {{ $pageType }} and would like to read more
+					</li>
+				{{ end }}
+				{{ with $parent.OutputFormats.Get "RSS" }}
+					<li>
+						<a href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="RSS Feed for {{ $parent.Params.Title }}" class="content-foot__icon content-foot__icon--feed">Subscribe here</a>
+						if you enjoyed this {{ $pageType }} and would like to read more
+					<li>
+				{{ end }}
+			{{ end }}
+			{{ if (and .Site.Author .Site.Author.twitter) }}
+				<li>
+					<a href="https://twitter.com/share?url={{ safeURL .Permalink }}&amp;via={{ safeURL .Site.Author.twitter }}&amp;text={{ safeURL .Title }}" target="_blank" class="content-foot__icon content-foot__icon--twitter">Tweet about this {{ $pageType }}</a>
+				</li>
+			{{ end }}
+		</ul>
+	</footer>
+
 </article>
