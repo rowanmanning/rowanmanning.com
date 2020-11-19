@@ -95,3 +95,20 @@ Yeehaw requires a lot of fiddly setup, including having to create your own distr
 If I'm spending my precious spare time writing code, I sure as hell better be enjoying myself. It's not worth the hit to your mental health to try and push through when you're no longer enjoying working on a side project. I've only got good at taking this advice from myself relatively recently; I used to force myself to continue working on things because of the sunk cost.
 
 Now if I sense that a side project has become a grind, perhaps I've bitten off more than I chew or my original idea just doesn't strike me as fun any more, I just stop. It's not a waste of time if you learned even a small thing, and maybe a bit of code you wrote somewhere in the project will be useful another time.
+
+
+## Recap
+
+So to recap, when I decide a side project is worthy of my precious free time, I use the following tips to help me either get it finished or avoid burning out:
+
+  1. I **define some goals** to keep me focused
+
+  2. I **use familiar technology** so that I can work faster and reduce the chance of abandoning my project
+
+  3. I use **Continuous Deployment** so that I know my project works in production
+
+  4. I **write documentation** so that I can pick up the project after a break
+
+  5. If I'm not enjoying working on a project any more, I **just stop**
+
+I'm sure mine isn't a comprehensive list of ways to manage side projects, I'm really interested in hearing yours. Tweet me about it below, or share your own tips. Also, [go and try out Yeehaw](https://github.com/rowanmanning/yeehaw#readme)!
