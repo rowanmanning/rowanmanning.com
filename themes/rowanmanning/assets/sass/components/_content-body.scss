@@ -20,7 +20,7 @@
 
 	// Remove bottom margin from nested list elements
 	ol, ul {
-		padding-left: var(--spacing-line);
+		padding-left: var(--spacing-onepointfive-line);
 		ol, ul {
 			margin-bottom: 0;
 		}
