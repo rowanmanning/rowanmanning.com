@@ -5,8 +5,6 @@ description: "Way back in March this year, early on in lockdown, I had a burst o
 cta: "Saddle up"
 highlight: "pink"
 tags: ["Side Projects"]
-draft: true
-draftFeedback: https://docs.google.com/document/d/1zCBwqtUecREn71eYqmJc5DUSGXHGikdIC4UuUJvtwAU/edit
 reviewers:
   - name: Jennifer Johnson
     website: https://medium.com/@jkerr321
