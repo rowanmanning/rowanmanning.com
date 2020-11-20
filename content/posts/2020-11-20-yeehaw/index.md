@@ -1,6 +1,6 @@
 ---
 title: "Yeehaw!"
-date: 2020-11-16 18:30:00
+date: 2020-11-20 11:50:00
 description: "Way back in March this year, early on in lockdown, I had a burst of inspiration and built a silly game which you can play on Slack. I wanted to talk through the process I go through on the rare occasion when I start a side project."
 cta: "Saddle up"
 highlight: "pink"
