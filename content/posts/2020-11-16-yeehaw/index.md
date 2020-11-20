@@ -111,4 +111,4 @@ So to recap, when I decide a side project is worthy of my precious free time, I 
 
   5. If I'm not enjoying working on a project any more, I **just stop**
 
-I'm sure mine isn't a comprehensive list of ways to manage side projects, I'm really interested in hearing yours. Tweet me about it below, or share your own tips. Also, [go and try out Yeehaw](https://github.com/rowanmanning/yeehaw#readme)!
+I'm sure mine isn't a comprehensive list of ways to manage side projects, I'm interested to hear yours. Tweet me about it below, or share your own tips. Also, [go and try out Yeehaw](https://github.com/rowanmanning/yeehaw#readme)!
