@@ -1,6 +1,6 @@
 ---
-title: "Rowan's Blog"
-description: "Rowan Manning's personal blog where he occasionally posts things about web development"
+title: "Rowan’s Blog"
+description: "Rowan Manning’s personal blog where he occasionally posts things about web development"
 menu:
   main:
     name: "Blog"
