@@ -1,6 +1,7 @@
 ---
 title: "Yeehaw!"
 date: 2020-11-20 11:50:00
+lastmod: 2012-06-21 09:10:00
 description: "Way back in March this year, early on in lockdown, I had a burst of inspiration and built a silly game which you can play on Slack. I wanted to talk through the process I go through on the rare occasion when I start a side project."
 cta: "Saddle up"
 highlight: "pink"
@@ -8,6 +9,8 @@ tags: ["Side Projects"]
 reviewers:
   - name: Jennifer Johnson
     website: https://medium.com/@jkerr321
+  - name: Leaf Rogers
+    website: https://twitter.com/keirog
   - name: Sam Parkinson
     website: https://uncomplicated.systems/
 ---
@@ -64,12 +67,12 @@ Client-side Frameworks:
 : I still haven't learned how to do a React because who needs more Facebook in their life? See above note on progressive enhancement and client-side JavaScript, but I'm sure at some point I'll learn something and update the way I do things.
 
 Hosting:
-: I use [Heroku](https://www.heroku.com/) as a starting point for most projects because it doesn't require me to do anything very ops-like. Heroku means I can have something deployed early, the free tier is fine for most things, and $7 per month isn't _prohibitively_ expensive if I need to have something running more reliably.
+: I use [Heroku](https://www.heroku.com/) as a starting point for most projects because it doesn't require me to do anything very ops-like. Heroku means I can have something deployed early, the free tier is fine for most things, and $7 per month isn't _prohibitively_ expensive for me if I need to have something running more reliably (though most of the time I end up paying for a month or two while the project is still interesting to me, then revert back to the free tier).
 
 
-## Tip #3: Get it in Production Early
+## Tip #3: Get It in Production Early
 
-I try to get something running in production as quickly as possible (normally a page that only says "Hello World") and have the pipeline from development to production set up immediately so that my changes are live almost as soon as I've pushed them.
+I try to get something running in production as quickly as possible, normally a page that only says "Hello World". I also make sure that I have the pipeline from development to production set up early so that my changes are live almost as soon as I've pushed them.
 
 This isn't a concept I made up, lots of engineering teams use [Continuous Deployment](https://en.wikipedia.org/wiki/Continuous_deployment), but why only reap the benefits on work projects?
 
