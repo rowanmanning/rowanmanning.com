@@ -1,5 +1,5 @@
 ---
-title: "Week 4: The Princess S(and)wich"
+title: "Week 4: The Princess S(and)witch"
 date: 2020-11-23T02:00:00
 tags: ["D&D", "Films", "Food", "Games"]
 highlight: "purple"
