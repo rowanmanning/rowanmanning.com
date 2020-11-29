@@ -1,6 +1,10 @@
 
 // Define highlight colours as Sass variables
 $_highlight-colors: (
+	"black": (
+		default: #333,
+		light: #c4c4c4
+	),
 	"blue": (
 		default: #2190c4,
 		light: lighten(#2190c4, 45%)
@@ -28,6 +32,10 @@ $_highlight-colors: (
 	"cyan": (
 		default: #5edad6,
 		light: lighten(#5edad6, 30%)
+	),
+	"red": (
+		default: #d00,
+		light: lighten(#d00, 45%)
 	)
 );
 
