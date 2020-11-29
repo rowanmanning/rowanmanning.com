@@ -18,6 +18,8 @@ description: "A week of useful feedback, a new (and nearly finished) RSS reader,
   
   * Last work thing: Tara wrote a really excellent post on [Technical Leadership in Customer Products at the FT](https://medium.com/ft-product-technology/technical-leadership-in-customer-products-cec00bf983bd) – she interviewed each of our tech leads and used this data to outline what this role means in our group. There's a lot of useful info in here, thanks Tara!
 
+  * I saw Jacob Rees-Mogg get out of a taxi with his brood of Victorian children. This beats my only other politician sighting (Justine Greening), and gives the tories a solid lead. I'm not counting seeing Jeremy Corbyn speaking at a protest
+
   * {{< pin right >}}{{< image src="/weeknotes/5/tootsie-in-a-box.jpg" alt="Tootsie laying in his new favourite cardboard box. He's a black and white cat, with a very distinctive mustache. A discarded toy mouse is laying beside him." >}}{{< /pin >}}
   
      Permit me to talk about my cat. There are lots of cardboard boxes in our house now, Tootsie isn't a box cat at all, but he has fallen head over heels in love with this one. I don't understand what's special about it but his favourite game is to chase toy mice around bottom of the box and try to dig them up. It's pretty adorable and I hope this is a new fixture because boxes are cheaper than cat toys
