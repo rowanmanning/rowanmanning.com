@@ -3,7 +3,7 @@ title: "Week 4: The Princess S(and)witch"
 date: 2020-11-23T02:00:00
 tags: ["D&D", "Films", "Food", "Games"]
 highlight: "purple"
-description: "A week of writing a blog post, eating far too many toasties, and watching the sequel to one of the best films ever made: The Princess Switch"
+description: "A week of writing a blog post, eating far too many toasties, and watching the sequel to one of the best films ever made: The Princess Switch."
 ---
 
   * I wrote a blog post for the first time in nearly 5 years, it was kind of spur of the moment and I enjoyed writing it. It's about how I manage time spent on side projects. I think it could touch more on mental health and how having time to spend on side projects is a privilege, but maybe I can save that for a follow-up. [You can read the post here](/posts/yeehaw)
