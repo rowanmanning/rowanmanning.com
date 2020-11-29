@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan’s Blog</title><link href="https://rowanmanning.com/posts/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/posts/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-11-29T18:09:55+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/posts/</id><entry><title type="html">Yeehaw!</title><link href="https://rowanmanning.com/posts/yeehaw/" rel="alternate" type="text/html"/><id>https://rowanmanning.com/posts/yeehaw/</id><published>2020-11-20T11:50:00+00:00</published><updated>2020-11-21T09:10:00+00:00</updated><content type="html"><![CDATA[<p>Way back in March this year, early on in lockdown, I had a burst of inspiration and a desire to build something silly. I don&rsquo;t really build serious open source things any more because tbh it&rsquo;s a pretty thankless task and my free time is too valuable. However when there&rsquo;s an opportunity to get a quick laugh from a friend by spending several solid evenings coding, sign me up!</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan’s Blog</title><link href="https://rowanmanning.com/posts/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/posts/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-11-29T18:16:54+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/posts/</id><entry><title type="html">Yeehaw!</title><link href="https://rowanmanning.com/posts/yeehaw/" rel="alternate" type="text/html"/><id>https://rowanmanning.com/posts/yeehaw/</id><published>2020-11-20T11:50:00+00:00</published><updated>2020-11-21T09:10:00+00:00</updated><content type="html"><![CDATA[<p>Way back in March this year, early on in lockdown, I had a burst of inspiration and a desire to build something silly. I don&rsquo;t really build serious open source things any more because tbh it&rsquo;s a pretty thankless task and my free time is too valuable. However when there&rsquo;s an opportunity to get a quick laugh from a friend by spending several solid evenings coding, sign me up!</p>
 <p>This idea came out of a Slack conversation with <a href="https://twitter.com/keirog">Leaf</a>, I don&rsquo;t remember why or which channel, but for some reason it made sense for two horse emoji to race across the screen which Leaf did by repeatedly editing a message until they reached the finish line. It was <em>gripping</em>, and while I was watching the two little 🏇 step along my Slack window I made a mental note that this joy could be replicated using computers.</p>
 <p><a href="https://github.com/rowanmanning/yeehaw#readme">I got it finished</a>, which isn&rsquo;t the actual point of this post (though you should definitely go and try it if you use Slack). This post explores the process I go through when I&rsquo;m attempting a fun side project; I&rsquo;ve outlined several tips which have helped me to make sure:</p>
 <ol>
@@ -8,7 +8,7 @@
 
 <figure class="image" data-component="image">
 	<a href="https://github.com/rowanmanning/yeehaw#readme" >
-		<img src="/posts/yeehaw/demo.gif" alt="Four horse racing emoji race across the screen from right to left, reaching the finish line in turn" />
+		<img src="https://rowanmanning.com/posts/yeehaw/demo.gif" alt="Four horse racing emoji race across the screen from right to left, reaching the finish line in turn" />
 	</a>
 	
 </figure>
@@ -120,7 +120,7 @@
 
 <figure class="image" data-component="image">
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-01-md" >
-		<img src="/media/images/posts/writing-a-friendly-readme/heading-01.png" alt="Project heading with name and description" />
+		<img src="https://rowanmanning.com/media/images/posts/writing-a-friendly-readme/heading-01.png" alt="Project heading with name and description" />
 	</a>
 	
 		<figcaption class="image__caption">Project heading with name and description</figcaption>
@@ -144,7 +144,7 @@
 
 <figure class="image" data-component="image">
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-02-md" >
-		<img src="/media/images/posts/writing-a-friendly-readme/heading-02.png" alt="Project heading with badges added" />
+		<img src="https://rowanmanning.com/media/images/posts/writing-a-friendly-readme/heading-02.png" alt="Project heading with badges added" />
 	</a>
 	
 		<figcaption class="image__caption">Project heading with badges added</figcaption>
@@ -156,7 +156,7 @@
 
 <figure class="image" data-component="image">
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-03-md" >
-		<img src="/media/images/posts/writing-a-friendly-readme/heading-03.png" alt="Full project heading with an example" />
+		<img src="https://rowanmanning.com/media/images/posts/writing-a-friendly-readme/heading-03.png" alt="Full project heading with an example" />
 	</a>
 	
 		<figcaption class="image__caption">Full project heading with an example</figcaption>
@@ -169,7 +169,7 @@
 
 <figure class="image" data-component="image">
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-table-of-contents-01-md" >
-		<img src="/media/images/posts/writing-a-friendly-readme/table-of-contents-01.png" alt="A nicely linked table of contents" />
+		<img src="https://rowanmanning.com/media/images/posts/writing-a-friendly-readme/table-of-contents-01.png" alt="A nicely linked table of contents" />
 	</a>
 	
 		<figcaption class="image__caption">A nicely linked table of contents</figcaption>
@@ -182,7 +182,7 @@
 
 <figure class="image" data-component="image">
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-requirements-01-md" >
-		<img src="/media/images/posts/writing-a-friendly-readme/requirements-01.png" alt="Project requirements" />
+		<img src="https://rowanmanning.com/media/images/posts/writing-a-friendly-readme/requirements-01.png" alt="Project requirements" />
 	</a>
 	
 		<figcaption class="image__caption">Project requirements</figcaption>
@@ -198,7 +198,7 @@
 
 <figure class="image" data-component="image">
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-01-md" >
-		<img src="/media/images/posts/writing-a-friendly-readme/usage-01.png" alt="How to install Paddington" />
+		<img src="https://rowanmanning.com/media/images/posts/writing-a-friendly-readme/usage-01.png" alt="How to install Paddington" />
 	</a>
 	
 		<figcaption class="image__caption">How to install Paddington</figcaption>
@@ -209,7 +209,7 @@
 
 <figure class="image" data-component="image">
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-02-md" >
-		<img src="/media/images/posts/writing-a-friendly-readme/usage-02.png" alt="How to use Paddington" />
+		<img src="https://rowanmanning.com/media/images/posts/writing-a-friendly-readme/usage-02.png" alt="How to use Paddington" />
 	</a>
 	
 		<figcaption class="image__caption">How to use Paddington</figcaption>
@@ -220,7 +220,7 @@
 
 <figure class="image" data-component="image">
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-03-md" >
-		<img src="/media/images/posts/writing-a-friendly-readme/usage-03.png" alt="Edge-cases and errors" />
+		<img src="https://rowanmanning.com/media/images/posts/writing-a-friendly-readme/usage-03.png" alt="Edge-cases and errors" />
 	</a>
 	
 		<figcaption class="image__caption">Edge-cases and errors</figcaption>
@@ -234,7 +234,7 @@
 
 <figure class="image" data-component="image">
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-contributing-01-md" >
-		<img src="/media/images/posts/writing-a-friendly-readme/contributing-01.png" alt="Contribution guidelines" />
+		<img src="https://rowanmanning.com/media/images/posts/writing-a-friendly-readme/contributing-01.png" alt="Contribution guidelines" />
 	</a>
 	
 		<figcaption class="image__caption">Contribution guidelines</figcaption>
@@ -248,7 +248,7 @@
 
 <figure class="image" data-component="image">
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-support-and-migration-01-md" >
-		<img src="/media/images/posts/writing-a-friendly-readme/support-and-migration-01.png" alt="Support and migration" />
+		<img src="https://rowanmanning.com/media/images/posts/writing-a-friendly-readme/support-and-migration-01.png" alt="Support and migration" />
 	</a>
 	
 		<figcaption class="image__caption">Support and migration</figcaption>
@@ -260,7 +260,7 @@
 
 <figure class="image" data-component="image">
 	<a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-license-01-md" >
-		<img src="/media/images/posts/writing-a-friendly-readme/license-01.png" alt="License and copyright information" />
+		<img src="https://rowanmanning.com/media/images/posts/writing-a-friendly-readme/license-01.png" alt="License and copyright information" />
 	</a>
 	
 		<figcaption class="image__caption">License and copyright information</figcaption>
@@ -290,8 +290,8 @@
 <p>Here&rsquo;s a fun fact which embarrasses me now: several interviewers said that mentioning beer on my CV/website is part of the reason I got an interview. Bro.</p>
 
 <figure class="image" data-component="image">
-	<a href="/media/images/posts/an-evolving-website/2010.jpg" data-role="image:modal">
-		<img src="/media/images/posts/an-evolving-website/2010.jpg" alt="2010 Design" />
+	<a href="https://rowanmanning.com/media/images/posts/an-evolving-website/2010.jpg" data-role="image:modal">
+		<img src="https://rowanmanning.com/media/images/posts/an-evolving-website/2010.jpg" alt="2010 Design" />
 	</a>
 	
 </figure>
@@ -305,8 +305,8 @@
 </ul>
 
 <figure class="image" data-component="image">
-	<a href="/media/images/posts/an-evolving-website/2011.jpg" data-role="image:modal">
-		<img src="/media/images/posts/an-evolving-website/2011.jpg" alt="2011 Design" />
+	<a href="https://rowanmanning.com/media/images/posts/an-evolving-website/2011.jpg" data-role="image:modal">
+		<img src="https://rowanmanning.com/media/images/posts/an-evolving-website/2011.jpg" alt="2011 Design" />
 	</a>
 	
 </figure>
@@ -316,8 +316,8 @@
 <p>One aspect of this site needs tearing down. <strong>Look at that profile picture</strong>. <!-- raw HTML omitted -->BRB<!-- raw HTML omitted --> – I&rsquo;m going to curl up in a ball for a while. I oddly decided that for a home page, this image and some &ldquo;about me&rdquo; text was more important than the posts.</p>
 
 <figure class="image" data-component="image">
-	<a href="/media/images/posts/an-evolving-website/2012.jpg" data-role="image:modal">
-		<img src="/media/images/posts/an-evolving-website/2012.jpg" alt="2012 Design" />
+	<a href="https://rowanmanning.com/media/images/posts/an-evolving-website/2012.jpg" data-role="image:modal">
+		<img src="https://rowanmanning.com/media/images/posts/an-evolving-website/2012.jpg" alt="2012 Design" />
 	</a>
 	
 </figure>
@@ -327,8 +327,8 @@
 <p>The pinky cream isn&rsquo;t <em>that</em> far from <!-- raw HTML omitted -->FT<!-- raw HTML omitted --> pink. If I believed in anything supernatural I might read this as a sign that I was destined to work there.</p>
 
 <figure class="image" data-component="image">
-	<a href="/media/images/posts/an-evolving-website/2013.jpg" data-role="image:modal">
-		<img src="/media/images/posts/an-evolving-website/2013.jpg" alt="2013 Design" />
+	<a href="https://rowanmanning.com/media/images/posts/an-evolving-website/2013.jpg" data-role="image:modal">
+		<img src="https://rowanmanning.com/media/images/posts/an-evolving-website/2013.jpg" alt="2013 Design" />
 	</a>
 	
 </figure>
@@ -338,8 +338,8 @@
 <p>The green bar at the top just keeps growing, and this is the first design to not display my age anywhere.</p>
 
 <figure class="image" data-component="image">
-	<a href="/media/images/posts/an-evolving-website/2014.jpg" data-role="image:modal">
-		<img src="/media/images/posts/an-evolving-website/2014.jpg" alt="2014 Design" />
+	<a href="https://rowanmanning.com/media/images/posts/an-evolving-website/2014.jpg" data-role="image:modal">
+		<img src="https://rowanmanning.com/media/images/posts/an-evolving-website/2014.jpg" alt="2014 Design" />
 	</a>
 	
 </figure>
@@ -348,8 +348,8 @@
 <p>Projects are dead! There&rsquo;s a lot less competing for your attention now, and I think that&rsquo;s a good thing. This is probably the smallest design iteration there has been, which might mean I&rsquo;m settling on something?</p>
 
 <figure class="image" data-component="image">
-	<a href="/media/images/posts/an-evolving-website/2015.jpg" data-role="image:modal">
-		<img src="/media/images/posts/an-evolving-website/2015.jpg" alt="2015 Design" />
+	<a href="https://rowanmanning.com/media/images/posts/an-evolving-website/2015.jpg" data-role="image:modal">
+		<img src="https://rowanmanning.com/media/images/posts/an-evolving-website/2015.jpg" alt="2015 Design" />
 	</a>
 	
 </figure>
@@ -359,8 +359,8 @@
 <p>I&rsquo;ve kept some of the things that I now consider almost signatures of my site: the green header bar, and the post colours. I&rsquo;m pretty pleased with the outcome! Fingers crossed I&rsquo;ll start writing again.</p>
 
 <figure class="image" data-component="image">
-	<a href="/media/images/posts/an-evolving-website/2016.jpg" data-role="image:modal">
-		<img src="/media/images/posts/an-evolving-website/2016.jpg" alt="2016 Design" />
+	<a href="https://rowanmanning.com/media/images/posts/an-evolving-website/2016.jpg" data-role="image:modal">
+		<img src="https://rowanmanning.com/media/images/posts/an-evolving-website/2016.jpg" alt="2016 Design" />
 	</a>
 	
 </figure>
@@ -402,8 +402,8 @@
 <div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pa11y nature.com
 </code></pre></div>
 <figure class="image" data-component="image">
-	<a href="/media/images/posts/accessibility-testing-with-pa11y/cli-report.png" data-role="image:modal">
-		<img src="/media/images/posts/accessibility-testing-with-pa11y/cli-report.png" alt="pa11y command-line output" />
+	<a href="https://rowanmanning.com/media/images/posts/accessibility-testing-with-pa11y/cli-report.png" data-role="image:modal">
+		<img src="https://rowanmanning.com/media/images/posts/accessibility-testing-with-pa11y/cli-report.png" alt="pa11y command-line output" />
 	</a>
 	
 		<figcaption class="image__caption">pa11y command-line output</figcaption>
@@ -431,8 +431,8 @@
 <div class="highlight"><pre class="chroma"><code class="language-sh" data-lang="sh">pa11y --reporter html nature.com &gt; results.html
 </code></pre></div>
 <figure class="image" data-component="image">
-	<a href="/media/images/posts/accessibility-testing-with-pa11y/html-report.png" data-role="image:modal">
-		<img src="/media/images/posts/accessibility-testing-with-pa11y/html-report.png" alt="pa11y HTML output" />
+	<a href="https://rowanmanning.com/media/images/posts/accessibility-testing-with-pa11y/html-report.png" data-role="image:modal">
+		<img src="https://rowanmanning.com/media/images/posts/accessibility-testing-with-pa11y/html-report.png" alt="pa11y HTML output" />
 	</a>
 	
 		<figcaption class="image__caption">pa11y HTML output</figcaption>
@@ -787,7 +787,7 @@ Rowan</p>
 
 <figure class="image" data-component="image">
 	<a href="http://fragcss.com/" >
-		<img src="/media/images/posts/frag-website-screengrab.jpg" alt="A screen-grab of the Frag website" />
+		<img src="https://rowanmanning.com/media/images/posts/frag-website-screengrab.jpg" alt="A screen-grab of the Frag website" />
 	</a>
 	
 		<figcaption class="image__caption">A screen-grab of the Frag website</figcaption>
