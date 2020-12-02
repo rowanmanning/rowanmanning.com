@@ -7,13 +7,16 @@ highlight: "orange"
 tags: ["Side Projects"]
 draft: true
 draftFeedback: "https://docs.google.com/document/d/1QG-tVoACz7ByH2Yr6cO4NRGkPCJvw-dQabZwj3at3hk/edit?usp=sharing"
+reviewers:
+  - name: Arjun Gadhia
+    website: https://www.thegadhian.com/
 ---
 
 {{< pin right >}}{{< image src="/posts/i-like-rss/feed-icon.png" alt="Feed Icon" link="https://en.wikipedia.org/wiki/RSS#/media/File:Feed-icon.svg" >}}{{< /pin >}}
 
-I first heard about and started using RSS in early 2008, it was a huge deal for me – I'd been going to individual tech sites to consume my news, and had collected a large set of bookmarks. As I browsed the web I'd been dutifully ignoring a little icon that would eventually revolutionise the way I read content on the internet.
+I first heard about and started using RSS in early 2008, it was a huge deal for me – I'd been going to individual tech sites to consume my news, and had collected a large set of bookmarks. As I browsed the web I'd been dutifully ignoring a little orange icon that would eventually revolutionise the way I read content on the internet.
 
-This post explains RSS for the uninitiated, it talks through the different experiences I've had with feed readers, and unashamedly promotes my new side project.
+This post explains RSS for the uninitiated, it talks through the different experiences I've had with feed readers over the years, and unashamedly promotes my new side project.
 
 
 ## What is RSS?
@@ -115,7 +118,7 @@ This was a fun project to work on, and regardless of whether I stick with it, fo
   - The interface is simple and minimal
   - I can host it wherever I want (it's on Heroku at the moment)
   - There are no algorithms suggesting content to me
-  - There are not advertisements
+  - There are no advertisements
   - There's nothing tracking me
   - I can add [new features](https://github.com/rowanmanning/audrey/issues) as and when I need them
 
