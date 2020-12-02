@@ -62,6 +62,7 @@
 	// Heading level 2 elements
 	h2 {
 		border-bottom: calc(var(--spacing-rule) / 2) solid var(--colorvalue-cream);
+		clear: both;
 		font-family: var(--font-family-heading);
 		font-size: var(--font-size-subheading);
 		line-height: var(--line-height-subheading);
