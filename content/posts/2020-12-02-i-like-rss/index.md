@@ -30,6 +30,7 @@ For example, my website might have article content in the following markup:
 ```html
 <article class="main-content">
     <h1>This is my article</h1>
+    <p>Published <time datetime="2020-01-26">26th Jan 2020</time>
     <p> ... </p>
 </article>
 ```
@@ -41,6 +42,7 @@ Whereas someone else's website might use something more like:
     <div class="article-hoBuu7MMQ">
         <div class="heading-area-kmcsJQLH5">
             <div class="heading-cJR9JlGUe">This is my article</div>
+            <div>Posted January 26th 2020</div>
             <div> ... </div>
         </div>
     </div>
@@ -48,6 +50,18 @@ Whereas someone else's website might use something more like:
 ```
 
 Web feeds help to make content more portable by being _strict_ about how content is organised. The two most common file formats for web feeds are XML-based, and they are [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)).
+
+A blog post in an RSS feed looks something like this, and content _has_ to be represented like this otherwise it's not considered valid RSS:
+
+```xml
+<item>
+    <title>This is my article</title>
+    <description> ... </description>
+    <link>https://www.example.com/blog/post</link>
+    <pubDate>Sun, 26 Jan 2020 01:37:00 +0000</pubDate>
+    ...
+</item>
+```
 
 These strict formats mean that machines have a much easier time processing content, and that content can be easily consumed by an application called a feed reader, or [news aggregator](https://en.wikipedia.org/wiki/News_aggregator). A feed reader takes a collection of RSS or Atom feeds, curated by you, and presents the content uniformly in a single interface.
 
