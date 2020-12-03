@@ -10,11 +10,13 @@ draftFeedback: "https://docs.google.com/document/d/1QG-tVoACz7ByH2Yr6cO4NRGkPCJv
 reviewers:
   - name: Arjun Gadhia
     website: https://www.thegadhian.com/
+  - name: Nayana Shetty
+    website: https://twitter.com/ShettyNy
 ---
 
 {{< pin right >}}{{< image src="/posts/i-like-rss/feed-icon.png" alt="Feed Icon" link="https://en.wikipedia.org/wiki/RSS#/media/File:Feed-icon.svg" >}}{{< /pin >}}
 
-I first heard about and started using RSS in early 2008, it was a huge deal for me – I'd been going to individual tech sites to consume my news, and had collected a large set of bookmarks. As I browsed the web I'd been dutifully ignoring a little orange icon that would eventually revolutionise the way I read content on the internet.
+I first heard about and started using {{< abbr "Really Simple Syndication" >}}RSS{{< /abbr >}} in early 2008, it was a huge deal for me – I'd been going to individual tech sites to consume my news, and had collected a large set of bookmarks. As I browsed the web I'd been dutifully ignoring a little orange icon that would eventually revolutionise the way I read content on the internet.
 
 This post explains RSS for the uninitiated, it talks through the different experiences I've had with feed readers over the years, and unashamedly promotes my new side project.
 
@@ -87,14 +89,14 @@ Google at least let people take some of their data with them, it was possible to
 
 After being burned by Google Reader shutting down, I wanted some guaranteed stability. I decided the best way to ensure this would be to pay money for a feed reader. I settled on [Fever](https://feedafever.com/).
 
-What I loved about Fever at the time is that it learned what content I liked to read and ordered the list of unread items by how much I might enjoy it. It was also self-hosted, so I knew that nobody could ever shut it down as long as I still had a hosting provider to put it on.
+What I loved about Fever at the time is that it learned what content I liked to read and ordered the list of unread items by how much I might enjoy them. It was also self-hosted, so I knew that nobody could ever shut it down as long as I still had a hosting provider to put it on.
 
 However my reading did tail off, and Fever failed to enter my daily workflow in the same way that Google Reader did, despite having paid $30 for it. My use of it had already dropped to nothing by 2016, and Fever's maintainer discontinuing the project was the final nail in the coffin.
 
 
 ## Stringer (2016–2017)
 
-{{< pin right >}}{{< image src="/posts/i-like-rss/stringer.png" alt="A screenshot of the Stringer interface" >}}{{< /pin >}}
+{{< pin right >}}{{< image src="/posts/i-like-rss/stringer.png" alt="A screenshot of the Stringer interface" caption="The Stringer interface is really simple and stripped back compared to my previous readers" >}}{{< /pin >}}
 
 After Fever, I thought maybe I could kickstart my reading again with a shiny new interface. I got rid of most of my feeds as the sheer volume of content had become too much for me and started fresh with [Stringer](https://github.com/swanson/stringer#readme).
 
@@ -110,7 +112,7 @@ I spent a good few years really not reading anything or blogging myself, this co
 
 ## Feedly (2019–2020)
 
-{{< pin left >}}{{< image src="/posts/i-like-rss/feedly.png" alt="A screenshot of the Feedly interface" >}}{{< /pin >}}
+{{< pin left >}}{{< image src="/posts/i-like-rss/feedly.png" alt="A screenshot of the Feedly interface" caption="Feedly has some similarities to Google reader, but there's some stuff there I'll never actually use" >}}{{< /pin >}}
 
 In 2019 I made a conscious effort to read a bit more. I'd been a line manager for a while at this point, and although I'd done some training, I was lacking the reading that had really boosted my early development career. I decided that rather than trying to set up an open source feed reader again, the quickest thing to do would be to use something commercial.
 
@@ -121,11 +123,11 @@ I didn't. There's something about Feedly's interface I just can't get behind, th
 
 ## Audrey (2020–???)
 
-I didn't really read a lot through the pandemic, but through October and November my reading increased markedly. Several of my friends and colleagues are publishing Weeknotes, and I was feeling left out. I started publishing my own, and at the same time my reading massively increased. I don't yet know whether this is sustainable, but I used that and [my recent enjoyment of side projects](/posts/yeehaw) to do something inadvisable.
+I didn't really read a lot through the pandemic, but through October and November my reading increased markedly. Several of my friends and colleagues are publishing Weeknotes, and I was feeling left out. [I started publishing my own](https://rowanmanning.com/weeknotes/), and at the same time my reading massively increased. I don't yet know whether this is sustainable, but I used that and [my recent enjoyment of side projects](/posts/yeehaw) to do something inadvisable.
 
 I built my own feed reader and named it [Audrey](https://github.com/rowanmanning/audrey#readme).
 
-{{< image src="/posts/i-like-rss/audrey.png" alt="A screenshot of the Audrey home page, showing unread entries from my feeds" link="https://github.com/rowanmanning/audrey#readme" >}}
+{{< image src="/posts/i-like-rss/audrey.png" alt="A screenshot of the Audrey home page, showing unread entries from my feeds" link="https://github.com/rowanmanning/audrey#readme" caption="Audrey's interface is stripped back, similar to Stringer. I'd like to keep it this way" >}}
 
 This was a fun project to work on, and regardless of whether I stick with it, for now I have a feed reader that does things _exactly_ the way I want them:
 
