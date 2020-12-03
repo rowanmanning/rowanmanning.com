@@ -3,16 +3,28 @@
 .pin {
 	margin-bottom: var(--spacing-half-line);
 	max-width: 33%;
+
+	@media (max-width: $layout-width-small-mobile) {
+		max-width: 50%;
+	}
 }
 
 // Pin block, "left" modifier
 .pin--left {
 	float: left;
 	margin-right: var(--spacing-line);
+
+	@media (max-width: $layout-width-small-mobile) {
+		margin-right: var(--spacing-half-line);
+	}
 }
 
 // Pin block, "right" modifier
 .pin--right {
 	float: right;
 	margin-left: var(--spacing-line);
+
+	@media (max-width: $layout-width-small-mobile) {
+		margin-left: var(--spacing-half-line);
+	}
 }
