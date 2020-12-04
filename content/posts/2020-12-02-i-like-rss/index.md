@@ -30,7 +30,7 @@ For example, my website might have article content in the following markup:
 ```html
 <article class="main-content">
     <h1>This is my article</h1>
-    <p>Published <time datetime="2020-01-26">26th Jan 2020</time>
+    <p>Published <time datetime="2020-01-26">26th Jan 2020</time></p>
     <p> ... </p>
 </article>
 ```
