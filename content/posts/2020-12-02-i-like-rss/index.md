@@ -1,12 +1,10 @@
 ---
 title: "I Like RSS"
-date: 2020-12-02 19:50:00
+date: 2020-12-04 12:35:00
 description: "An explainer on RSS and feed readers, a history of my reading habits over the years, and Audrey – a new open source project that will hopefully encourage me to read more."
 cta: "Read a bit about web feeds"
 highlight: "orange"
 tags: ["Side Projects"]
-draft: true
-draftFeedback: "https://docs.google.com/document/d/1QG-tVoACz7ByH2Yr6cO4NRGkPCJvw-dQabZwj3at3hk/edit?usp=sharing"
 reviewers:
   - name: Arjun Gadhia
     website: https://www.thegadhian.com/
