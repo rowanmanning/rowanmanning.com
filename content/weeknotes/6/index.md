@@ -26,6 +26,6 @@ description: "A week of spare-time coding, some good reading, an increasingly bo
 
   * I didn't watch a single Christmas film this week, maybe I overdid it in late November :thinking_face:
 
-  * Next week is my last week at work before I'm off for Christmas. I didn't intend on saving so many holiday days, but it's just how this year worked out. I'm feeling a bit of last week panic, mostly because I still have 12 peer reviews to write as well as making sure the more important things on my to-do list are ticked off. I'm need to get better at dropping things that aren't important.
+  * Next week is my last week at work before I'm off for Christmas. I didn't intend on saving so many holiday days, but it's just how this year worked out. I'm feeling a bit of last week panic, mostly because I still have 12 peer reviews to write as well as making sure the more important things on my to-do list are ticked off. I need to get better at dropping things that aren't important.
 
   * I wrote "Christmas" 10 times in this weeknote. Goodbye :wave: I'm going for a walk.
