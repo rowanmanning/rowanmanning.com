@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan’s Weeknotes</title><link href="https://rowanmanning.com/weeknotes/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/weeknotes/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-12-04T12:41:17+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/weeknotes/</id><entry><title type="html">Week 5: Aldovia</title><link href="https://rowanmanning.com/weeknotes/5/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/weeknotes/3/" rel="related" type="text/html" title="Week 3: Production Issue"/><link href="https://rowanmanning.com/weeknotes/4/" rel="related" type="text/html" title="Week 4: The Princess S(and)witch"/><link href="https://rowanmanning.com/posts/yeehaw/" rel="related" type="text/html" title="Yeehaw!"/><link href="https://rowanmanning.com/weeknotes/1/" rel="related" type="text/html" title="Week 1: Plumbing"/><id>https://rowanmanning.com/weeknotes/5/</id><published>2020-11-29T18:00:00+00:00</published><updated>2020-11-29T18:00:00+00:00</updated><content type="html"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan’s Weeknotes</title><link href="https://rowanmanning.com/weeknotes/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/weeknotes/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-12-06T10:10:58+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/weeknotes/</id><entry><title type="html">Week 6: Pointy Tree</title><link href="https://rowanmanning.com/weeknotes/6/" rel="alternate" type="text/html"/><id>https://rowanmanning.com/weeknotes/6/</id><published>2020-12-06T10:00:00+00:00</published><updated>2020-12-06T10:00:00+00:00</updated><content type="html"><![CDATA[<ul>
+<li>
+<p>We started making a Christmas cake! Yes I know it&rsquo;s a bit late, but really it already smells delicious. Also when you feed a Christmas cake it&rsquo;s wrong not to have a little bit of the brandy.</p>
+</li>
+<li>
+<p>I released a <a href="https://github.com/rowanmanning/audrey#readme">beta of Audrey</a>, which is the first <em>useful</em> side project I&rsquo;ve worked on in many years. It&rsquo;s a feed reader and I&rsquo;m really proud of it. What&rsquo;s a feed reader, I hear some of you ask? Well I also wrote a little blog post which explains: <a href="/posts/i-like-rss/">I like RSS</a>. I built Audrey to encourage me to read more, and it&rsquo;s working.</p>
+</li>
+<li>
+<p>I&rsquo;m trying to do <a href="https://adventofcode.com/2020">Advent of Code</a> this year, it&rsquo;s a daily code challenge leading up to Christmas. I&rsquo;ve managed <a href="https://github.com/rowanmanning/adventofcode-2020">six days so far</a> and it&rsquo;s a nice way to kick my brain into gear in the morning. Some of the puzzles are a joy, some are horrible and probably far easier to solve if you have a Computer Science background. I just go ahead and nest 3 loops.</p>
+</li>
+<li>
+
+<div class="pin pin--right">
+<figure class="image" data-component="image">
+	<a href="/weeknotes/6/pointy-tree.jpg" data-role="image:modal">
+		<img src="/weeknotes/6/pointy-tree.jpg" alt="A Christmas tree, half of the height of it is above the topmost branches, it&#39;s very pointy" />
+	</a>
+	
+		<figcaption class="image__caption">That&#39;s a lot of point</figcaption>
+	
+</figure>
+</div>
+
+<p>It&rsquo;s definitely Christmas when you put up a tree. Ours is really really pointy; the point is like a good third of the tree. We couldn&rsquo;t find the coloured lights I bought last year so there&rsquo;s a more muted gold/green theme going on. We listened to Christmas songs, which masked the cursing from many pricked fingers.</p>
+</li>
+<li>
+<p>I said I was reading more, here are some good things I read this week:</p>
+<ul>
+<li>
+<p><a href="https://peopleofcolorintech.com/front/making-moves-how-these-black-woman-made-the-switch-from-junior-to-senior-engineer/">Making Moves: How These Black Women Made The Switch from Junior to Senior Engineer</a> - thanks Keran and Jennifer for the POCIT recommendation.</p>
+</li>
+<li>
+<p><a href="https://peopleofcolorintech.com/articles/meet-the-black-women-trying-to-fix-ai/">Meet The Black Women Trying to Fix AI</a> - good overview with lots of further reading. I read this just before finding out that <a href="https://www.theguardian.com/technology/2020/dec/04/timnit-gebru-google-ai-fired-diversity-ethics">Google fired Timnit Gebru</a>, which is <em>infuriating</em>.</p>
+</li>
+<li>
+<p><a href="https://medium.com/ft-product-technology/engine-room-2020-going-virtual-7d4f77bc2969">Engine Room 2020: going virtual</a> - Sarah writes about running our internal tech conference fully remote for the first time. The conference itself was amazing this year and there are some good tips in this post.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>I didn&rsquo;t watch a single Christmas film this week, maybe I overdid it in late November 🤔</p>
+</li>
+<li>
+<p>Next week is my last week at work before I&rsquo;m off for Christmas. I didn&rsquo;t intend on saving so many holiday days, but it&rsquo;s just how this year worked out. I&rsquo;m feeling a bit of last week panic, mostly because I still have 12 peer reviews to write as well as making sure the more important things on my to-do list are ticked off. I&rsquo;m need to get better at dropping things that aren&rsquo;t important.</p>
+</li>
+<li>
+<p>I wrote &ldquo;Christmas&rdquo; 10 times in this weeknote. Goodbye 👋 I&rsquo;m going for a walk.</p>
+</li>
+</ul>
+]]></content></entry><entry><title type="html">Week 5: Aldovia</title><link href="https://rowanmanning.com/weeknotes/5/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/weeknotes/3/" rel="related" type="text/html" title="Week 3: Production Issue"/><link href="https://rowanmanning.com/weeknotes/4/" rel="related" type="text/html" title="Week 4: The Princess S(and)witch"/><link href="https://rowanmanning.com/posts/yeehaw/" rel="related" type="text/html" title="Yeehaw!"/><link href="https://rowanmanning.com/weeknotes/1/" rel="related" type="text/html" title="Week 1: Plumbing"/><id>https://rowanmanning.com/weeknotes/5/</id><published>2020-11-29T18:00:00+00:00</published><updated>2020-11-29T18:00:00+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <p>Because I just kicked back and had <a href="/weeknotes/4/">toasties</a> served to me last week, it&rsquo;s my turn to cook for the forseeable future. I made carbonara on Tuesday and it was <em>so</em> delicious, we rarely cook meat at home which makes it a bit of a treat when we do. I always had this impression that the &ldquo;don&rsquo;t scramble the egg&rdquo; part of carbonara was really difficult; either it&rsquo;s not, or we can put down this success to beginner&rsquo;s luck</p>
 </li>
