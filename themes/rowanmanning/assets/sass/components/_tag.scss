@@ -46,3 +46,36 @@ $_tag-colors: (
 		--tag-background-color: var(--highlight-#{$color}-light);
 	}
 }
+
+.tag--christmas {
+	background-color: var(--colorvalue-green-light);
+
+	&:hover {
+		background: linear-gradient(
+			90deg,
+			#090 0%,
+			#c00 20%,
+			#090 40%,
+			#c00 60%,
+			#090 80%,
+			#c00 100%
+		);
+		color: #ff0 !important;
+		animation: christmas-hover 1s linear infinite;
+	}
+}
+
+@keyframes christmas-hover {
+    0% {
+		box-shadow: 0 0 50px 20px #ff0;
+		opacity: 0.6;
+	}
+	50% {
+		box-shadow: 0 0 50px 0 #ff0;
+		opacity: 1;
+	}
+	100% {
+		box-shadow: 0 0 50px 20px #ff0;
+		opacity: 0.6;
+	}
+}
