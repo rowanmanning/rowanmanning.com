@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan’s Blog</title><link href="https://rowanmanning.com/posts/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/posts/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-12-06T12:16:29+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/posts/</id><entry><title type="html">I Like RSS</title><link href="https://rowanmanning.com/posts/i-like-rss/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/weeknotes/5/" rel="related" type="text/html" title="Week 5: Aldovia"/><link href="https://rowanmanning.com/posts/yeehaw/" rel="related" type="text/html" title="Yeehaw!"/><id>https://rowanmanning.com/posts/i-like-rss/</id><published>2020-12-04T12:35:00+00:00</published><updated>2020-12-04T12:35:00+00:00</updated><content type="html"><![CDATA[
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan’s Blog</title><link href="https://rowanmanning.com/posts/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/posts/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-12-07T13:47:34+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/posts/</id><entry><title type="html">I Like RSS</title><link href="https://rowanmanning.com/posts/i-like-rss/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/weeknotes/5/" rel="related" type="text/html" title="Week 5: Aldovia"/><link href="https://rowanmanning.com/posts/yeehaw/" rel="related" type="text/html" title="Yeehaw!"/><id>https://rowanmanning.com/posts/i-like-rss/</id><published>2020-12-04T12:35:00+00:00</published><updated>2012-12-07T13:45:00+00:00</updated><content type="html"><![CDATA[
 <div class="pin pin--right">
 <figure class="image" data-component="image">
 	<a href="https://en.wikipedia.org/wiki/RSS#/media/File:Feed-icon.svg" >
@@ -57,13 +57,18 @@
 </div>
 
 <p>This is what I decided to use to read content, because a feed reader owned by such a large company is probably the most stable and long-lasting choice, right?</p>
-<p>I think this was the golden age of my content consumption. Google Reader just really fit nicely into my daily workflow, and I knew the program inside out.</p>
+<p>I think this was the golden age of my content consumption. Google Reader fit really nicely into my daily workflow, and I knew the program inside out.</p>
 <p>Then, in 2013, <a href="https://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html">Google decided to retire the product</a>. It was a bummer.</p>
 <p>Google at least let people take some of their data with them, it was possible to export your list of feeds so that you could take them to a different reader. I downloaded my list of feeds and went in search of a new home.</p>
 <h2 id="fever-20132016">Fever (2013–2016)</h2>
 <p>After being burned by Google Reader shutting down, I wanted some guaranteed stability. I decided the best way to ensure this would be to pay money for a feed reader. I settled on <a href="https://feedafever.com/">Fever</a>.</p>
-<p>What I loved about Fever at the time is that it learned what content I liked to read and ordered the list of unread items by how much I might enjoy them. It was also self-hosted, so I knew that nobody could ever shut it down as long as I still had a hosting provider to put it on.</p>
-<p>However my reading did tail off, and Fever failed to enter my daily workflow in the same way that Google Reader did, despite having paid $30 for it. My use of it had already dropped to nothing by 2016, and Fever&rsquo;s maintainer discontinuing the project was the final nail in the coffin.</p>
+<p>What I loved about Fever at the time is that it learned what content I liked to read and ordered the list of unread items by how much I might enjoy them, it was also self-hosted. The benefits of a self-hosted feed reader are:</p>
+<ul>
+<li>If the software is discontinued, you still have a copy of it and can probably continue running it (at least for a while)</li>
+<li>I can run it on my own server, or on a cloud provider like Heroku. Normally this means I can choose to pay if I want more stability or I can stick with a free tier if that&rsquo;s all I need for now</li>
+<li>If I have the time and energy, I can make tweaks to the software to make it better suit my needs</li>
+</ul>
+<p>Despite all this my reading did tail off, and Fever failed to enter my daily workflow in the same way that Google Reader did, despite having paid $30 for it. My use of it had already dropped to nothing by 2016, and Fever&rsquo;s maintainer discontinuing the project was the final nail in the coffin.</p>
 <h2 id="stringer-20162017">Stringer (2016–2017)</h2>
 
 <div class="pin pin--right">
@@ -81,7 +86,7 @@
 <p>Stringer was also self-hosted, and I enjoyed the simplicity of it – a minimally styled single-column list of content was all I really needed, especially as the number of feeds I was subscribed to was at an all time low. I think my consistent reading lasted a few months at best.</p>
 <p>By mid-2017 I was reading next to nothing about tech, and Stringer was abandoned by me. I turned it off without a replacement. When I came back a few years later to have a look at the project, it had been archived on GitHub so that&rsquo;s yet another dead feed reader.</p>
 <h2 id="the-time-between-20172019">The Time Between (2017–2019)</h2>
-<p>I spent a good few years really not reading anything or blogging myself, this coincided with a lull in my side project and open source work, because I&rsquo;d burned myself out and fallen out of love with tech as an industry. But that&rsquo;s a story for another day, the gist is I just didn&rsquo;t read anything for a pretty long time.</p>
+<p>I spent a good few years really not reading anything or blogging myself, this coincided with a lull in my side project and open source work, because I&rsquo;d burned myself out and fallen out of love with tech as an industry. But that&rsquo;s a story for another day, the gist is I didn&rsquo;t read anything for a pretty long time.</p>
 <h2 id="feedly-20192020">Feedly (2019–2020)</h2>
 
 <div class="pin pin--left">
@@ -97,7 +102,7 @@
 
 <p>In 2019 I made a conscious effort to read a bit more. I&rsquo;d been a line manager for a while at this point, and although I&rsquo;d done some training, I was lacking the reading that had really boosted my early development career. I decided that rather than trying to set up an open source feed reader again, the quickest thing to do would be to use something commercial.</p>
 <p>I set up <a href="https://feedly.com/">Feedly</a>, intending on upgrading away from their free tier if I liked it.</p>
-<p>I didn&rsquo;t. There&rsquo;s something about Feedly&rsquo;s interface I just can&rsquo;t get behind, there&rsquo;s noise I just don&rsquo;t need like all the social buttons, as well as recommended content. I also found that the way feeds are managed just didn&rsquo;t gel with how I want to read. Maybe some of these things could be solved by paying for it, but I just don&rsquo;t like it enough to do that.</p>
+<p>I didn&rsquo;t. There&rsquo;s something about Feedly&rsquo;s interface I just can&rsquo;t get behind, there&rsquo;s noise I don&rsquo;t need like all the social buttons, as well as recommended content. I also found that the way feeds are managed didn&rsquo;t gel with how I want to read. Maybe some of these things could be solved by paying for it, but I really don&rsquo;t like it enough to do that.</p>
 <h2 id="audrey-2020">Audrey (2020–???)</h2>
 <p>I didn&rsquo;t really read a lot through the pandemic, but through October and November my reading increased markedly. Several of my friends and colleagues are publishing Weeknotes, and I was feeling left out. <a href="https://rowanmanning.com/weeknotes/">I started publishing my own</a>, and at the same time my reading massively increased. I don&rsquo;t yet know whether this is sustainable, but I used that and <a href="/posts/yeehaw">my recent enjoyment of side projects</a> to do something inadvisable.</p>
 <p>I built my own feed reader and named it <a href="https://github.com/rowanmanning/audrey#readme">Audrey</a>.</p>
