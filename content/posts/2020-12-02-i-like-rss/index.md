@@ -1,6 +1,7 @@
 ---
 title: "I Like RSS"
 date: 2020-12-04 12:35:00
+lastmod: 2012-12-07 13:45:00
 description: "An explainer on RSS and feed readers, a history of my reading habits over the years, and Audrey – a new open source project that will hopefully encourage me to read more."
 cta: "Read a bit about web feeds"
 highlight: "orange"
@@ -8,6 +9,8 @@ tags: ["Side Projects"]
 reviewers:
   - name: Arjun Gadhia
     website: https://www.thegadhian.com/
+  - name: Jennifer Shepherd
+    website: https://twitter.com/teachlearncode
   - name: Nayana Shetty
     website: https://twitter.com/ShettyNy
 ---
@@ -76,7 +79,7 @@ Back in 2008, when I finally tried clicking on one of those orange buttons, a ve
 
 This is what I decided to use to read content, because a feed reader owned by such a large company is probably the most stable and long-lasting choice, right?
 
-I think this was the golden age of my content consumption. Google Reader just really fit nicely into my daily workflow, and I knew the program inside out.
+I think this was the golden age of my content consumption. Google Reader fit really nicely into my daily workflow, and I knew the program inside out.
 
 Then, in 2013, [Google decided to retire the product](https://googleblog.blogspot.com/2013/03/a-second-spring-of-cleaning.html). It was a bummer.
 
@@ -87,9 +90,13 @@ Google at least let people take some of their data with them, it was possible to
 
 After being burned by Google Reader shutting down, I wanted some guaranteed stability. I decided the best way to ensure this would be to pay money for a feed reader. I settled on [Fever](https://feedafever.com/).
 
-What I loved about Fever at the time is that it learned what content I liked to read and ordered the list of unread items by how much I might enjoy them. It was also self-hosted, so I knew that nobody could ever shut it down as long as I still had a hosting provider to put it on.
+What I loved about Fever at the time is that it learned what content I liked to read and ordered the list of unread items by how much I might enjoy them, it was also self-hosted. The benefits of a self-hosted feed reader are:
 
-However my reading did tail off, and Fever failed to enter my daily workflow in the same way that Google Reader did, despite having paid $30 for it. My use of it had already dropped to nothing by 2016, and Fever's maintainer discontinuing the project was the final nail in the coffin.
+  - If the software is discontinued, you still have a copy of it and can probably continue running it (at least for a while)
+  - I can run it on my own server, or on a cloud provider like Heroku. Normally this means I can choose to pay if I want more stability or I can stick with a free tier if that's all I need for now
+  - If I have the time and energy, I can make tweaks to the software to make it better suit my needs
+
+Despite all this my reading did tail off, and Fever failed to enter my daily workflow in the same way that Google Reader did, despite having paid $30 for it. My use of it had already dropped to nothing by 2016, and Fever's maintainer discontinuing the project was the final nail in the coffin.
 
 
 ## Stringer (2016–2017)
@@ -105,7 +112,7 @@ By mid-2017 I was reading next to nothing about tech, and Stringer was abandoned
 
 ## The Time Between (2017–2019)
 
-I spent a good few years really not reading anything or blogging myself, this coincided with a lull in my side project and open source work, because I'd burned myself out and fallen out of love with tech as an industry. But that's a story for another day, the gist is I just didn't read anything for a pretty long time.
+I spent a good few years really not reading anything or blogging myself, this coincided with a lull in my side project and open source work, because I'd burned myself out and fallen out of love with tech as an industry. But that's a story for another day, the gist is I didn't read anything for a pretty long time.
 
 
 ## Feedly (2019–2020)
@@ -116,7 +123,7 @@ In 2019 I made a conscious effort to read a bit more. I'd been a line manager fo
 
 I set up [Feedly](https://feedly.com/), intending on upgrading away from their free tier if I liked it.
 
-I didn't. There's something about Feedly's interface I just can't get behind, there's noise I just don't need like all the social buttons, as well as recommended content. I also found that the way feeds are managed just didn't gel with how I want to read. Maybe some of these things could be solved by paying for it, but I just don't like it enough to do that.
+I didn't. There's something about Feedly's interface I just can't get behind, there's noise I don't need like all the social buttons, as well as recommended content. I also found that the way feeds are managed didn't gel with how I want to read. Maybe some of these things could be solved by paying for it, but I really don't like it enough to do that.
 
 
 ## Audrey (2020–???)
