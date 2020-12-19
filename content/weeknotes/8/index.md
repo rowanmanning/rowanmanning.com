@@ -8,7 +8,7 @@ description: "A week of cancelled plans, breakfast champagne, excessive TV, and 
 
   * What even is time? I'm very firmly in holiday mode, where I've forgotten what day of the week it is and I have no routine. The only constant is Tootsie waking me up at 7:30 to be fed and Tootsie meowing to be given his dinner.
 
-  * So [Christmas is cancelled](https://www.bbc.co.uk/news/uk-55379220). We have a lot of food already as we were planning to have Christmas day with some friends, which we can't do now, I guess we'll be eating leftovers for a while! I'm still excited for our first Christmas not going to either of our families – we can do things the way we want at the pace we want and that sounds delightful. Nobody can judge us for opening champagne at 8am 🥂 (Aldi, naturally)
+  * So [Christmas is cancelled](https://www.bbc.co.uk/news/uk-55379220). We have a lot of food already as we were planning to have Christmas day with some friends, which we can't do now, I guess we'll be eating leftovers for a while! I'm still excited for our first Christmas not going to either of our families – we can do things the way we want at the pace we want and that sounds delightful. Nobody can judge us for opening champagne at 8am 🥂 (Aldi, naturally).
 
   * I've been staying away from coding a bit over the last week to moderate my pace and not burn out. The small bits I did get done are integration tests for [Audrey](https://github.com/rowanmanning/audrey#readme). I love writing tests, I get more satisfaction from them than any other aspect of programming – nothing beats the warm secure blanket of `>90%` coverage and a cascade of green ticks.
 
@@ -40,7 +40,7 @@ description: "A week of cancelled plans, breakfast champagne, excessive TV, and 
     
     * Snackmasters is such a good concept and a lot of fun, but I find the presenter really annoying.
 
-    * Great British Menu, Christmas has felt much nicer than the regular show, Andi Oliver is great as a presenter
+    * Great British Menu, Christmas has felt much nicer than the regular show, Andi Oliver is great as a presenter.
 
     * Love Bites (on ITV2) should be a guilty pleasure but I'm not guilty about it. It's very cringey watching people in their early 20s try to impress each other, _especially_ when they're trying to do it by cooking things they have no clue how to make.
 
