@@ -93,4 +93,18 @@
 		</ul>
 	</footer>
 
+	{{ $related := .Site.RegularPages.Related . | first 3 }}
+	{{ with $related }}
+		<aside class="related-content">
+			<div class="content-body">
+				<h2>You may also like</h2>
+			</div>
+			<ol class="content-list">
+				{{ range $related }}
+					<li>{{- partial "content-summary.html" . -}}</li>
+				{{ end }}
+			</ol>
+		</aside>
+	{{ end }}
+
 </article>
