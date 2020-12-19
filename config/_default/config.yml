@@ -41,3 +41,14 @@ outputs:
 
 # Publish to the "build" directory
 publishDir: "build"
+
+# Configure related content
+related:
+  includeNewer: true
+  indices:
+    - name: tags
+      weight: 80
+    - name: date
+      weight: 10
+  threshold: 80
+  toLower: false
