@@ -1,5 +1,5 @@
 User-agent: *
 
-{{ if eq .Hugo.Environment "staging" -}}
+{{ if eq hugo.Environment "staging" -}}
 	Disallow: /
 {{- end }}

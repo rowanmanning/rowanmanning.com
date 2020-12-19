@@ -8,10 +8,10 @@
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 
 	{{/* Hide drafts and pages on the staging site */}}
-	{{ if or .Draft (eq .Hugo.Environment "staging") }}<meta name="robots" content="noindex" />{{ end }}
+	{{ if or .Draft (eq hugo.Environment "staging") }}<meta name="robots" content="noindex" />{{ end }}
 
 	{{/* If on the staging site and content is not a draft, redirect to production */}}
-	{{ if and (not .Draft) (eq .Hugo.Environment "staging") }}
+	{{ if and (not .Draft) (eq hugo.Environment "staging") }}
 		<meta http-equiv="refresh" content="0;URL='{{ .Permalink }}'" />
 	{{ end }}
 
