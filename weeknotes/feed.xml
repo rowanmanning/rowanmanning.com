@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan’s Weeknotes</title><link href="https://rowanmanning.com/weeknotes/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/weeknotes/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-12-13T19:10:44+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/weeknotes/</id><entry><title type="html">Week 7: Culinary Genius</title><link href="https://rowanmanning.com/weeknotes/7/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/weeknotes/6/" rel="related" type="text/html" title="Week 6: Pointy Tree"/><link href="https://rowanmanning.com/weeknotes/5/" rel="related" type="text/html" title="Week 5: Aldovia"/><link href="https://rowanmanning.com/weeknotes/4/" rel="related" type="text/html" title="Week 4: The Princess S(and)witch"/><link href="https://rowanmanning.com/weeknotes/3/" rel="related" type="text/html" title="Week 3: Production Issue"/><link href="https://rowanmanning.com/weeknotes/2/" rel="related" type="text/html" title="Week 2: Islands in the Stream"/><id>https://rowanmanning.com/weeknotes/7/</id><published>2020-12-13T19:10:00+00:00</published><updated>2020-12-13T19:10:00+00:00</updated><content type="html"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan’s Weeknotes</title><link href="https://rowanmanning.com/weeknotes/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/weeknotes/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-12-19T20:54:27+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/weeknotes/</id><entry><title type="html">Week 8: Cancelled</title><link href="https://rowanmanning.com/weeknotes/8/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/weeknotes/6/" rel="related" type="text/html" title="Week 6: Pointy Tree"/><link href="https://rowanmanning.com/weeknotes/5/" rel="related" type="text/html" title="Week 5: Aldovia"/><link href="https://rowanmanning.com/weeknotes/7/" rel="related" type="text/html" title="Week 7: Culinary Genius"/><link href="https://rowanmanning.com/posts/i-like-rss/" rel="related" type="text/html" title="I Like RSS"/><link href="https://rowanmanning.com/weeknotes/4/" rel="related" type="text/html" title="Week 4: The Princess S(and)witch"/><id>https://rowanmanning.com/weeknotes/8/</id><published>2020-12-19T20:50:00+00:00</published><updated>2020-12-19T20:50:00+00:00</updated><content type="html"><![CDATA[<ul>
+<li>
+<p>What even is time? I&rsquo;m very firmly in holiday mode, where I&rsquo;ve forgotten what day of the week it is and I have no routine. The only constant is Tootsie waking me up at 7:30 to be fed and Tootsie meowing to be given his dinner.</p>
+</li>
+<li>
+<p>So <a href="https://www.bbc.co.uk/news/uk-55379220">Christmas is cancelled</a>. We have a lot of food already as we were planning to have Christmas day with some friends, which we can&rsquo;t do now, I guess we&rsquo;ll be eating leftovers for a while! I&rsquo;m still excited for our first Christmas not going to either of our families – we can do things the way we want at the pace we want and that sounds delightful. Nobody can judge us for opening champagne at 8am 🥂 (Aldi, naturally)</p>
+</li>
+<li>
+<p>I&rsquo;ve been staying away from coding a bit over the last week to moderate my pace and not burn out. The small bits I did get done are integration tests for <a href="https://github.com/rowanmanning/audrey#readme">Audrey</a>. I love writing tests, I get more satisfaction from them than any other aspect of programming – nothing beats the warm secure blanket of <code>&gt;90%</code> coverage and a cascade of green ticks.</p>
+<ul>
+<li>
+<p>✅</p>
+</li>
+<li>
+<p>✅</p>
+</li>
+<li>
+<p>✅</p>
+</li>
+<li>
+<p>✅</p>
+</li>
+<li>
+<p>✅</p>
+</li>
+<li>
+<p>✅</p>
+</li>
+<li>
+<p>✅</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Wasn&rsquo;t that nice?</p>
+</li>
+<li>
+<p>Oh I did do one more thing, I made <a href="https://github.com/rowanmanning/yeehaw#readme">Yeehaw</a> give all horses Christmas names for December. It was <a href="https://github.com/rowanmanning/yeehaw/commit/fffe03eb651ea7a724b83363814bc4f3634c1477">a small job</a> which will bring me a lot of joy. My favourite horses so far have been Merry Firewood, Jolly Chimney, and Bethlehem Vixen.</p>
+
+<figure class="image" data-component="image">
+	<a href="/weeknotes/8/christmas-yeehaw.png" data-role="image:modal">
+		<img src="/weeknotes/8/christmas-yeehaw.png" alt="Five emoji horses lined up in Slack, waiting to race. Their new more Christmas-themed names are Seasonal Gold, Frosty December, Bethlehem Miracle, Party Star, and Happy Vixen." />
+	</a>
+	
+</figure>
+
+</li>
+<li>
+<p>I had a lovely chat with Becky (my sister), it&rsquo;s been ages since we caught up and it&rsquo;s so weird that I&rsquo;ve only seen her once, maybe twice this year. We laughed a lot and I didn&rsquo;t realise how much I needed it.</p>
+</li>
+<li>
+<p>There&rsquo;s just been too much TV, I feel like a bit of a zombie. I&rsquo;m <em>loving</em> His Dark Materials and getting some strong nostalgia from reading the books as a kid. But we&rsquo;ve also been watching a <em>lot</em> of cooking shows (maybe too many cooking shows):</p>
+<ul>
+<li>
+<p>MasterChef: The Professionals is a fixture, I really want Monica Galetti to tell me nice things about my food.</p>
+</li>
+<li>
+<p>Snackmasters is such a good concept and a lot of fun, but I find the presenter really annoying.</p>
+</li>
+<li>
+<p>Great British Menu, Christmas has felt much nicer than the regular show, Andi Oliver is great as a presenter</p>
+</li>
+<li>
+<p>Love Bites (on ITV2) should be a guilty pleasure but I&rsquo;m not guilty about it. It&rsquo;s very cringey watching people in their early 20s try to impress each other, <em>especially</em> when they&rsquo;re trying to do it by cooking things they have no clue how to make.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>OK I think I won&rsquo;t write anything until after Christmas now! I hope you enjoy the festive period despite everything that&rsquo;s going on 👋</p>
+</li>
+</ul>
+]]></content><category scheme="https://rowanmanning.com/tags/christmas" term="christmas" label="Christmas"/><category scheme="https://rowanmanning.com/tags/family" term="family" label="Family"/><category scheme="https://rowanmanning.com/tags/side-projects" term="side-projects" label="Side Projects"/><category scheme="https://rowanmanning.com/tags/tv" term="tv" label="TV"/></entry><entry><title type="html">Week 7: Culinary Genius</title><link href="https://rowanmanning.com/weeknotes/7/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/weeknotes/6/" rel="related" type="text/html" title="Week 6: Pointy Tree"/><link href="https://rowanmanning.com/weeknotes/5/" rel="related" type="text/html" title="Week 5: Aldovia"/><link href="https://rowanmanning.com/weeknotes/4/" rel="related" type="text/html" title="Week 4: The Princess S(and)witch"/><link href="https://rowanmanning.com/weeknotes/3/" rel="related" type="text/html" title="Week 3: Production Issue"/><link href="https://rowanmanning.com/weeknotes/2/" rel="related" type="text/html" title="Week 2: Islands in the Stream"/><id>https://rowanmanning.com/weeknotes/7/</id><published>2020-12-13T19:10:00+00:00</published><updated>2020-12-13T19:10:00+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <p>The title of this weeknote refers to me. Yes, I&rsquo;m the culinary genius, because on Tuesday I added a dash of truffle oil to my Heinz cream of mushroom soup and it really lifted the dish. I&rsquo;ve never thought of myself as the kind of person who owns truffle oil, but I bought the tiny bottle a few months ago on a whim – I really was craving <a href="https://www.latuapasta.com/">La Tua</a>&rsquo;s black truffle and ricotta tortelloni in the first lockdown.</p>
 </li>
