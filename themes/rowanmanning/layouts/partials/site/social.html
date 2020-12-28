@@ -1,12 +1,20 @@
 
 {{ if eq .Kind "page" }}
 
+	{{ $image := index (.Resources.ByType "image") 0 }}
+
 	{{/* Twitter summary card */}}
 	<meta name="twitter:card" content="summary" />
 	<meta property="twitter:url" content="{{ .Permalink }}">
 	<meta name="twitter:title" content="{{ .Title }}" />
 	{{- $logoSourceImage := resources.Get "logo-twitter.png" }}
-	{{ if $logoSourceImage }}<meta name="twitter:image" content="{{ $logoSourceImage.Permalink }}" />{{ end }}
+	{{ if $image }}
+		<meta name="twitter:image" content="{{ $image.Permalink }}" />
+		<meta name="twitter:image:alt" content="{{ .Title }}" />
+	{{ else if $logoSourceImage }}
+		<meta name="twitter:image" content="{{ $logoSourceImage.Permalink }}" />
+		<meta name="twitter:image:alt" content="{{ .Title }}" />
+	{{ end }}
 	{{ if .Site.Author.twitter }}<meta name="twitter:site" content="@{{ .Site.Author.twitter }}" />{{ end }}
 	{{ if .Description }}<meta name="twitter:description" content="{{ .Description }}" />{{ end }}
 
@@ -15,6 +23,13 @@
 	<meta property="og:site_name" content="{{ .Site.Title }}" />
 	<meta property="og:title" content="{{ .Title }}" />
 	<meta property="og:url" content="{{ .Permalink }}" />
+	{{ if $image }}
+		<meta name="og:image" content="{{ $image.Permalink }}" />
+		<meta name="og:image:alt" content="{{ .Title }}" />
+	{{ else if $logoSourceImage }}
+		<meta name="og:image" content="{{ $logoSourceImage.Permalink }}" />
+		<meta name="og:image:alt" content="{{ .Title }}" />
+	{{ end }}
 	{{ if .Description }}<meta property="og:description" content="{{ .Description }}" />{{ end }}
 
 	{{/* Open Graph article */}}
