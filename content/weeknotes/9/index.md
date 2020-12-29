@@ -4,13 +4,18 @@ date: 2020-12-28T09:00:00
 tags: ["Christmas", "Food", "TV"]
 highlight: "blue"
 description: "A week of over-eating, chopping things really small, gripping chess montages, and building hospitals."
+resources:
+  - src: "christmas-cake.jpg"
+    title: "A christmas cake, decorated with heaps of royal icing that looks like snow. Small green trees made from pistacio paste are scattered across the top, with two wooden stags peeking around them"
+    params:
+      caption: "My brother says the trees look like poos, and I'm worried about his diet now"
 ---
 
   * I really enjoyed Christmas, we woke up late and spent most of the day cooking. We had a spreadsheet for all the meal timings which was very helpful, and I wasn't even the one to instigate it. We spent the evening on a bunch of different video calls with friends and family, and I ate and drank too much which is exactly how I intended on spending my day.
 
   * We tried our Christmas cake. It tastes like actual Christmas Cake and is delicious! I'm good at anything that involves beating egg whites so of course the royal icing is _perfect_.
 
-    {{< image src="/weeknotes/9/christmas-cake.jpg" alt="A christmas cake, decorated with heaps of royal icing that looks like snow. Small green trees made from pistacio paste are scattered across the top, with two wooden stags peeking around them" caption="My brother says the trees look like poos, and I'm worried about his diet now" >}}
+    {{< image "christmas-cake.jpg" >}}
 
   * On boxing day we ordered a pizza and ate it in bed.
 

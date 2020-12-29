@@ -4,6 +4,11 @@ date: 2020-12-06T10:00:00
 tags: ["Christmas", "Food", "Side Projects", "Work"]
 highlight: "lime"
 description: "A week of spare-time coding, some good reading, an increasingly boozy Christmas cake, and our exceptionally pointy tree"
+resources:
+  - src: "pointy-tree.jpg"
+    title: "A Christmas tree, half of the height of it is above the topmost branches, it's very pointy"
+    params:
+      caption: "That's a lot of point"
 ---
 
   * We started making a Christmas cake! Yes I know it's a bit late, but really it already smells delicious. Also when you feed a Christmas cake it's wrong not to have a little bit of the brandy.
@@ -12,7 +17,7 @@ description: "A week of spare-time coding, some good reading, an increasingly bo
 
   * I'm trying to do [Advent of Code](https://adventofcode.com/2020) this year, it's a daily code challenge leading up to Christmas. I've managed [six days so far](https://github.com/rowanmanning/adventofcode-2020) and it's a nice way to kick my brain into gear in the morning. Some of the puzzles are a joy, some are horrible and probably far easier to solve if you have a Computer Science background. I just go ahead and nest 3 loops.
 
-  * {{< pin right >}}{{< image src="/weeknotes/6/pointy-tree.jpg" alt="A Christmas tree, half of the height of it is above the topmost branches, it's very pointy" caption="That's a lot of point" >}}{{< /pin >}}
+  * {{< pin right >}}{{< image "pointy-tree.jpg" >}}{{< /pin >}}
   
     It's definitely Christmas when you put up a tree. Ours is really really pointy; the point is like a good third of the tree. We couldn't find the coloured lights I bought last year so there's a more muted gold/green theme going on. We listened to Christmas songs, which masked the cursing from many pricked fingers.
 

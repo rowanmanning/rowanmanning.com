@@ -4,6 +4,9 @@ date: 2020-11-01T21:00:00
 tags: ["Games", "Renting", "Films"]
 highlight: "blue"
 description: "A week without running water, finding a new favourite board game, and two Christmas films which don't compare to The Princess Switch."
+resources:
+  - src: "minecraft-build.jpg"
+    title: "Several skyscrapers, a pub, and some terraced houses built in Minecraft"
 ---
 
 Hello :wave: I'm going to try publishing weeknotes.
@@ -18,6 +21,6 @@ Hello :wave: I'm going to try publishing weeknotes.
 
   * I felt really ineffective at work this week, I'm not very resilient to any kind of adversity lately and the ongoing plumbing issues just killed my ability to think properly. I'm feeling better now, and spent a bit of the weekend rebuilding this website so maybe motivation is creeping back.
 
-  * {{< pin right >}}{{< image src="/weeknotes/1/minecraft-build.jpg" alt="Several skyscrapers, a pub, and some terraced houses built in Minecraft" >}}{{< /pin >}}
+  * {{< pin right >}}{{< image "minecraft-build.jpg" >}}{{< /pin >}}
   
     Getting more nerdy the further down the page we go, I've been playing a lot of Minecraft again (noticeably more since it got darker in the evenings). The tower on the left, the pub, and most of the terraced houses were this week :grimacing: For anyone not familiar with Survival Minecraft, stuff at this scale takes _hours_. I think I'm the only one still playing regularly on our server now though so maybe my play time will tail off.

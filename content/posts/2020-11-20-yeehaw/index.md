@@ -6,6 +6,11 @@ description: "Way back in March this year, early on in lockdown, I had a burst o
 cta: "Saddle up"
 highlight: "pink"
 tags: ["Side Projects"]
+resources:
+  - src: "demo.gif"
+    title: "Four horse racing emoji race across the screen from right to left, reaching the finish line in turn"
+    params:
+      link: "https://github.com/rowanmanning/yeehaw#readme"
 reviewers:
   - name: Jennifer Johnson
     website: https://medium.com/@jkerr321
@@ -25,7 +30,7 @@ This idea came out of a Slack conversation with [Leaf](https://twitter.com/keiro
   1. I finish the project (because otherwise how will I make my friends laugh?)
   2. I actually enjoy building it (because otherwise why bother?)
 
-{{< image src="/posts/yeehaw/demo.gif" alt="Four horse racing emoji race across the screen from right to left, reaching the finish line in turn" link="https://github.com/rowanmanning/yeehaw#readme" >}}
+{{< image "demo.gif" >}}
 
 
 ## Tip #1: Define Goals

@@ -6,6 +6,29 @@ description: "An explainer on RSS and feed readers, a history of my reading habi
 cta: "Read a bit about web feeds"
 highlight: "orange"
 tags: ["Side Projects"]
+resources:
+  - src: "audrey.png"
+    title: "A screenshot of the Audrey home page, showing unread entries from my feeds"
+    params:
+      link: "https://github.com/rowanmanning/audrey#readme"
+      caption: "Audrey's interface is stripped back, similar to Stringer. I'd like to keep it this way"
+  - src: "feed-icon.png"
+    title: "Feed icon"
+    params:
+      link: "https://en.wikipedia.org/wiki/RSS#/media/File:Feed-icon.svg"
+  - src: "feedly.png"
+    title: "A screenshot of the Feedly interface"
+    params:
+      caption: "Feedly has some similarities to Google reader, but there's some stuff there I'll never actually use"
+  - src: "google-reader.png"
+    title: "A screenshot of the Google Reader interface"
+    params:
+      link: "https://en.wikipedia.org/wiki/Google_Reader#/media/File:Google_Reader_interface.png"
+      caption: "This extremely low resolution screenshot is the best I could do, I'm sorry"
+  - src: "stringer.png"
+    title: "A screenshot of the Stringer interface"
+    params:
+      caption: "The Stringer interface is really simple and stripped back compared to my previous readers"
 reviewers:
   - name: Arjun Gadhia
     website: https://www.thegadhian.com/
@@ -15,7 +38,7 @@ reviewers:
     website: https://twitter.com/ShettyNy
 ---
 
-{{< pin right >}}{{< image src="/posts/i-like-rss/feed-icon.png" alt="Feed Icon" link="https://en.wikipedia.org/wiki/RSS#/media/File:Feed-icon.svg" >}}{{< /pin >}}
+{{< pin right >}}{{< image "feed-icon.png" >}}{{< /pin >}}
 
 I first heard about and started using {{< abbr "Really Simple Syndication" >}}RSS{{< /abbr >}} in early 2008, it was a huge deal for me – I'd been going to individual tech sites to consume my news, and had collected a large set of bookmarks. As I browsed the web I'd been dutifully ignoring a little orange icon that would eventually revolutionise the way I read content on the internet.
 
@@ -75,7 +98,7 @@ So if you're consuming all your web content via a feed reader, you no longer hav
 
 Back in 2008, when I finally tried clicking on one of those orange buttons, a very popular feed reader was owned by Google. It was called Google Reader.
 
-{{< pin left >}}{{< image src="/posts/i-like-rss/google-reader.png" alt="A screenshot of the Google Reader interface" link="https://en.wikipedia.org/wiki/Google_Reader#/media/File:Google_Reader_interface.png" caption="This extremely low resolution screenshot is the best I could do, I'm sorry" >}}{{< /pin >}}
+{{< pin left >}}{{< image "google-reader.png" >}}{{< /pin >}}
 
 This is what I decided to use to read content, because a feed reader owned by such a large company is probably the most stable and long-lasting choice, right?
 
@@ -101,7 +124,7 @@ Despite all this my reading did tail off, and Fever failed to enter my daily wor
 
 ## Stringer (2016–2017)
 
-{{< pin right >}}{{< image src="/posts/i-like-rss/stringer.png" alt="A screenshot of the Stringer interface" caption="The Stringer interface is really simple and stripped back compared to my previous readers" >}}{{< /pin >}}
+{{< pin right >}}{{< image "stringer.png" >}}{{< /pin >}}
 
 After Fever, I thought maybe I could kickstart my reading again with a shiny new interface. I got rid of most of my feeds as the sheer volume of content had become too much for me and started fresh with [Stringer](https://github.com/swanson/stringer#readme).
 
@@ -117,7 +140,7 @@ I spent a good few years really not reading anything or blogging myself, this co
 
 ## Feedly (2019–2020)
 
-{{< pin left >}}{{< image src="/posts/i-like-rss/feedly.png" alt="A screenshot of the Feedly interface" caption="Feedly has some similarities to Google reader, but there's some stuff there I'll never actually use" >}}{{< /pin >}}
+{{< pin left >}}{{< image "feedly.png" >}}{{< /pin >}}
 
 In 2019 I made a conscious effort to read a bit more. I'd been a line manager for a while at this point, and although I'd done some training, I was lacking the reading that had really boosted my early development career. I decided that rather than trying to set up an open source feed reader again, the quickest thing to do would be to use something commercial.
 
@@ -132,7 +155,7 @@ I didn't really read a lot through the pandemic, but through October and Novembe
 
 I built my own feed reader and named it [Audrey](https://github.com/rowanmanning/audrey#readme).
 
-{{< image src="/posts/i-like-rss/audrey.png" alt="A screenshot of the Audrey home page, showing unread entries from my feeds" link="https://github.com/rowanmanning/audrey#readme" caption="Audrey's interface is stripped back, similar to Stringer. I'd like to keep it this way" >}}
+{{< image "audrey.png" >}}
 
 This was a fun project to work on, and regardless of whether I stick with it, for now I have a feed reader that does things _exactly_ the way I want them:
 

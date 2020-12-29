@@ -1,56 +1,34 @@
 
-{{/* Get the image source */}}
-{{- $imageSource := "" -}}
-{{- if .IsNamedParams -}}
-	{{- $imageSource = .Get "src" -}}
-{{- else -}}
-	{{- $imageSource = .Get 0 -}}
-{{- end -}}
+{{/* Get the image parameters */}}
+{{- $srcParam := cond .IsNamedParams (.Get "src") (.Get 0) -}}
+{{- $altParam := cond .IsNamedParams (.Get "alt") (.Get 1) -}}
+{{- $captionParam := cond .IsNamedParams (.Get "caption") (.Get 2) -}}
+{{- $linkParam := cond .IsNamedParams (.Get "link") (.Get 3) -}}
 
-{{/* Get the image alt text */}}
-{{- $alt := "" -}}
-{{- if .IsNamedParams -}}
-	{{- $alt = .Get "alt" -}}
-{{- else -}}
-	{{- $alt = .Get 1 -}}
-{{- end -}}
+{{/* Attempt to match the image as a page resource */}}
+{{- $resource := index (.Page.Resources.Match $srcParam) 0 -}}
 
-{{/* Get the image caption */}}
-{{- $caption := "" -}}
-{{- if .IsNamedParams -}}
-	{{- $caption = .Get "caption" -}}
-{{- else -}}
-	{{- $caption = .Get 2 -}}
-{{- end -}}
+{{/* Get image variables from resource vs params */}}
+{{- $imagePermalink := $resource.Permalink | default $srcParam -}}
+{{- $imageCaption := $captionParam | default $resource.Params.caption -}}
+{{- $imageAltText := $altParam | default $resource.Title | default $imageCaption -}}
+{{- $imageLink := $linkParam | default $resource.Params.link | default $imagePermalink -}}
 
-{{/* Get the image link */}}
-{{- $link := "" -}}
-{{- if .IsNamedParams -}}
-	{{- $link = .Get "link" -}}
-{{- end -}}
-
-{{/* Default the image link to the image source */}}
-{{- $linkIsImage := false -}}
-{{- if not $link -}}
-	{{- $link = $imageSource -}}
-	{{- $linkIsImage = true -}}
-{{- end -}}
-
-{{/* If no alt text is present but a caption is, use the caption */}}
-{{- if and (not $alt) $caption -}}
-	{{- $alt = $caption -}}
+{{/* Error if the resource is not an image */}}
+{{- if and ($resource) (ne $resource.ResourceType "image") -}}
+	{{- errorf "Resource is not an image: %s" .Position -}}
 {{- end -}}
 
 {{/* Error if there's no alt text */}}
-{{- if not $alt -}}
+{{- if not $imageAltText -}}
 	{{- errorf "Missing image alt attribute: %s" .Position -}}
 {{- end -}}
 
-<figure class="image" data-component="image">
-	<a href="{{ $link | relURL }}" {{ if $linkIsImage }}data-role="image:modal"{{ end }}>
-		<img src="{{ $imageSource | relURL }}" alt="{{ $alt }}" />
+<figure class="image">
+	<a href="{{ $imageLink | relURL }}">
+		<img src="{{ $imagePermalink | relURL }}" alt="{{ $imageAltText }}" />
 	</a>
-	{{ if $caption }}
-		<figcaption class="image__caption">{{ $caption }}</figcaption>
+	{{ if $imageCaption }}
+		<figcaption class="image__caption">{{ $imageCaption }}</figcaption>
 	{{ end }}
 </figure>
