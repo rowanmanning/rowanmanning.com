@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan’s Weeknotes</title><link href="https://rowanmanning.com/weeknotes/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/weeknotes/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-12-28T09:25:35+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/weeknotes/</id><entry><title type="html">Week 9: Festive Spreadsheet</title><link href="https://rowanmanning.com/weeknotes/9/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/weeknotes/8/" rel="related" type="text/html" title="Week 8: Cancelled"/><link href="https://rowanmanning.com/weeknotes/7/" rel="related" type="text/html" title="Week 7: Culinary Genius"/><link href="https://rowanmanning.com/weeknotes/6/" rel="related" type="text/html" title="Week 6: Pointy Tree"/><link href="https://rowanmanning.com/weeknotes/4/" rel="related" type="text/html" title="Week 4: The Princess S(and)witch"/><link href="https://rowanmanning.com/weeknotes/5/" rel="related" type="text/html" title="Week 5: Aldovia"/><id>https://rowanmanning.com/weeknotes/9/</id><published>2020-12-28T09:00:00+00:00</published><updated>2020-12-28T09:00:00+00:00</updated><content type="html"><![CDATA[<ul>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan’s Weeknotes</title><link href="https://rowanmanning.com/weeknotes/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/weeknotes/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2020-12-29T10:44:10+00:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/weeknotes/</id><entry><title type="html">Week 9: Festive Spreadsheet</title><link href="https://rowanmanning.com/weeknotes/9/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/weeknotes/8/" rel="related" type="text/html" title="Week 8: Cancelled"/><link href="https://rowanmanning.com/weeknotes/7/" rel="related" type="text/html" title="Week 7: Culinary Genius"/><link href="https://rowanmanning.com/weeknotes/6/" rel="related" type="text/html" title="Week 6: Pointy Tree"/><link href="https://rowanmanning.com/weeknotes/4/" rel="related" type="text/html" title="Week 4: The Princess S(and)witch"/><link href="https://rowanmanning.com/weeknotes/5/" rel="related" type="text/html" title="Week 5: Aldovia"/><id>https://rowanmanning.com/weeknotes/9/</id><published>2020-12-28T09:00:00+00:00</published><updated>2020-12-28T09:00:00+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <p>I really enjoyed Christmas, we woke up late and spent most of the day cooking. We had a spreadsheet for all the meal timings which was very helpful, and I wasn&rsquo;t even the one to instigate it. We spent the evening on a bunch of different video calls with friends and family, and I ate and drank too much which is exactly how I intended on spending my day.</p>
 </li>
 <li>
 <p>We tried our Christmas cake. It tastes like actual Christmas Cake and is delicious! I&rsquo;m good at anything that involves beating egg whites so of course the royal icing is <em>perfect</em>.</p>
 
-<figure class="image" data-component="image">
-	<a href="/weeknotes/9/christmas-cake.jpg" data-role="image:modal">
+<figure class="image">
+	<a href="/weeknotes/9/christmas-cake.jpg">
 		<img src="/weeknotes/9/christmas-cake.jpg" alt="A christmas cake, decorated with heaps of royal icing that looks like snow. Small green trees made from pistacio paste are scattered across the top, with two wooden stags peeking around them" />
 	</a>
 	
@@ -70,8 +70,8 @@
 <li>
 <p>Oh I did do one more thing, I made <a href="https://github.com/rowanmanning/yeehaw#readme">Yeehaw</a> give all horses Christmas names for December. It was <a href="https://github.com/rowanmanning/yeehaw/commit/fffe03eb651ea7a724b83363814bc4f3634c1477">a small job</a> which will bring me a lot of joy. My favourite horses so far have been Merry Firewood, Jolly Chimney, and Bethlehem Vixen.</p>
 
-<figure class="image" data-component="image">
-	<a href="/weeknotes/8/christmas-yeehaw.png" data-role="image:modal">
+<figure class="image">
+	<a href="/weeknotes/8/christmas-yeehaw.png">
 		<img src="/weeknotes/8/christmas-yeehaw.png" alt="Five emoji horses lined up in Slack, waiting to race. Their new more Christmas-themed names are Seasonal Gold, Frosty December, Bethlehem Miracle, Party Star, and Happy Vixen." />
 	</a>
 	
@@ -146,8 +146,8 @@
 <li>
 
 <div class="pin pin--right">
-<figure class="image" data-component="image">
-	<a href="/weeknotes/6/pointy-tree.jpg" data-role="image:modal">
+<figure class="image">
+	<a href="/weeknotes/6/pointy-tree.jpg">
 		<img src="/weeknotes/6/pointy-tree.jpg" alt="A Christmas tree, half of the height of it is above the topmost branches, it&#39;s very pointy" />
 	</a>
 	
@@ -209,9 +209,9 @@
 <li>
 
 <div class="pin pin--right">
-<figure class="image" data-component="image">
-	<a href="/weeknotes/5/tootsie-in-a-box.jpg" data-role="image:modal">
-		<img src="/weeknotes/5/tootsie-in-a-box.jpg" alt="Tootsie laying in his new favourite cardboard box. He&#39;s a black and white cat, with a very distinctive mustache. A discarded toy mouse is laying beside him." />
+<figure class="image">
+	<a href="/weeknotes/5/tootsie-in-a-box.jpg">
+		<img src="/weeknotes/5/tootsie-in-a-box.jpg" alt="Tootsie laying in his new favourite cardboard box. He&#39;s a black and white cat, with a very distinctive mustache. A discarded toy mouse is laying beside him" />
 	</a>
 	
 </figure>
@@ -353,8 +353,8 @@
 <li>
 
 <div class="pin pin--right">
-<figure class="image" data-component="image">
-	<a href="/weeknotes/1/minecraft-build.jpg" data-role="image:modal">
+<figure class="image">
+	<a href="/weeknotes/1/minecraft-build.jpg">
 		<img src="/weeknotes/1/minecraft-build.jpg" alt="Several skyscrapers, a pub, and some terraced houses built in Minecraft" />
 	</a>
 	
