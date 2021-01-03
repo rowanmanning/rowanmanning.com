@@ -5,6 +5,62 @@ description: "A README is one of the first things people see when they find your
 cta: "Learn how to write a loveable README"
 highlight: "pink"
 tags: ["Open-Source", "Writing", "Documentation"]
+resources:
+  - src: "heading-01.png"
+    title: "Project heading with name and description"
+    params:
+      link: "https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-01-md"
+      caption: "Project heading with name and description"
+  - src: "heading-02.png"
+    title: "Project heading with badges added"
+    params:
+      link: "https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-02-md"
+      caption: "Project heading with badges added"
+  - src: "heading-03.png"
+    title: "Full project heading with an example"
+    params:
+      link: "https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-03-md"
+      caption: "Full project heading with an example"
+  - src: "table-of-contents-01.png"
+    title: "A nicely linked table of contents"
+    params:
+      link: "https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-table-of-contents-01-md"
+      caption: "A nicely linked table of contents"
+  - src: "requirements-01.png"
+    title: "Project requirements"
+    params:
+      link: "https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-requirements-01-md"
+      caption: "Project requirements"
+  - src: "usage-01.png"
+    title: "How to install Paddington"
+    params:
+      link: "https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-01-md"
+      caption: "How to install Paddington"
+  - src: "usage-02.png"
+    title: "How to use Paddington"
+    params:
+      link: "https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-02-md"
+      caption: "How to use Paddington"
+  - src: "usage-03.png"
+    title: "Edge-cases and errors"
+    params:
+      link: "https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-03-md"
+      caption: "Edge-cases and errors"
+  - src: "contributing-01.png"
+    title: "Contribution guidelines"
+    params:
+      link: "https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-contributing-01-md"
+      caption: "Contribution guidelines"
+  - src: "support-and-migration-01.png"
+    title: "Support and migration"
+    params:
+      link: "https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-support-and-migration-01-md"
+      caption: "Support and migration"
+  - src: "license-01.png"
+    title: "License and copyright information"
+    params:
+      link: "https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-license-01-md"
+      caption: "License and copyright information"
 ---
 
 
@@ -22,7 +78,7 @@ While the existence of ["the fold" is debatable][the-fold], it's fairly widely a
 
 So what are the most important things? The project name is pretty important, as is what it actually _does_. So let's ease ourselves in by adding those:
 
-{{< image src="/media/images/posts/writing-a-friendly-readme/heading-01.png" caption="Project heading with name and description" link="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-01-md" >}}
+{{< image "heading-01.png" >}}
 
 The above mostly caters for new users, but this top part of the README should help our existing users too; they have a few easy-to-answer questions. When I visit a project that I'm familiar with, I want to know:
 
@@ -40,13 +96,13 @@ We can answer all of these questions with **badges**! :tada:
 
 I opt for a row of badges just beneath the project description. A single row doesn't occupy a lot of space and can convey an awful lot of information:
 
-{{< image src="/media/images/posts/writing-a-friendly-readme/heading-02.png" caption="Project heading with badges added" link="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-02-md" >}}
+{{< image "heading-02.png" >}}
 
 Aren't they beautiful? I use a [service called shields.io][shields] which provides consistent badge images as well as a way to add custom badges for license information etc.
 
 Lastly as part of the heading section, if the project or library is simple enough to allow it, we can add a quick usage example. This really helps new users understand what your project does and can be just as helpful as the description.
 
-{{< image src="/media/images/posts/writing-a-friendly-readme/heading-03.png" caption="Full project heading with an example" link="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-heading-03-md" >}}
+{{< image "heading-03.png" >}}
 
 We've covered a lot in our top section in a relatively small amount of space. Well done, us! Now we need to move on to some of the more meaty questions that users have. Our README is going to get longer and potentially difficult to navigate, a sensible thing to do now would be to add a table of contents.
 
@@ -56,7 +112,7 @@ Table of Contents
 
 A table of contents is useful even in a relatively short README. It eases the pain of having to search for information, and gives the user some helpful jump-links to different parts of your documentation.
 
-{{< image src="/media/images/posts/writing-a-friendly-readme/table-of-contents-01.png" caption="A nicely linked table of contents" link="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-table-of-contents-01-md" >}}
+{{< image "table-of-contents-01.png" >}}
 
 If the user just wants to check the usage guide then why should they have to scroll through the installation instructions, which are potentially only useful the first time somebody uses your project?
 
@@ -66,7 +122,7 @@ Requirements
 
 Now we've reached a part of the documentation which is more useful to new users than anyone else, let's be really friendly and make sure they get what they need. This is the place to add all of the requirements your project has: language, language versions, package managers, operating systems. Anything that isn't covered as part of the project's actual installation.
 
-{{< image src="/media/images/posts/writing-a-friendly-readme/requirements-01.png" caption="Project requirements" link="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-requirements-01-md" >}}
+{{< image "requirements-01.png" >}}
 
 This can be written in prose or as a list, as long as it's abundantly clear. This helps you too – it means fewer issues being opened asking why somebody can't get your project running.
 
@@ -82,15 +138,15 @@ Depending on the kind of project you're writing a README for, this section could
 
 Firstly we need to mention how to get hold of the code, whether it's by cloning the repo or installing through a package manager. Don't forget to link out to anything useful, to prevent anyone from getting stuck.
 
-{{< image src="/media/images/posts/writing-a-friendly-readme/usage-01.png" caption="How to install Paddington" link="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-01-md" >}}
+{{< image "usage-01.png" >}}
 
 When documenting an API, keep it clear and simple. This means documenting the majority use-case first, your happy path. This keeps everything nicely focused for first-time users. In our case, we outline the method arguments and return values, ideally with examples. The less ambiguous this is, the fewer questions you'll get.
 
-{{< image src="/media/images/posts/writing-a-friendly-readme/usage-02.png" caption="How to use Paddington" link="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-02-md" >}}
+{{< image "usage-02.png" >}}
 
 Once we've covered our happy path, it's also useful to document any errors that a user might come across as well as edge-cases. This can form a sub-section towards the end of your usage documentation, and is geared towards people who have already installed and used your project. Try to include a few keywords that stuck or confused users might search for.
 
-{{< image src="/media/images/posts/writing-a-friendly-readme/usage-03.png" caption="Edge-cases and errors" link="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-usage-03-md" >}}
+{{< image "usage-03.png" >}}
 
 
 Contributing
@@ -102,7 +158,7 @@ You can help yourself here too, add short instructions on how to run the tests a
 
 This is also where you should add a link to your code of conduct, if you have one. You can make new contributors feel more comfortable, and assure them that any issues they have will be resolved. A good code of conduct to use is the [Contributor Covenant][contributor-covenant].
 
-{{< image src="/media/images/posts/writing-a-friendly-readme/contributing-01.png" caption="Contribution guidelines" link="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-contributing-01-md" >}}
+{{< image "contributing-01.png" >}}
 
 
 Support and Migration
@@ -114,7 +170,7 @@ A full migration guide might be a bit long to add to your README, I use a `MIGRA
 
 If you have a support plan for older versions, outline it here. Also you can use a simple table to document the major releases and their end-of-support dates.
 
-{{< image src="/media/images/posts/writing-a-friendly-readme/support-and-migration-01.png" caption="Support and migration" link="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-support-and-migration-01-md" >}}
+{{< image "support-and-migration-01.png" >}}
 
 
 License
@@ -122,7 +178,7 @@ License
 
 Lastly you should add a copyright notice and a link to the license that your project is released under. Without this information a lot of users, especially working in larger organisations, won't be able to use your project. Even if you distribute your project with a `LICENSE` file, it's helpful to include a link to it here.
 
-{{< image src="/media/images/posts/writing-a-friendly-readme/license-01.png" caption="License and copyright information" link="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-license-01-md" >}}
+{{< image "license-01.png" >}}
 
 
 Other Sections

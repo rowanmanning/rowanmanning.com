@@ -9,6 +9,15 @@ crossPost:
 cta: "Learn how to use pa11y"
 highlight: "blue"
 tags: ["Accessibility"]
+resources:
+  - src: "cli-report.png"
+    title: "Pa11y command-line output, including a welcome message, a list of commands that have been run, and a list of accessibility issues with the page"
+    params:
+      caption: "Pa11y command-line output"
+  - src: "html-report.png"
+    title: "Pa11y HTML output, including dates for the run, a summary of error counts, and then details about the issues encountered on the page"
+    params:
+      caption: "Pa11y HTML output"
 ---
 
 
@@ -30,7 +39,7 @@ The simplest way to quickly test a web page, is to execute the `pa11y` command w
 pa11y nature.com
 ```
 
-{{< image src="/media/images/posts/accessibility-testing-with-pa11y/cli-report.png" caption="pa11y command-line output" >}}
+{{< image "cli-report.png" >}}
 
 You'll see some output in the command line which describes some of the errors/warnings encountered. This is fine for quickly testing a page, but things start to get interesting when you play with pa11y's options.
 
@@ -90,7 +99,7 @@ If you prefer to generate a visual accessibility report that can be shared with 
 pa11y --reporter html nature.com > results.html
 ```
 
-{{< image src="/media/images/posts/accessibility-testing-with-pa11y/html-report.png" caption="pa11y HTML output" >}}
+{{< image "html-report.png" >}}
 
 
 Anything Missing?

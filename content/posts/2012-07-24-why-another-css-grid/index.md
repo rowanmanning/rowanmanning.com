@@ -5,6 +5,11 @@ description: "Building yet another grid system could be seen as bloating an alre
 cta: "Read about Frag"
 highlight: "purple"
 tags: ["CSS", "Grid", "Responsive"]
+resources:
+  - src: "frag-website-screengrab.jpg"
+    title: "A screen-grab of the Frag website"
+    params:
+      link: "http://fragcss.com/"
 ---
 
 
@@ -30,7 +35,7 @@ What surprised me is how quickly I ended up with a good working (IE 6+) prototyp
 
 After a couple of hours spent tweaking and testing, I [ended up with Frag][frag]. It's not perfect, it's not extremely feature-rich, but it does exactly the job I need it to do.
 
-{{< image src="/media/images/posts/frag-website-screengrab.jpg" caption="A screen-grab of the Frag website" link="http://fragcss.com/" >}}
+{{< image "frag-website-screengrab.jpg" >}}
 
 
 So Why Build Your Own?
