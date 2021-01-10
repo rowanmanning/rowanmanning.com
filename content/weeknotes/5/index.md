@@ -6,10 +6,10 @@ highlight: "red"
 description: "A week of useful feedback, a new (and nearly finished) RSS reader, three research trips to Aldovia, and a box-obsessed cat."
 resources:
   - src: "tootsie-in-a-box.jpg"
-    title: "Tootsie laying in his new favourite cardboard box. He's a black and white cat, with a very distinctive mustache. A discarded toy mouse is laying beside him"
+    title: "Tootsie laying in his new favourite cardboard box. He's a black and white cat, with a very distinctive moustache. A discarded toy mouse is laying beside him"
 ---
 
-  * Because I just kicked back and had [toasties](/weeknotes/4/) served to me last week, it's my turn to cook for the forseeable future. I made carbonara on Tuesday and it was _so_ delicious, we rarely cook meat at home which makes it a bit of a treat when we do. I always had this impression that the "don't scramble the egg" part of carbonara was really difficult; either it's not, or we can put down this success to beginner's luck
+  * Because I just kicked back and had [toasties](/weeknotes/4/) served to me last week, it's my turn to cook for the foreseeable future. I made carbonara on Tuesday and it was _so_ delicious, we rarely cook meat at home which makes it a bit of a treat when we do. I always had this impression that the "don't scramble the egg" part of carbonara was really difficult; either it's not, or we can put down this success to beginner's luck
 
   * Work felt unproductive but when I look back over it maybe it wasn't? I think because I'm off from the 12th December this year (didn't take enough holiday), maybe the feeling of a Christmas lull is kicking in a bit early. Some good things happened:
   
@@ -25,7 +25,7 @@ resources:
 
   * {{< pin right >}}{{< image "tootsie-in-a-box.jpg" >}}{{< /pin >}}
   
-     Permit me to talk about my cat. There are lots of cardboard boxes in our house now, Tootsie isn't a box cat at all, but he has fallen head over heels in love with this one. I don't understand what's special about it but his favourite game is to chase toy mice around bottom of the box and try to dig them up. It's pretty adorable and I hope this is a new fixture because boxes are cheaper than cat toys
+     Permit me to talk about my cat. There are lots of cardboard boxes in our house now, Tootsie isn't a box cat at all, but he has fallen head over heels in love with this one. I don't understand what's special about it but his favourite game is to chase toy mice around the bottom of the box and try to dig them up. It's pretty adorable and I hope this is a new fixture because boxes are cheaper than cat toys
 
   * On Saturday we watched all three of the [Christmas Prince](https://en.wikipedia.org/wiki/A_Christmas_Prince) films, using [Teleparty](https://www.netflixparty.com/) to watch with a group of Christmas-dedicated friends. I do enjoy these films, and it was only my second watch of films 2 and 3 so I caught a few more details, but I really do think Netflix peaked with The Princess Switch.
 

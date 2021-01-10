@@ -12,7 +12,7 @@ description: "A week of writing a blog post, eating far too many toasties, and w
 
   * We started playing Crash Bandicoot 4: It's About Time. I like it so far, there's enough classic Crash but also a few nice new mechanics. "Platformer" is the only genre that Charlotte and I align on when it comes to video games, and I think that's because she's better at them than me
 
-  * When I rebuilt my website, I finally ditched Google Analytics because it's just super creepy how much they track and I don't want to be part of that. I was fully intending on _not_ measuring traffic to my site, but after a quick look into privacy-focused analytics I ended up trialing [Fathom](https://usefathom.com/ref/PM56BH) (note: this is an affiliate link).
+  * When I rebuilt my website, I finally ditched Google Analytics because it's just super creepy how much they track and I don't want to be part of that. I was fully intending on _not_ measuring traffic to my site, but after a quick look into privacy-focused analytics I ended up trialling [Fathom](https://usefathom.com/ref/PM56BH) (note: this is an affiliate link).
   
     I decided to stick with it after the free trial, I really like it! It's so much simpler than Google Analytics and I feel good because it's not logging anything personally identifiable but I still get a rough idea of how my site's doing
   

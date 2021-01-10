@@ -21,7 +21,7 @@ reviewers:
 ---
 
 
-Way back in March this year, early on in lockdown, I had a burst of inspiration and a desire to build something silly. I don't really build serious open source things any more because tbh it's a pretty thankless task and my free time is too valuable. However when there's an opportunity to get a quick laugh from a friend by spending several solid evenings coding, sign me up!
+Way back in March this year, early on in lockdown, I had a burst of inspiration and a desire to build something silly. I don't really build serious open-source things any more because tbh it's a pretty thankless task and my free time is too valuable. However when there's an opportunity to get a quick laugh from a friend by spending several solid evenings coding, sign me up!
 
 This idea came out of a Slack conversation with [Leaf](https://twitter.com/keirog), I don't remember why or which channel, but for some reason it made sense for two horse emoji to race across the screen which Leaf did by repeatedly editing a message until they reached the finish line. It was _gripping_, and while I was watching the two little :horse_racing: step along my Slack window I made a mental note that this joy could be replicated using computers.
 
@@ -35,13 +35,13 @@ This idea came out of a Slack conversation with [Leaf](https://twitter.com/keiro
 
 ## Tip #1: Define Goals
 
-I find it really easy to go off on tangents when I'm building something in my spare time. In my day job it's easier to stay focused, because a company is paying for my time and I don't want to waste it; also I'm normally working alongside people in dedicated product and delivery roles. On side projects, I'm a bad product person, a bad delivery manager, and I find it very easy to waste _my_ time.
+I find it really easy to go off on tangents when I'm building something in my spare time. In my day job it's easier to stay focused because a company is paying for my time and I don't want to waste it; also I'm normally working alongside people in dedicated product and delivery roles. On side projects, I'm a bad product person, a bad delivery manager, and I find it very easy to waste _my_ time.
 
 Defining a clear end goal helps me here, something short like: _"Make it so that people can easily race horses in Slack"_.
 
 I try to periodically check that whatever I'm working on moves me closer to that goal, and if the answer is no then I drop what I'm doing and refocus. This can be easier said than done, so I find setting an actual reminder every hour or so is a good shout, or having a post-it displayed clearly nearby.
 
-You don't need to drop the extra things _forever_, if you think the idea you got side-tracked on is worth adding later then write it down and add it after you've shipped a version 1.
+You don't need to drop the extra things _forever_: if you think the idea you got side-tracked on is worth adding later then write it down and add it after you've shipped a version 1.
 
 Another thing I find useful when setting my goal is to give myself an explicit list of limitations – things that my project definitely will not do. Sometimes these are things that I suspect I'll get stuck on, for example many of my projects get abandoned mid-way through trying to create my own user system. Other times these are things that I think will make the project less fun or useful. It helps me to write these down, for Yeehaw they were:
 

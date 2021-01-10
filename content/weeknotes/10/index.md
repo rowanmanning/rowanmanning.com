@@ -23,7 +23,7 @@ resources:
 
     (These choices may be that's because it was a long night and I remember more of The Return of the King)
 
-  * We watched two seasons of The West Wing, which I've never seen before. If you're able to ignore the occasional war crime and embarassing levels of patriotism, then it's great and I don't really know how I missed it.
+  * We watched two seasons of The West Wing, which I've never seen before. If you're able to ignore the occasional war crime and embarrassing levels of patriotism, then it's great and I don't really know how I missed it.
 
   * I'm looking forward to the structure of going back to work, but also I'm not really ready to stop lounging around all day. Anyone want to pay me to sit at home and do nothing?
 

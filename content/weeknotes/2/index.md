@@ -16,7 +16,7 @@ description: "A week of compulsively checking election results, craving cinnamon
 
   * We're locked down again. We didn't really do much leading up to it, but on Friday we did walk to borough market (which is all still open for takeaway). I got a cinnamon bun, which I've been really craving for weeks. I thought having one would fix the craving but now I want more.
 
-  * Occasionally I get far too into a song and it's pretty much all I listen to for a week or more. Right now that song is Islands in the Stream by Dolly Parton and Kenny Rogers. I think it might be that my subconcious mind is still sad we didn't get a Dolly Parton remix of Old Town Road.
+  * Occasionally I get far too into a song and it's pretty much all I listen to for a week or more. Right now that song is Islands in the Stream by Dolly Parton and Kenny Rogers. I think it might be that my subconscious mind is still sad we didn't get a Dolly Parton remix of Old Town Road.
 
     {{< song "4dqEzdFAYkj1rjYLVDuTlN" "Islands in the Stream by Dolly Parton and Kenny Rogers" >}}
 

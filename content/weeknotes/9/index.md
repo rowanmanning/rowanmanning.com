@@ -6,7 +6,7 @@ highlight: "blue"
 description: "A week of over-eating, chopping things really small, gripping chess montages, and building hospitals."
 resources:
   - src: "christmas-cake.jpg"
-    title: "A christmas cake, decorated with heaps of royal icing that looks like snow. Small green trees made from pistacio paste are scattered across the top, with two wooden stags peeking around them"
+    title: "A Christmas cake, decorated with heaps of royal icing that looks like snow. Small green trees made from pistachio paste are scattered across the top, with two wooden stags peeking around them"
     params:
       caption: "My brother says the trees look like poos, and I'm worried about his diet now"
 ---
