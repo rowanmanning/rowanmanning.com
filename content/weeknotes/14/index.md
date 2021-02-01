@@ -24,3 +24,5 @@ resources:
   * We watched all of Bridgerton over the weekend. It made me happy.
 
   * Work is super tiring at the moment. Rewarding but tiring. I'm exhausted but I have a few breaks coming up in February.
+
+  * I've had the Two Point Hospital soundtrack in my head all week. It's weird to find myself humming very catchy elevator music while I make tea. [Go listen](https://soundcloud.com/user-928004952/sets/two-point-hospital-soundtrack).
