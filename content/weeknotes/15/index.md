@@ -26,7 +26,7 @@ description: "A week of no boardgames, getting drunk along to average TV, surpri
 
   * At work I had a good chat in my 1:1 with [Anna](https://www.annashipman.co.uk/) (my line manager / tech director). I've been working at the FT for 5 years, but my move into Customer Products (the group that delivers [FT.com](https://www.ft.com/)) was around a year ago.
   
-    One of the things that's been playing on my mind lately is that I was already good friends with a lot of the people in Customer Products before I joined, some of whom I now find in my reporting chain – being involveed in descisions about things like career progression for these people is part of my job. I'm managing to compartmentalise, but I do end up scrutinising some of my decisions for bias.
+    One of the things that's been playing on my mind lately is that I was already good friends with a lot of the people in Customer Products before I joined, some of whom I now find in my reporting chain – being involved in decisions about things like career progression for these people is part of my job. I'm managing to compartmentalise, but I do end up scrutinising some of my decisions for bias.
 
     The chat with Anna about this was good. She made it clear that it's an option for me to change some of my management chain if I think it's getting in the way. I don't think it is right now but it's comforting knowing that I can do this if I feel like I need to. The discussion also prompted me to actually talk to some of the people in question and make some of my boundaries more explicit, I'm left feeling better about this. Who knew talking to people would make things more clear eh?
 
