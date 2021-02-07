@@ -29,6 +29,7 @@ $site-base-url: "{{ "/" | relURL }}";
 @import "components/content-summary";
 @import "components/embed";
 @import "components/footer";
+@import "components/footnotes";
 @import "components/header";
 @import "components/hero";
 @import "components/highlight";

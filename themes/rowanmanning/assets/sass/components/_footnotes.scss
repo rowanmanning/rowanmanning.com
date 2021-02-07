@@ -1,0 +1,18 @@
+
+// Footnotes block
+.footnotes {
+	@extend %base-typography;
+	font-size: var(--font-size-small);
+	list-style: none;
+	padding-left: 0 !important;
+	margin-top: var(--spacing-double-line) !important;
+}
+.footnotes :target {
+	background-color: var(--colorvalue-yellow);
+}
+
+// Footnote link block
+.footnote-link,
+.footnote-link sup {
+	font-size: var(--font-size-xs);
+}

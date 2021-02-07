@@ -1,0 +1,14 @@
+
+{{- $idParam := cond .IsNamedParams (.Get "id") (.Get 0) -}}
+
+{{- if eq $idParam "list" -}}
+	<footer class="footnotes">
+		{{- range .Page.Scratch.Get "footnotes" -}}
+			<div><span id="footnote-{{ .id }}">{{ .id }}. {{ .value }}</span></div>
+		{{- end -}}
+	</footer>
+{{- else -}}
+	{{- .Page.Scratch.Add "footnotes" (slice (dict "id" $idParam "value" .Inner)) -}}
+	<a class="footnote-link" href="#footnote-{{ $idParam }}"><sup>{{ $idParam }}</sup></a>
+{{- end -}}
+
