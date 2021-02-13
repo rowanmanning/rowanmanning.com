@@ -1,10 +1,19 @@
 
+{{- partial "get-content-images" . -}}
+{{- $image := .Scratch.Get "image" -}}
+{{- $thumb := .Scratch.Get "thumb" -}}
+
 <article vocab="http://schema.org/" typeof="BlogPosting" resource="{{ .Permalink }}">
 
 	<meta property="name" content="{{ .Title }}" />
 	<meta property="url" content="{{ .Permalink }}" />
 	<meta property="mainEntityOfPage" content="{{ .Permalink }}" />
 	<meta property="description" content="{{ .Description }}" />
+
+	{{ if $image }}
+		<meta property="image" content="{{ $image.Permalink }}"/>
+		<meta property="thumbnailUrl" content="{{ $thumb.Permalink }}"/>
+	{{ end }}
 
 	<header class="content-head">
 

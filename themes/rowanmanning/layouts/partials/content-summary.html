@@ -1,4 +1,8 @@
 
+{{- partial "get-content-images" . -}}
+{{- $image := .Scratch.Get "image" -}}
+{{- $thumb := .Scratch.Get "thumb" -}}
+
 <article
 	vocab="http://schema.org/"
 	typeof="BlogPosting"
@@ -35,9 +39,20 @@
 		</p>
 	</footer>
 
-	<p class="content-summary__preview">
-		<span property="description">{{ .Params.description }}</span>
-		<a href="{{ .RelPermalink }}">{{ if (.Params.cta) }}{{ .Params.cta }}{{ else }}Read more{{ end }}</a>.
-	</p>
+	<div class="content-summary__body">
+
+		{{ if $image }}
+			<a href="{{ .RelPermalink }}" class="content-summary__thumb">
+				<meta property="image" content="{{ $image.RelPermalink }}"/>
+				<img property="thumbnailUrl" src="{{ $thumb.RelPermalink }}" alt="{{ $image.Title }}" />
+			</a>
+		{{ end }}
+
+		<p class="content-summary__preview">
+			<span property="description">{{ .Params.description }}</span>
+			<a href="{{ .RelPermalink }}">{{ if (.Params.cta) }}{{ .Params.cta }}{{ else }}Read more{{ end }}</a>.
+		</p>
+
+	</div>
 
 </article>
