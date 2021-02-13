@@ -5,6 +5,8 @@
 	{{- if $mainImage -}}
 		{{- $image = $mainImage -}}
 	{{- end -}}
+{{- else if eq .Params.mainImage false -}}
+	{{- $image = false -}}
 {{- end -}}
 
 {{- if $image -}}

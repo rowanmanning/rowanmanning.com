@@ -4,6 +4,9 @@ date: 2021-02-07T15:30:00
 tags: ["Games", "TV", "Work"]
 highlight: "lime"
 description: "A week of no boardgames, getting drunk along to average TV, surprising life hacks, and the question on everybody's lips: did Jackie Weaver have the authority?"
+resources:
+  - src: "jackie-weaver.jpg"
+    title: "Jackie Weaver"
 ---
 
   * I'm having a break from boardgames through the first couple of weeks of February. I've been playing with the same group weekly for ~4 years, and while I enjoy it a lot, lately I just haven't had the brainpower to learn new rules or get myself into the state of mind where I can be competitive. I'm hoping a small break will resolve this.

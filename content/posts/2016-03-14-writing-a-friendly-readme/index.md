@@ -5,6 +5,7 @@ description: "A README is one of the first things people see when they find your
 cta: "Learn how to write a loveable README"
 highlight: "pink"
 tags: ["Open-Source", "Writing", "Documentation"]
+mainImage: false
 resources:
   - src: "heading-01.png"
     title: "Project heading with name and description"

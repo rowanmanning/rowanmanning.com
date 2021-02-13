@@ -5,6 +5,10 @@ description: "Pa11y has moved to a new organisation on GitHub. It's a time of ch
 cta: "Read about Pa11y's move"
 highlight: "blue"
 tags: ["Accessibility", "Pa11y"]
+mainImage: "pa11y-logo.png"
+resources:
+  - src: "pa11y-logo.png"
+    title: "The Pa11y logo, a P character in multiple colours"
 ---
 
 

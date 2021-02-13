@@ -1,7 +1,8 @@
 
 {{ if eq .Kind "page" }}
 
-	{{ $image := index (.Resources.ByType "image") 0 }}
+	{{- partial "get-content-images" . -}}
+	{{- $image := .Scratch.Get "image" -}}
 
 	{{/* Twitter summary card */}}
 	<meta name="twitter:card" content="summary" />
@@ -10,7 +11,7 @@
 	{{- $logoSourceImage := resources.Get "logo-twitter.png" }}
 	{{ if $image }}
 		<meta name="twitter:image" content="{{ $image.Permalink }}" />
-		<meta name="twitter:image:alt" content="{{ .Title }}" />
+		<meta name="twitter:image:alt" content="{{ $image.Title | default .Title }}" />
 	{{ else if $logoSourceImage }}
 		<meta name="twitter:image" content="{{ $logoSourceImage.Permalink }}" />
 		<meta name="twitter:image:alt" content="{{ .Title }}" />
@@ -25,7 +26,7 @@
 	<meta property="og:url" content="{{ .Permalink }}" />
 	{{ if $image }}
 		<meta name="og:image" content="{{ $image.Permalink }}" />
-		<meta name="og:image:alt" content="{{ .Title }}" />
+		<meta name="og:image:alt" content="{{ $image.Title | default .Title }}" />
 	{{ else if $logoSourceImage }}
 		<meta name="og:image" content="{{ $logoSourceImage.Permalink }}" />
 		<meta name="og:image:alt" content="{{ .Title }}" />

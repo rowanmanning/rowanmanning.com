@@ -9,6 +9,7 @@ crossPost:
 cta: "Learn how to use pa11y"
 highlight: "blue"
 tags: ["Accessibility"]
+mainImage: "pa11y-logo.png"
 resources:
   - src: "cli-report.png"
     title: "Pa11y command-line output, including a welcome message, a list of commands that have been run, and a list of accessibility issues with the page"
@@ -18,6 +19,8 @@ resources:
     title: "Pa11y HTML output, including dates for the run, a summary of error counts, and then details about the issues encountered on the page"
     params:
       caption: "Pa11y HTML output"
+  - src: "pa11y-logo.png"
+    title: "The Pa11y logo, a P character in multiple colours"
 ---
 
 

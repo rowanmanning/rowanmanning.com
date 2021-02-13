@@ -6,6 +6,7 @@ description: "An explainer on RSS and feed readers, a history of my reading habi
 cta: "Read a bit about web feeds"
 highlight: "orange"
 tags: ["Side Projects"]
+mainImage: "audrey.png"
 resources:
   - src: "audrey.png"
     title: "A screenshot of the Audrey home page, showing unread entries from my feeds"
