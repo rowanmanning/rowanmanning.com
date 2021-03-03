@@ -32,7 +32,7 @@
 				<span property="keywords">
 					{{- range $key, $tag := .Params.tags -}}
 						{{- if ne $key 0 }}<span class="hidden">, </span>{{ end -}}
-						<a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}" class="tag tag--{{ replace ($tag | urlize) "." "-" }}">{{ $tag }}</a>
+						<a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}/" class="tag tag--{{ replace ($tag | urlize) "." "-" }}">{{ $tag }}</a>
 					{{- end -}}
 				</span>
 			{{ end }}
