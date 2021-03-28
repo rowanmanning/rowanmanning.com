@@ -1,6 +1,6 @@
 ---
 title: "Week 11: Cloud Bed"
-date: 2021-01-10T11:30:00
+date: 2021-01-10T11:30:00+0000
 tags: ["D&D", "Food", "Work"]
 highlight: "lime"
 description: "A week of being vegetarian, mapping out an imaginary continent, meeting work objectives, and sleeping under a cloud."

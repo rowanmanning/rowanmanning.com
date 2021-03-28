@@ -1,6 +1,6 @@
 ---
 title: "Week 21: Cladding"
-date: 2021-03-22T08:45:00
+date: 2021-03-22T08:45:00+0000
 tags: ["Food", "House", "Tootsie"]
 highlight: "red"
 description: "A week of boring mortgage calls, thai green curry, rum tasting with strangers, and a food-obsessed cat."

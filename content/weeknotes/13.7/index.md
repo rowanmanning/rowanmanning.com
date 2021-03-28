@@ -1,6 +1,6 @@
 ---
 title: "Week 13.7: Bonus Note"
-date: 2021-01-29T21:36:00
+date: 2021-01-29T21:36:00+0000
 tags: ["13.7"]
 highlight: "pink"
 description: "It's been 13.7 weeks since I started writing weeknotes."

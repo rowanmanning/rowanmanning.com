@@ -1,6 +1,6 @@
 ---
 title: "Week 9: Festive Spreadsheet"
-date: 2020-12-28T09:00:00
+date: 2020-12-28T09:00:00+0000
 tags: ["Christmas", "Food", "TV"]
 highlight: "blue"
 description: "A week of over-eating, chopping things really small, gripping chess montages, and building hospitals."

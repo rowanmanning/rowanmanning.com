@@ -1,6 +1,6 @@
 ---
 title: "Week 12: Bad News Comes in Fours"
-date: 2021-01-17T09:20:00
+date: 2021-01-17T09:20:00+0000
 tags: ["Family"]
 highlight: "purple"
 description: "A week of bad news."

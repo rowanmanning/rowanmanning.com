@@ -1,6 +1,6 @@
 ---
 title: "Week 13: David"
-date: 2021-01-25T18:45:00
+date: 2021-01-25T18:45:00+0000
 tags: ["Family", "Food", "Games"]
 highlight: "blue"
 description: "A week of more bad news, a few silver linings, building factories, and hunting down cinnamon buns."

@@ -1,6 +1,6 @@
 ---
 title: "Week 10: Missed by 137 Miles"
-date: 2021-01-03T16:00:00
+date: 2021-01-03T16:00:00+0000
 tags: ["13.7", "Films", "TV"]
 highlight: "yellow"
 description: "A week of surprise rent reductions, impulse-buying, Denethor being bad at eating, and 45 hours in front of the TV."

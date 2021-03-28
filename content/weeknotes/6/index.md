@@ -1,6 +1,6 @@
 ---
 title: "Week 6: Pointy Tree"
-date: 2020-12-06T10:00:00
+date: 2020-12-06T10:00:00+0000
 tags: ["Christmas", "Food", "Side Projects", "Work"]
 highlight: "lime"
 description: "A week of spare-time coding, some good reading, an increasingly boozy Christmas cake, and our exceptionally pointy tree"

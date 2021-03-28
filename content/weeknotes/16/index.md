@@ -1,6 +1,6 @@
 ---
 title: "Week 16: Escape to the Country"
-date: 2021-02-14T23:00:00
+date: 2021-02-14T23:00:00+0000
 tags: ["Family", "TV", "Work"]
 highlight: "purple"
 description: "A week of driving in the country, a funeral, some shitty news, and drinking a lot of cocktails."

@@ -1,6 +1,6 @@
 ---
 title: "Week 22: Nine Hundred Grams"
-date: 2021-03-28T17:15:00
+date: 2021-03-28T17:15:00+0100
 tags: ["Open Source", "TV", "Work"]
 highlight: "brown"
 description: "A week of being a more technical principal, celebrating with champagne, learning something new, and oversharing."

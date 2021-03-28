@@ -1,6 +1,6 @@
 ---
 title: "Week 15: Jackie Weaver"
-date: 2021-02-07T15:30:00
+date: 2021-02-07T15:30:00+0000
 tags: ["Games", "TV", "Work"]
 highlight: "lime"
 description: "A week of no boardgames, getting drunk along to average TV, surprising life hacks, and the question on everybody's lips: did Jackie Weaver have the authority?"

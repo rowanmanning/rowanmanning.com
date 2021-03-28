@@ -1,6 +1,6 @@
 ---
 title: "Week 18: Striptease"
-date: 2021-03-01T09:30:00
+date: 2021-03-01T09:30:00+0000
 tags: ["Fancy-Dress", "Work"]
 highlight: "blue"
 description: "A week of takeaway costumes, promotions and bonuses at work, amazing new hoovers, and being an embarrassing drunk."
