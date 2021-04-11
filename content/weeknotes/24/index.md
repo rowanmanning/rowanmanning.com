@@ -1,6 +1,6 @@
 ---
 title: "Week 24: Charismatic Hair"
-date: 2021-04-11T16:45:00+0100
+date: 2021-04-11T16:40:00+0100
 tags: ["Games", "House", "Work"]
 highlight: "purple"
 description: "A week of good cladding news, excellent (and very fancy) fry ups, having too much hair, and an off licence crawl."
