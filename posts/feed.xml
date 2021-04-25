@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan’s Blog</title><link href="https://rowanmanning.com/posts/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/posts/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-04-20T09:45:04+01:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/posts/</id><entry><title type="html">I Like RSS</title><link href="https://rowanmanning.com/posts/i-like-rss/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/weeknotes/8/" rel="related" type="text/html" title="Week 8: Cancelled"/><link href="https://rowanmanning.com/weeknotes/6/" rel="related" type="text/html" title="Week 6: Pointy Tree"/><link href="https://rowanmanning.com/weeknotes/5/" rel="related" type="text/html" title="Week 5: Aldovia"/><link href="https://rowanmanning.com/posts/yeehaw/" rel="related" type="text/html" title="Yeehaw!"/><id>https://rowanmanning.com/posts/i-like-rss/</id><published>2020-12-04T12:35:00+00:00</published><updated>2012-12-07T13:45:00+00:00</updated><content type="html"><![CDATA[
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan’s Blog</title><link href="https://rowanmanning.com/posts/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/posts/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-04-25T11:57:20+01:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/posts/</id><entry><title type="html">I Like RSS</title><link href="https://rowanmanning.com/posts/i-like-rss/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/weeknotes/8/" rel="related" type="text/html" title="Week 8: Cancelled"/><link href="https://rowanmanning.com/weeknotes/6/" rel="related" type="text/html" title="Week 6: Pointy Tree"/><link href="https://rowanmanning.com/weeknotes/5/" rel="related" type="text/html" title="Week 5: Aldovia"/><link href="https://rowanmanning.com/posts/yeehaw/" rel="related" type="text/html" title="Yeehaw!"/><id>https://rowanmanning.com/posts/i-like-rss/</id><published>2020-12-04T12:35:00+00:00</published><updated>2012-12-07T13:45:00+00:00</updated><content type="html"><![CDATA[
 <div class="pin pin--right">
 <figure class="image">
 	<a href="https://en.wikipedia.org/wiki/RSS#/media/File:Feed-icon.svg">
@@ -442,7 +442,9 @@
 
 <h2 id="2012-aka-birth-of-a-blog">2012 aka &ldquo;Birth of a Blog&rdquo;</h2>
 <p>Finally, my site does something more than advertise the fact that I like beer! Actually this is the point where my current green colour entered the scene, as well as that bar across the top.</p>
-<p>One aspect of this site needs tearing down. <strong>Look at that profile picture</strong>. <!-- raw HTML omitted -->BRB<!-- raw HTML omitted --> – I&rsquo;m going to curl up in a ball for a while. I oddly decided that for a home page, this image and some &ldquo;about me&rdquo; text was more important than the posts.</p>
+<p>One aspect of this site needs tearing down. <strong>Look at that profile picture</strong>. 
+<abbr title="Be right back">BRB</abbr>
+ – I&rsquo;m going to curl up in a ball for a while. I oddly decided that for a home page, this image and some &ldquo;about me&rdquo; text was more important than the posts.</p>
 
 <figure class="image">
 	<a href="/posts/an-evolving-website/2012.jpg">
@@ -453,7 +455,9 @@
 
 <h2 id="2013-aka-what-the-pinky-cream">2013 aka &ldquo;What the Pinky Cream?&rdquo;</h2>
 <p>OK what&rsquo;s going on here? &ldquo;What&rsquo;s with the pinky cream?&rdquo;, I yell at past-Rowan. At least in this design I&rsquo;ve switched the ordering/priority of blog posts and bio.</p>
-<p>The pinky cream isn&rsquo;t <em>that</em> far from <!-- raw HTML omitted -->FT<!-- raw HTML omitted --> pink. If I believed in anything supernatural I might read this as a sign that I was destined to work there.</p>
+<p>The pinky cream isn&rsquo;t <em>that</em> far from 
+<abbr title="Financial Times">FT</abbr>
+ pink. If I believed in anything supernatural I might read this as a sign that I was destined to work there.</p>
 
 <figure class="image">
 	<a href="/posts/an-evolving-website/2013.jpg">
@@ -664,7 +668,9 @@ Rowan.</p>
 <p>As porting blog posts was actually pretty easy, the bulk of the work involved moving my templates and partials from Eco to Liquid. This took a while because I&rsquo;d customised quite a lot in my previous site to allow nicely formatted dates and the like. All in all, the initial port took a couple of hours.</p>
 <h2 id="rebuild">Rebuild</h2>
 <p>Once I had my site ported over to Jekyll, it was time for a redesign. As is always the case, I&rsquo;d neglected the code quality of my own site far more than I would any work or freelance project.</p>
-<p>I made the move from LESS to Sass, which I&rsquo;ve been meaning to do for a while, and have used <!-- raw HTML omitted -->OOCSS<!-- raw HTML omitted --> wherever possible. The site&rsquo;s code is now a much better representation of my abilities (at least for the next month or two…).</p>
+<p>I made the move from LESS to Sass, which I&rsquo;ve been meaning to do for a while, and have used 
+<abbr title="Object-Oriented CSS">OOCSS</abbr>
+ wherever possible. The site&rsquo;s code is now a much better representation of my abilities (at least for the next month or two…).</p>
 <p>I&rsquo;m now also using an excellent <a href="http://icomoon.io/">icon font from Icomoon</a>. This has reduced the number of images used for styling to only one – the background noise. I&rsquo;m really pleased with this! I&rsquo;d recommend Icomoon to anyone wanting to start out with icon fonts.</p>
 <h2 id="open-source">Open-Source</h2>
 <p>Lastly, I&rsquo;m a huge lover of open-source; it seemed a bit hypocritical of me to keep my personal site in a private repository as it has been for the last year. I decided to open-source the code to my site, and it&rsquo;s now <a href="https://github.com/rowanmanning/rowanmanning.github.io">available on GitHub</a>. Feel free to peruse, learn and teach!</p>
@@ -838,7 +844,9 @@ Rowan</p>
 </ul>
 ]]></content><category scheme="https://rowanmanning.com/tags/node.js" term="node.js" label="Node.js"/><category scheme="https://rowanmanning.com/tags/javascript" term="javascript" label="JavaScript"/><category scheme="https://rowanmanning.com/tags/express" term="express" label="Express"/><category scheme="https://rowanmanning.com/tags/cluster" term="cluster" label="Cluster"/></entry><entry><title type="html">The Mixed Blessing of Ambition</title><link href="https://rowanmanning.com/posts/the-mixed-blessing-of-ambition/" rel="alternate" type="text/html"/><id>https://rowanmanning.com/posts/the-mixed-blessing-of-ambition/</id><published>2012-12-04T20:13:00+00:00</published><updated>2012-12-04T20:13:00+00:00</updated><content type="html"><![CDATA[<p>I was talking to a friend recently about getting back into game development; he was very enthusiastic about learning to develop JavaScript games and we were discussing where to start. I had one of those moments when you impart some advice to somebody, and afterwards realise that it&rsquo;s great advice you&rsquo;ve been ignoring yourself. The advice in this case was: &ldquo;Don&rsquo;t be too ambitious here – you may end up killing your enthusiasm&rdquo;.</p>
 <p>Now I realise this could be read as quite a negative statement; I&rsquo;m in no way trying to squash ambition entirely – it can be an extremely powerful driving force. Where ambition <em>can</em> have a negative effect is when you&rsquo;re being over ambitious in an area you&rsquo;re unfamiliar with.</p>
-<p>Let&rsquo;s take game development as an example. If you set yourself some <!-- raw HTML omitted -->ridiculous<!-- raw HTML omitted --> stretch goals early on (let&rsquo;s say a 3D web-based <!-- raw HTML omitted -->MMO<!-- raw HTML omitted --> game) then unless you&rsquo;re the kind of person who never gives up, your enthusiasm is likely to wane the more small hurdles you have to jump along the way. This kind of project is excellent once you&rsquo;ve tried (and maybe failed) a few times on smaller things.</p>
+<p>Let&rsquo;s take game development as an example. If you set yourself some <!-- raw HTML omitted -->ridiculous<!-- raw HTML omitted --> stretch goals early on (let&rsquo;s say a 3D web-based 
+<abbr title="Massively Multiplayer Online">MMO</abbr>
+ game) then unless you&rsquo;re the kind of person who never gives up, your enthusiasm is likely to wane the more small hurdles you have to jump along the way. This kind of project is excellent once you&rsquo;ve tried (and maybe failed) a few times on smaller things.</p>
 <h2 id="a-bit-of-introspection">A Bit Of Introspection</h2>
 <p>After the aforementioned conversation, I took a look through the &lsquo;Web Projects&rsquo; folder on my computer. The ratio of released/dead projects in here swings massively in favour of the latter. There&rsquo;s a clear pattern too – they are nearly all very big projects which I have made a start on before I&rsquo;ve tackled some of the smaller issues which ended up getting in the way early on. Despite my seemingly limitless enthusiasm for these projects in the early days, it slowly got eaten away until it was no longer a fun way to spend my spare time.</p>
 <p>The &lsquo;successful&rsquo; projects have a pattern too: they&rsquo;re all small, realistic, and fun. They&rsquo;ve all been great learning projects and have paved the way for bigger and better things now that I&rsquo;ve expanded my knowledge.</p>
@@ -953,7 +961,9 @@ Rowan</p>
 <dt>Problem solving</dt>
 <dd>For users who have trouble problem-solving, things like form errors or unclear instructions are a nightmare. Instructions should be clear and large changes to the page should be explained to the user.</dd>
 <dt>Attention</dt>
-<dd>Users with conditions such as <!-- raw HTML omitted -->ADHD<!-- raw HTML omitted --> often struggle to maintain concentration when completing a task. Avoiding background noise on a page and using visual cues to highlight important content helps these users.</dd>
+<dd>Users with conditions such as 
+<abbr title="Attention Deficit Hyperactivity Disorder">ADHD</abbr>
+ often struggle to maintain concentration when completing a task. Avoiding background noise on a page and using visual cues to highlight important content helps these users.</dd>
 <dt>Reading, linguistic and verbal comprehension</dt>
 <dd>This broad category ranges from problems understanding long or complex words and sentence structure, to difficulty processing non-literal text such as sarcasm, metaphor or slang. Clear document structure, supplemental media and uncomplicated writing can help these users a lot.</dd>
 </dl>
