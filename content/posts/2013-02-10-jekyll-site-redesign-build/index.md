@@ -36,7 +36,7 @@ Rebuild
 
 Once I had my site ported over to Jekyll, it was time for a redesign. As is always the case, I'd neglected the code quality of my own site far more than I would any work or freelance project.
 
-I made the move from LESS to Sass, which I've been meaning to do for a while, and have used <abbr title="Object-Oriented CSS">OOCSS</abbr> wherever possible. The site's code is now a much better representation of my abilities (at least for the next month or two&hellip;).
+I made the move from LESS to Sass, which I've been meaning to do for a while, and have used {{< abbr "Object-Oriented CSS" >}}OOCSS{{< /abbr >}} wherever possible. The site's code is now a much better representation of my abilities (at least for the next month or two&hellip;).
 
 I'm now also using an excellent [icon font from Icomoon][icomoon]. This has reduced the number of images used for styling to only one – the background noise. I'm really pleased with this! I'd recommend Icomoon to anyone wanting to start out with icon fonts.
 

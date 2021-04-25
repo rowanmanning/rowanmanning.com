@@ -53,7 +53,7 @@ Look at those images! They're not straight, and I'm doing it with _CSS_! This de
 
 Finally, my site does something more than advertise the fact that I like beer! Actually this is the point where my current green colour entered the scene, as well as that bar across the top.
 
-One aspect of this site needs tearing down. **Look at that profile picture**. <abbr title="Be right back">BRB</abbr> – I'm going to curl up in a ball for a while. I oddly decided that for a home page, this image and some "about me" text was more important than the posts.
+One aspect of this site needs tearing down. **Look at that profile picture**. {{< abbr "Be right back" >}}BRB{{< /abbr >}} – I'm going to curl up in a ball for a while. I oddly decided that for a home page, this image and some "about me" text was more important than the posts.
 
 {{< image "2012.jpg" >}}
 
@@ -63,7 +63,7 @@ One aspect of this site needs tearing down. **Look at that profile picture**. <a
 
 OK what's going on here? "What's with the pinky cream?", I yell at past-Rowan. At least in this design I've switched the ordering/priority of blog posts and bio.
 
-The pinky cream isn't _that_ far from <abbr title="Financial Times">FT</abbr> pink. If I believed in anything supernatural I might read this as a sign that I was destined to work there.
+The pinky cream isn't _that_ far from {{< abbr "Financial Times" >}}FT{{< /abbr >}} pink. If I believed in anything supernatural I might read this as a sign that I was destined to work there.
 
 {{< image "2013.jpg" >}}
 

@@ -11,7 +11,7 @@ I was talking to a friend recently about getting back into game development; he 
 
 Now I realise this could be read as quite a negative statement; I'm in no way trying to squash ambition entirely – it can be an extremely powerful driving force. Where ambition *can* have a negative effect is when you're being over ambitious in an area you're unfamiliar with.
 
-Let's take game development as an example. If you set yourself some <del>ridiculous</del> stretch goals early on (let's say a 3D web-based <abbr title="Massively Multiplayer Online">MMO</abbr> game) then unless you're the kind of person who never gives up, your enthusiasm is likely to wane the more small hurdles you have to jump along the way. This kind of project is excellent once you've tried (and maybe failed) a few times on smaller things.
+Let's take game development as an example. If you set yourself some <del>ridiculous</del> stretch goals early on (let's say a 3D web-based {{< abbr "Massively Multiplayer Online" >}}MMO{{< /abbr >}} game) then unless you're the kind of person who never gives up, your enthusiasm is likely to wane the more small hurdles you have to jump along the way. This kind of project is excellent once you've tried (and maybe failed) a few times on smaller things.
 
 
 A Bit Of Introspection
