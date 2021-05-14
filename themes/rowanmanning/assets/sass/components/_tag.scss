@@ -27,18 +27,38 @@ a.tag {
 // Define tag colors, each tag name maps to a highlight colour name.
 // TODO see if we can move these to site config or data
 $_tag-colors: (
+	"13-7": "pink",
 	"accessibility": "blue",
+	"blogging": "cyan",
+	"board-games": "purple",
+	"books": "purple",
+	"champagne": "yellow",
+	"cladding": "red",
 	"css": "purple",
-	"dd": "red",
+	"dd": "purple",
 	"design": "orange",
+	"family": "lime",
+	"films": "purple",
+	"food": "orange",
+	"games": "purple",
+	"health": "lime",
+	"holiday": "lime",
+	"house": "cyan",
 	"javascript": "yellow",
+	"mistakes": "brown",
+	"music": "purple",
 	"node-js": "lime",
 	"open-source": "pink",
+	"rss": "orange",
 	"side-projects": "pink",
+	"social": "lime",
 	"thinking": "cyan",
 	"tootsie": "black",
+	"treasure": "yellow",
+	"tv": "purple",
+	"walking": "lime",
 	"work": "cyan",
-	"writing": "cyan"
+	"writing": "cyan",
 );
 
 // Tag block modifiers
