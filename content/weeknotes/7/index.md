@@ -1,7 +1,7 @@
 ---
 title: "Week 7: Culinary Genius"
 date: 2020-12-13T19:10:00+0000
-tags: ["Christmas", "Food", "Work"]
+tags: ["Christmas", "Food", "Work", "Soup", "Health", "Eating Out"]
 highlight: "orange"
 description: "A week of truffle oil, Christmas gin tasting, tasting menus, and trousers that no longer fit."
 ---

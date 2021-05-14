@@ -1,7 +1,7 @@
 ---
 title: "Week 25: Forbidden Hug"
 date: 2021-04-20T09:40:00+0100
-tags: ["Games"]
+tags: ["Games", "Holiday", "Walking", "Mistakes", "Crosswords"]
 highlight: "yellow"
 description: "A week of haircuts, COVID tests, time with friends, a forbidden hug, and doing an awful lot of crosswords."
 ---

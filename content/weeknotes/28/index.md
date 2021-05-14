@@ -1,7 +1,7 @@
 ---
 title: "Week 28: Crusty Ears"
 date: 2021-05-10T08:50:00+0100
-tags: ["Family", "House", "Social"]
+tags: ["Family", "House", "Social", "Eating Out", "Cladding", "Allergies"]
 highlight: "blue"
 description: "A week of fish tacos, simplified communication, very painful ears (thanks Apple), and my rule-breaking family."
 ---

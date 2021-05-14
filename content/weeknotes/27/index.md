@@ -1,7 +1,7 @@
 ---
 title: "Week 27: Fish Cake"
 date: 2021-05-02T11:00:00+0100
-tags: ["Social", "Tootsie", "Treasure"]
+tags: ["Social", "Tootsie", "Treasure", "Writing", "Blogging", "Crosswords", "Walking", "Bridgerton"]
 highlight: "lime"
 description: "A week of cute birthday boys, blogging again, many crosswords, and a 10-mile walk which my body wasn't prepared for."
 resources:

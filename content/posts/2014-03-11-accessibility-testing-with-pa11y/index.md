@@ -8,7 +8,7 @@ crossPost:
   url: "http://cruft.io/posts/accessibility-testing-with-pa11y/"
 cta: "Learn how to use pa11y"
 highlight: "blue"
-tags: ["Accessibility"]
+tags: ["Accessibility", "Pa11y"]
 mainImage: "pa11y-logo.png"
 resources:
   - src: "cli-report.png"

@@ -1,7 +1,7 @@
 ---
 title: "Week 8: Cancelled"
 date: 2020-12-19T20:50:00+0000
-tags: ["Christmas", "Family", "Side Projects", "TV"]
+tags: ["Christmas", "Family", "Side Projects", "TV", "Tootsie", "Audrey", "Yeehaw", "Testing", "Masterchef", "Snackmasters", "Great British Menu", "Love Bites", "Champagne", "His Dark Materials", "Books"]
 highlight: "red"
 description: "A week of cancelled plans, breakfast champagne, excessive TV, and a warming cascade of green ticks."
 resources:

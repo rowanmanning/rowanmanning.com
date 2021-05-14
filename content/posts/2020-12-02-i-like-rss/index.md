@@ -5,7 +5,7 @@ lastmod: 2012-12-07 13:45:00
 description: "An explainer on RSS and feed readers, a history of my reading habits over the years, and Audrey – a new open source project that will hopefully encourage me to read more."
 cta: "Read a bit about web feeds"
 highlight: "orange"
-tags: ["Side Projects"]
+tags: ["Side Projects", "RSS", "Audrey"]
 mainImage: "audrey.png"
 resources:
   - src: "audrey.png"

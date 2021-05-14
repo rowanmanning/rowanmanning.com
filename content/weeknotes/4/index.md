@@ -1,7 +1,7 @@
 ---
 title: "Week 4: The Princess S(and)witch"
 date: 2020-11-23T02:00:00+0000
-tags: ["Christmas", "D&D", "Films", "Food", "Games"]
+tags: ["Christmas", "D&D", "Films", "Food", "Games", "Christmas Films", "The Princess Switch", "Writing", "Blogging", "Crash Bandicoot", "Toasties", "Yeehaw"]
 highlight: "purple"
 description: "A week of writing a blog post, eating far too many toasties, and watching the sequel to one of the best films ever made: The Princess Switch."
 ---

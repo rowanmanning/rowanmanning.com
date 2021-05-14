@@ -1,7 +1,7 @@
 ---
 title: "Week 20: Treasure"
 date: 2021-03-14T10:15:00+0000
-tags: ["Games", "House", "Work"]
+tags: ["Games", "House", "Work", "Treasure"]
 highlight: "lime"
 description: "A week of exciting treasure hunts, exciting house hunts, and organising my physical and mental space."
 resources:

@@ -1,7 +1,7 @@
 ---
 title: "Week 26: Five Pizzas"
 date: 2021-04-25T12:15:00+0100
-tags: ["Games", "Holiday", "House"]
+tags: ["Games", "Holiday", "House", "Cladding", "Social", "Assassin's Creed", "Work"]
 highlight: "orange"
 description: "A week of not working, getting great house news, eating and drinking a lot, and burning 20 hours on a game."
 ---

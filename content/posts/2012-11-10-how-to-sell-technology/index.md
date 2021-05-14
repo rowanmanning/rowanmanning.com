@@ -4,7 +4,6 @@ date: 2012-11-10 16:15:00
 description: "The dressing up of technology in advertising doesn't work for me. I like to know how the product looks, feels and works in as short a time as possible. The same applies to web design."
 cta: "Read about selling technology"
 highlight: "cyan"
-tags: ["Rant", "Advertising"]
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Week 5: Aldovia"
 date: 2020-11-29T18:00:00+0000
-tags: ["Christmas", "Films", "Side Projects", "Tootsie", "Work"]
+tags: ["Christmas", "Films", "Side Projects", "Tootsie", "Work", "Walking", "Christmas Films", "The Princess Switch", "Audrey", "RSS", "Toasties"]
 highlight: "red"
 description: "A week of useful feedback, a new (and nearly finished) RSS reader, three research trips to Aldovia, and a box-obsessed cat."
 resources:

@@ -1,7 +1,7 @@
 ---
 title: "Week 16: Escape to the Country"
 date: 2021-02-14T23:00:00+0000
-tags: ["Family", "TV", "Work"]
+tags: ["Family", "TV", "Work", "Grandad", "Trial", "Wandavision", "Celebrity Best Home Cook"]
 highlight: "purple"
 description: "A week of driving in the country, a funeral, some shitty news, and drinking a lot of cocktails."
 resources:

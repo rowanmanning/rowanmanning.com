@@ -1,7 +1,7 @@
 ---
 title: "Week 23: Wild Garlic"
 date: 2021-04-05T21:45:00+0100
-tags: ["Food", "Tootsie"]
+tags: ["Food", "Tootsie", "Champagne", "Social", "TV", "Masterchef"]
 highlight: "pink"
 description: "A week of better sleep, better holiday, some very impressive show-jumping from Tootsie, and a wholesome harvest."
 resources:

@@ -1,7 +1,7 @@
 ---
 title: "Week 3: Production Issue"
 date: 2020-11-15T22:30:00+0000
-tags: ["Books", "Tootsie", "TV", "Work"]
+tags: ["Books", "Tootsie", "TV", "Work", "Fleabag", "Plumbing"]
 highlight: "yellow"
 description: "A week of being more technical at work, fun treasure hunts across London, and opening a book for a change."
 ---

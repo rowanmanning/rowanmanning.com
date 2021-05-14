@@ -1,7 +1,7 @@
 ---
 title: "Week 17: Thumb"
 date: 2021-02-22T09:30:00+0000
-tags: ["Art", "Food", "Treasure"]
+tags: ["Art", "Food", "Treasure", "Walking"]
 highlight: "yellow"
 description: "A week of very monotonous TV watching, eating four tablespoons of olive oil in one sitting, and having to type like an old person."
 ---

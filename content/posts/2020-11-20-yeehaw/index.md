@@ -5,7 +5,7 @@ lastmod: 2020-11-21 09:10:00
 description: "Way back in March this year, early on in lockdown, I had a burst of inspiration and built a silly game which you can play on Slack. I wanted to talk through the process I go through on the rare occasion when I start a side project."
 cta: "Saddle up"
 highlight: "pink"
-tags: ["Side Projects"]
+tags: ["Side Projects", "Yeehaw"]
 resources:
   - src: "demo.gif"
     title: "Four horse racing emoji race across the screen from right to left, reaching the finish line in turn"
