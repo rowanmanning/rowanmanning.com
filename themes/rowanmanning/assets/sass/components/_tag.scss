@@ -7,6 +7,7 @@
 	display: inline-block;
 	padding: 0 var(--spacing-rule);
 	text-decoration: none;
+	margin-bottom: 0.4ch;
 
 	&:not(:last-child) {
 		margin-right: 0.8ch;

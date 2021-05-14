@@ -19,8 +19,8 @@
 
 	{{/* List of tags */}}
 	<ol class="inline-list">
-		{{ range .Pages.ByTitle }}
-			<li><a href="{{ .RelPermalink }}" class="tag tag--{{ replace (.Title | urlize) "." "-" }}">{{ .Title }} ({{ .Pages | len }})</a></li>
+		{{ range .Data.Terms.Alphabetical }}
+			<li><a href="{{ .Page.RelPermalink }}" class="tag tag--{{ replace (.Page.Title | urlize) "." "-" }}">{{ .Page.Title }} ({{ .Count }})</a></li>
 		{{ end }}
 	</ol>
 

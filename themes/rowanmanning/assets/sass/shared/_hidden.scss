@@ -9,3 +9,9 @@
 	height: 1px;
 	overflow: hidden;
 }
+
+// Hidden fully block
+%hidden-fully,
+.hidden-fully {
+	display: none !important;
+}
