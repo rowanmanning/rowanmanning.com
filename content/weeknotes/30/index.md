@@ -1,6 +1,6 @@
 ---
 title: "Week 30: Office"
-date: 2021-05-23T17:30:00+0100
+date: 2021-05-23T16:00:00+0100
 tags: ["Work", "Games", "TV", "House", "Food", "Minecraft", "Board Games", "Eurovision"]
 highlight: "purple"
 description: "A week of office visits, successful speedruns, tetris-like cities, a mini Eurovision party, and training myself to like soap weed."
