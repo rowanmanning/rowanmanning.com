@@ -45,3 +45,9 @@
 	{{ end }}
 
 {{ end }}
+
+{{/* Webmentions */}}
+{{ if (and .Site.Author .Site.Author.webmention) }}
+	<link rel="webmention" href="https://webmention.io/{{ .Site.Author.webmention }}/webmention" />
+	<link rel="pingback" href="https://webmention.io/{{ .Site.Author.webmention }}/xmlrpc" />
+{{ end }}

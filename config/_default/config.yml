@@ -11,6 +11,7 @@ author:
   website: "https://rowanmanning.com/"
   github: "rowanmanning"
   twitter: "rowanmanning"
+  webmention: "rowanmanning.com"
 
 # Configure the themes
 theme: ["atom-feed", "rowanmanning"]
