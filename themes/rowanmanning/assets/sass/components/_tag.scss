@@ -3,9 +3,10 @@
 .tag {
 	--tag-background-color: var(--colorvalue-cream);
 	background-color: var(--tag-background-color);
-	border-radius: var(--spacing-rule);
-	display: inline-block;
-	padding: 0 var(--spacing-rule);
+	border-radius: 0.5ch;
+	display: inline;
+	padding: 0.4ch;
+	line-height: 1;
 	text-decoration: none;
 	margin-bottom: 0.4ch;
 

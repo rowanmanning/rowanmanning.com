@@ -15,6 +15,7 @@
 	// Define spacing use-cases
 	--spacing-line: var(--spacingvalue-l);
 	--spacing-half-line: calc(var(--spacing-line) * 0.5);
+	--spacing-three-quarter-line: calc(var(--spacing-line) * 0.75);
 	--spacing-onepointfive-line: calc(var(--spacing-line) * 1.5);
 	--spacing-double-line: calc(var(--spacing-line) * 2);
 	--spacing-rule: var(--spacingvalue-xs);

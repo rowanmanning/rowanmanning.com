@@ -26,10 +26,10 @@
 
 // Content summary meta element
 .content-summary__meta {
-	font-size: var(--font-size-small);
-	line-height: var(--line-height-small);
-	margin-bottom: var(--spacing-rule);
-	margin-top: 0;
+	font-size: var(--font-size-xs);
+	line-height: var(--line-height-xs);
+	margin-top: var(--spacing-rule);
+	margin-bottom: 0;
 }
 
 // Content summary body element

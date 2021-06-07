@@ -25,6 +25,21 @@
 		</h2>
 	</header>
 
+	<div class="content-summary__body">
+
+		{{ if $image }}
+			<a href="{{ .RelPermalink }}" class="content-summary__thumb">
+				<img src="{{ $thumb.RelPermalink }}" alt="{{ $image.Title }}" />
+			</a>
+		{{ end }}
+
+		<p class="content-summary__preview">
+			<span property="description">{{ .Params.description }}</span>
+			<a href="{{ .RelPermalink }}">{{ if (.Params.cta) }}{{ .Params.cta }}{{ else }}Read more{{ end }}</a>.
+		</p>
+
+	</div>
+
 	<footer>
 		<p class="content-summary__meta">
 			Posted on <time datetime="{{ .Date }}" property="datePublished">{{ .Date.Format "02 January 2006" }}</time>
@@ -51,20 +66,5 @@
 			{{ end }}
 		</p>
 	</footer>
-
-	<div class="content-summary__body">
-
-		{{ if $image }}
-			<a href="{{ .RelPermalink }}" class="content-summary__thumb">
-				<img src="{{ $thumb.RelPermalink }}" alt="{{ $image.Title }}" />
-			</a>
-		{{ end }}
-
-		<p class="content-summary__preview">
-			<span property="description">{{ .Params.description }}</span>
-			<a href="{{ .RelPermalink }}">{{ if (.Params.cta) }}{{ .Params.cta }}{{ else }}Read more{{ end }}</a>.
-		</p>
-
-	</div>
 
 </article>
