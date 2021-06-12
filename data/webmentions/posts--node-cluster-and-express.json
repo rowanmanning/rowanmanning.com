@@ -1,0 +1,222 @@
+{
+	"raw": {
+		"4da648295f3625d85cca1cf79a85db18": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Dey",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/84a43703f570decfda8eb0c2e02b061163b094c9b2df6bbc7f3b208cd476bc85.jpg",
+				"url": "https://twitter.com/Saikat_Dey2011"
+			},
+			"url": "https://twitter.com/Saikat_Dey2011/status/817721986629726209",
+			"published": "2017-01-07T13:18:08+00:00",
+			"wm-received": "2021-06-07T21:16:49Z",
+			"wm-id": 1182927,
+			"wm-source": "https://brid.gy/post/twitter/rowanmanning/817721986629726209",
+			"wm-target": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"content": {
+				"html": "Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a> is this code production ready?\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/node-cluster-and-express/\"></a>",
+				"text": "Node.js Cluster and Express rowanmanning.com/posts/node-clu… via @rowanmanning is this code production ready?"
+			},
+			"mention-of": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"wm-property": "mention-of",
+			"wm-private": false
+		},
+		"1d96e3c00bc7caf3b9926aad81ddf16e": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Amy",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/a08fe0b5786b32700fd062c7557b9fa23c3ebea968cf900c4f95b62f57e2dc37.jpg",
+				"url": "https://twitter.com/graynun_"
+			},
+			"url": "https://twitter.com/graynun_/status/788585942839922688",
+			"published": "2016-10-19T03:41:54+00:00",
+			"wm-received": "2021-06-07T21:17:08Z",
+			"wm-id": 1182929,
+			"wm-source": "https://brid.gy/post/twitter/rowanmanning/788585942839922688",
+			"wm-target": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"content": {
+				"html": "node cluster라는게 있어서 이것이 무엇인가 찾아보고 있다. 컴퓨터 작동방식 모루니까 진짜 이건 뭐 낫놓고 ㄱ부터 찾아가는 기세다... <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\">rowanmanning.com/posts/node-clu…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/node-cluster-and-express/\"></a>",
+				"text": "node cluster라는게 있어서 이것이 무엇인가 찾아보고 있다. 컴퓨터 작동방식 모루니까 진짜 이건 뭐 낫놓고 ㄱ부터 찾아가는 기세다... rowanmanning.com/posts/node-clu…"
+			},
+			"mention-of": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"wm-property": "mention-of",
+			"wm-private": false
+		},
+		"1bdb1509d3b361e9814fc47d61f1c072": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Iván S. Ortega H.",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/1ad41ee6f32436f8ed25aecb25e576297f5eee87428a8fcb082a72226136a783.jpg",
+				"url": "https://twitter.com/isortegah"
+			},
+			"url": "https://twitter.com/isortegah/status/773304620936421376",
+			"published": "2016-09-06T23:39:23+00:00",
+			"wm-received": "2021-06-07T21:17:15Z",
+			"wm-id": 1182931,
+			"wm-source": "https://brid.gy/post/twitter/rowanmanning/773304620936421376",
+			"wm-target": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"content": {
+				"html": "<a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\">rowanmanning.com/posts/node-clu…</a> <a href=\"https://twitter.com/search?q=%23express\">#express</a> <a href=\"https://twitter.com/search?q=%23nodejs\">#nodejs</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/node-cluster-and-express/\"></a>",
+				"text": "rowanmanning.com/posts/node-clu… #express #nodejs"
+			},
+			"mention-of": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"wm-property": "mention-of",
+			"wm-private": false
+		},
+		"39895611c096be909329ab6ac283b77a": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Salvo Sorrusca",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/4d67d7b13567556ea0f3c92558c1af7e749bf7e85bd4bc861bfcfd3aad84d1ca.jpg",
+				"url": "https://twitter.com/SalvoSorrusca"
+			},
+			"url": "https://twitter.com/SalvoSorrusca/status/816930715367538688",
+			"published": "2017-01-05T08:53:55+00:00",
+			"wm-received": "2021-06-07T21:17:21Z",
+			"wm-id": 1182932,
+			"wm-source": "https://brid.gy/post/twitter/rowanmanning/816930715367538688",
+			"wm-target": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"content": {
+				"html": "Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\">rowanmanning.com/posts/node-clu…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/node-cluster-and-express/\"></a>",
+				"text": "Node.js Cluster and Express rowanmanning.com/posts/node-clu…"
+			},
+			"mention-of": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"wm-property": "mention-of",
+			"wm-private": false
+		},
+		"68b95ec7999d809f6497f723dc9bc43a": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Jonathan Ilano",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/cd75c3fa4ab69b8317db6cb712fa7f1da30da6a9ea6491fbb31501ddaccbaa0f.jpg",
+				"url": "https://twitter.com/jonilano"
+			},
+			"url": "https://twitter.com/jonilano/status/761730108126179328",
+			"published": "2016-08-06T01:06:24+00:00",
+			"wm-received": "2021-06-07T21:17:51Z",
+			"wm-id": 1182934,
+			"wm-source": "https://brid.gy/post/twitter/rowanmanning/761730108126179328",
+			"wm-target": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"content": {
+				"html": "TIL: Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/node-cluster-and-express/\"></a>",
+				"text": "TIL: Node.js Cluster and Express rowanmanning.com/posts/node-clu… via @rowanmanning"
+			},
+			"mention-of": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"wm-property": "mention-of",
+			"wm-private": false
+		},
+		"76318c712eead6128a9f46f5f1e86b9e": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Prutya Kunaroob",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/1d6ef8dfb56d18d00b0b297db37a5c35e86cd42cc00ecd180dc19335b3c0752b.jpg",
+				"url": "https://twitter.com/ChillyPriG"
+			},
+			"url": "https://twitter.com/ChillyPriG/status/749900469976178688",
+			"published": "2016-07-04T09:39:39+00:00",
+			"wm-received": "2021-06-07T21:18:40Z",
+			"wm-id": 1182938,
+			"wm-source": "https://brid.gy/post/twitter/rowanmanning/749900469976178688",
+			"wm-target": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"content": {
+				"html": "Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/node-cluster-and-express/\"></a>",
+				"text": "Node.js Cluster and Express rowanmanning.com/posts/node-clu… via @rowanmanning"
+			},
+			"mention-of": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"wm-property": "mention-of",
+			"wm-private": false
+		}
+	},
+	"processed": [
+		{
+			"type": "response",
+			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/749900469976178688",
+			"targetUrl": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"date": "2016-07-04T09:39:39+00:00",
+			"url": "https://twitter.com/ChillyPriG/status/749900469976178688",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Prutya Kunaroob",
+				"url": "https://twitter.com/ChillyPriG",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/1d6ef8dfb56d18d00b0b297db37a5c35e86cd42cc00ecd180dc19335b3c0752b.jpg"
+			},
+			"content": "Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/node-cluster-and-express/\"></a>"
+		},
+		{
+			"type": "response",
+			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/761730108126179328",
+			"targetUrl": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"date": "2016-08-06T01:06:24+00:00",
+			"url": "https://twitter.com/jonilano/status/761730108126179328",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Jonathan Ilano",
+				"url": "https://twitter.com/jonilano",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/cd75c3fa4ab69b8317db6cb712fa7f1da30da6a9ea6491fbb31501ddaccbaa0f.jpg"
+			},
+			"content": "TIL: Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/node-cluster-and-express/\"></a>"
+		},
+		{
+			"type": "response",
+			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/773304620936421376",
+			"targetUrl": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"date": "2016-09-06T23:39:23+00:00",
+			"url": "https://twitter.com/isortegah/status/773304620936421376",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Iván S. Ortega H.",
+				"url": "https://twitter.com/isortegah",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/1ad41ee6f32436f8ed25aecb25e576297f5eee87428a8fcb082a72226136a783.jpg"
+			},
+			"content": "<a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\">rowanmanning.com/posts/node-clu…</a> <a href=\"https://twitter.com/search?q=%23express\">#express</a> <a href=\"https://twitter.com/search?q=%23nodejs\">#nodejs</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/node-cluster-and-express/\"></a>"
+		},
+		{
+			"type": "response",
+			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/788585942839922688",
+			"targetUrl": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"date": "2016-10-19T03:41:54+00:00",
+			"url": "https://twitter.com/graynun_/status/788585942839922688",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Amy",
+				"url": "https://twitter.com/graynun_",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/a08fe0b5786b32700fd062c7557b9fa23c3ebea968cf900c4f95b62f57e2dc37.jpg"
+			},
+			"content": "node cluster라는게 있어서 이것이 무엇인가 찾아보고 있다. 컴퓨터 작동방식 모루니까 진짜 이건 뭐 낫놓고 ㄱ부터 찾아가는 기세다... <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\">rowanmanning.com/posts/node-clu…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/node-cluster-and-express/\"></a>"
+		},
+		{
+			"type": "response",
+			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/816930715367538688",
+			"targetUrl": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"date": "2017-01-05T08:53:55+00:00",
+			"url": "https://twitter.com/SalvoSorrusca/status/816930715367538688",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Salvo Sorrusca",
+				"url": "https://twitter.com/SalvoSorrusca",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/4d67d7b13567556ea0f3c92558c1af7e749bf7e85bd4bc861bfcfd3aad84d1ca.jpg"
+			},
+			"content": "Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\">rowanmanning.com/posts/node-clu…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/node-cluster-and-express/\"></a>"
+		},
+		{
+			"type": "response",
+			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/817721986629726209",
+			"targetUrl": "https://rowanmanning.com/posts/node-cluster-and-express/",
+			"date": "2017-01-07T13:18:08+00:00",
+			"url": "https://twitter.com/Saikat_Dey2011/status/817721986629726209",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Dey",
+				"url": "https://twitter.com/Saikat_Dey2011",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/84a43703f570decfda8eb0c2e02b061163b094c9b2df6bbc7f3b208cd476bc85.jpg"
+			},
+			"content": "Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a> is this code production ready?\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/node-cluster-and-express/\"></a>"
+		}
+	]
+}

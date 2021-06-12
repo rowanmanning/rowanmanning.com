@@ -1,0 +1,68 @@
+{
+	"raw": {
+		"660bba664c2b01133038ed3dac745508": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Jermila Dhas",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg",
+				"url": "https://twitter.com/JermilaD"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1363791500115668993#favorited-by-1008287622865747968",
+			"published": null,
+			"wm-received": "2021-06-06T10:02:28Z",
+			"wm-id": 1181483,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1363791500115668993/1008287622865747968",
+			"wm-target": "https://rowanmanning.com/weeknotes/17/",
+			"like-of": "https://rowanmanning.com/weeknotes/17/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		"b950d84ca8639d69e101ae70d601a25d": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Laura Carvajal",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg",
+				"url": "https://twitter.com/lc512k"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1363791500115668993#favorited-by-741506154",
+			"published": null,
+			"wm-received": "2021-06-06T10:02:28Z",
+			"wm-id": 1181482,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1363791500115668993/741506154",
+			"wm-target": "https://rowanmanning.com/weeknotes/17/",
+			"like-of": "https://rowanmanning.com/weeknotes/17/",
+			"wm-property": "like-of",
+			"wm-private": false
+		}
+	},
+	"processed": [
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1363791500115668993/1008287622865747968",
+			"targetUrl": "https://rowanmanning.com/weeknotes/17/",
+			"date": "2021-06-06T10:02:28Z",
+			"url": "https://twitter.com/rowanmanning/status/1363791500115668993#favorited-by-1008287622865747968",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Jermila Dhas",
+				"url": "https://twitter.com/JermilaD",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg"
+			}
+		},
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1363791500115668993/741506154",
+			"targetUrl": "https://rowanmanning.com/weeknotes/17/",
+			"date": "2021-06-06T10:02:28Z",
+			"url": "https://twitter.com/rowanmanning/status/1363791500115668993#favorited-by-741506154",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Laura Carvajal",
+				"url": "https://twitter.com/lc512k",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg"
+			}
+		}
+	]
+}

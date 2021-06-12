@@ -1,0 +1,42 @@
+{
+	"raw": {
+		"f4e4cf940e5e713db57e35f1d18fe5f6": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Dey",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/84a43703f570decfda8eb0c2e02b061163b094c9b2df6bbc7f3b208cd476bc85.jpg",
+				"url": "https://twitter.com/Saikat_Dey2011"
+			},
+			"url": "https://twitter.com/Saikat_Dey2011/status/817728761584033792",
+			"published": "2017-01-07T13:45:04+00:00",
+			"wm-received": "2021-06-07T21:16:45Z",
+			"wm-id": 1182926,
+			"wm-source": "https://brid.gy/post/twitter/rowanmanning/817728761584033792",
+			"wm-target": "https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/",
+			"content": {
+				"html": "Accessibility: Beyond the Screen-Reader <a href=\"http://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\">rowanmanning.com/posts/accessib…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\"></a>",
+				"text": "Accessibility: Beyond the Screen-Reader rowanmanning.com/posts/accessib… via @rowanmanning"
+			},
+			"mention-of": "https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/",
+			"wm-property": "mention-of",
+			"wm-private": false
+		}
+	},
+	"processed": [
+		{
+			"type": "response",
+			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/817728761584033792",
+			"targetUrl": "https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/",
+			"date": "2017-01-07T13:45:04+00:00",
+			"url": "https://twitter.com/Saikat_Dey2011/status/817728761584033792",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Dey",
+				"url": "https://twitter.com/Saikat_Dey2011",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/84a43703f570decfda8eb0c2e02b061163b094c9b2df6bbc7f3b208cd476bc85.jpg"
+			},
+			"content": "Accessibility: Beyond the Screen-Reader <a href=\"http://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\">rowanmanning.com/posts/accessib…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\"></a>"
+		}
+	]
+}

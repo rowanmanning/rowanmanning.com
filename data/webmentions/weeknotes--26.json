@@ -1,0 +1,37 @@
+{
+	"raw": {
+		"3f5258ce9f10777c962671fc00c5ff40": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Perry Harlock",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+				"url": "https://twitter.com/perryharlock"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1386667631101497347#favorited-by-127856293",
+			"published": null,
+			"wm-received": "2021-06-06T10:01:55Z",
+			"wm-id": 1181445,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1386667631101497347/127856293",
+			"wm-target": "https://rowanmanning.com/weeknotes/26/",
+			"like-of": "https://rowanmanning.com/weeknotes/26/",
+			"wm-property": "like-of",
+			"wm-private": false
+		}
+	},
+	"processed": [
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1386667631101497347/127856293",
+			"targetUrl": "https://rowanmanning.com/weeknotes/26/",
+			"date": "2021-06-06T10:01:55Z",
+			"url": "https://twitter.com/rowanmanning/status/1386667631101497347#favorited-by-127856293",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Perry Harlock",
+				"url": "https://twitter.com/perryharlock",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
+			}
+		}
+	]
+}

@@ -1,0 +1,316 @@
+{
+	"raw": {
+		"e1637f031e7a0cec59fd7a98af65ef18": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Robert Shilston",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/e92c6536305ab277dd0a3a4ea61317da2e8922cbe945c832c44457de6de0c766.jpg",
+				"url": "https://twitter.com/rtshilston"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-48299090",
+			"published": null,
+			"wm-received": "2021-06-06T10:04:47Z",
+			"wm-id": 1181503,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/48299090",
+			"wm-target": "https://rowanmanning.com/weeknotes/13/",
+			"like-of": "https://rowanmanning.com/weeknotes/13/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		"cee7af619a23fa45856184e3b22b3915": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Laura Carvajal",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg",
+				"url": "https://twitter.com/lc512k"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-741506154",
+			"published": null,
+			"wm-received": "2021-06-06T10:04:52Z",
+			"wm-id": 1181509,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/741506154",
+			"wm-target": "https://rowanmanning.com/weeknotes/13/",
+			"like-of": "https://rowanmanning.com/weeknotes/13/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		"383c195b1fa6d4d5db8889e51cf78120": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "lee",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/884ce9795988c7accf3459433122c00acdf8f47433efc87ec81fb5fb5dd571dd.jpg",
+				"url": "https://twitter.com/notleemoody"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-170236447",
+			"published": null,
+			"wm-received": "2021-06-06T10:04:53Z",
+			"wm-id": 1181510,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/170236447",
+			"wm-target": "https://rowanmanning.com/weeknotes/13/",
+			"like-of": "https://rowanmanning.com/weeknotes/13/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		"4e16748ff299631f49e26fa98314153f": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Jermila Dhas",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg",
+				"url": "https://twitter.com/JermilaD"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-1008287622865747968",
+			"published": null,
+			"wm-received": "2021-06-06T10:04:54Z",
+			"wm-id": 1181511,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/1008287622865747968",
+			"wm-target": "https://rowanmanning.com/weeknotes/13/",
+			"like-of": "https://rowanmanning.com/weeknotes/13/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		"c0f091bdb377d6102128e91565396e47": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Perry Harlock",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+				"url": "https://twitter.com/perryharlock"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-127856293",
+			"published": null,
+			"wm-received": "2021-06-06T10:04:55Z",
+			"wm-id": 1181513,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/127856293",
+			"wm-target": "https://rowanmanning.com/weeknotes/13/",
+			"like-of": "https://rowanmanning.com/weeknotes/13/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		"856989c05c9036f722304fbb89ec4183": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "The SecretBatcave",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/e5b9849361259d8dd0ef38ddb52e6b2a3e7f0e6d274ab61fa89b96fc2ddd8da3.jpg",
+				"url": "https://twitter.com/secretbatcave"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-904206782",
+			"published": null,
+			"wm-received": "2021-06-06T10:04:56Z",
+			"wm-id": 1181515,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/904206782",
+			"wm-target": "https://rowanmanning.com/weeknotes/13/",
+			"like-of": "https://rowanmanning.com/weeknotes/13/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		"6b401b72f1b8fd022ed82ec6dad60ed5": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "arjun",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg",
+				"url": "https://twitter.com/adgad"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-24541114",
+			"published": null,
+			"wm-received": "2021-06-06T10:04:56Z",
+			"wm-id": 1181514,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/24541114",
+			"wm-target": "https://rowanmanning.com/weeknotes/13/",
+			"like-of": "https://rowanmanning.com/weeknotes/13/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		"4033ac69c3d8b38d882ba0a1a2935881": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Luke Blaney",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+				"url": "https://twitter.com/lucas42"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-17844917",
+			"published": null,
+			"wm-received": "2021-06-06T10:04:57Z",
+			"wm-id": 1181516,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/17844917",
+			"wm-target": "https://rowanmanning.com/weeknotes/13/",
+			"like-of": "https://rowanmanning.com/weeknotes/13/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		"fade2561c7534c25d003e222978503ca": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Alex",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+				"url": "https://twitter.com/AlexWilsonV1"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-55784559",
+			"published": null,
+			"wm-received": "2021-06-06T10:04:58Z",
+			"wm-id": 1181517,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/55784559",
+			"wm-target": "https://rowanmanning.com/weeknotes/13/",
+			"like-of": "https://rowanmanning.com/weeknotes/13/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		"007e0d22e25ed6ec7c13b4245b921c75": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Emma Lewis",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/158f1265d6ae7cc66fb24b62120e92fd5cb1fea98183dc9f6b4c9267ab826c66.jpg",
+				"url": "https://twitter.com/emmalewis"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-19965666",
+			"published": null,
+			"wm-received": "2021-06-06T10:04:59Z",
+			"wm-id": 1181518,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/19965666",
+			"wm-target": "https://rowanmanning.com/weeknotes/13/",
+			"like-of": "https://rowanmanning.com/weeknotes/13/",
+			"wm-property": "like-of",
+			"wm-private": false
+		}
+	},
+	"processed": [
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/48299090",
+			"targetUrl": "https://rowanmanning.com/weeknotes/13/",
+			"date": "2021-06-06T10:04:47Z",
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-48299090",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Robert Shilston",
+				"url": "https://twitter.com/rtshilston",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/e92c6536305ab277dd0a3a4ea61317da2e8922cbe945c832c44457de6de0c766.jpg"
+			}
+		},
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/741506154",
+			"targetUrl": "https://rowanmanning.com/weeknotes/13/",
+			"date": "2021-06-06T10:04:52Z",
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-741506154",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Laura Carvajal",
+				"url": "https://twitter.com/lc512k",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg"
+			}
+		},
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/170236447",
+			"targetUrl": "https://rowanmanning.com/weeknotes/13/",
+			"date": "2021-06-06T10:04:53Z",
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-170236447",
+			"isFromTwitter": true,
+			"author": {
+				"name": "lee",
+				"url": "https://twitter.com/notleemoody",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/884ce9795988c7accf3459433122c00acdf8f47433efc87ec81fb5fb5dd571dd.jpg"
+			}
+		},
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/1008287622865747968",
+			"targetUrl": "https://rowanmanning.com/weeknotes/13/",
+			"date": "2021-06-06T10:04:54Z",
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-1008287622865747968",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Jermila Dhas",
+				"url": "https://twitter.com/JermilaD",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg"
+			}
+		},
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/127856293",
+			"targetUrl": "https://rowanmanning.com/weeknotes/13/",
+			"date": "2021-06-06T10:04:55Z",
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-127856293",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Perry Harlock",
+				"url": "https://twitter.com/perryharlock",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
+			}
+		},
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/904206782",
+			"targetUrl": "https://rowanmanning.com/weeknotes/13/",
+			"date": "2021-06-06T10:04:56Z",
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-904206782",
+			"isFromTwitter": true,
+			"author": {
+				"name": "The SecretBatcave",
+				"url": "https://twitter.com/secretbatcave",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/e5b9849361259d8dd0ef38ddb52e6b2a3e7f0e6d274ab61fa89b96fc2ddd8da3.jpg"
+			}
+		},
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/24541114",
+			"targetUrl": "https://rowanmanning.com/weeknotes/13/",
+			"date": "2021-06-06T10:04:56Z",
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-24541114",
+			"isFromTwitter": true,
+			"author": {
+				"name": "arjun",
+				"url": "https://twitter.com/adgad",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg"
+			}
+		},
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/17844917",
+			"targetUrl": "https://rowanmanning.com/weeknotes/13/",
+			"date": "2021-06-06T10:04:57Z",
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-17844917",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Luke Blaney",
+				"url": "https://twitter.com/lucas42",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg"
+			}
+		},
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/55784559",
+			"targetUrl": "https://rowanmanning.com/weeknotes/13/",
+			"date": "2021-06-06T10:04:58Z",
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-55784559",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Alex",
+				"url": "https://twitter.com/AlexWilsonV1",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg"
+			}
+		},
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1353780371079516161/19965666",
+			"targetUrl": "https://rowanmanning.com/weeknotes/13/",
+			"date": "2021-06-06T10:04:59Z",
+			"url": "https://twitter.com/rowanmanning/status/1353780371079516161#favorited-by-19965666",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Emma Lewis",
+				"url": "https://twitter.com/emmalewis",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/158f1265d6ae7cc66fb24b62120e92fd5cb1fea98183dc9f6b4c9267ab826c66.jpg"
+			}
+		}
+	]
+}
