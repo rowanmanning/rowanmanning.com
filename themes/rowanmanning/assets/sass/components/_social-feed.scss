@@ -1,0 +1,63 @@
+
+// Social feed block
+.social-feed {
+	list-style: none;
+	padding-left: 0;
+	margin-top: var(--spacing-line);
+
+	> li {
+		display: block;
+	}
+	> li:not(:last-child) {
+		margin-bottom: var(--spacing-half-line);
+	}
+}
+
+// Social feed item element
+.social-feed__item {
+	@extend %base-typography;
+
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: var(--spacing-line);
+	padding-left: calc(var(--spacing-line) + var(--spacing-rule));
+}
+
+// Social feed item element, "like" modifier
+.social-feed__item--like {
+	background-image: url("#{$site-base-url}icons/like-inverted.svg");
+}
+
+// Social feed item element, "repost" modifier
+.social-feed__item--repost {
+	background-image: url("#{$site-base-url}icons/repost-inverted.svg");
+}
+
+// Social feed item element, "response" modifier
+.social-feed__item--response {
+	background-image: url("#{$site-base-url}icons/response-inverted.svg");
+}
+
+// Social feed meta element
+.social-feed__meta {
+	display: block;
+	
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+		text-decoration-color: var(--content-highlight-border-color);
+	}
+}
+
+// Social feed author element
+.social-feed__author {
+	font-weight: bold;
+}
+
+// Social feed content element
+.social-feed__content {
+	display: block;
+}

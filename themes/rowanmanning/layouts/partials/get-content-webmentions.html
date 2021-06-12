@@ -1,0 +1,9 @@
+
+{{- $slug := .RelPermalink | replaceRE "^/|/$" "" | replaceRE "/" "--" -}}
+{{- $webmentionFile := index $.Site.Data.webmentions $slug | default dict -}}
+{{- $webmentions := $webmentionFile.processed | default slice -}}
+
+{{- .Scratch.Set "webmentions" $webmentions -}}
+{{- .Scratch.Set "likes" (where $webmentions "type" "like") -}}
+{{- .Scratch.Set "reposts" (where $webmentions "type" "repost") -}}
+{{- .Scratch.Set "responses" (where $webmentions "type" "response") -}}

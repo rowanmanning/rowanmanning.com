@@ -3,6 +3,11 @@
 {{- $image := .Scratch.Get "image" -}}
 {{- $thumb := .Scratch.Get "thumb" -}}
 
+{{- partial "get-content-webmentions" . -}}
+{{- $webmentions := .Scratch.Get "webmentions" -}}
+
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+
 <article vocab="http://schema.org/" typeof="BlogPosting" resource="{{ .Permalink }}">
 
 	<meta property="name" content="{{ .Title }}" />
@@ -19,24 +24,31 @@
 
 		<h1 property="headline" class="content-head__title">{{ .Title }}</h1>
 
-		<p class="content-head__meta content-highlight content-highlight--{{ .Params.highlight }}">
-			Posted on <time datetime="{{ .Date }}" property="datePublished">{{ .Date.Format "02 January 2006" }}</time>
-			by <span property="author" vocab="http://schema.org/" typeof="Person"><span property="name">{{ .Site.Author.name }}</span></span>
+		<div class="content-head__meta content-highlight content-highlight--{{ .Params.highlight }}">
+			<p class="content-head__meta-info">
+				Posted on <time datetime="{{ .Date }}" property="datePublished">{{ .Date.Format "02 January 2006" }}</time>
+				by <span property="author" vocab="http://schema.org/" typeof="Person"><span property="name">{{ .Site.Author.name }}</span></span>
 
-			{{- if gt .Lastmod .Date }}
-				(<time datetime="{{ .Params.lastmod }}" title="{{ .Params.lastmod.Format "02 January 2006" }}"  property="dateModified">updated</time>)
-			{{- end -}}
+				{{- if gt .Lastmod .Date }}
+					(<time datetime="{{ .Params.lastmod }}" title="{{ .Params.lastmod.Format "02 January 2006" }}"  property="dateModified">updated</time>)
+				{{- end -}}
 
-			{{- if .Params.tags -}}
-				.<br/>Tagged with
-				<span property="keywords">
-					{{- range $key, $tag := .Params.tags -}}
-						{{- if ne $key 0 }}<span class="hidden">, </span>{{ end -}}
-						<a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}/" class="tag tag--{{ replace ($tag | urlize) "." "-" }}">{{ $tag }}</a>
-					{{- end -}}
-				</span>
+				{{- if .Params.tags -}}
+					.<br/>Tagged with
+					<span property="keywords">
+						{{- range $key, $tag := .Params.tags -}}
+							{{- if ne $key 0 }}<span class="hidden">, </span>{{ end -}}
+							<a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}/" class="tag tag--{{ replace ($tag | urlize) "." "-" }}">{{ $tag }}</a>
+						{{- end -}}
+					</span>
+				{{- end }}
+			</p>
+			{{ if (and .Site.Author .Site.Author.webmention) }}
+				<p class="content-head__socials">
+					<a href="#responses" class="content-head__social-icon content-head__social-icon--responses">{{ len $webmentions }} responses</a>
+				</p>
 			{{ end }}
-		</p>
+		</div>
 
 		{{ if (and .Params.crossPost .Params.crossPost.siteName) }}
 			<p class="content-head__source notification notification--source">
@@ -99,12 +111,72 @@
 					<a href="https://twitter.com/share?url={{ safeURL .Permalink }}&amp;via={{ safeURL .Site.Author.twitter }}&amp;text={{ safeURL .Title }}" target="_blank" class="content-foot__icon content-foot__icon--twitter">Tweet about this {{ $pageType }}</a>
 				</li>
 			{{ end }}
+			{{ if (and .Site.Author .Site.Author.webmention) }}
+				<li>
+					<a href="#responses" class="content-foot__icon content-foot__icon--responses">{{ len $webmentions }} responses</a>
+				</li>
+			{{ end }}
+			{{ if len $related }}
+				<li>
+					<a href="#related" class="content-foot__icon content-foot__icon--related">View related {{ $pageType | pluralize }}</a>
+				</li>
+			{{ end }}
 		</ul>
 	</footer>
 
-	{{ $related := .Site.RegularPages.Related . | first 3 }}
+	{{/* Webmentions */}}
+	{{ if (and .Site.Author .Site.Author.webmention) }}
+		<aside id="responses">
+			<div class="content-body">
+				<h2>Responses ({{ len $webmentions }})</h2>
+			</div>
+			<form method="post" action="https://webmention.io/{{ .Site.Author.webmention }}/webmention" target="_blank" class="webmention-form">
+				<input type="hidden" name="target" value="{{ .Permalink }}" />
+				<p>
+					You can respond to this {{ $pageType }} using <a href="https://indieweb.org/Webmention">Webmentions</a>,
+					and any tweets about it will be picked up automatically.
+					If you published a response to this elsewhere, <label for="webmention-source">let me know the URL</label>:
+				</p>
+				<div class="webmention-form__inputs">
+					<input id="webmention-source" type="url" name="source" required class="webmention-form__url" />
+					<input type="submit" value="Ping!" class="webmention-form__submit" />
+				</div>
+			</form>
+			{{ if len $webmentions }}
+				<ol id="responses" class="social-feed">
+					{{ range $webmentions }}
+						{{ if eq .type "response" }}
+							<li property="comment" vocab="http://schema.org/" typeof="Comment" class="social-feed__item social-feed__item--response">
+								<div class="social-feed__meta">
+									<span property="author" vocab="http://schema.org/" typeof="Person">
+										<a property="url" href="{{ .author.url }}" class="social-feed__author"><span property="name">{{ .author.name }}</span></a>
+									</span>
+									<a property="url" href="{{ .url }}">responded</a>
+									<time property="datePublished" datetime="{{ .date }}" class="social-feed__date">{{ dateFormat "02 January 2006" .date }}</time>:
+								</div>
+								<div property="text" class="social-feed__content content-body">{{ .content | safeHTML }}</div>
+							</li>
+						{{ else }}
+							<li class="social-feed__item social-feed__item--{{ .type }}">
+								<div class="social-feed__meta">
+									<a href="{{ .author.url }}" class="social-feed__author">{{ .author.name }}</a>
+									{{ if eq .type "repost" }}
+										<a href="{{ .url }}">reposted this</a>
+									{{ else }}
+										<a href="{{ .url }}">liked this</a>
+									{{ end }}
+									<time datetime="{{ .date }}" class="social-feed__date">{{ dateFormat "02 January 2006" .date }}</time>
+								</div>
+							</li>
+						{{ end }}
+					{{ end }}
+				</ol>
+			{{ end }}
+		</aside>
+	{{ end }}
+
 	{{ with $related }}
-		<aside class="related-content">
+		<aside id="related">
 			<div class="content-body">
 				<h2>You may also like</h2>
 			</div>

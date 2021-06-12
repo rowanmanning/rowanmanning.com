@@ -46,6 +46,16 @@
 	background-image: url("#{$site-base-url}icons/feed.svg");
 }
 
+// Content foot icon element, "related" modifier
+.content-foot__icon--related {
+	background-image: url("#{$site-base-url}icons/link.svg");
+}
+
+// Content foot icon element, "responses" modifier
+.content-foot__icon--responses {
+	background-image: url("#{$site-base-url}icons/response.svg");
+}
+
 // Content foot icon element, "twitter" modifier
 .content-foot__icon--twitter {
 	background-image: url("#{$site-base-url}icons/twitter.svg");

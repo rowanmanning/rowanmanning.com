@@ -1,0 +1,41 @@
+
+// Webmention form block
+.webmention-form {
+	@extend %base-typography;
+	margin-bottom: var(--spacing-line);
+}
+
+// Webmention form inputs element
+.webmention-form__inputs {
+	display: flex;
+}
+
+// Webmention form url element
+.webmention-form__url {
+	flex: 1;
+	max-width: 400px;
+	display: block;
+	padding: var(--spacing-rule);
+	border: solid var(--spacingvalue-xxs) var(--colorvalue-cream-dark);
+	border-right: none;
+	border-radius: var(--spacing-rule) 0 0 var(--spacing-rule);
+}
+
+// Webmention form submit element
+.webmention-form__submit {
+	display: block;
+	padding: var(--spacing-rule);
+	border: solid var(--spacingvalue-xxs) transparent;
+	border-radius: 0 var(--spacing-rule) var(--spacing-rule) 0;
+	background-color: var(--colorvalue-green-light);
+
+	&:active {
+		background-color: var(--colorvalue-green);
+	}
+}
+
+.webmention-form__url:focus,
+.webmention-form__url:focus + .webmention-form__submit {
+	outline: none;
+	border-color: var(--colorvalue-green);
+}

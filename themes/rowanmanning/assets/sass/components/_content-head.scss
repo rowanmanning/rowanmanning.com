@@ -48,6 +48,35 @@
 	flex: 0 0 100%;
 	font-size: var(--font-size-small);
 	margin: var(--spacing-half-line) 0 0 0;
+
+	a {
+		color: inherit;
+	}
+}
+
+// Content head meta info element
+.content-head__meta-info {
+	margin: 0;
+}
+
+// Content head socials element
+.content-head__socials {
+	margin: 0;
+	padding: 0;
+}
+
+// Content head social icon element
+.content-head__social-icon {
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	padding-left: calc(var(--line-height-small) + var(--spacingvalue-xxs));
+}
+
+// Content head social icon element, "responses" modifier
+.content-head__social-icon--responses {
+	background-image: url("#{$site-base-url}icons/response-inverted.svg");
 }
 
 // Content head source element
