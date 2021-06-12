@@ -38,7 +38,7 @@ to enable webmentions
 				<span property="author" vocab="http://schema.org/" typeof="Person" class="p-author h-card">
 					<a href="{{ .Site.Author.website }}" property="url" class="u-url">
 						<img property="image" src="{{ .Site.Author.image }}" class="hidden u-photo" />
-						<span property="name" class="p-name">{{ .Site.Author.name }}</span></span></a>
+						<span property="name" class="p-name">{{ .Site.Author.name }}</span></a></span>
 
 				{{- if gt .Lastmod .Date }}
 					(<time datetime="{{ .Params.lastmod }}" title="{{ .Params.lastmod.Format "02 January 2006" }}"  property="dateModified" class="dt-published">updated</time>)
