@@ -33,7 +33,7 @@ to enable webmentions
 		<div class="content-head__meta content-highlight content-highlight--{{ .Params.highlight }}">
 			<p property="description" class="hidden-fully p-summary">{{ .Description }}</p>
 			<p class="content-head__meta-info">
-				Posted on <time datetime="{{ .Date }}" property="datePublished">{{ .Date.Format "02 January 2006" }}</time>
+				Posted on <time datetime="{{ .Date }}" property="datePublished" class="dt-published">{{ .Date.Format "02 January 2006" }}</time>
 				by 
 				<span property="author" vocab="http://schema.org/" typeof="Person" class="p-author h-card">
 					<a href="{{ .Site.Author.website }}" property="url" class="u-url">
@@ -41,7 +41,7 @@ to enable webmentions
 						<span property="name" class="p-name">{{ .Site.Author.name }}</span></a></span>
 
 				{{- if gt .Lastmod .Date }}
-					(<time datetime="{{ .Params.lastmod }}" title="{{ .Params.lastmod.Format "02 January 2006" }}"  property="dateModified" class="dt-published">updated</time>)
+					(<time datetime="{{ .Params.lastmod }}" title="{{ .Params.lastmod.Format "02 January 2006" }}"  property="dateModified">updated</time>)
 				{{- end -}}
 
 				{{- if .Params.tags -}}
