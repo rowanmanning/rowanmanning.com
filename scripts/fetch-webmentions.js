@@ -45,8 +45,10 @@ const site = require('../data/webmentions/_site.json');
 		// Calculate a slug and file path for the mention
 		let slug = webmention['wm-target']
 			.replace(`https://${site.domain}/`, '')
+			.replace(/[\#\?].*$/, '')
 			.replace(/\/$/, '')
-			.replace('/', '--');
+			.replace(/\//g, '--');
+			
 		if (slug === '') {
 			slug = 'index';
 		}
