@@ -1,11 +1,11 @@
 
 name: Fetch webmentions
 
-# Run every six hours
+# Run every 30 minutes
 on:
   schedule:
     - cron: "*/30 * * * *"
-  workflow_dispatch:
+  workflow_dispatch: {}
 
 # Jobs
 jobs:
