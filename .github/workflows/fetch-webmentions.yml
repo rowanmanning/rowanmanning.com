@@ -1,0 +1,59 @@
+
+name: Fetch webmentions
+
+# Run every six hours
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+# Jobs
+jobs:
+  webmentions:
+    runs-on: ubuntu-18.04
+    steps:
+
+      - uses: actions/checkout@v2
+
+      # Set up Node.js and install dependencies
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - uses: actions/cache@v1
+        env:
+          cache-version: v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-${{ env.cache-version }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ env.cache-version }}-
+            ${{ runner.os }}-
+      - run: npm install
+
+      # Fetch and process webmentions
+      - name: Fetch webmentions
+        env:
+          WEBMENTION_API_KEY: ${{ secrets.WEBMENTION_API_KEY }}
+        run: ./scripts/fetch-webmentions.js
+      - name: Process webmentions
+        run: ./scripts/process-webmentions.js
+
+      # Commit new webmentions to the repo
+      - name: Commit to the repo
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "Rowan Manning"
+          git config --global user.email "info@rowanmanning.com"
+          git remote set-url origin "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git checkout main
+          git add .
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Fetch webmentions"; git push origin main)
+
+# git remote set-url origin "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+# git config --global user.name "rowanmanning"
+# git config --global user.email "info@rowanmanning.com"
+# git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/rowanmanning/rowanmanning.com.git
+# git checkout main
+# git add .
+# git diff --quiet && git diff --staged --quiet || (git commit -m "Fetch webmentions"; git push origin main)
