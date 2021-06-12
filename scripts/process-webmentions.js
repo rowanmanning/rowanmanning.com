@@ -132,6 +132,13 @@ function getMentionContent(webmention) {
 				link.setAttribute('nofollow', "nofollow");
 			}
 
+			// Turn headings into paragraphs
+			for (const heading of cleanDOM.querySelectorAll('h1, h2, h3, h4, h5, h6')) {
+				const paragraph = document.createElement('p');
+				paragraph.innerHTML = heading.innerHTML;
+				heading.parentElement.replaceChild(paragraph, heading);
+			}
+
 			return cleanDOM.innerHTML;
 		}
 	}
