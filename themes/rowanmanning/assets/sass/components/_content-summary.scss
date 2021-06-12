@@ -36,6 +36,10 @@
 .content-summary__body {
 	display: flex;
 	align-items: flex-start;
+
+	@media (max-width: $layout-width-mobile) {
+		display: block;
+	}
 }
 
 // Content summary thumbnail element
@@ -54,6 +58,12 @@
 	> img {
 		display: block;
 		width: 100%;
+	}
+
+	@media (max-width: $layout-width-mobile) {
+		float: left;
+		margin-bottom: var(--spacing-rule);
+		width: calc((var(--spacing-line) * 2.5) - (var(--spacingvalue-xxs) * 2));
 	}
 }
 
