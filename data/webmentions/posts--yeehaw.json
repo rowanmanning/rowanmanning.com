@@ -216,7 +216,7 @@
 				"url": "https://twitter.com/annashipman",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/bca100ed027f8847751cc5dc67f21a1d472a9a78e9f627a42a596d5d0ab8ed2a.jpg"
 			},
-			"content": "I love this post by <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>  \n5 tips on how he keeps side projects fun and gets them finished <a href=\"https://rowanmanning.com/posts/yeehaw/\">rowanmanning.com/posts/yeehaw/</a>"
+			"content": "I love this post by <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>  \n5 tips on how he keeps side projects fun and gets them finished <a href=\"https://rowanmanning.com/posts/yeehaw/\" nofollow=\"nofollow\">rowanmanning.com/posts/yeehaw/</a>"
 		},
 		{
 			"type": "like",

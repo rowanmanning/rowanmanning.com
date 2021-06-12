@@ -135,7 +135,7 @@
 				"url": "https://twitter.com/pa11yorg",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/eae82fef03bd96832176a617dbd81558ef6271481bac733f7822f8de9c4c4c4f.jpg"
 			},
-			"content": "All of us in the Pa11y team are excited to announce an important move, as well as what we've been busy working on! ✨ <a href=\"http://rowanmanning.com/posts/a-new-home-for-pa11y/\">rowanmanning.com/posts/a-new-ho…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/a-new-home-for-pa11y/\"></a>"
+			"content": "All of us in the Pa11y team are excited to announce an important move, as well as what we've been busy working on! ✨ <a href=\"http://rowanmanning.com/posts/a-new-home-for-pa11y/\" nofollow=\"nofollow\">rowanmanning.com/posts/a-new-ho…</a>\n<a href=\"https://rowanmanning.com/posts/a-new-home-for-pa11y/\" nofollow=\"nofollow\"></a>"
 		},
 		{
 			"type": "repost",

@@ -36,7 +36,7 @@
 				"url": "https://twitter.com/axemonkey",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/588531e7ff3cccba509dfa0c6733c16d4938f3fb5c11ec0a0f6324e43b85114d.jpg"
 			},
-			"content": "<a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a> <a href=\"https://rowanmanning.com/posts/complex-routing-logic-with-thundermole/\">rowanmanning.com/posts/complex-…</a>\n\nThunderMole! 😄"
+			"content": "<a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a> <a href=\"https://rowanmanning.com/posts/complex-routing-logic-with-thundermole/\" nofollow=\"nofollow\">rowanmanning.com/posts/complex-…</a>\n\nThunderMole! 😄"
 		}
 	]
 }
