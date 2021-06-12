@@ -61,3 +61,6 @@
 .social-feed__content {
 	display: block;
 }
+.social-feed__content * {
+	margin-bottom: 0 !important;
+}
