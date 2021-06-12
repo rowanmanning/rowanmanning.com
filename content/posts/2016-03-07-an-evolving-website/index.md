@@ -1,5 +1,6 @@
 ---
 title: "An Evolving Website"
+slug: an-evolving-website
 date: 2016-03-07 20:15:00
 description: "A short journey through iterations of my website, from 2010–2016, and all of the odd decisions I've made along the way."
 cta: "Come with me now on a journey through time and space"

@@ -1,5 +1,6 @@
 ---
 title: "Writing a Friendly README"
+slug: writing-a-friendly-readme
 date: 2016-03-14 17:25:00
 description: "A README is one of the first things people see when they find your open source project. It should be helpful, welcoming, and friendly."
 cta: "Learn how to write a loveable README"

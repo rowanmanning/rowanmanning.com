@@ -1,5 +1,6 @@
 ---
 title: "Accessibility: Beyond the Screen-Reader"
+slug: accessibility-beyond-the-screen-reader
 date: 2012-06-19 21:05:00
 lastmod: 2012-06-20 10:30:00
 description: "Web accessibility isn't just about catering for blind users. In this post, we talk about the other users we need to consider in order to make the web accessible to all.

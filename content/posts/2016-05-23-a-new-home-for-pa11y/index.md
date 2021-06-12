@@ -1,5 +1,6 @@
 ---
 title: "A New Home For Pa11y"
+slug: a-new-home-for-pa11y
 date: 2016-05-23 18:30:00
 description: "Pa11y has moved to a new organisation on GitHub. It's a time of change for the project, and the team is extremely excited about the future."
 cta: "Read about Pa11y's move"

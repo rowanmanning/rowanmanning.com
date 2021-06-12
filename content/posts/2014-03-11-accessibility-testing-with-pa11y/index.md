@@ -1,5 +1,6 @@
 ---
 title: "Accessibility Testing with pa11y"
+slug: accessibility-testing-with-pa11y
 date: 2014-03-11 09:10:00
 description: "An overview of using the pa11y accessibility testing tool to find issues with your web pages."
 crossPost:

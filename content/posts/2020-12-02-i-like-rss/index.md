@@ -1,5 +1,6 @@
 ---
 title: "I Like RSS"
+slug: i-like-rss
 date: 2020-12-04 12:35:00
 lastmod: 2012-12-07 13:45:00
 description: "An explainer on RSS and feed readers, a history of my reading habits over the years, and Audrey – a new open source project that will hopefully encourage me to read more."

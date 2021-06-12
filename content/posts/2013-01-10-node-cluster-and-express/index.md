@@ -1,5 +1,8 @@
 ---
 title: "Node.js Cluster and Express"
+slug: node-cluster-and-express
+aliases:
+  - /posts/node.js-cluster-and-express/
 date: 2013-01-10 20:18:00
 lastmod: 2013-09-21 13:54:00
 description: "A simple tutorial on using Node.js 0.8+'s Cluster module with Express to dramatically improve app performance."

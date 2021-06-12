@@ -23,7 +23,7 @@ taxonomies:
 
 # Simplify the permalinks for blog posts
 permalinks:
-  posts: "/posts/:title/"
+  posts: "/posts/:slug/"
 
 # Enable emoji rendering
 enableEmoji: true

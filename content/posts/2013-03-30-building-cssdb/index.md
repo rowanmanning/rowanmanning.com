@@ -1,5 +1,6 @@
 ---
 title: "Building CSSDB"
+slug: building-cssdb
 date: 2013-03-30 00:38:00
 lastmod: 2013-04-04 20:59:00
 description: "How I tackled the build of CSSDB over a weekend. Outlining my technological decisions, and how the site kept nice and snappy under heavy load."
