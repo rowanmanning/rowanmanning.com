@@ -38,9 +38,45 @@
 			"repost-of": "https://rowanmanning.com/posts/building-cssdb/",
 			"wm-property": "repost-of",
 			"wm-private": false
+		},
+		"340e1d66c45b157ef1bd4c77bc663f57": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "william",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/65f4fbdd4ec80d9e7fb6809eb5eef97750e0b09d515043668dd9548268c2dd5d.png",
+				"url": "https://twitter.com/williamsager"
+			},
+			"url": "https://twitter.com/williamsager/status/317945612987428864",
+			"published": "2013-03-30T10:25:15+00:00",
+			"wm-received": "2021-06-12T13:37:36Z",
+			"wm-id": 1188232,
+			"wm-source": "https://brid.gy/post/twitter/rowanmanning/317945612987428864",
+			"wm-target": "https://rowanmanning.com/posts/building-cssdb/",
+			"content": {
+				"html": "Building CSSDB <a href=\"http://ow.ly/2vPlU4\">ow.ly/2vPlU4</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/building-cssdb/\"></a>",
+				"text": "Building CSSDB ow.ly/2vPlU4"
+			},
+			"mention-of": "https://rowanmanning.com/posts/building-cssdb/",
+			"wm-property": "mention-of",
+			"wm-private": false
 		}
 	},
 	"processed": [
+		{
+			"type": "response",
+			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/317945612987428864",
+			"targetUrl": "https://rowanmanning.com/posts/building-cssdb/",
+			"date": "2013-03-30T10:25:15+00:00",
+			"url": "https://twitter.com/williamsager/status/317945612987428864",
+			"isFromTwitter": true,
+			"author": {
+				"name": "william",
+				"url": "https://twitter.com/williamsager",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/65f4fbdd4ec80d9e7fb6809eb5eef97750e0b09d515043668dd9548268c2dd5d.png"
+			},
+			"content": "Building CSSDB <a href=\"http://ow.ly/2vPlU4\" nofollow=\"nofollow\">ow.ly/2vPlU4</a>\n<a href=\"https://rowanmanning.com/posts/building-cssdb/\" nofollow=\"nofollow\"></a>"
+		},
 		{
 			"type": "repost",
 			"sourceUrl": "https://brid.gy/repost/twitter/rowanmanning/318984811098300417/318984956686766080",

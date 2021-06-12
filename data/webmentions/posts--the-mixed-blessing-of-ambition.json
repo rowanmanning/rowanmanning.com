@@ -1,0 +1,42 @@
+{
+	"raw": {
+		"d990278154d420ca61a32776a9f78122": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Yomi Colledge",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/4c7363ed2f698e76af22f713ebd6ebd7188b46a11fccc0361eeb6b7da38e198c.jpg",
+				"url": "https://twitter.com/baphled"
+			},
+			"url": "https://twitter.com/baphled/status/367926485387993088",
+			"published": "2013-08-15T08:31:24+00:00",
+			"wm-received": "2021-06-12T13:34:12Z",
+			"wm-id": 1188218,
+			"wm-source": "https://brid.gy/post/twitter/rowanmanning/367926485387993088",
+			"wm-target": "https://rowanmanning.com/posts/the-mixed-blessing-of-ambition/",
+			"content": {
+				"html": "The Mixed Blessing Of Ambition <a href=\"http://rowanmanning.com/posts/the-mixed-blessing-of-ambition/\">rowanmanning.com/posts/the-mixe…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/the-mixed-blessing-of-ambition/\"></a>",
+				"text": "The Mixed Blessing Of Ambition rowanmanning.com/posts/the-mixe… via @rowanmanning"
+			},
+			"mention-of": "https://rowanmanning.com/posts/the-mixed-blessing-of-ambition/",
+			"wm-property": "mention-of",
+			"wm-private": false
+		}
+	},
+	"processed": [
+		{
+			"type": "response",
+			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/367926485387993088",
+			"targetUrl": "https://rowanmanning.com/posts/the-mixed-blessing-of-ambition/",
+			"date": "2013-08-15T08:31:24+00:00",
+			"url": "https://twitter.com/baphled/status/367926485387993088",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Yomi Colledge",
+				"url": "https://twitter.com/baphled",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/4c7363ed2f698e76af22f713ebd6ebd7188b46a11fccc0361eeb6b7da38e198c.jpg"
+			},
+			"content": "The Mixed Blessing Of Ambition <a href=\"http://rowanmanning.com/posts/the-mixed-blessing-of-ambition/\" nofollow=\"nofollow\">rowanmanning.com/posts/the-mixe…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/the-mixed-blessing-of-ambition/\" nofollow=\"nofollow\"></a>"
+		}
+	]
+}
