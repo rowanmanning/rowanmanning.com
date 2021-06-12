@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan’s Blog</title><link href="https://rowanmanning.com/posts/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/posts/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-06-12T14:02:10+01:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/posts/</id><entry><title type="html">Organising a virtual treasure hunt as a team social</title><link href="https://rowanmanning.com/posts/organising-a-virtual-treasure-hunt-as-a-team-social/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/weeknotes/29/" rel="related" type="text/html" title="Week 29: Pizza Party"/><link href="https://rowanmanning.com/weeknotes/27/" rel="related" type="text/html" title="Week 27: Fish Cake"/><link href="https://rowanmanning.com/weeknotes/32/" rel="related" type="text/html" title="Week 32: Daisy Chain"/><link href="https://rowanmanning.com/weeknotes/31/" rel="related" type="text/html" title="Week 31: Vaccine"/><link href="https://rowanmanning.com/weeknotes/28/" rel="related" type="text/html" title="Week 28: Crusty Ears"/><id>https://rowanmanning.com/posts/organising-a-virtual-treasure-hunt-as-a-team-social/</id><published>2021-05-10T14:00:00+00:00</published><updated>2021-05-10T14:00:00+00:00</updated><content type="html"><![CDATA[<p>On the 12th March 2020, we got an email from Cait, our head of department, which explained that we’d be working remotely for the foreseeable future. At the time we had no idea how long it would last. The months dragged on, and in February 2021 we realised that the anniversary of remote working was rapidly approaching.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb"><generator uri="https://gohugo.io/" version="0.76.5">Hugo</generator><title type="html">Rowan’s Blog</title><link href="https://rowanmanning.com/posts/" rel="alternate" type="text/html" title="HTML"/><link href="https://rowanmanning.com/posts/feed.xml" rel="self" type="application/atom+xml" title="Atom"/><updated>2021-06-12T14:20:42+01:00</updated><author><name>Rowan Manning</name></author><id>https://rowanmanning.com/posts/</id><entry><title type="html">Organising a virtual treasure hunt as a team social</title><link href="https://rowanmanning.com/posts/organising-a-virtual-treasure-hunt/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/weeknotes/29/" rel="related" type="text/html" title="Week 29: Pizza Party"/><link href="https://rowanmanning.com/weeknotes/27/" rel="related" type="text/html" title="Week 27: Fish Cake"/><link href="https://rowanmanning.com/weeknotes/32/" rel="related" type="text/html" title="Week 32: Daisy Chain"/><link href="https://rowanmanning.com/weeknotes/31/" rel="related" type="text/html" title="Week 31: Vaccine"/><link href="https://rowanmanning.com/weeknotes/28/" rel="related" type="text/html" title="Week 28: Crusty Ears"/><id>https://rowanmanning.com/posts/organising-a-virtual-treasure-hunt/</id><published>2021-05-10T14:00:00+00:00</published><updated>2021-05-10T14:00:00+00:00</updated><content type="html"><![CDATA[<p>On the 12th March 2020, we got an email from Cait, our head of department, which explained that we’d be working remotely for the foreseeable future. At the time we had no idea how long it would last. The months dragged on, and in February 2021 we realised that the anniversary of remote working was rapidly approaching.</p>
 <p>Working remotely has been tough, and many of us really miss the social aspect of being in an office – going for team lunches or just chatting while making tea. On top of this, <a href="https://medium.com/ft-product-technology/one-year-later-lessons-learned-from-remote-onboarding-122142e0173c">we’ve hired a lot of new people since the pandemic began</a>, many of whom haven&rsquo;t had a chance to meet their colleagues in less formal settings.</p>
 <p>We attempted to combat this throughout 2020 by running remote social events, at a team level and department level. We’ve lost count of the number of quizzes, virtual pictionaries, quizzes, Among Us games, and quizzes attended! We hosted <a href="https://medium.com/ft-product-technology/beyond-quizzes-making-and-streaming-a-radio-show-for-your-team-remote-social-1a061bde47f4">radio shows</a>, we <a href="https://www.cronkshawfoldfarm.co.uk/goatsonzoom">booked goats</a>, and in June 2020 <a href="https://alicebartlett.co.uk/">Alice Bartlett</a> ran a virtual treasure hunt to say goodbye before her shared parental leave.</p>
 <p>When we (<a href="http://www.glynnphillips.co.uk/">Glynn Phillips</a> and I) realised that a year of remote working was approaching, we decided to shamelessly steal Alice’s fun treasure hunt idea and expand it to work for the whole department. Once we had Alice’s blessing, we got to organising.</p>
@@ -22,24 +22,24 @@
 <p>One of the earliest decisions we made was that we needed to build hype for our treasure hunt. Department socials are optional attendance, and we knew we wanted a good number of people to get excited about it and attend. The very first thing we did was to get something in the calendar a good month in advance. Then we started the hype train with weekly announcements in Slack.</p>
 
 <figure class="image">
-	<a href="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/hype-01.png">
-		<img src="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/hype-01.png" alt="A Slack message containing a lot of “hype” emoji, and the words “FRIDAY HYPE BUILDING - WFH TREASURE HUNT" />
+	<a href="/posts/organising-a-virtual-treasure-hunt/hype-01.png">
+		<img src="/posts/organising-a-virtual-treasure-hunt/hype-01.png" alt="A Slack message containing a lot of “hype” emoji, and the words “FRIDAY HYPE BUILDING - WFH TREASURE HUNT" />
 	</a>
 	
 </figure>
 
 
 <figure class="image">
-	<a href="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/hype-02.png">
-		<img src="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/hype-02.png" alt="A Slack message containing a lot of “treasure chest” emoji, and the words “WFH TREASURE HUNT - TEAMS" />
+	<a href="/posts/organising-a-virtual-treasure-hunt/hype-02.png">
+		<img src="/posts/organising-a-virtual-treasure-hunt/hype-02.png" alt="A Slack message containing a lot of “treasure chest” emoji, and the words “WFH TREASURE HUNT - TEAMS" />
 	</a>
 	
 </figure>
 
 
 <figure class="image">
-	<a href="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/hype-03.png">
-		<img src="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/hype-03.png" alt="A Slack message containing a lot of “hype” and “treasure chest” emoji, and the words “MORE FRIDAY HYPE BUILDING - WFH TREASURE HUNT" />
+	<a href="/posts/organising-a-virtual-treasure-hunt/hype-03.png">
+		<img src="/posts/organising-a-virtual-treasure-hunt/hype-03.png" alt="A Slack message containing a lot of “hype” and “treasure chest” emoji, and the words “MORE FRIDAY HYPE BUILDING - WFH TREASURE HUNT" />
 	</a>
 	
 </figure>
@@ -47,8 +47,8 @@
 <p>I think this helped build excitement, and on the day we had pretty good attendance as a result. By the week of the treasure hunt, we even had some of the participants hyping it for us.</p>
 
 <figure class="image">
-	<a href="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/hype-04.png">
-		<img src="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/hype-04.png" alt="A Slack message which contains only 240 “hype” emoji, posted by a colleague in Slack" />
+	<a href="/posts/organising-a-virtual-treasure-hunt/hype-04.png">
+		<img src="/posts/organising-a-virtual-treasure-hunt/hype-04.png" alt="A Slack message which contains only 240 “hype” emoji, posted by a colleague in Slack" />
 	</a>
 	
 </figure>
@@ -57,8 +57,8 @@
 <p>Once we had the hype train well and truly running, we started working on the clues. We put together a spreadsheet for planning out the flow between clues. We worked separately on a few clues each so that they could be done in parallel, and then slowly started tying them together with quick Slack discussions.</p>
 
 <figure class="image">
-	<a href="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/planning-spreadsheet.png">
-		<img src="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/planning-spreadsheet.png" alt="A Google Spreadsheet containing columns for clue, answer, hint, where it’s found, and where does it lead. The clues are linked to from this document" />
+	<a href="/posts/organising-a-virtual-treasure-hunt/planning-spreadsheet.png">
+		<img src="/posts/organising-a-virtual-treasure-hunt/planning-spreadsheet.png" alt="A Google Spreadsheet containing columns for clue, answer, hint, where it’s found, and where does it lead. The clues are linked to from this document" />
 	</a>
 	
 </figure>
@@ -70,8 +70,8 @@
 One example is: “Who is <a href="https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-eu.s3.amazonaws.com%2F001e0936-9cd9-11e9-b8ce-8b459ed04726?fit=scale-down&amp;source=next&amp;width=700">JK</a> (our CPO) hanging out with at Cheltenham? Find a Slack channel with the full initials of JK’s companion. The next clue awaits you.”</p>
 
 <figure class="image">
-	<a href="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/find-jk.png">
-		<img src="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/find-jk.png" alt="A large crowd of people watching the horse race at Cheltenham. Two of the faces have been replaced with our CPO and Donald Trump" />
+	<a href="/posts/organising-a-virtual-treasure-hunt/find-jk.png">
+		<img src="/posts/organising-a-virtual-treasure-hunt/find-jk.png" alt="A large crowd of people watching the horse race at Cheltenham. Two of the faces have been replaced with our CPO and Donald Trump" />
 	</a>
 	
 </figure>
@@ -79,8 +79,8 @@ One example is: “Who is <a href="https://www.ft.com/__origami/service/image/v2
 <p>We decided that even if a Google Doc <em>is</em> essentially a quiz, then we should make it more engaging by using visual elements that nod to our time in lockdown. For example, the Zoom Maths Quiz asked participants to add up key pandemic statistic, but it was run by famous people in STEM:</p>
 
 <figure class="image">
-	<a href="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/maths-quiz.png">
-		<img src="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/maths-quiz.png" alt="A screenshot of a Zoom chat window, which features Albert Einstein, Ada Lovelace, Alan Turing, and David Blackwell. Einstein is introducing a maths quiz via a drawn on speech bubble" />
+	<a href="/posts/organising-a-virtual-treasure-hunt/maths-quiz.png">
+		<img src="/posts/organising-a-virtual-treasure-hunt/maths-quiz.png" alt="A screenshot of a Zoom chat window, which features Albert Einstein, Ada Lovelace, Alan Turing, and David Blackwell. Einstein is introducing a maths quiz via a drawn on speech bubble" />
 	</a>
 	
 </figure>
@@ -91,8 +91,8 @@ One example is: “Who is <a href="https://www.ft.com/__origami/service/image/v2
 <p>The results were fun, and they made the Slack parts of the hunt a bit more interesting than just a written clue from one of the organisers.</p>
 
 <figure class="image">
-	<a href="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/donald-and-joe.png">
-		<img src="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/donald-and-joe.png" alt="A screenshot of a fake Slack conversation between Donald Trump and Joe Exotic" />
+	<a href="/posts/organising-a-virtual-treasure-hunt/donald-and-joe.png">
+		<img src="/posts/organising-a-virtual-treasure-hunt/donald-and-joe.png" alt="A screenshot of a fake Slack conversation between Donald Trump and Joe Exotic" />
 	</a>
 	
 </figure>
@@ -103,8 +103,8 @@ One example is: “Who is <a href="https://www.ft.com/__origami/service/image/v2
 <p>To direct people to the website we used a mix of links in Google Docs or Slack, but we also used it as a way to verify answers. For example, the maths quiz included the instruction: “Go to <code>https://our.domain/X</code> where <code>X</code> is the solution to our maths problem.”</p>
 
 <figure class="image">
-	<a href="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/joe-exotic-myspace.png">
-		<img src="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/joe-exotic-myspace.png" alt="A fake MySpace page for Joe Exotic. The background is a tiger print pattern, and there’s a word-search to one side" />
+	<a href="/posts/organising-a-virtual-treasure-hunt/joe-exotic-myspace.png">
+		<img src="/posts/organising-a-virtual-treasure-hunt/joe-exotic-myspace.png" alt="A fake MySpace page for Joe Exotic. The background is a tiger print pattern, and there’s a word-search to one side" />
 	</a>
 	
 		<figcaption class="image__caption">I think the result was beautiful</figcaption>
@@ -133,8 +133,8 @@ One example is: “Who is <a href="https://www.ft.com/__origami/service/image/v2
 <p>We went for a simple <code>Text &lt;value&gt; to &lt;number&gt;</code> approach, and then the next clue was delivered back in an SMS response. It worked well and added a new format to reduce repetitive Google Docs and Slack channels.</p>
 
 <figure class="image">
-	<a href="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/sms-flow.png">
-		<img src="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/sms-flow.png" alt="A screenshot of a Twilio Studio, with lines connecting an incoming SMS trigger to various automated responses" />
+	<a href="/posts/organising-a-virtual-treasure-hunt/sms-flow.png">
+		<img src="/posts/organising-a-virtual-treasure-hunt/sms-flow.png" alt="A screenshot of a Twilio Studio, with lines connecting an incoming SMS trigger to various automated responses" />
 	</a>
 	
 </figure>
@@ -148,8 +148,8 @@ One example is: “Who is <a href="https://www.ft.com/__origami/service/image/v2
 <p>We did a final run-through of our introductory slides making sure we knew what we wanted to say, and then sat waiting for people to arrive. We were thrilled when 80 people ended up joining the Google Meet – our hype-building was successful.</p>
 
 <figure class="image">
-	<a href="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/treasure-hunt-slide.png">
-		<img src="/posts/organising-a-virtual-treasure-hunt-as-a-team-social/treasure-hunt-slide.png" alt="A slide from our presentation, it contains an image of a treasure chest and the words “We’re going to take you on a treasure hunt to commemorate a pretty tough 365 days”" />
+	<a href="/posts/organising-a-virtual-treasure-hunt/treasure-hunt-slide.png">
+		<img src="/posts/organising-a-virtual-treasure-hunt/treasure-hunt-slide.png" alt="A slide from our presentation, it contains an image of a treasure chest and the words “We’re going to take you on a treasure hunt to commemorate a pretty tough 365 days”" />
 	</a>
 	
 </figure>
@@ -611,7 +611,7 @@ One example is: “Who is <a href="https://www.ft.com/__origami/service/image/v2
 <h2 id="the-full-readme">The Full README</h2>
 <p>Now we have a friendly README! You can <a href="https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-readme-md">view the whole thing here</a>.</p>
 <p>I&rsquo;m hoping more people think about the user&rsquo;s needs when writing documentation, and please let me know if you think I&rsquo;ve missed anything. I&rsquo;m interested to hear your tips and opinions on what constitutes a helpful README.</p>
-]]></content><category scheme="https://rowanmanning.com/tags/open-source" term="open-source" label="Open-Source"/><category scheme="https://rowanmanning.com/tags/writing" term="writing" label="Writing"/><category scheme="https://rowanmanning.com/tags/documentation" term="documentation" label="Documentation"/></entry><entry><title type="html">An Evolving Website</title><link href="https://rowanmanning.com/posts/an-evolving-website/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/jekyll-site-redesign/build/" rel="related" type="text/html" title="Jekyll Site Redesign/Build"/><id>https://rowanmanning.com/posts/an-evolving-website/</id><published>2016-03-07T20:15:00+00:00</published><updated>2016-03-07T20:15:00+00:00</updated><content type="html"><![CDATA[<p>In an attempt to encourage myself to post more, I&rsquo;ve given my website a design refresh! Whether this tactic works or not remains to be seen, but it prompted me to look through all of my old site designs. I thought it&rsquo;d be fun to post them here.</p>
+]]></content><category scheme="https://rowanmanning.com/tags/open-source" term="open-source" label="Open-Source"/><category scheme="https://rowanmanning.com/tags/writing" term="writing" label="Writing"/><category scheme="https://rowanmanning.com/tags/documentation" term="documentation" label="Documentation"/></entry><entry><title type="html">An Evolving Website</title><link href="https://rowanmanning.com/posts/an-evolving-website/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/jekyll-site-redesign-build/" rel="related" type="text/html" title="Jekyll Site Redesign/Build"/><id>https://rowanmanning.com/posts/an-evolving-website/</id><published>2016-03-07T20:15:00+00:00</published><updated>2016-03-07T20:15:00+00:00</updated><content type="html"><![CDATA[<p>In an attempt to encourage myself to post more, I&rsquo;ve given my website a design refresh! Whether this tactic works or not remains to be seen, but it prompted me to look through all of my old site designs. I thought it&rsquo;d be fun to post them here.</p>
 <h2 id="2010-aka-corners-and-shadows">2010 aka &ldquo;Corners and Shadows&rdquo;</h2>
 <p>Diagonal Lines! Border Radius! Box Shadows! Bright Colours! I think this design <a href="http://theoatmeal.com/comics/design_hell">really pops</a>, don&rsquo;t you? Just look at those icons. Yes, that <em>is</em> Google Buzz (I guess I was optimistic).</p>
 <p>Here&rsquo;s a fun fact which embarrasses me now: several interviewers said that mentioning beer on my CV/website is part of the reason I got an interview. Bro.</p>
@@ -697,7 +697,7 @@ One example is: “Who is <a href="https://www.ft.com/__origami/service/image/v2
 </figure>
 
 <p>Thanks for reading ☺️</p>
-]]></content><category scheme="https://rowanmanning.com/tags/design" term="design" label="Design"/></entry><entry><title type="html">Complex Routing Logic with Thundermole</title><link href="https://rowanmanning.com/posts/complex-routing-logic-with-thundermole/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/building-cssdb/" rel="related" type="text/html" title="Building CSSDB"/><link href="https://rowanmanning.com/posts/node.js-cluster-and-express/" rel="related" type="text/html" title="Node.js Cluster and Express"/><link href="https://rowanmanning.com/posts/javascript-for-beginners-async/" rel="related" type="text/html" title="JavaScript for Beginners: Async"/><id>https://rowanmanning.com/posts/complex-routing-logic-with-thundermole/</id><published>2015-07-13T10:45:00+00:00</published><updated>2015-07-13T10:45:00+00:00</updated><content type="html"><![CDATA[<p>Over the last year, we have begun the process of migrating many <a href="http://www.nature.com/siteindex/index.html">Nature journals</a> to our new platform. Because journals on the new platform also come with a significant redesign, we were required to run an opt-in beta program to trial the new design and gather feedback.</p>
+]]></content><category scheme="https://rowanmanning.com/tags/design" term="design" label="Design"/></entry><entry><title type="html">Complex Routing Logic with Thundermole</title><link href="https://rowanmanning.com/posts/complex-routing-logic-with-thundermole/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/building-cssdb/" rel="related" type="text/html" title="Building CSSDB"/><link href="https://rowanmanning.com/posts/node-cluster-and-express/" rel="related" type="text/html" title="Node.js Cluster and Express"/><link href="https://rowanmanning.com/posts/javascript-for-beginners-async/" rel="related" type="text/html" title="JavaScript for Beginners: Async"/><id>https://rowanmanning.com/posts/complex-routing-logic-with-thundermole/</id><published>2015-07-13T10:45:00+00:00</published><updated>2015-07-13T10:45:00+00:00</updated><content type="html"><![CDATA[<p>Over the last year, we have begun the process of migrating many <a href="http://www.nature.com/siteindex/index.html">Nature journals</a> to our new platform. Because journals on the new platform also come with a significant redesign, we were required to run an opt-in beta program to trial the new design and gather feedback.</p>
 <p>The beta program had many requirements:</p>
 <ul>
 <li>Opted out users should see the old version of the site on the legacy platform</li>
@@ -774,7 +774,7 @@ One example is: “Who is <a href="https://www.ft.com/__origami/service/image/v2
 <p>We want pa11y to be useful for as many people as possible. If you think we&rsquo;re missing a killer feature that is stopping you from using pa11y, then we&rsquo;re more than happy to listen!</p>
 <p><a href="https://github.com/springernature/pa11y/issues">Raise an issue</a> on GitHub or, even better, raise an issue with a pull-request.</p>
 <p>Also, if you&rsquo;re doing anything interesting with pa11y, we&rsquo;d love to hear about it.</p>
-]]></content><category scheme="https://rowanmanning.com/tags/accessibility" term="accessibility" label="Accessibility"/><category scheme="https://rowanmanning.com/tags/pa11y" term="pa11y" label="Pa11y"/></entry><entry><title type="html">JavaScript for Beginners: Async</title><link href="https://rowanmanning.com/posts/javascript-for-beginners-async/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/building-cssdb/" rel="related" type="text/html" title="Building CSSDB"/><link href="https://rowanmanning.com/posts/node.js-cluster-and-express/" rel="related" type="text/html" title="Node.js Cluster and Express"/><link href="https://rowanmanning.com/posts/complex-routing-logic-with-thundermole/" rel="related" type="text/html" title="Complex Routing Logic with Thundermole"/><id>https://rowanmanning.com/posts/javascript-for-beginners-async/</id><published>2013-06-27T20:15:00+00:00</published><updated>2013-06-27T20:15:00+00:00</updated><content type="html"><![CDATA[<p>This is the first in a series of posts which will explain some of the concepts and terminology which are thrown about in JavaScript land, with a focus on beginners. In this post we&rsquo;ll be looking at the term &ldquo;Async&rdquo;; what it means and why it matters to you as a JavaScript developer.</p>
+]]></content><category scheme="https://rowanmanning.com/tags/accessibility" term="accessibility" label="Accessibility"/><category scheme="https://rowanmanning.com/tags/pa11y" term="pa11y" label="Pa11y"/></entry><entry><title type="html">JavaScript for Beginners: Async</title><link href="https://rowanmanning.com/posts/javascript-for-beginners-async/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/building-cssdb/" rel="related" type="text/html" title="Building CSSDB"/><link href="https://rowanmanning.com/posts/node-cluster-and-express/" rel="related" type="text/html" title="Node.js Cluster and Express"/><link href="https://rowanmanning.com/posts/complex-routing-logic-with-thundermole/" rel="related" type="text/html" title="Complex Routing Logic with Thundermole"/><id>https://rowanmanning.com/posts/javascript-for-beginners-async/</id><published>2013-06-27T20:15:00+00:00</published><updated>2013-06-27T20:15:00+00:00</updated><content type="html"><![CDATA[<p>This is the first in a series of posts which will explain some of the concepts and terminology which are thrown about in JavaScript land, with a focus on beginners. In this post we&rsquo;ll be looking at the term &ldquo;Async&rdquo;; what it means and why it matters to you as a JavaScript developer.</p>
 <p>Recently, I was reminded of my early days in development. Being a self-taught JavaScript noob, it was easy to get left behind in technical conversations among more computer-sciency peers. One of the barriers was the terminology being used, terms like &ldquo;Async&rdquo;.</p>
 <h2 id="so-what-does-async-mean">So, What Does &ldquo;Async&rdquo; Mean?</h2>
 <p>Async is short for &ldquo;asynchronous&rdquo;. It&rsquo;s easier to understand async if you first understand what &ldquo;synchronous&rdquo;, the opposite, means.</p>
@@ -813,7 +813,7 @@ One example is: “Who is <a href="https://www.ft.com/__origami/service/image/v2
 <p>So to recap, synchronous code is executed in sequence – each statement waits for the previous statement to finish before executing. Asynchronous code doesn&rsquo;t have to wait – your program can continue to run. You do this to keep your site or app responsive, reducing waiting time for the user.</p>
 <p>Thanks for reading. Let me know if there&rsquo;s a topic you&rsquo;d like to be covered in this series!</p>
 <p>Rowan</p>
-]]></content><category scheme="https://rowanmanning.com/tags/javascript" term="javascript" label="JavaScript"/><category scheme="https://rowanmanning.com/tags/tutorial" term="tutorial" label="Tutorial"/></entry><entry><title type="html">Building CSSDB</title><link href="https://rowanmanning.com/posts/building-cssdb/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/node.js-cluster-and-express/" rel="related" type="text/html" title="Node.js Cluster and Express"/><link href="https://rowanmanning.com/posts/complex-routing-logic-with-thundermole/" rel="related" type="text/html" title="Complex Routing Logic with Thundermole"/><link href="https://rowanmanning.com/posts/javascript-for-beginners-async/" rel="related" type="text/html" title="JavaScript for Beginners: Async"/><link href="https://rowanmanning.com/posts/why-i-built-another-css-grid/" rel="related" type="text/html" title="Why I Built Another CSS Grid"/><id>https://rowanmanning.com/posts/building-cssdb/</id><published>2013-03-30T00:38:00+00:00</published><updated>2013-04-04T20:59:00+00:00</updated><content type="html"><![CDATA[<p>Last weekend I built <a href="http://cssdb.co/">CSSDB</a>, a curated collection of great CSS, Sass, LESS and Stylus libraries. It was primarily an excercise in learning, but it was also a site which I could have made excellent use of (especially in the early stages of my development career).</p>
+]]></content><category scheme="https://rowanmanning.com/tags/javascript" term="javascript" label="JavaScript"/><category scheme="https://rowanmanning.com/tags/tutorial" term="tutorial" label="Tutorial"/></entry><entry><title type="html">Building CSSDB</title><link href="https://rowanmanning.com/posts/building-cssdb/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/node-cluster-and-express/" rel="related" type="text/html" title="Node.js Cluster and Express"/><link href="https://rowanmanning.com/posts/complex-routing-logic-with-thundermole/" rel="related" type="text/html" title="Complex Routing Logic with Thundermole"/><link href="https://rowanmanning.com/posts/javascript-for-beginners-async/" rel="related" type="text/html" title="JavaScript for Beginners: Async"/><link href="https://rowanmanning.com/posts/why-another-css-grid/" rel="related" type="text/html" title="Why I Built Another CSS Grid"/><id>https://rowanmanning.com/posts/building-cssdb/</id><published>2013-03-30T00:38:00+00:00</published><updated>2013-04-04T20:59:00+00:00</updated><content type="html"><![CDATA[<p>Last weekend I built <a href="http://cssdb.co/">CSSDB</a>, a curated collection of great CSS, Sass, LESS and Stylus libraries. It was primarily an excercise in learning, but it was also a site which I could have made excellent use of (especially in the early stages of my development career).</p>
 <p>I launched on Monday to little fanfare, but on Tuesday the site suddenly seemed to explode in popularity. This was quite unexpected, but I was excited to see my technical decisions come under some strain – it was addictive to watch my metrics and see how the site performed under load.</p>
 <p>After a couple more days, I thought it might be interesting to write up my decisions. So here we are.</p>
 <h2 id="on-paper">On Paper</h2>
@@ -855,7 +855,7 @@ One example is: “Who is <a href="https://www.ft.com/__origami/service/image/v2
 <p>Anyway, I hope you&rsquo;ve enjoyed my ramblings! Maybe you learned something, or have something to teach me? I&rsquo;d love to get some feedback on my approach to this build or the site itself.</p>
 <p>Thanks for reading,<br>
 Rowan.</p>
-]]></content><category scheme="https://rowanmanning.com/tags/css" term="css" label="CSS"/><category scheme="https://rowanmanning.com/tags/javascript" term="javascript" label="JavaScript"/><category scheme="https://rowanmanning.com/tags/node.js" term="node.js" label="Node.js"/><category scheme="https://rowanmanning.com/tags/express" term="express" label="Express"/></entry><entry><title type="html">Jekyll Site Redesign/Build</title><link href="https://rowanmanning.com/posts/jekyll-site-redesign/build/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/an-evolving-website/" rel="related" type="text/html" title="An Evolving Website"/><id>https://rowanmanning.com/posts/jekyll-site-redesign/build/</id><published>2013-02-11T00:16:00+00:00</published><updated>2013-02-11T00:16:00+00:00</updated><content type="html"><![CDATA[<p>It&rsquo;s been about 9 months since my last site design/refresh, and the code was starting to show it&rsquo;s age (that&rsquo;s got to be a separate post – just how quickly standards change). I recently built a couple of small sites with <a href="https://jekyllrb.com/">Jekyll</a> and decided to port by existing blog over to it.</p>
+]]></content><category scheme="https://rowanmanning.com/tags/css" term="css" label="CSS"/><category scheme="https://rowanmanning.com/tags/javascript" term="javascript" label="JavaScript"/><category scheme="https://rowanmanning.com/tags/node.js" term="node.js" label="Node.js"/><category scheme="https://rowanmanning.com/tags/express" term="express" label="Express"/></entry><entry><title type="html">Jekyll Site Redesign/Build</title><link href="https://rowanmanning.com/posts/jekyll-site-redesign-build/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/an-evolving-website/" rel="related" type="text/html" title="An Evolving Website"/><id>https://rowanmanning.com/posts/jekyll-site-redesign-build/</id><published>2013-02-11T00:16:00+00:00</published><updated>2013-02-11T00:16:00+00:00</updated><content type="html"><![CDATA[<p>It&rsquo;s been about 9 months since my last site design/refresh, and the code was starting to show it&rsquo;s age (that&rsquo;s got to be a separate post – just how quickly standards change). I recently built a couple of small sites with <a href="https://jekyllrb.com/">Jekyll</a> and decided to port by existing blog over to it.</p>
 <p>Jekyll is a beautifully simple static site generator. The ease-of-use with this tool is crazy, I had so much fun with the rewrite just because Jekyll works in exactly the way you&rsquo;d expect it to.</p>
 <h2 id="my-previous-site">My Previous Site</h2>
 <p>My site was originally built using <a href="http://docpad.org/">DocPad</a>, another static site generator, but where Jekyll comes out on top for me is it&rsquo;s simplicity. For some people, I&rsquo;m sure the massive flexibility of DocPad would be a must-have – you can change nearly everything about it – however I&rsquo;d started to find this more of a hindrance than anything. The complexity of my site was starting to get in the way of me actually publishing anything.</p>
@@ -882,7 +882,7 @@ Rowan</p>
 <li><a href="https://jekyllrb.com/">Jekyll documentation</a></li>
 <li><a href="https://github.com/rowanmanning/rowanmanning.github.io">This site on GitHub</a></li>
 </ul>
-]]></content><category scheme="https://rowanmanning.com/tags/design" term="design" label="Design"/><category scheme="https://rowanmanning.com/tags/jekyll" term="jekyll" label="Jekyll"/></entry><entry><title type="html">Node.js Cluster and Express</title><link href="https://rowanmanning.com/posts/node.js-cluster-and-express/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/building-cssdb/" rel="related" type="text/html" title="Building CSSDB"/><link href="https://rowanmanning.com/posts/complex-routing-logic-with-thundermole/" rel="related" type="text/html" title="Complex Routing Logic with Thundermole"/><link href="https://rowanmanning.com/posts/javascript-for-beginners-async/" rel="related" type="text/html" title="JavaScript for Beginners: Async"/><id>https://rowanmanning.com/posts/node.js-cluster-and-express/</id><published>2013-01-10T20:18:00+00:00</published><updated>2013-09-21T13:54:00+00:00</updated><content type="html"><![CDATA[<p>Over the last couple of evenings, I&rsquo;ve been playing with the <a href="http://nodejs.org/api/cluster.html">Node.js Cluster module</a> and using it to dramatically improve the amount of load Express apps can handle. The results have been amazing.</p>
+]]></content><category scheme="https://rowanmanning.com/tags/design" term="design" label="Design"/><category scheme="https://rowanmanning.com/tags/jekyll" term="jekyll" label="Jekyll"/></entry><entry><title type="html">Node.js Cluster and Express</title><link href="https://rowanmanning.com/posts/node-cluster-and-express/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/building-cssdb/" rel="related" type="text/html" title="Building CSSDB"/><link href="https://rowanmanning.com/posts/complex-routing-logic-with-thundermole/" rel="related" type="text/html" title="Complex Routing Logic with Thundermole"/><link href="https://rowanmanning.com/posts/javascript-for-beginners-async/" rel="related" type="text/html" title="JavaScript for Beginners: Async"/><id>https://rowanmanning.com/posts/node-cluster-and-express/</id><published>2013-01-10T20:18:00+00:00</published><updated>2013-09-21T13:54:00+00:00</updated><content type="html"><![CDATA[<p>Over the last couple of evenings, I&rsquo;ve been playing with the <a href="http://nodejs.org/api/cluster.html">Node.js Cluster module</a> and using it to dramatically improve the amount of load Express apps can handle. The results have been amazing.</p>
 <p>The Cluster module is fairly easy to pick up if you&rsquo;re used to working with Node.js, but I thought I&rsquo;d blog about my experience – hopefully it will help you either understand or see the benefit of clustering!</p>
 <h2 id="what-does-cluster-do">What Does Cluster Do?</h2>
 <p>Node.js runs in a single thread. While it&rsquo;s still very fast in most cases, this really doesn&rsquo;t take advantage of multiple processors if they&rsquo;re available. The Cluster module allows you to create a small network of separate processes which can share server ports; this gives your Node.js app access to the full power of your server.</p>
@@ -1107,7 +1107,7 @@ Rowan</p>
 <h2 id="to-conclude">To Conclude</h2>
 <p>So, I probably took quite a long time to get to quite a simple point, but I thought it would be nice to illustrate the importance of user-focused design with a more &lsquo;real-world&rsquo; example (and vent a little of my personal frustration).</p>
 <p>Next time you&rsquo;re working on a design (or anything else targeted at customers for that matter), remember to think about the information they need before you think about ways to make your product look &lsquo;hip&rsquo; and &lsquo;cool&rsquo;. They will thank you for it, and I won&rsquo;t rant about it ☺️</p>
-]]></content></entry><entry><title type="html">Why I Built Another CSS Grid</title><link href="https://rowanmanning.com/posts/why-i-built-another-css-grid/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/building-cssdb/" rel="related" type="text/html" title="Building CSSDB"/><id>https://rowanmanning.com/posts/why-i-built-another-css-grid/</id><published>2012-07-24T21:34:00+00:00</published><updated>2012-07-24T21:34:00+00:00</updated><content type="html"><![CDATA[<p>A couple of months ago, I decided to set about building a CSS grid system. I realise that I&rsquo;ve entered a wildly bloated landscape here (you can&rsquo;t move on the web for fancy new grid systems) but I had my reasons. I&rsquo;d like to talk about why I built a grid system, and why (maybe) you should too.</p>
+]]></content></entry><entry><title type="html">Why I Built Another CSS Grid</title><link href="https://rowanmanning.com/posts/why-another-css-grid/" rel="alternate" type="text/html"/><link href="https://rowanmanning.com/posts/building-cssdb/" rel="related" type="text/html" title="Building CSSDB"/><id>https://rowanmanning.com/posts/why-another-css-grid/</id><published>2012-07-24T21:34:00+00:00</published><updated>2012-07-24T21:34:00+00:00</updated><content type="html"><![CDATA[<p>A couple of months ago, I decided to set about building a CSS grid system. I realise that I&rsquo;ve entered a wildly bloated landscape here (you can&rsquo;t move on the web for fancy new grid systems) but I had my reasons. I&rsquo;d like to talk about why I built a grid system, and why (maybe) you should too.</p>
 <h2 id="my-problem">My Problem</h2>
 <p>When my website went through its last rebuild, I realised that there was no way I could get by without some kind of grid. I wrote down a couple of requirements that I had:</p>
 <ul>
@@ -1122,7 +1122,7 @@ Rowan</p>
 
 <figure class="image">
 	<a href="http://fragcss.com/">
-		<img src="/posts/why-i-built-another-css-grid/frag-website-screengrab.jpg" alt="A screen-grab of the Frag website" />
+		<img src="/posts/why-another-css-grid/frag-website-screengrab.jpg" alt="A screen-grab of the Frag website" />
 	</a>
 	
 </figure>
