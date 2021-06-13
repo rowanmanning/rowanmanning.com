@@ -13,12 +13,18 @@ aliases:
   - /projects/
 ---
 
-<p class="h-card" itemscope itemtype="https://schema.org/Person">
+<p
+	class="h-card"
+	vocab="http://schema.org/"
+	typeof="Person"
+	resource="{{ .Permalink }}"
+>
 	Hi :wave: I'm
-	<a itemprop="url" class="u-url" href="/"><span itemprop="name" class="p-name">Rowan Manning</span></a>,
-	a <span itemprop="jobTitle" class="p-job-title">Principal Engineer</span> at the
-	<span itemprop="worksFor" itemscope itemtype="https://schema.org/Organization"><span itemprop="name" class="p-org">Financial Times</span></span>.
+	<a property="url" class="u-url" href="/"><span property="name" class="p-name">Rowan Manning</span></a>,
+	a <span property="jobTitle" class="p-job-title">Principal Engineer</span> at the
+	<span property="worksFor" vocab="http://schema.org/" typeof="Organization"><span property="name" class="p-org">Financial Times</span></span>.
 	I used to maintain <a href="https://pa11y.org/">Pa11y</a> and write about web development,
 	nowadays I mostly alternate between playing
 	<abbr title="Dungeons & Dragons">D&amp;D</abbr> or Minecraft.
+	<img property="image" src="/about/rowan.png" alt="" class="hidden-fully u-photo" width="20" />
 </p>
