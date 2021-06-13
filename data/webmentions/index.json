@@ -17,6 +17,28 @@
 			"like-of": "https://rowanmanning.com/",
 			"wm-property": "like-of",
 			"wm-private": false
+		},
+		"e54cbcf059dd749edbaaa257cdbafe47": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "",
+				"photo": "",
+				"url": ""
+			},
+			"url": "https://rowanmanning.com/",
+			"published": null,
+			"wm-received": "2021-06-13T21:53:37Z",
+			"wm-id": 1188767,
+			"wm-source": "https://rowanmanning.com",
+			"wm-target": "https://rowanmanning.com/",
+			"name": "Rowan Manning",
+			"mention-of": "https://rowanmanning.com/",
+			"wm-property": "mention-of",
+			"wm-private": false,
+			"rels": {
+				"canonical": "https://rowanmanning.com/"
+			}
 		}
 	},
 	"processed": [
