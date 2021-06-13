@@ -15,7 +15,7 @@
 	{{ end }}
 
 	{{/* List of content */}}
-	<ol class="content-list">
+	<ol class="h-feed content-list">
 		{{ range .Pages.ByDate.Reverse }}
 			<li>{{- partial "content-summary.html" . -}}</li>
 		{{ end }}

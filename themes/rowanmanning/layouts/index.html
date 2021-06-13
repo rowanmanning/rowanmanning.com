@@ -43,7 +43,7 @@
 						</header>
 						{{ $limit := .limit | default 3 }}
 						{{ $pages := (where $.Site.RegularPages.ByDate.Reverse "Section" .section ) }}
-						<ol class="content-list content-list--condensed">
+						<ol class="h-feed content-list content-list--condensed">
 							{{ range first $limit $pages }}
 								<li>{{- partial "content-summary.html" . -}}</li>
 							{{ end }}
