@@ -5,10 +5,11 @@
 	background-color: var(--tag-background-color);
 	border-radius: 0.5ch;
 	display: inline;
-	padding: 0.4ch;
+	padding: 0.2ch 0.4ch;
 	line-height: 1;
 	text-decoration: none;
 	margin-bottom: 0.4ch;
+	white-space: nowrap;
 
 	&:not(:last-child) {
 		margin-right: 0.8ch;
