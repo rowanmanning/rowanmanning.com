@@ -48,7 +48,13 @@ const site = require('../data/webmentions/_site.json');
 			.replace(/[\#\?].*$/, '')
 			.replace(/\/$/, '')
 			.replace(/\//g, '--');
-			
+
+		// Don't try and save webmentions for `_site` as this
+		// will break the script
+		if (slug === '_site') {
+			continue;
+		}
+
 		if (slug === '') {
 			slug = 'index';
 		}
