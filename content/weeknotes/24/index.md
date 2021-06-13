@@ -11,7 +11,7 @@ resources:
       caption: "Look at this mess"
 ---
 
-  * Some good news on the house front! The work to remedy the [cladding issues](/weeknotes/21/) on the flat I like is going to start this month. It's not clear how long this is going to add to the process and they still need to get an ESW1 form after it's done, but fingers crossed. I'm still viewing other places at a slower pace, but nothing has wowed me yet.
+  * Some good news on the house front! The work to remedy the [cladding issues](/weeknotes/21/) on the flat I like is going to start this month. It's not clear how long this is going to add to the process and they still need to get an EWS1 form after it's done, but fingers crossed. I'm still viewing other places at a slower pace, but nothing has wowed me yet.
 
   * [Alice](https://alicebartlett.co.uk/) is back at work, we had a little catch-up and it's so great to see her. I also had a lovely scheduled impromptu chat with [Cait](https://twitter.com/caitoriordan), I'm looking forward to returning to the office for a bunch of reasons, but mainly not having to schedule bumping into someone and catching up.
 
