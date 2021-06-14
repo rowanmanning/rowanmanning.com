@@ -11,7 +11,7 @@ resources:
       caption: "Annoyed I forgot to hide the debug text"
 ---
 
-  * I finished and published my [blog post on the treasure hunt that Glynn and I ran](/posts/organising-a-virtual-treasure-hunt-as-a-team-social/). I'm pleased with how it came out and I've had some nice feedback. I definitely find it easier to get into the flow of writing after getting into the habit of writing weeknotes.
+  * I finished and published my [blog post on the treasure hunt that Glynn and I ran](/posts/organising-a-virtual-treasure-hunt/). I'm pleased with how it came out and I've had some nice feedback. I definitely find it easier to get into the flow of writing after getting into the habit of writing weeknotes.
   
   * A few of the people from the Minecraft server I'm part of did a "speed" run one evening. It went spectacularly badly – we used an unstable beta version of the game, it was infuriatingly laggy, and the dragon fight at the end just bugged out and we couldn't complete it. It's really fun when we do these but we're by no means fast or efficient. The new cave generation is really cool though.
 
