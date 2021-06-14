@@ -1,9 +1,14 @@
 #!/usr/bin/env node
 'use strict';
 
+const clip = require('text-clipper').default;
 const createDOMPurify = require('dompurify');
 const fs = require('fs/promises');
 const {JSDOM} = require('jsdom');
+
+// The ideal character limit and number of lines for webmentions
+const maxContentCharacterLength = 280;
+const maxContentLines = 6;
 
 (async () => {
 
@@ -26,7 +31,7 @@ const {JSDOM} = require('jsdom');
 function processWebmention(webmention) {
 	const type = getMentionType(webmention);
 	const author = getMentionAuthor(webmention);
-	const content = getMentionContent(webmention);
+	const {content, isTruncated} = getMentionContent(webmention);
 	if (type && author) {
 		return {
 			type,
@@ -36,7 +41,8 @@ function processWebmention(webmention) {
 			url: webmention.url,
 			isFromTwitter: /^https?:\/\/(www\.)?twitter\.com\/[^\/]+\/status\//.test(webmention.url),
 			author,
-			content
+			content,
+			isTruncated
 		};
 	}
 }
@@ -66,86 +72,153 @@ function getMentionAuthor(webmention) {
 }
 
 function getMentionContent(webmention) {
-	if (webmention.content) {
-		const html = webmention.content.html || webmention.content.text;
-		if (html) {
+	const summary = webmention.summary ? webmention.summary.value : null;
+	const content = webmention.content ? webmention.content.html || webmention.content.text || null : summary;
 
-			// Set up DOMPurify
-			const {window, document} = htmlStringToDOM(html);
-			const DOMPurify = createDOMPurify(window);
+	if (content) {
+		const {cleanDOM, document} = getCleanDOM(content);
 
-			// Sanitize the created DOM
-			const cleanDOM = DOMPurify.sanitize(document.body, {
+		if (!cleanDOM || !cleanDOM.textContent) {
+			return null;
+		}
 
-				// Sanitize the DOM in-place so that we can make changes afterwards
-				IN_PLACE: true,
+		// Turn images into links
+		for (const image of cleanDOM.querySelectorAll('img')) {
+			if (!image.getAttribute('src')) {
+				image.parentElement.removeChild(image);
+				continue;
+			}
+			const link = document.createElement('a');
+			link.setAttribute('href', image.getAttribute('src'));
+			link.textContent = `[image${image.getAttribute('alt') ? ` "${image.getAttribute('alt')}"` : ''}]`;
+			image.parentElement.replaceChild(link, image);
+		}
 
-				// Allow only basic inline tags
-				ALLOWED_TAGS: [
-					'a',
-					'b',
-					'blockquote',
-					'code',
-					'dd',
-					'dl',
-					'dt',
-					'em',
-					'h1',
-					'h2',
-					'h3',
-					'h4',
-					'h5',
-					'h6',
-					'i',
-					'img',
-					'li',
-					'ol',
-					'p',
-					'pre',
-					'q',
-					'small',
-					'strong',
-					'sub',
-					'sup',
-					'ul'
-				],
+		// Add nofollow to links and remove if empty
+		for (const link of cleanDOM.querySelectorAll('a')) {
+			if (!link.textContent.trim()) {
+				link.parentElement.removeChild(link);
+			}
+			link.setAttribute('nofollow', "nofollow");
+		}
 
-				// Allow only a few required attributes
-				ALLOWED_ATTR: [
-					'alt',
-					'href',
-					'src'
-				]
+		// Turn headings into paragraphs
+		for (const heading of cleanDOM.querySelectorAll('h1, h2, h3, h4, h5, h6')) {
+			const paragraph = document.createElement('p');
+			paragraph.innerHTML = heading.innerHTML;
+			heading.parentElement.replaceChild(paragraph, heading);
+		}
 
+		// Find the actual target link
+		const targetLink = [...cleanDOM.querySelectorAll('a')].find(link => {
+			// Ignore protocol, as http redirects to https
+			const protocol = /^https?:\/\//;
+			const href = link.getAttribute('href').replace(protocol, 'https://');
+			const target = webmention['wm-target'].replace(protocol, 'https://');
+			return href === target;
+		});
+
+		// The rest of this file is text manipulation, so we ditch the main DOM element
+		const fullHTML = cleanDOM.innerHTML;
+		let cleanHTML = cleanDOM.innerHTML;
+
+		// If the content is too long, we try a few things
+		if (cleanDOM.textContent.length > maxContentCharacterLength) {
+
+			// If we have a target link in the content, then we only want the link and its siblings
+			if (targetLink) {
+				const targetLinkParent = targetLink.parentElement;
+				let parentHTML = targetLinkParent.innerHTML;
+
+				// Work out if we need ellipses
+				const split = cleanDOM.textContent.split(targetLinkParent.textContent);		
+				if (split.pop() !== '') {
+					parentHTML = `${parentHTML}…`;
+				}
+				if (split.shift() !== '') {
+					parentHTML = `…${parentHTML}`;
+				}
+
+				cleanHTML = parentHTML;
+			}
+
+			// Clip the HTML
+			cleanHTML = clip(cleanHTML, maxContentCharacterLength, {
+				html: true,
+				maxLines: maxContentLines
 			});
 
-			// Turn images into links
-			for (const image of cleanDOM.querySelectorAll('img')) {
-				if (!image.getAttribute('src')) {
-					image.parentElement.removeChild(image);
-					continue;
-				}
-				const link = document.createElement('a');
-				link.setAttribute('href', image.getAttribute('src'));
-				link.textContent = `[image${image.getAttribute('alt') ? ` "${image.getAttribute('alt')}"` : ''}]`;
-				image.parentElement.replaceChild(link, image);
-			}
-
-			// Add nofollow to links
-			for (const link of cleanDOM.querySelectorAll('a')) {
-				link.setAttribute('nofollow', "nofollow");
-			}
-
-			// Turn headings into paragraphs
-			for (const heading of cleanDOM.querySelectorAll('h1, h2, h3, h4, h5, h6')) {
-				const paragraph = document.createElement('p');
-				paragraph.innerHTML = heading.innerHTML;
-				heading.parentElement.replaceChild(paragraph, heading);
-			}
-
-			return cleanDOM.innerHTML;
+			// Get rid of spaces before a final ellipsis
+			cleanHTML = cleanHTML.replace(/\s+…$/g, '…');
 		}
+
+		return {
+			content: cleanHTML,
+			isTruncated: (cleanHTML !== fullHTML)
+		};
 	}
+	
+	return {
+		content: null,
+		isTruncated: false
+	};
+}
+
+function getCleanDOM(html) {
+
+	// Set up DOMPurify
+	const {window, document} = htmlStringToDOM(html);
+	const DOMPurify = createDOMPurify(window);
+
+	// Sanitize the created DOM
+	const cleanDOM = DOMPurify.sanitize(document.body, {
+
+		// Sanitize the DOM in-place so that we can make changes afterwards
+		IN_PLACE: true,
+
+		// Allow only basic inline tags
+		ALLOWED_TAGS: [
+			'a',
+			'b',
+			'blockquote',
+			'code',
+			'dd',
+			'dl',
+			'dt',
+			'em',
+			'h1',
+			'h2',
+			'h3',
+			'h4',
+			'h5',
+			'h6',
+			'i',
+			'img',
+			'li',
+			'ol',
+			'p',
+			'pre',
+			'q',
+			'small',
+			'strong',
+			'sub',
+			'sup',
+			'ul'
+		],
+
+		// Allow only a few required attributes
+		ALLOWED_ATTR: [
+			'alt',
+			'href',
+			'src'
+		]
+
+	});
+
+	return {
+		cleanDOM,
+		document
+	};
 }
 
 function htmlStringToDOM(content) {

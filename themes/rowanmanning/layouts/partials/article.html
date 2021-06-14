@@ -162,21 +162,25 @@ to enable webmentions
 									<span property="author" vocab="http://schema.org/" typeof="Person">
 										<a property="url" href="{{ .author.url }}" class="social-feed__author"><span property="name">{{ .author.name }}</span></a>
 									</span>
-									<a property="url" href="{{ .url }}">responded</a>
-									<time property="datePublished" datetime="{{ .date }}" class="social-feed__date">{{ dateFormat "02 January 2006" .date }}</time>:
+									<a property="url" href="{{ .url }}">responded <time property="datePublished" datetime="{{ .date }}" class="social-feed__date">{{ dateFormat "02 January 2006" .date }}</time></a>:
 								</div>
-								<div property="text" class="social-feed__content content-body">{{ .content | safeHTML }}</div>
+								<div property="text" class="social-feed__content content-body">
+									{{ .content | safeHTML }}
+									{{ if .isTruncated }}
+										<a href="{{ .url }}">Read the full response</a>
+									{{ end }}
+								</div>
 							</li>
 						{{ else }}
 							<li class="social-feed__item social-feed__item--{{ .type }}">
 								<div class="social-feed__meta">
 									<a href="{{ .author.url }}" class="social-feed__author">{{ .author.name }}</a>
 									{{ if eq .type "repost" }}
-										<a href="{{ .url }}">reposted this</a>
+										<a href="{{ .url }}">reposted this
 									{{ else }}
-										<a href="{{ .url }}">liked this</a>
+										<a href="{{ .url }}">liked this
 									{{ end }}
-									<time datetime="{{ .date }}" class="social-feed__date">{{ dateFormat "02 January 2006" .date }}</time>
+									<time datetime="{{ .date }}" class="social-feed__date">{{ dateFormat "02 January 2006" .date }}</time></a>
 								</div>
 							</li>
 						{{ end }}
