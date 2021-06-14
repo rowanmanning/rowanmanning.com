@@ -41,19 +41,11 @@ jobs:
       # Commit new webmentions to the repo
       - name: Commit to the repo
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         run: |
           git config --global user.name "Rowan Manning"
           git config --global user.email "info@rowanmanning.com"
-          git remote set-url origin "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git remote set-url origin "https://${GITHUB_ACTOR}:${DEPLOY_KEY}@github.com/${GITHUB_REPOSITORY}.git"
           git checkout main
           git add .
           git diff --quiet && git diff --staged --quiet || (git commit -m "Fetch webmentions"; git push origin main)
-
-# git remote set-url origin "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-# git config --global user.name "rowanmanning"
-# git config --global user.email "info@rowanmanning.com"
-# git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/rowanmanning/rowanmanning.com.git
-# git checkout main
-# git add .
-# git diff --quiet && git diff --staged --quiet || (git commit -m "Fetch webmentions"; git push origin main)
