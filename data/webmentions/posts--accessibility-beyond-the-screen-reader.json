@@ -80,7 +80,8 @@
 				"url": "https://twitter.com/krishna_radha1",
 				"photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png"
 			},
-			"content": "Accessibility: Beyond The Screen-Reader <a href=\"http://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\" nofollow=\"nofollow\">rowanmanning.com/posts/accessib…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\" nofollow=\"nofollow\"></a>"
+			"content": "Accessibility: Beyond The Screen-Reader <a href=\"http://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\" nofollow=\"nofollow\">rowanmanning.com/posts/accessib…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -94,7 +95,8 @@
 				"url": "https://twitter.com/hariktriam",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/dfb32bbd46d4701876504cc12fc30a99abad04114a007be9116813efeba90430.jpg"
 			},
-			"content": "T.V.Ramanが\"beyond the screen reader\"というコンセプトを述べている．\n<a href=\"http://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\" nofollow=\"nofollow\">rowanmanning.com/posts/accessib…</a>\n<a href=\"http://fcw.com/articles/2013/07/17/non-visual-internet.aspx\" nofollow=\"nofollow\">fcw.com/articles/2013/…</a>（この記事のFigの下の雲）\n<a href=\"https://fcw.com/articles/2013/07/17/non-visual-internet.aspx\" nofollow=\"nofollow\"></a>\n<a href=\"https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\" nofollow=\"nofollow\"></a>"
+			"content": "T.V.Ramanが\"beyond the screen reader\"というコンセプトを述べている．\n<a href=\"http://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\" nofollow=\"nofollow\">rowanmanning.com/posts/accessib…</a>\n<a href=\"http://fcw.com/articles/2013/07/17/non-visual-internet.aspx\" nofollow=\"nofollow\">fcw.com/articles/2013/…</a>（この記事のFigの下の雲）\n\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -108,7 +110,8 @@
 				"url": "https://twitter.com/Saikat_Dey2011",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/84a43703f570decfda8eb0c2e02b061163b094c9b2df6bbc7f3b208cd476bc85.jpg"
 			},
-			"content": "Accessibility: Beyond the Screen-Reader <a href=\"http://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\" nofollow=\"nofollow\">rowanmanning.com/posts/accessib…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\" nofollow=\"nofollow\"></a>"
+			"content": "Accessibility: Beyond the Screen-Reader <a href=\"http://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\" nofollow=\"nofollow\">rowanmanning.com/posts/accessib…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		}
 	]
 }

@@ -67,7 +67,9 @@
 				"name": "Leigh Clancy",
 				"url": "https://twitter.com/mediumpacer",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/bbffaf481f710b59fa9dd0e433bb496aa0f9c731f40dd2fd646d0c60af5b2afe.jpg"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		},
 		{
 			"type": "like",
@@ -80,7 +82,9 @@
 				"name": "Andrew Walker",
 				"url": "https://twitter.com/moddular",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/77ceb4604e68ec4eec61cbb303e8a19dfdd3cdf97b79024b41e2a0b81aa984de.gif"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		},
 		{
 			"type": "like",
@@ -93,7 +97,9 @@
 				"name": "Perry Harlock",
 				"url": "https://twitter.com/perryharlock",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		}
 	]
 }

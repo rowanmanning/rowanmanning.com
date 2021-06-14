@@ -844,7 +844,8 @@
 				"url": "https://twitter.com/perryharlock",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
 			},
-			"content": "JavaScript For Beginners: Async rown.me/19AUE5G - I blogged, let me know what you think :)"
+			"content": "JavaScript For Beginners: Async rown.me/19AUE5G - I blogged, let me know what you think :)",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -858,7 +859,8 @@
 				"url": "https://twitter.com/velvetflair",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/3ecafd26177e1139cc927ee4cef4b73846b9a7dc930c7dc52d399f7cb485fb6c.png"
 			},
-			"content": "JavaScript For Beginners: Async <a href=\"http://bit.ly/10ucv8h\" nofollow=\"nofollow\">bit.ly/10ucv8h</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript For Beginners: Async <a href=\"http://bit.ly/10ucv8h\" nofollow=\"nofollow\">bit.ly/10ucv8h</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -872,7 +874,8 @@
 				"url": "https://twitter.com/AlecsMartin",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/6d598e0d62d631ea725de0122adf8d6d6cf8e8a2701f9436cab73950005f0fc6.jpg"
 			},
-			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -886,7 +889,8 @@
 				"url": "https://twitter.com/jeffreylowy",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/3e299477ce5078bb2fe405ebc041eaff22747a17e16c05d3e9d8753ea59d231c.jpg"
 			},
-			"content": "JavaScript For Beginners: Async <a href=\"http://bit.ly/14O8Cdw\" nofollow=\"nofollow\">bit.ly/14O8Cdw</a> #\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript For Beginners: Async <a href=\"http://bit.ly/14O8Cdw\" nofollow=\"nofollow\">bit.ly/14O8Cdw</a> #\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -900,7 +904,8 @@
 				"url": "https://twitter.com/ComparteSig",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/e5aa04e61852be4b01e0487ac803cfc7ab08588b8eaf947084a4dba77a651e2e.png"
 			},
-			"content": "JavaScript For Beginners: Async\n\n<a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a>\n\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript For Beginners: Async\n\n<a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a>\n\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -914,7 +919,8 @@
 				"url": "https://twitter.com/pinceladasdaweb",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/c81771b693a4340c8b7d8da389140b7b45fde73730ba9e4ecc4ab16d1c080243.jpg"
 			},
-			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -928,7 +934,8 @@
 				"url": "https://twitter.com/pinguxx",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/66125afdf2c6d64c7977078ec71dafbbd72a22eeb2c1e341b0d0c3d6162571d4.jpg"
 			},
-			"content": "<a href=\"https://twitter.com/search?q=%23JavaScript\" nofollow=\"nofollow\">#JavaScript</a> For Beginners: Async <a href=\"http://bit.ly/145iGUx\" nofollow=\"nofollow\">bit.ly/145iGUx</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "<a href=\"https://twitter.com/search?q=%23JavaScript\" nofollow=\"nofollow\">#JavaScript</a> For Beginners: Async <a href=\"http://bit.ly/145iGUx\" nofollow=\"nofollow\">bit.ly/145iGUx</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -942,7 +949,8 @@
 				"url": "https://twitter.com/aliborhani1",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/e3deab013b3ea6f3b8bde348920a94ebe1691f3600f8b856862e6d805bde37d1.jpg"
 			},
-			"content": "JavaScript For Beginners: \"Async\" <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript For Beginners: \"Async\" <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -956,7 +964,8 @@
 				"url": "https://twitter.com/del_javascript",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/dce22f3207b7becb9917ffb8cd0304423e88fc9ebd49bfb03b5bba5d63135178.jpg"
 			},
-			"content": "JavaScript For Beginners: Async <a href=\"http://owl.li/2EkC7v\" nofollow=\"nofollow\">owl.li/2EkC7v</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript For Beginners: Async <a href=\"http://owl.li/2EkC7v\" nofollow=\"nofollow\">owl.li/2EkC7v</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -970,7 +979,8 @@
 				"url": "https://twitter.com/renanromero",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/7450aa3c7dd939e40039ec0be770dd4c43081f15f7fb92d7c1f2821c0345a06e.jpg"
 			},
-			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -984,7 +994,8 @@
 				"url": "https://twitter.com/kauresss",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/273c1d59e550078bcf73cb0e6a37f872a6685bd51916435a868a428005f0aec2.jpg"
 			},
-			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -998,7 +1009,8 @@
 				"url": "https://twitter.com/thischrisgallo",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/ef5abc039957cea56a2fcc3a4afee16a4eab0263b58aa0fce9369548acbc2bcf.jpg"
 			},
-			"content": "<a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a> old post, this was the best explanation of asynchronous/synchronous I've read. Thanks - <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "<a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a> old post, this was the best explanation of asynchronous/synchronous I've read. Thanks - <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1012,7 +1024,8 @@
 				"url": "https://twitter.com/stephenradams",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/3723aae3a9fac21382296c119832fd030f16d2e1cf39b85e37d3c1a30692ce10.jpg"
 			},
-			"content": "Good intro article - JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "Good intro article - JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1026,7 +1039,8 @@
 				"url": "https://twitter.com/Salcoder",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/364e37ac243820c84f5ec3f5a3cbdf276f4f6698ef7d5c7d8b999f87e068e7f9.png"
 			},
-			"content": "Great introduction to <a href=\"https://twitter.com/search?q=%23asynchronousprogramming\" nofollow=\"nofollow\">#asynchronousprogramming</a> <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> <a href=\"https://twitter.com/search?q=%23javascript\" nofollow=\"nofollow\">#javascript</a> \n<a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a>\n\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "Great introduction to <a href=\"https://twitter.com/search?q=%23asynchronousprogramming\" nofollow=\"nofollow\">#asynchronousprogramming</a> <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> <a href=\"https://twitter.com/search?q=%23javascript\" nofollow=\"nofollow\">#javascript</a> \n<a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a>\n\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1040,7 +1054,8 @@
 				"url": "https://twitter.com/MichaelCanlas7",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/961fa6e70d1be0904ad93a1c84fd53ad5b344a859c74da02f5fbc0fd9f268ff3.jpg"
 			},
-			"content": "Very nice article for explaining async in <a href=\"https://twitter.com/search?q=%23javascript\" nofollow=\"nofollow\">#javascript</a>\n<a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "Very nice article for explaining async in <a href=\"https://twitter.com/search?q=%23javascript\" nofollow=\"nofollow\">#javascript</a>\n<a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1054,7 +1069,8 @@
 				"url": "https://twitter.com/eyebelieveJW",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/b599f380a772c9c7cb8a41e130168458eda8f75bf3d552581250aeea834f5143.jpg"
 			},
-			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1068,7 +1084,8 @@
 				"url": "https://twitter.com/nswebstudio",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/60c8a5e18e4b4af4b1cb672d5b463b1b77544242f423378296bb2b9b031aea70.jpg"
 			},
-			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1082,7 +1099,8 @@
 				"url": "https://twitter.com/deepaksisodiya",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/fe2b4faa81df381f03679c5e48374825c8c12722a56fc0aa805c17f07f98a3b2.jpg"
 			},
-			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1096,7 +1114,8 @@
 				"url": "https://twitter.com/Iamjahweb",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/a37558a6aefa9be90508f3f9fcd1a508d74d622d3bc1939c0fe75e07c4694a92.jpg"
 			},
-			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1110,7 +1129,8 @@
 				"url": "https://twitter.com/mithicher",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/b4ee0c303dd27e391b702d9713c984efbbf051c6948b0dc2164dc17a3747bdd7.png"
 			},
-			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1124,7 +1144,8 @@
 				"url": "https://twitter.com/tiffanywhitedev",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/ceac96b2b8c6a2a1c76a62ded2ec63d52ae949192705df4251390d580ab2c2c7.jpg"
 			},
-			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript For Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1138,7 +1159,8 @@
 				"url": "https://twitter.com/arifrohmanhk",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/446c9dbb01d5dc00712c354782490a0da317d91e76a0249eaec8757553ae0742.jpg"
 			},
-			"content": "JavaScript for Beginners: Async <a href=\"http://buff.ly/2h6uH7a\" nofollow=\"nofollow\">buff.ly/2h6uH7a</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript for Beginners: Async <a href=\"http://buff.ly/2h6uH7a\" nofollow=\"nofollow\">buff.ly/2h6uH7a</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1152,7 +1174,8 @@
 				"url": "https://twitter.com/tuanpt93",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/9df0b6408663a834f185c3cc1e1c7cf2a2f5032774d1d6c7afabc3ebe9185103.jpg"
 			},
-			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> qua <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> qua <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1166,7 +1189,8 @@
 				"url": "https://twitter.com/Avnishalok",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/e54e64b9baaa482db163bd0f4f185fa094255caaddf4e3ca0162b4d9c2235bbd.jpg"
 			},
-			"content": "Best explanation of synchronous and asynchronous in JS. <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "Best explanation of synchronous and asynchronous in JS. <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1180,7 +1204,8 @@
 				"url": "https://twitter.com/shubhamdave001",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/4b3a645cd4a2936dc8fca9a6216ed667e0ddfb60f9ffc0f645e44bbf25cb71f1.jpg"
 			},
-			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1194,7 +1219,8 @@
 				"url": "https://twitter.com/PaulBriar",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/783390b68d660e1c2b43d9bb68021db1a0a0201b93c7bda73c45681a68cde030.png"
 			},
-			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1208,7 +1234,8 @@
 				"url": "https://twitter.com/testyippyskippy",
 				"photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png"
 			},
-			"content": "gdfgbfdbggbfdgdfgf\n\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a>"
+			"content": "gdfgbfdbggbfdgdfgf\n\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a>",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1222,7 +1249,8 @@
 				"url": "https://twitter.com/YowShian2",
 				"photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png"
 			},
-			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1236,7 +1264,8 @@
 				"url": "https://twitter.com/jai_dewani",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/61af7a84a9ac3f28f54b8be2c5cc6e4e98d5a271a952715c0b6077c5719f7dd6.jpg"
 			},
-			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1250,7 +1279,8 @@
 				"url": "https://twitter.com/yudhistira_m",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/6bfab2cdc8167b264ef18b3725fe26218f237714b0e997276cd98cbd1e2a95e0.jpg"
 			},
-			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1264,7 +1294,8 @@
 				"url": "https://twitter.com/saucekode",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/d329f1595473419f9c2b054806cb77bbd75c190e199237c2b1ac767a92492741.jpg"
 			},
-			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> Thank you <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> Thank you <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1278,7 +1309,8 @@
 				"url": "https://twitter.com/XIE_Jun_001",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/9e596b46eaf59ba0d94d4c1e03939b669348c8635c0e9420e1c6a35fe050f668.jpg"
 			},
-			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1292,7 +1324,8 @@
 				"url": "https://twitter.com/_emmytobs",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/1148c2d711f7e73ea5a78a6f56ff43dd1da1663abf2297d0d968812848ec632f.jpg"
 			},
-			"content": "Fantastic explanation \n\nJavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "Fantastic explanation \n\nJavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1306,7 +1339,8 @@
 				"url": "https://twitter.com/GoCodeFinity",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/613db9ae5bbba1a1bbe85481e3d3ca6a0f4528b66abcd396886dbb67136dc3e4.jpg"
 			},
-			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1320,7 +1354,8 @@
 				"url": "https://twitter.com/clarance_farley",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/719dfe2cf40335f05ea1cac826e5df8139914c7fffaaa12682f315a5fe409f4e.png"
 			},
-			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1334,7 +1369,8 @@
 				"url": "https://twitter.com/DOsmanow",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/ddf02ca994a8503af72ba4a35247f4da9aca68dc229bfba3a3ea25546919163d.jpg"
 			},
-			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> через <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\"></a>"
+			"content": "JavaScript for Beginners: Async <a href=\"http://rowanmanning.com/posts/javascript-for-beginners-async/\" nofollow=\"nofollow\">rowanmanning.com/posts/javascri…</a> через <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "like",
@@ -1347,7 +1383,9 @@
 				"name": "†The Godf△ther †",
 				"url": "https://twitter.com/DJPaPaMarley",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/5e0a76eca37808ea3c3f77ca63cf903548b79796ccae0f8cec444f2e8e5aaefd.jpg"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		},
 		{
 			"type": "like",
@@ -1360,7 +1398,9 @@
 				"name": "Perry Harlock",
 				"url": "https://twitter.com/perryharlock",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		}
 	]
 }

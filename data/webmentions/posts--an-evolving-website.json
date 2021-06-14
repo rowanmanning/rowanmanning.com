@@ -31,7 +31,9 @@
 				"name": "Rufus",
 				"url": "https://twitter.com/rufusdenne",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/7158d536d1d866e04f3fd10f32a844373855a8818e422abbfcfb2d1c0adc040e.jpg"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		}
 	]
 }

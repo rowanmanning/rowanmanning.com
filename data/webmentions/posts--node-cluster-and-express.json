@@ -1708,7 +1708,8 @@
 				"url": "https://twitter.com/dan_tamas",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/39198d3d6a33d904485392ef3f0b69c4e27110220cfc0a2a4cac722c06534135.jpg"
 			},
-			"content": "Simple and clear explanations on Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Simple and clear explanations on Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1722,7 +1723,8 @@
 				"url": "https://twitter.com/stackful_io",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/eab3604ddb89e81ef8c583bd8f71e13a6e1d2f4e3be764916f213db56e55b839.png"
 			},
-			"content": "Node Cluster and Express <a href=\"http://bit.ly/YjCo9h\" nofollow=\"nofollow\">bit.ly/YjCo9h</a> via <a href=\"http://bit.ly/MJFsIm\" nofollow=\"nofollow\">bit.ly/MJFsIm</a> VPS <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> <a href=\"https://twitter.com/search?q=%23developer\" nofollow=\"nofollow\">#developer</a> <a href=\"https://twitter.com/search?q=%23coding\" nofollow=\"nofollow\">#coding</a> <a href=\"https://twitter.com/search?q=%23node\" nofollow=\"nofollow\">#node</a>\n<a href=\"http://stackful.io/\" nofollow=\"nofollow\"></a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://bit.ly/YjCo9h\" nofollow=\"nofollow\">bit.ly/YjCo9h</a> via <a href=\"http://bit.ly/MJFsIm\" nofollow=\"nofollow\">bit.ly/MJFsIm</a> VPS <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> <a href=\"https://twitter.com/search?q=%23developer\" nofollow=\"nofollow\">#developer</a> <a href=\"https://twitter.com/search?q=%23coding\" nofollow=\"nofollow\">#coding</a> <a href=\"https://twitter.com/search?q=%23node\" nofollow=\"nofollow\">#node</a>\n\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1736,7 +1738,8 @@
 				"url": "https://twitter.com/DaniaL_KH",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/cafba3121b8b0a43b80df3b546affd82b18733b9556d371c52c1ce29d534161b.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1750,7 +1753,8 @@
 				"url": "https://twitter.com/chadschulz",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/3c33b6e8461160149990924795f8e57b785500c98bc77a60ac48514037c94c1d.jpg"
 			},
-			"content": "Nice, easy to understand walkthru of <a href=\"https://twitter.com/nodejs\" nofollow=\"nofollow\">@nodejs</a> cluster: Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a> <a href=\"https://twitter.com/search?q=%23thanks\" nofollow=\"nofollow\">#thanks</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Nice, easy to understand walkthru of <a href=\"https://twitter.com/nodejs\" nofollow=\"nofollow\">@nodejs</a> cluster: Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a> <a href=\"https://twitter.com/search?q=%23thanks\" nofollow=\"nofollow\">#thanks</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1764,7 +1768,8 @@
 				"url": "https://twitter.com/pinguxx",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/66125afdf2c6d64c7977078ec71dafbbd72a22eeb2c1e341b0d0c3d6162571d4.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://bit.ly/17iCAGO\" nofollow=\"nofollow\">bit.ly/17iCAGO</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://bit.ly/17iCAGO\" nofollow=\"nofollow\">bit.ly/17iCAGO</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1778,7 +1783,8 @@
 				"url": "https://twitter.com/futur",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/9f6a191d7083cedcf68c54208a075b2ebd823650805cea21ba79ab24ba204778.jpg"
 			},
-			"content": "Node Clusters: simple and clean <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Clusters: simple and clean <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1792,7 +1798,8 @@
 				"url": "https://twitter.com/edimoldovan",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/6f068f18afe46e53efa02fdb50649a3a2566a09e6f3f04315e7eca76f4838606.jpg"
 			},
-			"content": "Just added some clustering to my little <a href=\"https://twitter.com/search?q=%23Nodejs\" nofollow=\"nofollow\">#Nodejs</a> app. Thx to <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Just added some clustering to my little <a href=\"https://twitter.com/search?q=%23Nodejs\" nofollow=\"nofollow\">#Nodejs</a> app. Thx to <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1806,7 +1813,8 @@
 				"url": "https://twitter.com/FabiolousMate",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/b00ef0ceb6007982fed53ea5057ad47d3b1171f54a811db41bd4a76f9125866c.png"
 			},
-			"content": "Node Cluster: how to add power to your <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> server <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster: how to add power to your <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> server <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1820,7 +1828,8 @@
 				"url": "https://twitter.com/thekaanon",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/0f648856efb63b7a4127d04464890afde532fb3f92d0664b69edf51e09e4423d.jpg"
 			},
-			"content": "Well, that was easy! Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Well, that was easy! Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1834,7 +1843,8 @@
 				"url": "https://twitter.com/dasilvacontin",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/c1893651b6139a4184486d542f20ea0b7cd759aaf8689eda78700cb2bc225807.jpg"
 			},
-			"content": "Very interesting and useful! ~ Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Very interesting and useful! ~ Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1848,7 +1858,8 @@
 				"url": "https://twitter.com/pdehaan",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/5aa99a05b1bc50955cc13c5e6969eb4e67cd70e106ee75eab6b1c92e79fedac6.jpg"
 			},
-			"content": "<a href=\"https://twitter.com/search?q=%23Nodejs\" nofollow=\"nofollow\">#Nodejs</a> Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> by <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "<a href=\"https://twitter.com/search?q=%23Nodejs\" nofollow=\"nofollow\">#Nodejs</a> Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> by <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1862,7 +1873,8 @@
 				"url": "https://twitter.com/felipekm",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/d7e603b1b478846f76b97a7a927bfdbb706fc5ef255f12d7a368a9127afa0bfb.jpg"
 			},
-			"content": "<a href=\"https://twitter.com/search?q=%23NodeJS\" nofollow=\"nofollow\">#NodeJS</a> <a href=\"https://twitter.com/search?q=%23ClusterJS\" nofollow=\"nofollow\">#ClusterJS</a> and <a href=\"https://twitter.com/search?q=%23ExpressJS\" nofollow=\"nofollow\">#ExpressJS</a> to built multi thread apps: <a href=\"http://goo.gl/pKMrZ3\" nofollow=\"nofollow\">goo.gl/pKMrZ3</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "<a href=\"https://twitter.com/search?q=%23NodeJS\" nofollow=\"nofollow\">#NodeJS</a> <a href=\"https://twitter.com/search?q=%23ClusterJS\" nofollow=\"nofollow\">#ClusterJS</a> and <a href=\"https://twitter.com/search?q=%23ExpressJS\" nofollow=\"nofollow\">#ExpressJS</a> to built multi thread apps: <a href=\"http://goo.gl/pKMrZ3\" nofollow=\"nofollow\">goo.gl/pKMrZ3</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1876,7 +1888,8 @@
 				"url": "https://twitter.com/madhums",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/85cebab73899dd548ea63ad9b0b70cb74bfef40338d08fa5b9538fd66eaf4623.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1890,7 +1903,8 @@
 				"url": "https://twitter.com/tenglvjun",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/fa6b60d0c35e9b8733bdf12e4d8db2c1b67481cbf4a6b9a93cd4c662d287470e.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1904,7 +1918,8 @@
 				"url": "https://twitter.com/harrypehkonen",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/ff6a39d88f1a353c16999df78e725f52b1372a7256d9b79a254cf519c7fb5b12.jpg"
 			},
-			"content": "Nice quick easy way to replace the old hardly-maintained \"forever\" with built-in \"cluster\" <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Nice quick easy way to replace the old hardly-maintained \"forever\" with built-in \"cluster\" <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1918,7 +1933,8 @@
 				"url": "https://twitter.com/wapj2000",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/9e2022e2c2f131a0ded261c24f0d5af8d0799d152c3597c3d4dcfd3b34515c12.jpg"
 			},
-			"content": "CPU가 두개 이상일 때 nodejs의 클러스터 모듈로 멀티 프로세서를 충~~~분히 쓸 수 있도록 해주는게 좋은데요~ \n\n어떻게 하는지 찾다가 찾은 링크임당\n<a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n\nsiege(사이지?) 라는 툴은 덤~\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "CPU가 두개 이상일 때 nodejs의 클러스터 모듈로 멀티 프로세서를 충~~~분히 쓸 수 있도록 해주는게 좋은데요~ \n\n어떻게 하는지 찾다가 찾은 링크임당\n<a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n\nsiege(사이지?) 라는 툴은 덤~\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1932,7 +1948,8 @@
 				"url": "https://twitter.com/0xC0DEBA5E",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/d74f098bcee036afcd070748ec3230fc02d4288f98ee88451700bf09b22ed5c2.png"
 			},
-			"content": "<a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> - multi processor machine / \"cluster module\" howto - <a href=\"http://rowanmanning.com/posts/node-cluster-and-express\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> <a href=\"https://twitter.com/search?q=%23performance\" nofollow=\"nofollow\">#performance</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "<a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> - multi processor machine / \"cluster module\" howto - <a href=\"http://rowanmanning.com/posts/node-cluster-and-express\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> <a href=\"https://twitter.com/search?q=%23performance\" nofollow=\"nofollow\">#performance</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1946,7 +1963,8 @@
 				"url": "https://twitter.com/Roberto_Neira",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/163affd32386823c430629c448f88b03d6fcc663988c431200eba1136b757a51.jpg"
 			},
-			"content": "Node.js Cluster and Express <a href=\"http://bit.ly/1aTe97Q\" nofollow=\"nofollow\">bit.ly/1aTe97Q</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node.js Cluster and Express <a href=\"http://bit.ly/1aTe97Q\" nofollow=\"nofollow\">bit.ly/1aTe97Q</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1960,7 +1978,8 @@
 				"url": "https://twitter.com/kaptenupi",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/0a25051a94b0f7a7173b6d2a5b7cb3b1693d076a670794bd6c847de648ec5228.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1974,7 +1993,8 @@
 				"url": "https://twitter.com/samuelgoodwin",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/3902878f80e89c288e2e635984b5ae1fa5fdc17616be18eca7c543349eb595cc.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://j.mp/I9LKAp\" nofollow=\"nofollow\">j.mp/I9LKAp</a> via <a href=\"https://twitter.com/instapaper\" nofollow=\"nofollow\">@instapaper</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://j.mp/I9LKAp\" nofollow=\"nofollow\">j.mp/I9LKAp</a> via <a href=\"https://twitter.com/instapaper\" nofollow=\"nofollow\">@instapaper</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -1988,7 +2008,8 @@
 				"url": "https://twitter.com/GQAdonisCTO",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/71613fd806ec4b45a6c84d71b0be9f02a1b8e3031ea5c9dd70f6cf2ee31c2187.png"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2002,7 +2023,8 @@
 				"url": "https://twitter.com/jaganlalts",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/5dd77f4a6651ebc4e352a8162100b3f5e34e19f60e650e4e02c7ba8a1b931246.png"
 			},
-			"content": "Node Cluster and Express - <a href=\"http://bit.ly/JwVKof\" nofollow=\"nofollow\">bit.ly/JwVKof</a>\nnice article by <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express - <a href=\"http://bit.ly/JwVKof\" nofollow=\"nofollow\">bit.ly/JwVKof</a>\nnice article by <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2016,7 +2038,8 @@
 				"url": "https://twitter.com/vladexologija",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/d94cd106cf0daf19b5d25e6e5fa05d77ceb347e4c64d49ed442bbb279d4d25fd.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2030,7 +2053,8 @@
 				"url": "https://twitter.com/_odino_",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/cb760b821145ca9ddeca0061f5e000ef65989f43c661a4a932b6e88af8c51258.jpg"
 			},
-			"content": "clustering your <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> applications <a href=\"http://buff.ly/1lePOOM\" nofollow=\"nofollow\">buff.ly/1lePOOM</a> <a href=\"https://twitter.com/search?q=%23javascript\" nofollow=\"nofollow\">#javascript</a> <a href=\"https://twitter.com/search?q=%23cluster\" nofollow=\"nofollow\">#cluster</a> <a href=\"https://twitter.com/search?q=%23expressjs\" nofollow=\"nofollow\">#expressjs</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "clustering your <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> applications <a href=\"http://buff.ly/1lePOOM\" nofollow=\"nofollow\">buff.ly/1lePOOM</a> <a href=\"https://twitter.com/search?q=%23javascript\" nofollow=\"nofollow\">#javascript</a> <a href=\"https://twitter.com/search?q=%23cluster\" nofollow=\"nofollow\">#cluster</a> <a href=\"https://twitter.com/search?q=%23expressjs\" nofollow=\"nofollow\">#expressjs</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2044,7 +2068,8 @@
 				"url": "https://twitter.com/alexandrejomin",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/46b8e40474b6fc1b118450c06d591361cafc81f167300a780228ac46157b361b.jpg"
 			},
-			"content": "[node.js] Node Cluster and Express - <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "[node.js] Node Cluster and Express - <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2058,7 +2083,8 @@
 				"url": "https://twitter.com/IraklisAlex",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/aa29db0d68fe27b840f6e18407df4091f62c32df809aa92b133d3dc907f09e36.jpg"
 			},
-			"content": "Node Cluster and Express, make the most of your multi-core machine <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express, make the most of your multi-core machine <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2072,7 +2098,8 @@
 				"url": "https://twitter.com/jeffwhelpley",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/e6048b836d5538f9ecd1a9e9db2be9d4080de7dc3a680c9872d500cfacfb14f7.jpg"
 			},
-			"content": "Just realized that each Heroku Dyno has 4 CPUs. Anyone running Node.js on Heroku should implement this: <a href=\"http://whlp.ly/1atjK7N\" nofollow=\"nofollow\">whlp.ly/1atjK7N</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Just realized that each Heroku Dyno has 4 CPUs. Anyone running Node.js on Heroku should implement this: <a href=\"http://whlp.ly/1atjK7N\" nofollow=\"nofollow\">whlp.ly/1atjK7N</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2086,7 +2113,8 @@
 				"url": "https://twitter.com/mchaud001",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/133e1d1d5a5cc6fd3e0403003da43c28fbeba8b083208ba794cc7594ed9c8736.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2100,7 +2128,8 @@
 				"url": "https://twitter.com/axelhzf",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/6db0f1af21a7462f4499ae2eb5f77accba9bf8d5da63b21615ddc7fbc9ac9622.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://buff.ly/1fgp1eE\" nofollow=\"nofollow\">buff.ly/1fgp1eE</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://buff.ly/1fgp1eE\" nofollow=\"nofollow\">buff.ly/1fgp1eE</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2114,7 +2143,8 @@
 				"url": "https://twitter.com/neiker",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/a772c3af22e92bf1f83c00ed0252e069fb86490724e0ac560bbdb0331876498f.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2128,7 +2158,8 @@
 				"url": "https://twitter.com/aDosoukey",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/9ba200fea04e3f999c7926fd306b4aaa44bb47916f28bf260de5c46f804496b3.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2142,7 +2173,8 @@
 				"url": "https://twitter.com/jumand",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/3d59a12566032b7239e95b0945d20e923e96df54b672c7fa4f5d9bdf1697c639.jpg"
 			},
-			"content": "Probably not news to anyone familiar with Node, but it's news to me.  Really clear article on the Cluster module <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Probably not news to anyone familiar with Node, but it's news to me.  Really clear article on the Cluster module <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2156,7 +2188,8 @@
 				"url": "https://twitter.com/integralist",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/b5125603491f3ab8e39f6c9b6853dae88a7184f3cf1f1f4c551fea6a529d2ec8.jpg"
 			},
-			"content": "Nice post on using Node's Cluster module along with ExpressJS and recovering from dead workers <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Nice post on using Node's Cluster module along with ExpressJS and recovering from dead workers <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2170,7 +2203,8 @@
 				"url": "https://twitter.com/jalateras",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/8b73f804fba5a123631217e7b0d7acde9ffd796a14e2e23a8330b716b3a5afcd.jpg"
 			},
-			"content": "Simply adding clustering to your <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> <a href=\"https://twitter.com/search?q=%23express\" nofollow=\"nofollow\">#express</a> application <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Simply adding clustering to your <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> <a href=\"https://twitter.com/search?q=%23express\" nofollow=\"nofollow\">#express</a> application <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2184,7 +2218,8 @@
 				"url": "https://twitter.com/arcseldon",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/5f561b1ed78dfa7d6c81cad6ceda9ab34bd53a6fb729e33c6cce985a3058332b.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2198,7 +2233,8 @@
 				"url": "https://twitter.com/andrea_j24",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/6a22fb656a5da34db5e859695afa9b37fc28941c79ae87b0bb3daf5f00cfbab0.png"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2212,7 +2248,8 @@
 				"url": "https://twitter.com/Made_In_France",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/90539fc51546ba352008a9a8e924017aeb88c37fe18a82b2de41e91ff6601622.jpg"
 			},
-			"content": "Node.js at Full Core Power, see more here: <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node.js at Full Core Power, see more here: <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2226,7 +2263,8 @@
 				"url": "https://twitter.com/saumya",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/65fffa4eab26ef3b6a1289e0d52e4d93e9953613818f10baf7a61418e536bc93.png"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> <a href=\"https://twitter.com/search?q=%23nodeJS\" nofollow=\"nofollow\">#nodeJS</a> <a href=\"https://twitter.com/search?q=%23javascript\" nofollow=\"nofollow\">#javascript</a> <a href=\"https://twitter.com/search?q=%23jsdev\" nofollow=\"nofollow\">#jsdev</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> <a href=\"https://twitter.com/search?q=%23nodeJS\" nofollow=\"nofollow\">#nodeJS</a> <a href=\"https://twitter.com/search?q=%23javascript\" nofollow=\"nofollow\">#javascript</a> <a href=\"https://twitter.com/search?q=%23jsdev\" nofollow=\"nofollow\">#jsdev</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2240,7 +2278,8 @@
 				"url": "https://twitter.com/satangparty",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/23de9b264d9644e6e5c45de5d72c68370f100ecc811ddcdc4ba202c7e33e11f8.jpg"
 			},
-			"content": "<a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "<a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2254,7 +2293,8 @@
 				"url": "https://twitter.com/l_capra",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/0a64e2e36acfdd97078448ee3a11d34aa5ddfdb23099f39707eb3ffe4089f091.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2268,7 +2308,8 @@
 				"url": "https://twitter.com/coderpost",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/55bb58ee35375b6812e718a5a06b5bf686edd9ee5e6757a9ce919dfba7fb982f.png"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> <a href=\"https://twitter.com/search?q=%23dev\" nofollow=\"nofollow\">#dev</a> <a href=\"https://twitter.com/search?q=%23javascript\" nofollow=\"nofollow\">#javascript</a> <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> <a href=\"https://twitter.com/search?q=%23cluster\" nofollow=\"nofollow\">#cluster</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> <a href=\"https://twitter.com/search?q=%23dev\" nofollow=\"nofollow\">#dev</a> <a href=\"https://twitter.com/search?q=%23javascript\" nofollow=\"nofollow\">#javascript</a> <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> <a href=\"https://twitter.com/search?q=%23cluster\" nofollow=\"nofollow\">#cluster</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2282,7 +2323,8 @@
 				"url": "https://twitter.com/jed_foster",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/42beba9766bf078a657868f7f021f3250c70ffa0993db1c7ebe0e3638eef1844.jpg"
 			},
-			"content": "Node is a cluster.fork(). \n\n<a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node is a cluster.fork(). \n\n<a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2296,7 +2338,8 @@
 				"url": "https://twitter.com/Bitcollage",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/8758a87e43fa467862af2ac5b9ab56beb616e901c1362492bd920eb5e82ba0dd.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a> <a href=\"https://twitter.com/search?q=%23performance\" nofollow=\"nofollow\">#performance</a> <a href=\"https://twitter.com/search?q=%23javascript\" nofollow=\"nofollow\">#javascript</a> <a href=\"https://twitter.com/search?q=%23cluster\" nofollow=\"nofollow\">#cluster</a> <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a> <a href=\"https://twitter.com/search?q=%23performance\" nofollow=\"nofollow\">#performance</a> <a href=\"https://twitter.com/search?q=%23javascript\" nofollow=\"nofollow\">#javascript</a> <a href=\"https://twitter.com/search?q=%23cluster\" nofollow=\"nofollow\">#cluster</a> <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2310,7 +2353,8 @@
 				"url": "https://twitter.com/vikas__malhotra",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/f99993735cade7dca96e3eede2cec369dfec38a6ffb94b833dad2321f40fb09f.jpg"
 			},
-			"content": "<a href=\"https://twitter.com/search?q=%23Node\" nofollow=\"nofollow\">#Node</a> Cluster and <a href=\"https://twitter.com/search?q=%23Express\" nofollow=\"nofollow\">#Express</a> - <a href=\"http://go.shr.lc/1stsu1x\" nofollow=\"nofollow\">go.shr.lc/1stsu1x</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "<a href=\"https://twitter.com/search?q=%23Node\" nofollow=\"nofollow\">#Node</a> Cluster and <a href=\"https://twitter.com/search?q=%23Express\" nofollow=\"nofollow\">#Express</a> - <a href=\"http://go.shr.lc/1stsu1x\" nofollow=\"nofollow\">go.shr.lc/1stsu1x</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2324,7 +2368,8 @@
 				"url": "https://twitter.com/lbroudoux",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/4c86f442564e72e6dbdefc1ec02e4da396f89bccae9a39206d8d888eadaa948a.jpg"
 			},
-			"content": "<a href=\"https://twitter.com/PierreG_\" nofollow=\"nofollow\">@PierreG_</a> How to cluster a NodeJS Express application : <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "<a href=\"https://twitter.com/PierreG_\" nofollow=\"nofollow\">@PierreG_</a> How to cluster a NodeJS Express application : <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2338,7 +2383,8 @@
 				"url": "https://twitter.com/pinceladasdaweb",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/c81771b693a4340c8b7d8da389140b7b45fde73730ba9e4ecc4ab16d1c080243.jpg"
 			},
-			"content": "Node Cluster and Express: <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express: <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2352,7 +2398,8 @@
 				"url": "https://twitter.com/UmpaLumpaGreek",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/84c051eab4778b4a3f5db4f98fc29c9947080373b1d0a60dd2ee757dabdf84d4.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2366,7 +2413,8 @@
 				"url": "https://twitter.com/jbarrios1983",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/71f3b2a350290fc408f68aec2e1cd36a7749cf750b4d6c20014bdd79600cb3f8.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> vía <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> vía <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2380,7 +2428,8 @@
 				"url": "https://twitter.com/veacks",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/a5417cd35d3dcc0946302535a006198d06b13640c0351e59845b316e6239644d.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2394,7 +2443,8 @@
 				"url": "https://twitter.com/avrono",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/0f3f73f490e1a72eda76825bb8afe6f7a503f57e2ac595d9d18a2108aa4b7dd7.jpg"
 			},
-			"content": "Nice blog post on the basics of node clustering <a href=\"http://lnkd.in/ddeHVkU\" nofollow=\"nofollow\">lnkd.in/ddeHVkU</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Nice blog post on the basics of node clustering <a href=\"http://lnkd.in/ddeHVkU\" nofollow=\"nofollow\">lnkd.in/ddeHVkU</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2408,7 +2458,8 @@
 				"url": "https://twitter.com/Sathiya_rr",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/00a868477064a7361a2c76c8fb6069c321390cf8bde83eca5c518200acc3b136.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2422,7 +2473,8 @@
 				"url": "https://twitter.com/hosred",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/a1d697f4dad46794b5b17d0d66dd3517a95792d9f0c8b56e35b3ce28b8f75406.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/feedly\" nofollow=\"nofollow\">@feedly</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/feedly\" nofollow=\"nofollow\">@feedly</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2436,7 +2488,8 @@
 				"url": "https://twitter.com/ShortTompkins",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/6fee8dd4b364613470ec67b8432549127d17aefe150d36bade26df09b37fb3ea.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://ift.tt/YlGpqL\" nofollow=\"nofollow\">ift.tt/YlGpqL</a> - <a href=\"https://twitter.com/getpocket\" nofollow=\"nofollow\">@GetPocket</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://ift.tt/YlGpqL\" nofollow=\"nofollow\">ift.tt/YlGpqL</a> - <a href=\"https://twitter.com/getpocket\" nofollow=\"nofollow\">@GetPocket</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2450,7 +2503,8 @@
 				"url": "https://twitter.com/m_sangui",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/8096a9460fe6e33c9babf9112dc326d876465c891bcb95a3442a2619c35c7583.jpg"
 			},
-			"content": "Node clustered, so good it seems stupid!\n<a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node clustered, so good it seems stupid!\n<a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2464,7 +2518,8 @@
 				"url": "https://twitter.com/mattcameron",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/d84f06a914ebe292d882103b04608f6191a43a1df630e850766c7a1b082d689a.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2478,7 +2533,8 @@
 				"url": "https://twitter.com/FxFriendlyX",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/82d72291f7f3570c8d302cbcd3ec793d45ff844e1628ca905c1b98ec1f537d88.png"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2492,7 +2548,8 @@
 				"url": "https://twitter.com/nmccready",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/a885d27aa8318fe846f5f4508c311a91422471ed5ecdcb934dc602fac0f07802.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> str8 to the point!\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> str8 to the point!\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2506,7 +2563,8 @@
 				"url": "https://twitter.com/amar_mca",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/989f07cb1a8b47d4d471b12458e4be6f22b86e1834c4e9c95267708793d3e111.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2520,7 +2578,8 @@
 				"url": "https://twitter.com/DaniStefanovic",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/aba24cd8b75147d4e0f8d5ca22805d10fffdea5f672729ee2ed1db947623bff7.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2534,7 +2593,8 @@
 				"url": "https://twitter.com/Dbcodes",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/97235e6d66f54539104281c65f8f848aa4eee3c8e8575e07b83b39e1ecbf5cee.png"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2548,7 +2608,8 @@
 				"url": "https://twitter.com/daandvs",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/eeaa4c59f641433a5e7275acd32a847be61a86432a5b57d0c1c73b026eef15d3.jpg"
 			},
-			"content": "<a href=\"https://twitter.com/search?q=%23node\" nofollow=\"nofollow\">#node</a> clusters nicely explained! <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "<a href=\"https://twitter.com/search?q=%23node\" nofollow=\"nofollow\">#node</a> clusters nicely explained! <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2562,7 +2623,8 @@
 				"url": "https://twitter.com/PeterElkjaer",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/fad58c29d60ba8c2cd36254f467b0865b3457a8ed3b59bd594ea6879b0f5df63.jpg"
 			},
-			"content": "<a href=\"https://twitter.com/mtandrup\" nofollow=\"nofollow\">@mtandrup</a> <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> gør vi noget ala det her?\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "<a href=\"https://twitter.com/mtandrup\" nofollow=\"nofollow\">@mtandrup</a> <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> gør vi noget ala det her?\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2576,7 +2638,8 @@
 				"url": "https://twitter.com/watinha",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/004aa155c80a8e912cd0ded742cfc80dd9310e13e4b66864b55447c0f9c97cc3.png"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2590,7 +2653,8 @@
 				"url": "https://twitter.com/el_prakash",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/15818672bd231fe2e8966fd7c9240a04293fbabda3a17dcc01712004f0827e9e.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2604,7 +2668,8 @@
 				"url": "https://twitter.com/bvtuan",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/bfacd25a3c5b30052f2be565bcec7bc180714c2b25555c6e256dc9b27960b2e1.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2618,7 +2683,8 @@
 				"url": "https://twitter.com/tienduccao",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/f0769f7db7c0014ff71fbf4fd705e706d7793eaad6c309737c8df6432eb389fc.jpg"
 			},
-			"content": "Node cluster <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node cluster <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2632,7 +2698,8 @@
 				"url": "https://twitter.com/ichBinHassaan",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/df6d2092ae69db93991cb043ab6bb07c3267bbc99399a6aea167d638730becea.jpg"
 			},
-			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2646,7 +2713,8 @@
 				"url": "https://twitter.com/davidnussio",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/80e1f7c943bae703f6153325cbe2b340a06817cae8acbe4a5e383581c33aec8c.jpg"
 			},
-			"content": "Everything in nodejs is simple, cluster example: <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Everything in nodejs is simple, cluster example: <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2660,7 +2728,8 @@
 				"url": "https://twitter.com/nielswh",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/0a0a10c1febe60a0f284bdd1d8830b7248c3fa262398bddfabd03104526ce4d8.png"
 			},
-			"content": "Cluster your express.js apps\n\n<a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n\n<a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> <a href=\"https://twitter.com/search?q=%23expressjs\" nofollow=\"nofollow\">#expressjs</a> <a href=\"https://twitter.com/search?q=%23cluster\" nofollow=\"nofollow\">#cluster</a>\n\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Cluster your express.js apps\n\n<a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n\n<a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a> <a href=\"https://twitter.com/search?q=%23expressjs\" nofollow=\"nofollow\">#expressjs</a> <a href=\"https://twitter.com/search?q=%23cluster\" nofollow=\"nofollow\">#cluster</a>\n\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2674,7 +2743,8 @@
 				"url": "https://twitter.com/jlamigueiro",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/7d67d2a9b9ea289398c4474d0ec871d7c3391c209fce94611517d21ba19b355b.jpg"
 			},
-			"content": "Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2688,7 +2758,8 @@
 				"url": "https://twitter.com/sgoldberg",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/474107aaf536c4c245214d5d2654bdbb678fa105c55a31fb257617df26c8c868.jpg"
 			},
-			"content": "Very helpful blog post on running <a href=\"https://twitter.com/search?q=%23node\" nofollow=\"nofollow\">#node</a> at <a href=\"https://twitter.com/search?q=%23scale\" nofollow=\"nofollow\">#scale</a> <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Very helpful blog post on running <a href=\"https://twitter.com/search?q=%23node\" nofollow=\"nofollow\">#node</a> at <a href=\"https://twitter.com/search?q=%23scale\" nofollow=\"nofollow\">#scale</a> <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2702,7 +2773,8 @@
 				"url": "https://twitter.com/ChillyPriG",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/1d6ef8dfb56d18d00b0b297db37a5c35e86cd42cc00ecd180dc19335b3c0752b.jpg"
 			},
-			"content": "Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2716,7 +2788,8 @@
 				"url": "https://twitter.com/jonilano",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/cd75c3fa4ab69b8317db6cb712fa7f1da30da6a9ea6491fbb31501ddaccbaa0f.jpg"
 			},
-			"content": "TIL: Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "TIL: Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2730,7 +2803,8 @@
 				"url": "https://twitter.com/isortegah",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/1ad41ee6f32436f8ed25aecb25e576297f5eee87428a8fcb082a72226136a783.jpg"
 			},
-			"content": "<a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> <a href=\"https://twitter.com/search?q=%23express\" nofollow=\"nofollow\">#express</a> <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "<a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> <a href=\"https://twitter.com/search?q=%23express\" nofollow=\"nofollow\">#express</a> <a href=\"https://twitter.com/search?q=%23nodejs\" nofollow=\"nofollow\">#nodejs</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2744,7 +2818,8 @@
 				"url": "https://twitter.com/graynun_",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/a08fe0b5786b32700fd062c7557b9fa23c3ebea968cf900c4f95b62f57e2dc37.jpg"
 			},
-			"content": "node cluster라는게 있어서 이것이 무엇인가 찾아보고 있다. 컴퓨터 작동방식 모루니까 진짜 이건 뭐 낫놓고 ㄱ부터 찾아가는 기세다... <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "node cluster라는게 있어서 이것이 무엇인가 찾아보고 있다. 컴퓨터 작동방식 모루니까 진짜 이건 뭐 낫놓고 ㄱ부터 찾아가는 기세다... <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2758,7 +2833,8 @@
 				"url": "https://twitter.com/SalvoSorrusca",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/4d67d7b13567556ea0f3c92558c1af7e749bf7e85bd4bc861bfcfd3aad84d1ca.jpg"
 			},
-			"content": "Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "response",
@@ -2772,7 +2848,8 @@
 				"url": "https://twitter.com/Saikat_Dey2011",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/84a43703f570decfda8eb0c2e02b061163b094c9b2df6bbc7f3b208cd476bc85.jpg"
 			},
-			"content": "Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a> is this code production ready?\n<a href=\"https://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\"></a>"
+			"content": "Node.js Cluster and Express <a href=\"http://rowanmanning.com/posts/node-cluster-and-express/\" nofollow=\"nofollow\">rowanmanning.com/posts/node-clu…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a> is this code production ready?\n",
+			"isTruncated": false
 		}
 	]
 }

@@ -98,7 +98,8 @@
 				"url": "https://rowanmanning.com/",
 				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png"
 			},
-			"content": "<ul><li><p>I went into the office for the first time in over a year. The day started really well, I got loads done and felt really productive, but by the end of the day I was exhausted, overstimulated, and barely able to think. I’m going to try and go in once a week to ease myself back into office work, I really enjoyed seeing a few familiar faces.</p></li>\n<li><p>We did another <a href=\"https://rowanmanning.com/weeknotes/29/\" nofollow=\"nofollow\">Minecraft “speedrun”</a> and did pretty well this time. We used a stable version of the game, a random world seed, and actually killed the dragon this time. We’re still pretty unorganised and not working as a group so we’re going to try a different strategy next time. I’m enjoying these a lot!</p></li>\n<li><p>My board game group has been playing the <a href=\"https://boardgamegeek.com/boardgame/295486/my-city\" nofollow=\"nofollow\">My City</a> campaign, which is pretty relaxing as competitive games go. You’re building a city with little Tetris-like buildings, and it’s really satisfying when you manage to combine all your buildings neatly. I recommend it if you want something quite relaxed and low-effort.</p></li>\n<li>\n<a href=\"https://rowanmanning.com/weeknotes/30/eurovision.jpg\" nofollow=\"nofollow\"><a href=\"https://rowanmanning.com/weeknotes/30/eurovision.jpg\" nofollow=\"nofollow\">[image \"A picture of our TV screen, with Eurovision playing. The running order is pinned to the TV cabinet, and lots of european flags hang across the wall.\"]</a></a>\n<p>It was Eurovision! We hosted four others at our flat and went with our usual format of having food and drink from as many countries as possible. We overestimated how much food we’d need and we were full by halfway through the running order. I love Eurovision, I particularly love that the UK managed to finish at zero. I ate enough food to remember the whole evening and not have a hangover, well done me.</p>\n</li>\n<li><p>Partway through Eurovision something, blew a fuse and tripped the power off. We got it back on quickly and assumed it was the fairy lights we have up in the living room. However the next day we discovered that the oven wasn’t working 😬 I really <a href=\"https://rowanmanning.com/weeknotes/1/\" nofollow=\"nofollow\">hope it doesn’t take weeks</a> to get fixed.</p></li>\n<li><p>I think I’ve finally trained myself to enjoy coriander. It still tastes like soap but I find myself adding more and more of it to various recipes because I <em>want</em> that taste.</p></li>\n</ul>"
+			"content": "…We did another <a href=\"https://rowanmanning.com/weeknotes/29/\" nofollow=\"nofollow\">Minecraft “speedrun”</a> and did pretty well this time. We used a stable version of the game, a random world seed, and actually killed the dragon this time. We’re still pretty unorganised and not working as a group so we’re going to try a different strategy next…",
+			"isTruncated": true
 		},
 		{
 			"type": "like",
@@ -111,7 +112,9 @@
 				"name": "Ged",
 				"url": "https://twitter.com/macdermott",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/34a41064d290b3bcc9daf763b837b21889d069a8f90fb90ace123230f5d7be47.jpg"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		},
 		{
 			"type": "like",
@@ -124,7 +127,9 @@
 				"name": "Luke Blaney",
 				"url": "https://twitter.com/lucas42",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		},
 		{
 			"type": "like",
@@ -137,7 +142,9 @@
 				"name": "Perry Harlock",
 				"url": "https://twitter.com/perryharlock",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		}
 	]
 }

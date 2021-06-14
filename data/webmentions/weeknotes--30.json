@@ -96,7 +96,8 @@
 				"url": "https://chee.snoot.club/author/chee/",
 				"photo": "https://webmention.io/avatar/secure.gravatar.com/396a384939d13b319cd21a25f6705fbce1dacbdad42304c412ccf79039f75f84.jpg"
 			},
-			"content": "<p>i’ve also just recently completed coriander!</p>\n<p>i love it in tacos and in curry now!!</p>"
+			"content": "<p>i’ve also just recently completed coriander!</p>\n<p>i love it in tacos and in curry now!!</p>",
+			"isTruncated": false
 		},
 		{
 			"type": "like",
@@ -109,7 +110,9 @@
 				"name": "Jennifer",
 				"url": "https://twitter.com/teachlearncode",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/87a946285c4c07c0229d1f561dad65d6708839b3e034010081edbafc8f34a96e.jpg"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		},
 		{
 			"type": "like",
@@ -122,7 +125,9 @@
 				"name": "Perry Harlock",
 				"url": "https://twitter.com/perryharlock",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		},
 		{
 			"type": "like",
@@ -135,7 +140,9 @@
 				"name": "Luke Blaney",
 				"url": "https://twitter.com/lucas42",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		}
 	]
 }

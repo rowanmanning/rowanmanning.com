@@ -31,7 +31,9 @@
 				"name": "Andrew Brough",
 				"url": "https://twitter.com/digital__zen",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/b3cecdc3009da0f60d691b214b98868a52140e2d14ebf4443fb374a7970ad304.jpg"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		}
 	]
 }

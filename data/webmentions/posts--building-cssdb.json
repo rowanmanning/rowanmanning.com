@@ -75,7 +75,8 @@
 				"url": "https://twitter.com/williamsager",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/65f4fbdd4ec80d9e7fb6809eb5eef97750e0b09d515043668dd9548268c2dd5d.png"
 			},
-			"content": "Building CSSDB <a href=\"http://ow.ly/2vPlU4\" nofollow=\"nofollow\">ow.ly/2vPlU4</a>\n<a href=\"https://rowanmanning.com/posts/building-cssdb/\" nofollow=\"nofollow\"></a>"
+			"content": "Building CSSDB <a href=\"http://ow.ly/2vPlU4\" nofollow=\"nofollow\">ow.ly/2vPlU4</a>\n",
+			"isTruncated": false
 		},
 		{
 			"type": "repost",
@@ -89,7 +90,8 @@
 				"url": "https://twitter.com/theCSSDB",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/ca0679450d14fb2fa497dceb907876e50b019da59f853324f58b0dbd3b792083.png"
 			},
-			"content": "For anyone interested, I blogged about how @theCSSDB was built. Fun side project :) rown.me/14v0YIo"
+			"content": "For anyone interested, I blogged about how @theCSSDB was built. Fun side project :) rown.me/14v0YIo",
+			"isTruncated": false
 		},
 		{
 			"type": "like",
@@ -102,7 +104,9 @@
 				"name": "SETH GORE",
 				"url": "https://twitter.com/_sethjgore",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/a7cc8134d275d4a7ee6d35fc26726cf57fbe2c6d042596929b1369383990e299.jpg"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		}
 	]
 }

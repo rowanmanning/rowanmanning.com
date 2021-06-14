@@ -49,7 +49,9 @@
 				"name": "Jennifer",
 				"url": "https://twitter.com/teachlearncode",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/87a946285c4c07c0229d1f561dad65d6708839b3e034010081edbafc8f34a96e.jpg"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		},
 		{
 			"type": "like",
@@ -62,7 +64,9 @@
 				"name": "Perry Harlock",
 				"url": "https://twitter.com/perryharlock",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		}
 	]
 }

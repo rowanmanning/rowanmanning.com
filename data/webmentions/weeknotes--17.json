@@ -49,7 +49,9 @@
 				"name": "Jermila Dhas",
 				"url": "https://twitter.com/JermilaD",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		},
 		{
 			"type": "like",
@@ -62,7 +64,9 @@
 				"name": "Laura Carvajal",
 				"url": "https://twitter.com/lc512k",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg"
-			}
+			},
+			"content": null,
+			"isTruncated": false
 		}
 	]
 }
