@@ -4,7 +4,7 @@ slug: organising-a-virtual-treasure-hunt
 aliases:
   - /posts/organising-a-virtual-treasure-hunt-as-a-team-social/
 date: 2021-05-10 14:00:00
-description: "The real treasures were the friends we made along the way"
+description: "The real treasures were the friends we made along the way."
 crossPost:
   siteName: "FT Product & Technology"
   siteUrl: "https://medium.com/ft-product-technology"
