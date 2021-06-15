@@ -35,7 +35,7 @@ markup:
 
 # Restrict the output of RSS feeds, and add ATOM feeds for sections
 outputs:
-  home: ["HTML"]
+  home: ["HTML", "ATOM"]
   page: ["HTML"]
   section: ["HTML", "ATOM"]
   taxonomy: ["HTML"]
@@ -54,3 +54,11 @@ related:
       weight: 10
   threshold: 80
   toLower: false
+
+# Site parameters
+params:
+
+  # Configure the home page feed
+  feedSections:
+    - posts
+    - weeknotes
