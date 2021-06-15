@@ -17,6 +17,31 @@
 			"like-of": "https://rowanmanning.com/weeknotes/33/",
 			"wm-property": "like-of",
 			"wm-private": false
+		},
+		"ddbd386cd43a9e37afee34ddf3014004": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "chee",
+				"photo": "https://webmention.io/avatar/secure.gravatar.com/396a384939d13b319cd21a25f6705fbce1dacbdad42304c412ccf79039f75f84.jpg",
+				"url": "https://chee.snoot.club/author/chee/"
+			},
+			"url": "https://chee.snoot.club/2021/06/15/1328/",
+			"published": "2021-06-15T10:21:20+01:00",
+			"wm-received": "2021-06-15T09:40:04Z",
+			"wm-id": 1190472,
+			"wm-source": "https://chee.snoot.club/2021/06/15/1328/",
+			"wm-target": "https://rowanmanning.com/weeknotes/33/",
+			"content": {
+				"html": "in reply to <a href=\"https://rowanmanning.com/weeknotes/33/\" class=\"p-name u-url\">Fire Safety</a>\n\t    (<span class=\"p-publication\">Rowan Manning</span>)\n\t<blockquote class=\"e-summary\">I’ve had a whale of a time implementing Webmentions on this website. Thank you chee for introducing me to them!</blockquote>\n    <p>niiiice! I’m looking forward to the longform post!!!</p>",
+				"text": "in reply to Fire Safety\n\t    (Rowan Manning)\n\tI’ve had a whale of a time implementing Webmentions on this website. Thank you chee for introducing me to them!\n    niiiice! I’m looking forward to the longform post!!!"
+			},
+			"in-reply-to": "https://rowanmanning.com/weeknotes/33/",
+			"wm-property": "in-reply-to",
+			"wm-private": false,
+			"rels": {
+				"canonical": "https://chee.snoot.club/2021/06/15/1328/"
+			}
 		}
 	},
 	"processed": [
@@ -33,6 +58,21 @@
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
 			},
 			"content": null,
+			"isTruncated": false
+		},
+		{
+			"type": "response",
+			"sourceUrl": "https://chee.snoot.club/2021/06/15/1328/",
+			"targetUrl": "https://rowanmanning.com/weeknotes/33/",
+			"date": "2021-06-15T10:21:20+01:00",
+			"url": "https://chee.snoot.club/2021/06/15/1328/",
+			"isFromTwitter": false,
+			"author": {
+				"name": "chee",
+				"url": "https://chee.snoot.club/author/chee/",
+				"photo": "https://webmention.io/avatar/secure.gravatar.com/396a384939d13b319cd21a25f6705fbce1dacbdad42304c412ccf79039f75f84.jpg"
+			},
+			"content": "in reply to <a href=\"https://rowanmanning.com/weeknotes/33/\" nofollow=\"nofollow\">Fire Safety</a>\n\t    (Rowan Manning)\n\t<blockquote>I’ve had a whale of a time implementing Webmentions on this website. Thank you chee for introducing me to them!</blockquote>\n    <p>niiiice! I’m looking forward to the longform post!!!</p>",
 			"isTruncated": false
 		}
 	]
