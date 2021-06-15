@@ -13,10 +13,13 @@
 	background-repeat: no-repeat;
 	border-left: calc(var(--spacing-rule) * 0.5) solid var(--quote-border-color);
 	padding: 0;
-	padding-left: var(--spacing-line);
+	padding-left: calc(var(--spacing-line) - (var(--spacing-rule) * 0.5));
 
 	> blockquote {
 		margin: 0;
+		padding: 0;
+		border: none;
+		background: none;
 	}
 }
 
