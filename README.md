@@ -19,6 +19,23 @@ The source code for [rowanmanning.com](https://rowanmanning.com/).
   4. Visit [http://localhost:1313/](http://localhost:1313/)
 
 
+## Writing new content
+
+Use Hugo archetypes to write new content:
+
+  * To write a post:
+
+    ```bash
+    hugo new posts/<slug>
+    ```
+
+  * To write a weeknote:
+
+    ```bash
+    hugo new weeknotes/<number>
+    ```
+
+
 ## Licence
 
 Site content is copyright Rowan Manning. You may not use any of the page content, posts, or images without permission.
