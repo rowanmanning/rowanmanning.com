@@ -23,7 +23,8 @@ taxonomies:
 
 # Simplify the permalinks for blog posts
 permalinks:
-  posts: "/posts/:slug/"
+  posts: "/posts/:filename/"
+  weeknotes: "/weeknotes/:filename/"
 
 # Enable emoji rendering
 enableEmoji: true
