@@ -10,6 +10,11 @@ const {JSDOM} = require('jsdom');
 const maxContentCharacterLength = 280;
 const maxContentLines = 6;
 
+// Set up DOMPurify
+const {window} = new JSDOM('');
+const {document} = window;
+const DOMPurify = createDOMPurify(window);
+
 (async () => {
 
 	// Load all webmention files
@@ -76,7 +81,7 @@ function getMentionContent(webmention) {
 	const content = webmention.content ? webmention.content.html || webmention.content.text || null : summary;
 
 	if (content) {
-		const {cleanDOM, document} = getCleanDOM(content);
+		const cleanDOM = getCleanDOM(content);
 
 		if (!cleanDOM || !cleanDOM.textContent) {
 			return null;
@@ -157,7 +162,7 @@ function getMentionContent(webmention) {
 			isTruncated: (cleanHTML !== fullHTML)
 		};
 	}
-	
+
 	return {
 		content: null,
 		isTruncated: false
@@ -165,13 +170,11 @@ function getMentionContent(webmention) {
 }
 
 function getCleanDOM(html) {
-
-	// Set up DOMPurify
-	const {window, document} = htmlStringToDOM(html);
-	const DOMPurify = createDOMPurify(window);
+	const wrapper = document.createElement('div');
+	wrapper.innerHTML = html;
 
 	// Sanitize the created DOM
-	const cleanDOM = DOMPurify.sanitize(document.body, {
+	const cleanDOM = DOMPurify.sanitize(wrapper, {
 
 		// Sanitize the DOM in-place so that we can make changes afterwards
 		IN_PLACE: true,
@@ -215,18 +218,7 @@ function getCleanDOM(html) {
 
 	});
 
-	return {
-		cleanDOM,
-		document
-	};
-}
-
-function htmlStringToDOM(content) {
-	const {window} = new JSDOM(content);
-	return {
-		document: window.document,
-		window
-	};
+	return cleanDOM;
 }
 
 async function loadJSON(filePath) {
