@@ -39,6 +39,7 @@ $site-base-url: "{{ "/" | relURL }}";
 @import "components/notification";
 @import "components/page";
 @import "components/pin";
+@import "components/site-search";
 @import "components/social-feed";
 @import "components/table";
 @import "components/tag";

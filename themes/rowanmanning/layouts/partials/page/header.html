@@ -7,6 +7,15 @@
 		<nav role="navigation" class="header__navigation">
 			<ul>
 
+				<li class="header__navigation-item site-search" data-component="site-search">
+					<label class="site-search__label hidden" for="search-input">Search here</label>
+					<form method="get" action="https://www.google.com/search" class="site-search__fallback-wrapper">
+						<input type="hidden" name="sitesearch" value="{{ .Site.BaseURL }}" />
+						<input type="text" name="q" id="search-input" class="site-search__input" />
+						<button type="submit" class="site-search__submit">Go</button>
+					</form>
+				</li>
+
 				{{ $currentPage := . }}
 				{{ range .Site.Menus.main }}
 					{{ $isMenuCurrent := $currentPage.IsMenuCurrent "main" . }}

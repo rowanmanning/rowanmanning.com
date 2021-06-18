@@ -1,0 +1,14 @@
+{{- $scratch := newScratch -}}
+{{- $scratch.Add "lunr-index" slice -}}
+{{- range .Site.RegularPages -}}
+	{{-
+		$scratch.Add "lunr-index" (dict
+			"url" .Permalink
+			"title" .Title
+			"tags" (.Params.Tags | default slice)
+			"description" .Description
+			"content" .Plain
+		)
+	-}}
+{{- end -}}
+{{ jsonify ($scratch.Get "lunr-index") }}

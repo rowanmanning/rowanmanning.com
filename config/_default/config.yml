@@ -36,7 +36,7 @@ markup:
 
 # Restrict the output of RSS feeds, and add ATOM feeds for sections
 outputs:
-  home: ["HTML", "ATOM"]
+  home: ["HTML", "ATOM", "LUNR"]
   page: ["HTML"]
   section: ["HTML", "ATOM"]
   taxonomy: ["HTML"]

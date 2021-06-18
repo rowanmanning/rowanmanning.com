@@ -1,0 +1,26 @@
+
+# Lunr Index
+# ==========
+#
+# Add "LUNR" to the home Page Kind under [outputs.home] in your site config
+# to generate a Lunr index.
+#
+# Example:
+#   [outputs]
+#     home = ["HTML", "LUNR"]
+
+# Required media types
+[mediaTypes."application/json"]
+  suffixes = ["lunr.json"]
+
+# Lunr output formats (generates the document list)
+# https://lunrjs.com/guides/getting_started.html#creating-an-index
+[outputFormats.Lunr]
+  name = "Lunr"
+  mediaType = "application/json"
+  baseName = "index"
+  isPlainText = true
+  rel = "alternate"
+  isHTML = false
+  noUgly = false
+  permalinkable = false

@@ -1,0 +1,144 @@
+
+// Site search block
+.site-search {
+	padding: 0 var(--spacingvalue-xxs);
+
+	@media (max-width: $layout-width-mobile) {
+		order: 1000;
+		width: 100%;
+		margin-top: var(--spacingvalue-xs);
+		padding-right: 0;
+	}
+}
+
+// Site search wrapper and fallback wrapper elements
+.site-search__wrapper,
+.site-search__fallback-wrapper {
+	display: flex;
+	justify-content: flex-end;
+}
+
+// Site search input and submit elements
+.site-search__input,
+.site-search__submit {
+	@extend %base-typography;
+	-webkit-appearance: none;
+	border: none;
+	box-sizing: border-box;
+}
+
+// Site search input element
+.site-search__input {
+	width: var(--spacingvalue-xl);
+	margin-bottom: 0; /* BUG: Safari 10 on macOS seems to add an implicit margin. */
+	position: relative;
+	padding: var(--spacingvalue-xxs) var(--spacing-line) var(--spacingvalue-xxs) var(--spacingvalue-xs);
+	border-radius: var(--spacingvalue-xxs);
+	background-color: var(--color-content-background);
+	background-position: calc(100% - var(--spacingvalue-xxs)) center;
+	background-repeat: no-repeat;
+	background-size: var(--spacing-line);
+	background-image: url("#{$site-base-url}icons/search-inverted.svg");
+	color: transparent;
+	transition: width 0.1s linear, box-shadow 0.1s linear, color 0.1s linear;
+	
+	@media (max-width: $layout-width-mobile) {
+		width: 100%;
+		font-size: var(--font-size-small);
+	}
+
+	&:focus,
+	&--focused {
+		width: 100%;
+		outline: 0;
+		box-shadow: inset 0 0 0 2px var(--colorvalue-cream-dark);
+		color: var(--color-content-text);
+	}
+}
+
+// Site search submit element
+.site-search__submit {
+	border-radius: var(--spacingvalue-xxs);
+	background-color: transparent;
+	display: none;
+
+	.site-search__input:focus + & {
+		display: block;
+	}
+	&:hover {
+		background-color: var(--colorvalue-cream-dark);
+		text-decoration: underline;
+	}
+}
+
+// Site search menu element
+.site-search__menu {
+	@extend %base-typography;
+
+	width: calc(100% - (var(--spacing-line) * 2));
+	position: absolute;
+	top: 100%;
+	left: var(--spacing-line);
+	z-index: 100;
+	margin: 0;
+	padding: 0;
+	max-height: 300px;
+	max-height: 50vh;
+	overflow-x: hidden;
+	background-color: var(--color-content-background);
+	border: 2px solid var(--colorvalue-cream-dark);
+	border-top: 0;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 10px; // TODO
+}
+
+// Site search menu element, "visible" modifier
+.site-search__menu--visible {
+	display: block;
+}
+
+// Site search menu element, "hidden" modifier
+.site-search__menu--hidden {
+	display: none;
+}
+
+// Site search option element
+.site-search__option {
+	cursor: pointer;
+	padding: var(--spacingvalue-xs) var(--spacingvalue-s);
+	border-top: solid 1px var(--colorvalue-cream-dark);
+
+	&:first-child {
+		border-top: none;
+	}
+	> * {
+		pointer-events: none;
+	}
+	mark {
+		background-color: var(--colorvalue-yellow-dark);
+	}
+}
+
+// Site search option title element
+.site-search__option-title {
+	font-weight: bold;
+	margin: 0;
+}
+
+// Site search option content element
+.site-search__option-content {
+	margin: 0;
+}
+
+// Site search option element, "focus" and "hover" modifiers
+.site-search__option:focus,
+.site-search__option--focused,
+.site-search__option:hover {
+	background-color: var(--colorvalue-green-light);
+	outline: none;
+}
+
+// Site search option element, "no-results" modifier
+.site-search__option--no-results {
+	color: var(--colorvalue-gray-light);
+	cursor: not-allowed;
+}

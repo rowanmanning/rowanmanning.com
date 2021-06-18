@@ -27,7 +27,7 @@ const DOMPurify = createDOMPurify(window);
 		webmentions.processed = Object.values(webmentions.raw)
 			.map(processWebmention)
 			.filter(webmention => webmention)
-			.sort((a, b) => new Date(a.date) - new Date(b.date));
+			.sort((wm1, wm2) => new Date(wm1.date) - new Date(wm2.date));
 		saveJSON(filePath, webmentions);
 	}
 
@@ -37,6 +37,7 @@ function processWebmention(webmention) {
 	const type = getMentionType(webmention);
 	const author = getMentionAuthor(webmention);
 	const {content, isTruncated} = getMentionContent(webmention);
+	const twitterRegExp = /^https?:\/\/(www\.)?twitter\.com\/[^/]+\/status\//;
 	if (type && author) {
 		return {
 			type,
@@ -44,7 +45,7 @@ function processWebmention(webmention) {
 			targetUrl: webmention['wm-target'],
 			date: webmention.published || webmention['wm-received'],
 			url: webmention.url,
-			isFromTwitter: /^https?:\/\/(www\.)?twitter\.com\/[^\/]+\/status\//.test(webmention.url),
+			isFromTwitter: twitterRegExp.test(webmention.url),
 			author,
 			content,
 			isTruncated
@@ -77,8 +78,16 @@ function getMentionAuthor(webmention) {
 }
 
 function getMentionContent(webmention) {
-	const summary = webmention.summary ? webmention.summary.value : null;
-	const content = webmention.content ? webmention.content.html || webmention.content.text || null : summary;
+	const summary = (
+		webmention.summary ?
+			webmention.summary.value :
+			null
+	);
+	const content = (
+		webmention.content ?
+			webmention.content.html || webmention.content.text || null :
+			summary
+	);
 
 	if (content) {
 		const cleanDOM = getCleanDOM(content);
@@ -95,7 +104,8 @@ function getMentionContent(webmention) {
 			}
 			const link = document.createElement('a');
 			link.setAttribute('href', image.getAttribute('src'));
-			link.textContent = `[image${image.getAttribute('alt') ? ` "${image.getAttribute('alt')}"` : ''}]`;
+			const imageAlt = (image.getAttribute('alt') ? ` "${image.getAttribute('alt')}"` : '');
+			link.textContent = `[image${imageAlt}]`;
 			image.parentElement.replaceChild(link, image);
 		}
 
@@ -104,7 +114,7 @@ function getMentionContent(webmention) {
 			if (!link.textContent.trim()) {
 				link.parentElement.removeChild(link);
 			}
-			link.setAttribute('nofollow', "nofollow");
+			link.setAttribute('nofollow', 'nofollow');
 		}
 
 		// Turn headings into paragraphs
@@ -136,7 +146,7 @@ function getMentionContent(webmention) {
 				let parentHTML = targetLinkParent.innerHTML;
 
 				// Work out if we need ellipses
-				const split = cleanDOM.textContent.split(targetLinkParent.textContent);		
+				const split = cleanDOM.textContent.split(targetLinkParent.textContent);
 				if (split.pop() !== '') {
 					parentHTML = `${parentHTML}…`;
 				}

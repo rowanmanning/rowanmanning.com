@@ -10,7 +10,7 @@ const site = require('../data/webmentions/_site.json');
 
 	const webmentionApiKey = process.env.WEBMENTION_API_KEY;
 	if (!webmentionApiKey) {
-		console.error('No webmention.io API key was found. WEBMENTION_API_KEY environment variable is required');
+		console.error('No WEBMENTION_API_KEY environment variable was found');
 		process.exit(1);
 	}
 
@@ -38,14 +38,14 @@ const site = require('../data/webmentions/_site.json');
 
 	// Cache for existing webmention files
 	const fileCache = {};
-	
+
 	// Loop over and save webmentions on a per-page basis
 	for (const webmention of webmentions) {
 
 		// Calculate a slug and file path for the mention
 		let slug = webmention['wm-target']
 			.replace(`https://${site.domain}/`, '')
-			.replace(/[\#\?].*$/, '')
+			.replace(/[#?].*$/, '')
 			.replace(/\/$/, '')
 			.replace(/\//g, '--');
 
@@ -66,7 +66,8 @@ const site = require('../data/webmentions/_site.json');
 				await fs.access(filePath);
 				fileCache[filePath] = JSON.parse(await fs.readFile(filePath, 'utf-8'));
 			} catch (error) {
-				fileCache[filePath] = {raw: {}, processed: []};
+				fileCache[filePath] = {raw: {},
+					processed: []};
 			}
 		}
 
@@ -87,7 +88,10 @@ const site = require('../data/webmentions/_site.json');
 	if (webmentions.length) {
 		site.lastSync = webmentions[webmentions.length - 1]['wm-received'];
 		console.log(`Saving last sync date as ${site.lastSync}`);
-		await fs.writeFile(`${__dirname}/../data/webmentions/_site.json`, JSON.stringify(site, null, '\t'));
+		await fs.writeFile(
+			`${__dirname}/../data/webmentions/_site.json`,
+			JSON.stringify(site, null, '\t')
+		);
 	}
 
 })();

@@ -1,10 +1,38 @@
 {
   "name": "rowanmanning.com",
   "version": "0.0.0",
+  "private": true,
+  "description": "The source code for rowanmanning.com",
+  "keywords": [],
+  "author": {
+    "name": "Rowan Manning",
+    "url": "https://rowanmanning.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rowanmanning/rowanmanning.com.git"
+  },
+  "homepage": "https://github.com/rowanmanning/rowanmanning.com",
+  "bugs": "https://github.com/rowanmanning/rowanmanning.com/issues",
+  "license": "CC-BY-NC-SA-3.0",
+  "engines": {
+    "node": ">=14"
+  },
   "dependencies": {
+    "accessible-autocomplete": "^2.0.3",
     "dompurify": "^2.2.9",
     "got": "^11.8.2",
+    "hotkeys-js": "^3.8.7",
     "jsdom": "^16.6.0",
+    "lunr": "^2.3.9",
     "text-clipper": "^2.1.0"
+  },
+  "devDependencies": {
+    "@rowanmanning/eslint-config": "^3.1.0",
+    "@rowanmanning/make": "^2.1.0",
+    "eslint": "^7.28.0"
+  },
+  "scripts": {
+    "start": "hugo server -D"
   }
 }

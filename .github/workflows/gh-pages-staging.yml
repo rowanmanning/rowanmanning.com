@@ -30,6 +30,21 @@ jobs:
         with:
           timezone: Europe/London
 
+      # Set up Node.js and install dependencies
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - uses: actions/cache@v1
+        env:
+          cache-version: v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-${{ env.cache-version }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ env.cache-version }}-
+            ${{ runner.os }}-
+      - run: npm install
+
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:

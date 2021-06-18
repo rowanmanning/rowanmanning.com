@@ -31,6 +31,7 @@
 	display: flex;
 	padding-bottom: var(--spacingvalue-xs);
 	padding-top: var(--spacingvalue-xs);
+	position: relative;
 
 	@media (max-width: $layout-width-mobile) {
 		flex-direction: column;
@@ -63,7 +64,6 @@
 
 	> ul {
 		display: flex;
-		flex-wrap: wrap;
 		list-style: none;
 		justify-content: flex-end;
 		margin: 0;
@@ -71,6 +71,7 @@
 
 		@media (max-width: $layout-width-mobile) {
 			justify-content: flex-start;
+			flex-wrap: wrap;
 		}
 
 		> li:not(:first-child) {
