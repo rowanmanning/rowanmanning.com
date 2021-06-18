@@ -29,9 +29,8 @@
 .header__inner {
 	@extend %layout-inner;
 	display: flex;
-	justify-content: space-between;
-	padding-bottom: var(--spacingvalue-s);
-	padding-top: var(--spacingvalue-s);
+	padding-bottom: var(--spacingvalue-xs);
+	padding-top: var(--spacingvalue-xs);
 
 	@media (max-width: $layout-width-mobile) {
 		flex-direction: column;
@@ -44,26 +43,35 @@
 	font-size: 20px;
 	font-weight: normal;
 	margin-right: var(--spacingvalue-xs);
+	padding: var(--spacingvalue-xxs) 0;
 
 	@media (max-width: $layout-width-mobile) {
-		margin-bottom: var(--spacingvalue-xs);
+		margin-bottom: var(--spacingvalue-xxs);
 		margin-right: 0;
 	}
 }
 
 // Header navigation element
 .header__navigation {
+	flex: 1;
+
 	@media (max-width: $layout-width-mobile) {
 		font-size: var(--font-size-small);
 		margin-left: calc(-1 * var(--spacingvalue-xxs));
+		margin-bottom: var(--spacingvalue-xxs);
 	}
 
 	> ul {
 		display: flex;
 		flex-wrap: wrap;
 		list-style: none;
+		justify-content: flex-end;
 		margin: 0;
 		padding: 0;
+
+		@media (max-width: $layout-width-mobile) {
+			justify-content: flex-start;
+		}
 
 		> li:not(:first-child) {
 			margin-left: var(--spacingvalue-xxs);
@@ -74,9 +82,12 @@
 // Header navigation item element
 .header__navigation-item {
 	> a {
-		padding-left: var(--spacingvalue-xxs);
-		padding-right: var(--spacingvalue-xxs);
+		padding: var(--spacingvalue-xxs) var(--spacingvalue-xs);
 		border-radius: var(--spacingvalue-xxs);
+
+		@media (max-width: $layout-width-mobile) {
+			padding: 0 var(--spacingvalue-xxs);
+		}
 
 		&:hover {
 			background-color: var(--colorvalue-cream-dark);
