@@ -106,13 +106,13 @@ to enable webmentions
 				{{ $parent := .Parent }}
 				{{ with $parent.OutputFormats.Get "ATOM" }}
 					<li>
-						<a href="{{ .RelPermalink }}" rel="alternate" type="application/atom+xml" title="Atom Feed for {{ $parent.Params.Title }}" class="content-foot__icon content-foot__icon--feed">Subscribe here</a>
+						<a href="{{ .RelPermalink }}" rel="alternate" type="application/atom+xml" title="Atom Feed for {{ $parent.Params.Title }}" class="content-foot__icon content-foot__icon--feed" data-component="feed-link">Subscribe here</a>
 						if you enjoyed this {{ $pageType }} and would like to read more
 					</li>
 				{{ end }}
 				{{ with $parent.OutputFormats.Get "RSS" }}
 					<li>
-						<a href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="RSS Feed for {{ $parent.Params.Title }}" class="content-foot__icon content-foot__icon--feed">Subscribe here</a>
+						<a href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="RSS Feed for {{ $parent.Params.Title }}" class="content-foot__icon content-foot__icon--feed" data-component="feed-link">Subscribe here</a>
 						if you enjoyed this {{ $pageType }} and would like to read more
 					<li>
 				{{ end }}
@@ -141,7 +141,7 @@ to enable webmentions
 			<div class="content-body">
 				<h2>Responses ({{ len $webmentions }})</h2>
 			</div>
-			<form method="post" action="https://webmention.io/{{ .Site.Author.webmention }}/webmention" target="_blank" class="webmention-form">
+			<form method="post" action="https://webmention.io/{{ .Site.Author.webmention }}/webmention" target="_blank" class="webmention-form" data-component="webmention-form">
 				<input type="hidden" name="target" value="{{ .Permalink }}" />
 				<p>
 					You can respond to this {{ $pageType }} using <a href="https://indieweb.org/Webmention">Webmentions</a>,

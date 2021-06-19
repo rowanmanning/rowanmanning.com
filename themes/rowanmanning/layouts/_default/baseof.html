@@ -69,6 +69,7 @@
 		"targetPath" "main.js"
 		"params" (dict
 			"baseUrl" .Site.BaseURL
+			"fathomGoalIds" (.Site.Params.analytics.fathomGoalIds | default dict)
 		)
 	) -}}
 	{{ $js := resources.Get "js/main.js" | js.Build $jsOptions | resources.Fingerprint "sha512" -}}

@@ -1,5 +1,6 @@
 
 import accessibleAutocomplete from 'accessible-autocomplete';
+import {fathomGoalIds} from '@params';
 import search from '../utils/search';
 
 const maxContentLength = 280;
@@ -37,6 +38,9 @@ export default class SiteSearch {
 
 			// When a result is selected, go to that page
 			onConfirm: result => {
+				if (window.fathom && fathomGoalIds.search) {
+					window.fathom.trackGoal(fathomGoalIds.search, 0);
+				}
 				if (result) {
 					document.location = result.page.url;
 				}

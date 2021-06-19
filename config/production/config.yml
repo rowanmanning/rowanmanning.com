@@ -8,3 +8,7 @@ baseURL: https://rowanmanning.com/
 params:
   analytics:
     fathomSiteId: "LZDRDPSO"
+    fathomGoalIds:
+      feedView: "BPV3BBHK"
+      search: "BQDXHKN1"
+      webmentionSend: "YLQQARGU"
