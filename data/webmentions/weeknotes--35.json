@@ -1,0 +1,72 @@
+{
+	"raw": {
+		"54bed3f8df490426f5cba5e3a228a6fb": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Laura Carvajal",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg",
+				"url": "https://twitter.com/lc512k"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1409208096195555330#favorited-by-741506154",
+			"published": null,
+			"wm-received": "2021-06-27T20:07:15Z",
+			"wm-id": 1202802,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1409208096195555330/741506154",
+			"wm-target": "https://rowanmanning.com/weeknotes/35/",
+			"like-of": "https://rowanmanning.com/weeknotes/35/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		"ab286327b305bc462227c18386351e30": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Jermila Dhas",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg",
+				"url": "https://twitter.com/JermilaD"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1409208096195555330#favorited-by-1008287622865747968",
+			"published": null,
+			"wm-received": "2021-06-27T20:07:22Z",
+			"wm-id": 1202803,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1409208096195555330/1008287622865747968",
+			"wm-target": "https://rowanmanning.com/weeknotes/35/",
+			"like-of": "https://rowanmanning.com/weeknotes/35/",
+			"wm-property": "like-of",
+			"wm-private": false
+		}
+	},
+	"processed": [
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1409208096195555330/741506154",
+			"targetUrl": "https://rowanmanning.com/weeknotes/35/",
+			"date": "2021-06-27T20:07:15Z",
+			"url": "https://twitter.com/rowanmanning/status/1409208096195555330#favorited-by-741506154",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Laura Carvajal",
+				"url": "https://twitter.com/lc512k",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg"
+			},
+			"content": null,
+			"isTruncated": false
+		},
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1409208096195555330/1008287622865747968",
+			"targetUrl": "https://rowanmanning.com/weeknotes/35/",
+			"date": "2021-06-27T20:07:22Z",
+			"url": "https://twitter.com/rowanmanning/status/1409208096195555330#favorited-by-1008287622865747968",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Jermila Dhas",
+				"url": "https://twitter.com/JermilaD",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg"
+			},
+			"content": null,
+			"isTruncated": false
+		}
+	]
+}
