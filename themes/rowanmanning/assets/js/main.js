@@ -19,6 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	[...document.querySelectorAll('[data-component=feed-link]')]
 		.map(element => FeedLink.init(element));
 
+	// Get next/previous buttons
+	const nextPage = document.querySelector('[data-component=page-turner][rel=next]');
+	const previousPage = document.querySelector('[data-component=page-turner][rel=prev]');
+
 	// Set up shortcuts
 	hotkeys.filter = ({target}) => {
 		const {tagName} = target;
@@ -28,5 +32,15 @@ document.addEventListener('DOMContentLoaded', () => {
 		siteSearchBoxes[0].focus();
 		event.preventDefault();
 	});
+	if (nextPage) {
+		hotkeys('right', () => {
+			nextPage.click();
+		});
+	}
+	if (previousPage) {
+		hotkeys('left', () => {
+			previousPage.click();
+		});
+	}
 
 });

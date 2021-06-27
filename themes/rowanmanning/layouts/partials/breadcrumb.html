@@ -6,6 +6,31 @@
 		<ol itemscope itemtype="https://schema.org/BreadcrumbList">
 			{{- template "breadcrumb" (dict "page" .Parent "scratch" $scratch) -}}
 		</ol>
+
+		{{ if or .PrevInSection .NextInSection }}
+
+			{{ with .PrevInSection }}
+				<a href="{{ .RelPermalink }}" rel="prev" class="breadcrumb__nextprev" data-component="page-turner">
+					<abbr title="View the previous page ({{ .Title }})">←</abbr>
+				</a>
+			{{ else }}
+				<span class="breadcrumb__nextprev breadcrumb__nextprev--disabled">
+					<abbr title="No previous page">←</abbr>
+				</span>
+			{{ end }}
+
+			{{ with .NextInSection }}
+				<a href="{{ .RelPermalink }}" rel="next" class="breadcrumb__nextprev" data-component="page-turner">
+					<abbr title="View the next page ({{ .Title }})">→</abbr>
+				</a>
+			{{ else }}
+				<span class="breadcrumb__nextprev breadcrumb__nextprev--disabled">
+					<abbr title="No next page">→</abbr>
+				</span>
+			{{ end }}
+
+		{{ end }}
+
 	</nav>
 {{ end }}
 
