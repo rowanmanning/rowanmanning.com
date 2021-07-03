@@ -53,9 +53,54 @@
 			"like-of": "https://rowanmanning.com/weeknotes/4/",
 			"wm-property": "like-of",
 			"wm-private": false
+		},
+		"e86af5cb96af9f4c4bb44c2f9b34436a": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Rowan Manning",
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png",
+				"url": "https://rowanmanning.com/"
+			},
+			"url": "https://rowanmanning.com/weeknotes/5/",
+			"published": "2020-11-29T18:00:00+00:00",
+			"wm-received": "2021-07-03T16:48:36Z",
+			"wm-id": 1208929,
+			"wm-source": "https://rowanmanning.com/weeknotes/5/",
+			"wm-target": "https://rowanmanning.com/weeknotes/4/",
+			"name": "Week 5: Aldovia",
+			"summary": {
+				"content-type": "text/plain",
+				"value": "A week of useful feedback, a new (and nearly finished) RSS reader, three research trips to Aldovia, and a box-obsessed cat."
+			},
+			"content": {
+				"html": "<ul><li><p>Because I just kicked back and had <a href=\"https://rowanmanning.com/weeknotes/4/\">toasties</a> served to me last week, it’s my turn to cook for the foreseeable future. I made carbonara on Tuesday and it was <em>so</em> delicious, we rarely cook meat at home which makes it a bit of a treat when we do. I always had this impression that the “don’t scramble the egg” part of carbonara was really difficult; either it’s not, or we can put down this success to beginner’s luck</p></li>\n<li>\n<p>Work felt unproductive but when I look back over it maybe it wasn’t? I think because I’m off from the 12th December this year (didn’t take enough holiday), maybe the feeling of a Christmas lull is kicking in a bit early. Some good things happened:</p>\n<ul><li><p>I had a great catchup with Maggie who’s on maternity leave, it overran in the nice way where there’s just a lot to chat about</p></li>\n<li><p>I stood in for Anna, my tech director, in a workshop. Sometimes this part of my job is nerve-wracking and I occasionally need somebody to point out the hidden businessy meanings behind things, but I think I did OK and I’m more confident than I used to be</p></li>\n<li><p>I got some useful feedback in my one-to-one. I won’t share the specifics, but one of the aspects of <a href=\"https://www.annashipman.co.uk/jfdi/line-management-questions.html\">Anna’s one-to-ones</a> I really like is the exchanging of feedback: every session, I give Anna one positive and one constructive piece of feedback, then she does the same for me. It’s really useful to have a tighter feedback loop to get a sense of how I’m doing, as well as having a regular chance to practice delivering constructive feedback to someone face-to-face</p></li>\n</ul></li>\n<li><p>Last work thing: Tara wrote a really excellent post on <a href=\"https://medium.com/ft-product-technology/technical-leadership-in-customer-products-cec00bf983bd\">Technical Leadership in Customer Products at the FT</a> – she interviewed each of our tech leads and used this data to outline what this role means in our group. There’s a lot of useful info in here, thanks Tara!</p></li>\n<li><p>I saw Jacob Rees-Mogg get out of a taxi with his brood of Victorian children. This beats my only other politician sighting (Justine Greening), and gives the tories a solid lead. I’m not counting seeing Jeremy Corbyn speaking at a protest</p></li>\n<li>\n<a href=\"https://rowanmanning.com/weeknotes/5/tootsie-in-a-box.jpg\"><img src=\"https://rowanmanning.com/weeknotes/5/tootsie-in-a-box.jpg\" alt=\"Tootsie laying in his new favourite cardboard box. He's a black and white cat, with a very distinctive moustache. A discarded toy mouse is laying beside him\" /></a>\n<p>Permit me to talk about my cat. There are lots of cardboard boxes in our house now, Tootsie isn’t a box cat at all, but he has fallen head over heels in love with this one. I don’t understand what’s special about it but his favourite game is to chase toy mice around the bottom of the box and try to dig them up. It’s pretty adorable and I hope this is a new fixture because boxes are cheaper than cat toys</p>\n</li>\n<li>\n<p>On Saturday we watched all three of the <a href=\"https://en.wikipedia.org/wiki/A_Christmas_Prince\">Christmas Prince</a> films, using <a href=\"https://www.netflixparty.com/\">Teleparty</a> to watch with a group of Christmas-dedicated friends. I do enjoy these films, and it was only my second watch of films 2 and 3 so I caught a few more details, but I really do think Netflix peaked with The Princess Switch.</p>\n<p>In related news, <a href=\"https://twitter.com/lucas42\">Luke</a> started a <a href=\"https://netflix-holiday-movie-universe.fandom.com/\">Netflix Holiday Movie Universe Wiki</a> and I’m a little in awe at the effort he’s put in 😂 this level of overcommitment is something I can get behind, but I’m keeping an eye in case this goes too far and we need to intervene</p>\n</li>\n<li><p>I’ve been spending pretty much all of my other spare time working on a side project, and I don’t know where this energy has come from. I’m building a free self-hosted feed reader (RSS and Atom), mostly for myself but I’ll probably release it publicly too. I’m kind of on one with “own your own content” and “if it’s free then you’re the product” at the moment and I’d like to ditch Feedly. Audrey 2.0 <a href=\"https://rowanmanning.com/weeknotes/5/audrey-screenshot.png\">[screenshot]</a> is mostly working! If you’re interested in beta-testing a new feed reader then give me a shout.</p></li>\n<li><p>I went on a much needed long walk on Sunday. I’m finding it far too easy to spend lockdown holed up in my flat and not going outside, which isn’t very healthy.</p></li>\n<li><p>Until next time 👋</p></li>\n</ul>",
+				"text": "Because I just kicked back and had toasties served to me last week, it’s my turn to cook for the foreseeable future. I made carbonara on Tuesday and it was so delicious, we rarely cook meat at home which makes it a bit of a treat when we do. I always had this impression that the “don’t scramble the egg” part of carbonara was really difficult; either it’s not, or we can put down this success to beginner’s luck\n\nWork felt unproductive but when I look back over it maybe it wasn’t? I think because I’m off from the 12th December this year (didn’t take enough holiday), maybe the feeling of a Christmas lull is kicking in a bit early. Some good things happened:\nI had a great catchup with Maggie who’s on maternity leave, it overran in the nice way where there’s just a lot to chat about\nI stood in for Anna, my tech director, in a workshop. Sometimes this part of my job is nerve-wracking and I occasionally need somebody to point out the hidden businessy meanings behind things, but I think I did OK and I’m more confident than I used to be\nI got some useful feedback in my one-to-one. I won’t share the specifics, but one of the aspects of Anna’s one-to-ones I really like is the exchanging of feedback: every session, I give Anna one positive and one constructive piece of feedback, then she does the same for me. It’s really useful to have a tighter feedback loop to get a sense of how I’m doing, as well as having a regular chance to practice delivering constructive feedback to someone face-to-face\n\nLast work thing: Tara wrote a really excellent post on Technical Leadership in Customer Products at the FT – she interviewed each of our tech leads and used this data to outline what this role means in our group. There’s a lot of useful info in here, thanks Tara!\nI saw Jacob Rees-Mogg get out of a taxi with his brood of Victorian children. This beats my only other politician sighting (Justine Greening), and gives the tories a solid lead. I’m not counting seeing Jeremy Corbyn speaking at a protest\n\n\nPermit me to talk about my cat. There are lots of cardboard boxes in our house now, Tootsie isn’t a box cat at all, but he has fallen head over heels in love with this one. I don’t understand what’s special about it but his favourite game is to chase toy mice around the bottom of the box and try to dig them up. It’s pretty adorable and I hope this is a new fixture because boxes are cheaper than cat toys\n\n\nOn Saturday we watched all three of the Christmas Prince films, using Teleparty to watch with a group of Christmas-dedicated friends. I do enjoy these films, and it was only my second watch of films 2 and 3 so I caught a few more details, but I really do think Netflix peaked with The Princess Switch.\nIn related news, Luke started a Netflix Holiday Movie Universe Wiki and I’m a little in awe at the effort he’s put in 😂 this level of overcommitment is something I can get behind, but I’m keeping an eye in case this goes too far and we need to intervene\n\nI’ve been spending pretty much all of my other spare time working on a side project, and I don’t know where this energy has come from. I’m building a free self-hosted feed reader (RSS and Atom), mostly for myself but I’ll probably release it publicly too. I’m kind of on one with “own your own content” and “if it’s free then you’re the product” at the moment and I’d like to ditch Feedly. Audrey 2.0 [screenshot] is mostly working! If you’re interested in beta-testing a new feed reader then give me a shout.\nI went on a much needed long walk on Sunday. I’m finding it far too easy to spend lockdown holed up in my flat and not going outside, which isn’t very healthy.\nUntil next time 👋"
+			},
+			"mention-of": "https://rowanmanning.com/weeknotes/4/",
+			"wm-property": "mention-of",
+			"wm-private": false,
+			"rels": {
+				"canonical": "https://rowanmanning.com/weeknotes/5/"
+			}
 		}
 	},
 	"processed": [
+		{
+			"type": "response",
+			"sourceUrl": "https://rowanmanning.com/weeknotes/5/",
+			"targetUrl": "https://rowanmanning.com/weeknotes/4/",
+			"date": "2020-11-29T18:00:00+00:00",
+			"url": "https://rowanmanning.com/weeknotes/5/",
+			"isFromTwitter": false,
+			"author": {
+				"name": "Rowan Manning",
+				"url": "https://rowanmanning.com/",
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png"
+			},
+			"content": "Because I just kicked back and had <a href=\"https://rowanmanning.com/weeknotes/4/\" nofollow=\"nofollow\">toasties</a> served to me last week, it’s my turn to cook for the foreseeable future. I made carbonara on Tuesday and it was <em>so</em> delicious, we rarely cook meat at home which makes it a bit of a treat when we do. I always had this impression that…",
+			"isTruncated": true
+		},
 		{
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1330813962217267200/1008287622865747968",

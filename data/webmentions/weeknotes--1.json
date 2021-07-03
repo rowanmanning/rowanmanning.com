@@ -197,9 +197,54 @@
 			"like-of": "https://rowanmanning.com/weeknotes/1/",
 			"wm-property": "like-of",
 			"wm-private": false
+		},
+		"e15ce18965321b1efdddbbeb9f4c96ec": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Rowan Manning",
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png",
+				"url": "https://rowanmanning.com/"
+			},
+			"url": "https://rowanmanning.com/weeknotes/30/",
+			"published": "2021-05-23T16:00:00+01:00",
+			"wm-received": "2021-07-03T16:48:33Z",
+			"wm-id": 1208928,
+			"wm-source": "https://rowanmanning.com/weeknotes/30/",
+			"wm-target": "https://rowanmanning.com/weeknotes/1/",
+			"name": "Week 30: Office",
+			"summary": {
+				"content-type": "text/plain",
+				"value": "A week of office visits, successful speedruns, tetris-like cities, a mini Eurovision party, and training myself to like soap weed."
+			},
+			"content": {
+				"html": "<ul><li><p>I went into the office for the first time in over a year. The day started really well, I got loads done and felt really productive, but by the end of the day I was exhausted, overstimulated, and barely able to think. I’m going to try and go in once a week to ease myself back into office work, I really enjoyed seeing a few familiar faces.</p></li>\n<li><p>We did another <a href=\"https://rowanmanning.com/weeknotes/29/\">Minecraft “speedrun”</a> and did pretty well this time. We used a stable version of the game, a random world seed, and actually killed the dragon this time. We’re still pretty unorganised and not working as a group so we’re going to try a different strategy next time. I’m enjoying these a lot!</p></li>\n<li><p>My board game group has been playing the <a href=\"https://boardgamegeek.com/boardgame/295486/my-city\">My City</a> campaign, which is pretty relaxing as competitive games go. You’re building a city with little Tetris-like buildings, and it’s really satisfying when you manage to combine all your buildings neatly. I recommend it if you want something quite relaxed and low-effort.</p></li>\n<li>\n<a href=\"https://rowanmanning.com/weeknotes/30/eurovision.jpg\"><img src=\"https://rowanmanning.com/weeknotes/30/eurovision.jpg\" alt=\"A picture of our TV screen, with Eurovision playing. The running order is pinned to the TV cabinet, and lots of european flags hang across the wall.\" /></a>\n<p>It was Eurovision! We hosted four others at our flat and went with our usual format of having food and drink from as many countries as possible. We overestimated how much food we’d need and we were full by halfway through the running order. I love Eurovision, I particularly love that the UK managed to finish at zero. I ate enough food to remember the whole evening and not have a hangover, well done me.</p>\n</li>\n<li><p>Partway through Eurovision something, blew a fuse and tripped the power off. We got it back on quickly and assumed it was the fairy lights we have up in the living room. However the next day we discovered that the oven wasn’t working 😬 I really <a href=\"https://rowanmanning.com/weeknotes/1/\">hope it doesn’t take weeks</a> to get fixed.</p></li>\n<li><p>I think I’ve finally trained myself to enjoy coriander. It still tastes like soap but I find myself adding more and more of it to various recipes because I <em>want</em> that taste.</p></li>\n</ul>",
+				"text": "I went into the office for the first time in over a year. The day started really well, I got loads done and felt really productive, but by the end of the day I was exhausted, overstimulated, and barely able to think. I’m going to try and go in once a week to ease myself back into office work, I really enjoyed seeing a few familiar faces.\nWe did another Minecraft “speedrun” and did pretty well this time. We used a stable version of the game, a random world seed, and actually killed the dragon this time. We’re still pretty unorganised and not working as a group so we’re going to try a different strategy next time. I’m enjoying these a lot!\nMy board game group has been playing the My City campaign, which is pretty relaxing as competitive games go. You’re building a city with little Tetris-like buildings, and it’s really satisfying when you manage to combine all your buildings neatly. I recommend it if you want something quite relaxed and low-effort.\n\n\nIt was Eurovision! We hosted four others at our flat and went with our usual format of having food and drink from as many countries as possible. We overestimated how much food we’d need and we were full by halfway through the running order. I love Eurovision, I particularly love that the UK managed to finish at zero. I ate enough food to remember the whole evening and not have a hangover, well done me.\n\nPartway through Eurovision something, blew a fuse and tripped the power off. We got it back on quickly and assumed it was the fairy lights we have up in the living room. However the next day we discovered that the oven wasn’t working 😬 I really hope it doesn’t take weeks to get fixed.\nI think I’ve finally trained myself to enjoy coriander. It still tastes like soap but I find myself adding more and more of it to various recipes because I want that taste."
+			},
+			"mention-of": "https://rowanmanning.com/weeknotes/1/",
+			"wm-property": "mention-of",
+			"wm-private": false,
+			"rels": {
+				"canonical": "https://rowanmanning.com/weeknotes/30/"
+			}
 		}
 	},
 	"processed": [
+		{
+			"type": "response",
+			"sourceUrl": "https://rowanmanning.com/weeknotes/30/",
+			"targetUrl": "https://rowanmanning.com/weeknotes/1/",
+			"date": "2021-05-23T16:00:00+01:00",
+			"url": "https://rowanmanning.com/weeknotes/30/",
+			"isFromTwitter": false,
+			"author": {
+				"name": "Rowan Manning",
+				"url": "https://rowanmanning.com/",
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png"
+			},
+			"content": "…Partway through Eurovision something, blew a fuse and tripped the power off. We got it back on quickly and assumed it was the fairy lights we have up in the living room. However the next day we discovered that the oven wasn’t working 😬 I really <a href=\"https://rowanmanning.com/weeknotes/1/\" nofollow=\"nofollow\">hope it doesn’t take weeks</a> to…",
+			"isTruncated": true
+		},
 		{
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1324281206230392832/1008287622865747968",

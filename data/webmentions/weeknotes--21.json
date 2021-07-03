@@ -89,9 +89,99 @@
 			"like-of": "https://rowanmanning.com/weeknotes/21/",
 			"wm-property": "like-of",
 			"wm-private": false
+		},
+		"7c108a90ff27c967c714db3e5878c12a": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Rowan Manning",
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png",
+				"url": "https://rowanmanning.com/"
+			},
+			"url": "https://rowanmanning.com/weeknotes/24/",
+			"published": "2021-04-11T16:40:00+01:00",
+			"wm-received": "2021-07-03T16:48:30Z",
+			"wm-id": 1208925,
+			"wm-source": "https://rowanmanning.com/weeknotes/24/",
+			"wm-target": "https://rowanmanning.com/weeknotes/21/",
+			"name": "Week 24: Charismatic Hair",
+			"summary": {
+				"content-type": "text/plain",
+				"value": "A week of good cladding news, excellent (and very fancy) fry ups, having too much hair, and an off licence crawl."
+			},
+			"content": {
+				"html": "<ul><li><p>Some good news on the house front! The work to remedy the <a href=\"https://rowanmanning.com/weeknotes/21/\">cladding issues</a> on the flat I like is going to start this month. It’s not clear how long this is going to add to the process and they still need to get an EWS1 form after it’s done, but fingers crossed. I’m still viewing other places at a slower pace, but nothing has wowed me yet.</p></li>\n<li><p><a href=\"https://alicebartlett.co.uk/\">Alice</a> is back at work, we had a little catch-up and it’s so great to see her. I also had a lovely scheduled impromptu chat with <a href=\"https://twitter.com/caitoriordan\">Cait</a>, I’m looking forward to returning to the office for a bunch of reasons, but mainly not having to schedule bumping into someone and catching up.</p></li>\n<li>\n<p>I’m really fed up with my hair, it’s just too big. Based on how many meetings I have, I might need to wait until Wednesday to get it cut 😩</p>\n<a href=\"https://rowanmanning.com/weeknotes/24/hair.jpg\"><img src=\"https://rowanmanning.com/weeknotes/24/hair.jpg\" alt=\"A very messy head of hair\" /></a>Look at this mess</li>\n<li><p>We cleaned and tidied the house for the first time in a while, because <a href=\"https://twitter.com/lucas42\">Luke</a> came over again – he’s viewing houses nearby and is in our bubble. I’ve promised myself for the millionth time that I’m just going to keep up with the housework and not let it get bad again.</p></li>\n<li><p>I made a pretty great fry up. Hot cooking tip: chives make a fry up <em>extremely</em> fancy.</p></li>\n<li><p>I started playing Assassin’s Creed Valhalla, I haven’t played a triple-A game in forever and it’s a bit overwhelming tbh; I don’t think I have the stamina/mental capacity to work out new games any more. Why does every game have an enormous skill tree nowadays? Charlotte’s mum got me it for Christmas so maybe I’ll actually finish this one.</p></li>\n<li><p>We went on an off licence crawl on Saturday. It’s like a pub crawl but you buy a single can from each off licence on the route and try to drink it before the next one. I shouldn’t feel OK today.</p></li>\n</ul>",
+				"text": "Some good news on the house front! The work to remedy the cladding issues on the flat I like is going to start this month. It’s not clear how long this is going to add to the process and they still need to get an EWS1 form after it’s done, but fingers crossed. I’m still viewing other places at a slower pace, but nothing has wowed me yet.\nAlice is back at work, we had a little catch-up and it’s so great to see her. I also had a lovely scheduled impromptu chat with Cait, I’m looking forward to returning to the office for a bunch of reasons, but mainly not having to schedule bumping into someone and catching up.\n\nI’m really fed up with my hair, it’s just too big. Based on how many meetings I have, I might need to wait until Wednesday to get it cut 😩\nLook at this mess\nWe cleaned and tidied the house for the first time in a while, because Luke came over again – he’s viewing houses nearby and is in our bubble. I’ve promised myself for the millionth time that I’m just going to keep up with the housework and not let it get bad again.\nI made a pretty great fry up. Hot cooking tip: chives make a fry up extremely fancy.\nI started playing Assassin’s Creed Valhalla, I haven’t played a triple-A game in forever and it’s a bit overwhelming tbh; I don’t think I have the stamina/mental capacity to work out new games any more. Why does every game have an enormous skill tree nowadays? Charlotte’s mum got me it for Christmas so maybe I’ll actually finish this one.\nWe went on an off licence crawl on Saturday. It’s like a pub crawl but you buy a single can from each off licence on the route and try to drink it before the next one. I shouldn’t feel OK today."
+			},
+			"mention-of": "https://rowanmanning.com/weeknotes/21/",
+			"wm-property": "mention-of",
+			"wm-private": false,
+			"rels": {
+				"canonical": "https://rowanmanning.com/weeknotes/24/"
+			}
+		},
+		"a4e1b076facdcf6222d1adbe75a58126": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Rowan Manning",
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png",
+				"url": "https://rowanmanning.com/"
+			},
+			"url": "https://rowanmanning.com/weeknotes/28/",
+			"published": "2021-05-10T08:50:00+01:00",
+			"wm-received": "2021-07-03T16:48:32Z",
+			"wm-id": 1208927,
+			"wm-source": "https://rowanmanning.com/weeknotes/28/",
+			"wm-target": "https://rowanmanning.com/weeknotes/21/",
+			"name": "Week 28: Crusty Ears",
+			"summary": {
+				"content-type": "text/plain",
+				"value": "A week of fish tacos, simplified communication, very painful ears (thanks Apple), and my rule-breaking family."
+			},
+			"content": {
+				"html": "<ul><li><p>We went to Wahaca with Leigh-Ann and Andy and met their baby, Arthur. He’s very small and squished up and looks like an old man. The South Bank is <em>rammed</em> nowadays and I’m kind of glad to be moving somewhere less touristy.</p></li>\n<li><p>I’ll hopefully have a little clarity on my flat purchase soon! It turns out that my mortgage broker works for the same large firm that manages the building I want to buy a flat in, which has shortened the chain of communication considerably. So I should have some more concrete dates on <a href=\"https://rowanmanning.com/weeknotes/21/\">cladding issues</a> being fixed as we now have a direct Building Manager &gt; Broker line rather than Building Manager &gt; Current Owners &gt; Estate Agent &gt; Me &gt; Broker.</p></li>\n<li><p>I found out the painful way that I’m allergic to something in Apple AirPods Pro 😬 I had what I thought was an ear infection ages ago, stopped using headphones because they hurt to put in, and it eventually cleared itself up. I used them (with brand new tips) earlier this week and had an almost immediate reaction (<a href=\"https://discussions.apple.com/thread/250896003\">apparently so do a bunch of people</a>). It’s almost better now and I bought some non-silicone replacement tips which I’ll try when I’m feeling brave. I also used it as an excuse to replace my very old wired over-ear headphones with <a href=\"https://www.whathifi.com/akg/n60nc-wireless/review\">AKG N60NCs</a> which so far are great – the active noise cancelling pretty much blocks out all the train screeching from Waterloo. Work is a lot more peaceful and I’m finding it easier to focus.</p></li>\n<li><p>I tested myself (negative again) and went to visit my grandma and mum. It was so lovely to see them, but there’s a constant stressor while I’m there because my family are basically ignoring every COVID rule there is. I guess it’s a little different out of the city but I find myself biting my tongue a bit.</p></li>\n<li><p>Are we all looking forward to <a href=\"https://news.sky.com/story/covid-19-boris-johnson-set-to-confirm-lockdown-rules-will-ease-from-17-may-as-government-in-delicate-talks-on-hosting-champions-league-final-12301434\">“friendly contact, intimate contact, between friends and family”</a> being restored? 🤦</p></li>\n</ul>",
+				"text": "We went to Wahaca with Leigh-Ann and Andy and met their baby, Arthur. He’s very small and squished up and looks like an old man. The South Bank is rammed nowadays and I’m kind of glad to be moving somewhere less touristy.\nI’ll hopefully have a little clarity on my flat purchase soon! It turns out that my mortgage broker works for the same large firm that manages the building I want to buy a flat in, which has shortened the chain of communication considerably. So I should have some more concrete dates on cladding issues being fixed as we now have a direct Building Manager > Broker line rather than Building Manager > Current Owners > Estate Agent > Me > Broker.\nI found out the painful way that I’m allergic to something in Apple AirPods Pro 😬 I had what I thought was an ear infection ages ago, stopped using headphones because they hurt to put in, and it eventually cleared itself up. I used them (with brand new tips) earlier this week and had an almost immediate reaction (apparently so do a bunch of people). It’s almost better now and I bought some non-silicone replacement tips which I’ll try when I’m feeling brave. I also used it as an excuse to replace my very old wired over-ear headphones with AKG N60NCs which so far are great – the active noise cancelling pretty much blocks out all the train screeching from Waterloo. Work is a lot more peaceful and I’m finding it easier to focus.\nI tested myself (negative again) and went to visit my grandma and mum. It was so lovely to see them, but there’s a constant stressor while I’m there because my family are basically ignoring every COVID rule there is. I guess it’s a little different out of the city but I find myself biting my tongue a bit.\nAre we all looking forward to “friendly contact, intimate contact, between friends and family” being restored? 🤦"
+			},
+			"mention-of": "https://rowanmanning.com/weeknotes/21/",
+			"wm-property": "mention-of",
+			"wm-private": false,
+			"rels": {
+				"canonical": "https://rowanmanning.com/weeknotes/28/"
+			}
 		}
 	},
 	"processed": [
+		{
+			"type": "response",
+			"sourceUrl": "https://rowanmanning.com/weeknotes/24/",
+			"targetUrl": "https://rowanmanning.com/weeknotes/21/",
+			"date": "2021-04-11T16:40:00+01:00",
+			"url": "https://rowanmanning.com/weeknotes/24/",
+			"isFromTwitter": false,
+			"author": {
+				"name": "Rowan Manning",
+				"url": "https://rowanmanning.com/",
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png"
+			},
+			"content": "Some good news on the house front! The work to remedy the <a href=\"https://rowanmanning.com/weeknotes/21/\" nofollow=\"nofollow\">cladding issues</a> on the flat I like is going to start this month. It’s not clear how long this is going to add to the process and they still need to get an EWS1 form after it’s done, but fingers crossed. I’m still viewing…",
+			"isTruncated": true
+		},
+		{
+			"type": "response",
+			"sourceUrl": "https://rowanmanning.com/weeknotes/28/",
+			"targetUrl": "https://rowanmanning.com/weeknotes/21/",
+			"date": "2021-05-10T08:50:00+01:00",
+			"url": "https://rowanmanning.com/weeknotes/28/",
+			"isFromTwitter": false,
+			"author": {
+				"name": "Rowan Manning",
+				"url": "https://rowanmanning.com/",
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png"
+			},
+			"content": "…I’ll hopefully have a little clarity on my flat purchase soon! It turns out that my mortgage broker works for the same large firm that manages the building I want to buy a flat in, which has shortened the chain of communication considerably. So I should have some more concrete…",
+			"isTruncated": true
+		},
 		{
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1373922063778512896/1008287622865747968",

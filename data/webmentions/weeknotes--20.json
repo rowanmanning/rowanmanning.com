@@ -125,9 +125,54 @@
 			"like-of": "https://rowanmanning.com/weeknotes/20/",
 			"wm-property": "like-of",
 			"wm-private": false
+		},
+		"9d65305185a57bdedb4b60a7472bb1a7": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Rowan Manning",
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png",
+				"url": "https://rowanmanning.com/"
+			},
+			"url": "https://rowanmanning.com/weeknotes/27/",
+			"published": "2021-05-02T11:00:00+01:00",
+			"wm-received": "2021-07-03T16:48:31Z",
+			"wm-id": 1208926,
+			"wm-source": "https://rowanmanning.com/weeknotes/27/",
+			"wm-target": "https://rowanmanning.com/weeknotes/20/",
+			"name": "Week 27: Fish Cake",
+			"summary": {
+				"content-type": "text/plain",
+				"value": "A week of cute birthday boys, blogging again, many crosswords, and a 10-mile walk which my body wasn't prepared for."
+			},
+			"content": {
+				"html": "<ul><li><p>I finished the first draft of my blog post about the <a href=\"https://rowanmanning.com/weeknotes/20/\">virtual treasure hunt</a> that <a href=\"https://twitter.com/glynnphillips\">Glynn</a> and I ran. Hopefully, with some feedback, it’ll be published in the next week or so. I’m mostly pleased I got a draft finished – I’d definitely been procrastinating to avoid it.</p></li>\n<li>\n<a href=\"https://rowanmanning.com/weeknotes/27/tootsie-cake.jpg\"><img src=\"https://rowanmanning.com/weeknotes/27/tootsie-cake.jpg\" alt=\"A cake made of tuna and whole small fish, surrounded by a ring of dreamies, and topped with a candle. Tootsie is being held back from eating the cake while the candle is lit.\" /></a>\n<p>It was Tootsie’s birthday this week. We use his date of adoption and we <em>think</em> he’s 6 now. We celebrated by buying him a toy he’s not very interested in and making him a delicious cake that he inhaled.</p>\n</li>\n<li><p>It’s been interesting to see Basecamp implode over the last week. These snowflake CEOs eh?</p></li>\n<li><p>I’m still going strong on the crosswords, and I’m finally able to beat <a href=\"https://twitter.com/teachlearncode\">Jenn</a> <em>relatively</em> regularly on the <a href=\"https://www.nytimes.com/crosswords\">NYT Mini</a>. I made a Slack channel at work to discuss clues and it feels like a nice little group.</p></li>\n<li><p>I’ve been doing more socially, which is lovely but exhausting.</p></li>\n<li><p>I caught up with <a href=\"https://adlawson.com/\">Andrew</a> and <a href=\"https://twitter.com/Ed_Kend\">Ed</a> in a pub garden. I found out that Andrew’s partner is working on Bridgerton season 2 which has elevated her coolness by a lot tbh.</p></li>\n<li><p>We went for a 10-mile walk with a few friends from Dover to Deal, I’m unfit, achy, and sun-kissed but very happy.</p></li>\n<li><p><a href=\"https://ghost.computer/\">Kara</a> started writing weeknotes which I’m pleased about – I’m not reading much else at the moment, little peeks into peoples' lives is currently more my speed than actual news.</p></li>\n</ul>",
+				"text": "I finished the first draft of my blog post about the virtual treasure hunt that Glynn and I ran. Hopefully, with some feedback, it’ll be published in the next week or so. I’m mostly pleased I got a draft finished – I’d definitely been procrastinating to avoid it.\n\n\nIt was Tootsie’s birthday this week. We use his date of adoption and we think he’s 6 now. We celebrated by buying him a toy he’s not very interested in and making him a delicious cake that he inhaled.\n\nIt’s been interesting to see Basecamp implode over the last week. These snowflake CEOs eh?\nI’m still going strong on the crosswords, and I’m finally able to beat Jenn relatively regularly on the NYT Mini. I made a Slack channel at work to discuss clues and it feels like a nice little group.\nI’ve been doing more socially, which is lovely but exhausting.\nI caught up with Andrew and Ed in a pub garden. I found out that Andrew’s partner is working on Bridgerton season 2 which has elevated her coolness by a lot tbh.\nWe went for a 10-mile walk with a few friends from Dover to Deal, I’m unfit, achy, and sun-kissed but very happy.\nKara started writing weeknotes which I’m pleased about – I’m not reading much else at the moment, little peeks into peoples' lives is currently more my speed than actual news."
+			},
+			"mention-of": "https://rowanmanning.com/weeknotes/20/",
+			"wm-property": "mention-of",
+			"wm-private": false,
+			"rels": {
+				"canonical": "https://rowanmanning.com/weeknotes/27/"
+			}
 		}
 	},
 	"processed": [
+		{
+			"type": "response",
+			"sourceUrl": "https://rowanmanning.com/weeknotes/27/",
+			"targetUrl": "https://rowanmanning.com/weeknotes/20/",
+			"date": "2021-05-02T11:00:00+01:00",
+			"url": "https://rowanmanning.com/weeknotes/27/",
+			"isFromTwitter": false,
+			"author": {
+				"name": "Rowan Manning",
+				"url": "https://rowanmanning.com/",
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png"
+			},
+			"content": "I finished the first draft of my blog post about the <a href=\"https://rowanmanning.com/weeknotes/20/\" nofollow=\"nofollow\">virtual treasure hunt</a> that <a href=\"https://twitter.com/glynnphillips\" nofollow=\"nofollow\">Glynn</a> and I ran. Hopefully, with some feedback, it’ll be published in the next week or so. I’m mostly pleased I got a draft finished – I’d definitely been procrastinating to avoid it.…",
+			"isTruncated": true
+		},
 		{
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1371406164878102531/175033490",
