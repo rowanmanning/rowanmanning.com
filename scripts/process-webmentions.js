@@ -78,6 +78,11 @@ function getMentionAuthor(webmention) {
 }
 
 function getMentionContent(webmention) {
+	const result = {
+		content: null,
+		isTruncated: false
+	};
+
 	const summary = (
 		webmention.summary ?
 			webmention.summary.value :
@@ -167,16 +172,19 @@ function getMentionContent(webmention) {
 			cleanHTML = cleanHTML.replace(/\s+…$/g, '…');
 		}
 
-		return {
-			content: cleanHTML,
-			isTruncated: (cleanHTML !== fullHTML)
-		};
+		result.content = cleanHTML;
+		result.isTruncated = (cleanHTML !== fullHTML);
 	}
 
-	return {
-		content: null,
-		isTruncated: false
-	};
+	// If there's a video, append to the content
+	if (webmention.video && webmention.video.length) {
+		result.content = `
+			${result.content ? result.content : ''}
+			<a href="${webmention.url.replace(/"/g, '&quot;')}" nofollow>[video]</a>
+		`;
+	}
+
+	return result;
 }
 
 function getCleanDOM(html) {

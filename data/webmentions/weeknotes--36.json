@@ -211,7 +211,7 @@
 				"url": "https://twitter.com/adgad",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg"
 			},
-			"content": null,
+			"content": "\n\t\t\t\n\t\t\t<a href=\"https://twitter.com/adgad/status/1411396439104761859\" nofollow>[video]</a>\n\t\t",
 			"isTruncated": false
 		}
 	]
