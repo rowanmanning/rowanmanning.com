@@ -176,7 +176,15 @@ function getMentionContent(webmention) {
 		result.isTruncated = (cleanHTML !== fullHTML);
 	}
 
-	// If there's a video, append to the content
+	// If there are photos, append to the content
+	if (webmention.photo && webmention.photo.length) {
+		result.content = `
+			${result.content ? result.content : ''}
+			<a href="${webmention.url.replace(/"/g, '&quot;')}" nofollow>[image]</a>
+		`;
+	}
+
+	// If there are videos, append to the content
 	if (webmention.video && webmention.video.length) {
 		result.content = `
 			${result.content ? result.content : ''}
