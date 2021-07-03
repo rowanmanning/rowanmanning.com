@@ -82,6 +82,24 @@
 			"in-reply-to": "https://rowanmanning.com/weeknotes/36/",
 			"wm-property": "in-reply-to",
 			"wm-private": false
+		},
+		"49d921ec954260d2a477b9afc924ae76": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Laura Carvajal",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg",
+				"url": "https://twitter.com/lc512k"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1411364342067613697#favorited-by-741506154",
+			"published": null,
+			"wm-received": "2021-07-03T18:25:26Z",
+			"wm-id": 1208974,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1411364342067613697/741506154",
+			"wm-target": "https://rowanmanning.com/weeknotes/36/",
+			"like-of": "https://rowanmanning.com/weeknotes/36/",
+			"wm-property": "like-of",
+			"wm-private": false
 		}
 	},
 	"processed": [
@@ -141,6 +159,21 @@
 				"name": "Sean M. Tracey",
 				"url": "https://twitter.com/seanmtracey",
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/47df287c4ce6c6f631ad0e8daa511a8d1bfb3125444c2655d5f23f7cbe220b15.jpg"
+			},
+			"content": null,
+			"isTruncated": false
+		},
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1411364342067613697/741506154",
+			"targetUrl": "https://rowanmanning.com/weeknotes/36/",
+			"date": "2021-07-03T18:25:26Z",
+			"url": "https://twitter.com/rowanmanning/status/1411364342067613697#favorited-by-741506154",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Laura Carvajal",
+				"url": "https://twitter.com/lc512k",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg"
 			},
 			"content": null,
 			"isTruncated": false
