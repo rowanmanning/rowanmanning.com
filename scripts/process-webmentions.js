@@ -36,9 +36,12 @@ const DOMPurify = createDOMPurify(window);
 function processWebmention(webmention) {
 	const type = getMentionType(webmention);
 	const author = getMentionAuthor(webmention);
-	const {content, isTruncated} = getMentionContent(webmention);
 	const twitterRegExp = /^https?:\/\/(www\.)?twitter\.com\/[^/]+\/status\//;
 	if (type && author) {
+
+		// Only parse content for response type webmentions
+		const {content, isTruncated} = (type === 'response' ? getMentionContent(webmention) : {});
+
 		return {
 			type,
 			sourceUrl: webmention['wm-source'],
@@ -47,8 +50,8 @@ function processWebmention(webmention) {
 			url: webmention.url,
 			isFromTwitter: twitterRegExp.test(webmention.url),
 			author,
-			content,
-			isTruncated
+			content: content || null,
+			isTruncated: isTruncated || false
 		};
 	}
 }
