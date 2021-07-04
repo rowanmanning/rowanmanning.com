@@ -121,6 +121,24 @@
 			"in-reply-to": "https://rowanmanning.com/weeknotes/36/",
 			"wm-property": "in-reply-to",
 			"wm-private": false
+		},
+		"9aa7796f05a8d3d22121d39cfa15851b": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Kinnoha",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/7f661e1f3486b462b77da6008b4787db1aea0cf36a9421b5f3e6c6399f5e07f8.jpg",
+				"url": "https://twitter.com/kinnoha"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1411364342067613697#favorited-by-96442598",
+			"published": null,
+			"wm-received": "2021-07-04T10:56:03Z",
+			"wm-id": 1209150,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1411364342067613697/96442598",
+			"wm-target": "https://rowanmanning.com/weeknotes/36/",
+			"like-of": "https://rowanmanning.com/weeknotes/36/",
+			"wm-property": "like-of",
+			"wm-private": false
 		}
 	},
 	"processed": [
@@ -212,6 +230,21 @@
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg"
 			},
 			"content": "\n\t\t\t\n\t\t\t<a href=\"https://twitter.com/adgad/status/1411396439104761859\" nofollow>[video]</a>\n\t\t",
+			"isTruncated": false
+		},
+		{
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1411364342067613697/96442598",
+			"targetUrl": "https://rowanmanning.com/weeknotes/36/",
+			"date": "2021-07-04T10:56:03Z",
+			"url": "https://twitter.com/rowanmanning/status/1411364342067613697#favorited-by-96442598",
+			"isFromTwitter": true,
+			"author": {
+				"name": "Kinnoha",
+				"url": "https://twitter.com/kinnoha",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/7f661e1f3486b462b77da6008b4787db1aea0cf36a9421b5f3e6c6399f5e07f8.jpg"
+			},
+			"content": null,
 			"isTruncated": false
 		}
 	]
