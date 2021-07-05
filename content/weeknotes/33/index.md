@@ -1,7 +1,7 @@
 ---
 title: "Week 33: Fire Safety"
 date: 2021-06-13T14:10:00+0100
-tags: ["House", "Games", "Social", "Work", "Side Projects", "Tootsie", "TV", "Cladding", "Board Games", "Gloomhaven", "Champagne", "Lucifer", "Webmentions"]
+tags: ["House", "Games", "Social", "Work", "Side Projects", "Tootsie", "TV", "Cladding", "Board Games", "Gloomhaven", "Champagne", "Lucifer", "Webmention"]
 highlight: "red"
 description: "A week of house buying progress, new characters, sun and champagne with friends, and a lot of time spent learning how webmentions work."
 resources:
