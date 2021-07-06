@@ -2,7 +2,7 @@
 # Post title and metadata
 # -----------------------
 title: "Webmentions for your Static Site"
-date: 2021-07-05T22:22:00+01:00
+date: 2021-07-06T22:45:00+01:00
 description: "A small dive into one of my new favourite web technologies: webmentions. This post talks through how I use them to make my static website feel more alive and social."
 cta: "Learn how to send and receive webmentions on your static website"
 tags: ["Webmention", "Side Projects"]
@@ -33,11 +33,6 @@ reviewers:
     website: "https://chee.snoot.club/"
   - name: "Oliver Turner"
     website: "https://www.oliverturner.cloud/"
-
-# Draft status
-# ------------
-draft: true
-draftFeedback: https://docs.google.com/document/d/10y_8jYkgHzDmjv_b3JmduV14LqhhDcFQHqcvLIOPjqk/edit
 ---
 
 Some time ago, my friend and colleague chee [told me about Webmentions](https://chee.snoot.club/2021/05/16/sunday-16th-may-2021/). I'll be honest, I didn't fully understand what they were. It took me about a month to actually look into them, and wow it's been a while since I've been this excited about a technology!
