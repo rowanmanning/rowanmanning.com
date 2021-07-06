@@ -19,6 +19,10 @@ resources:
     title: "Response Icon"
   - src: "responses-styled.png"
     title: "A screenshot of the responses on one of my weeknotes"
+  - src: "twitter-vs-website.png"
+    title: "Two comparison screenshots, showing likes of one of my tweets on one side, and the equivalent likes on my website on the other"
+    params:
+      caption: The same two likes displayed on Twitter (left) and my website (right)
 
 # Links
 # -----
@@ -89,15 +93,17 @@ As mentioned above, you need some kind of server to receive webmentions. Luckily
 
   * Set up [IndieAuth](https://indieweb.org/IndieAuth) for your website:
 
-    * Make sure a social profile of yours (e.g. Twitter, GitHub, Facebook) links to the home page of your website. You can do this via the edit profile page of these services.
+    * Make sure a social profile of yours (e.g. Twitter, GitHub) links to the home page of your website. You can do this via the edit profile page of these services ([Twitter's is here](https://twitter.com/settings/profile) and [GitHub's is here](https://github.com/settings/profile)).
 
-    * Make sure that your home page includes a link to the same social profile with a `rel="me"` attribute. I have these links in my site header, but they could go anywhere:
+    * Make sure that your home page includes a link to the same social profile page with a `rel="me"` attribute. I have these links in my site header, but they could go anywhere:
 
       ```html
       <a href="https://twitter.com/rowanmanning" rel="me">
           @rowanmanning on Twitter
       </a>
       ```
+
+    * Because both the user profile page on the third party website and your website now include `rel="me"` links pointing to each other, IndieAuth can verify that you are who you say you are. [The standard behind this is called RelMeAuth](http://microformats.org/wiki/RelMeAuth).
 
   * Sign into [Webmention.io](https://webmention.io/) using your newly configured IndieAuth website. You'll need to authenticate via one of the third parties you linked to.
 
@@ -115,6 +121,8 @@ Now you're ready to receive webmentions! If somebody who publishes webmentions l
 An additional step for me was that I wanted to capture interactions on social websites like Twitter. The large social sites don't implement Webmention themselves, however, another third party service can be used to watch for social interactions on other sites and publish webmentions on their behalf.
 
 Setting up [Bridgy](https://brid.gy/) was relatively quick, and it can connect to many social sites and forward on any interactions with your content as webmentions. I added Twitter, which means that any time someone tweets a link to my content, or likes/retweets links to my content, I'm notified and can display it on my website.
+
+{{< image "twitter-vs-website.png" >}}
 
 
 ## Storing Webmentions
