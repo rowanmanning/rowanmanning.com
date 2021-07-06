@@ -19,10 +19,12 @@ resources:
     title: "Response Icon"
   - src: "responses-styled.png"
     title: "A screenshot of the responses on one of my weeknotes"
+    params:
+      link: "/weeknotes/36/#responses"
   - src: "twitter-vs-website.png"
     title: "Two comparison screenshots, showing likes of one of my tweets on one side, and the equivalent likes on my website on the other"
     params:
-      caption: The same two likes displayed on Twitter (left) and my website (right)
+      caption: "The same two likes displayed on Twitter (left) and my website (right)"
 
 # Links
 # -----
