@@ -157,7 +157,7 @@ to enable webmentions
 				<ol id="responses" class="social-feed">
 					{{ range $webmentions }}
 						{{ if eq .type "response" }}
-							<li property="comment" vocab="http://schema.org/" typeof="Comment" class="social-feed__item social-feed__item--response">
+							<li id="webmention-{{ .md5 }}" property="comment" vocab="http://schema.org/" typeof="Comment" class="social-feed__item social-feed__item--response">
 								<div class="social-feed__meta">
 									<span property="author" vocab="http://schema.org/" typeof="Person">
 										<a property="url" href="{{ .author.url }}" class="social-feed__author"><span property="name">{{ .author.name }}</span></a>
@@ -172,7 +172,7 @@ to enable webmentions
 								</div>
 							</li>
 						{{ else }}
-							<li class="social-feed__item social-feed__item--{{ .type }}">
+							<li id="webmention-{{ .md5 }}" class="social-feed__item social-feed__item--{{ .type }}">
 								<div class="social-feed__meta">
 									<a href="{{ .author.url }}" class="social-feed__author">{{ .author.name }}</a>
 									{{ if eq .type "repost" }}
