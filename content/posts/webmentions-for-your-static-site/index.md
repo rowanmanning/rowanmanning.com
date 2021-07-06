@@ -26,9 +26,11 @@ resources:
 
 # Links
 # -----
-# reviewers:
-#   - name: "Full Name"
-#     website: "https://example.com/"
+reviewers:
+  - name: "Chee Rabbits"
+    website: "https://chee.snoot.club/"
+  - name: "Oliver Turner"
+    website: "https://www.oliverturner.cloud/"
 
 # Draft status
 # ------------
