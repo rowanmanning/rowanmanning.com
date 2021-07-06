@@ -1833,6 +1833,7 @@
 	},
 	"processed": [
 		{
+			"md5": "51fbe7e6bcb39794551b26bb8db08176",
 			"type": "repost",
 			"sourceUrl": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/709709780722585600",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -1848,6 +1849,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "b92bafd3075d38a2066cb20e06ee2db0",
 			"type": "repost",
 			"sourceUrl": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/709712157131276288",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -1863,6 +1865,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "caf36c312b20e059e65618e7771c98ee",
 			"type": "repost",
 			"sourceUrl": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/709713772122935297",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -1878,6 +1881,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "afa4b4d2a4d49e5adc10c2a6cda5efb4",
 			"type": "repost",
 			"sourceUrl": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/709717909329858560",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -1893,6 +1897,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "6e27dbd526291946c2474c007746b853",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709718234925105153",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/#labnol",
@@ -1908,6 +1913,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "4ef15a1a6cba10a4c9fd35f4fee0d396",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709718294610075649",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -1923,6 +1929,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "6a7d59eafb849ef32756d23dcc2979d3",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709718711461158913",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -1938,6 +1945,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "5cbc02964b1133b5d91aff29e3d8ddaa",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709718799210176512",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -1953,6 +1961,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "2b7066b9dc3a854414eed7836a503ccd",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709718799155601408",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -1968,6 +1977,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "5069cddb889262ce36cdbf7ee90fb76a",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709718799084347392",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -1983,6 +1993,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "9dca35db59e3a446354d24ce7669ca19",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709719339390341122",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -1998,6 +2009,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "efbddfc1a499e14792d4f1a9c72d5677",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709719602125742080",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2013,6 +2025,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "547af6446b4b3497499c5b90081a8d8b",
 			"type": "repost",
 			"sourceUrl": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/709719701534941184",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2028,6 +2041,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "b4c9a0d1440642177e40190e91ad4541",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709719842937577473",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2043,6 +2057,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "69263851441b61d4bd4036e0e139c5e8",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709720002509856771",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2058,6 +2073,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "78dc0bdc288413ab6fbd7d70f4436fa5",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709720386234130432",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2073,6 +2089,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "1de22c7da0949522add4507d0b8fc1fa",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709721566049861632",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2088,6 +2105,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "35290d5d11f93d7636e5e7ed25d2e9ec",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709722568203378688",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2103,6 +2121,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "4bc3e64fecd19e0428a499b4fe5ab400",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709723159641993217",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2118,6 +2137,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "7b0180e7a51220e9a2154d7ff930da08",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709723183386009602",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2133,6 +2153,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "3da279d20d86050ea40d31e5b7c0d5d8",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709723196447023104",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2148,6 +2169,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "de9ae9f1e1ab2586aa6bb81382743b58",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709723195889164289",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2163,6 +2185,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "0ea1e9e865fe5eb157ff3b85e04cc589",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709723295738802176",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2178,6 +2201,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "261b08f5c789918b61bdddf46ae73d4e",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709723316655788032",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2193,6 +2217,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "3119054831bd4ab999a6b4dd581a03da",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709725501032697856",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2208,6 +2233,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "9ae10b3222fe7bb60e709c31bdf039ce",
 			"type": "repost",
 			"sourceUrl": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/709727231933812738",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2223,6 +2249,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "f11d5a82ae6ccd94a8ac020dff1342dc",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709730148753362944",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2238,6 +2265,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "06959de3a971e375a47394de11b60290",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709730187588423681",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2253,6 +2281,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "f030a7b5edcbbae9cd51473b4ae0d9b3",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709734827986165761",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2268,6 +2297,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "63b0549ef17fef180b46e31cc1be9184",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709738030597332992",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2283,6 +2313,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "4d9be1bad4275f98a344ea21ca087425",
 			"type": "repost",
 			"sourceUrl": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/709738337142239232",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2298,6 +2329,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "c3c01465e8d15c446f4201a2463b75d4",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709738386957983746",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2313,6 +2345,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "4f7a67f317a377e8c2672f20d3221e0b",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709740678142664704",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2328,6 +2361,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "d8eb10082a4885e12b3f88d3d4460223",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709745419056750592",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2343,6 +2377,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "f90a8a2eb03fac9bd66e73a7d23a7f0c",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709746233741611008",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2358,6 +2393,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "1ae7a65666e6725a6db3d5c21fe5f569",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709775679206793216",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2373,6 +2409,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "c0d342d85b228491ca9d874862f42602",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709804945512333312",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2388,6 +2425,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "61c475e52789a049f0dfaf3cb7eae1d1",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709816206413406208",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2403,6 +2441,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "483404b802f399b3150aeb9f3385ab11",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/709920648085282817",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2418,6 +2457,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "90722d27be2b1a9ee28c46ad2e0dacc8",
 			"type": "repost",
 			"sourceUrl": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/710028550603149312",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2433,6 +2473,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "3f0c8c6343f924c034cdb926f306bdfb",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/710118471191949312",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2448,6 +2489,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "17860a80711134bbae61cca34104e3ff",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/710396682152751104",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2463,6 +2505,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "94a8e8066c9d3f2f3b7b80b69b481878",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/710640921516384256",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2478,6 +2521,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "9f497e3614af07b42a57951937c46ba7",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/710647019627384836",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2493,6 +2537,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "abb481aa03c44f09a4529f8c8e453588",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/711484708589142016",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2508,6 +2553,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "bbc08ab31b4f9815e208c32b3aa40a68",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/711888974655127552",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2523,6 +2569,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "0f5388f6bcc4392510fd74f23cf0bd28",
 			"type": "repost",
 			"sourceUrl": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/714827909777592320",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2538,6 +2585,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "e0758692c699034ea488ca1b35433e59",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/716022141477658624",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2553,6 +2601,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "8f2e566c5b2dfcf813f4a11c20c20faf",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/717079426450788352",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2568,6 +2617,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "6787ef9d4720f2d8b5f0fc5886644b59",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/717315859857936384",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2583,6 +2633,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "e1b334fdcf386c209e3b89cc1852d77a",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/717327370915450881",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2598,6 +2649,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "415670e4e2b14347b3e05ccf5f17884a",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/717331097923809280",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2613,6 +2665,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "ad4cd039700ea346cc01a5b685d89049",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/717779317745319936",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2628,6 +2681,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "3f73845e7530ef906c7ff60c00fd80e7",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/720635292688977921",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2643,6 +2697,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "9d46da7e585c41852531ce5e030af826",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/720879897548165124",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2658,6 +2713,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "3ccdedb815f79f01eaedaecbad69d563",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/722697938267455488",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2673,6 +2729,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "f7831e34ea8ce65e5d08bf723386f710",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/727741064199720962",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2688,6 +2745,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "249776197b1e7e004645c037f296fdc0",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/735497957600952320",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2703,6 +2761,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "ab7d030a0ff28bb23f5e6dac2f48e25f",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/737320356483063812",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2718,6 +2777,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "4ad6dd0a61cf46e1b0c470df9cf30127",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/737573893196513280",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2733,6 +2793,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "c3f5700cdeeddb2f803482d92cdf7c20",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/737575557781540865",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2748,6 +2809,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "d05f7b5b3bf209a7a2b870a070697592",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/737737882509692928",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2763,6 +2825,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "0330ff301744404d466152d35e029af6",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/737984649264254976",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2778,6 +2841,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "63a972252ac5b206395424685c4df916",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/738866631204560897",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2793,6 +2857,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "18cba18a9add3c19305c905f4a0aead1",
 			"type": "repost",
 			"sourceUrl": "https://brid.gy/repost/twitter/rowanmanning/745548499672956929/745554247962460160",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2808,6 +2873,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "eb503887481d38a2e62175b8e9f7eb58",
 			"type": "repost",
 			"sourceUrl": "https://brid.gy/repost/twitter/rowanmanning/745548499672956929/745560023145684994",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2823,6 +2889,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "816c734b96d12c659acad9d6d8764c07",
 			"type": "repost",
 			"sourceUrl": "https://brid.gy/repost/twitter/rowanmanning/745548499672956929/745572104574107648",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2838,6 +2905,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "7ba614725982fc9732eb442210112ea0",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/745808798598586368",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2853,6 +2921,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "a271c3bcc9ca43309f1ceed5c0114fa6",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/759630509681086469",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2868,6 +2937,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "63048d74217a95cc2afedfd7e3887ef4",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/775515257309540353",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2883,6 +2953,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "aa3f627916b39c3c438ddcba9c0745a4",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/819134026065715200",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2898,6 +2969,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "1dbcc8db9b57aa5637061d8318ff4840",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/824927683561799680",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2913,6 +2985,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "7e0fc31c545fc0cb2a1e0d4546021558",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/835667944042598402",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2928,6 +3001,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "cd316cdc2ff2c6ab6ad9f67eb7479645",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/870104758404734977",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2943,6 +3017,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "eddce7ea6c9470bffcd822d66830d039",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/915831169748410369",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2958,6 +3033,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "8a9628ef59f1717772f6bbe0fae5d164",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/965617233149005829",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2973,6 +3049,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "644eac0cecf45084d18e805bcf47e9bd",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/966869153045995521",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -2988,6 +3065,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "880625c732b234e6d79f3e027c7ecc72",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/998096030867472385",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -3003,6 +3081,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "dcd2fe672c26c305a0f541a91b7adcfd",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/745548499672956929/7801762",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -3018,6 +3097,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "b1f19061a8c7ee4b287c55a425ceaad4",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/745548499672956929/184376567",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -3033,6 +3113,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "9facae6824f51a3995d0ebb2ebc8c893",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/745548499672956929/112401465",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -3048,6 +3129,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "d46dca736419fca5f2be116c5e75f90c",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/709709511074840576/92525449",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -3063,6 +3145,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "d412e24f49b5df7341cb16ba9d69a789",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/709709511074840576/15444529",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -3078,6 +3161,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "4787f4e97e6c4f4a554b174f37412f4e",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/709709511074840576/14937051",
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",

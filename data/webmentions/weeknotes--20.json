@@ -159,6 +159,7 @@
 	},
 	"processed": [
 		{
+			"md5": "9d65305185a57bdedb4b60a7472bb1a7",
 			"type": "response",
 			"sourceUrl": "https://rowanmanning.com/weeknotes/27/",
 			"targetUrl": "https://rowanmanning.com/weeknotes/20/",
@@ -174,6 +175,7 @@
 			"isTruncated": true
 		},
 		{
+			"md5": "e433b4b47f3b5de6fd6e701aa7a15618",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1371406164878102531/175033490",
 			"targetUrl": "https://rowanmanning.com/weeknotes/20/",
@@ -189,6 +191,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "578098ab148cc890a70ff17a80bc026f",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1371406164878102531/1008287622865747968",
 			"targetUrl": "https://rowanmanning.com/weeknotes/20/",
@@ -204,6 +207,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "9434b103bd3b702c6df4617c487a13be",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1371406164878102531/39274235",
 			"targetUrl": "https://rowanmanning.com/weeknotes/20/",
@@ -219,6 +223,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "d5c3ef960c6a99e909d037664e8ba018",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1371406164878102531/17367779",
 			"targetUrl": "https://rowanmanning.com/weeknotes/20/",
@@ -234,6 +239,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "d8eaef748b3e59900adc5a0a708f547f",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1371406164878102531/127856293",
 			"targetUrl": "https://rowanmanning.com/weeknotes/20/",
@@ -249,6 +255,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "30ab17d2ef9a1c3b2b6c490f11f39b38",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1371406164878102531/48299090",
 			"targetUrl": "https://rowanmanning.com/weeknotes/20/",
@@ -264,6 +271,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "5aa0789e19eb10080111ab5d1e3a7082",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1371406164878102531/39993480",
 			"targetUrl": "https://rowanmanning.com/weeknotes/20/",

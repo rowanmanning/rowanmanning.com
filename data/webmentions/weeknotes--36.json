@@ -179,6 +179,7 @@
 	},
 	"processed": [
 		{
+			"md5": "c2ad6941f968a0bf46460b373cc776e0",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/1411371067386613766",
 			"targetUrl": "https://rowanmanning.com/weeknotes/36/",
@@ -194,6 +195,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "847735bd0ff6fb7b5db924127a80d400",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/comment/twitter/rowanmanning/1411364342067613697/1411374700438171653",
 			"targetUrl": "https://rowanmanning.com/weeknotes/36/",
@@ -209,6 +211,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "cc2180717e5dde173698964ae822d809",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1411364342067613697/373065378",
 			"targetUrl": "https://rowanmanning.com/weeknotes/36/",
@@ -224,6 +227,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "a5eb905e9cb50c35bcf3563378754b95",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1411364342067613697/42671737",
 			"targetUrl": "https://rowanmanning.com/weeknotes/36/",
@@ -239,6 +243,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "49d921ec954260d2a477b9afc924ae76",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1411364342067613697/741506154",
 			"targetUrl": "https://rowanmanning.com/weeknotes/36/",
@@ -254,6 +259,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "948ce7e12bdfee095998b27c19cdb9e4",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/comment/twitter/rowanmanning/1411364342067613697/1411396439104761859",
 			"targetUrl": "https://rowanmanning.com/weeknotes/36/",
@@ -269,6 +275,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "9aa7796f05a8d3d22121d39cfa15851b",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1411364342067613697/96442598",
 			"targetUrl": "https://rowanmanning.com/weeknotes/36/",
@@ -284,6 +291,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "a8edee25db301c449db53747ec551f28",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1411364342067613697/127856293",
 			"targetUrl": "https://rowanmanning.com/weeknotes/36/",

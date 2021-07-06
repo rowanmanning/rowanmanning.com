@@ -69,6 +69,7 @@
 	},
 	"processed": [
 		{
+			"md5": "7e1ba8d98eaf75d6a1bbf269e4278e38",
 			"type": "response",
 			"sourceUrl": "https://rowanmanning.com/weeknotes/11/",
 			"targetUrl": "https://rowanmanning.com/weeknotes/10/",
@@ -84,6 +85,7 @@
 			"isTruncated": true
 		},
 		{
+			"md5": "767af851a9ef0e39ce9a0c0eea46683e",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1345762824161812480/127856293",
 			"targetUrl": "https://rowanmanning.com/weeknotes/10/",
@@ -99,6 +101,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "8d58408ce360d4a7c999c0107fcf90fb",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1345762824161812480/24541114",
 			"targetUrl": "https://rowanmanning.com/weeknotes/10/",

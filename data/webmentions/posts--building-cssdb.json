@@ -64,6 +64,7 @@
 	},
 	"processed": [
 		{
+			"md5": "340e1d66c45b157ef1bd4c77bc663f57",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/317945612987428864",
 			"targetUrl": "https://rowanmanning.com/posts/building-cssdb/",
@@ -79,6 +80,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "8a027ab3afb3166d9d21565963ec4308",
 			"type": "repost",
 			"sourceUrl": "https://brid.gy/repost/twitter/rowanmanning/318984811098300417/318984956686766080",
 			"targetUrl": "https://rowanmanning.com/posts/building-cssdb/",
@@ -94,6 +96,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "915037580a570905eb7ade5af99b13b6",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/317934893378195456/746066785",
 			"targetUrl": "https://rowanmanning.com/posts/building-cssdb/",

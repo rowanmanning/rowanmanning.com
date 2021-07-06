@@ -39,6 +39,7 @@
 	},
 	"processed": [
 		{
+			"md5": "934dc7cfaa39b3de996c2e78bb6f78b6",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1366372147778756613/874552327251906560",
 			"targetUrl": "https://rowanmanning.com/weeknotes/18/",
@@ -54,6 +55,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "3595fbca2b91006ce230dc08e317d0dd",
 			"type": "like",
 			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1366372147778756613/127856293",
 			"targetUrl": "https://rowanmanning.com/weeknotes/18/",

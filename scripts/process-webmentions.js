@@ -24,7 +24,7 @@ const DOMPurify = createDOMPurify(window);
 	for (const file of files) {
 		const filePath = `${dataPath}/${file}`;
 		const webmentions = await loadJSON(filePath);
-		webmentions.processed = Object.values(webmentions.raw)
+		webmentions.processed = Object.entries(webmentions.raw)
 			.map(processWebmention)
 			.filter(webmention => webmention)
 			.sort((wm1, wm2) => new Date(wm1.date) - new Date(wm2.date));
@@ -33,7 +33,7 @@ const DOMPurify = createDOMPurify(window);
 
 })();
 
-function processWebmention(webmention) {
+function processWebmention([md5, webmention]) {
 	const type = getMentionType(webmention);
 	const author = getMentionAuthor(webmention);
 	const twitterRegExp = /^https?:\/\/(www\.)?twitter\.com\/[^/]+\/status\//;
@@ -43,6 +43,7 @@ function processWebmention(webmention) {
 		const {content, isTruncated} = (type === 'response' ? getMentionContent(webmention) : {});
 
 		return {
+			md5,
 			type,
 			sourceUrl: webmention['wm-source'],
 			targetUrl: webmention['wm-target'],

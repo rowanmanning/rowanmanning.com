@@ -69,6 +69,7 @@
 	},
 	"processed": [
 		{
+			"md5": "0acce80c71974a22baae92ef1cbc4fd0",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/334936127268077568",
 			"targetUrl": "https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/",
@@ -84,6 +85,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "bc82b612dc25673ea614c5c4831ac005",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/487580221559013376",
 			"targetUrl": "https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/",
@@ -99,6 +101,7 @@
 			"isTruncated": false
 		},
 		{
+			"md5": "f4e4cf940e5e713db57e35f1d18fe5f6",
 			"type": "response",
 			"sourceUrl": "https://brid.gy/post/twitter/rowanmanning/817728761584033792",
 			"targetUrl": "https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/",
