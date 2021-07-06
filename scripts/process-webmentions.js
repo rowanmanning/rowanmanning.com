@@ -19,7 +19,7 @@ const DOMPurify = createDOMPurify(window);
 
 	// Load all webmention files
 	const dataPath = `${__dirname}/../data/webmentions`;
-	const files = (await fs.readdir(dataPath)).filter(file => file !== '_site.json');
+	const files = await fs.readdir(dataPath);
 
 	for (const file of files) {
 		const filePath = `${dataPath}/${file}`;

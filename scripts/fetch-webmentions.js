@@ -4,7 +4,7 @@
 const crypto = require('crypto');
 const fs = require('fs/promises');
 const got = require('got');
-const site = require('../data/webmentions/_site.json');
+const site = require('../data/webmention-config/site.json');
 
 (async () => {
 
@@ -89,7 +89,7 @@ const site = require('../data/webmentions/_site.json');
 		site.lastSync = webmentions[webmentions.length - 1]['wm-received'];
 		console.log(`Saving last sync date as ${site.lastSync}`);
 		await fs.writeFile(
-			`${__dirname}/../data/webmentions/_site.json`,
+			`${__dirname}/../data/webmention-config/site.json`,
 			JSON.stringify(site, null, '\t')
 		);
 	}
