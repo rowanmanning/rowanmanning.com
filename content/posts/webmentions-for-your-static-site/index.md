@@ -69,7 +69,7 @@ The end result of this flow is that Simon's post links to Kara's, and Kara's now
 
   * Kara does not need to maintain a "comments" form or any kind of sign in for people who want to comment on her posts.
 
-Hopefully, that's enough information to help understand the next part of this post, which talks through how you set up Webmentions on a static website. If you need more of a deep dive, then [I recommend starting with this article](https://alistapart.com/article/webmentions-enabling-better-communication-on-the-internet/).
+So that's webmentions! If you need more of a deep dive than this, then [I recommend starting with this article](https://alistapart.com/article/webmentions-enabling-better-communication-on-the-internet/).
 
 
 ## Static Site Difficulties
@@ -80,14 +80,14 @@ In my previous example, I talked about servers being able to send and receive we
 
   * Sending webmentions manually is possible, but it adds a new step for you to complete every time you publish content. It's possible to fully automate sending during the build step of your static site.
 
-  * Displaying webmentions requires you to store them somewhere, which means you need a [static site generator](https://jamstack.org/generators/) that supports rendering content from data files (e.g. JSON) or to accept that you can only render webmentions with JavaScript on the client.
+  * Displaying webmentions requires you to store them somewhere, which means you need a [static site generator](https://jamstack.org/generators/) that supports rendering content from data files (e.g. JSON), or you need to accept that you can only render webmentions with JavaScript on the client.
 
 
 ## Receiving Webmentions
 
 As mentioned above, you need some kind of server to receive webmentions. Luckily there are a few [services](https://webmention.net/implementations/#services) which can do this for you. I opted for [Webmention.io](https://webmention.io/) which is a free hosted service. To set up the basics of receiving webmentions, you'll need to:
 
-  * Set up [IndieAuth](https://indieweb.org/IndieAuth) for your website. This sounds much more complicated than it is (and you may already be doing it without knowing):
+  * Set up [IndieAuth](https://indieweb.org/IndieAuth) for your website:
 
     * Make sure a social profile of yours (e.g. Twitter, GitHub, Facebook) links to the home page of your website. You can do this via the edit profile page of these services.
 
@@ -110,7 +110,7 @@ As mentioned above, you need some kind of server to receive webmentions. Luckily
     />
     ```
 
-Now you're ready to receive webmentions! Now if somebody who publishes webmentions links to your website, it will appear on your Webmention.io dashboard for you to see.
+Now you're ready to receive webmentions! If somebody who publishes webmentions links to your website, it will appear on your Webmention.io dashboard for you to see.
 
 An additional step for me was that I wanted to capture interactions on social websites like Twitter. The large social sites don't implement Webmention themselves, however, another third party service can be used to watch for social interactions on other sites and publish webmentions on their behalf.
 
@@ -121,7 +121,7 @@ Setting up [Bridgy](https://brid.gy/) was relatively quick, and it can connect t
 
 So now you're receiving webmentions, it's time to store them alongside your website code so that we can move onto the next step, displaying them. For this, you'll need for your website to include a build step, which is already needed for many Static Site generators.
 
-My website is built with [Hugo](https://gohugo.io/) and is hosted on GitHub Pages, so I already have a build step that uses GitHub Actions to automatically generate the static HTML and deploy it via the `build` branch.
+My website is built with [Hugo](https://gohugo.io/) and is hosted on GitHub Pages, so I already have a [build step](https://github.com/rowanmanning/rowanmanning.com/blob/main/.github/workflows/gh-pages.yml) that uses GitHub Actions to automatically generate the static HTML and deploy it via the `build` branch.
 
 Hugo allows for your website to access JSON files in the `data` folder so, for me, it makes sense for my build step to fetch webmentions from Webmention.io via their API and store them in this folder for use later.
 
@@ -239,7 +239,7 @@ So for example if you have a blog post which looks like this:
 </article>
 ```
 
-You can use Microformats class names to help a machine (in this case a Webmention receiver) to parse out the relevant details:
+Our HTML with added Microformat classes would look like this:
 
 ```html
 <article class="h-entry">
@@ -255,6 +255,8 @@ You can use Microformats class names to help a machine (in this case a Webmentio
     </footer>
 </article>
 ```
+
+Microformats class names help a machine (in this case a Webmention receiver) to parse out the relevant details. These classes start with `h-`, `p-`, `e-`, `dt-` depending on the property being described, and you can find examples of [all the properties for h-entry here](https://microformats.org/wiki/h-entry#Properties).
 
 Now your web page is ready to be parsed by a Webmention receiver, and you're able to start sending them.
 
