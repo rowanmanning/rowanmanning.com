@@ -1839,14 +1839,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T11:56:12+00:00",
 			"url": "https://twitter.com/onishiweb/status/709709780722585600",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Adam Onishi",
 				"url": "https://twitter.com/onishiweb",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/6fa7ea74c246fc16afd5a5d845d36fb772ec7fe4e040d31d493ee36ab7975779.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/6fa7ea74c246fc16afd5a5d845d36fb772ec7fe4e040d31d493ee36ab7975779.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "onishiweb"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "b92bafd3075d38a2066cb20e06ee2db0",
@@ -1855,14 +1857,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:05:38+00:00",
 			"url": "https://twitter.com/kinjacono/status/709712157131276288",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Jim Kinsey",
 				"url": "https://twitter.com/kinjacono",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/ae39e226222cc0c310b484d518dde4f187e9ea676f1185d10fd0bbcf0ae617d7.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ae39e226222cc0c310b484d518dde4f187e9ea676f1185d10fd0bbcf0ae617d7.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "kinjacono"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "caf36c312b20e059e65618e7771c98ee",
@@ -1871,14 +1875,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:12:03+00:00",
 			"url": "https://twitter.com/mediumpacer/status/709713772122935297",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Leigh Clancy",
 				"url": "https://twitter.com/mediumpacer",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/bbffaf481f710b59fa9dd0e433bb496aa0f9c731f40dd2fd646d0c60af5b2afe.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/bbffaf481f710b59fa9dd0e433bb496aa0f9c731f40dd2fd646d0c60af5b2afe.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "mediumpacer"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "afa4b4d2a4d49e5adc10c2a6cda5efb4",
@@ -1887,14 +1893,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:28:30+00:00",
 			"url": "https://twitter.com/moddular/status/709717909329858560",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Andrew Walker",
 				"url": "https://twitter.com/moddular",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/77ceb4604e68ec4eec61cbb303e8a19dfdd3cdf97b79024b41e2a0b81aa984de.gif"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/77ceb4604e68ec4eec61cbb303e8a19dfdd3cdf97b79024b41e2a0b81aa984de.gif",
+				"isTwitterUser": true,
+				"twitterUsername": "moddular"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "6e27dbd526291946c2474c007746b853",
@@ -1903,14 +1911,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/#labnol",
 			"date": "2016-03-15T12:29:47+00:00",
 			"url": "https://twitter.com/Twittociate/status/709718234925105153",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Antmnirbhar Troll",
 				"url": "https://twitter.com/Twittociate",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/70ee19e9a769dc81ff25d3843fa38f05c25c765f950d2c4211ded09dfebdc99c.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/70ee19e9a769dc81ff25d3843fa38f05c25c765f950d2c4211ded09dfebdc99c.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "Twittociate"
 			},
 			"content": "\n\t\t\tWriting a Friendly README – a short guide on user-focused documentation (rowanmanning​.com) <a href=\"http://dlvr.it/Knbc0Z\" nofollow=\"nofollow\">dlvr.it/Knbc0Z</a> \n\n\t\t\t<a href=\"https://twitter.com/Twittociate/status/709718234925105153\" nofollow>[image]</a>\n\t\t",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "4ef15a1a6cba10a4c9fd35f4fee0d396",
@@ -1919,14 +1929,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:30:02+00:00",
 			"url": "https://twitter.com/HNTweets/status/709718294610075649",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Hacker News",
 				"url": "https://twitter.com/HNTweets",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/bd356e0cf7174aed2286323e5c0af0fbd2ba52cddb77eadd4520eb5f7f4a27b8.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/bd356e0cf7174aed2286323e5c0af0fbd2ba52cddb77eadd4520eb5f7f4a27b8.png",
+				"isTwitterUser": true,
+				"twitterUsername": "HNTweets"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation: <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> Comments: <a href=\"https://news.ycombinator.com/item?id=11288947\" nofollow=\"nofollow\">news.ycombinator.com/item?id=112889…</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "6a7d59eafb849ef32756d23dcc2979d3",
@@ -1935,14 +1947,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:31:41+00:00",
 			"url": "https://twitter.com/newsycbot/status/709718711461158913",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Hacker News YC",
 				"url": "https://twitter.com/newsycbot",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/881e71eaca9192881fb82b56c539050d7b1a427a00fd3ed4c3c5bee09549f0e9.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/881e71eaca9192881fb82b56c539050d7b1a427a00fd3ed4c3c5bee09549f0e9.png",
+				"isTwitterUser": true,
+				"twitterUsername": "newsycbot"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://bit.ly/1QUi1tE\" nofollow=\"nofollow\">bit.ly/1QUi1tE</a> (cmts <a href=\"http://bit.ly/22gUADx\" nofollow=\"nofollow\">bit.ly/22gUADx</a>)\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "5cbc02964b1133b5d91aff29e3d8ddaa",
@@ -1951,14 +1965,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:32:02+00:00",
 			"url": "https://twitter.com/Track_Chat/status/709718799210176512",
-			"isFromTwitter": true,
 			"author": {
 				"name": "TrackChat",
 				"url": "https://twitter.com/Track_Chat",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/5ada4a8e18c73ed66265b9934e2a22f666190754213c623019e8b75ff54ea332.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/5ada4a8e18c73ed66265b9934e2a22f666190754213c623019e8b75ff54ea332.png",
+				"isTwitterUser": true,
+				"twitterUsername": "Track_Chat"
 			},
 			"content": "IT news: Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "2b7066b9dc3a854414eed7836a503ccd",
@@ -1967,14 +1983,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:32:02+00:00",
 			"url": "https://twitter.com/Peta_Eaton/status/709718799155601408",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Peta Eaton",
 				"url": "https://twitter.com/Peta_Eaton",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/bd843233056f90ded226f02c49031fecff585a6c64ed231eee9f132464736d92.jpeg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/bd843233056f90ded226f02c49031fecff585a6c64ed231eee9f132464736d92.jpeg",
+				"isTwitterUser": true,
+				"twitterUsername": "Peta_Eaton"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "5069cddb889262ce36cdbf7ee90fb76a",
@@ -1983,14 +2001,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:32:02+00:00",
 			"url": "https://twitter.com/tm_interesting/status/709718799084347392",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Thomas Buck",
 				"url": "https://twitter.com/tm_interesting",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/29fe397b1104255f0683f4131982ad206bf0d8fb2ff25a18edbd511343617ffc.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/29fe397b1104255f0683f4131982ad206bf0d8fb2ff25a18edbd511343617ffc.png",
+				"isTwitterUser": true,
+				"twitterUsername": "tm_interesting"
 			},
 			"content": "IT news: Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "9dca35db59e3a446354d24ce7669ca19",
@@ -1999,14 +2019,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:34:11+00:00",
 			"url": "https://twitter.com/neuropuff/status/709719339390341122",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Neuropuff",
 				"url": "https://twitter.com/neuropuff",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/0ebaa83379a02044a5c2609251391984cd59e6c55f062c08dd49b8aea8907bea.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/0ebaa83379a02044a5c2609251391984cd59e6c55f062c08dd49b8aea8907bea.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "neuropuff"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://bit.ly/1QUK3Xp\" nofollow=\"nofollow\">bit.ly/1QUK3Xp</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "efbddfc1a499e14792d4f1a9c72d5677",
@@ -2015,14 +2037,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:35:13+00:00",
 			"url": "https://twitter.com/krunox123/status/709719602125742080",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Krunox",
 				"url": "https://twitter.com/krunox123",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/4d5fac3e38fb6d7285ad54064cf67edf3a2ed34665e4f9f974f481bb68f7bbfd.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/4d5fac3e38fb6d7285ad54064cf67edf3a2ed34665e4f9f974f481bb68f7bbfd.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "krunox123"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://ift.tt/1nL1wWs\" nofollow=\"nofollow\">ift.tt/1nL1wWs</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "547af6446b4b3497499c5b90081a8d8b",
@@ -2031,14 +2055,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:35:37+00:00",
 			"url": "https://twitter.com/j_mes/status/709719701534941184",
-			"isFromTwitter": true,
 			"author": {
 				"name": "James Loveridge",
 				"url": "https://twitter.com/j_mes",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/0f849898d37f77cb9f1cdd1a9a094d2ffb11fc222d8ac2e034be2e9bec95c1dc.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/0f849898d37f77cb9f1cdd1a9a094d2ffb11fc222d8ac2e034be2e9bec95c1dc.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "j_mes"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "b4c9a0d1440642177e40190e91ad4541",
@@ -2047,14 +2073,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:36:11+00:00",
 			"url": "https://twitter.com/Un1v3rs0Z3r0/status/709719842937577473",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Un1v3rs0 Z3r0",
 				"url": "https://twitter.com/Un1v3rs0Z3r0",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d211ea1137aae7984423b07e294abd5e453f531fa917c689cce8a760bb12d78b.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d211ea1137aae7984423b07e294abd5e453f531fa917c689cce8a760bb12d78b.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "Un1v3rs0Z3r0"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://ift.tt/1nL1wWs\" nofollow=\"nofollow\">ift.tt/1nL1wWs</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "69263851441b61d4bd4036e0e139c5e8",
@@ -2063,14 +2091,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:36:49+00:00",
 			"url": "https://twitter.com/linnflux/status/709720002509856771",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Linnflux",
 				"url": "https://twitter.com/linnflux",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/6ac8ec1cb362ea9f8c3e21e6e6027a989b7a85a1b76d52fd27072f9c338925ca.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/6ac8ec1cb362ea9f8c3e21e6e6027a989b7a85a1b76d52fd27072f9c338925ca.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "linnflux"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://ift.tt/1nL1wWs\" nofollow=\"nofollow\">ift.tt/1nL1wWs</a> <a href=\"https://twitter.com/search?q=%23webdesign\" nofollow=\"nofollow\">#webdesign</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "78dc0bdc288413ab6fbd7d70f4436fa5",
@@ -2079,14 +2109,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:38:20+00:00",
 			"url": "https://twitter.com/myikegami_bot/status/709720386234130432",
-			"isFromTwitter": true,
 			"author": {
 				"name": "m.y.ikegami_bot",
 				"url": "https://twitter.com/myikegami_bot",
-				"photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png"
+				"photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png",
+				"isTwitterUser": true,
+				"twitterUsername": "myikegami_bot"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://goo.gl/fb/GxV5Z4\" nofollow=\"nofollow\">goo.gl/fb/GxV5Z4</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "1de22c7da0949522add4507d0b8fc1fa",
@@ -2095,14 +2127,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:43:01+00:00",
 			"url": "https://twitter.com/davidcamachoj/status/709721566049861632",
-			"isFromTwitter": true,
 			"author": {
 				"name": "David Camacho",
 				"url": "https://twitter.com/davidcamachoj",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/06d708dc36aa262b89f367fb51c17d77d028d32977f1e91f49c14d1ec956ff95.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/06d708dc36aa262b89f367fb51c17d77d028d32977f1e91f49c14d1ec956ff95.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "davidcamachoj"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://ift.tt/1nL1wWs\" nofollow=\"nofollow\">ift.tt/1nL1wWs</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "35290d5d11f93d7636e5e7ed25d2e9ec",
@@ -2111,14 +2145,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:47:00+00:00",
 			"url": "https://twitter.com/DrDanyo/status/709722568203378688",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Dr Danyo 💙",
 				"url": "https://twitter.com/DrDanyo",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/5dc9dc20c07c3c9ae01d35edc468d4887584828779d6869c705a991f327ef5c1.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/5dc9dc20c07c3c9ae01d35edc468d4887584828779d6869c705a991f327ef5c1.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "DrDanyo"
 			},
 			"content": "Writing a Friendly README <a href=\"http://buff.ly/1LodyQR\" nofollow=\"nofollow\">buff.ly/1LodyQR</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "4bc3e64fecd19e0428a499b4fe5ab400",
@@ -2127,14 +2163,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:49:21+00:00",
 			"url": "https://twitter.com/HaxNewsFeed/status/709723159641993217",
-			"isFromTwitter": true,
 			"author": {
 				"name": "HaxNewsFeed",
 				"url": "https://twitter.com/HaxNewsFeed",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/70d8c59f16bf29cea2a07bcd91625bb0864c97b18f7b813f65c09f722573340e.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/70d8c59f16bf29cea2a07bcd91625bb0864c97b18f7b813f65c09f722573340e.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "HaxNewsFeed"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation: Comments <a href=\"http://bit.ly/1YViLlf\" nofollow=\"nofollow\">bit.ly/1YViLlf</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "7b0180e7a51220e9a2154d7ff930da08",
@@ -2143,14 +2181,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:49:27+00:00",
 			"url": "https://twitter.com/vojinurosevic/status/709723183386009602",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Vojin Urosevic 沃因",
 				"url": "https://twitter.com/vojinurosevic",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/7cdcf1d17d44310b3331596bd5f9dcd9a4e1992a1cf88a8242f1d177db86c275.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/7cdcf1d17d44310b3331596bd5f9dcd9a4e1992a1cf88a8242f1d177db86c275.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "vojinurosevic"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation: Comments <a href=\"http://bit.ly/1YViLlf\" nofollow=\"nofollow\">bit.ly/1YViLlf</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "3da279d20d86050ea40d31e5b7c0d5d8",
@@ -2159,14 +2199,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:49:30+00:00",
 			"url": "https://twitter.com/RaivooNET/status/709723196447023104",
-			"isFromTwitter": true,
 			"author": {
 				"name": "RaivooNET",
 				"url": "https://twitter.com/RaivooNET",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/9bcf4233708f8dc023c0d2b18c8f00b17c8a35fe467f5545decd487eb2c76a2b.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/9bcf4233708f8dc023c0d2b18c8f00b17c8a35fe467f5545decd487eb2c76a2b.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "RaivooNET"
 			},
 			"content": "Hacker: Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://bit.ly/1YViLlf\" nofollow=\"nofollow\">bit.ly/1YViLlf</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "de9ae9f1e1ab2586aa6bb81382743b58",
@@ -2175,14 +2217,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:49:30+00:00",
 			"url": "https://twitter.com/nadjibbbbb/status/709723195889164289",
-			"isFromTwitter": true,
 			"author": {
 				"name": "nadjib",
 				"url": "https://twitter.com/nadjibbbbb",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/c2502b59c120d286c924cd511d9d7afb949b516f3df7700f907ffb6d87d86b50.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/c2502b59c120d286c924cd511d9d7afb949b516f3df7700f907ffb6d87d86b50.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "nadjibbbbb"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation: Comments <a href=\"http://bit.ly/1YViLlf\" nofollow=\"nofollow\">bit.ly/1YViLlf</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "0ea1e9e865fe5eb157ff3b85e04cc589",
@@ -2191,14 +2235,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:49:54+00:00",
 			"url": "https://twitter.com/Yelow79/status/709723295738802176",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Wes Gould",
 				"url": "https://twitter.com/Yelow79",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/ec70b189e00137b69c51324cbe021985862de7daa9828b5e9e415dd25e41d344.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ec70b189e00137b69c51324cbe021985862de7daa9828b5e9e415dd25e41d344.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "Yelow79"
 			},
 			"content": "<a href=\"https://twitter.com/search?q=%23hackernews\" nofollow=\"nofollow\">#hackernews</a> Writing a Friendly README – a short guide on user-focused documentation: Comments <a href=\"http://bit.ly/1YViLlf\" nofollow=\"nofollow\">bit.ly/1YViLlf</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "261b08f5c789918b61bdddf46ae73d4e",
@@ -2207,14 +2253,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:49:59+00:00",
 			"url": "https://twitter.com/mit01dev/status/709723316655788032",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Mithun Dev",
 				"url": "https://twitter.com/mit01dev",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/4f3cde263a7fb29589892462b2c2b31848acee95af0c5315b14501638f49fba7.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/4f3cde263a7fb29589892462b2c2b31848acee95af0c5315b14501638f49fba7.png",
+				"isTwitterUser": true,
+				"twitterUsername": "mit01dev"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://bit.ly/1YViLlf\" nofollow=\"nofollow\">bit.ly/1YViLlf</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "3119054831bd4ab999a6b4dd581a03da",
@@ -2223,14 +2271,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T12:58:40+00:00",
 			"url": "https://twitter.com/bartezzini/status/709725501032697856",
-			"isFromTwitter": true,
 			"author": {
 				"name": "bartezzini",
 				"url": "https://twitter.com/bartezzini",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/6a12052e1be41da93f7bed96586c695df10b06761c937e854cee2c69bb12628b.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/6a12052e1be41da93f7bed96586c695df10b06761c937e854cee2c69bb12628b.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "bartezzini"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation: Comments <a href=\"http://goo.gl/fb/5FhOSl\" nofollow=\"nofollow\">goo.gl/fb/5FhOSl</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "9ae10b3222fe7bb60e709c31bdf039ce",
@@ -2239,14 +2289,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T13:05:32+00:00",
 			"url": "https://twitter.com/GlynnPhillips/status/709727231933812738",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Glynn Phillips",
 				"url": "https://twitter.com/GlynnPhillips",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d2faa425fbf06ad8f64f8b3b58708da89abc04a4b1f62aadd19f04e0bb650b22.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d2faa425fbf06ad8f64f8b3b58708da89abc04a4b1f62aadd19f04e0bb650b22.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "GlynnPhillips"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "f11d5a82ae6ccd94a8ac020dff1342dc",
@@ -2255,14 +2307,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T13:17:08+00:00",
 			"url": "https://twitter.com/movinalbarce/status/709730148753362944",
-			"isFromTwitter": true,
 			"author": {
 				"name": "02:13",
 				"url": "https://twitter.com/movinalbarce",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/e8911af5b22b6d3406febc01c852940715d1c64f29a77d53de2300d7b072a321.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/e8911af5b22b6d3406febc01c852940715d1c64f29a77d53de2300d7b072a321.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "movinalbarce"
 			},
 			"content": "<a href=\"https://twitter.com/search?q=%23beta\" nofollow=\"nofollow\">#beta</a> Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://bit.ly/22gX8l2\" nofollow=\"nofollow\">bit.ly/22gX8l2</a> <a href=\"https://twitter.com/search?q=%23Movin\" nofollow=\"nofollow\">#Movin</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "06959de3a971e375a47394de11b60290",
@@ -2271,14 +2325,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T13:17:17+00:00",
 			"url": "https://twitter.com/ilhamrenyut/status/709730187588423681",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Ilham Bintang Bugis",
 				"url": "https://twitter.com/ilhamrenyut",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/92f18e88fe7083a65c89c0c3dc02df4c839ecca31ce14a6ff0f9551df3d9a2f3.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/92f18e88fe7083a65c89c0c3dc02df4c839ecca31ce14a6ff0f9551df3d9a2f3.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "ilhamrenyut"
 			},
 			"content": "<a href=\"https://twitter.com/search?q=%23beta\" nofollow=\"nofollow\">#beta</a> Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://bit.ly/1YVp8oS\" nofollow=\"nofollow\">bit.ly/1YVp8oS</a> <a href=\"https://twitter.com/search?q=%23Movin\" nofollow=\"nofollow\">#Movin</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "f030a7b5edcbbae9cd51473b4ae0d9b3",
@@ -2287,14 +2343,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T13:35:43+00:00",
 			"url": "https://twitter.com/matsuu_zatsu/status/709734827986165761",
-			"isFromTwitter": true,
 			"author": {
 				"name": "雑u Bot",
 				"url": "https://twitter.com/matsuu_zatsu",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/3e10dc070dd8a8936245479d856783f8685efdd0060ead973acd4b694dba3e4e.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/3e10dc070dd8a8936245479d856783f8685efdd0060ead973acd4b694dba3e4e.png",
+				"isTwitterUser": true,
+				"twitterUsername": "matsuu_zatsu"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "63b0549ef17fef180b46e31cc1be9184",
@@ -2303,14 +2361,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T13:48:27+00:00",
 			"url": "https://twitter.com/StuRobson/status/709738030597332992",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Stuart Robson",
 				"url": "https://twitter.com/StuRobson",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/a7d3a6d3ebcf3fc74ac28de7c98af0d988d3e60940f01bff50f91a48249fd8f0.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/a7d3a6d3ebcf3fc74ac28de7c98af0d988d3e60940f01bff50f91a48249fd8f0.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "StuRobson"
 			},
 			"content": "some great stuff here — worth a few minutes of your time\n\nwriting a Friendly README - <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n\nvia <a href=\"https://twitter.com/onishiweb\" nofollow=\"nofollow\">@onishiweb</a>\n\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "4d9be1bad4275f98a344ea21ca087425",
@@ -2319,14 +2379,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T13:49:40+00:00",
 			"url": "https://twitter.com/laurabygaslight/status/709738337142239232",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Laura is 44",
 				"url": "https://twitter.com/laurabygaslight",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/eb4be3e0930ba2cea1cb8c3a7b46e7065dd5774d7d684aee849a85c954c046ad.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/eb4be3e0930ba2cea1cb8c3a7b46e7065dd5774d7d684aee849a85c954c046ad.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "laurabygaslight"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "c3c01465e8d15c446f4201a2463b75d4",
@@ -2335,14 +2397,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T13:49:52+00:00",
 			"url": "https://twitter.com/jameslz/status/709738386957983746",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Lei ZHANG",
 				"url": "https://twitter.com/jameslz",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/a138a5ae4925a873970f92eb6776012f8b3e4020602dbe67d899239a077d5982.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/a138a5ae4925a873970f92eb6776012f8b3e4020602dbe67d899239a077d5982.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "jameslz"
 			},
 			"content": "Writing a Friendly README <a href=\"http://bit.ly/1YVwWHc\" nofollow=\"nofollow\">bit.ly/1YVwWHc</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "4f7a67f317a377e8c2672f20d3221e0b",
@@ -2351,14 +2415,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T13:58:58+00:00",
 			"url": "https://twitter.com/abremges/status/709740678142664704",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Andreas Bremges",
 				"url": "https://twitter.com/abremges",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/410c20f0bedbd21cb4f50a7b46a1d2a5955656a4cb58de6420c6034e70ebe5ec.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/410c20f0bedbd21cb4f50a7b46a1d2a5955656a4cb58de6420c6034e70ebe5ec.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "abremges"
 			},
 			"content": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "d8eb10082a4885e12b3f88d3d4460223",
@@ -2367,14 +2433,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T14:17:48+00:00",
 			"url": "https://twitter.com/matiasBravo/status/709745419056750592",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Matías Bravo",
 				"url": "https://twitter.com/matiasBravo",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/eacebde52e9031d364b8d75d1de505becf14c19b09ab3a47b745ca976b8daf52.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/eacebde52e9031d364b8d75d1de505becf14c19b09ab3a47b745ca976b8daf52.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "matiasBravo"
 			},
 			"content": "Writing a Friendly README... <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "f90a8a2eb03fac9bd66e73a7d23a7f0c",
@@ -2383,14 +2451,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T14:21:03+00:00",
 			"url": "https://twitter.com/_crev_/status/709746233741611008",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Yves Brissaud",
 				"url": "https://twitter.com/_crev_",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/401bb39d877bb4e714d8ee7e26b1d6506a598253c29116133f877b426a936f51.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/401bb39d877bb4e714d8ee7e26b1d6506a598253c29116133f877b426a936f51.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "_crev_"
 			},
 			"content": "Simple but nice overview of how to write a good Readme for your projects <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "1ae7a65666e6725a6db3d5c21fe5f569",
@@ -2399,14 +2469,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T16:18:03+00:00",
 			"url": "https://twitter.com/ham103/status/709775679206793216",
-			"isFromTwitter": true,
 			"author": {
 				"name": "toru hamaguchi",
 				"url": "https://twitter.com/ham103",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/5e18a73469cf85b9ed3eca86bb8bf567c491b1d2575321a3da40fdb0951f3d9a.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/5e18a73469cf85b9ed3eca86bb8bf567c491b1d2575321a3da40fdb0951f3d9a.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "ham103"
 			},
 			"content": "README のお手本。見習おう。ちゃんと書こう。\n<a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "c0d342d85b228491ca9d874862f42602",
@@ -2415,14 +2487,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T18:14:21+00:00",
 			"url": "https://twitter.com/erictleung/status/709804945512333312",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Eric Leung",
 				"url": "https://twitter.com/erictleung",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/5e314a9c774e8a702523371e12cc62afe5da2af57b7ec7c288ddec762c0f8304.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/5e314a9c774e8a702523371e12cc62afe5da2af57b7ec7c288ddec762c0f8304.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "erictleung"
 			},
 			"content": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> <a href=\"https://twitter.com/search?q=%23programming\" nofollow=\"nofollow\">#programming</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "61c475e52789a049f0dfaf3cb7eae1d1",
@@ -2431,14 +2505,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-15T18:59:06+00:00",
 			"url": "https://twitter.com/ch4rlus/status/709816206413406208",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Charlus",
 				"url": "https://twitter.com/ch4rlus",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/b586c7b480ec29926598a2d2d6986f2477c0218659feda296b5fee16c2b11a41.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/b586c7b480ec29926598a2d2d6986f2477c0218659feda296b5fee16c2b11a41.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "ch4rlus"
 			},
 			"content": "\n\t\t\tWriting a Friendly README <a href=\"http://bit.ly/22gYkor\" nofollow=\"nofollow\">bit.ly/22gYkor</a> \n\n\t\t\t<a href=\"https://twitter.com/ch4rlus/status/709816206413406208\" nofollow>[image]</a>\n\t\t",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "483404b802f399b3150aeb9f3385ab11",
@@ -2447,14 +2523,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-16T01:54:06+00:00",
 			"url": "https://twitter.com/shr1n1/status/709920648085282817",
-			"isFromTwitter": true,
 			"author": {
 				"name": "shr1n1",
 				"url": "https://twitter.com/shr1n1",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/e9e4a443b9e090d04164d97ed4e2f81d6b4618a20a02553f02c01b96fd38a41a.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/e9e4a443b9e090d04164d97ed4e2f81d6b4618a20a02553f02c01b96fd38a41a.png",
+				"isTwitterUser": true,
+				"twitterUsername": "shr1n1"
 			},
 			"content": "Good tips on writing a README from <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a> : <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> via\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "90722d27be2b1a9ee28c46ad2e0dacc8",
@@ -2463,14 +2541,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-16T09:02:52+00:00",
 			"url": "https://twitter.com/donohoe_paul/status/710028550603149312",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Paul Donohoe",
 				"url": "https://twitter.com/donohoe_paul",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/db2cbad54eef832a8143e78bbcc91b118c53ac644088078acebd1d51d29a9a33.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/db2cbad54eef832a8143e78bbcc91b118c53ac644088078acebd1d51d29a9a33.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "donohoe_paul"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "3f0c8c6343f924c034cdb926f306bdfb",
@@ -2479,14 +2559,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-16T15:00:11+00:00",
 			"url": "https://twitter.com/Sethpolma/status/710118471191949312",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Jonathan Petitcolas",
 				"url": "https://twitter.com/Sethpolma",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/6bd95bcac65aabd12aaf346824a7f188d4423e27a48b15d70026fa250802a1b9.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/6bd95bcac65aabd12aaf346824a7f188d4423e27a48b15d70026fa250802a1b9.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "Sethpolma"
 			},
 			"content": "Writing a Friendly README <a href=\"http://buff.ly/1QUZC16\" nofollow=\"nofollow\">buff.ly/1QUZC16</a> <a href=\"https://twitter.com/search?q=%23opensource\" nofollow=\"nofollow\">#opensource</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "17860a80711134bbae61cca34104e3ff",
@@ -2495,14 +2577,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-17T09:25:42+00:00",
 			"url": "https://twitter.com/azu_re/status/710396682152751104",
-			"isFromTwitter": true,
 			"author": {
 				"name": "azu",
 				"url": "https://twitter.com/azu_re",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/c1f62346c6c5a900c4244c3579458324a760197e22d2a3711009c37ad60b8415.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/c1f62346c6c5a900c4244c3579458324a760197e22d2a3711009c37ad60b8415.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "azu_re"
 			},
 			"content": "READMEの書き方  \"Writing a Friendly README\"  <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "94a8e8066c9d3f2f3b7b80b69b481878",
@@ -2511,14 +2595,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-18T01:36:13+00:00",
 			"url": "https://twitter.com/laputa773/status/710640921516384256",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Han",
 				"url": "https://twitter.com/laputa773",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/0f4cf993d5b0d61325169efb1f229c170882500f616bd88a02d1713ecacf19f2.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/0f4cf993d5b0d61325169efb1f229c170882500f616bd88a02d1713ecacf19f2.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "laputa773"
 			},
 			"content": "Check out \"Writing a Friendly README\" <a href=\"http://ift.tt/1nL1wWs\" nofollow=\"nofollow\">ift.tt/1nL1wWs</a> (via <a href=\"https://twitter.com/Pocket\" nofollow=\"nofollow\">@pocket</a>)\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "9f497e3614af07b42a57951937c46ba7",
@@ -2527,14 +2613,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-18T02:00:27+00:00",
 			"url": "https://twitter.com/romulomachado_/status/710647019627384836",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Rômulo Machado",
 				"url": "https://twitter.com/romulomachado_",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/2d5c462af9a27ecf2b7c15e196dfefc650a6aa8d21799cab9574f5d77ecfb1b3.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/2d5c462af9a27ecf2b7c15e196dfefc650a6aa8d21799cab9574f5d77ecfb1b3.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "romulomachado_"
 			},
 			"content": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "abb481aa03c44f09a4529f8c8e453588",
@@ -2543,14 +2631,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-20T09:29:07+00:00",
 			"url": "https://twitter.com/overleo/status/711484708589142016",
-			"isFromTwitter": true,
 			"author": {
 				"name": "overleo",
 				"url": "https://twitter.com/overleo",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/22dfdd0e9bbe5b69966be069ec28b5853ceb8ff42aaf1dc787f8deb436716f67.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/22dfdd0e9bbe5b69966be069ec28b5853ceb8ff42aaf1dc787f8deb436716f67.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "overleo"
 			},
 			"content": "Writing a Friendly README: Writing a Friendly README Your project’s README is pretty important; it’s often… <a href=\"http://goo.gl/37VfVQ\" nofollow=\"nofollow\">goo.gl/37VfVQ</a> [fav]\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "bbc08ab31b4f9815e208c32b3aa40a68",
@@ -2559,14 +2649,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-21T12:15:32+00:00",
 			"url": "https://twitter.com/jasuarez/status/711888974655127552",
-			"isFromTwitter": true,
 			"author": {
 				"name": "JoseAlberto",
 				"url": "https://twitter.com/jasuarez",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/659f079fdb51af71e202b0a912ccb17b0cad240b0831c504277d22d08f68ecea.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/659f079fdb51af71e202b0a912ccb17b0cad240b0831c504277d22d08f68ecea.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "jasuarez"
 			},
 			"content": "Writing a Friendly README <a href=\"http://ow.ly/ZGzaB\" nofollow=\"nofollow\">ow.ly/ZGzaB</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "0f5388f6bcc4392510fd74f23cf0bd28",
@@ -2575,14 +2667,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-03-29T14:53:49+00:00",
 			"url": "https://twitter.com/kwdhinde/status/714827909777592320",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Kevin Hinde",
 				"url": "https://twitter.com/kwdhinde",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/796b790cbe88f9cb02bf0a48f55cf285f4ef2159222b325ae41ff39c47a65413.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/796b790cbe88f9cb02bf0a48f55cf285f4ef2159222b325ae41ff39c47a65413.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "kwdhinde"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "e0758692c699034ea488ca1b35433e59",
@@ -2591,14 +2685,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-04-01T21:59:16+00:00",
 			"url": "https://twitter.com/dxpertise_com/status/716022141477658624",
-			"isFromTwitter": true,
 			"author": {
 				"name": "dxpertise",
 				"url": "https://twitter.com/dxpertise_com",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/7e805a4c673760d00340fff34f0b7cc9d7a4953462e19d5c1451c067463a2b8c.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/7e805a4c673760d00340fff34f0b7cc9d7a4953462e19d5c1451c067463a2b8c.png",
+				"isTwitterUser": true,
+				"twitterUsername": "dxpertise_com"
 			},
 			"content": "Writing a Friendly README <a href=\"http://goo.gl/3jNUWs\" nofollow=\"nofollow\">goo.gl/3jNUWs</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "8f2e566c5b2dfcf813f4a11c20c20faf",
@@ -2607,14 +2703,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-04-04T20:00:32+00:00",
 			"url": "https://twitter.com/RobertoLaBarcaB/status/717079426450788352",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Roberto La Barca B.",
 				"url": "https://twitter.com/RobertoLaBarcaB",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/8ee5597ea4755a1f5b505703b808d1285533cd9d79480319c8c0949ed8b3553e.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/8ee5597ea4755a1f5b505703b808d1285533cd9d79480319c8c0949ed8b3553e.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "RobertoLaBarcaB"
 			},
 			"content": "\n\t\t\tWriting a Friendly README - <a href=\"http://bit.ly/1TwREwK\" nofollow=\"nofollow\">bit.ly/1TwREwK</a> \n\n\t\t\t<a href=\"https://twitter.com/RobertoLaBarcaB/status/717079426450788352\" nofollow>[image]</a>\n\t\t",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "6787ef9d4720f2d8b5f0fc5886644b59",
@@ -2623,14 +2721,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-04-05T11:40:02+00:00",
 			"url": "https://twitter.com/avdi/status/717315859857936384",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Avdi Grimm",
 				"url": "https://twitter.com/avdi",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d876f75f219ff74f1044e4743ec46620c8a0ba880ae7aab35ee339c3912ec17f.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d876f75f219ff74f1044e4743ec46620c8a0ba880ae7aab35ee339c3912ec17f.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "avdi"
 			},
 			"content": "Good guidelines here: Writing a Friendly README <a href=\"http://buff.ly/1SJwRni\" nofollow=\"nofollow\">buff.ly/1SJwRni</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "e1b334fdcf386c209e3b89cc1852d77a",
@@ -2639,14 +2739,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-04-05T12:25:47+00:00",
 			"url": "https://twitter.com/manojlds/status/717327370915450881",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Manoj Mahalingam | StackToHeap 🎙️",
 				"url": "https://twitter.com/manojlds",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/39fa70f03e128be23f1410ad84293228cd69e4559d0640b995a0ab003d22fc6a.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/39fa70f03e128be23f1410ad84293228cd69e4559d0640b995a0ab003d22fc6a.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "manojlds"
 			},
 			"content": "Guidelines for writing friendly READMEs\n\n<a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "415670e4e2b14347b3e05ccf5f17884a",
@@ -2655,14 +2757,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-04-05T12:40:35+00:00",
 			"url": "https://twitter.com/jasonkarns/status/717331097923809280",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Jason Karns",
 				"url": "https://twitter.com/jasonkarns",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/8bc064764cb00b6676b49de1648dbb583e8c74cc0d03b94137bd2b5fef9fcc9f.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/8bc064764cb00b6676b49de1648dbb583e8c74cc0d03b94137bd2b5fef9fcc9f.png",
+				"isTwitterUser": true,
+				"twitterUsername": "jasonkarns"
 			},
 			"content": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "ad4cd039700ea346cc01a5b685d89049",
@@ -2671,14 +2775,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-04-06T18:21:39+00:00",
 			"url": "https://twitter.com/zenorocha/status/717779317745319936",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Zeno Rocha",
 				"url": "https://twitter.com/zenorocha",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/125d31d87896b46f511b02a81f9356c8cfb50077f9e2b491cddc1e3803c4dec6.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/125d31d87896b46f511b02a81f9356c8cfb50077f9e2b491cddc1e3803c4dec6.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "zenorocha"
 			},
 			"content": "\"Writing a friendly README\" <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "3f73845e7530ef906c7ff60c00fd80e7",
@@ -2687,14 +2793,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-04-14T15:30:17+00:00",
 			"url": "https://twitter.com/kurskmeetup/status/720635292688977921",
-			"isFromTwitter": true,
 			"author": {
 				"name": "kurskmeetup",
 				"url": "https://twitter.com/kurskmeetup",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/33ca85cf8ebb97eee282aa86f8912b072427c44813dc19441405fec826aa8553.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/33ca85cf8ebb97eee282aa86f8912b072427c44813dc19441405fec826aa8553.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "kurskmeetup"
 			},
 			"content": "\n\t\t\tРуководство по написанию полезных README\n\n<a href=\"http://amp.gs/je0P\" nofollow=\"nofollow\">amp.gs/je0P</a> \n\n\t\t\t<a href=\"https://twitter.com/kurskmeetup/status/720635292688977921\" nofollow>[image]</a>\n\t\t",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "9d46da7e585c41852531ce5e030af826",
@@ -2703,14 +2811,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-04-15T07:42:15+00:00",
 			"url": "https://twitter.com/iamstarkov/status/720879897548165124",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Vladimir Starkov",
 				"url": "https://twitter.com/iamstarkov",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/520ee885abbe2826a5d8b612a233ac3aa401a330e1f8930b92c9edafd28b55ee.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/520ee885abbe2826a5d8b612a233ac3aa401a330e1f8930b92c9edafd28b55ee.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "iamstarkov"
 			},
 			"content": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "3ccdedb815f79f01eaedaecbad69d563",
@@ -2719,14 +2829,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-04-20T08:06:30+00:00",
 			"url": "https://twitter.com/translate3d/status/722697938267455488",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Sergej Müller",
 				"url": "https://twitter.com/translate3d",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/65af662a16c44e1fac79440f562d7a9b860880eda43da58cc0ed41eb095a132b.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/65af662a16c44e1fac79440f562d7a9b860880eda43da58cc0ed41eb095a132b.png",
+				"isTwitterUser": true,
+				"twitterUsername": "translate3d"
 			},
 			"content": "Writing a Friendly README <a href=\"https://twitter.com/search?q=%23webdev\" nofollow=\"nofollow\">#webdev</a> <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "f7831e34ea8ce65e5d08bf723386f710",
@@ -2735,14 +2847,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-05-04T06:06:05+00:00",
 			"url": "https://twitter.com/azu_re/status/727741064199720962",
-			"isFromTwitter": true,
 			"author": {
 				"name": "azu",
 				"url": "https://twitter.com/azu_re",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/c1f62346c6c5a900c4244c3579458324a760197e22d2a3711009c37ad60b8415.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/c1f62346c6c5a900c4244c3579458324a760197e22d2a3711009c37ad60b8415.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "azu_re"
 			},
 			"content": "GitHubのReadmeを解析してスコアを付けるサービス。\n項目の有無だけを見てて、中身は特に見てなさそう\n<a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> \"GitHub README Analyzer by Algor…\" <a href=\"http://demos.algorithmia.com/github-readme-analyzer/\" nofollow=\"nofollow\">demos.algorithmia.com/github-readme-…</a>\n\n\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "249776197b1e7e004645c037f296fdc0",
@@ -2751,14 +2865,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-05-25T15:49:12+00:00",
 			"url": "https://twitter.com/onishiweb/status/735497957600952320",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Adam Onishi",
 				"url": "https://twitter.com/onishiweb",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/6fa7ea74c246fc16afd5a5d845d36fb772ec7fe4e040d31d493ee36ab7975779.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/6fa7ea74c246fc16afd5a5d845d36fb772ec7fe4e040d31d493ee36ab7975779.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "onishiweb"
 			},
 			"content": "Re-sharing this great post on writing friendly READMEs, now I’ve finally read it fully: <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> by m'colleague <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "ab7d030a0ff28bb23f5e6dac2f48e25f",
@@ -2767,14 +2883,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-05-30T16:30:46+00:00",
 			"url": "https://twitter.com/MicheleBertoli/status/737320356483063812",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Michele Bertoli",
 				"url": "https://twitter.com/MicheleBertoli",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/51c3d5cd65d206220fc8c69c24bd48c2e14ec33f7435e2c35b030761685818bd.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/51c3d5cd65d206220fc8c69c24bd48c2e14ec33f7435e2c35b030761685818bd.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "MicheleBertoli"
 			},
 			"content": "Writing a Friendly README <a href=\"http://buff.ly/1Rr6aA9\" nofollow=\"nofollow\">buff.ly/1Rr6aA9</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "4ad6dd0a61cf46e1b0c470df9cf30127",
@@ -2783,14 +2901,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-05-31T09:18:14+00:00",
 			"url": "https://twitter.com/bebraw/status/737573893196513280",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Juho Vepsäläinen",
 				"url": "https://twitter.com/bebraw",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/0a9839e2cbdc77bc28376dc591b334889f7f35b419689e88f4cc870ae324917d.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/0a9839e2cbdc77bc28376dc591b334889f7f35b419689e88f4cc870ae324917d.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "bebraw"
 			},
 			"content": "\n\t\t\tWriting a Friendly README by <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a> <a href=\"http://buff.ly/1OYml8j\" nofollow=\"nofollow\">buff.ly/1OYml8j</a>\n\nvia <a href=\"https://twitter.com/MicheleBertoli\" nofollow=\"nofollow\">@MicheleBertoli</a>\n\n\n\t\t\t<a href=\"https://twitter.com/bebraw/status/737573893196513280\" nofollow>[image]</a>\n\t\t",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "c3f5700cdeeddb2f803482d92cdf7c20",
@@ -2799,14 +2919,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-05-31T09:24:51+00:00",
 			"url": "https://twitter.com/ryfphoto/status/737575557781540865",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Ruan YiFeng",
 				"url": "https://twitter.com/ryfphoto",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/4715e642321c0d1d44fd77b69e8687a3793c465446715e02fb185af6a02e2e43.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/4715e642321c0d1d44fd77b69e8687a3793c465446715e02fb185af6a02e2e43.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "ryfphoto"
 			},
 			"content": "<a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> Writing a Friendly README 如何写 README\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "d05f7b5b3bf209a7a2b870a070697592",
@@ -2815,14 +2937,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-05-31T20:09:52+00:00",
 			"url": "https://twitter.com/taverasmisael/status/737737882509692928",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Misael Taveras",
 				"url": "https://twitter.com/taverasmisael",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/73de05ab08f8b4f9bef26f942c2d0fc57c065987e65f2e3a25071daa3513462f.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/73de05ab08f8b4f9bef26f942c2d0fc57c065987e65f2e3a25071daa3513462f.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "taverasmisael"
 			},
 			"content": "Write Friendly Readme files: <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "0330ff301744404d466152d35e029af6",
@@ -2831,14 +2955,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-06-01T12:30:26+00:00",
 			"url": "https://twitter.com/electronicpress/status/737984649264254976",
-			"isFromTwitter": true,
 			"author": {
 				"name": "ElectronicPress",
 				"url": "https://twitter.com/electronicpress",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/8a53c9a5f1975a08d5560d3a1d72c9060aded1a02c1429de3f2c950329578f40.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/8a53c9a5f1975a08d5560d3a1d72c9060aded1a02c1429de3f2c950329578f40.png",
+				"isTwitterUser": true,
+				"twitterUsername": "electronicpress"
 			},
 			"content": "\n\t\t\tWriting a Friendly <a href=\"https://twitter.com/search?q=%23README\" nofollow=\"nofollow\">#README</a> ⎖ <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n\nvia <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n\n\n\t\t\t<a href=\"https://twitter.com/electronicpress/status/737984649264254976\" nofollow>[image]</a>\n\t\t",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "63a972252ac5b206395424685c4df916",
@@ -2847,14 +2973,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-06-03T22:55:07+00:00",
 			"url": "https://twitter.com/knownasilya/status/738866631204560897",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Ilya Radchenko",
 				"url": "https://twitter.com/knownasilya",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/2c9a7c9a36b681b2c20e015911edf59cba51bb3f8b3a148fdfce65d0e73bbb8a.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/2c9a7c9a36b681b2c20e015911edf59cba51bb3f8b3a148fdfce65d0e73bbb8a.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "knownasilya"
 			},
 			"content": "Great writeup by <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a> on writing a friendly README.md for your project <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> <a href=\"https://twitter.com/search?q=%23opensource\" nofollow=\"nofollow\">#opensource</a> <a href=\"https://twitter.com/search?q=%23dx\" nofollow=\"nofollow\">#dx</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "18cba18a9add3c19305c905f4a0aead1",
@@ -2863,14 +2991,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-06-22T09:49:19+00:00",
 			"url": "https://twitter.com/dblmkt/status/745554247962460160",
-			"isFromTwitter": true,
 			"author": {
 				"name": "doublemarket",
 				"url": "https://twitter.com/dblmkt",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/5d52bb59accd3164d358643ac55bb43947483655cfbba0db38f52172a9e8e6ed.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/5d52bb59accd3164d358643ac55bb43947483655cfbba0db38f52172a9e8e6ed.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "dblmkt"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "eb503887481d38a2e62175b8e9f7eb58",
@@ -2879,14 +3009,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-06-22T10:12:16+00:00",
 			"url": "https://twitter.com/yoku0825/status/745560023145684994",
-			"isFromTwitter": true,
 			"author": {
 				"name": "yoku0825",
 				"url": "https://twitter.com/yoku0825",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/9bf5f5a5de14d0a3ec1590e7b52963a0a151bd506b52baa839977512fd8aab0c.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/9bf5f5a5de14d0a3ec1590e7b52963a0a151bd506b52baa839977512fd8aab0c.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "yoku0825"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "816c734b96d12c659acad9d6d8764c07",
@@ -2895,14 +3027,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-06-22T11:00:16+00:00",
 			"url": "https://twitter.com/shimabukuro/status/745572104574107648",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Makoto Shimabukuro",
 				"url": "https://twitter.com/shimabukuro",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d41ebbe93563fd3461d339ee5bbe16209b3f863c544bfca71975f3321b231290.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d41ebbe93563fd3461d339ee5bbe16209b3f863c544bfca71975f3321b231290.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "shimabukuro"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "7ba614725982fc9732eb442210112ea0",
@@ -2911,14 +3045,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-06-23T02:40:48+00:00",
 			"url": "https://twitter.com/daichanpotter/status/745808798598586368",
-			"isFromTwitter": true,
 			"author": {
 				"name": "大裏主",
 				"url": "https://twitter.com/daichanpotter",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/28a11510c5c09d7381880601c05c95c50736e469888d0171c478ab2e68906b3e.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/28a11510c5c09d7381880601c05c95c50736e469888d0171c478ab2e68906b3e.png",
+				"isTwitterUser": true,
+				"twitterUsername": "daichanpotter"
 			},
 			"content": "自分用メモ\n\nWriting a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "a271c3bcc9ca43309f1ceed5c0114fa6",
@@ -2927,14 +3063,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-07-31T06:03:21+00:00",
 			"url": "https://twitter.com/daniell_andrei/status/759630509681086469",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Daniel Andrei Minca",
 				"url": "https://twitter.com/daniell_andrei",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/bd6b6c5023edb3249bd9044654ed9b171d15269158482e79dab1be72d5daaea4.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/bd6b6c5023edb3249bd9044654ed9b171d15269158482e79dab1be72d5daaea4.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "daniell_andrei"
 			},
 			"content": "How to write a friendly README\n<a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n<a href=\"https://twitter.com/search?q=%23readmes\" nofollow=\"nofollow\">#readmes</a> <a href=\"https://twitter.com/search?q=%23README\" nofollow=\"nofollow\">#README</a> <a href=\"https://twitter.com/search?q=%23projects\" nofollow=\"nofollow\">#projects</a> <a href=\"https://twitter.com/search?q=%23coding\" nofollow=\"nofollow\">#coding</a>\n\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "63048d74217a95cc2afedfd7e3887ef4",
@@ -2943,14 +3081,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2016-09-13T02:03:40+00:00",
 			"url": "https://twitter.com/xspiritualx1/status/775515257309540353",
-			"isFromTwitter": true,
 			"author": {
 				"name": "KunYu Chen",
 				"url": "https://twitter.com/xspiritualx1",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/c73ab07e834e0e67db1f012f82748ee1bcdeb12dac580e4f9d3dee4a7bf1cbc0.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/c73ab07e834e0e67db1f012f82748ee1bcdeb12dac580e4f9d3dee4a7bf1cbc0.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "xspiritualx1"
 			},
 			"content": "撰寫 README 指南 <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "aa3f627916b39c3c438ddcba9c0745a4",
@@ -2959,14 +3099,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2017-01-11T10:49:05+00:00",
 			"url": "https://twitter.com/lnlsn/status/819134026065715200",
-			"isFromTwitter": true,
 			"author": {
 				"name": "LnLsn",
 				"url": "https://twitter.com/lnlsn",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/8158036cc0dfbedc4c27d72430880495fe9b594c4eb386c0ec5bca519f4fb807.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/8158036cc0dfbedc4c27d72430880495fe9b594c4eb386c0ec5bca519f4fb807.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "lnlsn"
 			},
 			"content": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/instapaper\" nofollow=\"nofollow\">@instapaper</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "1dbcc8db9b57aa5637061d8318ff4840",
@@ -2975,14 +3117,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2017-01-27T10:31:00+00:00",
 			"url": "https://twitter.com/iamkey/status/824927683561799680",
-			"isFromTwitter": true,
 			"author": {
 				"name": "sudo rm -rf /",
 				"url": "https://twitter.com/iamkey",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/0ad9a380ba02d95908e479c228278e2536a5c3d114a8eb8244fe5e39364ad7c4.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/0ad9a380ba02d95908e479c228278e2536a5c3d114a8eb8244fe5e39364ad7c4.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "iamkey"
 			},
 			"content": "Writing a Friendly README <a href=\"http://buff.ly/2jDv8UG\" nofollow=\"nofollow\">buff.ly/2jDv8UG</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "7e0fc31c545fc0cb2a1e0d4546021558",
@@ -2991,14 +3135,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2017-02-26T01:48:58+00:00",
 			"url": "https://twitter.com/Sunjay03/status/835667944042598402",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Sunjay",
 				"url": "https://twitter.com/Sunjay03",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/9e2669e092fab00051ce23e5a7320941f6ac81294bab12af6b26047011de0b9e.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/9e2669e092fab00051ce23e5a7320941f6ac81294bab12af6b26047011de0b9e.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "Sunjay03"
 			},
 			"content": "Really useful post about writing a friendly <a href=\"https://twitter.com/search?q=%23README\" nofollow=\"nofollow\">#README</a> <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "cd316cdc2ff2c6ab6ad9f67eb7479645",
@@ -3007,14 +3153,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2017-06-01T02:28:34+00:00",
 			"url": "https://twitter.com/rjkaes/status/870104758404734977",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Robert James Kaes",
 				"url": "https://twitter.com/rjkaes",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/dc815149b73e1271997c0b003e00fe368c5d8b20cc2ece64a8358d6d8db23ba4.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/dc815149b73e1271997c0b003e00fe368c5d8b20cc2ece64a8358d6d8db23ba4.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "rjkaes"
 			},
 			"content": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/instapaper\" nofollow=\"nofollow\">@Instapaper</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "eddce7ea6c9470bffcd822d66830d039",
@@ -3023,14 +3171,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2017-10-05T06:49:00+00:00",
 			"url": "https://twitter.com/yucao24hours/status/915831169748410369",
-			"isFromTwitter": true,
 			"author": {
 				"name": "ゆかお🦩🦩",
 				"url": "https://twitter.com/yucao24hours",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/7703f27433e4bb0e0d6a8131a9efceacdaf0d9aff83f1c1a5e10437f9a59a265.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/7703f27433e4bb0e0d6a8131a9efceacdaf0d9aff83f1c1a5e10437f9a59a265.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "yucao24hours"
 			},
 			"content": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "8a9628ef59f1717772f6bbe0fae5d164",
@@ -3039,14 +3189,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2018-02-19T16:01:03+00:00",
 			"url": "https://twitter.com/uxtremist/status/965617233149005829",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Adam Braimbridge",
 				"url": "https://twitter.com/uxtremist",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/aadb24b14b6b22361438d6410fd429742493fe30a994ab0e65a6d1b068d62fa7.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/aadb24b14b6b22361438d6410fd429742493fe30a994ab0e65a6d1b068d62fa7.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "uxtremist"
 			},
 			"content": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "644eac0cecf45084d18e805bcf47e9bd",
@@ -3055,14 +3207,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2018-02-23T02:55:44+00:00",
 			"url": "https://twitter.com/murindwaz/status/966869153045995521",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Pascal",
 				"url": "https://twitter.com/murindwaz",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/cee98b65dcd00c0e55bf8714739cbcb1a5a07a14f1148b51196720c39c163a48.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/cee98b65dcd00c0e55bf8714739cbcb1a5a07a14f1148b51196720c39c163a48.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "murindwaz"
 			},
 			"content": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "880625c732b234e6d79f3e027c7ecc72",
@@ -3071,14 +3225,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2018-05-20T07:00:12+00:00",
 			"url": "https://twitter.com/progfay/status/998096030867472385",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Shunsuke Mano",
 				"url": "https://twitter.com/progfay",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/1009d54855016e8fe7c7ac92763b57e1b3b2cb385d5596b8f66b3d435f1df8bf.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/1009d54855016e8fe7c7ac92763b57e1b3b2cb385d5596b8f66b3d435f1df8bf.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "progfay"
 			},
 			"content": "Writing a Friendly README <a href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\" nofollow=\"nofollow\">rowanmanning.com/posts/writing-…</a>",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "dcd2fe672c26c305a0f541a91b7adcfd",
@@ -3087,14 +3243,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2021-06-07T18:49:11Z",
 			"url": "https://twitter.com/rowanmanning/status/745548499672956929#favorited-by-7801762",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Makoto Shimabukuro",
 				"url": "https://twitter.com/shimabukuro",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d41ebbe93563fd3461d339ee5bbe16209b3f863c544bfca71975f3321b231290.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d41ebbe93563fd3461d339ee5bbe16209b3f863c544bfca71975f3321b231290.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "shimabukuro"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "b1f19061a8c7ee4b287c55a425ceaad4",
@@ -3103,14 +3261,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2021-06-07T18:49:12Z",
 			"url": "https://twitter.com/rowanmanning/status/745548499672956929#favorited-by-184376567",
-			"isFromTwitter": true,
 			"author": {
 				"name": "yoku0825",
 				"url": "https://twitter.com/yoku0825",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/9bf5f5a5de14d0a3ec1590e7b52963a0a151bd506b52baa839977512fd8aab0c.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/9bf5f5a5de14d0a3ec1590e7b52963a0a151bd506b52baa839977512fd8aab0c.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "yoku0825"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "9facae6824f51a3995d0ebb2ebc8c893",
@@ -3119,14 +3279,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2021-06-07T18:49:13Z",
 			"url": "https://twitter.com/rowanmanning/status/745548499672956929#favorited-by-112401465",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Hollsk",
 				"url": "https://twitter.com/_hollsk",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/ddb6ff99a19c7e147b2a9db6ce971c946509d6b2123289359cf9aa3b650d4da3.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ddb6ff99a19c7e147b2a9db6ce971c946509d6b2123289359cf9aa3b650d4da3.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "_hollsk"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "d46dca736419fca5f2be116c5e75f90c",
@@ -3135,14 +3297,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2021-06-07T18:49:21Z",
 			"url": "https://twitter.com/rowanmanning/status/709709511074840576#favorited-by-92525449",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Jim Kinsey",
 				"url": "https://twitter.com/kinjacono",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/ae39e226222cc0c310b484d518dde4f187e9ea676f1185d10fd0bbcf0ae617d7.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ae39e226222cc0c310b484d518dde4f187e9ea676f1185d10fd0bbcf0ae617d7.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "kinjacono"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "d412e24f49b5df7341cb16ba9d69a789",
@@ -3151,14 +3315,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2021-06-07T18:49:21Z",
 			"url": "https://twitter.com/rowanmanning/status/709709511074840576#favorited-by-15444529",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Ben Everard",
 				"url": "https://twitter.com/_beneverard",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/33490ec95ea56ebe3a6de0a1964e8e4c54e808052d39e525c6bf839bc13596aa.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/33490ec95ea56ebe3a6de0a1964e8e4c54e808052d39e525c6bf839bc13596aa.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "_beneverard"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "4787f4e97e6c4f4a554b174f37412f4e",
@@ -3167,14 +3333,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 			"date": "2021-06-07T18:49:22Z",
 			"url": "https://twitter.com/rowanmanning/status/709709511074840576#favorited-by-14937051",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Patrick Hamann",
 				"url": "https://twitter.com/patrickhamann",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/7d1f1a40d3c4d8ba60ae57b98ef8c6a5275c896e54a4934def9415ac3b43b4ff.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/7d1f1a40d3c4d8ba60ae57b98ef8c6a5275c896e54a4934def9415ac3b43b4ff.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "patrickhamann"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		}
 	]
 }

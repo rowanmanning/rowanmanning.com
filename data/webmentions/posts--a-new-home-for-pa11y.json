@@ -130,14 +130,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/a-new-home-for-pa11y/",
 			"date": "2016-05-24T11:31:16+00:00",
 			"url": "https://twitter.com/pa11yorg/status/735070656778227713",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Pa11y",
 				"url": "https://twitter.com/pa11yorg",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/eae82fef03bd96832176a617dbd81558ef6271481bac733f7822f8de9c4c4c4f.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/eae82fef03bd96832176a617dbd81558ef6271481bac733f7822f8de9c4c4c4f.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "pa11yorg"
 			},
 			"content": "All of us in the Pa11y team are excited to announce an important move, as well as what we've been busy working on! ✨ <a href=\"http://rowanmanning.com/posts/a-new-home-for-pa11y/\" nofollow=\"nofollow\">rowanmanning.com/posts/a-new-ho…</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "9e7059b70c45bf5abade8706cf307fa0",
@@ -146,14 +148,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/a-new-home-for-pa11y/",
 			"date": "2016-05-24T11:32:31+00:00",
 			"url": "https://twitter.com/onishiweb/status/735070973137981440",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Adam Onishi",
 				"url": "https://twitter.com/onishiweb",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/6fa7ea74c246fc16afd5a5d845d36fb772ec7fe4e040d31d493ee36ab7975779.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/6fa7ea74c246fc16afd5a5d845d36fb772ec7fe4e040d31d493ee36ab7975779.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "onishiweb"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "f8dc09383f5f1ec3c08183af8525b1ca",
@@ -162,14 +166,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/a-new-home-for-pa11y/",
 			"date": "2016-05-24T13:54:55+00:00",
 			"url": "https://twitter.com/romulodl/status/735106807358717952",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Romulo De Lazzari",
 				"url": "https://twitter.com/romulodl",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/c72703978b69473fcf08c392e3e391008b9b94208d0365d73759a5e59ba341f4.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/c72703978b69473fcf08c392e3e391008b9b94208d0365d73759a5e59ba341f4.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "romulodl"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "8376d40c68f7aea432a15fe0376ff72f",
@@ -178,14 +184,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/a-new-home-for-pa11y/",
 			"date": "2016-05-24T17:58:44+00:00",
 			"url": "https://twitter.com/j_mes/status/735168168801378306",
-			"isFromTwitter": true,
 			"author": {
 				"name": "James Loveridge",
 				"url": "https://twitter.com/j_mes",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/0f849898d37f77cb9f1cdd1a9a094d2ffb11fc222d8ac2e034be2e9bec95c1dc.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/0f849898d37f77cb9f1cdd1a9a094d2ffb11fc222d8ac2e034be2e9bec95c1dc.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "j_mes"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "2aa2d7c7e7d440f55b4c2c7ab831c15b",
@@ -194,14 +202,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/a-new-home-for-pa11y/",
 			"date": "2021-06-07T18:49:17Z",
 			"url": "https://twitter.com/rowanmanning/status/735070525299429377#favorited-by-14475794",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Nick",
 				"url": "https://twitter.com/rbristow",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/606ccce3f92da7ab81bbb8d2df71731082c73bcce49d0debf477ba894c8578ce.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/606ccce3f92da7ab81bbb8d2df71731082c73bcce49d0debf477ba894c8578ce.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "rbristow"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "2da347ba4b3538dc241d2819f71c6ebe",
@@ -210,14 +220,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/a-new-home-for-pa11y/",
 			"date": "2021-06-07T18:49:17Z",
 			"url": "https://twitter.com/rowanmanning/status/735070525299429377#favorited-by-149528415",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Alex Soble",
 				"url": "https://twitter.com/alexsoble",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/517562792491d89f6d09fade038dbd2bff04db0a8d9e0b349ed3b14a3ce0065e.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/517562792491d89f6d09fade038dbd2bff04db0a8d9e0b349ed3b14a3ce0065e.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "alexsoble"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		}
 	]
 }

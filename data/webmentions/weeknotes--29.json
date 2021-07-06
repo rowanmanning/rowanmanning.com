@@ -93,14 +93,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/29/",
 			"date": "2021-05-23T16:00:00+01:00",
 			"url": "https://rowanmanning.com/weeknotes/30/",
-			"isFromTwitter": false,
 			"author": {
 				"name": "Rowan Manning",
 				"url": "https://rowanmanning.com/",
-				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png"
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png",
+				"isTwitterUser": false,
+				"twitterUsername": null
 			},
 			"content": "…We did another <a href=\"https://rowanmanning.com/weeknotes/29/\" nofollow=\"nofollow\">Minecraft “speedrun”</a> and did pretty well this time. We used a stable version of the game, a random world seed, and actually killed the dragon this time. We’re still pretty unorganised and not working as a group so we’re going to try a different strategy next…",
-			"isTruncated": true
+			"isTruncated": true,
+			"isTrustedSource": true
 		},
 		{
 			"md5": "fa10ee74b67d05249316e5c50d60b12b",
@@ -109,14 +111,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/29/",
 			"date": "2021-06-06T10:01:47Z",
 			"url": "https://twitter.com/rowanmanning/status/1393978298204663815#favorited-by-14118063",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Ged",
 				"url": "https://twitter.com/macdermott",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/34a41064d290b3bcc9daf763b837b21889d069a8f90fb90ace123230f5d7be47.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/34a41064d290b3bcc9daf763b837b21889d069a8f90fb90ace123230f5d7be47.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "macdermott"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "198eabb3cfe8c88a2786fa7c31492db5",
@@ -125,14 +129,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/29/",
 			"date": "2021-06-06T10:01:47Z",
 			"url": "https://twitter.com/rowanmanning/status/1393978298204663815#favorited-by-17844917",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Luke Blaney",
 				"url": "https://twitter.com/lucas42",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "lucas42"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "ba647bba9d55e4efa71794b4c724fa4d",
@@ -141,14 +147,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/29/",
 			"date": "2021-06-06T10:01:48Z",
 			"url": "https://twitter.com/rowanmanning/status/1393978298204663815#favorited-by-127856293",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Perry Harlock",
 				"url": "https://twitter.com/perryharlock",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+				"isTwitterUser": true,
+				"twitterUsername": "perryharlock"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		}
 	]
 }

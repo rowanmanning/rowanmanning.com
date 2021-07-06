@@ -82,14 +82,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/33/",
 			"date": "2021-06-14T05:29:20Z",
 			"url": "https://twitter.com/rowanmanning/status/1404064475167199235#favorited-by-127856293",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Perry Harlock",
 				"url": "https://twitter.com/perryharlock",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+				"isTwitterUser": true,
+				"twitterUsername": "perryharlock"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "ddbd386cd43a9e37afee34ddf3014004",
@@ -98,14 +100,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/33/",
 			"date": "2021-06-15T10:21:20+01:00",
 			"url": "https://chee.snoot.club/2021/06/15/1328/",
-			"isFromTwitter": false,
 			"author": {
 				"name": "chee",
 				"url": "https://chee.snoot.club/author/chee/",
-				"photo": "https://webmention.io/avatar/secure.gravatar.com/396a384939d13b319cd21a25f6705fbce1dacbdad42304c412ccf79039f75f84.jpg"
+				"photo": "https://webmention.io/avatar/secure.gravatar.com/396a384939d13b319cd21a25f6705fbce1dacbdad42304c412ccf79039f75f84.jpg",
+				"isTwitterUser": false,
+				"twitterUsername": null
 			},
 			"content": "in reply to <a href=\"https://rowanmanning.com/weeknotes/33/\" nofollow=\"nofollow\">Fire Safety</a>\n\t    (Rowan Manning)\n\t<blockquote>I’ve had a whale of a time implementing Webmentions on this website. Thank you chee for introducing me to them!</blockquote>\n    <p>niiiice! I’m looking forward to the longform post!!!</p>",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "3533115b246914dded995af07a71bef3",
@@ -114,14 +118,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/33/",
 			"date": "2021-06-19T10:00:00+01:00",
 			"url": "https://rowanmanning.com/weeknotes/34/",
-			"isFromTwitter": false,
 			"author": {
 				"name": "Rowan Manning",
 				"url": "https://rowanmanning.com/",
-				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png"
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png",
+				"isTwitterUser": false,
+				"twitterUsername": null
 			},
 			"content": "…My <a href=\"https://rowanmanning.com/weeknotes/33/\" nofollow=\"nofollow\">website tweaking</a> continues, this week I spent a few evenings on and off implementing search! It was a fun challenge because this is a static <a href=\"https://gohugo.io/\" nofollow=\"nofollow\">Hugo</a> website; I had to get creative.…",
-			"isTruncated": true
+			"isTruncated": true,
+			"isTrustedSource": true
 		}
 	]
 }

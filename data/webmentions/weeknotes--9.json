@@ -45,14 +45,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/9/",
 			"date": "2021-06-07T13:56:30Z",
 			"url": "https://twitter.com/rowanmanning/status/1343489696031244290#favorited-by-127856293",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Perry Harlock",
 				"url": "https://twitter.com/perryharlock",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+				"isTwitterUser": true,
+				"twitterUsername": "perryharlock"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "8cb21d98f99d4aaa330f163820d7f7fc",
@@ -61,14 +63,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/9/",
 			"date": "2021-06-07T13:56:30Z",
 			"url": "https://twitter.com/rowanmanning/status/1343489696031244290#favorited-by-6624102",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Mehmet Duran",
 				"url": "https://twitter.com/cfq",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/dec15eaafe1351d864368a71ba8c0feb1075349dca486b121b85247a3656cfbc.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/dec15eaafe1351d864368a71ba8c0feb1075349dca486b121b85247a3656cfbc.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "cfq"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		}
 	]
 }

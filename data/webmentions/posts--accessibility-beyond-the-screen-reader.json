@@ -75,14 +75,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/",
 			"date": "2013-05-16T07:39:30+00:00",
 			"url": "https://twitter.com/krishna_radha1/status/334936127268077568",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Radhakrishnan",
 				"url": "https://twitter.com/krishna_radha1",
-				"photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png"
+				"photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png",
+				"isTwitterUser": true,
+				"twitterUsername": "krishna_radha1"
 			},
 			"content": "Accessibility: Beyond The Screen-Reader <a href=\"http://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\" nofollow=\"nofollow\">rowanmanning.com/posts/accessib…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "bc82b612dc25673ea614c5c4831ac005",
@@ -91,14 +93,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/",
 			"date": "2014-07-11T12:52:38+00:00",
 			"url": "https://twitter.com/hariktriam/status/487580221559013376",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Takahiro Miura",
 				"url": "https://twitter.com/hariktriam",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/dfb32bbd46d4701876504cc12fc30a99abad04114a007be9116813efeba90430.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/dfb32bbd46d4701876504cc12fc30a99abad04114a007be9116813efeba90430.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "hariktriam"
 			},
 			"content": "T.V.Ramanが\"beyond the screen reader\"というコンセプトを述べている．\n<a href=\"http://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\" nofollow=\"nofollow\">rowanmanning.com/posts/accessib…</a>\n<a href=\"http://fcw.com/articles/2013/07/17/non-visual-internet.aspx\" nofollow=\"nofollow\">fcw.com/articles/2013/…</a>（この記事のFigの下の雲）\n\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "f4e4cf940e5e713db57e35f1d18fe5f6",
@@ -107,14 +111,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/",
 			"date": "2017-01-07T13:45:04+00:00",
 			"url": "https://twitter.com/Saikat_Dey2011/status/817728761584033792",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Dey",
 				"url": "https://twitter.com/Saikat_Dey2011",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/84a43703f570decfda8eb0c2e02b061163b094c9b2df6bbc7f3b208cd476bc85.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/84a43703f570decfda8eb0c2e02b061163b094c9b2df6bbc7f3b208cd476bc85.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "Saikat_Dey2011"
 			},
 			"content": "Accessibility: Beyond the Screen-Reader <a href=\"http://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/\" nofollow=\"nofollow\">rowanmanning.com/posts/accessib…</a> via <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		}
 	]
 }

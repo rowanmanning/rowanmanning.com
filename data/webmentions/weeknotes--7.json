@@ -27,14 +27,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/7/",
 			"date": "2021-06-07T13:55:11Z",
 			"url": "https://twitter.com/rowanmanning/status/1338455398383312896#favorited-by-127856293",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Perry Harlock",
 				"url": "https://twitter.com/perryharlock",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+				"isTwitterUser": true,
+				"twitterUsername": "perryharlock"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		}
 	]
 }

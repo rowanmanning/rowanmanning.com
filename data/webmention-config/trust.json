@@ -1,0 +1,16 @@
+{
+	"trusted": {
+		"domains": [
+			"rowanmanning.com"
+		],
+		"twitterUsers": [
+			"rowanmanning"
+		],
+		"webmentionHashes": []
+	},
+	"blocked": {
+		"domains": [],
+		"twitterUsers": [],
+		"webmentionHashes": []
+	}
+}

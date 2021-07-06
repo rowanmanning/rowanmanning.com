@@ -39,14 +39,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/organising-a-virtual-treasure-hunt/",
 			"date": "2021-05-16T16:20:00+01:00",
 			"url": "https://rowanmanning.com/weeknotes/29/",
-			"isFromTwitter": false,
 			"author": {
 				"name": "Rowan Manning",
 				"url": "https://rowanmanning.com/",
-				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png"
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png",
+				"isTwitterUser": false,
+				"twitterUsername": null
 			},
 			"content": "I finished and published my <a href=\"https://rowanmanning.com/posts/organising-a-virtual-treasure-hunt/\" nofollow=\"nofollow\">blog post on the treasure hunt that Glynn and I ran</a>. I’m pleased with how it came out and I’ve had some nice feedback. I definitely find it easier to get into the flow of writing after getting into the habit of writing weeknotes.…",
-			"isTruncated": true
+			"isTruncated": true,
+			"isTrustedSource": true
 		}
 	]
 }

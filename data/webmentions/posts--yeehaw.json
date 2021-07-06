@@ -211,14 +211,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/yeehaw/",
 			"date": "2020-11-26T10:07:36+00:00",
 			"url": "https://twitter.com/annashipman/status/1331902418699882498",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Anna Shipman",
 				"url": "https://twitter.com/annashipman",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/bca100ed027f8847751cc5dc67f21a1d472a9a78e9f627a42a596d5d0ab8ed2a.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/bca100ed027f8847751cc5dc67f21a1d472a9a78e9f627a42a596d5d0ab8ed2a.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "annashipman"
 			},
 			"content": "I love this post by <a href=\"https://twitter.com/rowanmanning\" nofollow=\"nofollow\">@rowanmanning</a>  \n5 tips on how he keeps side projects fun and gets them finished <a href=\"https://rowanmanning.com/posts/yeehaw/\" nofollow=\"nofollow\">rowanmanning.com/posts/yeehaw/</a>",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "a14b208eabadc5f0b6967a9046864a57",
@@ -227,14 +229,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/yeehaw/",
 			"date": "2021-06-07T13:58:03Z",
 			"url": "https://twitter.com/rowanmanning/status/1329754039291142144#favorited-by-22151589",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Mel",
 				"url": "https://twitter.com/Mellywellington",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/9aa04b6837f8cc1c644c5ac5c12936688d847d108a3b6e82dbddd0ab19b45d04.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/9aa04b6837f8cc1c644c5ac5c12936688d847d108a3b6e82dbddd0ab19b45d04.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "Mellywellington"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "43dcba30ca522b79888c3ce3cd99f592",
@@ -243,14 +247,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/yeehaw/",
 			"date": "2021-06-07T13:58:04Z",
 			"url": "https://twitter.com/rowanmanning/status/1329754039291142144#favorited-by-36679853",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Chris Thorne",
 				"url": "https://twitter.com/songschris",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/6c4ad3dc478397047a9df91a2d1893bf8d8f7bf3cb255ea79fc837a5b4093a16.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/6c4ad3dc478397047a9df91a2d1893bf8d8f7bf3cb255ea79fc837a5b4093a16.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "songschris"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "561c468d95fa84013ddcaedea70d9865",
@@ -259,14 +265,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/yeehaw/",
 			"date": "2021-06-07T13:58:07Z",
 			"url": "https://twitter.com/rowanmanning/status/1329754039291142144#favorited-by-127856293",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Perry Harlock",
 				"url": "https://twitter.com/perryharlock",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+				"isTwitterUser": true,
+				"twitterUsername": "perryharlock"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "328314b35215b6b09a8b6125b10a0acc",
@@ -275,14 +283,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/yeehaw/",
 			"date": "2021-06-07T13:58:08Z",
 			"url": "https://twitter.com/rowanmanning/status/1329754039291142144#favorited-by-24541114",
-			"isFromTwitter": true,
 			"author": {
 				"name": "arjun",
 				"url": "https://twitter.com/adgad",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "adgad"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "97f814c1358c1f94e32c4d4542664687",
@@ -291,14 +301,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/yeehaw/",
 			"date": "2021-06-07T13:58:09Z",
 			"url": "https://twitter.com/rowanmanning/status/1329754039291142144#favorited-by-717722083216719872",
-			"isFromTwitter": true,
 			"author": {
 				"name": "kirsty (she/her)",
 				"url": "https://twitter.com/keinegurke_",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/5173c00aef58e656370672319dd2fd89ff28e72383676b7f04c863a4cb1d3e93.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/5173c00aef58e656370672319dd2fd89ff28e72383676b7f04c863a4cb1d3e93.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "keinegurke_"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "b8d55a8ac29d0139f6db5186e1d7f2f6",
@@ -307,14 +319,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/yeehaw/",
 			"date": "2021-06-07T13:58:10Z",
 			"url": "https://twitter.com/rowanmanning/status/1329754039291142144#favorited-by-2735445787",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Jamie Brown",
 				"url": "https://twitter.com/jamiebrownco",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/4c16483af4925a765b8760ace311792ed6029def026d0d74105e376a9d29f6fe.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/4c16483af4925a765b8760ace311792ed6029def026d0d74105e376a9d29f6fe.png",
+				"isTwitterUser": true,
+				"twitterUsername": "jamiebrownco"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "23568a5fbf07aa2b4c7e7af1b259d1bd",
@@ -323,14 +337,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/yeehaw/",
 			"date": "2021-06-07T13:58:12Z",
 			"url": "https://twitter.com/rowanmanning/status/1329754039291142144#favorited-by-17844917",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Luke Blaney",
 				"url": "https://twitter.com/lucas42",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "lucas42"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "90e1177e01e5f91999ccf7c3a14a7f35",
@@ -339,14 +355,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/yeehaw/",
 			"date": "2021-06-07T13:58:13Z",
 			"url": "https://twitter.com/rowanmanning/status/1329754039291142144#favorited-by-12675",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Nick Dunn",
 				"url": "https://twitter.com/nickdunn",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/e6a7e0a2f79cf0190e24663ad5b3788e03140a00ef0e36258a93c59c0b59e367.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/e6a7e0a2f79cf0190e24663ad5b3788e03140a00ef0e36258a93c59c0b59e367.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "nickdunn"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "f190c91d82cd48a691b69cf166e87686",
@@ -355,14 +373,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/yeehaw/",
 			"date": "2021-06-07T13:58:14Z",
 			"url": "https://twitter.com/rowanmanning/status/1329754039291142144#favorited-by-20815869",
-			"isFromTwitter": true,
 			"author": {
 				"name": "a pale slim ghost",
 				"url": "https://twitter.com/apaleslimghost",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "apaleslimghost"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "5b350e818b01bf790242a40ba2e8e33d",
@@ -371,14 +391,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/yeehaw/",
 			"date": "2021-06-07T13:58:15Z",
 			"url": "https://twitter.com/rowanmanning/status/1329754039291142144#favorited-by-16433622",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Andrew Walker",
 				"url": "https://twitter.com/moddular",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/77ceb4604e68ec4eec61cbb303e8a19dfdd3cdf97b79024b41e2a0b81aa984de.gif"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/77ceb4604e68ec4eec61cbb303e8a19dfdd3cdf97b79024b41e2a0b81aa984de.gif",
+				"isTwitterUser": true,
+				"twitterUsername": "moddular"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		}
 	]
 }

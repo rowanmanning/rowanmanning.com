@@ -5,6 +5,7 @@ const clip = require('text-clipper').default;
 const createDOMPurify = require('dompurify');
 const fs = require('fs/promises');
 const {JSDOM} = require('jsdom');
+const {trusted, blocked} = require('../data/webmention-config/trust.json');
 
 // The ideal character limit and number of lines for webmentions
 const maxContentCharacterLength = 280;
@@ -36,8 +37,15 @@ const DOMPurify = createDOMPurify(window);
 function processWebmention([md5, webmention]) {
 	const type = getMentionType(webmention);
 	const author = getMentionAuthor(webmention);
-	const twitterRegExp = /^https?:\/\/(www\.)?twitter\.com\/[^/]+\/status\//;
+
+	// Block webmentions from untrusted sources
+	if (getMentionBlockStatus(md5, author, webmention)) {
+		console.log('Blocking', webmention);
+		return false;
+	}
+
 	if (type && author) {
+		const isTrustedSource = getMentionTrustStatus(md5, author, webmention);
 
 		// Only parse content for response type webmentions
 		const {content, isTruncated} = (type === 'response' ? getMentionContent(webmention) : {});
@@ -49,10 +57,10 @@ function processWebmention([md5, webmention]) {
 			targetUrl: webmention['wm-target'],
 			date: webmention.published || webmention['wm-received'],
 			url: webmention.url,
-			isFromTwitter: twitterRegExp.test(webmention.url),
 			author,
 			content: content || null,
-			isTruncated: isTruncated || false
+			isTruncated: isTruncated || false,
+			isTrustedSource
 		};
 	}
 }
@@ -73,12 +81,73 @@ function getMentionType(webmention) {
 
 function getMentionAuthor(webmention) {
 	if (webmention.author && webmention.author.name) {
+
+		// Get the author's Twitter username if the webmention is a tweet
+		const twitterRegExp = /^https?:\/\/(www\.)?twitter\.com\/([^/]+)\/?/;
+		const twitterUsername = (
+			webmention.author.url && twitterRegExp.test(webmention.author.url) ?
+				webmention.author.url.replace(twitterRegExp, '$2') :
+				null
+		);
+
 		return {
 			name: webmention.author.name,
 			url: webmention.author.url || null,
-			photo: webmention.author.photo || null
+			photo: webmention.author.photo || null,
+			isTwitterUser: twitterUsername !== null,
+			twitterUsername
 		};
 	}
+}
+
+function getMentionTrustStatus(md5, author, webmention) {
+	const potentialTrust = [];
+
+	// Trust webmention hashes
+	potentialTrust.push(trusted.webmentionHashes.some(trustedHash => trustedHash === md5));
+
+	// Trust Twitter users
+	if (author && author.isTwitterUser) {
+		potentialTrust.push(trusted.twitterUsers.some(trustedUserName => {
+			return trustedUserName.toLowerCase() === author.twitterUsername.toLowerCase();
+		}));
+	}
+
+	// Trust domains
+	try {
+		const url = new URL(webmention.url);
+		potentialTrust.push(trusted.domains.some(trustedDomain => {
+			return trustedDomain.toLowerCase() === url.hostname.toLowerCase();
+		}));
+	} catch (error) {}
+
+	// If one of the trust statuses is true, we trust this webmention
+	return potentialTrust.includes(true);
+}
+
+function getMentionBlockStatus(md5, author, webmention) {
+	const potentialBlocks = [];
+
+	// Block webmention hashes
+	potentialBlocks.push(blocked.webmentionHashes.some(blockedHash => blockedHash === md5));
+
+	// Block Twitter users
+	if (author && author.isTwitterUser) {
+		potentialBlocks.push(blocked.twitterUsers.some(blockedUserName => {
+			return blockedUserName.toLowerCase() === author.twitterUsername.toLowerCase();
+		}));
+	}
+
+	// Block domains
+	try {
+		const url = new URL(webmention.url);
+		potentialBlocks.push(blocked.domains.some(blockedDomain => {
+			return blockedDomain.toLowerCase() === url.hostname.toLowerCase();
+		}));
+	} catch (error) {}
+
+	// If one of the blocks is true, we block
+	return potentialBlocks.includes(true);
 }
 
 function getMentionContent(webmention) {

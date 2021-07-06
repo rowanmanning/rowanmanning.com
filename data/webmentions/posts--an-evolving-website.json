@@ -27,14 +27,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/an-evolving-website/",
 			"date": "2021-06-07T18:49:32Z",
 			"url": "https://twitter.com/rowanmanning/status/707540216030965760#favorited-by-62230390",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Rufus",
 				"url": "https://twitter.com/rufusdenne",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/7158d536d1d866e04f3fd10f32a844373855a8818e422abbfcfb2d1c0adc040e.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/7158d536d1d866e04f3fd10f32a844373855a8818e422abbfcfb2d1c0adc040e.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "rufusdenne"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		}
 	]
 }

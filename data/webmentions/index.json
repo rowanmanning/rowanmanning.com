@@ -27,14 +27,16 @@
 			"targetUrl": "https://rowanmanning.com/",
 			"date": "2021-06-07T18:49:33Z",
 			"url": "https://twitter.com/rowanmanning/status/379690898487279616#favorited-by-35815251",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Andrew Brough",
 				"url": "https://twitter.com/digital__zen",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/b3cecdc3009da0f60d691b214b98868a52140e2d14ebf4443fb374a7970ad304.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/b3cecdc3009da0f60d691b214b98868a52140e2d14ebf4443fb374a7970ad304.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "digital__zen"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		}
 	]
 }

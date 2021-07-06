@@ -81,14 +81,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/31/",
 			"date": "2021-06-06T10:01:11Z",
 			"url": "https://twitter.com/rowanmanning/status/1398990006971158530#favorited-by-17844917",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Luke Blaney",
 				"url": "https://twitter.com/lucas42",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "lucas42"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "84f986e09d65370bf791e7d428699b1e",
@@ -97,14 +99,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/31/",
 			"date": "2021-06-06T10:01:12Z",
 			"url": "https://twitter.com/rowanmanning/status/1398990006971158530#favorited-by-175033490",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Edward Kendall",
 				"url": "https://twitter.com/Ed_Kend",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/86335b3ccca3027d5483b2e11c8fc48e412ee9c3beb7c6a8c45854fc682c7395.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/86335b3ccca3027d5483b2e11c8fc48e412ee9c3beb7c6a8c45854fc682c7395.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "Ed_Kend"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "6448f2f0a72c53966bc3d82643247aef",
@@ -113,14 +117,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/31/",
 			"date": "2021-06-06T10:01:17Z",
 			"url": "https://twitter.com/rowanmanning/status/1398990006971158530#favorited-by-127856293",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Perry Harlock",
 				"url": "https://twitter.com/perryharlock",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+				"isTwitterUser": true,
+				"twitterUsername": "perryharlock"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "43c8be6c36d022f5bf234ca0c2ba32a6",
@@ -129,14 +135,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/31/",
 			"date": "2021-06-06T10:01:17Z",
 			"url": "https://twitter.com/rowanmanning/status/1398990006971158530#favorited-by-1008287622865747968",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Jermila Dhas",
 				"url": "https://twitter.com/JermilaD",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "JermilaD"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		}
 	]
 }

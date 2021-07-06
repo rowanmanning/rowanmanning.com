@@ -75,14 +75,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/10/",
 			"date": "2021-01-10T11:30:00+00:00",
 			"url": "https://rowanmanning.com/weeknotes/11/",
-			"isFromTwitter": false,
 			"author": {
 				"name": "Rowan Manning",
 				"url": "https://rowanmanning.com/",
-				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png"
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png",
+				"isTwitterUser": false,
+				"twitterUsername": null
 			},
 			"content": "…My <a href=\"https://rowanmanning.com/weeknotes/10/\" nofollow=\"nofollow\">new duvet</a> arrived! It’s <em>extremely</em> comfortable, like sleeping under a cloud, and I’m glad I drunkenly bought it. I have plans to replace pillows at some point, 2021 will be the year that I get really good at sleeping.…",
-			"isTruncated": true
+			"isTruncated": true,
+			"isTrustedSource": true
 		},
 		{
 			"md5": "767af851a9ef0e39ce9a0c0eea46683e",
@@ -91,14 +93,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/10/",
 			"date": "2021-06-07T13:56:23Z",
 			"url": "https://twitter.com/rowanmanning/status/1345762824161812480#favorited-by-127856293",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Perry Harlock",
 				"url": "https://twitter.com/perryharlock",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+				"isTwitterUser": true,
+				"twitterUsername": "perryharlock"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "8d58408ce360d4a7c999c0107fcf90fb",
@@ -107,14 +111,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/10/",
 			"date": "2021-06-07T13:56:52Z",
 			"url": "https://twitter.com/rowanmanning/status/1345762824161812480#favorited-by-24541114",
-			"isFromTwitter": true,
 			"author": {
 				"name": "arjun",
 				"url": "https://twitter.com/adgad",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "adgad"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		}
 	]
 }

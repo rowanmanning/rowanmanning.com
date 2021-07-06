@@ -32,14 +32,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/",
 			"date": "2021-07-05T00:00:00+00:00",
 			"url": "https://jamesg.blog/2021/07/05/blogs-i-follow",
-			"isFromTwitter": false,
 			"author": {
 				"name": "James",
 				"url": "https://jamesg.blog",
-				"photo": null
+				"photo": null,
+				"isTwitterUser": false,
+				"twitterUsername": null
 			},
 			"content": "…\n<a href=\"https://rowanmanning.com/posts/\" nofollow=\"nofollow\">Rowan’s Blog</a> (<a href=\"https://rowanmanning.com/posts/feed.xml\" nofollow=\"nofollow\">RSS feed</a>)…",
-			"isTruncated": true
+			"isTruncated": true,
+			"isTrustedSource": false
 		}
 	]
 }

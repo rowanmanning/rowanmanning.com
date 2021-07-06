@@ -153,14 +153,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/13.7/",
 			"date": "2021-06-06T10:04:47Z",
 			"url": "https://twitter.com/rowanmanning/status/1355274801628274690#favorited-by-170236447",
-			"isFromTwitter": true,
 			"author": {
 				"name": "lee",
 				"url": "https://twitter.com/notleemoody",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/884ce9795988c7accf3459433122c00acdf8f47433efc87ec81fb5fb5dd571dd.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/884ce9795988c7accf3459433122c00acdf8f47433efc87ec81fb5fb5dd571dd.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "notleemoody"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "ba94d36e73adefc67be5e033d11bc9b9",
@@ -169,14 +171,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/13.7/",
 			"date": "2021-06-06T10:04:47Z",
 			"url": "https://twitter.com/rowanmanning/status/1355274801628274690#favorited-by-21908425",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Matt Hinchliffe",
 				"url": "https://twitter.com/i_like_robots",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/b5f368eefe9579e59f8ce0704e83028ea927acf5b29d54026f1fbc33c4cfb151.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/b5f368eefe9579e59f8ce0704e83028ea927acf5b29d54026f1fbc33c4cfb151.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "i_like_robots"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "7ad8b1b337d22994df4c0273e507403d",
@@ -185,14 +189,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/13.7/",
 			"date": "2021-06-06T10:04:48Z",
 			"url": "https://twitter.com/rowanmanning/status/1355274801628274690#favorited-by-311923445",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Tricia O",
 				"url": "https://twitter.com/avisualtinker",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/561c9d34f8ef4c878d79c25f8992ea894e666004c8735b81a82985d76053ec8a.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/561c9d34f8ef4c878d79c25f8992ea894e666004c8735b81a82985d76053ec8a.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "avisualtinker"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "f2f7f55d6b29eff1913f6bf844425eee",
@@ -201,14 +207,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/13.7/",
 			"date": "2021-06-06T10:04:49Z",
 			"url": "https://twitter.com/rowanmanning/status/1355274801628274690#favorited-by-127856293",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Perry Harlock",
 				"url": "https://twitter.com/perryharlock",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+				"isTwitterUser": true,
+				"twitterUsername": "perryharlock"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "7d5d2abcba7e434e4c4a7ba905f215f1",
@@ -217,14 +225,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/13.7/",
 			"date": "2021-06-06T10:04:50Z",
 			"url": "https://twitter.com/rowanmanning/status/1355274801628274690#favorited-by-24541114",
-			"isFromTwitter": true,
 			"author": {
 				"name": "arjun",
 				"url": "https://twitter.com/adgad",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "adgad"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "9902dc3bb96470ec96968e379a9942d3",
@@ -233,14 +243,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/13.7/",
 			"date": "2021-06-06T10:04:51Z",
 			"url": "https://twitter.com/rowanmanning/status/1355274801628274690#favorited-by-373065378",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Simon Legg",
 				"url": "https://twitter.com/simonleggsays",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/55ad869b5b37881f8975abb68faa6daee0715b57a16337e1c5391953fe9c08a1.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/55ad869b5b37881f8975abb68faa6daee0715b57a16337e1c5391953fe9c08a1.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "simonleggsays"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "c36280e60f178944b2d9febd55fbe6d2",
@@ -249,14 +261,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/13.7/",
 			"date": "2021-06-06T10:04:51Z",
 			"url": "https://twitter.com/rowanmanning/status/1355274801628274690#favorited-by-17844917",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Luke Blaney",
 				"url": "https://twitter.com/lucas42",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "lucas42"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "5de20b327580475e183da33f292ef460",
@@ -265,14 +279,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/13.7/",
 			"date": "2021-06-06T10:04:55Z",
 			"url": "https://twitter.com/rowanmanning/status/1355274801628274690#favorited-by-6624102",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Mehmet Duran",
 				"url": "https://twitter.com/cfq",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/dec15eaafe1351d864368a71ba8c0feb1075349dca486b121b85247a3656cfbc.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/dec15eaafe1351d864368a71ba8c0feb1075349dca486b121b85247a3656cfbc.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "cfq"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		}
 	]
 }

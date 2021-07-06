@@ -93,14 +93,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/4/",
 			"date": "2020-11-29T18:00:00+00:00",
 			"url": "https://rowanmanning.com/weeknotes/5/",
-			"isFromTwitter": false,
 			"author": {
 				"name": "Rowan Manning",
 				"url": "https://rowanmanning.com/",
-				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png"
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png",
+				"isTwitterUser": false,
+				"twitterUsername": null
 			},
 			"content": "Because I just kicked back and had <a href=\"https://rowanmanning.com/weeknotes/4/\" nofollow=\"nofollow\">toasties</a> served to me last week, it’s my turn to cook for the foreseeable future. I made carbonara on Tuesday and it was <em>so</em> delicious, we rarely cook meat at home which makes it a bit of a treat when we do. I always had this impression that…",
-			"isTruncated": true
+			"isTruncated": true,
+			"isTrustedSource": true
 		},
 		{
 			"md5": "69082ea2aca02d6d5b8e0d4d240451d3",
@@ -109,14 +111,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/4/",
 			"date": "2021-06-07T13:58:21Z",
 			"url": "https://twitter.com/rowanmanning/status/1330813962217267200#favorited-by-1008287622865747968",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Jermila Dhas",
 				"url": "https://twitter.com/JermilaD",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "JermilaD"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "57eb737ec1ced02c8b07d1126f273bf6",
@@ -125,14 +129,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/4/",
 			"date": "2021-06-07T13:58:22Z",
 			"url": "https://twitter.com/rowanmanning/status/1330813962217267200#favorited-by-170236447",
-			"isFromTwitter": true,
 			"author": {
 				"name": "lee",
 				"url": "https://twitter.com/notleemoody",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/884ce9795988c7accf3459433122c00acdf8f47433efc87ec81fb5fb5dd571dd.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/884ce9795988c7accf3459433122c00acdf8f47433efc87ec81fb5fb5dd571dd.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "notleemoody"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "3cbee083271beb394d326921039ab40f",
@@ -141,14 +147,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/4/",
 			"date": "2021-06-07T13:58:23Z",
 			"url": "https://twitter.com/rowanmanning/status/1330813962217267200#favorited-by-127856293",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Perry Harlock",
 				"url": "https://twitter.com/perryharlock",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+				"isTwitterUser": true,
+				"twitterUsername": "perryharlock"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		}
 	]
 }

@@ -70,14 +70,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/building-cssdb/",
 			"date": "2013-03-30T10:25:15+00:00",
 			"url": "https://twitter.com/williamsager/status/317945612987428864",
-			"isFromTwitter": true,
 			"author": {
 				"name": "william",
 				"url": "https://twitter.com/williamsager",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/65f4fbdd4ec80d9e7fb6809eb5eef97750e0b09d515043668dd9548268c2dd5d.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/65f4fbdd4ec80d9e7fb6809eb5eef97750e0b09d515043668dd9548268c2dd5d.png",
+				"isTwitterUser": true,
+				"twitterUsername": "williamsager"
 			},
 			"content": "Building CSSDB <a href=\"http://ow.ly/2vPlU4\" nofollow=\"nofollow\">ow.ly/2vPlU4</a>\n",
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "8a027ab3afb3166d9d21565963ec4308",
@@ -86,14 +88,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/building-cssdb/",
 			"date": "2013-04-02T07:15:14+00:00",
 			"url": "https://twitter.com/theCSSDB/status/318984956686766080",
-			"isFromTwitter": true,
 			"author": {
 				"name": "CSSDB",
 				"url": "https://twitter.com/theCSSDB",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/ca0679450d14fb2fa497dceb907876e50b019da59f853324f58b0dbd3b792083.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ca0679450d14fb2fa497dceb907876e50b019da59f853324f58b0dbd3b792083.png",
+				"isTwitterUser": true,
+				"twitterUsername": "theCSSDB"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "915037580a570905eb7ade5af99b13b6",
@@ -102,14 +106,16 @@
 			"targetUrl": "https://rowanmanning.com/posts/building-cssdb/",
 			"date": "2021-06-07T18:49:59Z",
 			"url": "https://twitter.com/rowanmanning/status/317934893378195456#favorited-by-746066785",
-			"isFromTwitter": true,
 			"author": {
 				"name": "SETH GORE",
 				"url": "https://twitter.com/_sethjgore",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/a7cc8134d275d4a7ee6d35fc26726cf57fbe2c6d042596929b1369383990e299.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/a7cc8134d275d4a7ee6d35fc26726cf57fbe2c6d042596929b1369383990e299.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "_sethjgore"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		}
 	]
 }

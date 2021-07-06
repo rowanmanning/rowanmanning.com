@@ -129,14 +129,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/35/",
 			"date": "2021-06-27T20:07:15Z",
 			"url": "https://twitter.com/rowanmanning/status/1409208096195555330#favorited-by-741506154",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Laura Carvajal",
 				"url": "https://twitter.com/lc512k",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "lc512k"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "ab286327b305bc462227c18386351e30",
@@ -145,14 +147,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/35/",
 			"date": "2021-06-27T20:07:22Z",
 			"url": "https://twitter.com/rowanmanning/status/1409208096195555330#favorited-by-1008287622865747968",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Jermila Dhas",
 				"url": "https://twitter.com/JermilaD",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "JermilaD"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "7242b94504de368b20e1b1f65b8d2cc1",
@@ -161,14 +165,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/35/",
 			"date": "2021-06-27T21:05:36Z",
 			"url": "https://twitter.com/rowanmanning/status/1409208096195555330#favorited-by-17844917",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Luke Blaney",
 				"url": "https://twitter.com/lucas42",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "lucas42"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "7d04d5f2987c30ed1337862458385a18",
@@ -177,14 +183,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/35/",
 			"date": "2021-06-28T05:56:14Z",
 			"url": "https://twitter.com/rowanmanning/status/1409208096195555330#favorited-by-127856293",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Perry Harlock",
 				"url": "https://twitter.com/perryharlock",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+				"isTwitterUser": true,
+				"twitterUsername": "perryharlock"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "6c98ba3c0f19a5f9dcff76aab4c30c5f",
@@ -193,14 +201,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/35/",
 			"date": "2021-06-28T09:41:54Z",
 			"url": "https://twitter.com/rowanmanning/status/1409208096195555330#favorited-by-22151589",
-			"isFromTwitter": true,
 			"author": {
 				"name": "Mel",
 				"url": "https://twitter.com/Mellywellington",
-				"photo": "https://webmention.io/avatar/pbs.twimg.com/9aa04b6837f8cc1c644c5ac5c12936688d847d108a3b6e82dbddd0ab19b45d04.jpg"
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/9aa04b6837f8cc1c644c5ac5c12936688d847d108a3b6e82dbddd0ab19b45d04.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "Mellywellington"
 			},
 			"content": null,
-			"isTruncated": false
+			"isTruncated": false,
+			"isTrustedSource": false
 		},
 		{
 			"md5": "3d9eb781b3300d1cef92350adf589f1c",
@@ -209,14 +219,16 @@
 			"targetUrl": "https://rowanmanning.com/weeknotes/35/",
 			"date": "2021-07-03T17:30:00+01:00",
 			"url": "https://rowanmanning.com/weeknotes/36/",
-			"isFromTwitter": false,
 			"author": {
 				"name": "Rowan Manning",
 				"url": "https://rowanmanning.com/",
-				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png"
+				"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png",
+				"isTwitterUser": false,
+				"twitterUsername": null
 			},
 			"content": "…My <a href=\"https://rowanmanning.com/weeknotes/35/\" nofollow=\"nofollow\">mortgage deck access appeal</a> was unsuccessful, so moving onto application #3. It feels like maybe it’s a good thing, because some new rates came onto the market and this new mortgage is considerably cheaper overall, so I think this is positive? Also, they’re fine with deck…",
-			"isTruncated": true
+			"isTruncated": true,
+			"isTrustedSource": true
 		}
 	]
 }
