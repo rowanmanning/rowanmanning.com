@@ -133,6 +133,24 @@
 			"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
 			"wm-property": "like-of",
 			"wm-private": false
+		},
+		"02a47396275fc68ae31fdafe7ba2a8c1": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Mehmet Duran",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/dec15eaafe1351d864368a71ba8c0feb1075349dca486b121b85247a3656cfbc.jpg",
+				"url": "https://twitter.com/cfq"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1412687742543273988#favorited-by-6624102",
+			"published": null,
+			"wm-received": "2021-07-07T11:13:34Z",
+			"wm-id": 1212154,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1412687742543273988/6624102",
+			"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"wm-property": "like-of",
+			"wm-private": false
 		}
 	},
 	"processed": [
@@ -257,6 +275,24 @@
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/f5ce4cdbd354d93fc0f2102328c478157854a7f166696a537a559542d3e6fd31.jpg",
 				"isTwitterUser": true,
 				"twitterUsername": "shamess"
+			},
+			"content": null,
+			"isTruncated": false,
+			"isTrustedSource": false
+		},
+		{
+			"md5": "02a47396275fc68ae31fdafe7ba2a8c1",
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1412687742543273988/6624102",
+			"targetUrl": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"date": "2021-07-07T11:13:34Z",
+			"url": "https://twitter.com/rowanmanning/status/1412687742543273988#favorited-by-6624102",
+			"author": {
+				"name": "Mehmet Duran",
+				"url": "https://twitter.com/cfq",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/dec15eaafe1351d864368a71ba8c0feb1075349dca486b121b85247a3656cfbc.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "cfq"
 			},
 			"content": null,
 			"isTruncated": false,
