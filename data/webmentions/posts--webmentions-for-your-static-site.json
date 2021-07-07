@@ -1,0 +1,194 @@
+{
+	"raw": {
+		"9f7e562d3db79e8286ada8eccb6b097a": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Rowan Manning",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/fe9141fc44359aa8af294baf11d39e9fd0026e802ff4b43904fe0a3dac3d10f5.jpg",
+				"url": "https://twitter.com/rowanmanning"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1412689912932016130",
+			"published": "2021-07-07T08:28:16+00:00",
+			"wm-received": "2021-07-07T08:48:02Z",
+			"wm-id": 1212120,
+			"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1412687742543273988/1412689912932016130",
+			"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"content": {
+				"html": "Subtlety was never my forte 😁\n<a class=\"u-mention\" href=\"https://twitter.com/apaleslimghost\"></a>",
+				"text": "Subtlety was never my forte 😁"
+			},
+			"in-reply-to": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"wm-property": "in-reply-to",
+			"wm-private": false
+		},
+		"8172e0e08b985825c3ec857352bdaf28": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "a pale slim ghost",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg",
+				"url": "https://twitter.com/apaleslimghost"
+			},
+			"url": "https://twitter.com/apaleslimghost/status/1412689105788473349",
+			"published": "2021-07-07T08:25:03+00:00",
+			"wm-received": "2021-07-07T08:48:02Z",
+			"wm-id": 1212119,
+			"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1412687742543273988/1412689105788473349",
+			"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"content": {
+				"html": "this post is so directly targeted at me i am even an example in it\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+				"text": "this post is so directly targeted at me i am even an example in it"
+			},
+			"in-reply-to": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"wm-property": "in-reply-to",
+			"wm-private": false
+		},
+		"14a4dd7dc1d87ae35d72035cf73872b4": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Glynn Phillips",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d2faa425fbf06ad8f64f8b3b58708da89abc04a4b1f62aadd19f04e0bb650b22.jpg",
+				"url": "https://twitter.com/GlynnPhillips"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1412687742543273988#favorited-by-39274235",
+			"published": null,
+			"wm-received": "2021-07-07T08:48:04Z",
+			"wm-id": 1212121,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1412687742543273988/39274235",
+			"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		"805253ecbb220d9be003b268d5022356": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Matt Chadburn",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/dfb4da1f17061a9e4f3d6e1732195592f5900453c8dc2257a13abe90725ca7bf.jpg",
+				"url": "https://twitter.com/commuterjoy"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1412687742543273988#favorited-by-14880669",
+			"published": null,
+			"wm-received": "2021-07-07T08:48:05Z",
+			"wm-id": 1212123,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1412687742543273988/14880669",
+			"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		"2f6343f35091f30078923bf11f2c307f": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "a pale slim ghost",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg",
+				"url": "https://twitter.com/apaleslimghost"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1412687742543273988#favorited-by-20815869",
+			"published": null,
+			"wm-received": "2021-07-07T08:48:05Z",
+			"wm-id": 1212122,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1412687742543273988/20815869",
+			"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"wm-property": "like-of",
+			"wm-private": false
+		}
+	},
+	"processed": [
+		{
+			"md5": "8172e0e08b985825c3ec857352bdaf28",
+			"type": "response",
+			"sourceUrl": "https://brid.gy/comment/twitter/rowanmanning/1412687742543273988/1412689105788473349",
+			"targetUrl": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"date": "2021-07-07T08:25:03+00:00",
+			"url": "https://twitter.com/apaleslimghost/status/1412689105788473349",
+			"author": {
+				"name": "a pale slim ghost",
+				"url": "https://twitter.com/apaleslimghost",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "apaleslimghost"
+			},
+			"content": "this post is so directly targeted at me i am even an example in it\n\n",
+			"isTruncated": false,
+			"isTrustedSource": false
+		},
+		{
+			"md5": "9f7e562d3db79e8286ada8eccb6b097a",
+			"type": "response",
+			"sourceUrl": "https://brid.gy/comment/twitter/rowanmanning/1412687742543273988/1412689912932016130",
+			"targetUrl": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"date": "2021-07-07T08:28:16+00:00",
+			"url": "https://twitter.com/rowanmanning/status/1412689912932016130",
+			"author": {
+				"name": "Rowan Manning",
+				"url": "https://twitter.com/rowanmanning",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/fe9141fc44359aa8af294baf11d39e9fd0026e802ff4b43904fe0a3dac3d10f5.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "rowanmanning"
+			},
+			"content": "Subtlety was never my forte 😁\n",
+			"isTruncated": false,
+			"isTrustedSource": true
+		},
+		{
+			"md5": "14a4dd7dc1d87ae35d72035cf73872b4",
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1412687742543273988/39274235",
+			"targetUrl": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"date": "2021-07-07T08:48:04Z",
+			"url": "https://twitter.com/rowanmanning/status/1412687742543273988#favorited-by-39274235",
+			"author": {
+				"name": "Glynn Phillips",
+				"url": "https://twitter.com/GlynnPhillips",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d2faa425fbf06ad8f64f8b3b58708da89abc04a4b1f62aadd19f04e0bb650b22.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "GlynnPhillips"
+			},
+			"content": null,
+			"isTruncated": false,
+			"isTrustedSource": false
+		},
+		{
+			"md5": "805253ecbb220d9be003b268d5022356",
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1412687742543273988/14880669",
+			"targetUrl": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"date": "2021-07-07T08:48:05Z",
+			"url": "https://twitter.com/rowanmanning/status/1412687742543273988#favorited-by-14880669",
+			"author": {
+				"name": "Matt Chadburn",
+				"url": "https://twitter.com/commuterjoy",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/dfb4da1f17061a9e4f3d6e1732195592f5900453c8dc2257a13abe90725ca7bf.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "commuterjoy"
+			},
+			"content": null,
+			"isTruncated": false,
+			"isTrustedSource": false
+		},
+		{
+			"md5": "2f6343f35091f30078923bf11f2c307f",
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1412687742543273988/20815869",
+			"targetUrl": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"date": "2021-07-07T08:48:05Z",
+			"url": "https://twitter.com/rowanmanning/status/1412687742543273988#favorited-by-20815869",
+			"author": {
+				"name": "a pale slim ghost",
+				"url": "https://twitter.com/apaleslimghost",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "apaleslimghost"
+			},
+			"content": null,
+			"isTruncated": false,
+			"isTrustedSource": false
+		}
+	]
+}
