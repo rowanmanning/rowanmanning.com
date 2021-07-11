@@ -1,0 +1,46 @@
+{
+	"raw": {
+		"073558e5926e8cb87afba8d72a37149a": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "capjamesg",
+				"photo": "https://webmention.io/avatar/jamesg.blog/cb5d41a8518f43a418acbb8f5ef59cb8b6417e5bf29e7967bc4d6a4457ea0977.jpg",
+				"url": "https://jamesg.blog/"
+			},
+			"url": "https://jamesg.blog/webmentions/2021-07-11-rowanmanning_com-44rfso",
+			"published": "2021-07-11T09:15:10+00:00",
+			"wm-received": "2021-07-11T09:17:39Z",
+			"wm-id": 1215996,
+			"wm-source": "https://jamesg.blog/webmentions/2021-07-11-rowanmanning_com-44rfso",
+			"wm-target": "https://rowanmanning.com/weeknotes/37/",
+			"content": {
+				"html": "<p></p><p>Hello Rowan! Thank you for mentioning me in your weeknotes. I love the style of your blog – simple, colourful, and clear! I wrote a program that sent webmentions to all of the people I had mentioned in my past articles. I had to do this because I didn’t set up auto webmention sending. However, now I am using webmention.app so any mention should be sent automatically. Thanks again for your kind words!</p>",
+				"text": "Hello Rowan! Thank you for mentioning me in your weeknotes. I love the style of your blog – simple, colourful, and clear! I wrote a program that sent webmentions to all of the people I had mentioned in my past articles. I had to do this because I didn’t set up auto webmention sending. However, now I am using webmention.app so any mention should be sent automatically. Thanks again for your kind words!"
+			},
+			"in-reply-to": "https://rowanmanning.com/weeknotes/37/",
+			"wm-property": "in-reply-to",
+			"wm-private": false
+		}
+	},
+	"processed": [
+		{
+			"md5": "073558e5926e8cb87afba8d72a37149a",
+			"type": "response",
+			"sourceUrl": "https://jamesg.blog/webmentions/2021-07-11-rowanmanning_com-44rfso",
+			"targetUrl": "https://rowanmanning.com/weeknotes/37/",
+			"date": "2021-07-11T09:15:10+00:00",
+			"url": "https://jamesg.blog/webmentions/2021-07-11-rowanmanning_com-44rfso",
+			"author": {
+				"name": "capjamesg",
+				"url": "https://jamesg.blog/",
+				"photo": "https://webmention.io/avatar/jamesg.blog/cb5d41a8518f43a418acbb8f5ef59cb8b6417e5bf29e7967bc4d6a4457ea0977.jpg",
+				"isTwitterUser": false,
+				"twitterUsername": null
+			},
+			"content": "<p></p><p>Hello Rowan! Thank you for mentioning me in your weeknotes. I love the style of your blog – simple, colourful, and clear! I wrote a program that sent webmentions to all of the people I had mentioned in my past articles. I had to do this because I didn’t set up auto webmention …</p>",
+			"isTruncated": true,
+			"isTrustedSource": false
+		}
+	]
+}
