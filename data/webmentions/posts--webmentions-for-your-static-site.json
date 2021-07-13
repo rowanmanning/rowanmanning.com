@@ -151,6 +151,64 @@
 			"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
 			"wm-property": "like-of",
 			"wm-private": false
+		},
+		"a7f96ea28e4c39701929ec0d3c6ee1b2": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Nick",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/1e7b37e8256351286cbdb7387f378c0c29be8124014f14bf54dffbba8b73fbb7.jpg",
+				"url": "https://twitter.com/NickColley"
+			},
+			"url": "https://twitter.com/NickColley/status/1414949906435956748",
+			"published": "2021-07-13T14:08:40+00:00",
+			"wm-received": "2021-07-13T15:37:29Z",
+			"wm-id": 1217810,
+			"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1412687742543273988/1414949906435956748",
+			"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"content": {
+				"html": "first1111!\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+				"text": "first1111!"
+			},
+			"in-reply-to": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"wm-property": "in-reply-to",
+			"wm-private": false
+		},
+		"4809d3f8c3e30485c68b601b18895ce0": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "gorsefan",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/798d3de530ff70c198dcc1bf6f7bab82388d74f0144f10ee920c29357720b3e0.jpg",
+				"url": "https://twitter.com/Gorsefan"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1414947729806020608#favorited-by-58774613",
+			"published": null,
+			"wm-received": "2021-07-13T15:37:29Z",
+			"wm-id": 1217809,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1414947729806020608/58774613",
+			"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"wm-property": "like-of",
+			"wm-private": false
+		},
+		"e756242a68c9bea6d6a6a2122cc69062": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Nick",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/1e7b37e8256351286cbdb7387f378c0c29be8124014f14bf54dffbba8b73fbb7.jpg",
+				"url": "https://twitter.com/NickColley"
+			},
+			"url": "https://twitter.com/rowanmanning/status/1412687742543273988#favorited-by-20692536",
+			"published": null,
+			"wm-received": "2021-07-13T15:37:30Z",
+			"wm-id": 1217811,
+			"wm-source": "https://brid.gy/like/twitter/rowanmanning/1412687742543273988/20692536",
+			"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"wm-property": "like-of",
+			"wm-private": false
 		}
 	},
 	"processed": [
@@ -293,6 +351,60 @@
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/dec15eaafe1351d864368a71ba8c0feb1075349dca486b121b85247a3656cfbc.jpg",
 				"isTwitterUser": true,
 				"twitterUsername": "cfq"
+			},
+			"content": null,
+			"isTruncated": false,
+			"isTrustedSource": false
+		},
+		{
+			"md5": "a7f96ea28e4c39701929ec0d3c6ee1b2",
+			"type": "response",
+			"sourceUrl": "https://brid.gy/comment/twitter/rowanmanning/1412687742543273988/1414949906435956748",
+			"targetUrl": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"date": "2021-07-13T14:08:40+00:00",
+			"url": "https://twitter.com/NickColley/status/1414949906435956748",
+			"author": {
+				"name": "Nick",
+				"url": "https://twitter.com/NickColley",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/1e7b37e8256351286cbdb7387f378c0c29be8124014f14bf54dffbba8b73fbb7.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "NickColley"
+			},
+			"content": "first1111!\n\n",
+			"isTruncated": false,
+			"isTrustedSource": false
+		},
+		{
+			"md5": "4809d3f8c3e30485c68b601b18895ce0",
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1414947729806020608/58774613",
+			"targetUrl": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"date": "2021-07-13T15:37:29Z",
+			"url": "https://twitter.com/rowanmanning/status/1414947729806020608#favorited-by-58774613",
+			"author": {
+				"name": "gorsefan",
+				"url": "https://twitter.com/Gorsefan",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/798d3de530ff70c198dcc1bf6f7bab82388d74f0144f10ee920c29357720b3e0.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "Gorsefan"
+			},
+			"content": null,
+			"isTruncated": false,
+			"isTrustedSource": false
+		},
+		{
+			"md5": "e756242a68c9bea6d6a6a2122cc69062",
+			"type": "like",
+			"sourceUrl": "https://brid.gy/like/twitter/rowanmanning/1412687742543273988/20692536",
+			"targetUrl": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"date": "2021-07-13T15:37:30Z",
+			"url": "https://twitter.com/rowanmanning/status/1412687742543273988#favorited-by-20692536",
+			"author": {
+				"name": "Nick",
+				"url": "https://twitter.com/NickColley",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/1e7b37e8256351286cbdb7387f378c0c29be8124014f14bf54dffbba8b73fbb7.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "NickColley"
 			},
 			"content": null,
 			"isTruncated": false,
