@@ -1,12 +1,12 @@
 
-import {fathomGoalIds} from '@params';
+import {fathomConfig} from '@params';
 
 export default class FeedLink {
 
 	// Construct a single feed link
 	constructor(rootElement) {
 		this.rootElement = rootElement;
-		this.fathomGoalId = fathomGoalIds.feedView;
+		this.fathomGoalId = fathomConfig.goalIds.feedView;
 		this.rootElement.addEventListener('click', this.handleClick.bind(this));
 	}
 

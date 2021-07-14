@@ -1,12 +1,12 @@
 
-import {fathomGoalIds} from '@params';
+import {fathomConfig} from '@params';
 
 export default class WebmentionForm {
 
 	// Construct a single webmention form
 	constructor(rootElement) {
 		this.rootElement = rootElement;
-		this.fathomGoalId = fathomGoalIds.webmentionSend;
+		this.fathomGoalId = fathomConfig.goalIds.webmentionSend;
 		this.rootElement.addEventListener('submit', this.handleSubmit.bind(this));
 	}
 

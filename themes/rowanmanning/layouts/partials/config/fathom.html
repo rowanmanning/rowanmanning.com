@@ -1,0 +1,15 @@
+
+{{/* Get Fathom config */}}
+{{/* ----------------- */}}
+
+{{ $fathomSiteId := .Site.Params.fathom.siteId | default nil }}
+{{ $fathomSiteHostname := .Site.Params.fathom.SiteHostname | default "cdn.usefathom.com" }}
+{{ $fathomGoalIds := .Site.Params.fathom.goalIds | default dict }}
+{{
+	return (dict
+		"enabled" (ne $fathomSiteId nil)
+		"siteId" $fathomSiteId
+		"siteHostname" $fathomSiteHostname
+		"goalIds" $fathomGoalIds
+	)
+}}

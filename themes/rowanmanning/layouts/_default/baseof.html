@@ -62,16 +62,17 @@
 	{{ "<!--<![endif]-->" | safeHTML }}
 
 	{{ partial "site/icons.html" . -}}
-	{{ partial "site/analytics.html" . -}}
+	{{ partial "site/fathom.html" . -}}
 	{{- partial "site/social.html" . -}}
 
 	{{/* Output JavaScript */}}
+	{{- $fathomConfig := partial "config/fathom" . -}}
 	{{ $jsOptions := (dict
 		"minify" true
 		"targetPath" "main.js"
 		"params" (dict
 			"baseUrl" .Site.BaseURL
-			"fathomGoalIds" (.Site.Params.analytics.fathomGoalIds | default dict)
+			"fathomConfig" $fathomConfig
 		)
 	) -}}
 	{{ $js := resources.Get "js/main.js" | js.Build $jsOptions | resources.Fingerprint "sha512" -}}

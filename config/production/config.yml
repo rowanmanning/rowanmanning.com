@@ -4,12 +4,15 @@
 # Set the base URL
 baseURL: https://rowanmanning.com/
 
-# Set up site analytics
+
+# Site parameters
 params:
-  analytics:
-    fathomSiteId: "LZDRDPSO"
-    fathomSiteHostname: "falcon.rowanmanning.com"
-    fathomGoalIds:
+
+  # Analytics configuration
+  fathom:
+    siteId: "LZDRDPSO"
+    siteHostname: "falcon.rowanmanning.com"
+    goalIds:
       feedView: "BPV3BBHK"
       search: "BQDXHKN1"
       webmentionSend: "YLQQARGU"

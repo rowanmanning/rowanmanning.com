@@ -1,6 +1,6 @@
 
 {{/* Get pingback config */}}
-{{/* --------------------- */}}
+{{/* ------------------- */}}
 
 {{ $pingbackReceiver := .Site.Params.pingback.receiver | default nil }}
 {{ $pingbackEnabled := and (.Site.Params.pingback.enabled | default true) $pingbackReceiver }}
