@@ -1,0 +1,178 @@
+{
+	"cc2180717e5dde173698964ae822d809": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Simon Legg",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/55ad869b5b37881f8975abb68faa6daee0715b57a16337e1c5391953fe9c08a1.jpg",
+			"url": "https://twitter.com/simonleggsays"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1411364342067613697#favorited-by-373065378",
+		"published": null,
+		"wm-received": "2021-07-03T17:35:22Z",
+		"wm-id": 1208939,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1411364342067613697/373065378",
+		"wm-target": "https://rowanmanning.com/weeknotes/36/",
+		"like-of": "https://rowanmanning.com/weeknotes/36/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"c2ad6941f968a0bf46460b373cc776e0": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Simon Legg",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/55ad869b5b37881f8975abb68faa6daee0715b57a16337e1c5391953fe9c08a1.jpg",
+			"url": "https://twitter.com/simonleggsays"
+		},
+		"url": "https://twitter.com/simonleggsays/status/1411371067386613766",
+		"published": "2021-07-03T17:07:39+00:00",
+		"wm-received": "2021-07-03T17:35:30Z",
+		"wm-id": 1208941,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/1411371067386613766",
+		"wm-target": "https://rowanmanning.com/weeknotes/36/",
+		"content": {
+			"html": "I don’t disagree!!\n<a class=\"u-mention\" href=\"https://rowanmanning.com/weeknotes/36/\"></a>",
+			"text": "I don’t disagree!!"
+		},
+		"mention-of": "https://rowanmanning.com/weeknotes/36/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"a5eb905e9cb50c35bcf3563378754b95": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Sean M. Tracey",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/47df287c4ce6c6f631ad0e8daa511a8d1bfb3125444c2655d5f23f7cbe220b15.jpg",
+			"url": "https://twitter.com/seanmtracey"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1411364342067613697#favorited-by-42671737",
+		"published": null,
+		"wm-received": "2021-07-03T17:35:30Z",
+		"wm-id": 1208940,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1411364342067613697/42671737",
+		"wm-target": "https://rowanmanning.com/weeknotes/36/",
+		"like-of": "https://rowanmanning.com/weeknotes/36/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"847735bd0ff6fb7b5db924127a80d400": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Oliver",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/bb6054dd4e7cdd1650eabe48cb06ec5c9617e2878b15fd9abc26296b0b754c37.jpg",
+			"url": "https://twitter.com/oliverturner"
+		},
+		"url": "https://twitter.com/oliverturner/status/1411374700438171653",
+		"published": "2021-07-03T17:22:05+00:00",
+		"wm-received": "2021-07-03T17:35:56Z",
+		"wm-id": 1208942,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1411364342067613697/1411374700438171653",
+		"wm-target": "https://rowanmanning.com/weeknotes/36/",
+		"photo": [
+			"https://pbs.twimg.com/media/E5Y1bXHXIAAmEZD.jpg"
+		],
+		"content": {
+			"html": "I don’t understand… this is just 3 pictures of Simon?\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/simonleggsays\"></a>",
+			"text": "I don’t understand… this is just 3 pictures of Simon?"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/36/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"49d921ec954260d2a477b9afc924ae76": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Laura Carvajal",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg",
+			"url": "https://twitter.com/lc512k"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1411364342067613697#favorited-by-741506154",
+		"published": null,
+		"wm-received": "2021-07-03T18:25:26Z",
+		"wm-id": 1208974,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1411364342067613697/741506154",
+		"wm-target": "https://rowanmanning.com/weeknotes/36/",
+		"like-of": "https://rowanmanning.com/weeknotes/36/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"948ce7e12bdfee095998b27c19cdb9e4": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "arjun",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg",
+			"url": "https://twitter.com/adgad"
+		},
+		"url": "https://twitter.com/adgad/status/1411396439104761859",
+		"published": "2021-07-03T18:48:28+00:00",
+		"wm-received": "2021-07-03T19:15:44Z",
+		"wm-id": 1208996,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1411364342067613697/1411396439104761859",
+		"wm-target": "https://rowanmanning.com/weeknotes/36/",
+		"video": [
+			"https://video.twimg.com/tweet_video/E5ZJkl5WUAMR38O.mp4"
+		],
+		"in-reply-to": "https://rowanmanning.com/weeknotes/36/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"9aa7796f05a8d3d22121d39cfa15851b": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Kinnoha",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/7f661e1f3486b462b77da6008b4787db1aea0cf36a9421b5f3e6c6399f5e07f8.jpg",
+			"url": "https://twitter.com/kinnoha"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1411364342067613697#favorited-by-96442598",
+		"published": null,
+		"wm-received": "2021-07-04T10:56:03Z",
+		"wm-id": 1209150,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1411364342067613697/96442598",
+		"wm-target": "https://rowanmanning.com/weeknotes/36/",
+		"like-of": "https://rowanmanning.com/weeknotes/36/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"a8edee25db301c449db53747ec551f28": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1411364342067613697#favorited-by-127856293",
+		"published": null,
+		"wm-received": "2021-07-04T15:41:13Z",
+		"wm-id": 1209323,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1411364342067613697/127856293",
+		"wm-target": "https://rowanmanning.com/weeknotes/36/",
+		"like-of": "https://rowanmanning.com/weeknotes/36/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"a88066750d4cdc1855f16e47435a46f8": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "",
+			"photo": "",
+			"url": ""
+		},
+		"url": "https://leemoody.co.uk/blog/weeknotes/41/",
+		"published": null,
+		"wm-received": "2021-07-04T22:37:09Z",
+		"wm-id": 1209509,
+		"wm-source": "https://leemoody.co.uk/blog/weeknotes/41/",
+		"wm-target": "https://rowanmanning.com/weeknotes/36/",
+		"mention-of": "https://rowanmanning.com/weeknotes/36/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	}
+}

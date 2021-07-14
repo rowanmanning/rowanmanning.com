@@ -6,7 +6,7 @@ The source code for [rowanmanning.com](https://rowanmanning.com/).
 
 ## Running locally
 
-  1. Install [Hugo](https://gohugo.io/)
+  1. Install [Hugo](https://gohugo.io/) and [Node.js](https://nodejs.org/)
 
   2. Clone this repo locally and initialise submodules:
 
@@ -14,9 +14,13 @@ The source code for [rowanmanning.com](https://rowanmanning.com/).
      git clone https://github.com/rowanmanning/rowanmanning.com.git && cd rowanmanning.com && submodule init && git submodule update
      ```
 
-  3. Run `hugo server`
+  3. Install npm dependencies with `npm install`
 
-  4. Visit [http://localhost:1313/](http://localhost:1313/)
+  4. Generate processed webmentions with `make process-webmentions`
+
+  5. Run `make start-dev`
+
+  6. Visit [http://localhost:1313/](http://localhost:1313/)
 
 
 ## Writing new content

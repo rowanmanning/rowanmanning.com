@@ -1,0 +1,20 @@
+{
+	"21a2d798959486a9c7f18d7a9750ad19": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rufus",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/7158d536d1d866e04f3fd10f32a844373855a8818e422abbfcfb2d1c0adc040e.jpg",
+			"url": "https://twitter.com/rufusdenne"
+		},
+		"url": "https://twitter.com/rowanmanning/status/707540216030965760#favorited-by-62230390",
+		"published": null,
+		"wm-received": "2021-06-07T18:49:32Z",
+		"wm-id": 1182869,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/707540216030965760/62230390",
+		"wm-target": "https://rowanmanning.com/posts/an-evolving-website/",
+		"like-of": "https://rowanmanning.com/posts/an-evolving-website/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}

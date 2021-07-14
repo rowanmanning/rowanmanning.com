@@ -1,0 +1,38 @@
+{
+	"e75156d419d5c84563ccd697c416a6c3": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1343489696031244290#favorited-by-127856293",
+		"published": null,
+		"wm-received": "2021-06-07T13:56:30Z",
+		"wm-id": 1182401,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1343489696031244290/127856293",
+		"wm-target": "https://rowanmanning.com/weeknotes/9/",
+		"like-of": "https://rowanmanning.com/weeknotes/9/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"8cb21d98f99d4aaa330f163820d7f7fc": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Mehmet Duran",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/dec15eaafe1351d864368a71ba8c0feb1075349dca486b121b85247a3656cfbc.jpg",
+			"url": "https://twitter.com/cfq"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1343489696031244290#favorited-by-6624102",
+		"published": null,
+		"wm-received": "2021-06-07T13:56:30Z",
+		"wm-id": 1182400,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1343489696031244290/6624102",
+		"wm-target": "https://rowanmanning.com/weeknotes/9/",
+		"like-of": "https://rowanmanning.com/weeknotes/9/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}

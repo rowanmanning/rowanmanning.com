@@ -4,7 +4,7 @@
 const crypto = require('crypto');
 const fs = require('fs/promises');
 const got = require('got');
-const site = require('../data/webmention-config/site.json');
+const site = require('../data/webmentions/config/site.json');
 
 (async () => {
 
@@ -55,10 +55,14 @@ const site = require('../data/webmention-config/site.json');
 			continue;
 		}
 
+		// Create the raw directory
+		const rawDataPath = `${__dirname}/../data/webmentions/raw`;
+		await fs.mkdir(rawDataPath, {recursive: true});
+
 		if (slug === '') {
 			slug = 'index';
 		}
-		const filePath = `${__dirname}/../data/webmentions/${slug}.json`;
+		const filePath = `${rawDataPath}/${slug}.json`;
 
 		// Load the file for this target if it doesn't already exist
 		if (!fileCache[filePath]) {
@@ -66,15 +70,14 @@ const site = require('../data/webmention-config/site.json');
 				await fs.access(filePath);
 				fileCache[filePath] = JSON.parse(await fs.readFile(filePath, 'utf-8'));
 			} catch (error) {
-				fileCache[filePath] = {raw: {},
-					processed: []};
+				fileCache[filePath] = {};
 			}
 		}
 
 		const uniqueIdData = `source:${webmention['wm-source']}\ttarget:${webmention['wm-target']}`;
 		const uniqueId = crypto.createHash('md5').update(uniqueIdData).digest('hex');
 
-		fileCache[filePath].raw[uniqueId] = webmention;
+		fileCache[filePath][uniqueId] = webmention;
 
 	}
 
@@ -89,7 +92,7 @@ const site = require('../data/webmention-config/site.json');
 		site.lastSync = webmentions[webmentions.length - 1]['wm-received'];
 		console.log(`Saving last sync date as ${site.lastSync}`);
 		await fs.writeFile(
-			`${__dirname}/../data/webmention-config/site.json`,
+			`${__dirname}/../data/webmentions/config/site.json`,
 			JSON.stringify(site, null, '\t')
 		);
 	}

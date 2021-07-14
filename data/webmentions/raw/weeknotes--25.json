@@ -1,0 +1,56 @@
+{
+	"32bf561e316e9923a5a51e1d716797c5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jermila Dhas",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg",
+			"url": "https://twitter.com/JermilaD"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1384428586271223810#favorited-by-1008287622865747968",
+		"published": null,
+		"wm-received": "2021-06-06T10:01:56Z",
+		"wm-id": 1181447,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1384428586271223810/1008287622865747968",
+		"wm-target": "https://rowanmanning.com/weeknotes/25/",
+		"like-of": "https://rowanmanning.com/weeknotes/25/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"ed2da832c4f73452347a400bd7a0fc60": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Laura Carvajal",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg",
+			"url": "https://twitter.com/lc512k"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1384428586271223810#favorited-by-741506154",
+		"published": null,
+		"wm-received": "2021-06-06T10:01:56Z",
+		"wm-id": 1181446,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1384428586271223810/741506154",
+		"wm-target": "https://rowanmanning.com/weeknotes/25/",
+		"like-of": "https://rowanmanning.com/weeknotes/25/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"4defc1503ddfd0fec2892c204eae8893": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1384428586271223810#favorited-by-127856293",
+		"published": null,
+		"wm-received": "2021-06-06T10:01:57Z",
+		"wm-id": 1181448,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1384428586271223810/127856293",
+		"wm-target": "https://rowanmanning.com/weeknotes/25/",
+		"like-of": "https://rowanmanning.com/weeknotes/25/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}

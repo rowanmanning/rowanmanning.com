@@ -3,6 +3,7 @@
 # -----------------------
 title: "Webmentions for your Static Site"
 date: 2021-07-06T22:45:00+01:00
+lastmod: 2021-07-14 17:45:00+01:00
 description: "A small dive into one of my new favourite web technologies: webmentions. This post talks through how I use them to make my static website feel more alive and social."
 cta: "Learn how to send and receive webmentions on your static website"
 tags: ["Webmention", "Side Projects"]
@@ -158,7 +159,7 @@ It got complicated fairly quickly. The things I added were:
   * Saving each of the webmentions for a specific URL into the relevant JSON file,
   * Committing these new files and pushing them to the repo so that we don't need to fetch webmentions on every build.
 
-You can look at the [full script here](https://github.com/rowanmanning/rowanmanning.com/blob/main/scripts/fetch-webmentions.js), and you can also see an example of these saved JSON files on GitHub: [here's the JSON file](https://github.com/rowanmanning/rowanmanning.com/blob/main/data/webmentions/posts--yeehaw.json) for my [Yeehaw blog post](/posts/yeehaw/).
+You can look at the [full script here](https://github.com/rowanmanning/rowanmanning.com/blob/main/scripts/fetch-webmentions.js), and you can also see an example of these saved JSON files on GitHub: [here's the JSON file](https://github.com/rowanmanning/rowanmanning.com/blob/main/data/webmentions/raw/posts--yeehaw.json) for my [Yeehaw blog post](/posts/yeehaw/).
 
 So now that we're storing our webmentions alongside our website content, the next step is displaying them on each of the pages.
 

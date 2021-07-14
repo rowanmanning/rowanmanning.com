@@ -34,9 +34,7 @@ jobs:
       - name: Fetch webmentions
         env:
           WEBMENTION_API_KEY: ${{ secrets.WEBMENTION_API_KEY }}
-        run: ./scripts/fetch-webmentions.js
-      - name: Process webmentions
-        run: ./scripts/process-webmentions.js
+        run: make fetch-webmentions
 
       # Commit new webmentions to the repo
       - name: Commit to the repo

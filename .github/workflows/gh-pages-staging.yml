@@ -52,7 +52,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --environment staging
+        run: make build-staging
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

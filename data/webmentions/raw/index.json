@@ -1,0 +1,20 @@
+{
+	"0b25203059bd6da15d2618d404c2a7b1": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Andrew Brough",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/b3cecdc3009da0f60d691b214b98868a52140e2d14ebf4443fb374a7970ad304.jpg",
+			"url": "https://twitter.com/digital__zen"
+		},
+		"url": "https://twitter.com/rowanmanning/status/379690898487279616#favorited-by-35815251",
+		"published": null,
+		"wm-received": "2021-06-07T18:49:33Z",
+		"wm-id": 1182870,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/379690898487279616/35815251",
+		"wm-target": "https://rowanmanning.com/",
+		"like-of": "https://rowanmanning.com/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}

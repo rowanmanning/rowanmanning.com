@@ -12,3 +12,15 @@ start:
 
 start-dev:
 	@hugo server -D
+
+fetch-webmentions:
+	@./scripts/fetch-webmentions.js
+
+process-webmentions:
+	@./scripts/process-webmentions.js
+
+build: process-webmentions
+	@hugo --minify --environment production
+
+build-staging: process-webmentions
+	@hugo --minify --environment staging

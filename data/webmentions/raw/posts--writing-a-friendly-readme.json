@@ -1,0 +1,1832 @@
+{
+	"880625c732b234e6d79f3e027c7ecc72": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Shunsuke Mano",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/1009d54855016e8fe7c7ac92763b57e1b3b2cb385d5596b8f66b3d435f1df8bf.jpg",
+			"url": "https://twitter.com/progfay"
+		},
+		"url": "https://twitter.com/progfay/status/998096030867472385",
+		"published": "2018-05-20T07:00:12+00:00",
+		"wm-received": "2021-06-07T18:47:41Z",
+		"wm-id": 1182833,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/998096030867472385",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>",
+			"text": "Writing a Friendly README rowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"644eac0cecf45084d18e805bcf47e9bd": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Pascal",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/cee98b65dcd00c0e55bf8714739cbcb1a5a07a14f1148b51196720c39c163a48.jpg",
+			"url": "https://twitter.com/murindwaz"
+		},
+		"url": "https://twitter.com/murindwaz/status/966869153045995521",
+		"published": "2018-02-23T02:55:44+00:00",
+		"wm-received": "2021-06-07T18:48:01Z",
+		"wm-id": 1182837,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/966869153045995521",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README rowanmanning.com/posts/writing-… via @rowanmanning"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"8a9628ef59f1717772f6bbe0fae5d164": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Adam Braimbridge",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/aadb24b14b6b22361438d6410fd429742493fe30a994ab0e65a6d1b068d62fa7.jpg",
+			"url": "https://twitter.com/uxtremist"
+		},
+		"url": "https://twitter.com/uxtremist/status/965617233149005829",
+		"published": "2018-02-19T16:01:03+00:00",
+		"wm-received": "2021-06-07T18:48:02Z",
+		"wm-id": 1182838,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/965617233149005829",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README rowanmanning.com/posts/writing-… via @rowanmanning"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"eddce7ea6c9470bffcd822d66830d039": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "ゆかお🦩🦩",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/7703f27433e4bb0e0d6a8131a9efceacdaf0d9aff83f1c1a5e10437f9a59a265.jpg",
+			"url": "https://twitter.com/yucao24hours"
+		},
+		"url": "https://twitter.com/yucao24hours/status/915831169748410369",
+		"published": "2017-10-05T06:49:00+00:00",
+		"wm-received": "2021-06-07T18:48:04Z",
+		"wm-id": 1182839,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/915831169748410369",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README rowanmanning.com/posts/writing-… via @rowanmanning"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"cd316cdc2ff2c6ab6ad9f67eb7479645": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Robert James Kaes",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/dc815149b73e1271997c0b003e00fe368c5d8b20cc2ece64a8358d6d8db23ba4.jpg",
+			"url": "https://twitter.com/rjkaes"
+		},
+		"url": "https://twitter.com/rjkaes/status/870104758404734977",
+		"published": "2017-06-01T02:28:34+00:00",
+		"wm-received": "2021-06-07T18:48:11Z",
+		"wm-id": 1182841,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/870104758404734977",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/instapaper\">@Instapaper</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README rowanmanning.com/posts/writing-… via @Instapaper"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"7e0fc31c545fc0cb2a1e0d4546021558": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Sunjay",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/9e2669e092fab00051ce23e5a7320941f6ac81294bab12af6b26047011de0b9e.jpg",
+			"url": "https://twitter.com/Sunjay03"
+		},
+		"url": "https://twitter.com/Sunjay03/status/835667944042598402",
+		"published": "2017-02-26T01:48:58+00:00",
+		"wm-received": "2021-06-07T18:48:14Z",
+		"wm-id": 1182842,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/835667944042598402",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Really useful post about writing a friendly <a href=\"https://twitter.com/search?q=%23README\">#README</a> <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Really useful post about writing a friendly #README rowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"dcd2fe672c26c305a0f541a91b7adcfd": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Makoto Shimabukuro",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d41ebbe93563fd3461d339ee5bbe16209b3f863c544bfca71975f3321b231290.jpg",
+			"url": "https://twitter.com/shimabukuro"
+		},
+		"url": "https://twitter.com/rowanmanning/status/745548499672956929#favorited-by-7801762",
+		"published": null,
+		"wm-received": "2021-06-07T18:49:11Z",
+		"wm-id": 1182846,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/745548499672956929/7801762",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"like-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"b1f19061a8c7ee4b287c55a425ceaad4": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "yoku0825",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/9bf5f5a5de14d0a3ec1590e7b52963a0a151bd506b52baa839977512fd8aab0c.jpg",
+			"url": "https://twitter.com/yoku0825"
+		},
+		"url": "https://twitter.com/rowanmanning/status/745548499672956929#favorited-by-184376567",
+		"published": null,
+		"wm-received": "2021-06-07T18:49:12Z",
+		"wm-id": 1182847,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/745548499672956929/184376567",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"like-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"9facae6824f51a3995d0ebb2ebc8c893": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Hollsk",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ddb6ff99a19c7e147b2a9db6ce971c946509d6b2123289359cf9aa3b650d4da3.jpg",
+			"url": "https://twitter.com/_hollsk"
+		},
+		"url": "https://twitter.com/rowanmanning/status/745548499672956929#favorited-by-112401465",
+		"published": null,
+		"wm-received": "2021-06-07T18:49:13Z",
+		"wm-id": 1182848,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/745548499672956929/112401465",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"like-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"816c734b96d12c659acad9d6d8764c07": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Makoto Shimabukuro",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d41ebbe93563fd3461d339ee5bbe16209b3f863c544bfca71975f3321b231290.jpg",
+			"url": "https://twitter.com/shimabukuro"
+		},
+		"url": "https://twitter.com/shimabukuro/status/745572104574107648",
+		"published": "2016-06-22T11:00:16+00:00",
+		"wm-received": "2021-06-07T18:49:14Z",
+		"wm-id": 1182849,
+		"wm-source": "https://brid.gy/repost/twitter/rowanmanning/745548499672956929/745572104574107648",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"text": ".@dblmkt translated my \"Writing a Friendly README\" post into Japanese! 🎉🇯🇵 yakst.com/ja/posts/3859 (original here: rowanmanning.com/posts/writing-…)"
+		},
+		"repost-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	},
+	"eb503887481d38a2e62175b8e9f7eb58": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "yoku0825",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/9bf5f5a5de14d0a3ec1590e7b52963a0a151bd506b52baa839977512fd8aab0c.jpg",
+			"url": "https://twitter.com/yoku0825"
+		},
+		"url": "https://twitter.com/yoku0825/status/745560023145684994",
+		"published": "2016-06-22T10:12:16+00:00",
+		"wm-received": "2021-06-07T18:49:15Z",
+		"wm-id": 1182850,
+		"wm-source": "https://brid.gy/repost/twitter/rowanmanning/745548499672956929/745560023145684994",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"text": ".@dblmkt translated my \"Writing a Friendly README\" post into Japanese! 🎉🇯🇵 yakst.com/ja/posts/3859 (original here: rowanmanning.com/posts/writing-…)"
+		},
+		"repost-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	},
+	"18cba18a9add3c19305c905f4a0aead1": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "doublemarket",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/5d52bb59accd3164d358643ac55bb43947483655cfbba0db38f52172a9e8e6ed.jpg",
+			"url": "https://twitter.com/dblmkt"
+		},
+		"url": "https://twitter.com/dblmkt/status/745554247962460160",
+		"published": "2016-06-22T09:49:19+00:00",
+		"wm-received": "2021-06-07T18:49:16Z",
+		"wm-id": 1182851,
+		"wm-source": "https://brid.gy/repost/twitter/rowanmanning/745548499672956929/745554247962460160",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"text": ".@dblmkt translated my \"Writing a Friendly README\" post into Japanese! 🎉🇯🇵 yakst.com/ja/posts/3859 (original here: rowanmanning.com/posts/writing-…)"
+		},
+		"repost-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	},
+	"d46dca736419fca5f2be116c5e75f90c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jim Kinsey",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ae39e226222cc0c310b484d518dde4f187e9ea676f1185d10fd0bbcf0ae617d7.jpg",
+			"url": "https://twitter.com/kinjacono"
+		},
+		"url": "https://twitter.com/rowanmanning/status/709709511074840576#favorited-by-92525449",
+		"published": null,
+		"wm-received": "2021-06-07T18:49:21Z",
+		"wm-id": 1182858,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/709709511074840576/92525449",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"like-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"d412e24f49b5df7341cb16ba9d69a789": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Ben Everard",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/33490ec95ea56ebe3a6de0a1964e8e4c54e808052d39e525c6bf839bc13596aa.jpg",
+			"url": "https://twitter.com/_beneverard"
+		},
+		"url": "https://twitter.com/rowanmanning/status/709709511074840576#favorited-by-15444529",
+		"published": null,
+		"wm-received": "2021-06-07T18:49:21Z",
+		"wm-id": 1182857,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/709709511074840576/15444529",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"like-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"4787f4e97e6c4f4a554b174f37412f4e": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Patrick Hamann",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/7d1f1a40d3c4d8ba60ae57b98ef8c6a5275c896e54a4934def9415ac3b43b4ff.jpg",
+			"url": "https://twitter.com/patrickhamann"
+		},
+		"url": "https://twitter.com/rowanmanning/status/709709511074840576#favorited-by-14937051",
+		"published": null,
+		"wm-received": "2021-06-07T18:49:22Z",
+		"wm-id": 1182859,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/709709511074840576/14937051",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"like-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"0f5388f6bcc4392510fd74f23cf0bd28": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Kevin Hinde",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/796b790cbe88f9cb02bf0a48f55cf285f4ef2159222b325ae41ff39c47a65413.jpg",
+			"url": "https://twitter.com/kwdhinde"
+		},
+		"url": "https://twitter.com/kwdhinde/status/714827909777592320",
+		"published": "2016-03-29T14:53:49+00:00",
+		"wm-received": "2021-06-07T18:49:23Z",
+		"wm-id": 1182860,
+		"wm-source": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/714827909777592320",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"text": "Writing a Friendly README - a short guide on user-focused documentation rowanmanning.com/posts/writing-… #opensource"
+		},
+		"repost-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	},
+	"90722d27be2b1a9ee28c46ad2e0dacc8": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Paul Donohoe",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/db2cbad54eef832a8143e78bbcc91b118c53ac644088078acebd1d51d29a9a33.jpg",
+			"url": "https://twitter.com/donohoe_paul"
+		},
+		"url": "https://twitter.com/donohoe_paul/status/710028550603149312",
+		"published": "2016-03-16T09:02:52+00:00",
+		"wm-received": "2021-06-07T18:49:24Z",
+		"wm-id": 1182861,
+		"wm-source": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/710028550603149312",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"text": "Writing a Friendly README - a short guide on user-focused documentation rowanmanning.com/posts/writing-… #opensource"
+		},
+		"repost-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	},
+	"4d9be1bad4275f98a344ea21ca087425": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Laura is 44",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/eb4be3e0930ba2cea1cb8c3a7b46e7065dd5774d7d684aee849a85c954c046ad.jpg",
+			"url": "https://twitter.com/laurabygaslight"
+		},
+		"url": "https://twitter.com/laurabygaslight/status/709738337142239232",
+		"published": "2016-03-15T13:49:40+00:00",
+		"wm-received": "2021-06-07T18:49:25Z",
+		"wm-id": 1182862,
+		"wm-source": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/709738337142239232",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"text": "Writing a Friendly README - a short guide on user-focused documentation rowanmanning.com/posts/writing-… #opensource"
+		},
+		"repost-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	},
+	"9ae10b3222fe7bb60e709c31bdf039ce": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Glynn Phillips",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d2faa425fbf06ad8f64f8b3b58708da89abc04a4b1f62aadd19f04e0bb650b22.jpg",
+			"url": "https://twitter.com/GlynnPhillips"
+		},
+		"url": "https://twitter.com/GlynnPhillips/status/709727231933812738",
+		"published": "2016-03-15T13:05:32+00:00",
+		"wm-received": "2021-06-07T18:49:26Z",
+		"wm-id": 1182863,
+		"wm-source": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/709727231933812738",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"text": "Writing a Friendly README - a short guide on user-focused documentation rowanmanning.com/posts/writing-… #opensource"
+		},
+		"repost-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	},
+	"547af6446b4b3497499c5b90081a8d8b": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "James Loveridge",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/0f849898d37f77cb9f1cdd1a9a094d2ffb11fc222d8ac2e034be2e9bec95c1dc.jpg",
+			"url": "https://twitter.com/j_mes"
+		},
+		"url": "https://twitter.com/j_mes/status/709719701534941184",
+		"published": "2016-03-15T12:35:37+00:00",
+		"wm-received": "2021-06-07T18:49:28Z",
+		"wm-id": 1182864,
+		"wm-source": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/709719701534941184",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"text": "Writing a Friendly README - a short guide on user-focused documentation rowanmanning.com/posts/writing-… #opensource"
+		},
+		"repost-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	},
+	"afa4b4d2a4d49e5adc10c2a6cda5efb4": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Andrew Walker",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/77ceb4604e68ec4eec61cbb303e8a19dfdd3cdf97b79024b41e2a0b81aa984de.gif",
+			"url": "https://twitter.com/moddular"
+		},
+		"url": "https://twitter.com/moddular/status/709717909329858560",
+		"published": "2016-03-15T12:28:30+00:00",
+		"wm-received": "2021-06-07T18:49:29Z",
+		"wm-id": 1182865,
+		"wm-source": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/709717909329858560",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"text": "Writing a Friendly README - a short guide on user-focused documentation rowanmanning.com/posts/writing-… #opensource"
+		},
+		"repost-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	},
+	"caf36c312b20e059e65618e7771c98ee": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Leigh Clancy",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/bbffaf481f710b59fa9dd0e433bb496aa0f9c731f40dd2fd646d0c60af5b2afe.jpg",
+			"url": "https://twitter.com/mediumpacer"
+		},
+		"url": "https://twitter.com/mediumpacer/status/709713772122935297",
+		"published": "2016-03-15T12:12:03+00:00",
+		"wm-received": "2021-06-07T18:49:30Z",
+		"wm-id": 1182866,
+		"wm-source": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/709713772122935297",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"text": "Writing a Friendly README - a short guide on user-focused documentation rowanmanning.com/posts/writing-… #opensource"
+		},
+		"repost-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	},
+	"51fbe7e6bcb39794551b26bb8db08176": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Adam Onishi",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6fa7ea74c246fc16afd5a5d845d36fb772ec7fe4e040d31d493ee36ab7975779.jpg",
+			"url": "https://twitter.com/onishiweb"
+		},
+		"url": "https://twitter.com/onishiweb/status/709709780722585600",
+		"published": "2016-03-15T11:56:12+00:00",
+		"wm-received": "2021-06-07T18:49:31Z",
+		"wm-id": 1182868,
+		"wm-source": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/709709780722585600",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"text": "Writing a Friendly README - a short guide on user-focused documentation rowanmanning.com/posts/writing-… #opensource"
+		},
+		"repost-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	},
+	"b92bafd3075d38a2066cb20e06ee2db0": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jim Kinsey",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ae39e226222cc0c310b484d518dde4f187e9ea676f1185d10fd0bbcf0ae617d7.jpg",
+			"url": "https://twitter.com/kinjacono"
+		},
+		"url": "https://twitter.com/kinjacono/status/709712157131276288",
+		"published": "2016-03-15T12:05:38+00:00",
+		"wm-received": "2021-06-07T18:49:31Z",
+		"wm-id": 1182867,
+		"wm-source": "https://brid.gy/repost/twitter/rowanmanning/709709511074840576/709712157131276288",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"text": "Writing a Friendly README - a short guide on user-focused documentation rowanmanning.com/posts/writing-… #opensource"
+		},
+		"repost-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	},
+	"1dbcc8db9b57aa5637061d8318ff4840": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "sudo rm -rf /",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/0ad9a380ba02d95908e479c228278e2536a5c3d114a8eb8244fe5e39364ad7c4.jpg",
+			"url": "https://twitter.com/iamkey"
+		},
+		"url": "https://twitter.com/iamkey/status/824927683561799680",
+		"published": "2017-01-27T10:31:00+00:00",
+		"wm-received": "2021-06-07T21:16:38Z",
+		"wm-id": 1182924,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/824927683561799680",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://buff.ly/2jDv8UG\">buff.ly/2jDv8UG</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README buff.ly/2jDv8UG via @rowanmanning"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"aa3f627916b39c3c438ddcba9c0745a4": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "LnLsn",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8158036cc0dfbedc4c27d72430880495fe9b594c4eb386c0ec5bca519f4fb807.jpg",
+			"url": "https://twitter.com/lnlsn"
+		},
+		"url": "https://twitter.com/lnlsn/status/819134026065715200",
+		"published": "2017-01-11T10:49:05+00:00",
+		"wm-received": "2021-06-07T21:16:41Z",
+		"wm-id": 1182925,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/819134026065715200",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/instapaper\">@instapaper</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README rowanmanning.com/posts/writing-… via @instapaper"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"63048d74217a95cc2afedfd7e3887ef4": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "KunYu Chen",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/c73ab07e834e0e67db1f012f82748ee1bcdeb12dac580e4f9d3dee4a7bf1cbc0.jpg",
+			"url": "https://twitter.com/xspiritualx1"
+		},
+		"url": "https://twitter.com/xspiritualx1/status/775515257309540353",
+		"published": "2016-09-13T02:03:40+00:00",
+		"wm-received": "2021-06-07T21:17:12Z",
+		"wm-id": 1182930,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/775515257309540353",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "撰寫 README 指南 <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "撰寫 README 指南 rowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"a271c3bcc9ca43309f1ceed5c0114fa6": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Daniel Andrei Minca",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/bd6b6c5023edb3249bd9044654ed9b171d15269158482e79dab1be72d5daaea4.jpg",
+			"url": "https://twitter.com/daniell_andrei"
+		},
+		"url": "https://twitter.com/daniell_andrei/status/759630509681086469",
+		"published": "2016-07-31T06:03:21+00:00",
+		"wm-received": "2021-06-07T21:17:55Z",
+		"wm-id": 1182935,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/759630509681086469",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "How to write a friendly README\n<a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n<a href=\"https://twitter.com/search?q=%23readmes\">#readmes</a> <a href=\"https://twitter.com/search?q=%23README\">#README</a> <a href=\"https://twitter.com/search?q=%23projects\">#projects</a> <a href=\"https://twitter.com/search?q=%23coding\">#coding</a>\n\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "How to write a friendly README\nrowanmanning.com/posts/writing-…\n#readmes #README #projects #coding"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"63a972252ac5b206395424685c4df916": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Ilya Radchenko",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/2c9a7c9a36b681b2c20e015911edf59cba51bb3f8b3a148fdfce65d0e73bbb8a.jpg",
+			"url": "https://twitter.com/knownasilya"
+		},
+		"url": "https://twitter.com/knownasilya/status/738866631204560897",
+		"published": "2016-06-03T22:55:07+00:00",
+		"wm-received": "2021-06-07T21:18:21Z",
+		"wm-id": 1182936,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/738866631204560897",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Great writeup by <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a> on writing a friendly README.md for your project <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme\">rowanmanning.com/posts/writing-…</a> <a href=\"https://twitter.com/search?q=%23opensource\">#opensource</a> <a href=\"https://twitter.com/search?q=%23dx\">#dx</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Great writeup by @rowanmanning on writing a friendly README.md for your project rowanmanning.com/posts/writing-… #opensource #dx"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"7ba614725982fc9732eb442210112ea0": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "大裏主",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/28a11510c5c09d7381880601c05c95c50736e469888d0171c478ab2e68906b3e.png",
+			"url": "https://twitter.com/daichanpotter"
+		},
+		"url": "https://twitter.com/daichanpotter/status/745808798598586368",
+		"published": "2016-06-23T02:40:48+00:00",
+		"wm-received": "2021-06-07T21:18:44Z",
+		"wm-id": 1182940,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/745808798598586368",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "自分用メモ\n\nWriting a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "自分用メモ\n\nWriting a Friendly README rowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"0330ff301744404d466152d35e029af6": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "ElectronicPress",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8a53c9a5f1975a08d5560d3a1d72c9060aded1a02c1429de3f2c950329578f40.png",
+			"url": "https://twitter.com/electronicpress"
+		},
+		"url": "https://twitter.com/electronicpress/status/737984649264254976",
+		"published": "2016-06-01T12:30:26+00:00",
+		"wm-received": "2021-06-07T21:30:50Z",
+		"wm-id": 1182949,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/737984649264254976",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"photo": [
+			"https://pbs.twimg.com/media/Cj3ZINtWsAAi_BE.jpg"
+		],
+		"content": {
+			"html": "Writing a Friendly <a href=\"https://twitter.com/search?q=%23README\">#README</a> ⎖ <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n\nvia <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly #README ⎖ rowanmanning.com/posts/writing-…\n\nvia @rowanmanning"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"d05f7b5b3bf209a7a2b870a070697592": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Misael Taveras",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/73de05ab08f8b4f9bef26f942c2d0fc57c065987e65f2e3a25071daa3513462f.jpg",
+			"url": "https://twitter.com/taverasmisael"
+		},
+		"url": "https://twitter.com/taverasmisael/status/737737882509692928",
+		"published": "2016-05-31T20:09:52+00:00",
+		"wm-received": "2021-06-07T21:30:51Z",
+		"wm-id": 1182950,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/737737882509692928",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Write Friendly Readme files: <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Write Friendly Readme files: rowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"c3f5700cdeeddb2f803482d92cdf7c20": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Ruan YiFeng",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/4715e642321c0d1d44fd77b69e8687a3793c465446715e02fb185af6a02e2e43.jpg",
+			"url": "https://twitter.com/ryfphoto"
+		},
+		"url": "https://twitter.com/ryfphoto/status/737575557781540865",
+		"published": "2016-05-31T09:24:51+00:00",
+		"wm-received": "2021-06-07T21:30:55Z",
+		"wm-id": 1182951,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/737575557781540865",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "<a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> Writing a Friendly README 如何写 README\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "rowanmanning.com/posts/writing-… Writing a Friendly README 如何写 README"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"ab7d030a0ff28bb23f5e6dac2f48e25f": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Michele Bertoli",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/51c3d5cd65d206220fc8c69c24bd48c2e14ec33f7435e2c35b030761685818bd.jpg",
+			"url": "https://twitter.com/MicheleBertoli"
+		},
+		"url": "https://twitter.com/MicheleBertoli/status/737320356483063812",
+		"published": "2016-05-30T16:30:46+00:00",
+		"wm-received": "2021-06-07T21:31:08Z",
+		"wm-id": 1182952,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/737320356483063812",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://buff.ly/1Rr6aA9\">buff.ly/1Rr6aA9</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README buff.ly/1Rr6aA9"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"249776197b1e7e004645c037f296fdc0": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Adam Onishi",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6fa7ea74c246fc16afd5a5d845d36fb772ec7fe4e040d31d493ee36ab7975779.jpg",
+			"url": "https://twitter.com/onishiweb"
+		},
+		"url": "https://twitter.com/onishiweb/status/735497957600952320",
+		"published": "2016-05-25T15:49:12+00:00",
+		"wm-received": "2021-06-07T21:31:13Z",
+		"wm-id": 1182954,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/735497957600952320",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Re-sharing this great post on writing friendly READMEs, now I’ve finally read it fully: <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> by m'colleague <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Re-sharing this great post on writing friendly READMEs, now I’ve finally read it fully: rowanmanning.com/posts/writing-… by m'colleague @rowanmanning"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"3ccdedb815f79f01eaedaecbad69d563": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Sergej Müller",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/65af662a16c44e1fac79440f562d7a9b860880eda43da58cc0ed41eb095a132b.png",
+			"url": "https://twitter.com/translate3d"
+		},
+		"url": "https://twitter.com/translate3d/status/722697938267455488",
+		"published": "2016-04-20T08:06:30+00:00",
+		"wm-received": "2021-06-07T21:31:19Z",
+		"wm-id": 1182956,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/722697938267455488",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"https://twitter.com/search?q=%23webdev\">#webdev</a> <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README #webdev rowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"f7831e34ea8ce65e5d08bf723386f710": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "azu",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/c1f62346c6c5a900c4244c3579458324a760197e22d2a3711009c37ad60b8415.jpg",
+			"url": "https://twitter.com/azu_re"
+		},
+		"url": "https://twitter.com/azu_re/status/727741064199720962",
+		"published": "2016-05-04T06:06:05+00:00",
+		"wm-received": "2021-06-07T21:31:19Z",
+		"wm-id": 1182955,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/727741064199720962",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "GitHubのReadmeを解析してスコアを付けるサービス。\n項目の有無だけを見てて、中身は特に見てなさそう\n<a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> \"GitHub README Analyzer by Algor…\" <a href=\"http://demos.algorithmia.com/github-readme-analyzer/\">demos.algorithmia.com/github-readme-…</a>\n\n<a class=\"u-mention\" href=\"https://algorithmia.com/algorithms\"></a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "GitHubのReadmeを解析してスコアを付けるサービス。\n項目の有無だけを見てて、中身は特に見てなさそう\nrowanmanning.com/posts/writing-… \"GitHub README Analyzer by Algor…\" demos.algorithmia.com/github-readme-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"9d46da7e585c41852531ce5e030af826": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Vladimir Starkov",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/520ee885abbe2826a5d8b612a233ac3aa401a330e1f8930b92c9edafd28b55ee.jpg",
+			"url": "https://twitter.com/iamstarkov"
+		},
+		"url": "https://twitter.com/iamstarkov/status/720879897548165124",
+		"published": "2016-04-15T07:42:15+00:00",
+		"wm-received": "2021-06-07T21:31:21Z",
+		"wm-id": 1182957,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/720879897548165124",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README rowanmanning.com/posts/writing-… via @rowanmanning"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"3f73845e7530ef906c7ff60c00fd80e7": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "kurskmeetup",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/33ca85cf8ebb97eee282aa86f8912b072427c44813dc19441405fec826aa8553.jpg",
+			"url": "https://twitter.com/kurskmeetup"
+		},
+		"url": "https://twitter.com/kurskmeetup/status/720635292688977921",
+		"published": "2016-04-14T15:30:17+00:00",
+		"wm-received": "2021-06-07T21:31:24Z",
+		"wm-id": 1182958,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/720635292688977921",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"photo": [
+			"https://pbs.twimg.com/media/CgA1-wDWcAEG3Xv.jpg"
+		],
+		"content": {
+			"html": "Руководство по написанию полезных README\n\n<a href=\"http://amp.gs/je0P\">amp.gs/je0P</a> \n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Руководство по написанию полезных README\n\namp.gs/je0P"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"4ad6dd0a61cf46e1b0c470df9cf30127": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Juho Vepsäläinen",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/0a9839e2cbdc77bc28376dc591b334889f7f35b419689e88f4cc870ae324917d.jpg",
+			"url": "https://twitter.com/bebraw"
+		},
+		"url": "https://twitter.com/bebraw/status/737573893196513280",
+		"published": "2016-05-31T09:18:14+00:00",
+		"wm-received": "2021-06-07T21:31:37Z",
+		"wm-id": 1182959,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/737573893196513280",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"photo": [
+			"https://pbs.twimg.com/media/CjxjjEAUgAIpPtt.jpg"
+		],
+		"content": {
+			"html": "Writing a Friendly README by <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a> <a href=\"http://buff.ly/1OYml8j\">buff.ly/1OYml8j</a>\n\nvia <a href=\"https://twitter.com/MicheleBertoli\">@MicheleBertoli</a>\n\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README by @rowanmanning buff.ly/1OYml8j\n\nvia @MicheleBertoli"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"415670e4e2b14347b3e05ccf5f17884a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jason Karns",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8bc064764cb00b6676b49de1648dbb583e8c74cc0d03b94137bd2b5fef9fcc9f.png",
+			"url": "https://twitter.com/jasonkarns"
+		},
+		"url": "https://twitter.com/jasonkarns/status/717331097923809280",
+		"published": "2016-04-05T12:40:35+00:00",
+		"wm-received": "2021-06-07T21:31:40Z",
+		"wm-id": 1182960,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/717331097923809280",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README rowanmanning.com/posts/writing-… via @rowanmanning"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"ad4cd039700ea346cc01a5b685d89049": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Zeno Rocha",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/125d31d87896b46f511b02a81f9356c8cfb50077f9e2b491cddc1e3803c4dec6.jpg",
+			"url": "https://twitter.com/zenorocha"
+		},
+		"url": "https://twitter.com/zenorocha/status/717779317745319936",
+		"published": "2016-04-06T18:21:39+00:00",
+		"wm-received": "2021-06-07T21:32:02Z",
+		"wm-id": 1182961,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/717779317745319936",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "\"Writing a friendly README\" <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "\"Writing a friendly README\" rowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"e1b334fdcf386c209e3b89cc1852d77a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Manoj Mahalingam | StackToHeap 🎙️",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/39fa70f03e128be23f1410ad84293228cd69e4559d0640b995a0ab003d22fc6a.jpg",
+			"url": "https://twitter.com/manojlds"
+		},
+		"url": "https://twitter.com/manojlds/status/717327370915450881",
+		"published": "2016-04-05T12:25:47+00:00",
+		"wm-received": "2021-06-08T13:06:03Z",
+		"wm-id": 1183919,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/717327370915450881",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Guidelines for writing friendly READMEs\n\n<a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Guidelines for writing friendly READMEs\n\nrowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"e0758692c699034ea488ca1b35433e59": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "dxpertise",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/7e805a4c673760d00340fff34f0b7cc9d7a4953462e19d5c1451c067463a2b8c.png",
+			"url": "https://twitter.com/dxpertise_com"
+		},
+		"url": "https://twitter.com/dxpertise_com/status/716022141477658624",
+		"published": "2016-04-01T21:59:16+00:00",
+		"wm-received": "2021-06-08T13:06:26Z",
+		"wm-id": 1183920,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/716022141477658624",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://goo.gl/3jNUWs\">goo.gl/3jNUWs</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README goo.gl/3jNUWs"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"8f2e566c5b2dfcf813f4a11c20c20faf": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Roberto La Barca B.",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8ee5597ea4755a1f5b505703b808d1285533cd9d79480319c8c0949ed8b3553e.jpg",
+			"url": "https://twitter.com/RobertoLaBarcaB"
+		},
+		"url": "https://twitter.com/RobertoLaBarcaB/status/717079426450788352",
+		"published": "2016-04-04T20:00:32+00:00",
+		"wm-received": "2021-06-08T13:06:52Z",
+		"wm-id": 1183922,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/717079426450788352",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"photo": [
+			"https://pbs.twimg.com/media/CfOT8FgXIAEhEiu.jpg"
+		],
+		"content": {
+			"html": "Writing a Friendly README - <a href=\"http://bit.ly/1TwREwK\">bit.ly/1TwREwK</a> \n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README - bit.ly/1TwREwK"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"bbc08ab31b4f9815e208c32b3aa40a68": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "JoseAlberto",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/659f079fdb51af71e202b0a912ccb17b0cad240b0831c504277d22d08f68ecea.jpg",
+			"url": "https://twitter.com/jasuarez"
+		},
+		"url": "https://twitter.com/jasuarez/status/711888974655127552",
+		"published": "2016-03-21T12:15:32+00:00",
+		"wm-received": "2021-06-08T13:07:08Z",
+		"wm-id": 1183924,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/711888974655127552",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://ow.ly/ZGzaB\">ow.ly/ZGzaB</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README ow.ly/ZGzaB"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"6787ef9d4720f2d8b5f0fc5886644b59": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Avdi Grimm",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d876f75f219ff74f1044e4743ec46620c8a0ba880ae7aab35ee339c3912ec17f.jpg",
+			"url": "https://twitter.com/avdi"
+		},
+		"url": "https://twitter.com/avdi/status/717315859857936384",
+		"published": "2016-04-05T11:40:02+00:00",
+		"wm-received": "2021-06-08T13:08:37Z",
+		"wm-id": 1183927,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/717315859857936384",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Good guidelines here: Writing a Friendly README <a href=\"http://buff.ly/1SJwRni\">buff.ly/1SJwRni</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Good guidelines here: Writing a Friendly README buff.ly/1SJwRni"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"abb481aa03c44f09a4529f8c8e453588": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "overleo",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/22dfdd0e9bbe5b69966be069ec28b5853ceb8ff42aaf1dc787f8deb436716f67.jpg",
+			"url": "https://twitter.com/overleo"
+		},
+		"url": "https://twitter.com/overleo/status/711484708589142016",
+		"published": "2016-03-20T09:29:07+00:00",
+		"wm-received": "2021-06-08T13:08:53Z",
+		"wm-id": 1183928,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/711484708589142016",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README: Writing a Friendly README Your project’s README is pretty important; it’s often… <a href=\"http://goo.gl/37VfVQ\">goo.gl/37VfVQ</a> [fav]\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README: Writing a Friendly README Your project’s README is pretty important; it’s often… goo.gl/37VfVQ [fav]"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"9f497e3614af07b42a57951937c46ba7": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rômulo Machado",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/2d5c462af9a27ecf2b7c15e196dfefc650a6aa8d21799cab9574f5d77ecfb1b3.jpg",
+			"url": "https://twitter.com/romulomachado_"
+		},
+		"url": "https://twitter.com/romulomachado_/status/710647019627384836",
+		"published": "2016-03-18T02:00:27+00:00",
+		"wm-received": "2021-06-08T13:09:15Z",
+		"wm-id": 1183933,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/710647019627384836",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README rowanmanning.com/posts/writing-… via @rowanmanning"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"17860a80711134bbae61cca34104e3ff": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "azu",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/c1f62346c6c5a900c4244c3579458324a760197e22d2a3711009c37ad60b8415.jpg",
+			"url": "https://twitter.com/azu_re"
+		},
+		"url": "https://twitter.com/azu_re/status/710396682152751104",
+		"published": "2016-03-17T09:25:42+00:00",
+		"wm-received": "2021-06-08T13:09:37Z",
+		"wm-id": 1183934,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/710396682152751104",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "READMEの書き方  \"Writing a Friendly README\"  <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "READMEの書き方  \"Writing a Friendly README\"  rowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"94a8e8066c9d3f2f3b7b80b69b481878": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Han",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/0f4cf993d5b0d61325169efb1f229c170882500f616bd88a02d1713ecacf19f2.jpg",
+			"url": "https://twitter.com/laputa773"
+		},
+		"url": "https://twitter.com/laputa773/status/710640921516384256",
+		"published": "2016-03-18T01:36:13+00:00",
+		"wm-received": "2021-06-08T13:09:56Z",
+		"wm-id": 1183936,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/710640921516384256",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Check out \"Writing a Friendly README\" <a href=\"http://ift.tt/1nL1wWs\">ift.tt/1nL1wWs</a> (via <a href=\"https://twitter.com/Pocket\">@pocket</a>)\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Check out \"Writing a Friendly README\" ift.tt/1nL1wWs (via @pocket)"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"3f0c8c6343f924c034cdb926f306bdfb": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jonathan Petitcolas",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6bd95bcac65aabd12aaf346824a7f188d4423e27a48b15d70026fa250802a1b9.jpg",
+			"url": "https://twitter.com/Sethpolma"
+		},
+		"url": "https://twitter.com/Sethpolma/status/710118471191949312",
+		"published": "2016-03-16T15:00:11+00:00",
+		"wm-received": "2021-06-12T12:26:47Z",
+		"wm-id": 1188094,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/710118471191949312",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://buff.ly/1QUZC16\">buff.ly/1QUZC16</a> <a href=\"https://twitter.com/search?q=%23opensource\">#opensource</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README buff.ly/1QUZC16 #opensource"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"483404b802f399b3150aeb9f3385ab11": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "shr1n1",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/e9e4a443b9e090d04164d97ed4e2f81d6b4618a20a02553f02c01b96fd38a41a.png",
+			"url": "https://twitter.com/shr1n1"
+		},
+		"url": "https://twitter.com/shr1n1/status/709920648085282817",
+		"published": "2016-03-16T01:54:06+00:00",
+		"wm-received": "2021-06-12T12:26:58Z",
+		"wm-id": 1188095,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709920648085282817",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Good tips on writing a README from <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a> : <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> via\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Good tips on writing a README from @rowanmanning : rowanmanning.com/posts/writing-… via"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"61c475e52789a049f0dfaf3cb7eae1d1": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Charlus",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/b586c7b480ec29926598a2d2d6986f2477c0218659feda296b5fee16c2b11a41.jpg",
+			"url": "https://twitter.com/ch4rlus"
+		},
+		"url": "https://twitter.com/ch4rlus/status/709816206413406208",
+		"published": "2016-03-15T18:59:06+00:00",
+		"wm-received": "2021-06-12T12:27:07Z",
+		"wm-id": 1188096,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709816206413406208",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"photo": [
+			"https://pbs.twimg.com/media/CdnGFC8WEAE9pYG.jpg"
+		],
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://bit.ly/22gYkor\">bit.ly/22gYkor</a> \n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README bit.ly/22gYkor"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"c0d342d85b228491ca9d874862f42602": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Eric Leung",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/5e314a9c774e8a702523371e12cc62afe5da2af57b7ec7c288ddec762c0f8304.jpg",
+			"url": "https://twitter.com/erictleung"
+		},
+		"url": "https://twitter.com/erictleung/status/709804945512333312",
+		"published": "2016-03-15T18:14:21+00:00",
+		"wm-received": "2021-06-12T12:27:10Z",
+		"wm-id": 1188098,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709804945512333312",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> <a href=\"https://twitter.com/search?q=%23programming\">#programming</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation rowanmanning.com/posts/writing-… #programming"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"1ae7a65666e6725a6db3d5c21fe5f569": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "toru hamaguchi",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/5e18a73469cf85b9ed3eca86bb8bf567c491b1d2575321a3da40fdb0951f3d9a.jpg",
+			"url": "https://twitter.com/ham103"
+		},
+		"url": "https://twitter.com/ham103/status/709775679206793216",
+		"published": "2016-03-15T16:18:03+00:00",
+		"wm-received": "2021-06-12T12:27:10Z",
+		"wm-id": 1188097,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709775679206793216",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "README のお手本。見習おう。ちゃんと書こう。\n<a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "README のお手本。見習おう。ちゃんと書こう。\nrowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"f90a8a2eb03fac9bd66e73a7d23a7f0c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Yves Brissaud",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/401bb39d877bb4e714d8ee7e26b1d6506a598253c29116133f877b426a936f51.jpg",
+			"url": "https://twitter.com/_crev_"
+		},
+		"url": "https://twitter.com/_crev_/status/709746233741611008",
+		"published": "2016-03-15T14:21:03+00:00",
+		"wm-received": "2021-06-12T12:27:13Z",
+		"wm-id": 1188099,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709746233741611008",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Simple but nice overview of how to write a good Readme for your projects <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Simple but nice overview of how to write a good Readme for your projects rowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"d8eb10082a4885e12b3f88d3d4460223": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Matías Bravo",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/eacebde52e9031d364b8d75d1de505becf14c19b09ab3a47b745ca976b8daf52.jpg",
+			"url": "https://twitter.com/matiasBravo"
+		},
+		"url": "https://twitter.com/matiasBravo/status/709745419056750592",
+		"published": "2016-03-15T14:17:48+00:00",
+		"wm-received": "2021-06-12T12:27:15Z",
+		"wm-id": 1188100,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709745419056750592",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README... <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README... rowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"4f7a67f317a377e8c2672f20d3221e0b": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Andreas Bremges",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/410c20f0bedbd21cb4f50a7b46a1d2a5955656a4cb58de6420c6034e70ebe5ec.jpg",
+			"url": "https://twitter.com/abremges"
+		},
+		"url": "https://twitter.com/abremges/status/709740678142664704",
+		"published": "2016-03-15T13:58:58+00:00",
+		"wm-received": "2021-06-12T12:27:16Z",
+		"wm-id": 1188101,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709740678142664704",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README rowanmanning.com/posts/writing-… via @rowanmanning"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"f030a7b5edcbbae9cd51473b4ae0d9b3": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "雑u Bot",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/3e10dc070dd8a8936245479d856783f8685efdd0060ead973acd4b694dba3e4e.png",
+			"url": "https://twitter.com/matsuu_zatsu"
+		},
+		"url": "https://twitter.com/matsuu_zatsu/status/709734827986165761",
+		"published": "2016-03-15T13:35:43+00:00",
+		"wm-received": "2021-06-12T12:27:33Z",
+		"wm-id": 1188103,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709734827986165761",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation rowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"63b0549ef17fef180b46e31cc1be9184": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Stuart Robson",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/a7d3a6d3ebcf3fc74ac28de7c98af0d988d3e60940f01bff50f91a48249fd8f0.jpg",
+			"url": "https://twitter.com/StuRobson"
+		},
+		"url": "https://twitter.com/StuRobson/status/709738030597332992",
+		"published": "2016-03-15T13:48:27+00:00",
+		"wm-received": "2021-06-12T12:27:34Z",
+		"wm-id": 1188104,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709738030597332992",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "some great stuff here — worth a few minutes of your time\n\nwriting a Friendly README - <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n\nvia <a href=\"https://twitter.com/onishiweb\">@onishiweb</a>\n\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "some great stuff here — worth a few minutes of your time\n\nwriting a Friendly README - rowanmanning.com/posts/writing-…\n\nvia @onishiweb"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"06959de3a971e375a47394de11b60290": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Ilham Bintang Bugis",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/92f18e88fe7083a65c89c0c3dc02df4c839ecca31ce14a6ff0f9551df3d9a2f3.jpg",
+			"url": "https://twitter.com/ilhamrenyut"
+		},
+		"url": "https://twitter.com/ilhamrenyut/status/709730187588423681",
+		"published": "2016-03-15T13:17:17+00:00",
+		"wm-received": "2021-06-12T12:27:36Z",
+		"wm-id": 1188105,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709730187588423681",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "<a href=\"https://twitter.com/search?q=%23beta\">#beta</a> Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://bit.ly/1YVp8oS\">bit.ly/1YVp8oS</a> <a href=\"https://twitter.com/search?q=%23Movin\">#Movin</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "#beta Writing a Friendly README – a short guide on user-focused documentation bit.ly/1YVp8oS #Movin"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"3119054831bd4ab999a6b4dd581a03da": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "bartezzini",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6a12052e1be41da93f7bed96586c695df10b06761c937e854cee2c69bb12628b.jpg",
+			"url": "https://twitter.com/bartezzini"
+		},
+		"url": "https://twitter.com/bartezzini/status/709725501032697856",
+		"published": "2016-03-15T12:58:40+00:00",
+		"wm-received": "2021-06-12T12:27:48Z",
+		"wm-id": 1188106,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709725501032697856",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation: Comments <a href=\"http://goo.gl/fb/5FhOSl\">goo.gl/fb/5FhOSl</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation: Comments goo.gl/fb/5FhOSl"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"261b08f5c789918b61bdddf46ae73d4e": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Mithun Dev",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/4f3cde263a7fb29589892462b2c2b31848acee95af0c5315b14501638f49fba7.png",
+			"url": "https://twitter.com/mit01dev"
+		},
+		"url": "https://twitter.com/mit01dev/status/709723316655788032",
+		"published": "2016-03-15T12:49:59+00:00",
+		"wm-received": "2021-06-12T12:27:49Z",
+		"wm-id": 1188107,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709723316655788032",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://bit.ly/1YViLlf\">bit.ly/1YViLlf</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation bit.ly/1YViLlf"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"0ea1e9e865fe5eb157ff3b85e04cc589": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Wes Gould",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ec70b189e00137b69c51324cbe021985862de7daa9828b5e9e415dd25e41d344.jpg",
+			"url": "https://twitter.com/Yelow79"
+		},
+		"url": "https://twitter.com/Yelow79/status/709723295738802176",
+		"published": "2016-03-15T12:49:54+00:00",
+		"wm-received": "2021-06-12T12:27:50Z",
+		"wm-id": 1188108,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709723295738802176",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "<a href=\"https://twitter.com/search?q=%23hackernews\">#hackernews</a> Writing a Friendly README – a short guide on user-focused documentation: Comments <a href=\"http://bit.ly/1YViLlf\">bit.ly/1YViLlf</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "#hackernews Writing a Friendly README – a short guide on user-focused documentation: Comments bit.ly/1YViLlf"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"3da279d20d86050ea40d31e5b7c0d5d8": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "RaivooNET",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/9bcf4233708f8dc023c0d2b18c8f00b17c8a35fe467f5545decd487eb2c76a2b.jpg",
+			"url": "https://twitter.com/RaivooNET"
+		},
+		"url": "https://twitter.com/RaivooNET/status/709723196447023104",
+		"published": "2016-03-15T12:49:30+00:00",
+		"wm-received": "2021-06-12T12:27:54Z",
+		"wm-id": 1188109,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709723196447023104",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Hacker: Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://bit.ly/1YViLlf\">bit.ly/1YViLlf</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Hacker: Writing a Friendly README – a short guide on user-focused documentation bit.ly/1YViLlf"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"c3c01465e8d15c446f4201a2463b75d4": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Lei ZHANG",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/a138a5ae4925a873970f92eb6776012f8b3e4020602dbe67d899239a077d5982.jpg",
+			"url": "https://twitter.com/jameslz"
+		},
+		"url": "https://twitter.com/jameslz/status/709738386957983746",
+		"published": "2016-03-15T13:49:52+00:00",
+		"wm-received": "2021-06-12T12:27:55Z",
+		"wm-id": 1188110,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709738386957983746",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://bit.ly/1YVwWHc\">bit.ly/1YVwWHc</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README bit.ly/1YVwWHc"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"7b0180e7a51220e9a2154d7ff930da08": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Vojin Urosevic 沃因",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/7cdcf1d17d44310b3331596bd5f9dcd9a4e1992a1cf88a8242f1d177db86c275.jpg",
+			"url": "https://twitter.com/vojinurosevic"
+		},
+		"url": "https://twitter.com/vojinurosevic/status/709723183386009602",
+		"published": "2016-03-15T12:49:27+00:00",
+		"wm-received": "2021-06-12T12:28:07Z",
+		"wm-id": 1188111,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709723183386009602",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation: Comments <a href=\"http://bit.ly/1YViLlf\">bit.ly/1YViLlf</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation: Comments bit.ly/1YViLlf"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"4bc3e64fecd19e0428a499b4fe5ab400": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "HaxNewsFeed",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/70d8c59f16bf29cea2a07bcd91625bb0864c97b18f7b813f65c09f722573340e.jpg",
+			"url": "https://twitter.com/HaxNewsFeed"
+		},
+		"url": "https://twitter.com/HaxNewsFeed/status/709723159641993217",
+		"published": "2016-03-15T12:49:21+00:00",
+		"wm-received": "2021-06-12T12:28:09Z",
+		"wm-id": 1188112,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709723159641993217",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation: Comments <a href=\"http://bit.ly/1YViLlf\">bit.ly/1YViLlf</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation: Comments bit.ly/1YViLlf"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"f11d5a82ae6ccd94a8ac020dff1342dc": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "02:13",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/e8911af5b22b6d3406febc01c852940715d1c64f29a77d53de2300d7b072a321.jpg",
+			"url": "https://twitter.com/movinalbarce"
+		},
+		"url": "https://twitter.com/movinalbarce/status/709730148753362944",
+		"published": "2016-03-15T13:17:08+00:00",
+		"wm-received": "2021-06-12T12:28:11Z",
+		"wm-id": 1188113,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709730148753362944",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "<a href=\"https://twitter.com/search?q=%23beta\">#beta</a> Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://bit.ly/22gX8l2\">bit.ly/22gX8l2</a> <a href=\"https://twitter.com/search?q=%23Movin\">#Movin</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "#beta Writing a Friendly README – a short guide on user-focused documentation bit.ly/22gX8l2 #Movin"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"35290d5d11f93d7636e5e7ed25d2e9ec": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Dr Danyo 💙",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/5dc9dc20c07c3c9ae01d35edc468d4887584828779d6869c705a991f327ef5c1.jpg",
+			"url": "https://twitter.com/DrDanyo"
+		},
+		"url": "https://twitter.com/DrDanyo/status/709722568203378688",
+		"published": "2016-03-15T12:47:00+00:00",
+		"wm-received": "2021-06-12T12:28:13Z",
+		"wm-id": 1188114,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709722568203378688",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README <a href=\"http://buff.ly/1LodyQR\">buff.ly/1LodyQR</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README buff.ly/1LodyQR"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"de9ae9f1e1ab2586aa6bb81382743b58": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "nadjib",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/c2502b59c120d286c924cd511d9d7afb949b516f3df7700f907ffb6d87d86b50.jpg",
+			"url": "https://twitter.com/nadjibbbbb"
+		},
+		"url": "https://twitter.com/nadjibbbbb/status/709723195889164289",
+		"published": "2016-03-15T12:49:30+00:00",
+		"wm-received": "2021-06-12T12:28:32Z",
+		"wm-id": 1188115,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709723195889164289",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation: Comments <a href=\"http://bit.ly/1YViLlf\">bit.ly/1YViLlf</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation: Comments bit.ly/1YViLlf"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"78dc0bdc288413ab6fbd7d70f4436fa5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "m.y.ikegami_bot",
+			"photo": "https://webmention.io/avatar/abs.twimg.com/0e6b2cd70aa5b35dec24ca4e1e63f8963f0118736d9ec3bba77e3a8c99a27bc2.png",
+			"url": "https://twitter.com/myikegami_bot"
+		},
+		"url": "https://twitter.com/myikegami_bot/status/709720386234130432",
+		"published": "2016-03-15T12:38:20+00:00",
+		"wm-received": "2021-06-12T12:48:47Z",
+		"wm-id": 1188121,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709720386234130432",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://goo.gl/fb/GxV5Z4\">goo.gl/fb/GxV5Z4</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation goo.gl/fb/GxV5Z4"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"69263851441b61d4bd4036e0e139c5e8": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Linnflux",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6ac8ec1cb362ea9f8c3e21e6e6027a989b7a85a1b76d52fd27072f9c338925ca.jpg",
+			"url": "https://twitter.com/linnflux"
+		},
+		"url": "https://twitter.com/linnflux/status/709720002509856771",
+		"published": "2016-03-15T12:36:49+00:00",
+		"wm-received": "2021-06-12T12:48:47Z",
+		"wm-id": 1188120,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709720002509856771",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://ift.tt/1nL1wWs\">ift.tt/1nL1wWs</a> <a href=\"https://twitter.com/search?q=%23webdesign\">#webdesign</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation ift.tt/1nL1wWs #webdesign"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"b4c9a0d1440642177e40190e91ad4541": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Un1v3rs0 Z3r0",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d211ea1137aae7984423b07e294abd5e453f531fa917c689cce8a760bb12d78b.jpg",
+			"url": "https://twitter.com/Un1v3rs0Z3r0"
+		},
+		"url": "https://twitter.com/Un1v3rs0Z3r0/status/709719842937577473",
+		"published": "2016-03-15T12:36:11+00:00",
+		"wm-received": "2021-06-12T12:48:49Z",
+		"wm-id": 1188122,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709719842937577473",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://ift.tt/1nL1wWs\">ift.tt/1nL1wWs</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation ift.tt/1nL1wWs"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"9dca35db59e3a446354d24ce7669ca19": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Neuropuff",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/0ebaa83379a02044a5c2609251391984cd59e6c55f062c08dd49b8aea8907bea.jpg",
+			"url": "https://twitter.com/neuropuff"
+		},
+		"url": "https://twitter.com/neuropuff/status/709719339390341122",
+		"published": "2016-03-15T12:34:11+00:00",
+		"wm-received": "2021-06-12T12:49:04Z",
+		"wm-id": 1188124,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709719339390341122",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://bit.ly/1QUK3Xp\">bit.ly/1QUK3Xp</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation bit.ly/1QUK3Xp"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"5cbc02964b1133b5d91aff29e3d8ddaa": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "TrackChat",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/5ada4a8e18c73ed66265b9934e2a22f666190754213c623019e8b75ff54ea332.png",
+			"url": "https://twitter.com/Track_Chat"
+		},
+		"url": "https://twitter.com/Track_Chat/status/709718799210176512",
+		"published": "2016-03-15T12:32:02+00:00",
+		"wm-received": "2021-06-12T12:49:04Z",
+		"wm-id": 1188123,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709718799210176512",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "IT news: Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "IT news: Writing a Friendly README – a short guide on user-focused documentation rowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"2b7066b9dc3a854414eed7836a503ccd": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Peta Eaton",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/bd843233056f90ded226f02c49031fecff585a6c64ed231eee9f132464736d92.jpeg",
+			"url": "https://twitter.com/Peta_Eaton"
+		},
+		"url": "https://twitter.com/Peta_Eaton/status/709718799155601408",
+		"published": "2016-03-15T12:32:02+00:00",
+		"wm-received": "2021-06-12T12:49:07Z",
+		"wm-id": 1188125,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709718799155601408",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation rowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"5069cddb889262ce36cdbf7ee90fb76a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Thomas Buck",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/29fe397b1104255f0683f4131982ad206bf0d8fb2ff25a18edbd511343617ffc.png",
+			"url": "https://twitter.com/tm_interesting"
+		},
+		"url": "https://twitter.com/tm_interesting/status/709718799084347392",
+		"published": "2016-03-15T12:32:02+00:00",
+		"wm-received": "2021-06-12T12:49:11Z",
+		"wm-id": 1188127,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709718799084347392",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "IT news: Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "IT news: Writing a Friendly README – a short guide on user-focused documentation rowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"1de22c7da0949522add4507d0b8fc1fa": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "David Camacho",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/06d708dc36aa262b89f367fb51c17d77d028d32977f1e91f49c14d1ec956ff95.jpg",
+			"url": "https://twitter.com/davidcamachoj"
+		},
+		"url": "https://twitter.com/davidcamachoj/status/709721566049861632",
+		"published": "2016-03-15T12:43:01+00:00",
+		"wm-received": "2021-06-12T12:49:11Z",
+		"wm-id": 1188126,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709721566049861632",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://ift.tt/1nL1wWs\">ift.tt/1nL1wWs</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation ift.tt/1nL1wWs"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"6a7d59eafb849ef32756d23dcc2979d3": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Hacker News YC",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/881e71eaca9192881fb82b56c539050d7b1a427a00fd3ed4c3c5bee09549f0e9.png",
+			"url": "https://twitter.com/newsycbot"
+		},
+		"url": "https://twitter.com/newsycbot/status/709718711461158913",
+		"published": "2016-03-15T12:31:41+00:00",
+		"wm-received": "2021-06-12T12:49:12Z",
+		"wm-id": 1188128,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709718711461158913",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://bit.ly/1QUi1tE\">bit.ly/1QUi1tE</a> (cmts <a href=\"http://bit.ly/22gUADx\">bit.ly/22gUADx</a>)\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation bit.ly/1QUi1tE (cmts bit.ly/22gUADx)"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"6e27dbd526291946c2474c007746b853": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Antmnirbhar Troll",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/70ee19e9a769dc81ff25d3843fa38f05c25c765f950d2c4211ded09dfebdc99c.jpg",
+			"url": "https://twitter.com/Twittociate"
+		},
+		"url": "https://twitter.com/Twittociate/status/709718234925105153",
+		"published": "2016-03-15T12:29:47+00:00",
+		"wm-received": "2021-06-12T12:49:24Z",
+		"wm-id": 1188129,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709718234925105153",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/#labnol",
+		"photo": [
+			"https://pbs.twimg.com/media/Cdls-VYUAAAvLpw.jpg"
+		],
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation (rowanmanning​.com) <a href=\"http://dlvr.it/Knbc0Z\">dlvr.it/Knbc0Z</a> \n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/#labnol\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation (rowanmanning​.com) dlvr.it/Knbc0Z"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/#labnol",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"efbddfc1a499e14792d4f1a9c72d5677": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Krunox",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/4d5fac3e38fb6d7285ad54064cf67edf3a2ed34665e4f9f974f481bb68f7bbfd.jpg",
+			"url": "https://twitter.com/krunox123"
+		},
+		"url": "https://twitter.com/krunox123/status/709719602125742080",
+		"published": "2016-03-15T12:35:13+00:00",
+		"wm-received": "2021-06-12T12:49:29Z",
+		"wm-id": 1188132,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709719602125742080",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation <a href=\"http://ift.tt/1nL1wWs\">ift.tt/1nL1wWs</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation ift.tt/1nL1wWs"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"4ef15a1a6cba10a4c9fd35f4fee0d396": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Hacker News",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/bd356e0cf7174aed2286323e5c0af0fbd2ba52cddb77eadd4520eb5f7f4a27b8.png",
+			"url": "https://twitter.com/HNTweets"
+		},
+		"url": "https://twitter.com/HNTweets/status/709718294610075649",
+		"published": "2016-03-15T12:30:02+00:00",
+		"wm-received": "2021-06-12T12:49:48Z",
+		"wm-id": 1188135,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/709718294610075649",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README – a short guide on user-focused documentation: <a href=\"http://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> Comments: <a href=\"https://news.ycombinator.com/item?id=11288947\">news.ycombinator.com/item?id=112889…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README – a short guide on user-focused documentation: rowanmanning.com/posts/writing-… Comments: news.ycombinator.com/item?id=112889…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	}
+}

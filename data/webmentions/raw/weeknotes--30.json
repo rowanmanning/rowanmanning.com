@@ -1,0 +1,84 @@
+{
+	"3309253a304ddd06fbd072c83bd78584": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jennifer",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/87a946285c4c07c0229d1f561dad65d6708839b3e034010081edbafc8f34a96e.jpg",
+			"url": "https://twitter.com/teachlearncode"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1396482456061104129#favorited-by-874552327251906560",
+		"published": null,
+		"wm-received": "2021-06-06T10:01:46Z",
+		"wm-id": 1181436,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1396482456061104129/874552327251906560",
+		"wm-target": "https://rowanmanning.com/weeknotes/30/",
+		"like-of": "https://rowanmanning.com/weeknotes/30/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"57751e8a1c6129545d8a8eec392feedc": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1396482456061104129#favorited-by-127856293",
+		"published": null,
+		"wm-received": "2021-06-06T10:05:00Z",
+		"wm-id": 1181520,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1396482456061104129/127856293",
+		"wm-target": "https://rowanmanning.com/weeknotes/30/",
+		"like-of": "https://rowanmanning.com/weeknotes/30/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"9580cda636a283bc34db0e0e7ed661ba": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1396482456061104129#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2021-06-06T10:05:00Z",
+		"wm-id": 1181519,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1396482456061104129/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/30/",
+		"like-of": "https://rowanmanning.com/weeknotes/30/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"5839be36659c0ac7167402f982ea3af2": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "chee",
+			"photo": "https://webmention.io/avatar/secure.gravatar.com/396a384939d13b319cd21a25f6705fbce1dacbdad42304c412ccf79039f75f84.jpg",
+			"url": "https://chee.snoot.club/author/chee/"
+		},
+		"url": "https://chee.snoot.club/2021/05/23/1000/",
+		"published": "2021-05-23T17:02:13+01:00",
+		"wm-received": "2021-06-08T09:23:17Z",
+		"wm-id": 1183793,
+		"wm-source": "https://chee.snoot.club/2021/05/23/1000/",
+		"wm-target": "https://rowanmanning.com/weeknotes/30/",
+		"syndication": [
+			"https://twitter.com/snootgirl/status/1396498871010971650"
+		],
+		"content": {
+			"html": "<p>i’ve also just recently completed coriander!</p>\n<p>i love it in tacos and in curry now!!</p>",
+			"text": "i’ve also just recently completed coriander!\ni love it in tacos and in curry now!!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/30/",
+		"wm-property": "in-reply-to",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://chee.snoot.club/2021/05/23/1000/"
+		}
+	}
+}

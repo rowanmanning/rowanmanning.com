@@ -1,0 +1,63 @@
+{
+	"915037580a570905eb7ade5af99b13b6": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "SETH GORE",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/a7cc8134d275d4a7ee6d35fc26726cf57fbe2c6d042596929b1369383990e299.jpg",
+			"url": "https://twitter.com/_sethjgore"
+		},
+		"url": "https://twitter.com/rowanmanning/status/317934893378195456#favorited-by-746066785",
+		"published": null,
+		"wm-received": "2021-06-07T18:49:59Z",
+		"wm-id": 1182874,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/317934893378195456/746066785",
+		"wm-target": "https://rowanmanning.com/posts/building-cssdb/",
+		"like-of": "https://rowanmanning.com/posts/building-cssdb/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"8a027ab3afb3166d9d21565963ec4308": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "CSSDB",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ca0679450d14fb2fa497dceb907876e50b019da59f853324f58b0dbd3b792083.png",
+			"url": "https://twitter.com/theCSSDB"
+		},
+		"url": "https://twitter.com/theCSSDB/status/318984956686766080",
+		"published": "2013-04-02T07:15:14+00:00",
+		"wm-received": "2021-06-07T18:50:21Z",
+		"wm-id": 1182875,
+		"wm-source": "https://brid.gy/repost/twitter/rowanmanning/318984811098300417/318984956686766080",
+		"wm-target": "https://rowanmanning.com/posts/building-cssdb/",
+		"content": {
+			"text": "For anyone interested, I blogged about how @theCSSDB was built. Fun side project :) rown.me/14v0YIo"
+		},
+		"repost-of": "https://rowanmanning.com/posts/building-cssdb/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	},
+	"340e1d66c45b157ef1bd4c77bc663f57": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "william",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/65f4fbdd4ec80d9e7fb6809eb5eef97750e0b09d515043668dd9548268c2dd5d.png",
+			"url": "https://twitter.com/williamsager"
+		},
+		"url": "https://twitter.com/williamsager/status/317945612987428864",
+		"published": "2013-03-30T10:25:15+00:00",
+		"wm-received": "2021-06-12T13:37:36Z",
+		"wm-id": 1188232,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/317945612987428864",
+		"wm-target": "https://rowanmanning.com/posts/building-cssdb/",
+		"content": {
+			"html": "Building CSSDB <a href=\"http://ow.ly/2vPlU4\">ow.ly/2vPlU4</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/building-cssdb/\"></a>",
+			"text": "Building CSSDB ow.ly/2vPlU4"
+		},
+		"mention-of": "https://rowanmanning.com/posts/building-cssdb/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	}
+}

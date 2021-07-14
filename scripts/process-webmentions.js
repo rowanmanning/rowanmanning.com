@@ -5,7 +5,7 @@ const clip = require('text-clipper').default;
 const createDOMPurify = require('dompurify');
 const fs = require('fs/promises');
 const {JSDOM} = require('jsdom');
-const {trusted, blocked} = require('../data/webmention-config/trust.json');
+const {trusted, blocked} = require('../data/webmentions/config/trust.json');
 
 // The ideal character limit and number of lines for webmentions
 const maxContentCharacterLength = 280;
@@ -18,19 +18,25 @@ const DOMPurify = createDOMPurify(window);
 
 (async () => {
 
-	// Load all webmention files
-	const dataPath = `${__dirname}/../data/webmentions`;
-	const files = await fs.readdir(dataPath);
+	// Load all raw webmention files
+	const rawDataPath = `${__dirname}/../data/webmentions/raw`;
+	const files = await fs.readdir(rawDataPath);
 
+	// Create the processed webmentions folder
+	const processedDataPath = `${__dirname}/../data/webmentions/processed`;
+	await fs.mkdir(processedDataPath, {recursive: true});
+
+	let counter = 0;
 	for (const file of files) {
-		const filePath = `${dataPath}/${file}`;
-		const webmentions = await loadJSON(filePath);
-		webmentions.processed = Object.entries(webmentions.raw)
+		const rawWebmentions = await loadJSON(`${rawDataPath}/${file}`);
+		const processedWebmentions = Object.entries(rawWebmentions)
 			.map(processWebmention)
 			.filter(webmention => webmention)
 			.sort((wm1, wm2) => new Date(wm1.date) - new Date(wm2.date));
-		saveJSON(filePath, webmentions);
+		counter += processedWebmentions.length;
+		saveJSON(`${processedDataPath}/${file}`, processedWebmentions);
 	}
+	console.log(`Processed ${counter} webmentions`);
 
 })();
 
