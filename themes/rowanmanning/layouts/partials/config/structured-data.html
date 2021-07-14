@@ -1,0 +1,10 @@
+
+{{/* Get structured data config */}}
+{{/* -------------------------- */}}
+
+{{ $structuredDataEnabled := .Site.Params.structuredData.enabled | default true }}
+{{
+	return (dict
+		"enabled" $structuredDataEnabled
+	)
+}}

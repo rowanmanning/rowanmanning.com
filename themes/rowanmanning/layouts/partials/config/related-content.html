@@ -1,0 +1,14 @@
+
+{{/* Get related content config */}}
+{{/* -------------------------- */}}
+
+{{ $relatedContentEnabled := .Site.Params.relatedContent.enabled | default true }}
+{{ $relatedContentCount := .Site.Params.relatedContent.count | default 3 }}
+{{ $relatedContentAllowedTypes := .Site.Params.relatedContent.allowTypes | default nil }}
+{{
+	return (dict
+		"enabled" $relatedContentEnabled
+		"count" $relatedContentCount
+		"allowedTypes" $relatedContentAllowedTypes
+	)
+}}

@@ -1,0 +1,24 @@
+
+{{/* Get related content items */}}
+{{/* ------------------------- */}}
+
+{{/* Get related content configuration */}}
+{{ $relatedContentConfig := partial "config/related-content" . }}
+
+{{/* Default related content to an empty slice */}}
+{{ $relatedContent := slice }}
+
+{{ if $relatedContentConfig.enabled }}
+
+	{{/* Get related content and filter if needed */}}
+	{{ $relatedContent = .Site.RegularPages.Related . }}
+	{{ if $relatedContentConfig.allowedTypes }}
+		{{ $relatedContent = where $relatedContent "Type" "in" $relatedContentConfig.allowedTypes }}
+	{{ end }}
+
+	{{/* Limit related content by the count configuration */}}
+	{{ $relatedContent = $relatedContent | first $relatedContentConfig.count }}
+
+{{ end }}
+
+{{ return $relatedContent }}

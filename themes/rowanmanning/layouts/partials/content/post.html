@@ -1,0 +1,169 @@
+
+{{- /* Gather together all the content information */ -}}
+{{- /* ------------------------------------------- */ -}}
+
+{{- /* Get content webmentions */ -}}
+{{- $webmentionConfig := partial "config/webmention" . -}}
+{{- $webmentions := (partial "content/data/webmentions" .) -}}
+
+{{- /* Get related content */ -}}
+{{- $relatedContent := partial "content/data/related-content" . -}}
+
+{{- /* Get the author */ -}}
+{{- $author := partial "content/data/author" . -}}
+
+
+{{- /* Render the content */ -}}
+{{- /* ------------------ */ -}}
+
+<article class="h-entry">
+	{{- partial "content/structured-data" . -}}
+
+	<header class="content-head">
+
+		<h1 class="content-head__title">
+			<a href="{{ .Permalink }}" class="u-url u-uid p-name">{{ .Title }}</a>
+		</h1>
+
+		<div class="content-head__meta content-highlight content-highlight--{{ .Params.highlight }}">
+			<p class="hidden-fully p-summary">{{ .Description }}</p>
+			<p class="content-head__meta-info">
+				Posted on <time datetime="{{ .Date }}" class="dt-published">{{ .Date.Format "02 January 2006" }}</time>
+				by 
+				<span class="p-author h-card">
+					<a href="{{ $author.url }}" class="u-url">
+						<img src="{{ $author.image }}" alt="" class="hidden-fully u-photo" width="20" />
+						<span class="p-name">{{ $author.name }}</span></a></span>
+
+				{{- if gt .Lastmod .Date }}
+					(<time datetime="{{ .Params.lastmod }}" title="{{ .Params.lastmod.Format "02 January 2006" }}" class="dt-updated">updated</time>)
+				{{- end -}}
+
+				{{- if .Params.tags -}}
+					.<br/>Tagged with
+					<span>
+						{{- range $key, $tag := .Params.tags -}}
+							{{- if ne $key 0 }}<span class="hidden">, </span>{{ end -}}
+							<a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}/" class="tag tag--{{ replace ($tag | urlize) "." "-" }} p-category">{{ $tag }}</a>
+						{{- end -}}
+					</span>
+				{{- end }}
+			</p>
+			{{ if $webmentionConfig.enabled }}
+				<p class="content-head__socials">
+					<a href="#responses" class="content-head__social-icon content-head__social-icon--responses">{{ len $webmentions.all }} responses</a>
+				</p>
+			{{ end }}
+		</div>
+
+		{{ if (and .Params.crossPost .Params.crossPost.siteName) }}
+			<p class="content-head__source notification notification--source">
+				<span class="notification__message">
+					Originally posted on <a href="{{ .Params.crossPost.siteUrl }}">{{ .Params.crossPost.siteName }}</a>,
+					<a href="{{ .Params.crossPost.url }}">Read the original post here</a>
+				</span>
+			</p>
+		{{ end }}
+
+	</header>
+
+	{{ if .Content }}
+		<div property="articleBody" class="content-body e-content">
+			{{ if .Draft }}{{ partial "draft-notice.html" . }}{{ end }}
+			{{ .Content }}
+			{{ if .Draft }}{{ partial "draft-notice.html" . }}{{ end }}
+		</div>
+	{{ end }}
+
+	<footer class="content-foot">
+		<p class="content-foot__thanks">
+			Thanks for reading!
+			{{ if .Params.reviewers }}
+				Also huge thanks to
+				{{ $reviewers := .Params.reviewers -}}
+				{{- $hasTwoReviewers := eq (len $reviewers) 2 -}}
+				{{ range $key, $reviewer := $reviewers -}}
+					{{- $isFirst := eq $key 0 -}}
+					{{- $isLast := eq $key (sub (len $reviewers) 1) -}}
+					{{- if and $isLast (not $isFirst) }} and {{ end -}}
+					{{ if $reviewer.website }}<a href="{{ $reviewer.website }}">{{ end }}
+						{{- $reviewer.name -}}
+					{{ if $reviewer.website }}</a>{{ end }}{{ if and (not $isLast) (not $hasTwoReviewers) }}, {{ end }}
+				{{- end }}
+				for reviewing this post.
+			{{ end }}
+
+		</p>
+
+		<ul class="content-foot__links">
+			{{ $pageType := singularize .Type }}
+			{{ if .Parent }}
+				{{ $parent := .Parent }}
+				{{ with $parent.OutputFormats.Get "ATOM" }}
+					<li>
+						<a href="{{ .RelPermalink }}" rel="alternate" type="application/atom+xml" title="Atom Feed for {{ $parent.Params.Title }}" class="content-foot__icon content-foot__icon--feed" data-component="feed-link">Subscribe here</a>
+						if you enjoyed this {{ $pageType }} and would like to read more
+					</li>
+				{{ end }}
+				{{ with $parent.OutputFormats.Get "RSS" }}
+					<li>
+						<a href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="RSS Feed for {{ $parent.Params.Title }}" class="content-foot__icon content-foot__icon--feed" data-component="feed-link">Subscribe here</a>
+						if you enjoyed this {{ $pageType }} and would like to read more
+					<li>
+				{{ end }}
+			{{ end }}
+			{{ if $author.twitter }}
+				<li>
+					<a href="https://twitter.com/share?url={{ safeURL .Permalink }}&amp;via={{ safeURL $author.twitter }}&amp;text={{ safeURL .Title }}" target="_blank" class="content-foot__icon content-foot__icon--twitter">Tweet about this {{ $pageType }}</a>
+				</li>
+			{{ end }}
+			{{ if $webmentionConfig.enabled }}
+				<li>
+					<a href="#responses" class="content-foot__icon content-foot__icon--responses">{{ len $webmentions.all }} responses</a>
+				</li>
+			{{ end }}
+			{{ with $relatedContent }}
+				<li>
+					<a href="#related" class="content-foot__icon content-foot__icon--related">View related content</a>
+				</li>
+			{{ end }}
+		</ul>
+	</footer>
+
+	{{/* Webmentions */}}
+	{{ if $webmentionConfig.enabled }}
+		<aside id="responses">
+			<div class="content-body">
+				<h2>Responses ({{ len $webmentions.all }})</h2>
+			</div>
+			<form method="post" action="{{ $webmentionConfig.receiver }}" target="_blank" class="webmention-form" data-component="webmention-form">
+				<input type="hidden" name="target" value="{{ .Permalink }}" />
+				<p>
+					You can respond to this {{ $pageType }} using <a href="https://indieweb.org/Webmention">Webmentions</a>,
+					and any tweets about it will be picked up automatically.
+					If you published a response to this elsewhere, <label for="webmention-source">let me know the URL</label>:
+				</p>
+				<div class="webmention-form__inputs">
+					<input id="webmention-source" type="url" name="source" required class="webmention-form__url" />
+					<input type="submit" value="Ping!" class="webmention-form__submit" />
+				</div>
+			</form>
+			{{ partial "content/webmentions/list" $webmentions.all }}
+		</aside>
+	{{ end }}
+
+	{{/* Related content */}}
+	{{ with $relatedContent }}
+		<aside id="related">
+			<div class="content-body">
+				<h2>You may also like</h2>
+			</div>
+			<ol class="content-list">
+				{{ range . }}
+					<li>{{ partial "content/post-preview" . }}</li>
+				{{ end }}
+			</ol>
+		</aside>
+	{{ end }}
+
+</article>

@@ -1,4 +1,9 @@
 
+{{/* Get site data and config */}}
+{{- $author := partial "site/data/author" . -}}
+{{- $pingbackConfig := partial "config/pingback" . -}}
+{{- $webmentionConfig := partial "config/webmention" . -}}
+
 {{ if eq .Kind "page" }}
 
 	{{- partial "get-content-images" . -}}
@@ -16,7 +21,7 @@
 		<meta name="twitter:image" content="{{ $logoSourceImage.Permalink }}" />
 		<meta name="twitter:image:alt" content="{{ .Title }}" />
 	{{ end }}
-	{{ if .Site.Author.twitter }}<meta name="twitter:site" content="@{{ .Site.Author.twitter }}" />{{ end }}
+	{{ if $author.twitter }}<meta name="twitter:site" content="@{{ $author.twitter }}" />{{ end }}
 	{{ if .Description }}<meta name="twitter:description" content="{{ .Description }}" />{{ end }}
 
 	{{/* Open Graph */}}
@@ -46,8 +51,10 @@
 
 {{ end }}
 
-{{/* Webmentions */}}
-{{ if (and .Site.Author .Site.Author.webmention) }}
-	<link rel="webmention" href="https://webmention.io/{{ .Site.Author.webmention }}/webmention" />
-	<link rel="pingback" href="https://webmention.io/{{ .Site.Author.webmention }}/xmlrpc" />
+{{/* Webmentions and pingbacks */}}
+{{ if $webmentionConfig.enabled }}
+	<link rel="webmention" href="{{ $webmentionConfig.receiver }}" />
+{{ end }}
+{{ if $pingbackConfig.enabled }}
+	<link rel="pingback" href="{{ $pingbackConfig.receiver }}" />
 {{ end }}

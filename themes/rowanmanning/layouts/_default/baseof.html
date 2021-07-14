@@ -2,6 +2,8 @@
 <html lang="{{ .Site.LanguageCode | default "en" }}">
 <head>
 
+	{{ $author := partial "content/data/author" . }}
+
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
@@ -18,8 +20,8 @@
 	{{/* Site links */}}
 	<link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap" />
 	<link rel="canonical" href="{{ .Permalink }}" />
-	{{ if (and (not .IsHome) .Site.Author .Site.Author.website) }}
-		<link rel="author" href="{{ .Site.Author.website }}" />
+	{{ if (and (not .IsHome) $author $author.url) }}
+		<link rel="author" href="{{ $author.url }}" />
 	{{ end }}
 	{{ if .OutputFormats.Get "ATOM" }}
 		{{ with .OutputFormats.Get "ATOM" }}

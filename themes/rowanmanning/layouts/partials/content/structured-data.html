@@ -1,0 +1,47 @@
+
+{{- /* Get JSON-LD data for the page */ -}}
+{{- /* ----------------------------- */ -}}
+
+{{- /* Get related content configuration */ -}}
+{{- $structuredDataEnabled := .Site.Params.structuredData.enabled | default true -}}
+{{- $currentPageHasData := and .IsPage .Section -}}
+
+{{- /* Render the JSON-LD script */ -}}
+{{- if and $structuredDataEnabled $currentPageHasData -}}
+	{{- $author := partial "content/data/author" . -}}
+	{{- $mainImage := partial "content/data/main-image" . -}}
+
+	{{- $image := "" -}}
+	{{- $thumb := "" -}}
+	
+	{{- if $mainImage.full -}}
+		{{- $image = $mainImage.full.Permalink -}}
+		{{- $thumb = $mainImage.thumb.Permalink -}}
+	{{- end -}}
+
+	{{-
+		$structuredData := (dict
+			"@context" "https://schema.org/"
+			"@type" "BlogPosting"
+			"mainEntityOfPage" (dict
+				"@type" "WebPage"
+				"@id" .Permalink
+			)
+			"url" .Permalink
+			"headline" .Title
+			"description" .Description
+			"image" $image
+			"thumbnailUrl" $thumb
+			"datePublished" .Date
+			"dateModified" .Lastmod
+			"keywords" .Params.tags
+			"author" (dict
+				"@type" "Person"
+				"name" $author.name
+				"url" $author.url
+				"image" $author.image
+			)
+		)
+	-}}
+<script type="application/ld+json">{{ $structuredData | jsonify (dict "indent" "\t") | safeJS }}</script>
+{{- end -}}

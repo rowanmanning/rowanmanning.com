@@ -1,4 +1,6 @@
 
+{{ $author := partial "site/data/author" . }}
+
 <header role="banner" class="header">
 	<div class="header__inner">
 
@@ -27,17 +29,17 @@
 					</li>
 				{{ end }}
 
-				{{ if (and .Site.Author .Site.Author.github) }}
+				{{ if $author.github }}
 					<li class="header__navigation-item">
-						<a href="https://github.com/{{ .Site.Author.github }}" rel="me" title="GitHub" class="header__icon header__icon--github">
+						<a href="https://github.com/{{ $author.github }}" rel="me" title="GitHub" class="header__icon header__icon--github">
 							GitHub
 						</a>
 					</li>
 				{{ end }}
 
-				{{ if (and .Site.Author .Site.Author.twitter) }}
+				{{ if $author.twitter }}
 					<li class="header__navigation-item">
-						<a href="https://twitter.com/{{ .Site.Author.twitter }}" rel="me" title="Twitter" class="header__icon header__icon--twitter">
+						<a href="https://twitter.com/{{ $author.twitter }}" rel="me" title="Twitter" class="header__icon header__icon--twitter">
 							Twitter
 						</a>
 					</li>

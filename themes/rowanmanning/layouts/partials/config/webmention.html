@@ -1,0 +1,12 @@
+
+{{/* Get webmention config */}}
+{{/* --------------------- */}}
+
+{{ $webmentionReceiver := .Site.Params.webmention.receiver | default nil }}
+{{ $webmentionEnabled := and (.Site.Params.webmention.enabled | default true) $webmentionReceiver }}
+{{
+	return (dict
+		"enabled" $webmentionEnabled
+		"receiver" $webmentionReceiver
+	)
+}}

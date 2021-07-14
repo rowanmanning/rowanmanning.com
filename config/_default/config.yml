@@ -8,11 +8,10 @@ languageCode: "en-gb"
 title: "Rowan Manning"
 author:
   name: "Rowan Manning"
-  website: "https://rowanmanning.com/"
+  url: "https://rowanmanning.com/"
   image: "https://rowanmanning.com/about/rowan.png"
   github: "rowanmanning"
   twitter: "rowanmanning"
-  webmention: "rowanmanning.com"
 
 # Configure the themes
 theme: ["atom-feed", "rowanmanning"]
@@ -58,6 +57,28 @@ related:
 
 # Site parameters
 params:
+
+  # Further related content configuration
+  relatedContent:
+    enabled: true
+    count: 3
+    allowTypes:
+      - posts
+      - weeknotes
+
+  # Webmention configuration
+  webmention:
+    enabled: true
+    receiver: "https://webmention.io/rowanmanning.com/webmention"
+
+  # Pingback configurations
+  pingback:
+    enabled: true
+    receiver: "https://webmention.io/rowanmanning.com/xmlrpc"
+
+  # Structured data configurations
+  structuredData:
+    enabled: true
 
   # Configure the home page feed
   feedSections:

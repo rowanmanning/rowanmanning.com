@@ -1,0 +1,22 @@
+
+{{/* Get author information */}}
+{{/* ---------------------- */}}
+
+{{/* Get site author information */}}
+{{ $siteAuthor := partial "site/data/author" . }}
+
+{{/* Get author information from page, defaulting to site */}}
+{{ $authorName := .Params.author.name | default $siteAuthor.name }}
+{{ $authorUrl := .Params.author.url | default $siteAuthor.url }}
+{{ $authorImage := .Params.author.image | default $siteAuthor.image }}
+{{ $authorTwitter := .Params.author.twitter | default $siteAuthor.twitter }}
+{{ $authorGitHub := .Params.author.github | default $siteAuthor.github }}
+{{
+	return (dict
+		"name" $authorName
+		"url" $authorUrl
+		"image" $authorImage
+		"twitter" $authorTwitter
+		"github" $authorGitHub
+	)
+}}

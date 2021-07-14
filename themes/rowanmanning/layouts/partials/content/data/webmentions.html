@@ -1,0 +1,37 @@
+
+{{/* Get webmention data */}}
+{{/* ------------------- */}}
+
+{{/* Get webmentions configuration */}}
+{{ $webmentionConfig := partial "config/webmention" . }}
+
+{{/* Default webmentions to empty properties */}}
+{{
+	$webmentions := (dict
+		"webmentions" slice
+		"likes" slice
+		"reposts" slice
+		"responses" slice
+	)
+}}
+
+{{ if and $webmentionConfig.enabled .Site.Data.webmentions.processed }}
+
+	{{/* Calculate the page slug based on the relative permalink */}}
+	{{ $slug := .RelPermalink | replaceRE "^/|/$" "" | replaceRE "/" "--" }}
+
+	{{/* Grab webmentions from site data */}}
+	{{ $allWebmentions := index .Site.Data.webmentions.processed $slug | default slice }}
+
+	{{
+		$webmentions = (dict
+			"all" $allWebmentions
+			"likes" (where $allWebmentions "type" "like")
+			"reposts" (where $allWebmentions "type" "repost")
+			"responses" (where $allWebmentions "type" "response")
+		)
+	}}
+
+{{ end }}
+
+{{ return $webmentions }}

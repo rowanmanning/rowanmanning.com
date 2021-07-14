@@ -20,7 +20,7 @@
 	{{/* List of content */}}
 	<ol class="content-list">
 		{{ range .Pages }}
-			<li>{{- partial "content-summary.html" . -}}</li>
+			<li>{{- partial "content/post-preview" . -}}</li>
 		{{ end }}
 	</ol>
 

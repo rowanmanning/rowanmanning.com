@@ -1,0 +1,37 @@
+
+{{/* Get a main image and thumbnail */}}
+{{/* ------------------------------ */}}
+
+{{/* Default to the first image */}}
+{{ $image := index (.Resources.ByType "image") 0 }}
+
+{{/* If we have a main image, use that */}}
+{{ if .Params.mainImage }}
+	{{ $matchedMainImage := index (.Resources.Match .Params.mainImage) 0 }}
+	{{ if $matchedMainImage }}
+		{{ $image = $matchedMainImage }}
+	{{ end }}
+
+{{/* If the main image parameter is explicitly false, don't use an image */}}
+{{ else if eq .Params.mainImage false }}
+	{{ $image = false }}
+{{ end }}
+
+{{/* Default main image to empty properties */}}
+{{
+	$mainImage := (dict
+		"full" nil
+		"thumb" nil
+	)
+}}
+
+{{ if $image }}
+	{{
+		$mainImage = (dict
+			"full" $image
+			"thumb" ($image.Fill "160x160 Center")
+		)
+	}}
+{{ end }}
+
+{{ return $mainImage }}

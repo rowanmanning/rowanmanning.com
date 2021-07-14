@@ -1,0 +1,19 @@
+
+{{/* Get author information */}}
+{{/* ---------------------- */}}
+
+{{/* Get author information from page, defaulting to site */}}
+{{ $authorName := .Site.Author.name | default "Unknown" }}
+{{ $authorUrl := .Site.Author.url | default nil }}
+{{ $authorImage := .Site.Author.image | default nil }}
+{{ $authorTwitter := .Site.Author.twitter | default nil }}
+{{ $authorGitHub := .Site.Author.github | default nil }}
+{{
+	return (dict
+		"name" $authorName
+		"url" $authorUrl
+		"image" $authorImage
+		"twitter" $authorTwitter
+		"github" $authorGitHub
+	)
+}}

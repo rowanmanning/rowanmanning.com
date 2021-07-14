@@ -1,45 +1,32 @@
 
-{{- partial "get-content-images" . -}}
-{{- $image := .Scratch.Get "image" -}}
-{{- $thumb := .Scratch.Get "thumb" -}}
+{{- /* Gather together all the content information */ -}}
+{{- /* ------------------------------------------- */ -}}
 
-{{/*
-All content in here must be marked up with microdata, but also microformats as an h-entry.
-The microdata is better suited for search engines, and the microformats are required
-to enable webmentions
-*/}}
-<article
-	vocab="http://schema.org/"
-	typeof="BlogPosting"
-	resource="{{ .Permalink }}"
-	class="h-entry content-summary content-highlight content-highlight--{{ .Params.highlight }}"
->
+{{- $mainImage := partial "content/data/main-image" . -}}
 
-	<meta property="name" content="{{ .Title }}"/>
-	<meta property="url" content="{{ .Permalink }}"/>
-	<meta property="mainEntityOfPage" content="{{ .Permalink }}"/>
 
-	{{ if $image -}}
-		<meta property="image" content="{{ $image.Permalink }}"/>
-		<meta property="thumbnailUrl" content="{{ $thumb.Permalink }}"/>
-	{{- end }}
+{{- /* Render the content preview */ -}}
+{{- /* -------------------------- */ -}}
+
+<article class="h-entry content-summary content-highlight content-highlight--{{ .Params.highlight }}">
+	{{- partial "content/structured-data" . -}}
 
 	<header>
-		<h2 property="headline" class="content-summary__headline">
+		<h2 class="content-summary__headline">
 			<a href="{{ .RelPermalink }}" class="u-url u-uid p-name">{{ .Title }}</a>
 		</h2>
 	</header>
 
 	<div class="content-summary__body">
 
-		{{ if $image }}
+		{{ if $mainImage.full }}
 			<a href="{{ .RelPermalink }}" class="content-summary__thumb">
-				<img src="{{ $thumb.RelPermalink }}" alt="{{ $image.Title }}" />
+				<img src="{{ $mainImage.thumb.RelPermalink }}" alt="{{ $mainImage.full.Title }}" />
 			</a>
 		{{ end }}
 
 		<p class="content-summary__preview">
-			<span property="description" class="p-summary">{{ .Params.description }}</span>
+			<span class="p-summary">{{ .Description }}</span>
 			<a href="{{ .RelPermalink }}">{{ if (.Params.cta) }}{{ .Params.cta }}{{ else }}Read more{{ end }}</a>.
 		</p>
 
@@ -47,14 +34,14 @@ to enable webmentions
 
 	<footer>
 		<p class="content-summary__meta">
-			Posted on <time datetime="{{ .Date }}" property="datePublished" class="dt-published">{{ .Date.Format "02 January 2006" }}</time>
+			Posted on <time datetime="{{ .Date }}" class="dt-published">{{ .Date.Format "02 January 2006" }}</time>
 			{{ if .Params.tags }}
 				in
 
 				{{ $tags := .Params.tags -}}
 				{{- $tagCount := len $tags -}}
 
-				<span property="keywords">
+				<span>
 					{{- range $key, $tag := $tags -}}
 						{{- if ne $key 0 }}<span class="hidden">, </span>{{ end -}}
 						<a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}/" class="p-category tag tag--{{ replace ($tag | urlize) "." "-" }} {{ if (and (gt $key 2) (gt $tagCount 4)) }}hidden-fully{{ end }}">{{ $tag }}</a>
