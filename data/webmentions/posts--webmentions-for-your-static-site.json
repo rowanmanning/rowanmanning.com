@@ -227,6 +227,27 @@
 			"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
 			"wm-property": "like-of",
 			"wm-private": false
+		},
+		"ad36bf6154096e44f64c66129f21d1d3": {
+			"type": "entry",
+			"author": {
+				"type": "card",
+				"name": "Amanda J. caarson",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/f857ae597fa2ca438c5d8450fd707a8a8f9f2d48ea6295797a96a9c8d453e68b.jpg",
+				"url": "https://twitter.com/cswordpress"
+			},
+			"url": "https://twitter.com/cswordpress/status/1415421985899831302",
+			"published": "2021-07-14T21:24:33+00:00",
+			"wm-received": "2021-07-14T21:37:56Z",
+			"wm-id": 1219337,
+			"wm-source": "https://brid.gy/repost/twitter/rowanmanning/1414947729806020608/1415421985899831302",
+			"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"content": {
+				"text": "Last week I blogged about my new favourite technology, explaining how to add Webmention support to a static website. This was a lot of fun 🙂 rowanmanning.com/posts/webmenti… #IndieWeb"
+			},
+			"repost-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"wm-property": "repost-of",
+			"wm-private": false
 		}
 	},
 	"processed": [
@@ -441,6 +462,24 @@
 				"photo": "https://webmention.io/avatar/pbs.twimg.com/884ce9795988c7accf3459433122c00acdf8f47433efc87ec81fb5fb5dd571dd.jpg",
 				"isTwitterUser": true,
 				"twitterUsername": "notleemoody"
+			},
+			"content": null,
+			"isTruncated": false,
+			"isTrustedSource": false
+		},
+		{
+			"md5": "ad36bf6154096e44f64c66129f21d1d3",
+			"type": "repost",
+			"sourceUrl": "https://brid.gy/repost/twitter/rowanmanning/1414947729806020608/1415421985899831302",
+			"targetUrl": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+			"date": "2021-07-14T21:24:33+00:00",
+			"url": "https://twitter.com/cswordpress/status/1415421985899831302",
+			"author": {
+				"name": "Amanda J. caarson",
+				"url": "https://twitter.com/cswordpress",
+				"photo": "https://webmention.io/avatar/pbs.twimg.com/f857ae597fa2ca438c5d8450fd707a8a8f9f2d48ea6295797a96a9c8d453e68b.jpg",
+				"isTwitterUser": true,
+				"twitterUsername": "cswordpress"
 			},
 			"content": null,
 			"isTruncated": false,
