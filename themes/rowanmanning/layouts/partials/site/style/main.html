@@ -1,0 +1,27 @@
+
+{{- /* Main site styles */ -}}
+{{-
+	$sassOptions := (dict
+		"outputStyle" "compressed"
+		"enableSourceMap" true
+		"targetPath" "main.css"
+	)
+-}}
+{{-
+	$sassParams := (dict
+		"baseUrl" .Site.BaseURL
+		"hero" (partial "config/hero" .)
+	)
+-}}
+{{-
+	$styles := resources.Get "sass/main.scss"
+		| resources.ExecuteAsTemplate "sass/main.scss" $sassParams
+		| toCSS $sassOptions
+		| resources.Fingerprint "sha512"
+-}}
+
+	{{- "<!--[if gt IE 8]><!-->" | safeHTML }}
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" />
+	<link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+	{{ "<!--<![endif]-->" | safeHTML -}}

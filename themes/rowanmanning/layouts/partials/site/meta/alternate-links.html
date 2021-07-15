@@ -1,0 +1,17 @@
+
+{{- /* Site alternate links metadata */ -}}
+{{-
+	$allowedAlternatives := (slice
+		"Atom"
+		"RSS"
+	)
+-}}
+{{-
+	$titles := (dict
+		"Atom" (printf "Atom feed for %v" $.Params.Title)
+		"RSS" (printf "RSS feed for %v" $.Params.Title)
+	)
+-}}
+{{- range (where .AlternativeOutputFormats "Name" "in" $allowedAlternatives) }}
+	<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink | safeURL }}" title="{{ index $titles .Name | default .Name }}" />
+{{- end }}

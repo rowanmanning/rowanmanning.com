@@ -1,0 +1,10 @@
+
+{{/* Get staging redirect config */}}
+{{/* --------------------------- */}}
+
+{{ $stagingRedirectEnabled := .Site.Params.stagingRedirect.enabled | default false }}
+{{
+	return (dict
+		"enabled" $stagingRedirectEnabled
+	)
+}}

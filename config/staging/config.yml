@@ -10,3 +10,10 @@ buildFuture: true
 
 # Enable a robots.txt file
 enableRobotsTXT: true
+
+# Site parameters
+params:
+
+  # Staging redirect configurations
+  stagingRedirect:
+    enabled: true

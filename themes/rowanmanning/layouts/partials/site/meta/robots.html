@@ -1,0 +1,6 @@
+
+{{- /* Site robots metadata */ -}}
+{{- $isVisible := partial "content/data/visibility" . -}}
+
+<link rel="sitemap" type="application/xml" href="{{ relURL "sitemap.xml" }}" title="Sitemap" />
+	{{ if not $isVisible }}<meta name="robots" content="noindex" />{{ end -}}

@@ -80,6 +80,12 @@ params:
   structuredData:
     enabled: true
 
+  # Home page hero configurations
+  # hero:
+  #   backgroundColorTop: "red"
+  #   backgroundColorBottom: "yellow"
+  #   textColor: "blue"
+
   # Configure the home page feed
   feedSections:
     - posts

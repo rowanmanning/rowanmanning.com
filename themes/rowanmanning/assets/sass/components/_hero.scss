@@ -11,6 +11,14 @@
 	color: var(--color-hero-text);
 }
 
+@if map-get($hero-customizations, "enabled") {
+	.hero {
+		--color-hero-background-top: #{map-get($hero-customizations, "backgroundColorTop")};
+		--color-hero-background-bottom: #{map-get($hero-customizations, "backgroundColorBottom")};
+		--color-hero-text: #{map-get($hero-customizations, "textColor")};
+	}
+}
+
 // Hero inner element
 .hero__inner {
 	@extend %layout-inner;
@@ -28,7 +36,7 @@
 	text-align: center;
 }
 
-// TODO style this
+// Hero body element
 .hero__body {
 	text-align: center;
 	margin: var(--spacing-line) auto 0 auto;

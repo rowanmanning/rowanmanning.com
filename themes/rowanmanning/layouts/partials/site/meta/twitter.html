@@ -1,0 +1,24 @@
+
+{{- /* Twitter metadata */ -}}
+{{- $structuredDataConfig := partial "config/structured-data" . -}}
+{{- if and $structuredDataConfig.enabled (eq .Kind "page") -}}
+
+	{{- /* Get information about the page */ -}}
+	{{- $author := partial "content/data/author" . -}}
+	{{- $logoSourceImage := resources.Get "logo-twitter.png" -}}
+	{{- $mainImage := partial "content/data/main-image" . -}}
+
+	{{- /* Twitter summary card */ -}}
+	<meta name="twitter:card" content="summary" />
+	<meta property="twitter:url" content="{{ .Permalink }}">
+	<meta name="twitter:title" content="{{ .Title }}" />
+	{{ if $mainImage.full -}}
+	<meta name="twitter:image" content="{{ $mainImage.full.Permalink }}" />
+	<meta name="twitter:image:alt" content="{{ $mainImage.full.Title | default .Title }}" />
+	{{- else if $logoSourceImage -}}
+	<meta name="twitter:image" content="{{ $logoSourceImage.Permalink }}" />
+	<meta name="twitter:image:alt" content="{{ .Title }}" />
+	{{- end }}
+	{{ if $author.twitter -}}<meta name="twitter:site" content="@{{ $author.twitter }}" />{{- end }}
+	{{ if .Description -}}<meta name="twitter:description" content="{{ .Description }}" />{{- end }}
+{{ end -}}

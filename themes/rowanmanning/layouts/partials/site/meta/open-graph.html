@@ -1,0 +1,37 @@
+
+{{- /* Open Graph metadata */ -}}
+{{- $structuredDataConfig := partial "config/structured-data" . -}}
+{{- if and $structuredDataConfig.enabled (eq .Kind "page") -}}
+
+	{{- /* Get information about the page */ -}}
+	{{- $author := partial "content/data/author" . -}}
+	{{- $logoSourceImage := resources.Get "logo.png" -}}
+	{{- $mainImage := partial "content/data/main-image" . -}}
+
+	{{- /* Open Graph */ -}}
+	<meta property="og:type" content="{{ if .Section }}article{{ else }}website{{ end }}" />
+	<meta property="og:site_name" content="{{ .Site.Title }}" />
+	<meta property="og:title" content="{{ .Title }}" />
+	<meta property="og:url" content="{{ .Permalink }}" />
+	{{ if $mainImage.full -}}
+	<meta name="og:image" content="{{ $mainImage.full.Permalink }}" />
+	<meta name="og:image:alt" content="{{ $mainImage.full.Title | default .Title }}" />
+	{{- else if $logoSourceImage -}}
+	<meta name="og:image" content="{{ $logoSourceImage.Permalink }}" />
+	<meta name="og:image:alt" content="{{ .Title }}" />
+	{{- end }}
+	{{ if .Description -}}<meta property="og:description" content="{{ .Description }}" />{{- end }}
+
+	{{- /* Open Graph article */ -}}
+	{{ if .Section }}
+	<meta property="article:published_time" content="{{ .Date }}" />
+	{{ if gt .Lastmod .Date -}}
+	<meta property="article:modified_time" content="{{ .Lastmod }}" />
+	{{ end -}}
+	{{ if .Params.tags -}}
+	{{- range .Params.tags -}}
+	<meta property="article:tag" content="{{ . }}" />
+	{{ end }}{{ end -}}
+	{{ end }}
+
+{{- end -}}

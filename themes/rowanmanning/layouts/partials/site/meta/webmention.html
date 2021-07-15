@@ -1,0 +1,6 @@
+
+{{- /* Webmention metadata */ -}}
+{{- $webmentionConfig := partial "config/webmention" . -}}
+{{- if $webmentionConfig.enabled -}}
+	<link rel="webmention" href="{{ $webmentionConfig.receiver }}" />
+{{- end -}}

@@ -7,8 +7,10 @@
 	<header class="hero">
 		<div class="hero__inner">
 			<h1 class="hero__title">{{ .Site.Title }}</h1>
-			{{ if .Content }}
-				<div class="hero__body content-body">{{ .Content }}</div>
+			{{ with .Content }}
+				<div class="hero__body content-body">
+					{{ . }}
+				</div>
 			{{ end }}
 		</div>
 	</header>
@@ -39,7 +41,7 @@
 									{{ .title | default $page.Title }}
 								</a>
 							</h1>
-							{{- partial "content-head-links.html" $page -}}
+							{{- partial "content-head-links" $page -}}
 						</header>
 						{{ $limit := .limit | default 3 }}
 						{{ $pages := (where $.Site.RegularPages.ByDate.Reverse "Section" .section ) }}

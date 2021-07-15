@@ -1,0 +1,21 @@
+
+{{/* Get home page hero config */}}
+{{/* ------------------------- */}}
+
+{{ $heroBackgroundColorTop := .Site.Params.hero.backgroundColorTop | default nil }}
+{{ $heroBackgroundColorBottom := .Site.Params.hero.backgroundColorBottom | default nil }}
+{{ $heroTextColor := .Site.Params.hero.textColor | default nil }}
+{{ $heroEnabled := false }}
+{{ if (and $heroBackgroundColorTop $heroBackgroundColorBottom $heroTextColor) }}
+	{{ $heroEnabled = true }}
+{{ end }}
+{{
+	return (dict
+		"enabled" $heroEnabled
+		"backgroundColor" (dict
+			"top" $heroBackgroundColorTop
+			"bottom" $heroBackgroundColorBottom
+		)
+		"textColor" $heroTextColor
+	)
+}}

@@ -1,0 +1,18 @@
+
+{{/* Get visibility information */}}
+{{/* -------------------------- */}}
+
+{{ $isDraft := .Draft }}
+{{ $isPrivate := .Params.private }}
+{{ $isStaging := (eq hugo.Environment "staging") }}
+
+{{ $isVisible := true }}
+{{ if $isDraft }}
+	{{ $isVisible = false }}
+{{ else if $isPrivate }}
+	{{ $isVisible = false }}
+{{ else if $isStaging }}
+	{{ $isVisible = false }}
+{{ end }}
+
+{{ return $isVisible }}

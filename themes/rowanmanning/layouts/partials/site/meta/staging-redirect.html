@@ -1,0 +1,8 @@
+
+{{- /* Site staging redirect metadata */ -}}
+{{- $stagingRedirectConfig := partial "config/staging-redirect" . -}}
+
+{{/* If on the staging site and content is not a draft, redirect to production */}}
+{{- if and $stagingRedirectConfig.enabled (not .Draft) (eq hugo.Environment "staging") -}}
+	<meta http-equiv="refresh" content="0;URL='{{ .Permalink }}'" />
+{{- end -}}

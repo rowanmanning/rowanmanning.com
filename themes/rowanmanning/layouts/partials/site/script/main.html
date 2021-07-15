@@ -1,0 +1,13 @@
+
+{{- /* Main site JavaScript */ -}}
+{{- $fathomConfig := partial "config/fathom" . -}}
+{{- $jsOptions := (dict
+	"minify" true
+	"targetPath" "main.js"
+	"params" (dict
+		"baseUrl" .Site.BaseURL
+		"fathomConfig" $fathomConfig
+	)
+) -}}
+{{- $js := resources.Get "js/main.js" | js.Build $jsOptions | resources.Fingerprint "sha512" -}}
+<script defer src="{{ $js.RelPermalink }}"></script>

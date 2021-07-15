@@ -1,7 +1,12 @@
 
 // Customisation from Site params
-$site-base-url: "{{ "/" | relURL }}";
-// TODO add hero customisations
+$site-base-url: "{{ .baseUrl }}";
+$hero-customizations: (
+	"enabled": {{ .hero.enabled }},
+	"backgroundColorTop": "{{ .hero.backgroundColor.top | default "" }}",
+	"backgroundColorBottom": "{{ .hero.backgroundColor.bottom | default "" }}",
+	"textColor": "{{ .hero.textColor | default "" }}"
+);
 
 // Vendor styles
 @import "vendor/normalize";

@@ -1,0 +1,6 @@
+
+{{- /* Fathom script */ -}}
+{{- $fathomConfig := partial "config/fathom" . -}}
+{{- if $fathomConfig.enabled -}}
+	<script src="https://{{ $fathomConfig.siteHostname }}/script.js" data-site="{{ $fathomConfig.siteId }}" honor-dnt="true" defer></script>
+{{- end -}}

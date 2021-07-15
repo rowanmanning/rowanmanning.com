@@ -1,0 +1,6 @@
+
+{{- /* Pingback metadata */ -}}
+{{- $pingbackConfig := partial "config/pingback" . -}}
+{{- if $pingbackConfig.enabled -}}
+	<link rel="pingback" href="{{ $pingbackConfig.receiver }}" />
+{{- end -}}

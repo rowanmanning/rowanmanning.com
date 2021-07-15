@@ -11,15 +11,15 @@
 	</header>
 
 	{{/* Main page content body */}}
-	{{ if .Content }}
+	{{ with .Content }}
 		<div class="content-body">
-			{{ .Content }}
+			{{ . }}
 		</div>
 	{{ end }}
 
 	{{/* List of content */}}
-	<ol class="content-list">
-		{{ range .Pages }}
+	<ol class="content-list h-feed">
+		{{ range .Pages.ByDate.Reverse }}
 			<li>{{- partial "content/post-preview" . -}}</li>
 		{{ end }}
 	</ol>

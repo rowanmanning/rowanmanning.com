@@ -7,9 +7,9 @@
 	</header>
 
 	{{/* Main page content body */}}
-	{{ if .Content }}
+	{{ with .Content }}
 		<div class="content-body">
-			{{ .Content }}
+			{{ . }}
 		</div>
 	{{ end }}
 

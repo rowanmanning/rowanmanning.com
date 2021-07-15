@@ -2,94 +2,44 @@
 <html lang="{{ .Site.LanguageCode | default "en" }}">
 <head>
 
-	{{ $author := partial "content/data/author" . }}
-
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
 	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
-
-	{{/* Hide drafts and pages on the staging site */}}
-	{{ if or .Draft (or (eq hugo.Environment "staging") .Params.private) }}<meta name="robots" content="noindex" />{{ end }}
-
-	{{/* If on the staging site and content is not a draft, redirect to production */}}
-	{{ if and (not .Draft) (eq hugo.Environment "staging") }}
-		<meta http-equiv="refresh" content="0;URL='{{ .Permalink }}'" />
-	{{ end }}
-
-	{{/* Site links */}}
-	<link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap" />
 	<link rel="canonical" href="{{ .Permalink }}" />
-	{{ if (and (not .IsHome) $author $author.url) }}
-		<link rel="author" href="{{ $author.url }}" />
-	{{ end }}
-	{{ if .OutputFormats.Get "ATOM" }}
-		{{ with .OutputFormats.Get "ATOM" }}
-			<link href="{{ .RelPermalink }}" rel="alternate" type="application/atom+xml" title="Atom Feed for {{ $.Params.Title }}" />
-		{{ end }}
-	{{ end }}
-	{{ if .OutputFormats.Get "RSS" }}
-		{{ with .OutputFormats.Get "RSS" }}
-			<link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="RSS Feed for {{ $.Params.Title }}" />
-		{{ end }}
-	{{ end }}
 
-	{{/* Output Styles */}}
-	{{- "<!--[if gt IE 8]><!-->" | safeHTML }}
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	{{ $author := partial "content/data/author" . -}}
+	{{- if and (not .IsHome) $author.url }}<link rel="author" href="{{ $author.url }}" />{{ end }}
 
-		{{/* Styleshets */}}
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" />
-		{{ $sassOptions := (dict
-			"outputStyle" "compressed"
-			"enableSourceMap" true
-			"targetPath" "main.css"
-		) -}}
-		{{ $styles := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "sass/main.scss" . | toCSS $sassOptions | resources.Fingerprint "sha512" -}}
-		<link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
+	{{/* Site meta data */}}
+	{{ partial "site/meta/robots" . }}
+	{{ partial "site/meta/staging-redirect" . }}
+	{{ partial "site/meta/alternate-links" . }}
+	{{ partial "site/meta/icons" . }}
+	{{ partial "site/meta/open-graph" . }}
+	{{ partial "site/meta/twitter" . }}
+	{{ partial "site/meta/webmention" . }}
+	{{ partial "site/meta/pingback" . }}
 
-		{{/* Hero customisation */}}
-		{{ if .Params.hero }}
-			<style>
-				.hero {
-					{{- if .Params.hero.backgroundColorTop }}--color-hero-background-top: {{ .Params.hero.backgroundColorTop }};{{ end }}
-					{{- if .Params.hero.backgroundColorBottom }}--color-hero-background-bottom: {{ .Params.hero.backgroundColorBottom }};{{ end }}
-					{{- if .Params.hero.textColor }}--color-hero-text: {{ .Params.hero.textColor }};{{ end }}
-				}
-			</style>
-		{{ end }}
+	{{/* Site styles */}}
+	{{ partial "site/style/main" . }}
 
-	{{ "<!--<![endif]-->" | safeHTML }}
-
-	{{ partial "site/icons.html" . -}}
-	{{ partial "site/fathom.html" . -}}
-	{{- partial "site/social.html" . -}}
-
-	{{/* Output JavaScript */}}
-	{{- $fathomConfig := partial "config/fathom" . -}}
-	{{ $jsOptions := (dict
-		"minify" true
-		"targetPath" "main.js"
-		"params" (dict
-			"baseUrl" .Site.BaseURL
-			"fathomConfig" $fathomConfig
-		)
-	) -}}
-	{{ $js := resources.Get "js/main.js" | js.Build $jsOptions | resources.Fingerprint "sha512" -}}
-	<script defer src="{{ $js.RelPermalink }}"></script>
+	{{/* Site JavaScript */}}
+	{{ partial "site/script/fathom" . }}
+	{{ partial "site/script/main" . }}
 
 </head>
 <body class="page">
-	{{- partial "page/header.html" . -}}
+	{{- partial "page/header" . -}}
 	<main role="main" class="main {{ if .IsHome }}main--wide{{ end }}">
 		{{ if .IsHome }}
 			{{- block "hero" . }}{{- end }}
 		{{ end }}
 		<div class="main__inner">
-			{{- partial "breadcrumb.html" . -}}
+			{{- partial "breadcrumb" . -}}
 			{{- block "main" . }}{{- end }}
 		</div>
 	</main>
-	{{- partial "page/footer.html" . -}}
+	{{- partial "page/footer" . -}}
 </body>
 </html>
