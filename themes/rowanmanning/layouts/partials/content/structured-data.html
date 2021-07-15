@@ -2,12 +2,12 @@
 {{- /* Get JSON-LD data for the page */ -}}
 {{- /* ----------------------------- */ -}}
 
-{{- /* Get related content configuration */ -}}
-{{- $structuredDataEnabled := .Site.Params.structuredData.enabled | default true -}}
+{{- /* Get structured data configuration */ -}}
+{{- $structuredDataConfig := partial "config/structured-data" . -}}
 {{- $currentPageHasData := and .IsPage .Section -}}
 
 {{- /* Render the JSON-LD script */ -}}
-{{- if and $structuredDataEnabled $currentPageHasData -}}
+{{- if and $structuredDataConfig.enabled $currentPageHasData -}}
 	{{- $author := partial "content/data/author" . -}}
 	{{- $mainImage := partial "content/data/main-image" . -}}
 

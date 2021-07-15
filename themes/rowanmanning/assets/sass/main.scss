@@ -25,7 +25,6 @@ $hero-customizations: (
 @import "shared/typography";
 
 // Components
-@import "components/breadcrumb";
 @import "components/content-body";
 @import "components/content-foot";
 @import "components/content-head";
@@ -39,6 +38,7 @@ $hero-customizations: (
 @import "components/hero";
 @import "components/highlight";
 @import "components/image";
+@import "components/in-page-nav";
 @import "components/inline-list";
 @import "components/main";
 @import "components/notification";

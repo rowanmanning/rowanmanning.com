@@ -30,16 +30,16 @@
 
 </head>
 <body class="page">
-	{{- partial "page/header" . -}}
+	{{- partial "furniture/header" . -}}
 	<main role="main" class="main {{ if .IsHome }}main--wide{{ end }}">
 		{{ if .IsHome }}
 			{{- block "hero" . }}{{- end }}
 		{{ end }}
 		<div class="main__inner">
-			{{- partial "breadcrumb" . -}}
+			{{- partial "furniture/in-page-nav" . -}}
 			{{- block "main" . }}{{- end }}
 		</div>
 	</main>
-	{{- partial "page/footer" . -}}
+	{{- partial "furniture/footer" . -}}
 </body>
 </html>

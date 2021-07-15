@@ -1,24 +1,25 @@
 
-// Breadcrumb block
-.breadcrumb {
+// In-page nav block
+.in-page-nav {
 	@extend %base-typography;
 	font-size: var(--font-size-small);
 	line-height: var(--line-height-small);
 	color: var(--colorvalue-gray-light);
 	display: flex;
-
-	> ol {
-		display: flex;
-		flex: 2;
-		flex-wrap: wrap;
-		list-style: none;
-		margin: 0;
-		padding: 0;
-	}
 }
 
-// Breadcrumb item element
-.breadcrumb__item {
+// In-page nav breadcrumbs element
+.in-page-nav__breadcrumbs {
+	display: flex;
+	flex: 2;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+// In-page nav breadcrumb element
+.in-page-nav__crumb {
 	display: flex;
 	padding-right: var(--spacing-rule);
 
@@ -38,8 +39,8 @@
 	}
 }
 
-// Breadcrumb next/previous element
-.breadcrumb__nextprev {
+// In-page nav button element
+.in-page-nav__button {
 	display: block;
 	margin-left: var(--spacing-rule);
 	padding: 0 var(--spacingvalue-xxs);
@@ -58,8 +59,9 @@
 	}
 }
 
-.breadcrumb__nextprev--disabled,
-.breadcrumb__nextprev--disabled:hover {
+// In-page nav button element, "disabled" modifier
+.in-page-nav__button--disabled,
+.in-page-nav__button--disabled:hover {
 	color: var(--colorvalue-white-dark);
 	background-color: transparent;
 	cursor: not-allowed;

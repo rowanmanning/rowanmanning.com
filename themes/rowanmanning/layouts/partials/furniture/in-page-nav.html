@@ -1,0 +1,69 @@
+
+{{- /* Display an in-page navigation if there's a parent page */ -}}
+{{- if .Parent -}}
+	{{- $breadcrumbs := partial "content/data/breadcrumbs" . }}
+	{{- $structuredDataConfig := partial "config/structured-data" . -}}
+
+	<nav class="in-page-nav">
+
+		{{ with $breadcrumbs }}
+			{{ $structuredBreadcrumbs := slice }}
+
+			{{- /* Render breadcrumbs */ -}}
+			<ol class="in-page-nav__breadcrumbs">
+				{{ range $breadcrumbs }}
+					<li class="in-page-nav__crumb">
+						<a href="{{ .page.RelPermalink }}">{{ .page.Title }}</a>
+					</li>
+					{{
+						$structuredBreadcrumbs = $structuredBreadcrumbs | append (dict
+							"@type" "ListItem"
+							"position" .position
+							"name" .page.Title
+							"item" .page.Permalink
+						)
+					-}}
+				{{ end }}
+			</ol>
+
+			{{- /* Output structured data for breadcrumbs */ -}}
+			{{- if $structuredDataConfig.enabled -}}
+				{{-
+					$structuredData := (dict
+						"@context" "https://schema.org/"
+						"@type" "BreadcrumbList"
+						"itemListElement" $structuredBreadcrumbs
+					)
+				-}}
+				<script type="application/ld+json">{{ $structuredData | jsonify (dict "indent" "\t") | safeJS }}</script>
+			{{- end -}}
+		{{- end }}
+
+		{{- /* Render previous and next page links */ -}}
+		{{ if or .PrevInSection .NextInSection }}
+
+			{{ with .PrevInSection }}
+				<a href="{{ .RelPermalink }}" rel="prev" class="in-page-nav__button" data-component="page-turner">
+					<abbr title="View the previous page ({{ .Title }})">←</abbr>
+				</a>
+			{{ else }}
+				<span class="in-page-nav__button in-page-nav__button--disabled">
+					<abbr title="No previous page">←</abbr>
+				</span>
+			{{ end }}
+
+			{{ with .NextInSection }}
+				<a href="{{ .RelPermalink }}" rel="next" class="in-page-nav__button" data-component="page-turner">
+					<abbr title="View the next page ({{ .Title }})">→</abbr>
+				</a>
+			{{ else }}
+				<span class="in-page-nav__button in-page-nav__button--disabled">
+					<abbr title="No next page">→</abbr>
+				</span>
+			{{ end }}
+
+		{{ end }}
+
+	</nav>
+
+{{- end -}}

@@ -1,0 +1,39 @@
+
+{{/* Get page breadcrumbs */}}
+{{/* -------------------- */}}
+
+{{/* Default breadcrumbs to an empty slice */}}
+{{ $breadcrumbs := slice }}
+
+{{/* Recurse over pages to get breadcrumbs */}}
+{{ with .Parent }}
+	{{ $breadcrumbs = partial "content/data/breadcrumbs/_crumb" (dict "page" .) }}
+{{ end }}
+
+{{ return $breadcrumbs }}
+
+{{/* Define an inline partial to handle recursive breadcrumb fetching */}}
+{{ define "partials/content/data/breadcrumbs/_crumb" }}
+	{{ $breadcrumbs := .breadcrumbs | default slice }}
+
+	{{/* If the current page has a parent, add it to the list first */}}
+	{{ if .page.Parent }}
+		{{
+			$breadcrumbs = partial "content/data/breadcrumbs/_crumb" (dict
+				"page" .page.Parent
+				"position" .position
+				"breadcrumbs" $breadcrumbs
+			)
+		}}
+	{{ end }}
+
+	{{/* Add the current page to the list */}}
+	{{
+		$breadcrumbs = $breadcrumbs | append (dict
+			"page" .page
+			"position" (add (len $breadcrumbs) 1)
+		)
+	}}
+
+	{{ return $breadcrumbs }}
+{{ end }}
