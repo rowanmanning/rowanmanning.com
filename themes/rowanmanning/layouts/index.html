@@ -1,14 +1,12 @@
 
-{{ define "title" }}
-	{{ .Site.Title }}
-{{ end }}
+{{ define "title" }}{{ .Site.Title | default .Title }}{{ end }}
 
 {{ define "hero" }}
 	<header class="hero">
 		<div class="hero__inner">
-			<h1 class="hero__title">{{ .Site.Title }}</h1>
+			<h1 class="hero__title" data-test="content-title">{{ .Site.Title | default .Title }}</h1>
 			{{ with .Content }}
-				<div class="hero__body content-body">
+				<div class="hero__body content-body" data-test="content-body">
 					{{ . }}
 				</div>
 			{{ end }}

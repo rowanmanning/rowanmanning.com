@@ -1,0 +1,35 @@
+
+{{/* Get content title */}}
+{{/* ----------------- */}}
+
+{{/* Default to the title parameter */}}
+{{ $title := .Params.Title }}
+
+{{/* Regular pages which don't have a title */}}
+{{ if and (not $title) (eq .Kind "page") }}
+	{{ $title = printf "Untitled %v" (.Type | singularize | title) }}
+{{ end }}
+
+{{/* Section pages */}}
+{{ if and (not $title) (eq .Kind "section") }}
+	{{ $title = printf "All %v" (.Type | pluralize | title) }}
+{{ end }}
+
+{{/* Taxonomy pages */}}
+{{ if and (not $title) (eq .Kind "taxonomy") }}
+	{{ $title = printf "All %v" (.Data.Plural | title) }}
+{{ end }}
+
+{{/* Taxonomy term pages */}}
+{{ if eq .Kind "term" }}
+	{{ if or (not $title) (eq $title .Data.Term) }}
+		{{ $title = printf "“%v” %v" .Data.Term (.Data.Singular | title) }}
+	{{ end }}
+{{ end }}
+
+{{/* Finally use the .Title page variable */}}
+{{ if not $title }}
+	{{ $title = .Title }}
+{{ end }}
+
+{{ return $title }}

@@ -4,8 +4,18 @@
 
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
-	<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+
+	<title>
+		{{- block "title" . -}}{{- partial "content/data/title" . -}}{{- end -}}
+		{{- $title := partial "content/data/title" . -}}
+		{{- if and .Site.Title (not .IsHome) }} | {{ .Site.Title }}{{ end -}}
+	</title>
+
+	{{- $description := partial "content/data/description" . }}
+	{{ with $description -}}
+	<meta name="description" content="{{ $description }}" />
+	{{- end }}
+
 	<link rel="canonical" href="{{ .Permalink }}" />
 
 	{{ $author := partial "content/data/author" . -}}

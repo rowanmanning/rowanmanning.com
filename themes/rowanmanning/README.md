@@ -14,15 +14,15 @@ Adding author information to the site config allows for correct attribution of a
 
 ```yaml
 author:
-  name: "Rowan Manning"                 # The author name
-  website: "https://rowanmanning.com/"  # The author's website
-  github: "rowanmanning"                # The author's GitHub username
-  twitter: "rowanmanning"               # The author's Twitter handle
+  name: "Rowan Manning"             # The author name
+  url: "https://rowanmanning.com/"  # The author's website
+  github: "rowanmanning"            # The author's GitHub username
+  twitter: "rowanmanning"           # The author's Twitter handle
 ```
 
 ### Content highlight
 
-Content can be highlighted with colours, which appears in lists of content as well as on post pages.For each post, provide a `highlight` front-matter and specify one of the following colour options:
+Content can be highlighted with colours, which appears in lists of content as well as on post pages. For each post, provide a `highlight` front-matter and specify one of the following colour options:
 
   - `blue`
   - `cyan`
@@ -73,3 +73,9 @@ tiles:
 ### Main menu
 
 The site supports a limited `main` menu, but does not support nested links. The menu can also contain the following social links if provided in the site configuration ([see Authorship](#authorship))
+
+
+## License
+
+Licensed under the [GPLv3](LICENSE.md) license.<br/>
+Copyright &copy; 2021, Rowan Manning.

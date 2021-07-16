@@ -5,25 +5,30 @@
 
 	{{- /* Get information about the page */ -}}
 	{{- $author := partial "content/data/author" . -}}
+	{{- $description := partial "content/data/description" . -}}
 	{{- $logoSourceImage := resources.Get "logo.png" -}}
 	{{- $mainImage := partial "content/data/main-image" . -}}
+	{{- $title := partial "content/data/title" . -}}
 
 	{{- /* Open Graph */ -}}
 	<meta property="og:type" content="{{ if .Section }}article{{ else }}website{{ end }}" />
-	<meta property="og:site_name" content="{{ .Site.Title }}" />
-	<meta property="og:title" content="{{ .Title }}" />
+	<meta property="og:site_name" content="{{ .Site.Title | default .Site.Home.Title }}" />
+	<meta property="og:title" content="{{ $title }}" />
 	<meta property="og:url" content="{{ .Permalink }}" />
 	{{ if $mainImage.full -}}
-	<meta name="og:image" content="{{ $mainImage.full.Permalink }}" />
-	<meta name="og:image:alt" content="{{ $mainImage.full.Title | default .Title }}" />
+	<meta property="og:image" content="{{ $mainImage.full.Permalink }}" />
+	<meta property="og:image:alt" content="{{ $mainImage.full.Title | default $title }}" />
 	{{- else if $logoSourceImage -}}
-	<meta name="og:image" content="{{ $logoSourceImage.Permalink }}" />
-	<meta name="og:image:alt" content="{{ .Title }}" />
+	<meta property="og:image" content="{{ $logoSourceImage.Permalink }}" />
+	<meta property="og:image:alt" content="{{ $title }}" />
 	{{- end }}
-	{{ if .Description -}}<meta property="og:description" content="{{ .Description }}" />{{- end }}
+	{{ if $description -}}<meta property="og:description" content="{{ $description }}" />{{- end }}
 
 	{{- /* Open Graph article */ -}}
 	{{ if .Section }}
+	{{ if $author.url -}}
+	<meta property="article:author" content="{{ $author.url }}" />
+	{{- end }}
 	<meta property="article:published_time" content="{{ .Date }}" />
 	{{ if gt .Lastmod .Date -}}
 	<meta property="article:modified_time" content="{{ .Lastmod }}" />

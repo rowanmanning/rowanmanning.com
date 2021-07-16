@@ -9,7 +9,9 @@
 {{- /* Render the JSON-LD script */ -}}
 {{- if and $structuredDataConfig.enabled $currentPageHasData -}}
 	{{- $author := partial "content/data/author" . -}}
+	{{- $description := partial "content/data/description" . -}}
 	{{- $mainImage := partial "content/data/main-image" . -}}
+	{{- $title := partial "content/data/title" . -}}
 
 	{{- $image := "" -}}
 	{{- $thumb := "" -}}
@@ -28,8 +30,8 @@
 				"@id" .Permalink
 			)
 			"url" .Permalink
-			"headline" .Title
-			"description" .Description
+			"headline" $title
+			"description" $description
 			"image" $image
 			"thumbnailUrl" $thumb
 			"datePublished" .Date

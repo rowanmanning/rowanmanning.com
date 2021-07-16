@@ -3,20 +3,19 @@
 {{/* ---------------------- */}}
 
 {{/* Get site author information */}}
-{{ $siteAuthor := partial "site/data/author" . }}
+{{ $author := partial "site/data/author" . }}
 
 {{/* Get author information from page, defaulting to site */}}
-{{ $authorName := .Params.author.name | default $siteAuthor.name }}
-{{ $authorUrl := .Params.author.url | default $siteAuthor.url }}
-{{ $authorImage := .Params.author.image | default $siteAuthor.image }}
-{{ $authorTwitter := .Params.author.twitter | default $siteAuthor.twitter }}
-{{ $authorGitHub := .Params.author.github | default $siteAuthor.github }}
-{{
-	return (dict
-		"name" $authorName
-		"url" $authorUrl
-		"image" $authorImage
-		"twitter" $authorTwitter
-		"github" $authorGitHub
-	)
-}}
+{{ if .Params.author.name }}
+	{{
+		$author = (dict
+			"name" (.Params.author.name | default nil)
+			"url" (.Params.author.url | default nil)
+			"image" (.Params.author.image | default nil)
+			"twitter" (.Params.author.twitter | default nil)
+			"github" (.Params.author.github | default nil)
+		)
+	}}
+{{ end }}
+
+{{ return $author }}

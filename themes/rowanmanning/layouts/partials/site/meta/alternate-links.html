@@ -1,5 +1,6 @@
 
 {{- /* Site alternate links metadata */ -}}
+{{- $title := partial "content/data/title" . -}}
 {{-
 	$allowedAlternatives := (slice
 		"Atom"
@@ -8,8 +9,8 @@
 -}}
 {{-
 	$titles := (dict
-		"Atom" (printf "Atom feed for %v" $.Params.Title)
-		"RSS" (printf "RSS feed for %v" $.Params.Title)
+		"Atom" (printf "Atom feed for %v" $title)
+		"RSS" (printf "RSS feed for %v" $title)
 	)
 -}}
 {{- range (where .AlternativeOutputFormats "Name" "in" $allowedAlternatives) }}

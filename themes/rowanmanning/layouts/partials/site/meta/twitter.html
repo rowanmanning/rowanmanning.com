@@ -5,20 +5,22 @@
 
 	{{- /* Get information about the page */ -}}
 	{{- $author := partial "content/data/author" . -}}
+	{{- $description := partial "content/data/description" . -}}
 	{{- $logoSourceImage := resources.Get "logo-twitter.png" -}}
 	{{- $mainImage := partial "content/data/main-image" . -}}
+	{{- $title := partial "content/data/title" . -}}
 
 	{{- /* Twitter summary card */ -}}
 	<meta name="twitter:card" content="summary" />
-	<meta property="twitter:url" content="{{ .Permalink }}">
-	<meta name="twitter:title" content="{{ .Title }}" />
+	<meta name="twitter:url" content="{{ .Permalink }}">
+	<meta name="twitter:title" content="{{ $title }}" />
 	{{ if $mainImage.full -}}
 	<meta name="twitter:image" content="{{ $mainImage.full.Permalink }}" />
-	<meta name="twitter:image:alt" content="{{ $mainImage.full.Title | default .Title }}" />
+	<meta name="twitter:image:alt" content="{{ $mainImage.full.Title | default $title }}" />
 	{{- else if $logoSourceImage -}}
 	<meta name="twitter:image" content="{{ $logoSourceImage.Permalink }}" />
-	<meta name="twitter:image:alt" content="{{ .Title }}" />
+	<meta name="twitter:image:alt" content="{{ $title }}" />
 	{{- end }}
 	{{ if $author.twitter -}}<meta name="twitter:site" content="@{{ $author.twitter }}" />{{- end }}
-	{{ if .Description -}}<meta name="twitter:description" content="{{ .Description }}" />{{- end }}
+	{{ if $description -}}<meta name="twitter:description" content="{{ $description }}" />{{- end }}
 {{ end -}}

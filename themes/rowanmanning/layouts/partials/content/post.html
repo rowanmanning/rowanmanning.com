@@ -16,13 +16,13 @@
 {{- /* Render the content */ -}}
 {{- /* ------------------ */ -}}
 
-<article class="h-entry">
+<article class="h-entry" data-test="content-full">
 	{{- partial "content/structured-data" . -}}
 
 	<header class="content-head">
 
-		<h1 class="content-head__title">
-			<a href="{{ .Permalink }}" class="u-url u-uid p-name">{{ .Title }}</a>
+		<h1 class="content-head__title" data-test="content-title">
+			<a href="{{ .Permalink }}" class="u-url u-uid p-name">{{- partial "content/data/title" . -}}</a>
 		</h1>
 
 		<div class="content-head__meta content-highlight content-highlight--{{ .Params.highlight }}">
@@ -31,9 +31,9 @@
 				Posted on <time datetime="{{ .Date }}" class="dt-published">{{ .Date.Format "02 January 2006" }}</time>
 				by 
 				<span class="p-author h-card">
-					<a href="{{ $author.url }}" class="u-url">
+					{{ if $author.url }}<a href="{{ $author.url }}" class="u-url" data-test="content-author-url">{{ end }}
 						<img src="{{ $author.image }}" alt="" class="hidden-fully u-photo" width="20" />
-						<span class="p-name">{{ $author.name }}</span></a></span>
+						<span class="p-name">{{ $author.name }}</span>{{ if $author.url }}</a>{{ end }}</span>
 
 				{{- if gt .Lastmod .Date }}
 					(<time datetime="{{ .Params.lastmod }}" title="{{ .Params.lastmod.Format "02 January 2006" }}" class="dt-updated">updated</time>)
@@ -68,7 +68,7 @@
 	</header>
 
 	{{ if .Content }}
-		<div property="articleBody" class="content-body e-content">
+		<div property="articleBody" class="content-body e-content" data-test="content-body">
 			{{ if .Draft }}{{ partial "draft-notice.html" . }}{{ end }}
 			{{ .Content }}
 			{{ if .Draft }}{{ partial "draft-notice.html" . }}{{ end }}

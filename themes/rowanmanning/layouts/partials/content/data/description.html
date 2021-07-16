@@ -1,0 +1,18 @@
+
+{{/* Get content description */}}
+{{/* ----------------------- */}}
+
+{{/* Default to the page description property */}}
+{{ $description := .Description }}
+
+{{/* For pages, fall back to the summary */}}
+{{ if and (not $description) (eq .Kind "page") }}
+	{{ $description = .Summary }}
+{{ end }}
+
+{{/* Finally default to a description of the site */}}
+{{ if and (not $description) .Site.Params.description }}
+	{{ $description = .Site.Params.description }}
+{{ end }}
+
+{{ return $description }}

@@ -1,0 +1,11 @@
+
+baseURL: https://authored.mock.local/
+noJSConfigInAssets: true
+
+# Configure a site-wide author
+author:
+  name: "Mock Site Author"
+  url: "https://site.author.local/"
+  image: "https://site.author.local/photo.png"
+  github: "mocksiteauthor_github"
+  twitter: "mocksiteauthor_twitter"

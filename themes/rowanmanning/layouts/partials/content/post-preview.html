@@ -8,12 +8,14 @@
 {{- /* Render the content preview */ -}}
 {{- /* -------------------------- */ -}}
 
-<article class="h-entry content-summary content-highlight content-highlight--{{ .Params.highlight }}">
+<article class="h-entry content-summary content-highlight content-highlight--{{ .Params.highlight }}" data-test="content-summary">
 	{{- partial "content/structured-data" . -}}
 
 	<header>
-		<h2 class="content-summary__headline">
-			<a href="{{ .RelPermalink }}" class="u-url u-uid p-name">{{ .Title }}</a>
+		<h2 class="content-summary__headline" data-test="content-summary-title">
+			<a href="{{ .RelPermalink }}" class="u-url u-uid p-name" data-test="content-summary-link">
+				{{- partial "content/data/title" . -}}
+			</a>
 		</h2>
 	</header>
 
