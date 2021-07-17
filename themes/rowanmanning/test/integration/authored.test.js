@@ -307,4 +307,21 @@ describe('authored website', () => {
 
 	});
 
+	describe('404 page', () => {
+
+		before(async () => {
+			document = (await loadBuiltHTML('404.html')).document;
+		});
+
+		describe('head', () => {
+
+			it('does not have an author link element', () => {
+				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
+				assert.isUndefined(subject);
+			});
+
+		});
+
+	});
+
 });

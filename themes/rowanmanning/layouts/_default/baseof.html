@@ -16,10 +16,14 @@
 	<meta name="description" content="{{ $description }}" />
 	{{- end }}
 
+	{{ if ne .Kind "404" -}}
 	<link rel="canonical" href="{{ .Permalink }}" />
+	{{- end }}
 
 	{{ $author := partial "content/data/author" . -}}
-	{{- if and (not .IsHome) $author.url }}<link rel="author" href="{{ $author.url }}" />{{ end }}
+	{{- if and (not .IsHome) (ne .Kind "404") $author.url -}}
+	<link rel="author" href="{{ $author.url }}" />
+	{{- end }}
 
 	{{/* Site meta data */}}
 	{{ partial "site/meta/robots" . }}

@@ -756,6 +756,47 @@ describe('basic website', () => {
 
 	});
 
+	describe('404 page', () => {
+
+		before(async () => {
+			document = (await loadBuiltHTML('404.html')).document;
+		});
+
+		describe('head', () => {
+
+			it('has a title element', () => {
+				const subject = document.querySelector('title')?.textContent.trim();
+				assert.strictEqual(subject, '404');
+			});
+
+			it('does not have a description meta element', () => {
+				const subject = document.querySelector('meta[name=description]')?.getAttribute('content');
+				assert.isUndefined(subject);
+			});
+
+			it('does not have a canonical URL link element', () => {
+				const subject = document.querySelector('link[rel=canonical]')?.getAttribute('href');
+				assert.isUndefined(subject);
+			});
+
+			it('does not have an author link element', () => {
+				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
+				assert.isUndefined(subject);
+			});
+
+		});
+
+		describe('body', () => {
+
+			it('contains a level 1 heading element with the page title', () => {
+				const subject = findTestElements(document.body, 'content-title')[0]?.textContent.trim();
+				assert.strictEqual(subject, 'Error 404: Page Not Found');
+			});
+
+		});
+
+	});
+
 	describe('sitemap', () => {
 
 		before(async () => {
