@@ -832,4 +832,31 @@ describe('basic website', () => {
 
 	});
 
+	describe('page furniture', () => {
+
+		before(async () => {
+			document = (await loadBuiltHTML('index.html')).document;
+		});
+
+		describe('header', () => {
+			let header;
+
+			before(() => {
+				header = findTestElements(document.body, 'header')[0];
+			});
+
+			it('contains a link to the home page', () => {
+				const subject = findTestElements(header, 'header-site-name')[0]?.getAttribute('href');
+				assert.strictEqual(subject, 'https://basic.mock.local/');
+			});
+
+			it('contains the home page title', () => {
+				const subject = findTestElements(header, 'header-site-name')[0]?.textContent.trim();
+				assert.strictEqual(subject, 'Mock Title Home');
+			});
+
+		});
+
+	});
+
 });

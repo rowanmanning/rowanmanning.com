@@ -1,0 +1,6 @@
+
+baseURL: https://basic.mock.local/
+noJSConfigInAssets: true
+
+# Configure a site title
+title: "Mock Site Title"

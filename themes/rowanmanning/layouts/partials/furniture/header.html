@@ -1,10 +1,12 @@
 
 {{ $author := partial "site/data/author" . }}
 
-<header role="banner" class="header">
+<header role="banner" class="header" data-test="header">
 	<div class="header__inner">
 
-		<a href="{{ .Site.BaseURL }}" class="header__site-name">{{ .Site.Title }}</a>
+		<a href="{{ .Site.BaseURL }}" class="header__site-name" data-test="header-site-name">
+			{{- .Site.Title | default .Site.Home.Title -}}
+		</a>
 
 		<nav role="navigation" class="header__navigation">
 			<ul>
