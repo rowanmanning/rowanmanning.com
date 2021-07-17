@@ -6,7 +6,7 @@ const fs = require('fs/promises');
 
 const buildDirectory = `${__dirname}/../build`;
 
-module.exports = async function hugoBuild(name) {
+module.exports = async function hugoBuild(name, options = {}) {
 	const sourceDirectory = `${__dirname}/../mock/${name}`;
 
 	// Remove the build directory
@@ -17,7 +17,7 @@ module.exports = async function hugoBuild(name) {
 	// Build the site
 	await exec(`
 		hugo
-			--environment="production"
+			--environment="${options.environment || 'production'}"
 			--config="${sourceDirectory}/config.yml"
 			--source="${sourceDirectory}"
 			--destination="${buildDirectory}"

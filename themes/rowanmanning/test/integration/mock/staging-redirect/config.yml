@@ -1,0 +1,8 @@
+
+baseURL: https://staging-redirect.mock.local/
+noJSConfigInAssets: true
+
+# Configure a staging redirect
+params:
+  stagingRedirect:
+    enabled: true
