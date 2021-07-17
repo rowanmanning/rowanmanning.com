@@ -18,7 +18,12 @@
   "engines": {
     "node": ">=14"
   },
-  "dependencies": {},
+  "dependencies": {
+    "accessible-autocomplete": "^2.0.3",
+    "hotkeys-js": "^3.8.7",
+    "lunr": "^2.3.9",
+    "text-clipper": "^2.1.0"
+  },
   "devDependencies": {
     "@rowanmanning/eslint-config": "^3.1.0",
     "@rowanmanning/make": "^2.1.0",
