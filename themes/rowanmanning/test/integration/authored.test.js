@@ -324,4 +324,70 @@ describe('authored website', () => {
 
 	});
 
+	describe('page furniture', () => {
+
+		before(async () => {
+			document = (await loadBuiltHTML('index.html')).document;
+		});
+
+		describe('header', () => {
+			let header;
+
+			before(() => {
+				header = findTestElements(document.body, 'header')[0];
+			});
+
+			it('contains a link to the site author GitHub', () => {
+				const subject = findTestElements(header, 'header-github')[0]?.getAttribute('href');
+				assert.strictEqual(subject, 'https://github.com/mocksiteauthor_github');
+			});
+
+			it('contains a rel="me" link to the site author GitHub', () => {
+				const subject = findTestElements(header, 'header-github')[0]?.getAttribute('rel');
+				assert.strictEqual(subject, 'me');
+			});
+
+			it('contains a link to the site author Twitter', () => {
+				const subject = findTestElements(header, 'header-twitter')[0]?.getAttribute('href');
+				assert.strictEqual(subject, 'https://twitter.com/mocksiteauthor_twitter');
+			});
+
+			it('contains a rel="me" link to the site author Twitter', () => {
+				const subject = findTestElements(header, 'header-twitter')[0]?.getAttribute('rel');
+				assert.strictEqual(subject, 'me');
+			});
+
+			describe('when the page has an author', () => {
+
+				before(async () => {
+					document = (await loadBuiltHTML('section001s/item002/index.html')).document;
+					header = findTestElements(document.body, 'header')[0];
+				});
+
+				it('contains a link to the site author GitHub', () => {
+					const subject = findTestElements(header, 'header-github')[0]?.getAttribute('href');
+					assert.strictEqual(subject, 'https://github.com/mocksiteauthor_github');
+				});
+
+				it('does not contain a rel="me" link to the site author GitHub', () => {
+					const subject = findTestElements(header, 'header-github')[0]?.getAttribute('rel');
+					assert.isNull(subject);
+				});
+
+				it('contains a link to the site author Twitter', () => {
+					const subject = findTestElements(header, 'header-twitter')[0]?.getAttribute('href');
+					assert.strictEqual(subject, 'https://twitter.com/mocksiteauthor_twitter');
+				});
+
+				it('does not contain a rel="me" link to the site author Twitter', () => {
+					const subject = findTestElements(header, 'header-twitter')[0]?.getAttribute('rel');
+					assert.isNull(subject);
+				});
+
+			});
+
+		});
+
+	});
+
 });

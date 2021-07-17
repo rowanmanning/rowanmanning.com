@@ -855,6 +855,16 @@ describe('basic website', () => {
 				assert.strictEqual(subject, 'Mock Title Home');
 			});
 
+			it('does not contain a link to GitHub', () => {
+				const subject = findTestElements(header, 'header-github')[0]?.getAttribute('href');
+				assert.isUndefined(subject);
+			});
+
+			it('does not contain a link to Twitter', () => {
+				const subject = findTestElements(header, 'header-twitter')[0]?.getAttribute('href');
+				assert.isUndefined(subject);
+			});
+
 		});
 
 	});

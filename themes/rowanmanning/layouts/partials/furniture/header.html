@@ -1,5 +1,6 @@
 
-{{ $author := partial "site/data/author" . }}
+{{ $siteAuthor := partial "site/data/author" . }}
+{{ $contentAuthor := partial "content/data/author" . }}
 
 <header role="banner" class="header" data-test="header">
 	<div class="header__inner">
@@ -31,17 +32,17 @@
 					</li>
 				{{ end }}
 
-				{{ if $author.github }}
+				{{ if $siteAuthor.github }}
 					<li class="header__navigation-item">
-						<a href="https://github.com/{{ $author.github }}" rel="me" title="GitHub" class="header__icon header__icon--github">
+						<a href="https://github.com/{{ $siteAuthor.github }}" {{ if $contentAuthor.isSiteAuthor }}rel="me"{{ end }} title="GitHub" class="header__icon header__icon--github" data-test="header-github">
 							GitHub
 						</a>
 					</li>
 				{{ end }}
 
-				{{ if $author.twitter }}
+				{{ if $siteAuthor.twitter }}
 					<li class="header__navigation-item">
-						<a href="https://twitter.com/{{ $author.twitter }}" rel="me" title="Twitter" class="header__icon header__icon--twitter">
+						<a href="https://twitter.com/{{ $siteAuthor.twitter }}" {{ if $contentAuthor.isSiteAuthor }}rel="me"{{ end }} title="Twitter" class="header__icon header__icon--twitter" data-test="header-twitter">
 							Twitter
 						</a>
 					</li>
