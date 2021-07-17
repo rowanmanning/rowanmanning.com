@@ -22,6 +22,7 @@ module.exports = async function hugoBuild(name) {
 			--source="${sourceDirectory}"
 			--destination="${buildDirectory}"
 			--theme="${__dirname}/../../.."
+			--buildDrafts
 			--ignoreCache
 			--gc
 	`.replace(/[\t\r\n]+/g, ' '));
