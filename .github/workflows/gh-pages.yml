@@ -16,8 +16,62 @@ on:
 
 # Jobs
 jobs:
+
+  # Verify code
+  verify:
+    name: Verify code
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - uses: actions/cache@v1
+        env:
+          cache-version: v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-${{ env.cache-version }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ env.cache-version }}-
+            ${{ runner.os }}-
+      - run: npm install
+      - run: make verify
+
+  # Run theme tests
+  test-themes:
+    name: Run theme tests
+    needs: verify
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./themes/rowanmanning
+    strategy:
+      matrix:
+        node-version:
+          - 14.x
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - uses: actions/cache@v1
+        env:
+          cache-version: v1
+        with:
+          path: ~/.npm
+          key: theme-${{ runner.os }}-${{ env.cache-version }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            theme-${{ runner.os }}-${{ env.cache-version }}-
+            theme-${{ runner.os }}-
+      - run: npm install
+      - run: make test-integration
+
+  # Deploy to GitHub Pages
   deploy:
-    runs-on: ubuntu-18.04
+    name: Deploy Production
+    needs: test-themes
+    runs-on: ubuntu-latest
     steps:
 
       - uses: actions/checkout@v2

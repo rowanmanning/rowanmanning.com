@@ -24,3 +24,6 @@ build: process-webmentions
 
 build-staging: process-webmentions
 	@hugo --minify --environment staging
+
+test-theme:
+	@cd themes/rowanmanning && make test-integration
