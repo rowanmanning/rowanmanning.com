@@ -65,6 +65,11 @@ jobs:
             theme-${{ runner.os }}-${{ env.cache-version }}-
             theme-${{ runner.os }}-
       - run: npm install
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.83.1"
+          extended: true
       - run: make test-integration
 
   # Deploy to GitHub Pages
