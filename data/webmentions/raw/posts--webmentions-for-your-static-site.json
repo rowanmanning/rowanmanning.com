@@ -286,5 +286,23 @@
 		"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"03cf50a0888917d756ac2d53c3bd45b2": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "",
+			"photo": "",
+			"url": ""
+		},
+		"url": "https://ghost.computer/posts/11",
+		"published": null,
+		"wm-received": "2021-07-18T21:41:10Z",
+		"wm-id": 1222773,
+		"wm-source": "https://ghost.computer/posts/11",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"mention-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "mention-of",
+		"wm-private": false
 	}
 }
