@@ -29,7 +29,7 @@
 
 		<p class="content-summary__preview">
 			<span class="p-summary">{{ .Description }}</span>
-			<a href="{{ .RelPermalink }}">{{ if (.Params.cta) }}{{ .Params.cta }}{{ else }}Read more{{ end }}</a>.
+			<a href="{{ .RelPermalink }}">{{ if (.Params.cta) }}{{ .Params.cta }}{{ else }}Read {{.Title}}{{ end }}</a>.
 		</p>
 
 	</div>
