@@ -32,7 +32,7 @@
 				by 
 				<span class="p-author h-card">
 					{{ if $author.url }}<a href="{{ $author.url }}" class="u-url" data-test="content-author-url">{{ end }}
-						<img src="{{ $author.image }}" alt="" class="hidden-fully u-photo" width="20" />
+						<img src="{{ $author.image }}" alt="" class="hidden-fully u-photo" width="20" height="20" loading="lazy" />
 						<span class="p-name">{{ $author.name }}</span>{{ if $author.url }}</a>{{ end }}</span>
 
 				{{- if gt .Lastmod .Date }}

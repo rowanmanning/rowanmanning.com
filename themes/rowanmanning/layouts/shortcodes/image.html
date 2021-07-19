@@ -26,7 +26,7 @@
 
 <figure class="image">
 	<a href="{{ $imageLink | relURL }}">
-		<img src="{{ $imagePermalink | relURL }}" alt="{{ $imageAltText }}" />
+		<img src="{{ $imagePermalink | relURL }}" alt="{{ $imageAltText }}" width="{{ $resource.Width }}" height="{{ $resource.Height }}" loading="lazy" />
 	</a>
 	{{ if $imageCaption }}
 		<figcaption class="image__caption">{{ $imageCaption }}</figcaption>

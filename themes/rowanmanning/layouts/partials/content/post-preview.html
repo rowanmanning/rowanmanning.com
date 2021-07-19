@@ -23,7 +23,7 @@
 
 		{{ if $mainImage.full }}
 			<a href="{{ .RelPermalink }}" class="content-summary__thumb">
-				<img src="{{ $mainImage.thumb.RelPermalink }}" alt="{{ $mainImage.full.Title }}" />
+				<img src="{{ $mainImage.thumb.RelPermalink }}" alt="{{ $mainImage.full.Title }}" width="{{ $mainImage.thumb.Width }}" height="{{ $mainImage.thumb.Height }}" loading="lazy" />
 			</a>
 		{{ end }}
 
