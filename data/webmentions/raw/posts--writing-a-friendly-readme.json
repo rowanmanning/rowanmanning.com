@@ -1828,5 +1828,27 @@
 		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 		"wm-property": "mention-of",
 		"wm-private": false
+	},
+	"a59898cef9991b504c23f3ef5794adc4": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "KnowledgeOwl",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/cd7b826a841bf8c29fccf93624cba5109599c3cf36ffdf4a9f9e9adf117223fa.jpg",
+			"url": "https://twitter.com/knowledge_owl"
+		},
+		"url": "https://twitter.com/knowledge_owl/status/1417197799804964864",
+		"published": "2021-07-19T19:01:00+00:00",
+		"wm-received": "2021-07-19T19:07:31Z",
+		"wm-id": 1224433,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/1417197799804964864",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Writing a Friendly README: \"Your project’s README is pretty important; it’s often the first thing that a person new to your project will see, and is frequently the only source of documentation.\" <a href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a> via <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>",
+			"text": "Writing a Friendly README: \"Your project’s README is pretty important; it’s often the first thing that a person new to your project will see, and is frequently the only source of documentation.\" rowanmanning.com/posts/writing-… via @rowanmanning"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
 	}
 }
