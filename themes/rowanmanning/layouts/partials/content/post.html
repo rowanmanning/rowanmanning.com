@@ -114,7 +114,7 @@
 			{{ end }}
 			{{ if $author.twitter }}
 				<li>
-					<a href="https://twitter.com/share?url={{ safeURL .Permalink }}&amp;via={{ safeURL $author.twitter }}&amp;text={{ safeURL .Title }}" target="_blank" class="content-foot__icon content-foot__icon--twitter">Tweet about this {{ $pageType }}</a>
+					<a href="https://twitter.com/share?url={{ safeURL .Permalink }}&amp;via={{ safeURL $author.twitter }}&amp;text={{ safeURL .Title }}" target="_blank" rel="noopener" class="content-foot__icon content-foot__icon--twitter">Tweet about this {{ $pageType }}</a>
 				</li>
 			{{ end }}
 			{{ if $webmentionConfig.enabled }}
@@ -136,7 +136,7 @@
 			<div class="content-body">
 				<h2>Responses ({{ len $webmentions.all }})</h2>
 			</div>
-			<form method="post" action="{{ $webmentionConfig.receiver }}" target="_blank" class="webmention-form" data-component="webmention-form">
+			<form method="post" action="{{ $webmentionConfig.receiver }}" target="_blank" rel="noopener" class="webmention-form" data-component="webmention-form">
 				<input type="hidden" name="target" value="{{ .Permalink }}" />
 				<p>
 					You can respond to this {{ $pageType }} using <a href="https://indieweb.org/Webmention">Webmentions</a>,
