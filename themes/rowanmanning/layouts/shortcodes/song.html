@@ -1,26 +1,13 @@
 
-{{/* Get the song track ID */}}
-{{- $trackId := "" -}}
-{{- if .IsNamedParams -}}
-	{{- $trackId = .Get "id" -}}
-{{- else -}}
-	{{- $trackId = .Get 0 -}}
-{{- end -}}
+{{- /* Get the song track id param */ -}}
+{{- $trackId := cond .IsNamedParams (.Get "id") (.Get 0) -}}
 
-{{/* Get the song caption */}}
-{{- $caption := "" -}}
-{{- if .IsNamedParams -}}
-	{{- $caption = .Get "caption" -}}
-{{- else -}}
-	{{- $caption = .Get 1 -}}
-{{- end -}}
+{{- /* Get the song caption param */ -}}
+{{- $caption := cond .IsNamedParams (.Get "caption") (.Get 1) | default "Listen on Spotify" -}}
 
-{{/* Default the song caption to a generic string */}}
-{{- $caption = $caption | default "Listen on Spotify" -}}
-
-{{/* Error if there's no track ID */}}
+{{- /* Error if we don't have correct params */ -}}
 {{- if not $trackId -}}
-	{{- errorf "Missing song track ID: %s" .Position -}}
+	{{- errorf "ID parameter is required for song shortcode: %s" .Position -}}
 {{- end -}}
 
 <figure class="embed">

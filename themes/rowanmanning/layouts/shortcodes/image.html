@@ -1,25 +1,25 @@
 
-{{/* Get the image parameters */}}
-{{- $srcParam := cond .IsNamedParams (.Get "src") (.Get 0) -}}
-{{- $altParam := cond .IsNamedParams (.Get "alt") (.Get 1) -}}
-{{- $captionParam := cond .IsNamedParams (.Get "caption") (.Get 2) -}}
-{{- $linkParam := cond .IsNamedParams (.Get "link") (.Get 3) -}}
+{{- /* Get the image parameters */ -}}
+{{- $src := cond .IsNamedParams (.Get "src") (.Get 0) -}}
+{{- $alt := cond .IsNamedParams (.Get "alt") (.Get 1) -}}
+{{- $caption := cond .IsNamedParams (.Get "caption") (.Get 2) -}}
+{{- $link := cond .IsNamedParams (.Get "link") (.Get 3) -}}
 
-{{/* Attempt to match the image as a page resource */}}
-{{- $resource := index (.Page.Resources.Match $srcParam) 0 -}}
+{{- /* Attempt to match the image as a page resource */ -}}
+{{- $resource := index (.Page.Resources.Match $src) 0 -}}
 
-{{/* Get image variables from resource vs params */}}
-{{- $imagePermalink := $resource.Permalink | default $srcParam -}}
-{{- $imageCaption := $captionParam | default $resource.Params.caption -}}
-{{- $imageAltText := $altParam | default $resource.Title | default $imageCaption -}}
-{{- $imageLink := $linkParam | default $resource.Params.link | default $imagePermalink -}}
+{{- /* Get image variables from resource vs params */ -}}
+{{- $imagePermalink := $resource.Permalink | default $src -}}
+{{- $imageCaption := $caption | default $resource.Params.caption -}}
+{{- $imageAltText := $alt | default $resource.Title | default $imageCaption -}}
+{{- $imageLink := $link | default $resource.Params.link | default $imagePermalink -}}
 
-{{/* Error if the resource is not an image */}}
+{{- /* Error if the resource is not an image */ -}}
 {{- if and ($resource) (ne $resource.ResourceType "image") -}}
 	{{- errorf "Resource is not an image: %s" .Position -}}
 {{- end -}}
 
-{{/* Error if there's no alt text */}}
+{{- /* Error if there's no alt text */ -}}
 {{- if not $imageAltText -}}
 	{{- errorf "Missing image alt attribute: %s" .Position -}}
 {{- end -}}

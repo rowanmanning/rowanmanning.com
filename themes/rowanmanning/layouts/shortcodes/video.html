@@ -1,26 +1,13 @@
 
-{{/* Get the video ID */}}
-{{- $videoId := "" -}}
-{{- if .IsNamedParams -}}
-	{{- $videoId = .Get "id" -}}
-{{- else -}}
-	{{- $videoId = .Get 0 -}}
-{{- end -}}
+{{- /* Get the video id param */ -}}
+{{- $videoId := cond .IsNamedParams (.Get "id") (.Get 0) -}}
 
-{{/* Get the video caption */}}
-{{- $caption := "" -}}
-{{- if .IsNamedParams -}}
-	{{- $caption = .Get "caption" -}}
-{{- else -}}
-	{{- $caption = .Get 1 -}}
-{{- end -}}
+{{- /* Get the video caption param */ -}}
+{{- $caption := cond .IsNamedParams (.Get "caption") (.Get 1) | default "Watch on YouTube" -}}
 
-{{/* Default the video caption to a generic string */}}
-{{- $caption = $caption | default "Watch on YouTube" -}}
-
-{{/* Error if there's no video ID */}}
+{{- /* Error if we don't have correct params */ -}}
 {{- if not $videoId -}}
-	{{- errorf "Missing video ID: %s" .Position -}}
+	{{- errorf "ID parameter is required for video shortcode: %s" .Position -}}
 {{- end -}}
 
 <figure class="embed">

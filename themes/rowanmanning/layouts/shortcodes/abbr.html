@@ -1,2 +1,10 @@
 
-<abbr title="{{ .Get 0 }}">{{ .Inner }}</abbr>
+{{- /* Get the abbreviation title param */ -}}
+{{- $title := cond .IsNamedParams (.Get "title") (.Get 0) -}}
+
+{{- /* Error if we don't have correct params */ -}}
+{{- if not $title -}}
+	{{- errorf "Title parameter is required for abbr shortcode: %s" .Position -}}
+{{- end -}}
+
+<abbr title="{{ $title }}">{{ .Inner }}</abbr>

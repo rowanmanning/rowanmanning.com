@@ -1,18 +1,13 @@
 
-{{/* Get the content warning title */}}
-{{- $title := "" -}}
-{{- if .IsNamedParams -}}
-	{{- $title = .Get "title" -}}
-{{- else -}}
-	{{- $title = .Get 0 -}}
-{{- end -}}
+{{- /* Get the details title param */ -}}
+{{- $title := cond .IsNamedParams (.Get "title") (.Get 0) -}}
 
-{{/* Get the content warning ID */}}
-{{- $id := "" -}}
-{{- if .IsNamedParams -}}
-	{{- $id = .Get "id" -}}
-{{- else -}}
-	{{- $id = .Get 1 -}}
+{{- /* Get the details id param */ -}}
+{{- $id := cond .IsNamedParams (.Get "id") (.Get 1) -}}
+
+{{- /* Error if we don't have correct params */ -}}
+{{- if not $title -}}
+	{{- errorf "Title parameter is required for details shortcode: %s" .Position -}}
 {{- end -}}
 
 <details {{ if $id }}id="{{ $id }}"{{ end }}>

@@ -1,14 +1,22 @@
 
-{{- $idParam := cond .IsNamedParams (.Get "id") (.Get 0) -}}
+{{- /* Get the footnote id param */ -}}
+{{- $id := cond .IsNamedParams (.Get "id") (.Get 0) -}}
 
-{{- if eq $idParam "list" -}}
-	<footer class="footnotes">
-		{{- range .Page.Scratch.Get "footnotes" -}}
-			<div><span id="footnote-{{ .id }}">{{ .id }}. {{ .value }}</span></div>
-		{{- end -}}
-	</footer>
-{{- else -}}
-	{{- .Page.Scratch.Add "footnotes" (slice (dict "id" $idParam "value" .Inner)) -}}
-	<a class="footnote-link" href="#footnote-{{ $idParam }}"><sup>{{ $idParam }}</sup></a>
+{{- /* Error if we don't have correct params */ -}}
+{{- if not $id -}}
+	{{- errorf "ID parameter is required for footnote shortcode: %s" .Position -}}
 {{- end -}}
 
+{{- /* List out all collected footnotes */ -}}
+{{- if eq $id "list" -}}
+	<footer class="footnotes">
+		{{- range .Page.Scratch.Get "footnotes" -}}
+			<div><span id="footnote-{{ .id | urlize }}">{{ .id }}. {{ .value }}</span></div>
+		{{- end -}}
+	</footer>
+
+{{- /* Add a footnote to the list */ -}}
+{{- else -}}
+	{{- .Page.Scratch.Add "footnotes" (slice (dict "id" $id "value" .Inner)) -}}
+	<a class="footnote-link" href="#footnote-{{ $id | urlize }}"><sup>{{ $id }}</sup></a>
+{{- end -}}

@@ -1,2 +1,13 @@
 
-<div class="pin pin--{{ .Get 0 }}">{{ .Inner }}</div>
+{{- /* Get the pin to param */ -}}
+{{- $to := cond .IsNamedParams (.Get "to") (.Get 0) -}}
+
+{{- /* Error if we don't have correct params */ -}}
+{{- if not $to -}}
+	{{- errorf "To parameter is required for pin shortcode: %s" .Position -}}
+{{- end -}}
+{{- if and (ne $to "left") (ne $to "right") -}}
+	{{- errorf "To parameter must be 'left' or 'right': %s" .Position -}}
+{{- end -}}
+
+<div class="pin pin--{{ $to | urlize }}">{{ .Inner }}</div>

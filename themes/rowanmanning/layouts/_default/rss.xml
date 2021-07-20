@@ -1,0 +1,58 @@
+
+{{- /* Set the current context, either the current page or the site */ -}}
+{{- $context := . -}}
+{{- if .IsHome -}}
+	{{- $context = .Site -}}
+{{- end -}}
+
+{{- /* Get all of the pages */ -}}
+{{- $pages := slice -}}
+{{- if or $.IsHome $.IsSection -}}
+	{{- $pages = $context.RegularPages -}}
+{{- else -}}
+	{{- $pages = $context.Pages -}}
+{{- end -}}
+
+{{- /* Filter out private pages */ -}}
+{{- $pages = where $pages "Params.private" "!=" true -}}
+
+{{- /* Get the RSS configuration and limit pages */ -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+	{{- $pages = $pages | first $limit -}}
+{{- end -}}
+
+{{- /* Grab required data */ -}}
+{{- $title := partial "content/data/title" . -}}
+{{- if and .Site.Title (not .IsHome) }}
+	{{- $title = printf "%s | %s" $title .Site.Title -}}
+{{ end -}}
+
+{{- /* Output RSS XML */ -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{/* <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel TEST="true">
+		<title>{{ $title }}</title>
+		<link>{{ .Permalink }}</link>
+		<description>TODO</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>{{ .Site.LanguageCode | default "en" }}</language>{{ with .Site.Copyright }}
+		<copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
+		<lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+		{{- with .OutputFormats.Get "RSS" -}}
+		{{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+		{{- end -}}
+		{{ range $pages }}
+			<item>
+				<title>{{ .Title }}</title>
+				<link>{{ .Permalink }}</link>
+				<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+				{{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
+				<guid>{{ .Permalink }}</guid>
+				<description>{{ .Summary | html }}</description>
+			</item>
+		{{ end }}
+	</channel>
+</rss> */}}
+
+{{ partial "feed/data" . | jsonify (dict "indent" "  ") }}

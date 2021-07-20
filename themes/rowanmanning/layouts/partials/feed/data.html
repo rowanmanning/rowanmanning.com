@@ -1,0 +1,78 @@
+
+{{/* Get feed data */}}
+{{/* ------------- */}}
+
+{{/* Set the current context, either the current page or the home page */}}
+{{ $context := . }}
+{{ if .IsHome }}
+	{{ $context = .Site }}
+{{ end }}
+
+{{/* Get all of the pages in the feed */}}
+{{ $pages := slice }}
+{{ if or .IsHome .IsSection }}
+	{{ $pages = $context.RegularPages }}
+{{ else }}
+	{{ $pages = $context.Pages }}
+{{ end }}
+
+{{/* Filter out private pages */}}
+{{/* TODO proper visibility check */}}
+{{ $pages = where $pages "Params.private" "!=" true }}
+
+{{/* Get the RSS configuration and limit pages by this number */}}
+{{ $limit := .Site.Config.Services.RSS.Limit }}
+{{ if ge $limit 1 }}
+	{{ $pages = $pages | first $limit }}
+{{ end }}
+
+{{/* Get the feed title from the page and site title */}}
+{{ $title := partial "content/data/title" . }}
+{{ if and .Site.Title (not .IsHome) }}
+	{{ $title = printf "%s | %s" $title .Site.Title }}
+{{ end }}
+
+{{/* Get the last modified time */}}
+{{ $updated := now }}
+{{ if len $pages }}
+	{{ $updated = (index $pages 0).Lastmod }}
+{{ end }}
+
+{{/* Get the content author */}}
+{{ $author := partial "content/data/author" . }}
+
+{{/* Define the entries */}}
+{{ $entries := slice }}
+{{ range $pages }}
+	{{ $contentTitle := partial "content/data/title" . }}
+	{{ $contentDescription := partial "content/data/description" . }}
+	{{ $contentAuthor := partial "content/data/author" . }}
+	{{/* TODO related? tags? */}}
+	{{
+		$entries = $entries | append (dict
+			"title" $contentTitle
+			"description" $contentDescription
+			"author" $contentAuthor
+			"link" .Permalink
+			"published" .Date
+			"updated" .Lastmod
+			"content" (.Content | safeHTML)
+		)
+	}}
+{{ end }}
+
+{{/* Define the feed */}}
+{{
+	$feed := (dict
+		"title" $title
+		"link" .Permalink
+		"description" "TODO"
+		"language" (.Site.LanguageCode | default "en")
+		"copyright" .Site.Copyright
+		"updated" $updated
+		"author" $author
+		"entries" $entries
+	)
+}}
+
+{{ return $feed }}
