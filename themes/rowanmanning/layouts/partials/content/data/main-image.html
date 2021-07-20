@@ -22,6 +22,9 @@
 	$mainImage := (dict
 		"full" nil
 		"thumb" nil
+		"thumb64" nil
+		"thumb128" nil
+		"thumb256" nil
 	)
 }}
 
@@ -30,6 +33,9 @@
 		$mainImage = (dict
 			"full" $image
 			"thumb" ($image.Fill "160x160 Center")
+			"thumb64" ($image.Fill "64x64 Center")
+			"thumb128" ($image.Fill "128x128 Center")
+			"thumb256" ($image.Fill "256x256 Center")
 		)
 	}}
 {{ end }}

@@ -10,6 +10,7 @@
 
 {{- /* Get image variables from resource vs params */ -}}
 {{- $imagePermalink := $resource.Permalink | default $src -}}
+{{- $imageRelPermalink := $imagePermalink | relURL -}}
 {{- $imageCaption := $caption | default $resource.Params.caption -}}
 {{- $imageAltText := $alt | default $resource.Title | default $imageCaption -}}
 {{- $imageLink := $link | default $resource.Params.link | default $imagePermalink -}}
@@ -26,7 +27,20 @@
 
 <figure class="image">
 	<a href="{{ $imageLink | relURL }}">
-		<img src="{{ $imagePermalink | relURL }}" alt="{{ $imageAltText }}" width="{{ $resource.Width }}" height="{{ $resource.Height }}" loading="lazy" />
+		<img
+			{{ if $resource }}
+				srcset="
+					{{ cond (gt $resource.Width 720) ($resource.Resize "720x").RelPermalink $imageRelPermalink }},
+					{{ cond (gt $resource.Width 1080) ($resource.Resize "1080x").RelPermalink $imageRelPermalink }} 1.5x,
+					{{ cond (gt $resource.Width 1440) ($resource.Resize "1440x").RelPermalink $imageRelPermalink }} 2x
+				"
+			{{ end }}
+			src="{{ $imageRelPermalink }}"
+			alt="{{ $imageAltText }}"
+			width="{{ $resource.Width }}"
+			height="{{ $resource.Height }}"
+			loading="lazy"
+		/>
 	</a>
 	{{ if $imageCaption }}
 		<figcaption class="image__caption">{{ $imageCaption }}</figcaption>

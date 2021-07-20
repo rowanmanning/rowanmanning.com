@@ -23,7 +23,18 @@
 
 		{{ if $mainImage.full }}
 			<a href="{{ .RelPermalink }}" class="content-summary__thumb">
-				<img src="{{ $mainImage.thumb.RelPermalink }}" alt="{{ $mainImage.full.Title }}" width="{{ $mainImage.thumb.Width }}" height="{{ $mainImage.thumb.Height }}" loading="lazy" />
+				<img
+					srcset="
+						{{ $mainImage.thumb64.RelPermalink }},
+						{{ $mainImage.thumb128.RelPermalink }} 1.5x,
+						{{ $mainImage.thumb256.RelPermalink }} 2x
+					"
+					src="{{ $mainImage.thumb64.RelPermalink }}"
+					alt="{{ $mainImage.full.Title }}"
+					width="{{ $mainImage.thumb128.Width }}"
+					height="{{ $mainImage.thumb128.Height }}"
+					loading="lazy"
+				/>
 			</a>
 		{{ end }}
 
