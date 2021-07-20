@@ -3,6 +3,11 @@
 .webmention-form {
 	@extend %base-typography;
 	margin-bottom: var(--spacing-line);
+
+	// Link elements
+	a {
+		@extend %link;
+	}
 }
 
 // Webmention form inputs element
