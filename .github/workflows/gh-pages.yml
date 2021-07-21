@@ -43,34 +43,27 @@ jobs:
     name: Run theme tests
     needs: verify
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./themes/rowanmanning
-    strategy:
-      matrix:
-        node-version:
-          - 14.x
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 14.x
       - uses: actions/cache@v1
         env:
           cache-version: v1
         with:
           path: ~/.npm
-          key: theme-${{ runner.os }}-${{ env.cache-version }}-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-${{ env.cache-version }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            theme-${{ runner.os }}-${{ env.cache-version }}-
-            theme-${{ runner.os }}-
+            ${{ runner.os }}-${{ env.cache-version }}-
+            ${{ runner.os }}-
       - run: npm install
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: "0.83.1"
           extended: true
-      - run: make test-integration
+      - run: make test-theme
 
   # Deploy to GitHub Pages
   deploy:
