@@ -1,10 +1,12 @@
 'use strict';
 
-describe('basic website', () => {
+describe('simple website', () => {
 	let document;
 
 	before(async () => {
-		await hugoBuild('basic');
+		await hugoBuild({
+			name: 'simple'
+		});
 	});
 
 	describe('home page', () => {
@@ -32,7 +34,7 @@ describe('basic website', () => {
 
 			it('has a canonical URL link element', () => {
 				const subject = document.querySelector('link[rel=canonical]')?.getAttribute('href');
-				assert.strictEqual(subject, 'https://basic.mock.local/');
+				assert.strictEqual(subject, 'https://simple.mock.local/');
 			});
 
 			it('does not have an author link element', () => {
@@ -137,7 +139,7 @@ describe('basic website', () => {
 
 			it('has a canonical URL link element', () => {
 				const subject = document.querySelector('link[rel=canonical]')?.getAttribute('href');
-				assert.strictEqual(subject, 'https://basic.mock.local/section001s/');
+				assert.strictEqual(subject, 'https://simple.mock.local/section001s/');
 			});
 
 			it('does not have an author link element', () => {
@@ -213,11 +215,11 @@ describe('basic website', () => {
 						image: '',
 						keywords: ['tag001', 'tag002'],
 						mainEntityOfPage: {
-							'@id': 'https://basic.mock.local/section001s/item001/',
+							'@id': 'https://simple.mock.local/section001s/item001/',
 							'@type': 'WebPage'
 						},
 						thumbnailUrl: '',
-						url: 'https://basic.mock.local/section001s/item001/'
+						url: 'https://simple.mock.local/section001s/item001/'
 					},
 					{
 						'@context': 'https://schema.org/',
@@ -235,11 +237,11 @@ describe('basic website', () => {
 						image: '',
 						keywords: null,
 						mainEntityOfPage: {
-							'@id': 'https://basic.mock.local/section001s/item002/',
+							'@id': 'https://simple.mock.local/section001s/item002/',
 							'@type': 'WebPage'
 						},
 						thumbnailUrl: '',
-						url: 'https://basic.mock.local/section001s/item002/'
+						url: 'https://simple.mock.local/section001s/item002/'
 					}
 				]);
 			});
@@ -309,7 +311,7 @@ describe('basic website', () => {
 
 			it('has a canonical URL link element', () => {
 				const subject = document.querySelector('link[rel=canonical]')?.getAttribute('href');
-				assert.strictEqual(subject, 'https://basic.mock.local/page001/');
+				assert.strictEqual(subject, 'https://simple.mock.local/page001/');
 			});
 
 			it('does not have an author link element', () => {
@@ -328,8 +330,8 @@ describe('basic website', () => {
 					type: 'website',
 					site_name: 'Mock Title Home',
 					title: 'Mock Title Single Page',
-					url: 'https://basic.mock.local/page001/',
-					image: 'https://basic.mock.local/logo.png',
+					url: 'https://simple.mock.local/page001/',
+					image: 'https://simple.mock.local/logo.png',
 					'image:alt': 'Mock Title Single Page',
 					description: 'Mock Description Single Page'
 				});
@@ -339,9 +341,9 @@ describe('basic website', () => {
 				const twitter = parseTwitterMeta(document);
 				assert.deepEqual(twitter, {
 					card: 'summary',
-					url: 'https://basic.mock.local/page001/',
+					url: 'https://simple.mock.local/page001/',
 					title: 'Mock Title Single Page',
-					image: 'https://basic.mock.local/logo-twitter.png',
+					image: 'https://simple.mock.local/logo-twitter.png',
 					'image:alt': 'Mock Title Single Page',
 					description: 'Mock Description Single Page'
 				});
@@ -416,7 +418,7 @@ describe('basic website', () => {
 
 			it('has a canonical URL link element', () => {
 				const subject = document.querySelector('link[rel=canonical]')?.getAttribute('href');
-				assert.strictEqual(subject, 'https://basic.mock.local/section001s/item001/');
+				assert.strictEqual(subject, 'https://simple.mock.local/section001s/item001/');
 			});
 
 			it('does not have an author link element', () => {
@@ -435,8 +437,8 @@ describe('basic website', () => {
 					type: 'article',
 					site_name: 'Mock Title Home',
 					title: 'Mock Title Single Page In Section',
-					url: 'https://basic.mock.local/section001s/item001/',
-					image: 'https://basic.mock.local/logo.png',
+					url: 'https://simple.mock.local/section001s/item001/',
+					image: 'https://simple.mock.local/logo.png',
 					'image:alt': 'Mock Title Single Page In Section',
 					description: 'Mock Description Single Page In Section'
 				});
@@ -446,9 +448,9 @@ describe('basic website', () => {
 				const twitter = parseTwitterMeta(document);
 				assert.deepEqual(twitter, {
 					card: 'summary',
-					url: 'https://basic.mock.local/section001s/item001/',
+					url: 'https://simple.mock.local/section001s/item001/',
 					title: 'Mock Title Single Page In Section',
-					image: 'https://basic.mock.local/logo-twitter.png',
+					image: 'https://simple.mock.local/logo-twitter.png',
 					'image:alt': 'Mock Title Single Page In Section',
 					description: 'Mock Description Single Page In Section'
 				});
@@ -486,11 +488,11 @@ describe('basic website', () => {
 					image: '',
 					keywords: ['tag001', 'tag002'],
 					mainEntityOfPage: {
-						'@id': 'https://basic.mock.local/section001s/item001/',
+						'@id': 'https://simple.mock.local/section001s/item001/',
 						'@type': 'WebPage'
 					},
 					thumbnailUrl: '',
-					url: 'https://basic.mock.local/section001s/item001/'
+					url: 'https://simple.mock.local/section001s/item001/'
 				});
 			});
 
@@ -553,7 +555,7 @@ describe('basic website', () => {
 
 			it('has a canonical URL link element', () => {
 				const subject = document.querySelector('link[rel=canonical]')?.getAttribute('href');
-				assert.strictEqual(subject, 'https://basic.mock.local/tags/');
+				assert.strictEqual(subject, 'https://simple.mock.local/tags/');
 			});
 
 			it('does not have an author link element', () => {
@@ -661,7 +663,7 @@ describe('basic website', () => {
 
 			it('has a canonical URL link element', () => {
 				const subject = document.querySelector('link[rel=canonical]')?.getAttribute('href');
-				assert.strictEqual(subject, 'https://basic.mock.local/tags/tag001/');
+				assert.strictEqual(subject, 'https://simple.mock.local/tags/tag001/');
 			});
 
 			it('does not have an author link element', () => {
@@ -813,20 +815,20 @@ describe('basic website', () => {
 			assert.lengthOf(subject, 14);
 			const urls = [...subject].map(url => url.querySelector('loc')?.textContent);
 			assert.deepEqual(urls, [
-				'https://basic.mock.local/section001s/item002/',
-				'https://basic.mock.local/categories/cat001/',
-				'https://basic.mock.local/categories/',
-				'https://basic.mock.local/',
-				'https://basic.mock.local/section001s/',
-				'https://basic.mock.local/section001s/item001/',
-				'https://basic.mock.local/tags/',
-				'https://basic.mock.local/tags/tag001/',
-				'https://basic.mock.local/tags/tag002/',
-				'https://basic.mock.local/section002s/item002/',
-				'https://basic.mock.local/section002s/item001/',
-				'https://basic.mock.local/section002s/',
-				'https://basic.mock.local/page002/',
-				'https://basic.mock.local/page001/'
+				'https://simple.mock.local/section001s/item002/',
+				'https://simple.mock.local/categories/cat001/',
+				'https://simple.mock.local/categories/',
+				'https://simple.mock.local/',
+				'https://simple.mock.local/section001s/',
+				'https://simple.mock.local/section001s/item001/',
+				'https://simple.mock.local/tags/',
+				'https://simple.mock.local/tags/tag001/',
+				'https://simple.mock.local/tags/tag002/',
+				'https://simple.mock.local/section002s/item002/',
+				'https://simple.mock.local/section002s/item001/',
+				'https://simple.mock.local/section002s/',
+				'https://simple.mock.local/page002/',
+				'https://simple.mock.local/page001/'
 			]);
 		});
 
@@ -850,9 +852,9 @@ describe('basic website', () => {
 			assert.lengthOf(channels, 1);
 			const atomLink = document.querySelector('channel > [rel=self]');
 			assert.strictEqual(document.querySelector('channel > title')?.textContent, 'Mock Title Home');
-			assert.strictEqual(document.querySelector('channel > link')?.textContent, 'https://basic.mock.local/');
+			assert.strictEqual(document.querySelector('channel > link')?.textContent, 'https://simple.mock.local/');
 			assert.strictEqual(atomLink?.tagName, 'atom:link');
-			assert.strictEqual(atomLink?.getAttribute('href'), 'https://basic.mock.local/index.xml');
+			assert.strictEqual(atomLink?.getAttribute('href'), 'https://simple.mock.local/index.xml');
 			assert.strictEqual(atomLink?.getAttribute('rel'), 'self');
 			assert.strictEqual(atomLink?.getAttribute('type'), 'application/rss+xml');
 			assert.strictEqual(document.querySelector('channel > description')?.textContent, 'Mock Description Home');
@@ -879,55 +881,55 @@ describe('basic website', () => {
 			});
 			assert.deepEqual(itemData, [
 				{
-					guid: 'https://basic.mock.local/section001s/item002/',
+					guid: 'https://simple.mock.local/section001s/item002/',
 					title: 'Untitled Section001',
 					author: undefined,
-					link: 'https://basic.mock.local/section001s/item002/',
+					link: 'https://simple.mock.local/section001s/item002/',
 					pubDate: 'Sat, 02 Jan 2021 08:00:00 +0000',
 					description: '<p>Mock Content Single Page In Section</p>\n',
 					categories: []
 				},
 				{
-					guid: 'https://basic.mock.local/section001s/item001/',
+					guid: 'https://simple.mock.local/section001s/item001/',
 					title: 'Mock Title Single Page In Section',
 					author: undefined,
-					link: 'https://basic.mock.local/section001s/item001/',
+					link: 'https://simple.mock.local/section001s/item001/',
 					pubDate: 'Sat, 02 Jan 2021 08:00:00 +0000',
 					description: '<p>Mock Content Single Page In Section</p>\n',
 					categories: ['cat001', 'tag001', 'tag002']
 				},
 				{
-					guid: 'https://basic.mock.local/section002s/item002/',
+					guid: 'https://simple.mock.local/section002s/item002/',
 					title: 'Untitled Section002',
 					author: undefined,
-					link: 'https://basic.mock.local/section002s/item002/',
+					link: 'https://simple.mock.local/section002s/item002/',
 					pubDate: 'Fri, 01 Jan 2021 08:00:00 +0000',
 					description: '<p>Mock Content Single Page In Section</p>\n',
 					categories: []
 				},
 				{
-					guid: 'https://basic.mock.local/section002s/item001/',
+					guid: 'https://simple.mock.local/section002s/item001/',
 					title: 'Mock Title Single Page In Section',
 					author: undefined,
-					link: 'https://basic.mock.local/section002s/item001/',
+					link: 'https://simple.mock.local/section002s/item001/',
 					pubDate: 'Fri, 01 Jan 2021 08:00:00 +0000',
 					description: '<p>Mock Content Single Page In Section</p>\n',
 					categories: ['cat001', 'tag001', 'tag002']
 				},
 				{
-					guid: 'https://basic.mock.local/page002/',
+					guid: 'https://simple.mock.local/page002/',
 					title: 'Untitled Page',
 					author: undefined,
-					link: 'https://basic.mock.local/page002/',
+					link: 'https://simple.mock.local/page002/',
 					pubDate: 'Mon, 01 Jan 0001 00:00:00 +0000',
 					description: '<p>Mock Content Single Page</p>\n',
 					categories: []
 				},
 				{
-					guid: 'https://basic.mock.local/page001/',
+					guid: 'https://simple.mock.local/page001/',
 					title: 'Mock Title Single Page',
 					author: undefined,
-					link: 'https://basic.mock.local/page001/',
+					link: 'https://simple.mock.local/page001/',
 					pubDate: 'Mon, 01 Jan 0001 00:00:00 +0000',
 					description: '<p>Mock Content Single Page</p>\n',
 					categories: []
@@ -955,9 +957,9 @@ describe('basic website', () => {
 			assert.lengthOf(channels, 1);
 			const atomLink = document.querySelector('channel > [rel=self]');
 			assert.strictEqual(document.querySelector('channel > title')?.textContent, 'Mock Title Section');
-			assert.strictEqual(document.querySelector('channel > link')?.textContent, 'https://basic.mock.local/section001s/');
+			assert.strictEqual(document.querySelector('channel > link')?.textContent, 'https://simple.mock.local/section001s/');
 			assert.strictEqual(atomLink?.tagName, 'atom:link');
-			assert.strictEqual(atomLink?.getAttribute('href'), 'https://basic.mock.local/section001s/index.xml');
+			assert.strictEqual(atomLink?.getAttribute('href'), 'https://simple.mock.local/section001s/index.xml');
 			assert.strictEqual(atomLink?.getAttribute('rel'), 'self');
 			assert.strictEqual(atomLink?.getAttribute('type'), 'application/rss+xml');
 			assert.strictEqual(document.querySelector('channel > description')?.textContent, 'Mock Description Section');
@@ -984,19 +986,19 @@ describe('basic website', () => {
 			});
 			assert.deepEqual(itemData, [
 				{
-					guid: 'https://basic.mock.local/section001s/item002/',
+					guid: 'https://simple.mock.local/section001s/item002/',
 					title: 'Untitled Section001',
 					author: undefined,
-					link: 'https://basic.mock.local/section001s/item002/',
+					link: 'https://simple.mock.local/section001s/item002/',
 					pubDate: 'Sat, 02 Jan 2021 08:00:00 +0000',
 					description: '<p>Mock Content Single Page In Section</p>\n',
 					categories: []
 				},
 				{
-					guid: 'https://basic.mock.local/section001s/item001/',
+					guid: 'https://simple.mock.local/section001s/item001/',
 					title: 'Mock Title Single Page In Section',
 					author: undefined,
-					link: 'https://basic.mock.local/section001s/item001/',
+					link: 'https://simple.mock.local/section001s/item001/',
 					pubDate: 'Sat, 02 Jan 2021 08:00:00 +0000',
 					description: '<p>Mock Content Single Page In Section</p>\n',
 					categories: ['cat001', 'tag001', 'tag002']
@@ -1037,9 +1039,9 @@ describe('basic website', () => {
 			assert.lengthOf(channels, 1);
 			const atomLink = document.querySelector('channel > [rel=self]');
 			assert.strictEqual(document.querySelector('channel > title')?.textContent, 'Mock Title Taxonomy');
-			assert.strictEqual(document.querySelector('channel > link')?.textContent, 'https://basic.mock.local/tags/');
+			assert.strictEqual(document.querySelector('channel > link')?.textContent, 'https://simple.mock.local/tags/');
 			assert.strictEqual(atomLink?.tagName, 'atom:link');
-			assert.strictEqual(atomLink?.getAttribute('href'), 'https://basic.mock.local/tags/index.xml');
+			assert.strictEqual(atomLink?.getAttribute('href'), 'https://simple.mock.local/tags/index.xml');
 			assert.strictEqual(atomLink?.getAttribute('rel'), 'self');
 			assert.strictEqual(atomLink?.getAttribute('type'), 'application/rss+xml');
 			assert.strictEqual(document.querySelector('channel > description')?.textContent, 'Mock Description Taxonomy');
@@ -1066,19 +1068,19 @@ describe('basic website', () => {
 			});
 			assert.deepEqual(itemData, [
 				{
-					guid: 'https://basic.mock.local/tags/tag001/',
+					guid: 'https://simple.mock.local/tags/tag001/',
 					title: 'Mock Title Term',
 					author: undefined,
-					link: 'https://basic.mock.local/tags/tag001/',
+					link: 'https://simple.mock.local/tags/tag001/',
 					pubDate: 'Sat, 02 Jan 2021 08:00:00 +0000',
 					description: '<p>Mock Content Term</p>\n',
 					categories: []
 				},
 				{
-					guid: 'https://basic.mock.local/tags/tag002/',
+					guid: 'https://simple.mock.local/tags/tag002/',
 					title: '“tag002” Tag',
 					author: undefined,
-					link: 'https://basic.mock.local/tags/tag002/',
+					link: 'https://simple.mock.local/tags/tag002/',
 					pubDate: 'Sat, 02 Jan 2021 08:00:00 +0000',
 					description: '<p>Content in “tag002” Tag</p>',
 					categories: []
@@ -1119,9 +1121,9 @@ describe('basic website', () => {
 			assert.lengthOf(channels, 1);
 			const atomLink = document.querySelector('channel > [rel=self]');
 			assert.strictEqual(document.querySelector('channel > title')?.textContent, 'Mock Title Term');
-			assert.strictEqual(document.querySelector('channel > link')?.textContent, 'https://basic.mock.local/tags/tag001/');
+			assert.strictEqual(document.querySelector('channel > link')?.textContent, 'https://simple.mock.local/tags/tag001/');
 			assert.strictEqual(atomLink?.tagName, 'atom:link');
-			assert.strictEqual(atomLink?.getAttribute('href'), 'https://basic.mock.local/tags/tag001/index.xml');
+			assert.strictEqual(atomLink?.getAttribute('href'), 'https://simple.mock.local/tags/tag001/index.xml');
 			assert.strictEqual(atomLink?.getAttribute('rel'), 'self');
 			assert.strictEqual(atomLink?.getAttribute('type'), 'application/rss+xml');
 			assert.strictEqual(document.querySelector('channel > description')?.textContent, 'Mock Description Term');
@@ -1148,19 +1150,19 @@ describe('basic website', () => {
 			});
 			assert.deepEqual(itemData, [
 				{
-					guid: 'https://basic.mock.local/section001s/item001/',
+					guid: 'https://simple.mock.local/section001s/item001/',
 					title: 'Mock Title Single Page In Section',
 					author: undefined,
-					link: 'https://basic.mock.local/section001s/item001/',
+					link: 'https://simple.mock.local/section001s/item001/',
 					pubDate: 'Sat, 02 Jan 2021 08:00:00 +0000',
 					description: '<p>Mock Content Single Page In Section</p>\n',
 					categories: ['cat001', 'tag001', 'tag002']
 				},
 				{
-					guid: 'https://basic.mock.local/section002s/item001/',
+					guid: 'https://simple.mock.local/section002s/item001/',
 					title: 'Mock Title Single Page In Section',
 					author: undefined,
-					link: 'https://basic.mock.local/section002s/item001/',
+					link: 'https://simple.mock.local/section002s/item001/',
 					pubDate: 'Fri, 01 Jan 2021 08:00:00 +0000',
 					description: '<p>Mock Content Single Page In Section</p>\n',
 					categories: ['cat001', 'tag001', 'tag002']
@@ -1198,7 +1200,7 @@ describe('basic website', () => {
 
 			it('contains a link to the home page', () => {
 				const subject = findTestElements(header, 'header-site-name')[0]?.getAttribute('href');
-				assert.strictEqual(subject, 'https://basic.mock.local/');
+				assert.strictEqual(subject, 'https://simple.mock.local/');
 			});
 
 			it('contains the home page title', () => {

@@ -4,7 +4,9 @@ describe('website with draft and private content', () => {
 	let document;
 
 	before(async () => {
-		await hugoBuild('visibility');
+		await hugoBuild({
+			name: 'visibility'
+		});
 	});
 
 	describe('single page', () => {

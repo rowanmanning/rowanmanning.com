@@ -4,7 +4,10 @@ describe('website with feed limit', () => {
 	let document;
 
 	before(async () => {
-		await hugoBuild('rss/limit');
+		await hugoBuild({
+			name: 'simple',
+			config: 'rss-limit'
+		});
 	});
 
 	describe('home page RSS', () => {
@@ -113,7 +116,10 @@ describe('website with main sections configured', () => {
 	let document;
 
 	before(async () => {
-		await hugoBuild('rss/main-sections');
+		await hugoBuild({
+			name: 'simple',
+			config: 'rss-main-sections'
+		});
 	});
 
 	describe('home page RSS', () => {
@@ -151,7 +157,10 @@ describe('website with feed sections configured', () => {
 	let document;
 
 	before(async () => {
-		await hugoBuild('rss/feed-sections');
+		await hugoBuild({
+			name: 'simple',
+			config: 'rss-feed-sections'
+		});
 	});
 
 	describe('home page RSS', () => {

@@ -4,7 +4,8 @@ describe('website with a staging redirect', () => {
 	let document;
 
 	before(async () => {
-		await hugoBuild('staging-redirect', {
+		await hugoBuild({
+			name: 'staging-redirect',
 			environment: 'staging'
 		});
 	});

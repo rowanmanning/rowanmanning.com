@@ -4,7 +4,10 @@ describe('website with atom feeds instead of RSS', () => {
 	let document;
 
 	before(async () => {
-		await hugoBuild('atom/basic');
+		await hugoBuild({
+			name: 'simple',
+			config: 'atom'
+		});
 	});
 
 	describe('home page', () => {
@@ -162,11 +165,11 @@ describe('website with atom feeds instead of RSS', () => {
 			assert.strictEqual(title?.textContent, 'Mock Title Home');
 			assert.strictEqual(title?.getAttribute('type'), 'html');
 
-			assert.strictEqual(altLink?.getAttribute('href'), 'https://atom-basic.mock.local/');
+			assert.strictEqual(altLink?.getAttribute('href'), 'https://atom-simple.mock.local/');
 			assert.strictEqual(altLink?.getAttribute('rel'), 'alternate');
 			assert.strictEqual(altLink?.getAttribute('type'), 'text/html');
 
-			assert.strictEqual(selfLink?.getAttribute('href'), 'https://atom-basic.mock.local/feed.xml');
+			assert.strictEqual(selfLink?.getAttribute('href'), 'https://atom-simple.mock.local/feed.xml');
 			assert.strictEqual(selfLink?.getAttribute('rel'), 'self');
 			assert.strictEqual(selfLink?.getAttribute('type'), 'application/atom+xml');
 
@@ -174,7 +177,7 @@ describe('website with atom feeds instead of RSS', () => {
 			assert.isUndefined(author?.querySelector('uri')?.textContent);
 			assert.isUndefined(author?.querySelector('email')?.textContent);
 
-			assert.strictEqual(document.querySelector('feed > id')?.textContent, 'https://atom-basic.mock.local/');
+			assert.strictEqual(document.querySelector('feed > id')?.textContent, 'https://atom-simple.mock.local/');
 			assert.strictEqual(document.querySelector('feed > rights')?.textContent, `Copyright © ${new Date().getFullYear()}`);
 			assert.strictEqual(document.querySelector('feed > updated')?.textContent, '2021-01-02T08:00:00+00:00');
 		});
@@ -208,13 +211,13 @@ describe('website with atom feeds instead of RSS', () => {
 			});
 			assert.deepEqual(entryData, [
 				{
-					id: 'https://atom-basic.mock.local/section001s/item002/',
+					id: 'https://atom-simple.mock.local/section001s/item002/',
 					title: 'Untitled Section001',
 					titleType: 'html',
 					authorName: 'Unknown',
 					authorEmail: undefined,
 					authorUri: undefined,
-					link: 'https://atom-basic.mock.local/section001s/item002/',
+					link: 'https://atom-simple.mock.local/section001s/item002/',
 					linkRel: 'alternate',
 					linkType: 'text/html',
 					published: '2021-01-02T08:00:00+00:00',
@@ -224,13 +227,13 @@ describe('website with atom feeds instead of RSS', () => {
 					categories: []
 				},
 				{
-					id: 'https://atom-basic.mock.local/section001s/item001/',
+					id: 'https://atom-simple.mock.local/section001s/item001/',
 					title: 'Mock Title Single Page In Section',
 					titleType: 'html',
 					authorName: 'Unknown',
 					authorEmail: undefined,
 					authorUri: undefined,
-					link: 'https://atom-basic.mock.local/section001s/item001/',
+					link: 'https://atom-simple.mock.local/section001s/item001/',
 					linkRel: 'alternate',
 					linkType: 'text/html',
 					published: '2021-01-02T08:00:00+00:00',
@@ -239,30 +242,30 @@ describe('website with atom feeds instead of RSS', () => {
 					contentType: 'html',
 					categories: [
 						{
-							scheme: 'https://atom-basic.mock.local/categories/cat001/',
+							scheme: 'https://atom-simple.mock.local/categories/cat001/',
 							term: 'cat001',
 							label: 'cat001'
 						},
 						{
-							scheme: 'https://atom-basic.mock.local/tags/tag001/',
+							scheme: 'https://atom-simple.mock.local/tags/tag001/',
 							term: 'tag001',
 							label: 'tag001'
 						},
 						{
-							scheme: 'https://atom-basic.mock.local/tags/tag002/',
+							scheme: 'https://atom-simple.mock.local/tags/tag002/',
 							term: 'tag002',
 							label: 'tag002'
 						}
 					]
 				},
 				{
-					id: 'https://atom-basic.mock.local/section002s/item002/',
+					id: 'https://atom-simple.mock.local/section002s/item002/',
 					title: 'Untitled Section002',
 					titleType: 'html',
 					authorName: 'Unknown',
 					authorEmail: undefined,
 					authorUri: undefined,
-					link: 'https://atom-basic.mock.local/section002s/item002/',
+					link: 'https://atom-simple.mock.local/section002s/item002/',
 					linkRel: 'alternate',
 					linkType: 'text/html',
 					published: '2021-01-01T08:00:00+00:00',
@@ -272,13 +275,13 @@ describe('website with atom feeds instead of RSS', () => {
 					categories: []
 				},
 				{
-					id: 'https://atom-basic.mock.local/section002s/item001/',
+					id: 'https://atom-simple.mock.local/section002s/item001/',
 					title: 'Mock Title Single Page In Section',
 					titleType: 'html',
 					authorName: 'Unknown',
 					authorEmail: undefined,
 					authorUri: undefined,
-					link: 'https://atom-basic.mock.local/section002s/item001/',
+					link: 'https://atom-simple.mock.local/section002s/item001/',
 					linkRel: 'alternate',
 					linkType: 'text/html',
 					published: '2021-01-01T08:00:00+00:00',
@@ -287,30 +290,30 @@ describe('website with atom feeds instead of RSS', () => {
 					contentType: 'html',
 					categories: [
 						{
-							scheme: 'https://atom-basic.mock.local/categories/cat001/',
+							scheme: 'https://atom-simple.mock.local/categories/cat001/',
 							term: 'cat001',
 							label: 'cat001'
 						},
 						{
-							scheme: 'https://atom-basic.mock.local/tags/tag001/',
+							scheme: 'https://atom-simple.mock.local/tags/tag001/',
 							term: 'tag001',
 							label: 'tag001'
 						},
 						{
-							scheme: 'https://atom-basic.mock.local/tags/tag002/',
+							scheme: 'https://atom-simple.mock.local/tags/tag002/',
 							term: 'tag002',
 							label: 'tag002'
 						}
 					]
 				},
 				{
-					id: 'https://atom-basic.mock.local/page002/',
+					id: 'https://atom-simple.mock.local/page002/',
 					title: 'Untitled Page',
 					titleType: 'html',
 					authorName: 'Unknown',
 					authorEmail: undefined,
 					authorUri: undefined,
-					link: 'https://atom-basic.mock.local/page002/',
+					link: 'https://atom-simple.mock.local/page002/',
 					linkRel: 'alternate',
 					linkType: 'text/html',
 					published: '0001-01-01T00:00:00+00:00',
@@ -320,13 +323,13 @@ describe('website with atom feeds instead of RSS', () => {
 					categories: []
 				},
 				{
-					id: 'https://atom-basic.mock.local/page001/',
+					id: 'https://atom-simple.mock.local/page001/',
 					title: 'Mock Title Single Page',
 					titleType: 'html',
 					authorName: 'Unknown',
 					authorEmail: undefined,
 					authorUri: undefined,
-					link: 'https://atom-basic.mock.local/page001/',
+					link: 'https://atom-simple.mock.local/page001/',
 					linkRel: 'alternate',
 					linkType: 'text/html',
 					published: '0001-01-01T00:00:00+00:00',
@@ -362,11 +365,11 @@ describe('website with atom feeds instead of RSS', () => {
 			assert.strictEqual(title?.textContent, 'Mock Title Section');
 			assert.strictEqual(title?.getAttribute('type'), 'html');
 
-			assert.strictEqual(altLink?.getAttribute('href'), 'https://atom-basic.mock.local/section001s/');
+			assert.strictEqual(altLink?.getAttribute('href'), 'https://atom-simple.mock.local/section001s/');
 			assert.strictEqual(altLink?.getAttribute('rel'), 'alternate');
 			assert.strictEqual(altLink?.getAttribute('type'), 'text/html');
 
-			assert.strictEqual(selfLink?.getAttribute('href'), 'https://atom-basic.mock.local/section001s/feed.xml');
+			assert.strictEqual(selfLink?.getAttribute('href'), 'https://atom-simple.mock.local/section001s/feed.xml');
 			assert.strictEqual(selfLink?.getAttribute('rel'), 'self');
 			assert.strictEqual(selfLink?.getAttribute('type'), 'application/atom+xml');
 
@@ -374,7 +377,7 @@ describe('website with atom feeds instead of RSS', () => {
 			assert.isUndefined(author?.querySelector('uri')?.textContent);
 			assert.isUndefined(author?.querySelector('email')?.textContent);
 
-			assert.strictEqual(document.querySelector('feed > id')?.textContent, 'https://atom-basic.mock.local/section001s/');
+			assert.strictEqual(document.querySelector('feed > id')?.textContent, 'https://atom-simple.mock.local/section001s/');
 			assert.strictEqual(document.querySelector('feed > rights')?.textContent, `Copyright © ${new Date().getFullYear()}`);
 			assert.strictEqual(document.querySelector('feed > updated')?.textContent, '2021-01-02T08:00:00+00:00');
 		});
@@ -408,13 +411,13 @@ describe('website with atom feeds instead of RSS', () => {
 			});
 			assert.deepEqual(entryData, [
 				{
-					id: 'https://atom-basic.mock.local/section001s/item002/',
+					id: 'https://atom-simple.mock.local/section001s/item002/',
 					title: 'Untitled Section001',
 					titleType: 'html',
 					authorName: 'Unknown',
 					authorEmail: undefined,
 					authorUri: undefined,
-					link: 'https://atom-basic.mock.local/section001s/item002/',
+					link: 'https://atom-simple.mock.local/section001s/item002/',
 					linkRel: 'alternate',
 					linkType: 'text/html',
 					published: '2021-01-02T08:00:00+00:00',
@@ -424,13 +427,13 @@ describe('website with atom feeds instead of RSS', () => {
 					categories: []
 				},
 				{
-					id: 'https://atom-basic.mock.local/section001s/item001/',
+					id: 'https://atom-simple.mock.local/section001s/item001/',
 					title: 'Mock Title Single Page In Section',
 					titleType: 'html',
 					authorName: 'Unknown',
 					authorEmail: undefined,
 					authorUri: undefined,
-					link: 'https://atom-basic.mock.local/section001s/item001/',
+					link: 'https://atom-simple.mock.local/section001s/item001/',
 					linkRel: 'alternate',
 					linkType: 'text/html',
 					published: '2021-01-02T08:00:00+00:00',
@@ -439,17 +442,17 @@ describe('website with atom feeds instead of RSS', () => {
 					contentType: 'html',
 					categories: [
 						{
-							scheme: 'https://atom-basic.mock.local/categories/cat001/',
+							scheme: 'https://atom-simple.mock.local/categories/cat001/',
 							term: 'cat001',
 							label: 'cat001'
 						},
 						{
-							scheme: 'https://atom-basic.mock.local/tags/tag001/',
+							scheme: 'https://atom-simple.mock.local/tags/tag001/',
 							term: 'tag001',
 							label: 'tag001'
 						},
 						{
-							scheme: 'https://atom-basic.mock.local/tags/tag002/',
+							scheme: 'https://atom-simple.mock.local/tags/tag002/',
 							term: 'tag002',
 							label: 'tag002'
 						}
@@ -494,11 +497,11 @@ describe('website with atom feeds instead of RSS', () => {
 			assert.strictEqual(title?.textContent, 'Mock Title Taxonomy');
 			assert.strictEqual(title?.getAttribute('type'), 'html');
 
-			assert.strictEqual(altLink?.getAttribute('href'), 'https://atom-basic.mock.local/tags/');
+			assert.strictEqual(altLink?.getAttribute('href'), 'https://atom-simple.mock.local/tags/');
 			assert.strictEqual(altLink?.getAttribute('rel'), 'alternate');
 			assert.strictEqual(altLink?.getAttribute('type'), 'text/html');
 
-			assert.strictEqual(selfLink?.getAttribute('href'), 'https://atom-basic.mock.local/tags/feed.xml');
+			assert.strictEqual(selfLink?.getAttribute('href'), 'https://atom-simple.mock.local/tags/feed.xml');
 			assert.strictEqual(selfLink?.getAttribute('rel'), 'self');
 			assert.strictEqual(selfLink?.getAttribute('type'), 'application/atom+xml');
 
@@ -506,7 +509,7 @@ describe('website with atom feeds instead of RSS', () => {
 			assert.isUndefined(author?.querySelector('uri')?.textContent);
 			assert.isUndefined(author?.querySelector('email')?.textContent);
 
-			assert.strictEqual(document.querySelector('feed > id')?.textContent, 'https://atom-basic.mock.local/tags/');
+			assert.strictEqual(document.querySelector('feed > id')?.textContent, 'https://atom-simple.mock.local/tags/');
 			assert.strictEqual(document.querySelector('feed > rights')?.textContent, `Copyright © ${new Date().getFullYear()}`);
 			assert.strictEqual(document.querySelector('feed > updated')?.textContent, '2021-01-02T08:00:00+00:00');
 		});
@@ -540,13 +543,13 @@ describe('website with atom feeds instead of RSS', () => {
 			});
 			assert.deepEqual(entryData, [
 				{
-					id: 'https://atom-basic.mock.local/tags/tag001/',
+					id: 'https://atom-simple.mock.local/tags/tag001/',
 					title: 'Mock Title Term',
 					titleType: 'html',
 					authorName: 'Unknown',
 					authorEmail: undefined,
 					authorUri: undefined,
-					link: 'https://atom-basic.mock.local/tags/tag001/',
+					link: 'https://atom-simple.mock.local/tags/tag001/',
 					linkRel: 'alternate',
 					linkType: 'text/html',
 					published: '2021-01-02T08:00:00+00:00',
@@ -556,13 +559,13 @@ describe('website with atom feeds instead of RSS', () => {
 					categories: []
 				},
 				{
-					id: 'https://atom-basic.mock.local/tags/tag002/',
+					id: 'https://atom-simple.mock.local/tags/tag002/',
 					title: '“tag002” Tag',
 					titleType: 'html',
 					authorName: 'Unknown',
 					authorEmail: undefined,
 					authorUri: undefined,
-					link: 'https://atom-basic.mock.local/tags/tag002/',
+					link: 'https://atom-simple.mock.local/tags/tag002/',
 					linkRel: 'alternate',
 					linkType: 'text/html',
 					published: '2021-01-02T08:00:00+00:00',
@@ -610,11 +613,11 @@ describe('website with atom feeds instead of RSS', () => {
 			assert.strictEqual(title?.textContent, 'Mock Title Term');
 			assert.strictEqual(title?.getAttribute('type'), 'html');
 
-			assert.strictEqual(altLink?.getAttribute('href'), 'https://atom-basic.mock.local/tags/tag001/');
+			assert.strictEqual(altLink?.getAttribute('href'), 'https://atom-simple.mock.local/tags/tag001/');
 			assert.strictEqual(altLink?.getAttribute('rel'), 'alternate');
 			assert.strictEqual(altLink?.getAttribute('type'), 'text/html');
 
-			assert.strictEqual(selfLink?.getAttribute('href'), 'https://atom-basic.mock.local/tags/tag001/feed.xml');
+			assert.strictEqual(selfLink?.getAttribute('href'), 'https://atom-simple.mock.local/tags/tag001/feed.xml');
 			assert.strictEqual(selfLink?.getAttribute('rel'), 'self');
 			assert.strictEqual(selfLink?.getAttribute('type'), 'application/atom+xml');
 
@@ -623,7 +626,7 @@ describe('website with atom feeds instead of RSS', () => {
 
 			assert.isUndefined(author?.querySelector('email')?.textContent);
 
-			assert.strictEqual(document.querySelector('feed > id')?.textContent, 'https://atom-basic.mock.local/tags/tag001/');
+			assert.strictEqual(document.querySelector('feed > id')?.textContent, 'https://atom-simple.mock.local/tags/tag001/');
 			assert.strictEqual(document.querySelector('feed > rights')?.textContent, `Copyright © ${new Date().getFullYear()}`);
 			assert.strictEqual(document.querySelector('feed > updated')?.textContent, '2021-01-02T08:00:00+00:00');
 		});
@@ -657,13 +660,13 @@ describe('website with atom feeds instead of RSS', () => {
 			});
 			assert.deepEqual(entryData, [
 				{
-					id: 'https://atom-basic.mock.local/section001s/item001/',
+					id: 'https://atom-simple.mock.local/section001s/item001/',
 					title: 'Mock Title Single Page In Section',
 					titleType: 'html',
 					authorName: 'Unknown',
 					authorEmail: undefined,
 					authorUri: undefined,
-					link: 'https://atom-basic.mock.local/section001s/item001/',
+					link: 'https://atom-simple.mock.local/section001s/item001/',
 					linkRel: 'alternate',
 					linkType: 'text/html',
 					published: '2021-01-02T08:00:00+00:00',
@@ -672,30 +675,30 @@ describe('website with atom feeds instead of RSS', () => {
 					contentType: 'html',
 					categories: [
 						{
-							scheme: 'https://atom-basic.mock.local/categories/cat001/',
+							scheme: 'https://atom-simple.mock.local/categories/cat001/',
 							term: 'cat001',
 							label: 'cat001'
 						},
 						{
-							scheme: 'https://atom-basic.mock.local/tags/tag001/',
+							scheme: 'https://atom-simple.mock.local/tags/tag001/',
 							term: 'tag001',
 							label: 'tag001'
 						},
 						{
-							scheme: 'https://atom-basic.mock.local/tags/tag002/',
+							scheme: 'https://atom-simple.mock.local/tags/tag002/',
 							term: 'tag002',
 							label: 'tag002'
 						}
 					]
 				},
 				{
-					id: 'https://atom-basic.mock.local/section002s/item001/',
+					id: 'https://atom-simple.mock.local/section002s/item001/',
 					title: 'Mock Title Single Page In Section',
 					titleType: 'html',
 					authorName: 'Unknown',
 					authorEmail: undefined,
 					authorUri: undefined,
-					link: 'https://atom-basic.mock.local/section002s/item001/',
+					link: 'https://atom-simple.mock.local/section002s/item001/',
 					linkRel: 'alternate',
 					linkType: 'text/html',
 					published: '2021-01-01T08:00:00+00:00',
@@ -704,17 +707,17 @@ describe('website with atom feeds instead of RSS', () => {
 					contentType: 'html',
 					categories: [
 						{
-							scheme: 'https://atom-basic.mock.local/categories/cat001/',
+							scheme: 'https://atom-simple.mock.local/categories/cat001/',
 							term: 'cat001',
 							label: 'cat001'
 						},
 						{
-							scheme: 'https://atom-basic.mock.local/tags/tag001/',
+							scheme: 'https://atom-simple.mock.local/tags/tag001/',
 							term: 'tag001',
 							label: 'tag001'
 						},
 						{
-							scheme: 'https://atom-basic.mock.local/tags/tag002/',
+							scheme: 'https://atom-simple.mock.local/tags/tag002/',
 							term: 'tag002',
 							label: 'tag002'
 						}

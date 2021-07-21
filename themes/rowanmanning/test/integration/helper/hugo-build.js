@@ -6,8 +6,9 @@ const fs = require('fs/promises');
 
 const buildDirectory = `${__dirname}/../build`;
 
-module.exports = async function hugoBuild(name, options = {}) {
-	const sourceDirectory = `${__dirname}/../mock/${name}`;
+module.exports = async function hugoBuild({name, config = null, environment = 'production'} = {}) {
+	const sourceDirectory = `${__dirname}/../mock/content/${name}`;
+	const configPath = config ? `${__dirname}/../mock/config/${config}.yml` : `${sourceDirectory}/config.yml`;
 
 	// Remove the build directory
 	if (await isDirectory(buildDirectory)) {
@@ -17,8 +18,8 @@ module.exports = async function hugoBuild(name, options = {}) {
 	// Build the site
 	await exec(`
 		hugo
-			--environment="${options.environment || 'production'}"
-			--config="${sourceDirectory}/config.yml"
+			--environment="${environment}"
+			--config="${configPath}"
 			--source="${sourceDirectory}"
 			--destination="${buildDirectory}"
 			--theme="${__dirname}/../../.."

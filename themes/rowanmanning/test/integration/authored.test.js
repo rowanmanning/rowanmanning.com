@@ -4,7 +4,9 @@ describe('authored website', () => {
 	let document;
 
 	before(async () => {
-		await hugoBuild('authored');
+		await hugoBuild({
+			name: 'authored'
+		});
 	});
 
 	describe('home page', () => {

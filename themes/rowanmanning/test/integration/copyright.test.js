@@ -4,7 +4,10 @@ describe('website with custom copyright', () => {
 	let document;
 
 	before(async () => {
-		await hugoBuild('copyright');
+		await hugoBuild({
+			name: 'simple',
+			config: 'site-copyright'
+		});
 	});
 
 	describe('home page RSS', () => {

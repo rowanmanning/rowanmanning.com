@@ -4,7 +4,10 @@ describe('website with site title', () => {
 	let document;
 
 	before(async () => {
-		await hugoBuild('site-title');
+		await hugoBuild({
+			name: 'simple',
+			config: 'site-title'
+		});
 	});
 
 	describe('home page', () => {

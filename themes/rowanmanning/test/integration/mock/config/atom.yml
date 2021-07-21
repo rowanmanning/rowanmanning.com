@@ -1,5 +1,5 @@
 
-baseURL: https://atom-basic.mock.local/
+baseURL: https://atom-simple.mock.local/
 noJSConfigInAssets: true
 
 # Replace RSS feeds with Atom feeds
