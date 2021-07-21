@@ -61,7 +61,7 @@ describe('website with draft and private content', () => {
 	describe('sitemap', () => {
 
 		before(async () => {
-			document = (await loadBuiltHTML('sitemap.xml')).document;
+			document = (await loadBuiltHTML('sitemap.xml', {xml: true})).document;
 		});
 
 		it('does not include draft and private content', () => {
@@ -73,6 +73,35 @@ describe('website with draft and private content', () => {
 				'https://visibility.mock.local/',
 				'https://visibility.mock.local/page001/',
 				'https://visibility.mock.local/tags/'
+			]);
+		});
+
+	});
+
+	describe('home page RSS', () => {
+
+		before(async () => {
+			document = (await loadBuiltHTML('index.xml', {xml: true})).document;
+		});
+
+		it('does not include pages with the private parameter', () => {
+			const items = document.querySelectorAll('channel > item');
+			assert.lengthOf(items, 2);
+			const itemData = [...items].map(item => {
+				return {
+					title: item.querySelector('title')?.textContent,
+					link: item.querySelector('link')?.textContent
+				};
+			});
+			assert.deepEqual(itemData, [
+				{
+					title: 'Mock Title Single Page',
+					link: 'https://visibility.mock.local/page001/'
+				},
+				{
+					title: 'Mock Title Single Page',
+					link: 'https://visibility.mock.local/page002/'
+				}
 			]);
 		});
 

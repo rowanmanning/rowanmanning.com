@@ -1,0 +1,9 @@
+
+baseURL: https://feeds-main-sections.mock.local/
+noJSConfigInAssets: true
+
+params:
+
+  # Set main sections
+  mainSections:
+    - section001s

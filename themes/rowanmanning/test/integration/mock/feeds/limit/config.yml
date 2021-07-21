@@ -1,0 +1,11 @@
+
+baseURL: https://feeds-limit.mock.local/
+noJSConfigInAssets: true
+
+# Limit the number of items in RSS feeds
+rssLimit: 1
+
+params:
+
+  # Clear mainSections param
+  mainSections: []

@@ -1,10 +1,10 @@
 
 {{ $author := partial "site/data/author" . }}
 
-<footer role="contentinfo" class="footer">
+<footer role="contentinfo" class="footer" data-test="footer">
 	<div class="footer__inner">
-		<small class="footer__copyright">
-			Copyright &copy; {{ now.Year }}{{ if $author.name }}, {{ $author.name }}{{ end }}
+		<small class="footer__copyright" data-test="footer-copyright">
+			{{- partial "site/data/copyright" . -}}
 		</small>
 	</div>
 </footer>

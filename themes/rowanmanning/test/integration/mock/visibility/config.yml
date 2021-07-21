@@ -1,3 +1,8 @@
 
 baseURL: https://visibility.mock.local/
 noJSConfigInAssets: true
+
+params:
+
+  # Clear mainSections param
+  mainSections: []

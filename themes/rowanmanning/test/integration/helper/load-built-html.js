@@ -3,7 +3,7 @@
 const fs = require('fs/promises');
 const {JSDOM} = require('jsdom');
 
-module.exports = async function loadBuiltHTML(filePath) {
+module.exports = async function loadBuiltHTML(filePath, {xml = false} = {}) {
 	const baseDirectory = `${__dirname}/../build`;
 	const htmlFile = `${baseDirectory}/${filePath}`;
 
@@ -12,7 +12,9 @@ module.exports = async function loadBuiltHTML(filePath) {
 	}
 
 	const content = await fs.readFile(htmlFile, 'utf-8');
-	const dom = new JSDOM(content).window;
+	const dom = new JSDOM(content, {
+		contentType: (xml ? 'application/xhtml+xml' : 'text/html')
+	}).window;
 	return dom;
 };
 

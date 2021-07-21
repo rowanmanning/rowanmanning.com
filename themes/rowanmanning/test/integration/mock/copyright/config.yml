@@ -1,0 +1,11 @@
+
+baseURL: https://copyright.mock.local/
+noJSConfigInAssets: true
+
+# Configure site copyright information
+copyright: "Mock Site Copyright"
+
+params:
+
+  # Clear mainSections param
+  mainSections: []

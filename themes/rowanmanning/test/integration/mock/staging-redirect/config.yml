@@ -2,7 +2,11 @@
 baseURL: https://staging-redirect.mock.local/
 noJSConfigInAssets: true
 
-# Configure a staging redirect
 params:
+
+  # Configure a staging redirect
   stagingRedirect:
     enabled: true
+
+  # Clear mainSections param
+  mainSections: []

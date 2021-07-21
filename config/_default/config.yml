@@ -4,8 +4,9 @@
 # Set default language
 languageCode: "en-gb"
 
-# Site title and author
+# Site title, copyright, and author
 title: "Rowan Manning"
+copyright: "Copyright © {year}, Rowan Manning"
 author:
   name: "Rowan Manning"
   url: "https://rowanmanning.com/"

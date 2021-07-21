@@ -324,6 +324,56 @@ describe('authored website', () => {
 
 	});
 
+	describe('home page RSS', () => {
+
+		before(async () => {
+			document = (await loadBuiltHTML('index.xml', {xml: true})).document;
+		});
+
+		it('has author information in the channel', () => {
+			assert.strictEqual(document.querySelector('channel > managingEditor')?.textContent, 'mock@site.author.local (Mock Site Author)');
+			assert.strictEqual(document.querySelector('channel > webMaster')?.textContent, 'mock@site.author.local (Mock Site Author)');
+		});
+
+		it('has author information in each item', () => {
+			const items = document.querySelectorAll('channel > item');
+			assert.lengthOf(items, 6);
+			const itemData = [...items].map(item => {
+				return {
+					title: item.querySelector('title')?.textContent,
+					author: item.querySelector('author')?.textContent
+				};
+			});
+			assert.deepEqual(itemData, [
+				{
+					title: 'Mock Title Single Page In Section',
+					author: 'mock@site.author.local (Mock Site Author)'
+				},
+				{
+					title: 'Mock Title Single Page In Section',
+					author: 'mock@page.author.local (Mock Page Author)'
+				},
+				{
+					title: 'Mock Title Single Page In Section',
+					author: undefined
+				},
+				{
+					title: 'Mock Title Single Page',
+					author: 'mock@site.author.local (Mock Site Author)'
+				},
+				{
+					title: 'Mock Title Single Page',
+					author: 'mock@page.author.local (Mock Page Author)'
+				},
+				{
+					title: 'Mock Title Single Page',
+					author: undefined
+				}
+			]);
+		});
+
+	});
+
 	describe('page furniture', () => {
 
 		before(async () => {
@@ -384,6 +434,20 @@ describe('authored website', () => {
 					assert.isNull(subject);
 				});
 
+			});
+
+		});
+
+		describe('footer', () => {
+			let footer;
+
+			before(() => {
+				footer = findTestElements(document.body, 'footer')[0];
+			});
+
+			it('contains a copyright notice which includes the author name', () => {
+				const subject = findTestElements(footer, 'footer-copyright')[0]?.textContent.trim();
+				assert.strictEqual(subject, `Copyright © ${new Date().getFullYear()}, Mock Site Author`);
 			});
 
 		});

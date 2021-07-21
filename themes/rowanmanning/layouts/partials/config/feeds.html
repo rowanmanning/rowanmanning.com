@@ -1,0 +1,12 @@
+
+{{/* Get feed config */}}
+{{/* --------------- */}}
+
+{{ $feedLimit := .Site.Config.Services.RSS.Limit }}
+{{ $feedHomeSections := .Site.Params.feedSections | default .Site.Params.mainSections | default slice }}
+{{
+	return (dict
+		"limit" $feedLimit
+		"homeSections" $feedHomeSections
+	)
+}}

@@ -2,6 +2,9 @@
 {{/* Get feed data */}}
 {{/* ------------- */}}
 
+{{/* Get feed config */}}
+{{- $feedConfig := partial "config/feeds" . -}}
+
 {{/* Set the current context, either the current page or the home page */}}
 {{ $context := . }}
 {{ if .IsHome }}
@@ -16,18 +19,32 @@
 	{{ $pages = $context.Pages }}
 {{ end }}
 
+{{/* Filter the home page feed to only allow content from specified sections */}}
+{{ if and .IsHome (gt (len $feedConfig.homeSections) 0) }}
+	{{ $pages = where $pages "Section" "in" $feedConfig.homeSections }}
+{{ end }}
+
 {{/* Filter out private pages */}}
-{{/* TODO proper visibility check */}}
 {{ $pages = where $pages "Params.private" "!=" true }}
 
 {{/* Get the RSS configuration and limit pages by this number */}}
-{{ $limit := .Site.Config.Services.RSS.Limit }}
-{{ if ge $limit 1 }}
-	{{ $pages = $pages | first $limit }}
+{{ if ge $feedConfig.limit 1 }}
+	{{ $pages = $pages | first $feedConfig.limit }}
 {{ end }}
 
 {{/* Get the feed title from the page and site title */}}
 {{ $title := partial "content/data/title" . }}
+{{ if and .Site.Title .IsHome }}
+	{{ $title = .Site.Title }}
+{{ end }}
+
+{{/* Get the feed description */}}
+{{ $description := partial "content/data/description" . }}
+{{ if not $description }}
+	{{ $description = printf "Recent content in %s" $title }}
+{{ end }}
+
+{{/* Append the site title to the title after generating a description */}}
 {{ if and .Site.Title (not .IsHome) }}
 	{{ $title = printf "%s | %s" $title .Site.Title }}
 {{ end }}
@@ -41,24 +58,13 @@
 {{/* Get the content author */}}
 {{ $author := partial "content/data/author" . }}
 
+{{/* Get the copyright notice */}}
+{{ $copyright := partial "site/data/copyright" . }}
+
 {{/* Define the entries */}}
 {{ $entries := slice }}
 {{ range $pages }}
-	{{ $contentTitle := partial "content/data/title" . }}
-	{{ $contentDescription := partial "content/data/description" . }}
-	{{ $contentAuthor := partial "content/data/author" . }}
-	{{/* TODO related? tags? */}}
-	{{
-		$entries = $entries | append (dict
-			"title" $contentTitle
-			"description" $contentDescription
-			"author" $contentAuthor
-			"link" .Permalink
-			"published" .Date
-			"updated" .Lastmod
-			"content" (.Content | safeHTML)
-		)
-	}}
+	{{ $entries = $entries | append (partial "feed/data/entry" .) }}
 {{ end }}
 
 {{/* Define the feed */}}
@@ -66,9 +72,9 @@
 	$feed := (dict
 		"title" $title
 		"link" .Permalink
-		"description" "TODO"
+		"description" $description
 		"language" (.Site.LanguageCode | default "en")
-		"copyright" .Site.Copyright
+		"copyright" $copyright
 		"updated" $updated
 		"author" $author
 		"entries" $entries

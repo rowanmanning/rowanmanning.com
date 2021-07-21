@@ -1,0 +1,25 @@
+
+{{/* Get copyright information */}}
+{{/* ------------------------- */}}
+
+{{/* Get the site author */}}
+{{ $author := partial "site/data/author" . }}
+
+{{/* Try the site config */}}
+{{ $copyright := .Site.Copyright }}
+
+{{/* Default with author information */}}
+{{ if and (not $copyright) (ne $author.name "Unknown") }}
+	{{ $copyright = printf "Copyright © {year}, %v" $author.name }}
+{{ end }}
+
+{{/* Default */}}
+{{ if not $copyright }}
+	{{ $copyright = "Copyright © {year}" }}
+{{ end }}
+
+{{/* Replace year and copy entity */}}
+{{ $copyright = replace $copyright "{year}" now.Year }}
+{{ $copyright = replace $copyright "&copy;" "©" }}
+
+{{ return $copyright }}

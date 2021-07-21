@@ -4,3 +4,8 @@ noJSConfigInAssets: true
 
 # Configure a site title
 title: "Mock Site Title"
+
+params:
+
+  # Clear mainSections param
+  mainSections: []

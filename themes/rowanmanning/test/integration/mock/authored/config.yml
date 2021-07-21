@@ -5,7 +5,13 @@ noJSConfigInAssets: true
 # Configure a site-wide author
 author:
   name: "Mock Site Author"
+  email: "mock@site.author.local"
   url: "https://site.author.local/"
   image: "https://site.author.local/photo.png"
   github: "mocksiteauthor_github"
   twitter: "mocksiteauthor_twitter"
+
+params:
+
+  # Clear mainSections param
+  mainSections: []

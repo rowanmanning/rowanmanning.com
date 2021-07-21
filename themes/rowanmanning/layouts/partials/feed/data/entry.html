@@ -1,0 +1,56 @@
+
+{{/* Get feed entry data */}}
+{{/* ------------------- */}}
+
+{{/* Get the entry title */}}
+{{ $title := partial "content/data/title" . }}
+
+{{/* Get the entry description */}}
+{{ $description := partial "content/data/description" . }}
+
+{{/* Get the content author */}}
+{{ $author := partial "content/data/author" . }}
+
+{{/* Get the actual content */}}
+{{ $content := .Content | safeHTML | default $description }}
+
+{{/* Default content for term pages */}}
+{{ if and (not $content) (eq .Kind "term") }}
+	{{ $content = printf "<p>Content in %s</p>" $title | safeHTML }}
+{{ end }}
+
+{{/* Get terms */}}
+{{ $page := . }}
+{{ $allTerms := slice }}
+{{ with .Site.Taxonomies }}
+	{{ range $taxonomy, $_ := . }}
+		{{ with $page.Param $taxonomy }}
+			{{ $terms := . }}
+			{{ with site.GetPage (printf "/%s" $taxonomy) }}
+				{{ $taxonomyPage := . }}
+				{{ range $terms }}
+					{{
+						$allTerms = $allTerms | append (dict
+							"label" .
+							"term" (. | urlize)
+							"permalink" (printf "%s%s/" $taxonomyPage.Permalink (. | urlize))
+						)
+					}}
+				{{ end }}
+			{{ end }}
+		{{ end }}
+	{{ end }}
+{{ end }}
+
+{{/* Define and return the entry */}}
+{{
+	return (dict
+		"title" $title
+		"author" $author
+		"link" .Permalink
+		"published" .Date
+		"updated" .Lastmod
+		"content" $content
+		"categories" $allTerms
+	)
+}}

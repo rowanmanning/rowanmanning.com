@@ -800,7 +800,7 @@ describe('basic website', () => {
 	describe('sitemap', () => {
 
 		before(async () => {
-			document = (await loadBuiltHTML('sitemap.xml')).document;
+			document = (await loadBuiltHTML('sitemap.xml', {xml: true})).document;
 		});
 
 		it('has a urlset', () => {
@@ -828,6 +828,357 @@ describe('basic website', () => {
 				'https://basic.mock.local/page002/',
 				'https://basic.mock.local/page001/'
 			]);
+		});
+
+	});
+
+	describe('home page RSS', () => {
+
+		before(async () => {
+			document = (await loadBuiltHTML('index.xml', {xml: true})).document;
+		});
+
+		it('has an rss element', () => {
+			const rss = document.querySelectorAll('rss');
+			assert.lengthOf(rss, 1);
+			assert.strictEqual(rss[0].getAttribute('version'), '2.0');
+			assert.strictEqual(rss[0].getAttribute('xmlns:atom'), 'http://www.w3.org/2005/Atom');
+		});
+
+		it('has a channel with feed information', () => {
+			const channels = document.querySelectorAll('channel');
+			assert.lengthOf(channels, 1);
+			const atomLink = document.querySelector('channel > [rel=self]');
+			assert.strictEqual(document.querySelector('channel > title')?.textContent, 'Mock Title Home');
+			assert.strictEqual(document.querySelector('channel > link')?.textContent, 'https://basic.mock.local/');
+			assert.strictEqual(atomLink?.tagName, 'atom:link');
+			assert.strictEqual(atomLink?.getAttribute('href'), 'https://basic.mock.local/index.xml');
+			assert.strictEqual(atomLink?.getAttribute('rel'), 'self');
+			assert.strictEqual(atomLink?.getAttribute('type'), 'application/rss+xml');
+			assert.strictEqual(document.querySelector('channel > description')?.textContent, 'Mock Description Home');
+			assert.strictEqual(document.querySelector('channel > language')?.textContent, 'en');
+			assert.strictEqual(document.querySelector('channel > copyright')?.textContent, `Copyright © ${new Date().getFullYear()}`);
+			assert.strictEqual(document.querySelector('channel > lastBuildDate')?.textContent, 'Sat, 02 Jan 2021 08:00:00 +0000');
+			assert.isUndefined(document.querySelector('channel > managingEditor')?.textContent);
+			assert.isUndefined(document.querySelector('channel > webMaster')?.textContent);
+		});
+
+		it('has an item element representing each regular page in the site', () => {
+			const items = document.querySelectorAll('channel > item');
+			assert.lengthOf(items, 6);
+			const itemData = [...items].map(item => {
+				return {
+					guid: item.querySelector('guid')?.textContent,
+					title: item.querySelector('title')?.textContent,
+					author: item.querySelector('author')?.textContent,
+					link: item.querySelector('link')?.textContent,
+					pubDate: item.querySelector('pubDate')?.textContent,
+					description: item.querySelector('description')?.textContent,
+					categories: [...item.querySelectorAll('category')].map(category => category.textContent)
+				};
+			});
+			assert.deepEqual(itemData, [
+				{
+					guid: 'https://basic.mock.local/section001s/item002/',
+					title: 'Untitled Section001',
+					author: undefined,
+					link: 'https://basic.mock.local/section001s/item002/',
+					pubDate: 'Sat, 02 Jan 2021 08:00:00 +0000',
+					description: '<p>Mock Content Single Page In Section</p>\n',
+					categories: []
+				},
+				{
+					guid: 'https://basic.mock.local/section001s/item001/',
+					title: 'Mock Title Single Page In Section',
+					author: undefined,
+					link: 'https://basic.mock.local/section001s/item001/',
+					pubDate: 'Sat, 02 Jan 2021 08:00:00 +0000',
+					description: '<p>Mock Content Single Page In Section</p>\n',
+					categories: ['cat001', 'tag001', 'tag002']
+				},
+				{
+					guid: 'https://basic.mock.local/section002s/item002/',
+					title: 'Untitled Section002',
+					author: undefined,
+					link: 'https://basic.mock.local/section002s/item002/',
+					pubDate: 'Fri, 01 Jan 2021 08:00:00 +0000',
+					description: '<p>Mock Content Single Page In Section</p>\n',
+					categories: []
+				},
+				{
+					guid: 'https://basic.mock.local/section002s/item001/',
+					title: 'Mock Title Single Page In Section',
+					author: undefined,
+					link: 'https://basic.mock.local/section002s/item001/',
+					pubDate: 'Fri, 01 Jan 2021 08:00:00 +0000',
+					description: '<p>Mock Content Single Page In Section</p>\n',
+					categories: ['cat001', 'tag001', 'tag002']
+				},
+				{
+					guid: 'https://basic.mock.local/page002/',
+					title: 'Untitled Page',
+					author: undefined,
+					link: 'https://basic.mock.local/page002/',
+					pubDate: 'Mon, 01 Jan 0001 00:00:00 +0000',
+					description: '<p>Mock Content Single Page</p>\n',
+					categories: []
+				},
+				{
+					guid: 'https://basic.mock.local/page001/',
+					title: 'Mock Title Single Page',
+					author: undefined,
+					link: 'https://basic.mock.local/page001/',
+					pubDate: 'Mon, 01 Jan 0001 00:00:00 +0000',
+					description: '<p>Mock Content Single Page</p>\n',
+					categories: []
+				}
+			]);
+		});
+
+	});
+
+	describe('section page RSS', () => {
+
+		before(async () => {
+			document = (await loadBuiltHTML('section001s/index.xml', {xml: true})).document;
+		});
+
+		it('has an rss element', () => {
+			const rss = document.querySelectorAll('rss');
+			assert.lengthOf(rss, 1);
+			assert.strictEqual(rss[0].getAttribute('version'), '2.0');
+			assert.strictEqual(rss[0].getAttribute('xmlns:atom'), 'http://www.w3.org/2005/Atom');
+		});
+
+		it('has a channel with feed information', () => {
+			const channels = document.querySelectorAll('channel');
+			assert.lengthOf(channels, 1);
+			const atomLink = document.querySelector('channel > [rel=self]');
+			assert.strictEqual(document.querySelector('channel > title')?.textContent, 'Mock Title Section');
+			assert.strictEqual(document.querySelector('channel > link')?.textContent, 'https://basic.mock.local/section001s/');
+			assert.strictEqual(atomLink?.tagName, 'atom:link');
+			assert.strictEqual(atomLink?.getAttribute('href'), 'https://basic.mock.local/section001s/index.xml');
+			assert.strictEqual(atomLink?.getAttribute('rel'), 'self');
+			assert.strictEqual(atomLink?.getAttribute('type'), 'application/rss+xml');
+			assert.strictEqual(document.querySelector('channel > description')?.textContent, 'Mock Description Section');
+			assert.strictEqual(document.querySelector('channel > language')?.textContent, 'en');
+			assert.strictEqual(document.querySelector('channel > copyright')?.textContent, `Copyright © ${new Date().getFullYear()}`);
+			assert.strictEqual(document.querySelector('channel > lastBuildDate')?.textContent, 'Sat, 02 Jan 2021 08:00:00 +0000');
+			assert.isUndefined(document.querySelector('channel > managingEditor')?.textContent);
+			assert.isUndefined(document.querySelector('channel > webMaster')?.textContent);
+		});
+
+		it('has an item element representing each page in the section', () => {
+			const items = document.querySelectorAll('channel > item');
+			assert.lengthOf(items, 2);
+			const itemData = [...items].map(item => {
+				return {
+					guid: item.querySelector('guid')?.textContent,
+					title: item.querySelector('title')?.textContent,
+					author: item.querySelector('author')?.textContent,
+					link: item.querySelector('link')?.textContent,
+					pubDate: item.querySelector('pubDate')?.textContent,
+					description: item.querySelector('description')?.textContent,
+					categories: [...item.querySelectorAll('category')].map(category => category.textContent)
+				};
+			});
+			assert.deepEqual(itemData, [
+				{
+					guid: 'https://basic.mock.local/section001s/item002/',
+					title: 'Untitled Section001',
+					author: undefined,
+					link: 'https://basic.mock.local/section001s/item002/',
+					pubDate: 'Sat, 02 Jan 2021 08:00:00 +0000',
+					description: '<p>Mock Content Single Page In Section</p>\n',
+					categories: []
+				},
+				{
+					guid: 'https://basic.mock.local/section001s/item001/',
+					title: 'Mock Title Single Page In Section',
+					author: undefined,
+					link: 'https://basic.mock.local/section001s/item001/',
+					pubDate: 'Sat, 02 Jan 2021 08:00:00 +0000',
+					description: '<p>Mock Content Single Page In Section</p>\n',
+					categories: ['cat001', 'tag001', 'tag002']
+				}
+			]);
+		});
+
+		describe('when the section has no index page', () => {
+
+			before(async () => {
+				document = (await loadBuiltHTML('section002s/index.xml', {xml: true})).document;
+			});
+
+			it('has defaulted feed information', () => {
+				assert.strictEqual(document.querySelector('channel > title')?.textContent, 'All Section002s');
+				assert.strictEqual(document.querySelector('channel > description')?.textContent, 'Recent content in All Section002s');
+			});
+
+		});
+
+	});
+
+	describe('taxonomy page RSS', () => {
+
+		before(async () => {
+			document = (await loadBuiltHTML('tags/index.xml', {xml: true})).document;
+		});
+
+		it('has an rss element', () => {
+			const rss = document.querySelectorAll('rss');
+			assert.lengthOf(rss, 1);
+			assert.strictEqual(rss[0].getAttribute('version'), '2.0');
+			assert.strictEqual(rss[0].getAttribute('xmlns:atom'), 'http://www.w3.org/2005/Atom');
+		});
+
+		it('has a channel with feed information', () => {
+			const channels = document.querySelectorAll('channel');
+			assert.lengthOf(channels, 1);
+			const atomLink = document.querySelector('channel > [rel=self]');
+			assert.strictEqual(document.querySelector('channel > title')?.textContent, 'Mock Title Taxonomy');
+			assert.strictEqual(document.querySelector('channel > link')?.textContent, 'https://basic.mock.local/tags/');
+			assert.strictEqual(atomLink?.tagName, 'atom:link');
+			assert.strictEqual(atomLink?.getAttribute('href'), 'https://basic.mock.local/tags/index.xml');
+			assert.strictEqual(atomLink?.getAttribute('rel'), 'self');
+			assert.strictEqual(atomLink?.getAttribute('type'), 'application/rss+xml');
+			assert.strictEqual(document.querySelector('channel > description')?.textContent, 'Mock Description Taxonomy');
+			assert.strictEqual(document.querySelector('channel > language')?.textContent, 'en');
+			assert.strictEqual(document.querySelector('channel > copyright')?.textContent, `Copyright © ${new Date().getFullYear()}`);
+			assert.strictEqual(document.querySelector('channel > lastBuildDate')?.textContent, 'Sat, 02 Jan 2021 08:00:00 +0000');
+			assert.isUndefined(document.querySelector('channel > managingEditor')?.textContent);
+			assert.isUndefined(document.querySelector('channel > webMaster')?.textContent);
+		});
+
+		it('has an item element representing each term in the taxonomy', () => {
+			const items = document.querySelectorAll('channel > item');
+			assert.lengthOf(items, 2);
+			const itemData = [...items].map(item => {
+				return {
+					guid: item.querySelector('guid')?.textContent,
+					title: item.querySelector('title')?.textContent,
+					author: item.querySelector('author')?.textContent,
+					link: item.querySelector('link')?.textContent,
+					pubDate: item.querySelector('pubDate')?.textContent,
+					description: item.querySelector('description')?.textContent,
+					categories: [...item.querySelectorAll('category')].map(category => category.textContent)
+				};
+			});
+			assert.deepEqual(itemData, [
+				{
+					guid: 'https://basic.mock.local/tags/tag001/',
+					title: 'Mock Title Term',
+					author: undefined,
+					link: 'https://basic.mock.local/tags/tag001/',
+					pubDate: 'Sat, 02 Jan 2021 08:00:00 +0000',
+					description: '<p>Mock Content Term</p>\n',
+					categories: []
+				},
+				{
+					guid: 'https://basic.mock.local/tags/tag002/',
+					title: '“tag002” Tag',
+					author: undefined,
+					link: 'https://basic.mock.local/tags/tag002/',
+					pubDate: 'Sat, 02 Jan 2021 08:00:00 +0000',
+					description: '<p>Content in “tag002” Tag</p>',
+					categories: []
+				}
+			]);
+		});
+
+		describe('when the taxonomy has no index page', () => {
+
+			before(async () => {
+				document = (await loadBuiltHTML('categories/index.xml', {xml: true})).document;
+			});
+
+			it('has defaulted feed information', () => {
+				assert.strictEqual(document.querySelector('channel > title')?.textContent, 'All Categories');
+				assert.strictEqual(document.querySelector('channel > description')?.textContent, 'Recent content in All Categories');
+			});
+
+		});
+
+	});
+
+	describe('term page RSS', () => {
+
+		before(async () => {
+			document = (await loadBuiltHTML('tags/tag001/index.xml', {xml: true})).document;
+		});
+
+		it('has an rss element', () => {
+			const rss = document.querySelectorAll('rss');
+			assert.lengthOf(rss, 1);
+			assert.strictEqual(rss[0].getAttribute('version'), '2.0');
+			assert.strictEqual(rss[0].getAttribute('xmlns:atom'), 'http://www.w3.org/2005/Atom');
+		});
+
+		it('has a channel with feed information', () => {
+			const channels = document.querySelectorAll('channel');
+			assert.lengthOf(channels, 1);
+			const atomLink = document.querySelector('channel > [rel=self]');
+			assert.strictEqual(document.querySelector('channel > title')?.textContent, 'Mock Title Term');
+			assert.strictEqual(document.querySelector('channel > link')?.textContent, 'https://basic.mock.local/tags/tag001/');
+			assert.strictEqual(atomLink?.tagName, 'atom:link');
+			assert.strictEqual(atomLink?.getAttribute('href'), 'https://basic.mock.local/tags/tag001/index.xml');
+			assert.strictEqual(atomLink?.getAttribute('rel'), 'self');
+			assert.strictEqual(atomLink?.getAttribute('type'), 'application/rss+xml');
+			assert.strictEqual(document.querySelector('channel > description')?.textContent, 'Mock Description Term');
+			assert.strictEqual(document.querySelector('channel > language')?.textContent, 'en');
+			assert.strictEqual(document.querySelector('channel > copyright')?.textContent, `Copyright © ${new Date().getFullYear()}`);
+			assert.strictEqual(document.querySelector('channel > lastBuildDate')?.textContent, 'Sat, 02 Jan 2021 08:00:00 +0000');
+			assert.isUndefined(document.querySelector('channel > managingEditor')?.textContent);
+			assert.isUndefined(document.querySelector('channel > webMaster')?.textContent);
+		});
+
+		it('has an item element representing each page with the term', () => {
+			const items = document.querySelectorAll('channel > item');
+			assert.lengthOf(items, 2);
+			const itemData = [...items].map(item => {
+				return {
+					guid: item.querySelector('guid')?.textContent,
+					title: item.querySelector('title')?.textContent,
+					author: item.querySelector('author')?.textContent,
+					link: item.querySelector('link')?.textContent,
+					pubDate: item.querySelector('pubDate')?.textContent,
+					description: item.querySelector('description')?.textContent,
+					categories: [...item.querySelectorAll('category')].map(category => category.textContent)
+				};
+			});
+			assert.deepEqual(itemData, [
+				{
+					guid: 'https://basic.mock.local/section001s/item001/',
+					title: 'Mock Title Single Page In Section',
+					author: undefined,
+					link: 'https://basic.mock.local/section001s/item001/',
+					pubDate: 'Sat, 02 Jan 2021 08:00:00 +0000',
+					description: '<p>Mock Content Single Page In Section</p>\n',
+					categories: ['cat001', 'tag001', 'tag002']
+				},
+				{
+					guid: 'https://basic.mock.local/section002s/item001/',
+					title: 'Mock Title Single Page In Section',
+					author: undefined,
+					link: 'https://basic.mock.local/section002s/item001/',
+					pubDate: 'Fri, 01 Jan 2021 08:00:00 +0000',
+					description: '<p>Mock Content Single Page In Section</p>\n',
+					categories: ['cat001', 'tag001', 'tag002']
+				}
+			]);
+		});
+
+		describe('when the taxonomy has no index page', () => {
+
+			before(async () => {
+				document = (await loadBuiltHTML('tags/tag002/index.xml', {xml: true})).document;
+			});
+
+			it('has defaulted feed information', () => {
+				assert.strictEqual(document.querySelector('channel > title')?.textContent, '“tag002” Tag');
+				assert.strictEqual(document.querySelector('channel > description')?.textContent, 'Recent content in “tag002” Tag');
+			});
+
 		});
 
 	});
@@ -863,6 +1214,20 @@ describe('basic website', () => {
 			it('does not contain a link to Twitter', () => {
 				const subject = findTestElements(header, 'header-twitter')[0]?.getAttribute('href');
 				assert.isUndefined(subject);
+			});
+
+		});
+
+		describe('footer', () => {
+			let footer;
+
+			before(() => {
+				footer = findTestElements(document.body, 'footer')[0];
+			});
+
+			it('contains a copyright notice', () => {
+				const subject = findTestElements(footer, 'footer-copyright')[0]?.textContent.trim();
+				assert.strictEqual(subject, `Copyright © ${new Date().getFullYear()}`);
 			});
 
 		});
