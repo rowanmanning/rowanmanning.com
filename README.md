@@ -8,10 +8,10 @@ The source code for [rowanmanning.com](https://rowanmanning.com/).
 
   1. Install [Hugo](https://gohugo.io/) and [Node.js](https://nodejs.org/)
 
-  2. Clone this repo locally and initialise submodules:
+  2. Clone this repo locally:
 
      ```bash
-     git clone https://github.com/rowanmanning/rowanmanning.com.git && cd rowanmanning.com && submodule init && git submodule update
+     git clone https://github.com/rowanmanning/rowanmanning.com.git && cd rowanmanning.com
      ```
 
   3. Install npm dependencies with `npm install`
