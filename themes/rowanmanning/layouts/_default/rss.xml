@@ -2,30 +2,28 @@
 {{- $feed := partial "feed/data/feed" . -}}
 
 {{- /* Output RSS XML */ -}}
-{{- printf "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\" ?>" | safeHTML }}
-
+{{- printf `<?xml version="1.0" encoding="utf-8" standalone="yes" ?>` | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>{{ $feed.title }}</title>
 		<link>{{ $feed.link }}</link>{{ with .OutputFormats.Get "RSS" }}
-		{{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}{{ end }}
+		{{ printf `<atom:link href=%q rel="self" type=%q />` .Permalink .MediaType | safeHTML }}{{ end }}
 		<description>{{ $feed.description }}</description>
 		<generator>Hugo {{ .Site.Hugo.Version }}</generator>
 		<language>{{ $feed.language }}</language>{{ if $feed.author.email }}
 		<managingEditor>{{ $feed.author.email }}{{ with $feed.author.name }} ({{ . }}){{ end }}</managingEditor>
 		<webMaster>{{ $feed.author.email }}{{ with $feed.author.name }} ({{ . }}){{ end }}</webMaster>{{ end }}{{ with $feed.copyright }}
-		<copyright>{{ . }}</copyright>{{ end }}{{ if not $feed.updated.IsZero }}
+		<copyright>{{ . | plainify }}</copyright>{{ end }}{{ if not $feed.updated.IsZero }}
 		<lastBuildDate>{{ dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" $feed.updated | safeHTML }}</lastBuildDate>{{ end }}
 		{{ range $feed.entries }}
 		<item>
-			<guid>{{ .link }}</guid>
+			<guid>{{ .id }}</guid>
 			<title>{{ .title }}</title>
 			<link>{{ .link }}</link>
 			<pubDate>{{ dateFormat "Mon, 02 Jan 2006 15:04:05 -0700" .published | safeHTML }}</pubDate>{{ if .author.email }}
 			<author>{{ .author.email }}{{ with .author.name }} ({{ . }}){{ end }}</author>{{ end }}
-			<description>{{ printf "<![CDATA[%s]]>" .content | safeHTML }}</description>{{ with .categories }}{{ range . }}
-			<category>{{ .label }}</category>
-			{{ end }}{{ end }}
+			<description>{{ printf `<![CDATA[%s]]>` .content | safeHTML }}</description>{{ with .categories }}{{ range . }}
+			<category>{{ .label }}</category>{{ end }}{{ end }}
 		</item>
 		{{ end }}
 	</channel>

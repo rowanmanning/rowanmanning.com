@@ -1,0 +1,15 @@
+
+baseURL: https://atom-basic.mock.local/
+noJSConfigInAssets: true
+
+# Replace RSS feeds with Atom feeds
+outputs:
+  home: ["HTML", "ATOM"]
+  section: ["HTML", "ATOM"]
+  taxonomy: ["HTML", "ATOM"]
+  term: ["HTML", "ATOM"]
+
+params:
+
+  # Clear mainSections param
+  mainSections: []

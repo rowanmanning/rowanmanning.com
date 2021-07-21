@@ -1168,7 +1168,7 @@ describe('basic website', () => {
 			]);
 		});
 
-		describe('when the taxonomy has no index page', () => {
+		describe('when the term has no index page', () => {
 
 			before(async () => {
 				document = (await loadBuiltHTML('tags/tag002/index.xml', {xml: true})).document;

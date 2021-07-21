@@ -1,0 +1,35 @@
+
+{{- $feed := partial "feed/data/feed" . -}}
+
+{{- /* Output Atom XML */ -}}
+{{- printf `<?xml version="1.0" encoding="utf-8" ?>` | safeHTML }}
+<feed xmlns="http://www.w3.org/2005/Atom"{{ with $feed.language }} xml:lang="{{ . }}"{{ end }}>
+	<generator uri="https://gohugo.io/" version="{{ hugo.Version }}">Hugo</generator>
+	{{ printf `<title type="html"><![CDATA[%s]]></title>` $feed.title | safeHTML }}
+	<link href="{{ $feed.link }}" rel="alternate" type="text/html"/>{{ with .OutputFormats.Get "Atom" }}
+	{{ printf `<link href=%q rel="self" type=%q />` .Permalink .MediaType | safeHTML }}{{ end }}{{ with $feed.id }}
+	<id>{{ . | plainify }}</id>{{ end }}{{ with $feed.copyright }}
+	<rights>{{ . | plainify }}</rights>{{ end }}{{ with $feed.author }}
+	<author>
+		<name>{{ .name }}</name>{{ with .email }}
+		<email>{{ . }}</email>{{ end }}{{ with .url }}
+		<uri>{{ . }}</uri>{{ end }}
+	</author>{{ end }}
+	<updated>{{ dateFormat "2006-01-02T15:04:05-07:00" $feed.updated | safeHTML }}</updated>
+	{{ range $feed.entries }}
+	<entry>
+		{{ printf `<title type="html"><![CDATA[%s]]></title>` .title | safeHTML }}
+		<link href="{{ .link }}" rel="alternate" type="text/html" />{{ with .id }}
+		<id>{{ . | plainify }}</id>{{ end }}{{ with .author -}}
+		<author>
+			<name>{{ .name }}</name>{{ with .email }}
+			<email>{{ . }}</email>{{ end }}{{ with .url }}
+			<uri>{{ . }}</uri>{{ end }}
+		</author>{{ end }}
+		<published>{{ dateFormat "2006-01-02T15:04:05-07:00" .published | safeHTML }}</published>
+		<updated>{{ dateFormat "2006-01-02T15:04:05-07:00" (.lastmod | default .published) | safeHTML }}</updated>
+		{{ printf `<content type="html"><![CDATA[%s]]></content>` .content | safeHTML }}{{ with .categories }}{{ range . }}
+		<category scheme="{{ .permalink }}" term="{{ .term }}" label="{{ .label }}"/>{{ end }}{{ end }}
+	</entry>
+	{{ end }}
+</feed>

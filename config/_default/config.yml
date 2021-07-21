@@ -15,7 +15,8 @@ author:
   twitter: "rowanmanning"
 
 # Configure the themes
-theme: ["atom-feed", "rowanmanning"]
+theme:
+  - rowanmanning
 
 # We only want the tags taxonomy
 taxonomies:

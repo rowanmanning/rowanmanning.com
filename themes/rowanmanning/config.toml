@@ -1,4 +1,30 @@
 
+# Atom Feed
+# =========
+#
+# Add "ATOM" to any Page Kind under [outputs] in your site config
+# to generate an Atom feed.
+#
+# Example:
+#   [outputs]
+#     home = ["HTML", "ATOM"]
+
+# Required media types
+[mediaTypes."application/atom+xml"]
+  suffixes = ["xml"]
+
+# Atom output formats
+# https://validator.w3.org/feed/docs/atom.html#whatIsAtom
+[outputFormats.Atom]
+  name = "Atom"
+  mediaType = "application/atom+xml"
+  baseName = "feed"
+  isPlainText = false
+  rel = "alternate"
+  isHTML = false
+  noUgly = true
+  permalinkable = false
+
 # Lunr Index
 # ==========
 #

@@ -1,3 +1,0 @@
-[submodule "themes/atom-feed"]
-	path = themes/atom-feed
-	url = https://github.com/rowanmanning/hugo-atom-feed.git
