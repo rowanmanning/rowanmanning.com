@@ -1,5 +1,7 @@
 'use strict';
 
+const {mf2} = require('microformats-parser');
+
 describe('authored website', () => {
 	let document;
 
@@ -66,6 +68,61 @@ describe('authored website', () => {
 						image: null,
 						name: 'Mock Incomplete Author',
 						url: null
+					}
+				]);
+			});
+
+			it('contains author microformats for each piece of content in the section', () => {
+				const microformats = mf2(document.documentElement.outerHTML, {
+					baseUrl: 'https://authored.mock.local/'
+				});
+				const feed = microformats.items[0].children;
+				const authors = feed.map(item => item.properties.author[0]);
+				assert.deepEqual(authors, [
+					{
+						type: [
+							'h-card'
+						],
+						properties: {
+							url: [
+								'https://site.author.local/'
+							],
+							photo: [
+								'https://site.author.local/photo.png'
+							],
+							name: [
+								'Mock Site Author'
+							]
+						},
+						value: 'Mock Site Author'
+					},
+					{
+						type: [
+							'h-card'
+						],
+						properties: {
+							url: [
+								'https://page.author.local/'
+							],
+							photo: [
+								'https://page.author.local/photo.png'
+							],
+							name: [
+								'Mock Page Author'
+							]
+						},
+						value: 'Mock Page Author'
+					},
+					{
+						type: [
+							'h-card'
+						],
+						properties: {
+							name: [
+								'Mock Incomplete Author'
+							]
+						},
+						value: 'Mock Incomplete Author'
 					}
 				]);
 			});
@@ -199,6 +256,31 @@ describe('authored website', () => {
 				assert.strictEqual(subject, 'https://site.author.local/');
 			});
 
+			it('contains author microformats for the site author', () => {
+				const microformats = mf2(document.documentElement.outerHTML, {
+					baseUrl: 'https://authored.mock.local/'
+				});
+				const entry = microformats.items[0];
+				const author = entry.properties.author[0];
+				assert.deepEqual(author, {
+					type: [
+						'h-card'
+					],
+					properties: {
+						url: [
+							'https://site.author.local/'
+						],
+						photo: [
+							'https://site.author.local/photo.png'
+						],
+						name: [
+							'Mock Site Author'
+						]
+					},
+					value: 'Mock Site Author'
+				});
+			});
+
 		});
 
 		describe('when the page has an author', () => {
@@ -231,6 +313,31 @@ describe('authored website', () => {
 				it('contains a link to the page author URL', () => {
 					const subject = findTestElements(document.body, 'content-author-url')[0]?.getAttribute('href');
 					assert.strictEqual(subject, 'https://page.author.local/');
+				});
+
+				it('contains author microformats for the page author', () => {
+					const microformats = mf2(document.documentElement.outerHTML, {
+						baseUrl: 'https://authored.mock.local/'
+					});
+					const entry = microformats.items[0];
+					const author = entry.properties.author[0];
+					assert.deepEqual(author, {
+						type: [
+							'h-card'
+						],
+						properties: {
+							url: [
+								'https://page.author.local/'
+							],
+							photo: [
+								'https://page.author.local/photo.png'
+							],
+							name: [
+								'Mock Page Author'
+							]
+						},
+						value: 'Mock Page Author'
+					});
 				});
 
 			});

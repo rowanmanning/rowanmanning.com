@@ -2,6 +2,7 @@
 {{- /* Gather together all the content information */ -}}
 {{- /* ------------------------------------------- */ -}}
 
+{{- $author := partial "content/data/author" . -}}
 {{- $mainImage := partial "content/data/main-image" . -}}
 
 
@@ -69,6 +70,12 @@
 			{{- if (and .Params.crossPost .Params.crossPost.siteName) -}}
 				. <span class="content-summary__cross-post">Originally posted on <a href="{{ .Params.crossPost.siteUrl }}">{{ .Params.crossPost.siteName }}</a></span>
 			{{ end }}
+
+			<span class="hidden-fully p-author h-card">
+				{{ with $author.url }}<a href="{{ . }}" class="u-url"></a>{{ end }}
+				{{ with $author.image }}<a href="{{ . }}" class="u-photo"></a>{{ end }}
+				{{ with $author.name }}by <span class="p-name">{{ . }}</span>{{ end }}
+			</span>
 		</p>
 	</footer>
 

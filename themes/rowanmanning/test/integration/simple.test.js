@@ -1,5 +1,7 @@
 'use strict';
 
+const {mf2} = require('microformats-parser');
+
 describe('simple website', () => {
 	let document;
 
@@ -242,6 +244,96 @@ describe('simple website', () => {
 						},
 						thumbnailUrl: '',
 						url: 'https://simple.mock.local/section001s/item002/'
+					}
+				]);
+			});
+
+			it('contains microformats for each piece of content in the section', () => {
+				const microformats = mf2(document.documentElement.outerHTML, {
+					baseUrl: 'https://simple.mock.local/'
+				});
+				assert.deepEqual(microformats.items, [
+					{
+						type: [
+							'h-feed'
+						],
+						properties: {},
+						children: [
+							{
+								type: [
+									'h-entry'
+								],
+								properties: {
+									url: [
+										'https://simple.mock.local/section001s/item001/'
+									],
+									uid: [
+										'https://simple.mock.local/section001s/item001/'
+									],
+									name: [
+										'Mock Title Single Page In Section'
+									],
+									summary: [
+										'Mock Description Single Page In Section'
+									],
+									published: [
+										'2021-01-02 08:00:00 +0000 UTC'
+									],
+									category: [
+										'tag001',
+										'tag002'
+									],
+									author: [
+										{
+											type: [
+												'h-card'
+											],
+											properties: {
+												name: [
+													'Unknown'
+												]
+											},
+											value: 'Unknown'
+										}
+									]
+								}
+							},
+							{
+								type: [
+									'h-entry'
+								],
+								properties: {
+									url: [
+										'https://simple.mock.local/section001s/item002/'
+									],
+									uid: [
+										'https://simple.mock.local/section001s/item002/'
+									],
+									name: [
+										'Untitled Section001'
+									],
+									summary: [
+										''
+									],
+									published: [
+										'2021-01-02 08:00:00 +0000 UTC'
+									],
+									author: [
+										{
+											type: [
+												'h-card'
+											],
+											properties: {
+												name: [
+													'Unknown'
+												]
+											},
+											value: 'Unknown'
+										}
+									]
+								}
+							}
+						]
 					}
 				]);
 			});
@@ -494,6 +586,100 @@ describe('simple website', () => {
 					thumbnailUrl: '',
 					url: 'https://simple.mock.local/section001s/item001/'
 				});
+			});
+
+			it('contains microformats for the page', () => {
+				const microformats = mf2(document.documentElement.outerHTML, {
+					baseUrl: 'https://simple.mock.local/'
+				});
+				assert.deepEqual(microformats.items, [
+					{
+						type: [
+							'h-entry'
+						],
+						properties: {
+							url: [
+								'https://simple.mock.local/section001s/item001/'
+							],
+							uid: [
+								'https://simple.mock.local/section001s/item001/'
+							],
+							name: [
+								'Mock Title Single Page In Section'
+							],
+							summary: [
+								'Mock Description Single Page In Section'
+							],
+							published: [
+								'2021-01-02 08:00:00 +0000 UTC'
+							],
+							author: [
+								{
+									type: [
+										'h-card'
+									],
+									properties: {
+										name: [
+											'Unknown'
+										]
+									},
+									value: 'Unknown'
+								}
+							],
+							category: [
+								'tag001',
+								'tag002'
+							],
+							content: [
+								{
+									value: 'Mock Content Single Page In Section',
+									html: '<p>Mock Content Single Page In Section</p>'
+								}
+							]
+						},
+						children: [
+							{
+								type: [
+									'h-entry'
+								],
+								properties: {
+									url: [
+										'https://simple.mock.local/section002s/item001/'
+									],
+									uid: [
+										'https://simple.mock.local/section002s/item001/'
+									],
+									name: [
+										'Mock Title Single Page In Section'
+									],
+									summary: [
+										'Mock Description Single Page In Section'
+									],
+									published: [
+										'2021-01-01 08:00:00 +0000 UTC'
+									],
+									category: [
+										'tag001',
+										'tag002'
+									],
+									author: [
+										{
+											type: [
+												'h-card'
+											],
+											properties: {
+												name: [
+													'Unknown'
+												]
+											},
+											value: 'Unknown'
+										}
+									]
+								}
+							}
+						]
+					}
+				]);
 			});
 
 			it('contains a link to the section RSS feed', () => {

@@ -31,9 +31,11 @@
 				Posted on <time datetime="{{ .Date }}" class="dt-published">{{ .Date.Format "02 January 2006" }}</time>
 				by 
 				<span class="p-author h-card">
-					{{ if $author.url }}<a href="{{ $author.url }}" class="u-url" data-test="content-author-url">{{ end }}
-						<img src="{{ $author.image }}" alt="" class="hidden-fully u-photo" width="20" height="20" loading="lazy" />
-						<span class="p-name">{{ $author.name }}</span>{{ if $author.url }}</a>{{ end }}</span>
+					{{- if $author.url }}<a href="{{ $author.url }}" class="u-url" data-test="content-author-url">{{ end -}}
+						<span class="p-name">{{ $author.name }}</span>
+					{{- if $author.url }}</a>{{ end -}}
+					{{- with $author.image }}<a href="{{ . }}" class="hidden-fully u-photo"></a>{{ end -}}
+				</span>
 
 				{{- if gt .Lastmod .Date }}
 					(<time datetime="{{ .Params.lastmod }}" title="{{ .Params.lastmod.Format "02 January 2006" }}" class="dt-updated">updated</time>)
