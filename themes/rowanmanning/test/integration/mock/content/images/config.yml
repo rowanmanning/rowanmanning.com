@@ -1,0 +1,8 @@
+
+baseURL: https://images.mock.local/
+noJSConfigInAssets: true
+
+params:
+
+  # Clear mainSections param
+  mainSections: []
