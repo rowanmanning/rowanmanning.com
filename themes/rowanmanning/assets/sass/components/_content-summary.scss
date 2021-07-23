@@ -30,6 +30,17 @@
 	line-height: var(--line-height-xs);
 	margin-top: var(--spacing-rule);
 	margin-bottom: 0;
+	max-width: 75ch;
+}
+
+// Content summary meta link element
+.content-summary__meta-link {
+	color: inherit;
+	text-decoration: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 // Content summary body element

@@ -277,7 +277,7 @@ describe('simple website', () => {
 										'Mock Description Single Page In Section'
 									],
 									published: [
-										'2021-01-02 08:00:00 +0000 UTC'
+										'2021-01-02T08:00:00Z'
 									],
 									category: [
 										'tag001',
@@ -316,7 +316,7 @@ describe('simple website', () => {
 										''
 									],
 									published: [
-										'2021-01-02 08:00:00 +0000 UTC'
+										'2021-01-02T08:00:00Z'
 									],
 									author: [
 										{
@@ -521,7 +521,7 @@ describe('simple website', () => {
 			it('has opengraph meta elements', () => {
 				const og = parseOpenGraphMeta(document);
 				assert.deepEqual(og, {
-					'article:published_time': '2021-01-02 08:00:00 +0000 UTC',
+					'article:published_time': '2021-01-02T08:00:00Z',
 					'article:tag': [
 						'tag001',
 						'tag002'
@@ -611,7 +611,7 @@ describe('simple website', () => {
 								'Mock Description Single Page In Section'
 							],
 							published: [
-								'2021-01-02 08:00:00 +0000 UTC'
+								'2021-01-02T08:00:00Z'
 							],
 							author: [
 								{
@@ -656,7 +656,7 @@ describe('simple website', () => {
 										'Mock Description Single Page In Section'
 									],
 									published: [
-										'2021-01-01 08:00:00 +0000 UTC'
+										'2021-01-01T08:00:00Z'
 									],
 									category: [
 										'tag001',

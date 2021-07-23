@@ -2,7 +2,6 @@
 {{- /* Gather together all the content information */ -}}
 {{- /* ------------------------------------------- */ -}}
 
-{{- $author := partial "content/data/author" . -}}
 {{- $mainImage := partial "content/data/main-image" . -}}
 
 
@@ -13,11 +12,7 @@
 	{{- partial "content/structured-data" . -}}
 
 	<header>
-		<h2 class="content-summary__headline" data-test="content-summary-title">
-			<a href="{{ .RelPermalink }}" class="u-url u-uid p-name" data-test="content-summary-link">
-				{{- partial "content/data/title" . -}}
-			</a>
-		</h2>
+		{{- partial "content/summary/headline" . -}}
 	</header>
 
 	<div class="content-summary__body">
@@ -47,36 +42,7 @@
 	</div>
 
 	<footer>
-		<p class="content-summary__meta">
-			Posted on <time datetime="{{ .Date }}" class="dt-published">{{ .Date.Format "02 January 2006" }}</time>
-			{{ if .Params.tags }}
-				in
-
-				{{ $tags := .Params.tags -}}
-				{{- $tagCount := len $tags -}}
-
-				<span>
-					{{- range $key, $tag := $tags -}}
-						{{- if ne $key 0 }}<span class="hidden">, </span>{{ end -}}
-						<a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}/" class="p-category tag tag--{{ replace ($tag | urlize) "." "-" }} {{ if (and (gt $key 2) (gt $tagCount 4)) }}hidden-fully{{ end }}">{{ $tag }}</a>
-					{{- end -}}
-				</span>
-
-				{{- if gt $tagCount 4 -}}
-					<a href="{{ .RelPermalink }}" class="tag" title="{{ delimit (after 3 $tags) ", " }}">... {{ sub $tagCount 3 }} more</a>
-				{{- end -}}
-			{{- end -}}
-
-			{{- if (and .Params.crossPost .Params.crossPost.siteName) -}}
-				. <span class="content-summary__cross-post">Originally posted on <a href="{{ .Params.crossPost.siteUrl }}">{{ .Params.crossPost.siteName }}</a></span>
-			{{ end }}
-
-			<span class="hidden-fully p-author h-card">
-				{{ with $author.url }}<a href="{{ . }}" class="u-url"></a>{{ end }}
-				{{ with $author.image }}<a href="{{ . }}" class="u-photo"></a>{{ end }}
-				{{ with $author.name }}by <span class="p-name">{{ . }}</span>{{ end }}
-			</span>
-		</p>
+		{{ partial "content/summary/meta" . }}
 	</footer>
 
 </article>

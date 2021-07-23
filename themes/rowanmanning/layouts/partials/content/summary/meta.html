@@ -1,0 +1,48 @@
+
+{{- $author := partial "content/data/author" . -}}
+
+{{- $verb := "Posted" -}}
+{{- if eq .Params.noteType "like" -}}
+	{{- $verb = "Liked" -}}
+{{- else if eq .Params.noteType "repost" -}}
+	{{- $verb = "Reposted" -}}
+{{- else if eq .Params.noteType "reply" -}}
+	{{- $verb = "Replied to" -}}
+{{- end -}}
+
+<p class="content-summary__meta">
+	<a href="{{ .RelPermalink }}" class="content-summary__meta-link">
+		{{ $verb }} on <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}" class="dt-published">{{ .Date.Format "02 January 2006" }}</time></a>
+
+	<span class="p-author h-card">
+		{{- if $author.url -}}
+			by 
+			<a href="{{ $author.url }}" class="content-summary__meta-link u-url p-name">{{ with $author.name }}{{ . }}{{ end }}</a>
+		{{- else -}}
+			{{- with $author.name }}by <span class="p-name">{{ . }}</span>{{ end -}}
+		{{- end -}}
+		{{- with $author.image }}<a href="{{ . }}" class="u-photo"></a>{{ end -}}
+	</span>
+
+	{{- if .Params.tags -}}
+		, tagged
+
+		{{ $tags := .Params.tags -}}
+		{{- $tagCount := len $tags -}}
+
+		<span>
+			{{- range $key, $tag := $tags -}}
+				{{- if ne $key 0 }}<span class="hidden">, </span>{{ end -}}
+				<a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}/" class="p-category tag tag--{{ replace ($tag | urlize) "." "-" }} {{ if (and (gt $key 2) (gt $tagCount 4)) }}hidden-fully{{ end }}">{{ $tag }}</a>
+			{{- end -}}
+		</span>
+
+		{{- if gt $tagCount 4 -}}
+			<a href="{{ .RelPermalink }}" class="tag" title="{{ delimit (after 3 $tags) ", " }}">... {{ sub $tagCount 3 }} more</a>
+		{{- end -}}
+	{{- end -}}
+
+	{{- if (and .Params.crossPost .Params.crossPost.siteName) -}}
+		. <span class="content-summary__cross-post">Originally posted on <a href="{{ .Params.crossPost.siteUrl }}">{{ .Params.crossPost.siteName }}</a></span>
+	{{ end }}
+</p>

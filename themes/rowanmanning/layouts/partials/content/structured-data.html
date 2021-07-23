@@ -34,8 +34,8 @@
 			"description" $description
 			"image" $image
 			"thumbnailUrl" $thumb
-			"datePublished" .Date
-			"dateModified" .Lastmod
+			"datePublished" (.Date.Format "2006-01-02T15:04:05Z0700")
+			"dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z0700")
 			"keywords" .Params.tags
 			"author" (dict
 				"@type" "Person"
