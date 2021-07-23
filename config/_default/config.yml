@@ -82,6 +82,11 @@ params:
   structuredData:
     enabled: true
 
+  # Pagination configuration
+  pagination:
+    enabled: true
+    perPage: 20
+
   # Home page hero configurations
   # hero:
   #   backgroundColorTop: "red"

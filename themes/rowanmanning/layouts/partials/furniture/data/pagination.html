@@ -1,0 +1,25 @@
+
+{{/* Get page pagination */}}
+{{/* ------------------- */}}
+
+{{/* Get the pagination config */}}
+{{ $paginationConfig := partial "config/pagination" . }}
+
+{{/* Set some defaults for if pagination is not enabled */}}
+{{ $paginator := false }}
+{{ $pages := .Pages.ByDate.Reverse }}
+
+{{/* Create a paginator */}}
+{{ if $paginationConfig.enabled }}
+	{{ if or (eq .Kind "term") (eq .Kind "section") }}
+		{{ $paginator = .Paginate $pages $paginationConfig.perPage }}
+		{{ $pages = $paginator.Pages }}
+	{{ end }}
+{{ end }}
+
+{{
+	return (dict
+		"paginator" $paginator
+		"pages" $pages
+	)
+}}

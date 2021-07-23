@@ -43,22 +43,22 @@
 		{{ if or .PrevInSection .NextInSection }}
 
 			{{ with .PrevInSection }}
-				<a href="{{ .RelPermalink }}" rel="prev" class="in-page-nav__button" data-component="page-turner">
-					<abbr title="View the previous page ({{ .Title }})">←</abbr>
+				<a href="{{ .RelPermalink }}" rel="prev" class="in-page-nav__button" data-component="page-turner" role="button" aria-label="View the previous page ({{ .Title }})">
+					<abbr title="View the previous page ({{ .Title }})" aria-hidden="true">←</abbr>
 				</a>
 			{{ else }}
-				<span class="in-page-nav__button in-page-nav__button--disabled">
-					<abbr title="No previous page">←</abbr>
+				<span class="in-page-nav__button in-page-nav__button--disabled" role="button" aria-label="View the previous page ({{ .Title }})" aria-disabled="true">
+					<abbr title="No previous page" aria-hidden="true">←</abbr>
 				</span>
 			{{ end }}
 
 			{{ with .NextInSection }}
-				<a href="{{ .RelPermalink }}" rel="next" class="in-page-nav__button" data-component="page-turner">
-					<abbr title="View the next page ({{ .Title }})">→</abbr>
+				<a href="{{ .RelPermalink }}" rel="next" class="in-page-nav__button" data-component="page-turner" role="button" aria-label="View the previous page ({{ .Title }})">
+					<abbr title="View the next page ({{ .Title }})" aria-hidden="true">→</abbr>
 				</a>
 			{{ else }}
-				<span class="in-page-nav__button in-page-nav__button--disabled">
-					<abbr title="No next page">→</abbr>
+				<span class="in-page-nav__button in-page-nav__button--disabled" role="button" aria-label="View the previous page ({{ .Title }})" aria-disabled="true">
+					<abbr title="No next page" aria-hidden="true">→</abbr>
 				</span>
 			{{ end }}
 

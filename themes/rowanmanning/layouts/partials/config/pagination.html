@@ -1,0 +1,18 @@
+
+{{/* Get pagination config */}}
+{{/* --------------------- */}}
+
+{{ $paginationEnabled := .Site.Params.pagination.enabled | default true }}
+{{ $paginationPerPage := .Site.Params.pagination.perPage | default 30 }}
+
+{{/* Per-section pagination */}}
+{{ with .Params.pagination.perPage }}
+	{{ $paginationPerPage = . }}
+{{ end }}
+
+{{
+	return (dict
+		"enabled" $paginationEnabled
+		"perPage" $paginationPerPage
+	)
+}}

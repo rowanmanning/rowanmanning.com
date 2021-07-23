@@ -1,0 +1,64 @@
+
+{{- $pagination := partial "furniture/data/pagination" . -}}
+
+{{- if and $pagination.paginator -}}
+	{{- if (gt $pagination.paginator.TotalPages 1) -}}
+		<nav class="in-page-nav">
+			<ul class="in-page-nav__pagination">
+				{{- partial "partials/furniture/pagination/_items" $pagination.paginator }}
+			</ul>
+		</nav>
+	{{- end -}}
+{{- end -}}
+
+{{- define "partials/furniture/pagination/_items" -}}
+	{{- $paginator := . }}
+	{{- $currentPageNumber := .PageNumber }}
+
+	<li>
+		{{- with .Prev }}
+		<a class="in-page-nav__button" href="{{ .URL }}" rel="prev" role="button" aria-label="Previous page">
+			<abbr title="Previous page" aria-hidden="true">←</abbr>
+		</a>
+		{{- else }}
+		<span class="in-page-nav__button in-page-nav__button--disabled" role="button" aria-label="No previous page" aria-disabled="true">
+			<abbr title="No previous page" aria-hidden="true">←</abbr>
+		</span>
+		{{- end }}
+	</li>
+
+	{{- $slots := 5 }}
+	{{- $start := math.Max 1 (sub .PageNumber (math.Floor (div $slots 2))) }}
+	{{- $end := math.Min .TotalPages (sub (add $start $slots) 1) }}
+	{{- if lt (add (sub $end $start) 1) $slots }}
+		{{- $start = math.Max 1 (add (sub $end $slots) 1) }}
+	{{- end }}
+
+	{{- range $k := seq $start $end }}
+	<li>
+		{{- $url := (index $paginator.Pagers (sub $k 1)).URL }}
+		{{- if eq $paginator.PageNumber $k }}
+		<a class="in-page-nav__button in-page-nav__button--active" href="{{ $url }}" role="button" aria-label="Page {{ $k }}" aria-current="page">
+			<abbr title="Page {{ $k }}" aria-hidden="true">{{ $k }}</abbr>
+		</a>
+		{{- else }}
+		<a class="in-page-nav__button" href="{{ $url }}" role="button" aria-label="Page {{ $k }}">
+			<abbr title="Page {{ $k }}" aria-hidden="true">{{ $k }}</abbr>
+		</a>
+		{{- end }}
+	</li>
+	{{- end }}
+
+	<li>
+		{{- with .Next }}
+		<a class="in-page-nav__button" href="{{ .URL }}" rel="next" role="button" aria-label="Next page">
+			<abbr title="Next page" aria-hidden="true">→</abbr>
+		</a>
+		{{- else }}
+		<span class="in-page-nav__button in-page-nav__button--disabled" role="button" aria-label="No next page" aria-disabled="true">
+			<abbr title="No next page" aria-hidden="true">→</abbr>
+		</span>
+		{{- end }}
+	</li>
+
+{{- end -}}

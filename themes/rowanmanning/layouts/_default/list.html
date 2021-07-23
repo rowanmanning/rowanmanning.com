@@ -16,9 +16,10 @@
 
 	{{/* List of content */}}
 	<ol class="h-feed content-list">
-		{{ range .Pages.ByDate.Reverse }}
+		{{ range (partial "furniture/data/pagination" .).pages }}
 			<li>{{- partial "content/post-preview" . -}}</li>
 		{{ end }}
 	</ol>
+	{{ partial "furniture/pagination" . }}
 
 {{ end }}
