@@ -11,7 +11,7 @@ start:
 	@hugo server
 
 start-dev:
-	@hugo server -D
+	@hugo server -D --disableFastRender
 
 fetch-webmentions:
 	@./scripts/fetch-webmentions.js

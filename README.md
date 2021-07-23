@@ -6,7 +6,7 @@ The source code for [rowanmanning.com](https://rowanmanning.com/).
 
 ## Running locally
 
-  1. Install [Hugo](https://gohugo.io/) and [Node.js](https://nodejs.org/)
+  1. Install [Hugo](https://gohugo.io/) (>= 0.86.0) and [Node.js](https://nodejs.org/)
 
   2. Clone this repo locally:
 
