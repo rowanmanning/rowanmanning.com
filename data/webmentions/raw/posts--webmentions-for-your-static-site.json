@@ -375,5 +375,27 @@
 		"in-reply-to": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"d0febe9c600a04b6961a40fab0a8c9a8": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jan Boddez",
+			"photo": "https://webmention.io/avatar/jan.boddez.net/fce1504803e26e4bc97a7287c9e947699c7874ba2b74e6fbda1648d3bd70ee3b.jpg",
+			"url": "https://jan.boddez.net/"
+		},
+		"url": "https://jan.boddez.net/likes/489e26532f",
+		"published": "2021-07-24T00:04:00+02:00",
+		"wm-received": "2021-07-23T22:15:05Z",
+		"wm-id": 1228597,
+		"wm-source": "https://jan.boddez.net/likes/489e26532f",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"content": {
+			"html": "<p><i>Liked <a class=\"u-like-of\" href=\"https://rowanmanning.com/posts/webmentions-for-your-static-site/\">https://rowanmanning.com/posts/webmentions-for-your-static-site/</a>.</i></p>",
+			"text": "Liked https://rowanmanning.com/posts/webmentions-for-your-static-site/."
+		},
+		"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
