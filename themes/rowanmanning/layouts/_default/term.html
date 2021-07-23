@@ -22,7 +22,7 @@
 	{{/* List of content */}}
 	<ol class="h-feed content-list">
 		{{ range (partial "furniture/data/pagination" .).pages }}
-			<li>{{- partial "content/post-preview" . -}}</li>
+			<li>{{ .Render "summary" }}</li>
 		{{ end }}
 	</ol>
 	{{ partial "furniture/pagination" . }}
