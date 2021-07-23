@@ -61,22 +61,47 @@
 
 // Content head socials element
 .content-head__socials {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
 	margin: 0;
 	padding: 0;
+
+	> li:not(:first-child) {
+		margin-left: var(--spacingvalue-xs);
+	}
+
+	@media (max-width: $layout-width-mobile) {
+		display: block;
+
+		> li:not(:first-child) {
+			margin-left: 0;
+		}
+	}
 }
 
 // Content head social icon element
 .content-head__social-icon {
-	background-position: left center;
+	background-position: left top;
 	background-repeat: no-repeat;
-	background-size: contain;
-	display: inline-block;
+	background-size: var(--line-height-small);
+	display: block;
 	padding-left: calc(var(--line-height-small) + var(--spacingvalue-xxs));
 }
 
 // Content head social icon element, "responses" modifier
 .content-head__social-icon--responses {
 	background-image: url("#{$site-base-url}icons/response-inverted.svg");
+}
+
+// Content head social icon element, "syndication" modifier
+.content-head__social-icon--syndication {
+	background-image: url("#{$site-base-url}icons/link-inverted.svg");
+}
+
+// Content head social icon element, "twitter" modifier
+.content-head__social-icon--twitter {
+	background-image: url("#{$site-base-url}icons/twitter-inverted.svg");
 }
 
 // Content head source element

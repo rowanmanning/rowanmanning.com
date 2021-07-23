@@ -24,6 +24,12 @@ tags: []
 #   siteName: "Site Name"
 #   siteUrl: "https://example.com/"
 #   url: "https://example.com/post"
+# syndication:
+#   - url: https://example.com/
+#     label: Example
+#   - url: https://twitter.com/...
+#     label: Example
+#     type: twitter
 # reviewers:
 #   - name: "Full Name"
 #     website: "https://example.com/"

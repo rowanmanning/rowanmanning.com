@@ -78,11 +78,24 @@
 						</span>
 					{{- end }}
 				</p>
-				{{ if $webmentionConfig.enabled }}
-					<p class="content-head__socials">
-						<a href="#responses" class="content-head__social-icon content-head__social-icon--responses">{{ len $webmentions.all }} responses</a>
-					</p>
-				{{ end }}
+				<ul class="content-head__socials">
+					{{ if $webmentionConfig.enabled }}
+						<li>
+							<a href="#responses" class="content-head__social-icon content-head__social-icon--responses">
+								{{ len $webmentions.all }} responses
+							</a>
+						</li>
+					{{ end }}
+					{{ with .Params.syndication }}
+						{{ range . }}
+							<li>
+								<a href="{{ .url }}" class="content-head__social-icon content-head__social-icon--syndication {{ with .name }}content-head__social-icon--{{ . | urlize }}{{ end }} u-syndication">
+									Syndicated to {{ .name }}
+								</a>
+							</li>
+						{{ end }}
+					{{ end }}
+				</ul>
 			</div>
 
 			{{ if (and .Params.crossPost .Params.crossPost.siteName) }}

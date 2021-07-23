@@ -29,6 +29,9 @@ resources:
 
 # Links
 # -----
+syndication:
+  - url: https://news.indieweb.org/en
+    name: IndieNews
 reviewers:
   - name: "Chee Rabbits"
     website: "https://chee.snoot.club/"
