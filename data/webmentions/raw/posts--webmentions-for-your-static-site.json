@@ -353,5 +353,27 @@
 		"rels": {
 			"canonical": "https://diggingthedigital.com/16694-2/"
 		}
+	},
+	"1cb49631f97780949ce07ab74c3af070": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Khürt Williams",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/5aa722c9fdc87e51bbd8970f3e4b7a12ee4023b44dbb1231572e787910773488.jpg",
+			"url": "https://twitter.com/khurtwilliams"
+		},
+		"url": "https://twitter.com/khurtwilliams/status/1418608683454537729",
+		"published": "2021-07-23T16:27:21+00:00",
+		"wm-received": "2021-07-23T17:00:04Z",
+		"wm-id": 1228423,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1412687742543273988/1418608683454537729",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"content": {
+			"html": "The one downside is that your system is dependent on a third-party service.\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "The one downside is that your system is dependent on a third-party service."
+		},
+		"in-reply-to": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
