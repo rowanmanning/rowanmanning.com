@@ -325,5 +325,33 @@
 		"rels": {
 			"canonical": "https://evgenykuznetsov.org/en/reactions/2021/like-204142237/"
 		}
+	},
+	"e708c85eb38bfc7deca18b09d01a5598": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Frank Meeuwsen",
+			"photo": "",
+			"url": "https://diggingthedigital.com/author/frank-meeuwsen/"
+		},
+		"url": "https://diggingthedigital.com/16694-2/",
+		"published": "2021-07-23T00:00:00",
+		"wm-received": "2021-07-23T15:50:04Z",
+		"wm-id": 1228389,
+		"wm-source": "https://diggingthedigital.com/16694-2/",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"photo": [
+			"https://secure.gravatar.com/avatar/ae0d61ecec9ba68060523144917aed32?s=32&d=mm&r=g"
+		],
+		"content": {
+			"html": "<span style=\"max-height:1rem;margin-right:.5rem;\" title=\"Like\"><span></span></span><a href=\"https://rowanmanning.com/posts/webmentions-for-your-static-site/\" class=\"p-name u-url\">Webmentions for your Static Site</a> by <a href=\"https://rowanmanning.com/\" class=\"h-card p-author\">Rowan Manning</a> <em>(<span class=\"p-publication\">rowanmanning.com</span>)</em><blockquote class=\"e-summary\"><p>A small dive into one of my new favourite web technologies: webmentions. This post talks through how I use them to make my static website feel more alive and social.</p></blockquote>",
+			"text": "Webmentions for your Static Site by Rowan Manning (rowanmanning.com)A small dive into one of my new favourite web technologies: webmentions. This post talks through how I use them to make my static website feel more alive and social."
+		},
+		"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "like-of",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://diggingthedigital.com/16694-2/"
+		}
 	}
 }
