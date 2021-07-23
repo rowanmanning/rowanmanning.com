@@ -304,5 +304,26 @@
 		"mention-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
 		"wm-property": "mention-of",
 		"wm-private": false
+	},
+	"b2d531529a483374a0e0a3579bee05b3": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Evgeny Kuznetsov",
+			"photo": "https://webmention.io/avatar/evgenykuznetsov.org/3b455ea772635831bb966a96959ad5acc7a16b65e79464111c4ed0e6d6db66a4.jpg",
+			"url": "https://evgenykuznetsov.org"
+		},
+		"url": "https://evgenykuznetsov.org/en/reactions/2021/like-204142237/",
+		"published": "2021-07-23T17:22:32+03:00",
+		"wm-received": "2021-07-23T14:24:10Z",
+		"wm-id": 1228314,
+		"wm-source": "https://evgenykuznetsov.org/en/reactions/2021/like-204142237/",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "like-of",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://evgenykuznetsov.org/en/reactions/2021/like-204142237/"
+		}
 	}
 }
