@@ -397,5 +397,27 @@
 		"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"3374489b3b208fb290cfdf8e1129b2e5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan Manning",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/fe9141fc44359aa8af294baf11d39e9fd0026e802ff4b43904fe0a3dac3d10f5.jpg",
+			"url": "https://twitter.com/rowanmanning"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1418895306280902660",
+		"published": "2021-07-24T11:26:17+00:00",
+		"wm-received": "2021-07-24T12:19:21Z",
+		"wm-id": 1228966,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1412687742543273988/1418895306280902660",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"content": {
+			"html": "Yeah I agree, it's fine for now but I'm exploring writing and self-hosting some of it in order to reduce this 👍\n<a class=\"u-mention\" href=\"https://twitter.com/khurtwilliams\"></a>",
+			"text": "Yeah I agree, it's fine for now but I'm exploring writing and self-hosting some of it in order to reduce this 👍"
+		},
+		"in-reply-to": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
