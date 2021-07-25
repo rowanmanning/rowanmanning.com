@@ -4,21 +4,16 @@
 const crypto = require('crypto');
 const fs = require('fs/promises');
 const got = require('got');
-const site = require('../data/webmentions/config/site.json');
+const site = require('../../../data/webmentions/config/site.json');
+const mkdir = require('../util/mkdir');
 
-(async () => {
-
-	const webmentionApiKey = process.env.WEBMENTION_API_KEY;
-	if (!webmentionApiKey) {
-		console.error('No WEBMENTION_API_KEY environment variable was found');
-		process.exit(1);
-	}
+module.exports = async function fetchWebmentions(apiKey) {
 
 	// Webmention query parameters
 	const searchParams = {
 		domain: site.domain,
 		'per-page': 1000,
-		token: webmentionApiKey
+		token: apiKey
 	};
 
 	// Get posts since the last refresh
@@ -56,8 +51,8 @@ const site = require('../data/webmentions/config/site.json');
 		}
 
 		// Create the raw directory
-		const rawDataPath = `${__dirname}/../data/webmentions/raw`;
-		await fs.mkdir(rawDataPath, {recursive: true});
+		const rawDataPath = `${__dirname}/../../../data/webmentions/raw`;
+		await mkdir(rawDataPath);
 
 		if (slug === '') {
 			slug = 'index';
@@ -92,9 +87,9 @@ const site = require('../data/webmentions/config/site.json');
 		site.lastSync = webmentions[webmentions.length - 1]['wm-received'];
 		console.log(`Saving last sync date as ${site.lastSync}`);
 		await fs.writeFile(
-			`${__dirname}/../data/webmentions/config/site.json`,
+			`${__dirname}/../../../data/webmentions/config/site.json`,
 			JSON.stringify(site, null, '\t')
 		);
 	}
 
-})();
+};

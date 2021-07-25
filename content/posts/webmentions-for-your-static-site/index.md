@@ -162,7 +162,7 @@ It got complicated fairly quickly. The things I added were:
   * Saving each of the webmentions for a specific URL into the relevant JSON file,
   * Committing these new files and pushing them to the repo so that we don't need to fetch webmentions on every build.
 
-You can look at the [full script here](https://github.com/rowanmanning/rowanmanning.com/blob/main/scripts/fetch-webmentions.js), and you can also see an example of these saved JSON files on GitHub: [here's the JSON file](https://github.com/rowanmanning/rowanmanning.com/blob/main/data/webmentions/raw/posts--yeehaw.json) for my [Yeehaw blog post](/posts/yeehaw/).
+You can look at the [full script here](https://github.com/rowanmanning/rowanmanning.com/blob/main/scripts/site-wm-fetch.js), and you can also see an example of these saved JSON files on GitHub: [here's the JSON file](https://github.com/rowanmanning/rowanmanning.com/blob/main/data/webmentions/raw/posts--yeehaw.json) for my [Yeehaw blog post](/posts/yeehaw/).
 
 So now that we're storing our webmentions alongside our website content, the next step is displaying them on each of the pages.
 
@@ -204,7 +204,7 @@ Webmention as a standard doesn't specify how you should display webmentions on y
 
 With this in mind, the next step is to add in a script that processes the raw webmentions and makes sure that their content is safe to display.
 
-[My script](https://github.com/rowanmanning/rowanmanning.com/blob/main/scripts/process-webmentions.js) is more complex than you might need, but it does the following to make things safer:
+[My script](https://github.com/rowanmanning/rowanmanning.com/blob/main/scripts/site-wm-process.js) is more complex than you might need, but it does the following to make things safer:
 
   * It filters webmentions to make sure that they have author details. A lack of author details makes them pretty useless and I decided to exclude them as they most often indicate spam.
 

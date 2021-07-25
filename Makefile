@@ -14,10 +14,10 @@ start-dev:
 	@hugo server -D --disableFastRender
 
 fetch-webmentions:
-	@./scripts/fetch-webmentions.js
+	@./scripts/site.js wm:fetch --api-key $(WEBMENTION_API_KEY)
 
 process-webmentions:
-	@./scripts/process-webmentions.js
+	@./scripts/site.js wm:process
 
 build: process-webmentions
 	@hugo --minify --environment production
@@ -32,3 +32,15 @@ _test-theme-run:
 	@if [ -x $(NPM_BIN)/mocha ]; then make _test-theme-run-mocha; fi
 _test-theme-run-mocha:
 	@mocha "themes/rowanmanning/test/integration/**/*.test.js" --recursive --timeout $(INTEGRATION_TIMEOUT) --slow $(INTEGRATION_SLOW) $(INTEGRATION_TEST_MOCHA_FLAGS)
+
+new-like:
+	@./scripts/site.js note:create --type like $(URL)
+
+new-note:
+	@./scripts/site.js note:create --type note
+
+new-reply:
+	@./scripts/site.js note:create --type reply $(URL)
+
+new-repost:
+	@./scripts/site.js note:create --type repost $(URL)

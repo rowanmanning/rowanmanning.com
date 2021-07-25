@@ -1,0 +1,16 @@
+
+{{- /* Get the url param */ -}}
+{{- $url := cond .IsNamedParams (.Get "url") (.Get 0) -}}
+
+{{- /* Error if we don't have correct params */ -}}
+{{- if not $url -}}
+	{{- errorf "url parameter is required for like-of shortcode: %s" .Position -}}
+{{- end -}}
+
+{{
+	partial "content/notes/ref" (dict
+		"type" "like-of"
+		"url" $url
+		"page" .Page
+	)
+}}

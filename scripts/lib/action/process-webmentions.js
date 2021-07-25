@@ -5,7 +5,8 @@ const clip = require('text-clipper').default;
 const createDOMPurify = require('dompurify');
 const fs = require('fs/promises');
 const {JSDOM} = require('jsdom');
-const {trusted, blocked} = require('../data/webmentions/config/trust.json');
+const saveJSON = require('../util/save-json');
+const {trusted, blocked} = require('../../../data/webmentions/config/trust.json');
 
 // The ideal character limit and number of lines for webmentions
 const maxContentCharacterLength = 280;
@@ -15,16 +16,17 @@ const maxContentLines = 6;
 const {window} = new JSDOM('');
 const {document} = window;
 const DOMPurify = createDOMPurify(window);
+const mkdir = require('../util/mkdir');
 
-(async () => {
+module.exports = async function processWebmentions() {
 
 	// Load all raw webmention files
-	const rawDataPath = `${__dirname}/../data/webmentions/raw`;
+	const rawDataPath = `${__dirname}/../../../data/webmentions/raw`;
 	const files = await fs.readdir(rawDataPath);
 
 	// Create the processed webmentions folder
-	const processedDataPath = `${__dirname}/../data/webmentions/processed`;
-	await fs.mkdir(processedDataPath, {recursive: true});
+	const processedDataPath = `${__dirname}/../../../data/webmentions/processed`;
+	await mkdir(processedDataPath);
 
 	let counter = 0;
 	for (const file of files) {
@@ -37,8 +39,7 @@ const DOMPurify = createDOMPurify(window);
 		saveJSON(`${processedDataPath}/${file}`, processedWebmentions);
 	}
 	console.log(`Processed ${counter} webmentions`);
-
-})();
+};
 
 function processWebmention([md5, webmention]) {
 	const type = getMentionType(webmention);
@@ -258,17 +259,17 @@ function getMentionContent(webmention) {
 	// If there are photos, append to the content
 	if (webmention.photo && webmention.photo.length) {
 		result.content = `
-			${result.content ? result.content : ''}
-			<a href="${webmention.url.replace(/"/g, '&quot;')}" nofollow>[image]</a>
-		`;
+				${result.content ? result.content : ''}
+				<a href="${webmention.url.replace(/"/g, '&quot;')}" nofollow>[image]</a>
+			`;
 	}
 
 	// If there are videos, append to the content
 	if (webmention.video && webmention.video.length) {
 		result.content = `
-			${result.content ? result.content : ''}
-			<a href="${webmention.url.replace(/"/g, '&quot;')}" nofollow>[video]</a>
-		`;
+				${result.content ? result.content : ''}
+				<a href="${webmention.url.replace(/"/g, '&quot;')}" nofollow>[video]</a>
+			`;
 	}
 
 	return result;
@@ -328,8 +329,4 @@ function getCleanDOM(html) {
 
 async function loadJSON(filePath) {
 	return JSON.parse(await fs.readFile(filePath, 'utf-8'));
-}
-
-function saveJSON(filePath, data) {
-	return fs.writeFile(filePath, JSON.stringify(data, null, '\t'));
 }

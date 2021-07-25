@@ -27,7 +27,7 @@ resources:
 
     * Most of the interactions on the stuff I write comes from Twitter, so I set up [Bridgy](https://brid.gy/) to listen for any tweets mentioning this website, or likes and retweets on my tweets about this website.
 
-    * For displaying webmentions on my site, I took some inspiration from [this guide](https://sebastiandedeyne.com/webmentions-on-a-static-site-with-github-actions/) which outlines how to use GitHub actions to poll for new mentions. I now have [an action](https://github.com/rowanmanning/rowanmanning.com/blob/main/.github/workflows/fetch-webmentions.yml) that runs every 30 minutes to fetch new mentions from the Webmention.io API and save them as JSON in the repo. [My script](https://github.com/rowanmanning/rowanmanning.com/blob/main/scripts/fetch-webmentions.js) isn't pretty but it works :slightly_smiling_face:
+    * For displaying webmentions on my site, I took some inspiration from [this guide](https://sebastiandedeyne.com/webmentions-on-a-static-site-with-github-actions/) which outlines how to use GitHub actions to poll for new mentions. I now have [an action](https://github.com/rowanmanning/rowanmanning.com/blob/main/.github/workflows/fetch-webmentions.yml) that runs every 30 minutes to fetch new mentions from the Webmention.io API and save them as JSON in the repo. [My script](https://github.com/rowanmanning/rowanmanning.com/blob/main/scripts/site-wm-fetch.js) isn't pretty but it works :slightly_smiling_face:
 
     * My page templates now look for a matching JSON file and render webmentions beneath the content. You can see this on any of my blog posts or weeknotes (see [Writing a Friendly Readme](/writing-a-friendly-readme/#responses)). I'm excited about it:
 

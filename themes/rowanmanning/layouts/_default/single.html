@@ -49,7 +49,9 @@
 		<header class="content-head">
 
 			<h1 class="content-head__title" data-test="content-title">
-				<a href="{{ .Permalink }}" class="u-url u-uid p-name">{{- partial "content/data/title" . -}}</a>
+				<a href="{{ .Permalink }}" class="u-url u-uid {{ if ne .Section "notes" }}p-name{{ end }}">
+					{{- partial "content/data/title" . -}}
+				</a>
 			</h1>
 
 			<div class="content-head__meta content-highlight content-highlight--{{ .Params.highlight }}">
@@ -110,10 +112,13 @@
 		</header>
 
 		{{ if .Content }}
-			<div class="content-body e-content" data-test="content-body">
+			<div class="content-body {{ if eq .Section "notes" }}p-name{{ end }} e-content" data-test="content-body">
 				{{ if .Draft }}{{ partial "draft-notice.html" . }}{{ end }}
 				{{ .Content }}
 				{{ if .Draft }}{{ partial "draft-notice.html" . }}{{ end }}
+				{{ if eq .Section "notes" }}
+					{{- partial "content/notes/citation" . -}}
+				{{ end }}
 			</div>
 		{{ end }}
 

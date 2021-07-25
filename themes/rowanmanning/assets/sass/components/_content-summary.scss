@@ -28,8 +28,7 @@
 .content-summary__meta {
 	font-size: var(--font-size-xs);
 	line-height: var(--line-height-xs);
-	margin-top: var(--spacing-rule);
-	margin-bottom: 0;
+	margin: 0;
 	max-width: 75ch;
 }
 
@@ -47,6 +46,7 @@
 .content-summary__body {
 	display: flex;
 	align-items: flex-start;
+	margin-bottom: var(--spacing-half-line);
 
 	@media (max-width: $layout-width-mobile) {
 		display: block;
@@ -90,9 +90,43 @@
 // Content summary preview element
 .content-summary__preview {
 	margin: 0;
-	max-width: 50ch;
+	max-width: 75ch;
 
 	a {
 		@extend %link;
 	}
+}
+
+// Content summary note element
+.content-summary__note {
+	--note-background-image: url("#{$site-base-url}icons/response-inverted.svg");
+
+	margin: 0;
+	margin-bottom: var(--spacing-half-line);
+	max-width: 75ch;
+
+	> .content-body {
+		--content-body-line: var(--spacing-half-line);
+		--content-body-double-line: var(--spacing-line);
+		--content-body-half-line: var(--spacing-rule);
+	}
+}
+
+// Content summary note body element
+.content-summary__note-body > :first-child {
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: var(--spacing-line);
+	padding-left: calc(var(--spacing-line) + var(--spacing-rule));
+	background-image: var(--note-background-image);
+}
+
+// Content summary note element, "like" modifier
+.content-summary__note--like {
+	--note-background-image: url("#{$site-base-url}icons/like-inverted.svg");
+}
+
+// Content summary note element, "repost" modifier
+.content-summary__note--repost {
+	--note-background-image: url("#{$site-base-url}icons/repost-inverted.svg");
 }

@@ -8,6 +8,7 @@ module.exports = {
 		'no-continue': 'off',
 		'no-invalid-this': 'off',
 		'require-atomic-updates': 'off',
-		'max-depth': 'off'
+		'max-depth': 'off',
+		'no-new': 'off'
 	}
 };

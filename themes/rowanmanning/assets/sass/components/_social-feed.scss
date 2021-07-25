@@ -61,6 +61,8 @@
 .social-feed__content {
 	display: block;
 }
-.social-feed__content * {
-	margin-bottom: 0 !important;
+.social-feed__content.content-body {
+	--content-body-line: 0;
+	--content-body-double-line: 0;
+	--content-body-half-line: 0;
 }

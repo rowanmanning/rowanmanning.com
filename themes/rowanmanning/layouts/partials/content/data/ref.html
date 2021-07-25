@@ -1,0 +1,36 @@
+
+{{/* Get reference information */}}
+{{/* ------------------------- */}}
+
+{{/* Get site ref information */}}
+{{ $data := false }}
+{{ $webmentionClass := false }}
+
+{{ if .Site.Data.refs }}
+
+	{{/* Likes */}}
+	{{ if and (eq .Params.noteType "like") .Params.likeOf }}
+		{{ $data = index .Site.Data.refs (md5 .Params.likeOf) | default nil }}
+		{{ $webmentionClass = "u-like-of" }}
+	{{ end }}
+		
+	{{/* Reposts */}}
+	{{ if and (eq .Params.noteType "repost") .Params.repostOf }}
+		{{ $data = index .Site.Data.refs (md5 .Params.repostOf) | default nil }}
+		{{ $webmentionClass = "u-repost-of" }}
+	{{ end }}
+
+	{{/* Replies */}}
+	{{ if and (eq .Params.noteType "reply") .Params.inReplyTo }}
+		{{ $data = index .Site.Data.refs (md5 .Params.inReplyTo) | default nil }}
+		{{ $webmentionClass = "u-in-reply-to" }}
+	{{ end }}
+
+{{ end }}
+
+{{
+	return (dict
+		"data" $data
+		"webmentionClass" $webmentionClass
+	)
+}}

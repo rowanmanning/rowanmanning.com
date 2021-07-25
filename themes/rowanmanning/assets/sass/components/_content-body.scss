@@ -3,6 +3,10 @@
 .content-body {
 	@extend %base-typography;
 
+	--content-body-line: var(--spacing-line);
+	--content-body-double-line: var(--spacing-double-line);
+	--content-body-half-line: var(--spacing-half-line);
+
 	> :last-child {
 		margin-bottom: 0 !important;
 	}
@@ -10,12 +14,12 @@
 	// Reset default margins
 	blockquote, caption, details, dl, figure, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
 		margin-top: 0;
-		margin-bottom: var(--spacing-line);
+		margin-bottom: var(--content-body-line);
 	}
 
 	// Caption element
 	caption {
-		margin-bottom: var(--spacing-half-line);
+		margin-bottom: var(--content-body-half-line);
 	}
 
 	// Remove bottom margin from nested list elements
@@ -84,7 +88,7 @@
 	dd {
 		padding-left: var(--spacing-line);
 		margin-left: 0;
-		margin-bottom: var(--spacing-half-line);
+		margin-bottom: var(--content-body-half-line);
 	}
 
 	// Table elements
@@ -154,7 +158,7 @@
 	
 		> code {
 			display: block;
-			padding: var(--spacing-half-line);
+			padding: var(--content-body-half-line);
 			background-color: var(--colorvalue-gray-dark);
 			border: solid var(--spacing-rule) var(--colorvalue-cream);
 			color: var(--colorvalue-white-dark);
@@ -171,7 +175,7 @@
 		// https://stackoverflow.com/q/38391457/186241
 		background-image: linear-gradient(90deg, var(--quote-background-color), rgba(255,255,255,0));
 
-		background-size: var(--spacing-half-line) 100%;
+		background-size: var(--content-body-half-line) 100%;
 		background-repeat: no-repeat;
 		border-left: calc(var(--spacing-rule) * 0.5) solid var(--quote-border-color);
 		padding: 0;
@@ -187,7 +191,7 @@
 		font-style: italic;
 		font-weight: bold;
 		list-style: none;
-		margin-bottom: var(--spacing-half-line);
+		margin-bottom: var(--content-body-half-line);
 	}
 	summary::-webkit-details-marker {
 		display: none;
@@ -199,11 +203,11 @@
 		display: inline-block;
 		font-size: var(--font-size-small);
 		font-style: normal;
-		height: var(--spacing-line);
+		height: var(--content-body-line);
 		margin-left: -24px;
 		margin-right: var(--spacing-rule);
 		text-align: center;
-		width: var(--spacing-line);
+		width: var(--content-body-line);
 	}
 	details[open] summary::before {
 		content: "-";

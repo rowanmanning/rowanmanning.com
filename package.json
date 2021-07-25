@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "accessible-autocomplete": "^2.0.3",
+    "commander": "^8.0.0",
     "dompurify": "^2.2.9",
     "got": "^11.8.2",
     "hotkeys-js": "^3.8.7",

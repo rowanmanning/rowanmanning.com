@@ -39,6 +39,24 @@ Use Hugo archetypes to write new content:
     hugo new weeknotes/<number>
     ```
 
+  * To write a note:
+
+    ```bash
+    make new-note
+    ```
+
+    ```bash
+    make new-like URL=https://example.com/
+    ```
+
+    ```bash
+    make new-reply URL=https://example.com/
+    ```
+
+    ```bash
+    make new-repost URL=https://example.com/
+    ```
+
 
 ## Licence
 

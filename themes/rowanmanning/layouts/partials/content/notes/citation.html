@@ -1,0 +1,25 @@
+
+{{/* Get the URL reference */}}
+{{ $ref := partial "data/ref" . }}
+
+{{ with $ref.data }}
+	<blockquote class="citation {{ $ref.webmentionClass }} h-cite">
+		<cite><a href="{{ .url }}" class="citation__link u-url p-name">{{ .title | default .url }}</a></cite>
+		{{ with .description }}
+			<span class="p-content">{{ . }}</span>
+		{{ end }}
+		{{ with .published }}
+			(published <time datetime="{{ dateFormat "2006-01-02T15:04:05Z0700" . }}" class="dt-published">{{ dateFormat "02 January 2006" . }}</time>)
+		{{ end }}
+		{{ with .author }}
+			<div class="citation__attribution p-author h-card">
+				&mdash;
+				{{ if .url }}
+					<a href="{{ .url }}" class="u-url p-name">{{ .name }}</a>
+				{{ else }}
+					<span class="p-name">{{ .name }}</span>
+				{{ end }}
+			</div>
+		{{ end }}
+	</blockquote>
+{{ end }}

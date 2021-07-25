@@ -14,6 +14,11 @@
 {{/* Get the actual content */}}
 {{ $content := .Content | safeHTML | default $description }}
 
+{{/* For notes, append a citation to the content */}}
+{{ if eq .Section "notes" }}
+	{{ $content = printf "%v\n%v" $content (partial "content/notes/citation" .) }}
+{{ end }}
+
 {{/* Default content for term pages */}}
 {{ if and (not $content) (eq .Kind "term") }}
 	{{ $content = printf "<p>Content in %s</p>" $title | safeHTML }}

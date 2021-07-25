@@ -1,0 +1,27 @@
+
+// Citation block
+.citation.citation {
+	--citation-background-color: var(--colorvalue-cream);
+
+	@extend %base-typography;
+	font-size: var(--font-size-small);
+	line-height: var(--line-height-small);
+	padding: var(--spacing-rule) var(--spacing-half-line);
+	background-color: var(--citation-background-color);
+	border-radius: var(--spacing-rule);
+	border: none;
+	margin: 0;
+	display: inline-block;
+	max-width: 60ch;
+}
+
+// citation link element
+.citation__link {
+	font-weight: bold;
+}
+
+// citation attribution element
+.citation__attribution {
+	display: block;
+	font-style: italic;
+}
