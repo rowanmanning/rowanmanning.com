@@ -33,6 +33,9 @@ _test-theme-run:
 _test-theme-run-mocha:
 	@mocha "themes/rowanmanning/test/integration/**/*.test.js" --recursive --timeout $(INTEGRATION_TIMEOUT) --slow $(INTEGRATION_SLOW) $(INTEGRATION_TEST_MOCHA_FLAGS)
 
+new-weeknote:
+	@./scripts/site.js weeknote:create
+
 new-like:
 	@./scripts/site.js note:create --type like $(URL)
 

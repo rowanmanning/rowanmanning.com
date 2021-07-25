@@ -13,7 +13,7 @@ program
 		'the type of note to create',
 		'note'
 	)
-	.description('fetch raw webmentions')
+	.description('create a new note')
 	.action(async (url, {type}) => {
 		try {
 			await createNote(type, url);

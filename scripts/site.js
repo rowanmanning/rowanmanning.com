@@ -6,6 +6,9 @@ const {program} = require('commander');
 
 program
 	.version(manifest.version)
+	.command('weeknote:create', 'create a new weeknote', {
+		executableFile: 'site-weeknote-create'
+	})
 	.command('note:create', 'create a new note', {
 		executableFile: 'site-note-create'
 	})

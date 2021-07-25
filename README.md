@@ -36,7 +36,7 @@ Use Hugo archetypes to write new content:
   * To write a weeknote:
 
     ```bash
-    hugo new weeknotes/<number>
+    make new-weeknote
     ```
 
   * To write a note:
