@@ -209,3 +209,9 @@
 		content: "-";
 	}
 }
+
+.content-body::after {
+	content: "";
+	display: block;
+	clear: both;
+}

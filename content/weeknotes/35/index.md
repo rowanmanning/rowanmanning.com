@@ -36,7 +36,9 @@ resources:
 
     {{< pin left >}}{{< image "crosswords.png" >}}{{< /pin >}}
 
-    A few of us at work do the crossword daily, [I decided to set up a small website](https://crossword.rowanmanning.com/) that periodically scrapes the leaderboard and saves our times. Of course over the week I got _far_ too into this idea and built a lot of extra stuff into the site. We now have different awards to unlock and you can browse through averages and stuff. I'm pretty proud of it! If you'd like to join in then drop me an email or Slack me :slightly_smiling_face: (or check out the #crosswords channel if you work at the FT).
+    A few of us at work do the crossword daily, [I decided to set up a small website](https://crossword.rowanmanning.com/) that periodically scrapes the leaderboard and saves our times. Of course over the week I got _far_ too into this idea and built a lot of extra stuff into the site.
+
+    We now have different awards to unlock and you can browse through averages and stuff. I'm pretty proud of it! If you'd like to join in then drop me an email or Slack me :slightly_smiling_face: (or check out the #crosswords channel if you work at the FT).
 
   * We went to Pub in the Park in Dulwich with Tammy and Alison as part of birthday celebrations. It was alright, but not sure if it was worth the money. I _did_ get to see Monica Galetti and the food was really good. I've never been to Dulwich Village, it has big rich family vibes.
 
