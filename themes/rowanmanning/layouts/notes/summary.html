@@ -14,8 +14,8 @@
 	<div class="content-summary__note">
 
 		{{/* TODO style this better */}}
-		<div class="content-body p-name e-content">
-			<div class="note-body note-body--{{ .Params.noteType }}">
+		<div class="content-body">
+			<div class="note-body note-body--{{ .Params.noteType }} p-name e-content">
 				{{ with .Content }}
 					{{ . }}
 				{{ else }}
