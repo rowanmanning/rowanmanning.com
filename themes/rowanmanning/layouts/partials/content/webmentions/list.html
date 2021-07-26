@@ -2,9 +2,31 @@
 {{- /* Render the webmentions list */ -}}
 {{- /* --------------------------- */ -}}
 
-{{ if len . }}
+{{ if len .all }}
 	<ol class="social-feed">
-		{{ range . }}
+		{{ if len .likes }}
+			<li id="webmention-likes" class="social-feed__item social-feed__item--like">
+				<div class="social-feed__meta">
+					<strong>{{ len .likes }} {{ cond (eq (len .likes) 1) "person" "people" }} liked this:</strong>
+					{{ range $key, $like := .likes -}}
+						{{- if ne $key 0 }}, {{ end }}
+						<a href="{{ $like.author.url }}">{{ $like.author.name }}</a>
+					{{- end }}
+				</div>
+			</li>
+		{{ end }}
+		{{ if len .reposts }}
+			<li id="webmention-reposts" class="social-feed__item social-feed__item--repost">
+				<div class="social-feed__meta">
+					<strong>{{ len .reposts }} {{ cond (eq (len .reposts) 1) "person" "people" }} reposted this:</strong>
+					{{ range $key, $repost := .reposts -}}
+						{{- if ne $key 0 }}, {{ end }}
+						<a href="{{ $repost.author.url }}">{{ $repost.author.name }}</a>
+					{{- end }}
+				</div>
+			</li>
+		{{ end }}
+		{{ range .responses }}
 			{{ if eq .type "response" }}
 				<li id="webmention-{{ .md5 }}" property="comment" vocab="http://schema.org/" typeof="Comment" class="social-feed__item social-feed__item--response">
 					<div class="social-feed__meta">
