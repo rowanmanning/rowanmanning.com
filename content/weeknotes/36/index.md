@@ -4,7 +4,7 @@
 title: "Week 36: Isolation"
 date: 2021-07-03T17:30:00+01:00
 description: "A week of isolating at home, cancelled plans, a third mortgage application, an awful lot of TV, and some roller coaster building."
-tags: ["Health", "House", "TV", "Games", "Champagne", "Holiday", "Too Hot to Handle", "The West Wing", "Loki"]
+tags: ["Health", "House", "TV", "Games", "Champagne", "Holiday", "Too Hot to Handle", "The West Wing", "Loki", "IndieWeb"]
 
 # Weeknote display
 # ----------------

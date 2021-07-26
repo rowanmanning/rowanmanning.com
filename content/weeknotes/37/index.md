@@ -4,7 +4,7 @@
 title: "Week 37: No Sleep"
 date: 2021-07-11T09:15:00+01:00
 description: "A week of more isolation, lots of trouble sleeping, playing Northgard with friends, and a whole lot of obsessing over Webmention."
-tags: ["Health", "Work", "Games", "Side Projects", "Writing", "Blogging", "Northgard", "Webmention", "Eurovision"]
+tags: ["Health", "Work", "Games", "Side Projects", "Writing", "Blogging", "Northgard", "Webmention", "Eurovision", "IndieWeb"]
 
 # Weeknote display
 # ----------------

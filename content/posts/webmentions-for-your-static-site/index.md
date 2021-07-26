@@ -6,7 +6,7 @@ date: 2021-07-06T22:45:00+01:00
 lastmod: 2021-07-14 17:45:00+01:00
 description: "A small dive into one of my new favourite web technologies: webmentions. This post talks through how I use them to make my static website feel more alive and social."
 cta: "Learn how to send and receive webmentions on your static website"
-tags: ["Webmention", "Side Projects"]
+tags: ["Webmention", "Side Projects", "IndieWeb"]
 
 # Post display
 # ------------
