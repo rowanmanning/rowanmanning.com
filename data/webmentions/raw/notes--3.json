@@ -1,0 +1,27 @@
+{
+	"66c35befd35e33f451d92f425f83ebf8": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Barry Frost",
+			"photo": "https://webmention.io/avatar/barryfrost.com/f14d57ed2a3d82873ea65bc43217bacb3241414afdd99657c4dbde872e85afe0.jpg",
+			"url": "https://barryfrost.com/"
+		},
+		"url": "https://barryfrost.com/2021/07/thanks-very-much-rowan-let-me",
+		"published": "2021-07-26T20:52:15",
+		"wm-received": "2021-07-26T20:52:20Z",
+		"wm-id": 1230615,
+		"wm-source": "https://barryfrost.com/2021/07/thanks-very-much-rowan-let-me",
+		"wm-target": "https://rowanmanning.com/notes/3/",
+		"content": {
+			"html": "<p>Thanks very much, Rowan. Let me know if you’ve any questions about it. Architect is definitely worth having a poke around.</p>",
+			"text": "Thanks very much, Rowan. Let me know if you’ve any questions about it. Architect is definitely worth having a poke around."
+		},
+		"in-reply-to": "https://rowanmanning.com/notes/3/",
+		"wm-property": "in-reply-to",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://barryfrost.com/2021/07/thanks-very-much-rowan-let-me"
+		}
+	}
+}
