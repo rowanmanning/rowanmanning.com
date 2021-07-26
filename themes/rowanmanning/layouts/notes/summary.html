@@ -11,11 +11,11 @@
 <article class="h-entry content-summary content-highlight content-highlight--{{ .Params.highlight }}" data-test="content-summary">
 	{{- partial "content/structured-data" . -}}
 
-	<div class="content-summary__note content-summary__note--{{ .Params.noteType }}">
+	<div class="content-summary__note">
 
 		{{/* TODO style this better */}}
 		<div class="content-body p-name e-content">
-			<div class="content-summary__note-body">
+			<div class="note-body note-body--{{ .Params.noteType }}">
 				{{ with .Content }}
 					{{ . }}
 				{{ else }}

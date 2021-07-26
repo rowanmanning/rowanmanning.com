@@ -1,10 +1,6 @@
 ---
 title: "Rowan’s Notes"
-description: "Thoughts, comments, and links to interesting things Rowan Manning is reading."
-# menu:
-#   main:
-#     name: "Notes"
-#     weight: 20
+description: "Thoughts, comments, and links to interesting things Rowan Manning is reading / watching / listening to."
 ---
 
 Thoughts, comments, and links to interesting things.

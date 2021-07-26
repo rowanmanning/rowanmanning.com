@@ -99,8 +99,6 @@
 
 // Content summary note element
 .content-summary__note {
-	--note-background-image: url("#{$site-base-url}icons/response-inverted.svg");
-
 	margin: 0;
 	margin-bottom: var(--spacing-half-line);
 	max-width: 75ch;
@@ -110,23 +108,4 @@
 		--content-body-double-line: var(--spacing-line);
 		--content-body-half-line: var(--spacing-rule);
 	}
-}
-
-// Content summary note body element
-.content-summary__note-body > :first-child {
-	background-position: left top;
-	background-repeat: no-repeat;
-	background-size: var(--spacing-line);
-	padding-left: calc(var(--spacing-line) + var(--spacing-rule));
-	background-image: var(--note-background-image);
-}
-
-// Content summary note element, "like" modifier
-.content-summary__note--like {
-	--note-background-image: url("#{$site-base-url}icons/like-inverted.svg");
-}
-
-// Content summary note element, "repost" modifier
-.content-summary__note--repost {
-	--note-background-image: url("#{$site-base-url}icons/repost-inverted.svg");
 }

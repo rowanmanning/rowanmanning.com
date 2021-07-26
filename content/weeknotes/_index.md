@@ -7,4 +7,4 @@ menu:
     weight: 20
 ---
 
-Weekly updates about what's happening in my life.
+Weekly updates about what's happening in my life. If you want more regular but less structured updates, [check out my notes](/notes/).
