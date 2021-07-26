@@ -122,6 +122,7 @@
 			</div>
 		{{ end }}
 
+		{{ $pageType := singularize .Type }}
 		<footer class="content-foot">
 			<p class="content-foot__thanks">
 				Thanks for reading!
@@ -143,7 +144,6 @@
 			</p>
 
 			<ul class="content-foot__links">
-				{{ $pageType := singularize .Type }}
 				{{ if .Parent }}
 					{{ $parent := .Parent }}
 					{{ with $parent.OutputFormats.Get "ATOM" }}

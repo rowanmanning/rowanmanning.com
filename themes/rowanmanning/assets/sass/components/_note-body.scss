@@ -2,14 +2,14 @@
 // Note body block
 .note-body {
 	--note-body-background-image: url("#{$site-base-url}icons/response-inverted.svg");
-
-	> :first-child {
-		background-position: left top;
-		background-repeat: no-repeat;
-		background-size: var(--spacing-line);
-		padding-left: calc(var(--spacing-line) + var(--spacing-rule));
-		background-image: var(--note-body-background-image);
-	}
+}
+.note-body--like > :first-child,
+.note-body--repost > :first-child {
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: var(--spacing-line);
+	padding-left: calc(var(--spacing-line) + var(--spacing-rule));
+	background-image: var(--note-body-background-image);
 }
 
 // Note body block, "like" modifier
