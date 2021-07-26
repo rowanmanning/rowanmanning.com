@@ -16,5 +16,27 @@
 		"like-of": "https://rowanmanning.com/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"311c546d924a99e8bdcb3547c7294153": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "joe jenett",
+			"photo": "https://webmention.io/avatar/secure.gravatar.com/a3a782e712b867ac25c6864b0b24f062d02fbfcefc7b45a8ad0c96b473a13da6.png",
+			"url": "https://pointers.dailywebthing.com/author/admin/"
+		},
+		"url": "https://pointers.dailywebthing.com/07-26-21/",
+		"published": "2021-07-26T09:04:25+00:00",
+		"wm-received": "2021-07-26T09:06:18Z",
+		"wm-id": 1230155,
+		"wm-source": "https://pointers.dailywebthing.com/07-26-21/",
+		"wm-target": "https://rowanmanning.com/",
+		"content": {
+			"html": "<ul><li><a title=\"Rowan Manning\" href=\"https://rowanmanning.com/\">Rowan Manning</a> (new)</li>\n<li><a title=\"Neal.fun\" href=\"https://neal.fun/\">Neal Agarwal</a></li>\n<li><a title=\"articles.inqk.net\" href=\"https://articles.inqk.net/\">Michael Camilleri</a></li>\n</ul><p><a href=\"https://fed.brid.gy/\"></a>\n</p><p></p><p><a href=\"https://pointers.dailywebthing.com/07-26-21/\">https://pointers.dailywebthing.com/07-26-21/</a></p>",
+			"text": "Rowan Manning (new)\nNeal Agarwal\nMichael Camilleri\n\nhttps://pointers.dailywebthing.com/07-26-21/"
+		},
+		"mention-of": "https://rowanmanning.com/",
+		"wm-property": "mention-of",
+		"wm-private": false
 	}
 }
