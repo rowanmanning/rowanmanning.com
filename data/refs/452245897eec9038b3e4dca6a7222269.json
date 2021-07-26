@@ -1,0 +1,10 @@
+{
+	"url": "https://barryfrost.com/2021/07/vibrancy",
+	"title": "My serverless, headless, Micropub-powered, personal website",
+	"description": "TL;DR This is my new personal IndieWeb website built using serverless AWS services, written in Node.js with the Architect framework.",
+	"published": "2021-07-13T19:23:03.696Z",
+	"author": {
+		"name": "Barry Frost",
+		"url": "https://barryfrost.com/"
+	}
+}
