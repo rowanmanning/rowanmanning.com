@@ -1850,5 +1850,30 @@
 		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 		"wm-property": "mention-of",
 		"wm-private": false
+	},
+	"8d728c20ada1cb4be924c460b2fdba21": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "{A•A}🌈🦄🍄🏴‍☠️⚡️🌶🧑🏻‍🦰",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/2606c82253feee2e7836ee6de43bbddfd29364323e6a2ad90457172e5e28317e.jpg",
+			"url": "https://twitter.com/agquarx"
+		},
+		"url": "https://twitter.com/agquarx/status/1419085123396513794",
+		"published": "2021-07-25T00:00:33+00:00",
+		"wm-received": "2021-07-27T19:57:33Z",
+		"wm-id": 1231552,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/1419085123396513794",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"photo": [
+			"https://pbs.twimg.com/media/E7GaZecWQAQSBz6.jpg"
+		],
+		"content": {
+			"html": "Writing a Friendly README <a href=\"https://bit.ly/2Ujn3fA\">bit.ly/2Ujn3fA</a> <a href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/?utm_content=bufferf607f&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer\">rowanmanning.com/posts/writing-…</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>",
+			"text": "Writing a Friendly README bit.ly/2Ujn3fA rowanmanning.com/posts/writing-…"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
 	}
 }
