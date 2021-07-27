@@ -6,7 +6,6 @@
 	{{- /* Get information about the page */ -}}
 	{{- $author := partial "content/data/author" . -}}
 	{{- $description := partial "content/data/description" . -}}
-	{{- $logoSourceImage := resources.Get "logo.png" -}}
 	{{- $mainImage := partial "content/data/main-image" . -}}
 	{{- $title := partial "content/data/title" . -}}
 
@@ -18,9 +17,6 @@
 	{{ if $mainImage.full -}}
 	<meta property="og:image" content="{{ $mainImage.full.Permalink }}" />
 	<meta property="og:image:alt" content="{{ $mainImage.full.Title | default $title }}" />
-	{{- else if $logoSourceImage -}}
-	<meta property="og:image" content="{{ $logoSourceImage.Permalink }}" />
-	<meta property="og:image:alt" content="{{ $title }}" />
 	{{- end }}
 	{{ if $description -}}<meta property="og:description" content="{{ $description }}" />{{- end }}
 

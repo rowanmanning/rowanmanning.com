@@ -423,8 +423,6 @@ describe('simple website', () => {
 					site_name: 'Mock Title Home',
 					title: 'Mock Title Single Page',
 					url: 'https://simple.mock.local/page001/',
-					image: 'https://simple.mock.local/logo.png',
-					'image:alt': 'Mock Title Single Page',
 					description: 'Mock Description Single Page'
 				});
 			});
@@ -435,8 +433,6 @@ describe('simple website', () => {
 					card: 'summary',
 					url: 'https://simple.mock.local/page001/',
 					title: 'Mock Title Single Page',
-					image: 'https://simple.mock.local/logo-twitter.png',
-					'image:alt': 'Mock Title Single Page',
 					description: 'Mock Description Single Page'
 				});
 			});
@@ -530,8 +526,6 @@ describe('simple website', () => {
 					site_name: 'Mock Title Home',
 					title: 'Mock Title Single Page In Section',
 					url: 'https://simple.mock.local/section001s/item001/',
-					image: 'https://simple.mock.local/logo.png',
-					'image:alt': 'Mock Title Single Page In Section',
 					description: 'Mock Description Single Page In Section'
 				});
 			});
@@ -542,8 +536,6 @@ describe('simple website', () => {
 					card: 'summary',
 					url: 'https://simple.mock.local/section001s/item001/',
 					title: 'Mock Title Single Page In Section',
-					image: 'https://simple.mock.local/logo-twitter.png',
-					'image:alt': 'Mock Title Single Page In Section',
 					description: 'Mock Description Single Page In Section'
 				});
 			});
