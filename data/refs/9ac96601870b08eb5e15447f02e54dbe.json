@@ -1,0 +1,10 @@
+{
+	"url": "https://drafts.csswg.org/css-nesting/",
+	"title": "CSS Nesting Module",
+	"description": "Abstract\n   This module introduces the ability to nest one style rule inside another, with the selector of the child rule relative to the selector of the parent rule.  This increases the modularity and maintainability of CSS stylesheets.\n    CSS is a language for describing the rendering of structured documents\n(such as HTML and XML)\non screen, on paper, etc.",
+	"published": null,
+	"author": {
+		"name": "Tab Atkins Jr.",
+		"url": "http://xanthir.com/contact/"
+	}
+}
