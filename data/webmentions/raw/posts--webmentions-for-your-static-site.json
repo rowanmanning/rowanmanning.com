@@ -291,16 +291,21 @@
 		"type": "entry",
 		"author": {
 			"type": "card",
-			"name": "",
+			"name": "Kara Brightwell",
 			"photo": "",
-			"url": ""
+			"url": "https://ghost.computer/"
 		},
 		"url": "https://ghost.computer/posts/11",
-		"published": null,
+		"published": "2021-07-18T21:41:08",
 		"wm-received": "2021-07-18T21:41:10Z",
 		"wm-id": 1222773,
 		"wm-source": "https://ghost.computer/posts/11",
 		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"name": "it's got webmentions now",
+		"content": {
+			"html": "<p>and it's all <a href=\"https://rowanmanning.com/posts/webmentions-for-your-static-site/\">Rowan's</a> and <a href=\"https://chee.snoot.club/2021/06/15/1328/\">chee's</a> fault</p>",
+			"text": "and it's all Rowan's and chee's fault"
+		},
 		"mention-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
 		"wm-property": "mention-of",
 		"wm-private": false
