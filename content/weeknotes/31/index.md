@@ -1,7 +1,7 @@
 ---
 title: "Week 31: Vaccine"
 date: 2021-05-30T14:00:00+0100
-tags: ["Work", "Games", "Food", "Minecraft", "Social", "Health"]
+tags: ["Work", "Games", "Food", "Minecraft", "Social", "Health", "Pfizer"]
 highlight: "orange"
 description: "A week of sore arms, feeling useless, an awful lot of Minecraft, and delicious blended banana."
 ---
