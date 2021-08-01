@@ -52,5 +52,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/40/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"14a20b214aa9e4887ea1515ea7efbdfc": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alice Bartlett",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/eed63f840990b5d6c7a5e8bf7d9db26ecbd119cea2bb85bc8db3afa7d7f5da87.jpg",
+			"url": "https://twitter.com/alicebartlett"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1421774089115549698#favorited-by-12033552",
+		"published": null,
+		"wm-received": "2021-08-01T19:06:16Z",
+		"wm-id": 1234852,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1421774089115549698/12033552",
+		"wm-target": "https://rowanmanning.com/weeknotes/40/",
+		"like-of": "https://rowanmanning.com/weeknotes/40/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
