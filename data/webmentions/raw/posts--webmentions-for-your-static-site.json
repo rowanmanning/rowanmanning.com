@@ -424,5 +424,30 @@
 		"in-reply-to": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"55f17e138183ff3def07b7f6ebc0e58f": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "joe jenett",
+			"photo": "https://webmention.io/avatar/secure.gravatar.com/6f34eba462d4999eb36312844efb2aac09597d5e243e27d5e37563170a19c62e.png",
+			"url": "https://simply.personal.jenett.org/author/admin/"
+		},
+		"url": "https://simply.personal.jenett.org/rowan-manning/",
+		"published": "2021-07-23T16:15:43-04:00",
+		"wm-received": "2021-08-02T14:24:06Z",
+		"wm-id": 1235490,
+		"wm-source": "https://simply.personal.jenett.org/rowan-manning/",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"content": {
+			"html": "<p>Nice write-up on adding webmentions to a Hugo site.</p>",
+			"text": "Nice write-up on adding webmentions to a Hugo site."
+		},
+		"bookmark-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "bookmark-of",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://simply.personal.jenett.org/rowan-manning/"
+		}
 	}
 }
