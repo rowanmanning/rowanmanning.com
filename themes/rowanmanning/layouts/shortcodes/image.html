@@ -24,14 +24,43 @@
 	{{- errorf "Missing image alt attribute: %s" .Position -}}
 {{- end -}}
 
-<figure class="image">
+{{/* Define resized resources */}}
+{{- $resized := false -}}
+{{- if $resource -}}
+	{{-
+		$resized = (dict
+			"onex" (cond (gt $resource.Width 720) ($resource.Resize "720x").Permalink $imagePermalink)
+			"onepointfivex" (cond (gt $resource.Width 1080) ($resource.Resize "1080x").Permalink $imagePermalink)
+			"twox" (cond (gt $resource.Width 1440) ($resource.Resize "1440x").Permalink $imagePermalink)
+		)
+	-}}
+{{- end -}}
+
+{{/* Check if the image is in a gallery shortcode */}}
+{{ $imageInGallery := false }}
+{{- with .Parent -}}
+	{{- if eq .Name "gallery" -}}
+		{{- $imageInGallery = true -}}
+		{{-
+			$resized = (dict
+				"onex" ($resource.Fill "720x720").Permalink
+				"onepointfivex" ($resource.Fill "1080x1080").Permalink
+				"twox" ($resource.Fill "1440x1440").Permalink
+			)
+		-}}
+		{{- $resource = $resource.Fill "1080x1080" -}}
+		{{- $imagePermalink = $resource.Permalink -}}
+	{{- end -}}
+{{- end -}}
+
+<figure class="image{{ if $imageInGallery }} gallery__image{{ end }}">
 	<a href="{{ $imageLink | relURL }}">
 		<img
 			{{ if $resource }}
 				srcset="
-					{{ cond (gt $resource.Width 720) ($resource.Resize "720x").Permalink $imagePermalink }},
-					{{ cond (gt $resource.Width 1080) ($resource.Resize "1080x").Permalink $imagePermalink }} 1.5x,
-					{{ cond (gt $resource.Width 1440) ($resource.Resize "1440x").Permalink $imagePermalink }} 2x
+					{{ $resized.onex }},
+					{{ $resized.onepointfivex }} 1.5x,
+					{{ $resized.twox }} 2x
 				"
 			{{ end }}
 			src="{{ $imagePermalink }}"

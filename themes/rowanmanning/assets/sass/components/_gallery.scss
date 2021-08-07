@@ -1,0 +1,22 @@
+
+// Gallery block
+.gallery {
+	--image-width: 33%;
+	--gutter-width: var(--spacing-half-line);
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: var(--spacing-line);
+}
+
+// Gallery image element
+.gallery__image {
+	box-sizing: border-box;
+	width: calc(var(--image-width) - (var(--gutter-width) / 2));
+	margin-bottom: var(--gutter-width) !important;
+	
+	@media all and (max-width: $layout-width-mobile) {
+		--image-width: 50%;
+	}
+}
