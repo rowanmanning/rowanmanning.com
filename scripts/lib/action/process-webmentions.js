@@ -74,6 +74,8 @@ function processWebmention([md5, webmention]) {
 
 function getMentionType(webmention) {
 	switch (webmention['wm-property']) {
+		case 'bookmark-of':
+			return 'bookmark';
 		case 'like-of':
 			return 'like';
 		case 'repost-of':

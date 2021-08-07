@@ -26,6 +26,17 @@
 				</div>
 			</li>
 		{{ end }}
+		{{ if len .bookmarks }}
+			<li id="webmention-bookmarks" class="social-feed__item social-feed__item--bookmark">
+				<div class="social-feed__meta">
+					<strong>{{ len .bookmarks }} {{ cond (eq (len .bookmarks) 1) "person" "people" }} bookmarked this:</strong>
+					{{ range $key, $bookmark := .bookmarks -}}
+						{{- if ne $key 0 }}, {{ end }}
+						<a href="{{ $bookmark.author.url }}">{{ $bookmark.author.name }}</a>
+					{{- end }}
+				</div>
+			</li>
+		{{ end }}
 		{{ range .responses }}
 			{{ if eq .type "response" }}
 				<li id="webmention-{{ .md5 }}" property="comment" vocab="http://schema.org/" typeof="Comment" class="social-feed__item social-feed__item--response">

@@ -26,6 +26,7 @@
 	{{
 		$webmentions = (dict
 			"all" $allWebmentions
+			"bookmarks" (where $allWebmentions "type" "bookmark")
 			"likes" (where $allWebmentions "type" "like")
 			"reposts" (where $allWebmentions "type" "repost")
 			"responses" (where $allWebmentions "type" "response")

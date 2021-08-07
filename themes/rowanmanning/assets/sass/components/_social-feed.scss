@@ -23,6 +23,11 @@
 	padding-left: calc(var(--spacing-line) + var(--spacing-rule));
 }
 
+// Social feed item element, "bookmark" modifier
+.social-feed__item--bookmark {
+	background-image: url("#{$site-base-url}icons/bookmark-inverted.svg");
+}
+
 // Social feed item element, "like" modifier
 .social-feed__item--like {
 	background-image: url("#{$site-base-url}icons/like-inverted.svg");
