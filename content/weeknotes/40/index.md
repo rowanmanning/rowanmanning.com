@@ -4,7 +4,7 @@
 title: "Week 40: Edinburgh"
 date: 2021-08-01T10:55:00+01:00
 description: "A week of second vaccines, lots of fun pairing on a schema, a pint in The Sea Horse, a new Note post type, and the beginning of a relaxing week in Scotland."
-tags: ["Health", "Work", "Holiday", "Side Projects", "Pfizer", "The Sea Horse", "Webmention", "IndieWeb"]
+tags: ["Health", "Work", "Holiday", "Side Projects", "Pfizer", "The Sea Horse", "Webmention", "IndieWeb", "Food", "Whisky"]
 
 # Weeknote display
 # ----------------
