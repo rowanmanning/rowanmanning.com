@@ -22,7 +22,7 @@ resources:
       caption: "Here I am shooting at pretend zombies"
 ---
 
-  * I went to play Rounders with the Product & Tech department at the Financial Times. It was lovely, it's been _so_ long since I've seen many of my colleagues in person. I also got to meet some of the people who have joined since Lockdown began (they're all just as nice in person as online), and I met [Anna](https://www.annashipman.co.uk/)'s baby, Rowan, she's very cute.
+  * I went to play Rounders with the Product & Tech department at the Financial Times. It was lovely, it's been _so_ long since I've seen many of my colleagues in person. I also got to meet some of the people who have joined since Lockdown began (they're all just as nice in person as online), and I met Anna's baby, she's very cute.
 
   * {{< pin right >}}{{< image "toots-melting.jpg" >}}{{< /pin >}}
 
