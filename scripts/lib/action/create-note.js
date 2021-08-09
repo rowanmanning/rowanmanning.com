@@ -9,8 +9,8 @@ const fs = require('fs/promises');
 const mkdir = require('../util/mkdir');
 const path = require('path');
 
-const validNoteTypes = ['like', 'note', 'reply', 'repost'];
-const noteTypesRequiringUrl = ['like', 'reply', 'repost'];
+const validNoteTypes = ['bookmark', 'like', 'note', 'reply', 'repost'];
+const noteTypesRequiringUrl = ['bookmark', 'like', 'reply', 'repost'];
 
 const notesDirectory = path.resolve(__dirname, '../../../content/notes');
 

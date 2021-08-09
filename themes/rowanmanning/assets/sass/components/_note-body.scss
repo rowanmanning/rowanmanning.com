@@ -3,13 +3,19 @@
 .note-body {
 	--note-body-background-image: url("#{$site-base-url}icons/response-inverted.svg");
 }
-.note-body--like > :first-child,
-.note-body--repost > :first-child {
+.note-body--bookmark > :first-child:not(.citation),
+.note-body--like > :first-child:not(.citation),
+.note-body--repost > :first-child:not(.citation) {
 	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: var(--spacing-line);
 	padding-left: calc(var(--spacing-line) + var(--spacing-rule));
 	background-image: var(--note-body-background-image);
+}
+
+// Note body block, "bookmark" modifier
+.note-body--bookmark {
+	--note-body-background-image: url("#{$site-base-url}icons/bookmark-inverted.svg");
 }
 
 // Note body block, "like" modifier

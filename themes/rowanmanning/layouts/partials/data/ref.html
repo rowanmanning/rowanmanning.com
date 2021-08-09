@@ -6,6 +6,15 @@
 {{ $data := false }}
 {{ $webmentionClass := false }}
 
+{{/* Bookmarks */}}
+{{ if and (eq .Params.noteType "bookmark") .Params.bookmarkOf }}
+	{{ $data = dict "url" .Params.bookmarkOf }}
+	{{ if .Site.Data.refs }}
+		{{ $data = index .Site.Data.refs (md5 .Params.bookmarkOf) | default $data }}
+	{{ end }}
+	{{ $webmentionClass = "u-bookmark-of" }}
+{{ end }}
+
 {{/* Likes */}}
 {{ if and (eq .Params.noteType "like") .Params.likeOf }}
 	{{ $data = dict "url" .Params.likeOf }}

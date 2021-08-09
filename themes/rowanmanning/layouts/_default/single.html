@@ -111,10 +111,10 @@
 
 		</header>
 
-		{{ if .Content }}
+		{{ if or .Content (eq .Section "notes") }}
 			<div class="content-body {{ if eq .Section "notes" }}note-body note-body--{{ .Params.noteType }}{{ end }}" data-test="content-body">
 				{{ if .Draft }}{{ partial "draft-notice.html" . }}{{ end }}
-				<div class="{{ if eq .Section "notes" }}p-name{{ end }} e-content">{{ .Content }}</div>
+				{{ if .Content }}<div class="{{ if eq .Section "notes" }}p-name{{ end }} e-content">{{ .Content }}</div>{{ end }}
 				{{ if .Draft }}{{ partial "draft-notice.html" . }}{{ end }}
 				{{ if eq .Section "notes" }}
 					{{- partial "content/notes/citation" . -}}

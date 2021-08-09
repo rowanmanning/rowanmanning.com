@@ -36,6 +36,9 @@ _test-theme-run-mocha:
 new-weeknote:
 	@./scripts/site.js weeknote:create
 
+new-bookmark:
+	@./scripts/site.js note:create --type bookmark $(URL)
+
 new-like:
 	@./scripts/site.js note:create --type like $(URL)
 
