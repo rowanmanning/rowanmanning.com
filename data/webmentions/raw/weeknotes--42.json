@@ -78,5 +78,89 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/42/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"dae6f3a16272248e141146d84b0f50ce": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Amy Hupe",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/f502c245e5e79440c1368cb683c0e8a3579399b9e1e4137297b9e1d8e45f1f08.jpg",
+			"url": "https://twitter.com/Amy_Hupe"
+		},
+		"url": "https://twitter.com/Amy_Hupe/status/1426879173549768708",
+		"published": "2021-08-15T12:11:19+00:00",
+		"wm-received": "2021-08-15T12:13:36Z",
+		"wm-id": 1247399,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1426841859687686146/1426879173549768708",
+		"wm-target": "https://rowanmanning.com/weeknotes/42/",
+		"content": {
+			"html": "💔 what a beautiful cat. Looks like you gave him a very lovely life.\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "💔 what a beautiful cat. Looks like you gave him a very lovely life."
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/42/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"a5ce0d29e9f753fd047df1145f187998": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Oliver 🏖",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/bb6054dd4e7cdd1650eabe48cb06ec5c9617e2878b15fd9abc26296b0b754c37.jpg",
+			"url": "https://twitter.com/oliverturner"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1426841859687686146#favorited-by-14652753",
+		"published": null,
+		"wm-received": "2021-08-15T12:13:38Z",
+		"wm-id": 1247401,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1426841859687686146/14652753",
+		"wm-target": "https://rowanmanning.com/weeknotes/42/",
+		"like-of": "https://rowanmanning.com/weeknotes/42/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"709602b3c132e66725c7270adbc14ce0": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "arjun",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg",
+			"url": "https://twitter.com/adgad"
+		},
+		"url": "https://twitter.com/adgad/status/1426875592759197696",
+		"published": "2021-08-15T11:57:06+00:00",
+		"wm-received": "2021-08-15T12:13:38Z",
+		"wm-id": 1247400,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1426841859687686146/1426875592759197696",
+		"wm-target": "https://rowanmanning.com/weeknotes/42/",
+		"content": {
+			"html": "😭🫂\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "😭🫂"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/42/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"8bd3cadc382c89373d4e582059a21cbe": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Amir TG",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/08c5a88f759a139905747a8c8c136919dd4f331ae8a69219da1dbeb8f7167609.jpg",
+			"url": "https://twitter.com/AmirTG1"
+		},
+		"url": "https://twitter.com/AmirTG1/status/1426880934607998978",
+		"published": "2021-08-15T12:18:19+00:00",
+		"wm-received": "2021-08-15T12:20:13Z",
+		"wm-id": 1247405,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1426841859687686146/1426880934607998978",
+		"wm-target": "https://rowanmanning.com/weeknotes/42/",
+		"content": {
+			"html": "So sorry to hear that 😭\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "So sorry to hear that 😭"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/42/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
