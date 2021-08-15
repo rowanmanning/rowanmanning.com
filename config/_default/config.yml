@@ -47,7 +47,7 @@ outputs:
 publishDir: "build"
 
 # Set a long timeout so that image-heavy pages can build
-timeout: 60000
+timeout: 120000
 
 # Configure related content
 related:
