@@ -34,12 +34,14 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 14.x
-      - uses: actions/cache@v1
+      - uses: actions/cache@v2
         env:
-          cache-version: v1
+          cache-version: v2
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-${{ env.cache-version }}-${{ hashFiles('**/package-lock.json') }}
+          path: |
+            ~/.npm
+            /tmp/hugo_cache
+          key: ${{ runner.os }}-${{ env.cache-version }}-${{ hashFiles('**/go.sum') }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-version }}-
             ${{ runner.os }}-
