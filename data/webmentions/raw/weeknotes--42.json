@@ -1,0 +1,82 @@
+{
+	"e0f99ad33e8f7d5943321c0cac94aab0": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1426841859687686146#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2021-08-15T10:34:32Z",
+		"wm-id": 1247363,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1426841859687686146/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/42/",
+		"like-of": "https://rowanmanning.com/weeknotes/42/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"4fcb51bc4a5b4075d452f489b6392285": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Andrew Walker",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/77ceb4604e68ec4eec61cbb303e8a19dfdd3cdf97b79024b41e2a0b81aa984de.gif",
+			"url": "https://twitter.com/moddular"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1426841859687686146#favorited-by-16433622",
+		"published": null,
+		"wm-received": "2021-08-15T10:34:38Z",
+		"wm-id": 1247364,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1426841859687686146/16433622",
+		"wm-target": "https://rowanmanning.com/weeknotes/42/",
+		"like-of": "https://rowanmanning.com/weeknotes/42/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"50f5cd60f1ac9cc27a30c2a6d0ca2a18": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Kinnoha",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/7f661e1f3486b462b77da6008b4787db1aea0cf36a9421b5f3e6c6399f5e07f8.jpg",
+			"url": "https://twitter.com/kinnoha"
+		},
+		"url": "https://twitter.com/kinnoha/status/1426847798675353603",
+		"published": "2021-08-15T10:06:39+00:00",
+		"wm-received": "2021-08-15T10:35:01Z",
+		"wm-id": 1247365,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1426841859687686146/1426847798675353603",
+		"wm-target": "https://rowanmanning.com/weeknotes/42/",
+		"content": {
+			"html": "Oh no, sorry to hear this, he was a cutie! 😞 rest in peace little Toots ❤️\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Oh no, sorry to hear this, he was a cutie! 😞 rest in peace little Toots ❤️"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/42/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"e37d44d6db8fc94cee506b2c7a95ef6c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Lily",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/2a2e63e98c493279264564c46275ecba152bab957c824eaaeff4271770c00db0.jpg",
+			"url": "https://twitter.com/Lily_2point0"
+		},
+		"url": "https://twitter.com/Lily_2point0/status/1426846378597224448",
+		"published": "2021-08-15T10:01:00+00:00",
+		"wm-received": "2021-08-15T10:35:04Z",
+		"wm-id": 1247366,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1426841859687686146/1426846378597224448",
+		"wm-target": "https://rowanmanning.com/weeknotes/42/",
+		"content": {
+			"html": "Noooooo 😭😭😭\nSending hugs to you both\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Noooooo 😭😭😭\nSending hugs to you both"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/42/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	}
+}
