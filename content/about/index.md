@@ -22,10 +22,4 @@ Before the FT I worked at Nature Publishing Group (now [Springer Nature](https:/
 
 I mostly write HTML, CSS, and JavaScript (client-side and Node.js) and people have been paying me to do this for ~12 years. I think websites should be progressively enhanced and accessible to everyone.
 
-{{< pin left >}}
-	{{< image "tootsie.png" >}}
-{{< /pin >}}
-
 I maintained [Pa11y](https://pa11y.org/), an accessibility testing tool, and other free software projects until I got super burned out by open source. Now I use my spare time to play {{< abbr "Dungeons & Dragons" >}}D&amp;D{{< /abbr >}} (I love the world-building) or Minecraft (I love the world-building).
-
-I have a cat named Tootsie, we're very proud.
