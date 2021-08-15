@@ -286,5 +286,27 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/42/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"4813443489d9aa2d8f2a5d4687e0f729": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Mags Allen",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/08a436ad19e650672b1e3745f182ed861b4481c6eadc4f2c8b4f71b2e4559b04.jpg",
+			"url": "https://twitter.com/mgr_allen"
+		},
+		"url": "https://twitter.com/mgr_allen/status/1426995853110259715",
+		"published": "2021-08-15T19:54:58+00:00",
+		"wm-received": "2021-08-15T20:19:36Z",
+		"wm-id": 1247606,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1426841859687686146/1426995853110259715",
+		"wm-target": "https://rowanmanning.com/weeknotes/42/",
+		"content": {
+			"html": "Oh this sucks, I'm so sorry 😞\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Oh this sucks, I'm so sorry 😞"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/42/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
