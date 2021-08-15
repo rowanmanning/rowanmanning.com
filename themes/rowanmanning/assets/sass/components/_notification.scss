@@ -42,3 +42,14 @@
 		background-image: url('#{$site-base-url}icons/draft.svg');
 	}	
 }
+
+// Notification block, "warning" modifier
+.notification--warning {
+	--notification-border-color: var(--colorvalue-yellow-dark);
+	--notification-background-color: var(--colorvalue-yellow);
+
+	&::before {
+		content: "";
+		background-image: url('#{$site-base-url}icons/warning.svg');
+	}
+}
