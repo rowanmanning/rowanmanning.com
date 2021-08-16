@@ -308,5 +308,23 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/42/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"a686a1b5e941df425e66a4f720399a2f": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Tobias Hastings",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/11af6918d4450f2eff9de163155c76c67e9120588d4253751964099b4e4abd8c.jpg",
+			"url": "https://twitter.com/TobiasX2k"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1426841859687686146#favorited-by-816198238084759552",
+		"published": null,
+		"wm-received": "2021-08-16T04:41:43Z",
+		"wm-id": 1247813,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1426841859687686146/816198238084759552",
+		"wm-target": "https://rowanmanning.com/weeknotes/42/",
+		"like-of": "https://rowanmanning.com/weeknotes/42/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
