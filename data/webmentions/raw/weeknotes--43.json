@@ -1,0 +1,38 @@
+{
+	"fa7e55537cc225ba32ad1a773f705fba": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "lee",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/884ce9795988c7accf3459433122c00acdf8f47433efc87ec81fb5fb5dd571dd.jpg",
+			"url": "https://twitter.com/notleemoody"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1429381241388810244#favorited-by-170236447",
+		"published": null,
+		"wm-received": "2021-08-22T11:53:06Z",
+		"wm-id": 1252178,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1429381241388810244/170236447",
+		"wm-target": "https://rowanmanning.com/weeknotes/43/",
+		"like-of": "https://rowanmanning.com/weeknotes/43/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"3fad72345961d8c1485e539d06bd7689": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1429381241388810244#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2021-08-22T11:53:06Z",
+		"wm-id": 1252177,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1429381241388810244/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/43/",
+		"like-of": "https://rowanmanning.com/weeknotes/43/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
