@@ -28,11 +28,11 @@ resources:
 
   * I'm still very sad about [Tootsie](/weeknotes/42/) and probably will be for the foreseeable, thanks for all your kind words :heart:
   
-  * We still need to settle the ridiculous vet bills that came with the end of his uninsurable illness :grimacing: very thankful that we have a healthcare system.
+  * We still need to settle the ridiculous vet bills that came with the end of his uninsurable illness :grimacing: very thankful that we have a healthcare system for humans at leasts.
 
   * Speaking of the healthcare system, Charlotte had a (routine) surgery this week. She's fine but still mostly bed-ridden so a lot of my time is spent looking after her, which is quite nice so far tbh. The only place I'm useless is changing dressings – I'm _really_ not very good with blood and/or wounds. My skin is crawling just thinking about it.
 
-  * We've been watching a lot of TV which is all that's really manageable for Charlotte. We binged the first season of Bones and are onto the second. We also started Season 2 of the Circle, which is obviously excellent.
+  * We've been watching a lot of TV which is all that's really manageable for Charlotte. We binged the first season of Bones and are onto the second. We also started season 2 of The Circle, which is obviously excellent.
 
   * This whole thing has made us want to move all the sooner, I hate our current flat even more now that Toots isn't in it. Things are still going at a snail's pace with my [flat purchase](/tags/house/) and I'm spending far too much time chasing both my solicitor and mortgage broker.
 
