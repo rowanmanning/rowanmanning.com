@@ -4,7 +4,7 @@
 title: "Week 43: Caring"
 date: 2021-08-22T10:45:00+01:00
 description: "A week of caring for Charlotte, being sad, being desperate to move house, drawing D&D maps, and binge-watching Bones and The Circle."
-tags: ["Health", "TV", "D&D", "House", "Tootsie", "The Circle", "Bones"]
+tags: ["Health", "TV", "D&D", "Art", "House", "Tootsie", "The Circle", "Bones"]
 
 # Weeknote display
 # ----------------
