@@ -184,5 +184,23 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/44/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"8647424265a92093dc60cdba69e9bea0": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Paul O'Neill",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/c28520a51d4a0991b863f8dcd8c2962a57dd53681baf8d7350009dc0511f32ad.jpg",
+			"url": "https://twitter.com/pauloneill79"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1431927467648987139#favorited-by-19936949",
+		"published": null,
+		"wm-received": "2021-08-29T13:54:25Z",
+		"wm-id": 1258007,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1431927467648987139/19936949",
+		"wm-target": "https://rowanmanning.com/weeknotes/44/",
+		"like-of": "https://rowanmanning.com/weeknotes/44/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
