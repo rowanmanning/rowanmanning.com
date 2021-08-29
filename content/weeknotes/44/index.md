@@ -22,7 +22,7 @@ resources:
 
   * We're no longer isolating, which is great! Leigh-Ann popped round with her baby, he's very cute – all smiles and laughter. It was nice to talk to another human in person. On Saturday Charlotte and I did a circuit of Archbishop's Park which really tired her out, I think full recovery might take quite a while.
 
-  * Looking after someone is exhausting. I have no idea how parents do it, I have a willing, cooperative, person who can rationally explain their needs to me and I'm still so so tired. The days are going quickly at least, it's harder to be bored when every 5–10 minutes between meetings is dedicated to caring.
+  * Looking after someone is exhausting. I have no idea how parents do it, I have a willing, cooperative person who can rationally explain their needs to me and I'm still so so tired. The days are going quickly at least, it's harder to be bored when every 5–10 minutes between meetings is dedicated to caring.
 
   * Speaking of work I had such a great week, I opened seven whole {{< abbr "Pull Requests" >}}PRs{{< /abbr >}} and I feel like I _achieved_ something. I also paired a bunch with [Gallal](https://github.com/gallal) and [Estefanía](https://github.com/emortong), which was delightful, and wrote part of a proposal for a new longer-term piece of work which hopefully I'll get to stay involved with :fingers_crossed:
 
