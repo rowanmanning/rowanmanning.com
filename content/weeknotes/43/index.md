@@ -28,7 +28,7 @@ resources:
 
   * I'm still very sad about [Tootsie](/weeknotes/42/) and probably will be for the foreseeable, thanks for all your kind words :heart:
   
-  * We still need to settle the ridiculous vet bills that came with the end of his uninsurable illness :grimacing: very thankful that we have a healthcare system for humans at leasts.
+  * We still need to settle the ridiculous vet bills that came with the end of his uninsurable illness :grimacing: very thankful that we have a healthcare system for humans at least.
 
   * Speaking of the healthcare system, Charlotte had a (routine) surgery this week. She's fine but still mostly bed-ridden so a lot of my time is spent looking after her, which is quite nice so far tbh. The only place I'm useless is changing dressings – I'm _really_ not very good with blood and/or wounds. My skin is crawling just thinking about it.
 
