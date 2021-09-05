@@ -110,5 +110,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/45/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"a62a4c03e2c84d78129c22f24e8423d4": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Joanna Walker 🇵🇱🇬🇧",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/1a2cb9455981faf9004b964bbd5bda3936ec1524aa71d2c2a24721c8084c2c87.jpg",
+			"url": "https://twitter.com/yi5h"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1434481431351332865#favorited-by-17367779",
+		"published": null,
+		"wm-received": "2021-09-05T15:27:07Z",
+		"wm-id": 1262990,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1434481431351332865/17367779",
+		"wm-target": "https://rowanmanning.com/weeknotes/45/",
+		"like-of": "https://rowanmanning.com/weeknotes/45/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
