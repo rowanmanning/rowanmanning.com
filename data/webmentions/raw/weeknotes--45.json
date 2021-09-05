@@ -1,0 +1,96 @@
+{
+	"b32954acaa5311d025ffc643b2f38a2b": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1434481431351332865#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2021-09-05T12:52:30Z",
+		"wm-id": 1262959,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1434481431351332865/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/45/",
+		"like-of": "https://rowanmanning.com/weeknotes/45/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"b3c5769d99a52c74b385c1ed42677837": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/AlexWilsonV1/status/1434484812795072514",
+		"published": "2021-09-05T11:53:25+00:00",
+		"wm-received": "2021-09-05T12:52:30Z",
+		"wm-id": 1262958,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1434481431351332865/1434484812795072514",
+		"wm-target": "https://rowanmanning.com/weeknotes/45/",
+		"content": {
+			"html": "I was up until 2 and even that totally kicked my ass. But that combo is too good! 😅\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "I was up until 2 and even that totally kicked my ass. But that combo is too good! 😅"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/45/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"5acf670b37e90e77aeb934f8e9cbc2d0": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1434481431351332865#favorited-by-55784559",
+		"published": null,
+		"wm-received": "2021-09-05T12:52:32Z",
+		"wm-id": 1262962,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1434481431351332865/55784559",
+		"wm-target": "https://rowanmanning.com/weeknotes/45/",
+		"like-of": "https://rowanmanning.com/weeknotes/45/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"181f5daaeb92461a45868d0225f50da9": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Kinnoha",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/7f661e1f3486b462b77da6008b4787db1aea0cf36a9421b5f3e6c6399f5e07f8.jpg",
+			"url": "https://twitter.com/kinnoha"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1434481431351332865#favorited-by-96442598",
+		"published": null,
+		"wm-received": "2021-09-05T12:52:32Z",
+		"wm-id": 1262961,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1434481431351332865/96442598",
+		"wm-target": "https://rowanmanning.com/weeknotes/45/",
+		"like-of": "https://rowanmanning.com/weeknotes/45/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"5f19902218c116c18d3f36df1cbbac58": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg",
+			"url": "https://twitter.com/apaleslimghost"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1434481431351332865#favorited-by-20815869",
+		"published": null,
+		"wm-received": "2021-09-05T12:52:32Z",
+		"wm-id": 1262960,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1434481431351332865/20815869",
+		"wm-target": "https://rowanmanning.com/weeknotes/45/",
+		"like-of": "https://rowanmanning.com/weeknotes/45/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
