@@ -41,7 +41,7 @@ module.exports = async function fetchWebmentions(apiKey) {
 		let slug = webmention['wm-target']
 			.replace(`https://${site.domain}/`, '')
 			.replace(/[#?].*$/, '')
-			.replace(/\/$/, '')
+			.replace(/\/\.*$/, '')
 			.replace(/\//g, '--');
 
 		// Don't try and save webmentions for `_site` as this

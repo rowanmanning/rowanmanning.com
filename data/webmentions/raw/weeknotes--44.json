@@ -220,5 +220,31 @@
 		"like-of": "https://rowanmanning.com/weeknotes/44/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"e108e8a67e2f10df97b5ba6f2de49bb7": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "chee",
+			"photo": "https://webmention.io/avatar/secure.gravatar.com/396a384939d13b319cd21a25f6705fbce1dacbdad42304c412ccf79039f75f84.jpg",
+			"url": "https://chee.snoot.club/author/chee/"
+		},
+		"url": "https://chee.snoot.club/2021/09/06/sunday-september-5th-2021/",
+		"published": "2021-09-06T16:41:32+00:00",
+		"wm-received": "2021-09-06T16:41:37Z",
+		"wm-id": 1263510,
+		"wm-source": "https://chee.snoot.club/2021/09/06/sunday-september-5th-2021/",
+		"wm-target": "https://rowanmanning.com/weeknotes/44/.",
+		"name": "Sunday, September 5th, 2021",
+		"content": {
+			"html": "<ul><li>late this week because i was at a rave yesterday with lots of beautiful people</li>\n<li>\n<a href=\"https://rowanmanning.com/weeknotes/44/.\">Rowan mentioned</a> that <a href=\"https://alicebartlett.co.uk/blog/weaknotes-156\">Alice mentioned</a> that <a href=\"https://interconnected.org/home/2021/08/18/frameworks\">Matt Webb mentioned</a> that <a href=\"https://en.wikipedia.org/wiki/Holmes_and_Rahe_stress_scale\">Wikipedia mentioned </a>the Holmes Rahe stress scale. 510.</li>\n<li>i wonder how josh gadd feels about being typecast as “confident guy who nobody wants around”</li>\n<li>i attended a queer art fair last sunday in peckham, it was nice</li>\n<li>went for a walk and ended up at the bar outside my old flat. met Luke Blaney and a couple of people he was with called… I think… Ruth and Laura. they were nice</li>\n<li>colombian food is really good</li>\n<li>on tv you can kill someone by turning their head slightly to the right from behind</li>\n<li>on tv a phone makes the dial tone when the other person hangs up</li>\n<li>i got the place!!!! HONK HONK HONK <a href=\"https://chee.snoot.club/2021/09/01/1647/\">https://chee.snoot.club/2021/09/01/1647/</a>\n</li>\n<li>i will have a bathtub! I must pack a bath bomb for when I go to get the keys!</li>\n<li>does anyone have a hedgehog i can meet?</li>\n<li><a href=\"https://tribunemag.co.uk/2021/08/the-staycation-crisis%EF%BF%BD\">https://tribunemag.co.uk/2021/08/the-staycation-crisis</a></li>\n</ul><p>i had a lot to say this week, but i’m having a nap forever instead. i have so much packing to do, and so much napping too.</p>",
+			"text": "late this week because i was at a rave yesterday with lots of beautiful people\n\nRowan mentioned that Alice mentioned that Matt Webb mentioned that Wikipedia mentioned the Holmes Rahe stress scale. 510.\ni wonder how josh gadd feels about being typecast as “confident guy who nobody wants around”\ni attended a queer art fair last sunday in peckham, it was nice\nwent for a walk and ended up at the bar outside my old flat. met Luke Blaney and a couple of people he was with called… I think… Ruth and Laura. they were nice\ncolombian food is really good\non tv you can kill someone by turning their head slightly to the right from behind\non tv a phone makes the dial tone when the other person hangs up\ni got the place!!!! HONK HONK HONK https://chee.snoot.club/2021/09/01/1647/\n\ni will have a bathtub! I must pack a bath bomb for when I go to get the keys!\ndoes anyone have a hedgehog i can meet?\nhttps://tribunemag.co.uk/2021/08/the-staycation-crisis\ni had a lot to say this week, but i’m having a nap forever instead. i have so much packing to do, and so much napping too."
+		},
+		"mention-of": "https://rowanmanning.com/weeknotes/44/.",
+		"wm-property": "mention-of",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://chee.snoot.club/2021/09/06/sunday-september-5th-2021/"
+		}
 	}
 }
