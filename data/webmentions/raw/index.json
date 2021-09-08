@@ -38,5 +38,34 @@
 		"mention-of": "https://rowanmanning.com/",
 		"wm-property": "mention-of",
 		"wm-private": false
+	},
+	"713d29bcfcc1654134093f35d9bc30c5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Barry Frost",
+			"photo": "https://webmention.io/avatar/barryfrost.com/f14d57ed2a3d82873ea65bc43217bacb3241414afdd99657c4dbde872e85afe0.jpg",
+			"url": "https://barryfrost.com/"
+		},
+		"url": "https://barryfrost.com/2021/08/weeknotes-001",
+		"published": "2021-08-29T20:05:56",
+		"wm-received": "2021-08-29T20:08:43Z",
+		"wm-id": 1258084,
+		"wm-source": "https://barryfrost.com/2021/08/weeknotes-001",
+		"wm-target": "https://rowanmanning.com",
+		"name": "Week 1: Starting",
+		"syndication": [
+			"https://twitter.com/barryf/status/1432277030188552194"
+		],
+		"content": {
+			"html": "<p>I want to write more, so I’m going to try posting weeknotes.</p>\n<p>I’ve started reading weeknotes from a mix of people I know and don’t (<a href=\"https://www.jvt.me\">Jamie</a>, <a href=\"https://www.gyford.com\">Phil</a>, <a href=\"https://alicebartlett.co.uk\">Alice</a>, <a href=\"https://natbuckley.co.uk\">Nat</a> and <a href=\"https://rowanmanning.com\">Rowan</a>). Each has their own style and voice which develop each week.</p>\n<p>I don’t know who my audience will be, but I’m going to write for myself and see where this takes me. Let’s see if the habit sticks.</p>\n<ul><li>We drove home from a week’s holiday in Wirksworth, Derbyshire on Friday. No laptop, no work email on my phone, just a nice, solid week of family time in the Peak District.</li>\n<li>Our two boys were kept busy. They rode ponies and fed animals at Matlock Farm Park, built stone models at Carsington Water, experienced cable cars up The Heights of Abraham and enjoyed a train musical performance on Ecclesworth Valley Railway. And, of course, plenty of playgrounds and scootering.</li>\n<li>Laura and I ferried them around, fuelled by coffee, local beer, ice cream and cake. Our holiday was one of doubled calories and Netflix films when the children had been dispatched to bed.</li>\n<li>When travel is safe (or less at risk of lockdowns) we will reschedule Laura’s postponed 40th birthday trip to New York, but for now, this week away was perfect, and very much needed by all.</li>\n<li>I’ve begun disappearing down a productivity rabbit hole, watching YouTube videos on Zettelkasten, PARA, Second Brain, Obsidian, Roam and more. While I’ve not changed my habits or tools just yet, I’m enjoying learning more about how others take and organise notes.</li>\n<li>Another research topic for me this week has been home networking, after reading <a href=\"https://www.annashipman.co.uk/\">Anna Shipman</a>’s blog post about her <a href=\"https://www.annashipman.co.uk/jfdi/setting-up-ubiquiti.html\">Ubiquiti network</a>. I want more control over the devices connected to our network than our Sky Q router provides.</li>\n<li>Saturday evening Laura and I travelled into London for Sleeper and The Bluetones at The Forum in Kentish Town. <a href=\"http://starshaped.club/2020/02/18-star-shaped-festival-2020/\">Rescheduled twice from 2020</a>, it was my first proper gig since before Covid. The in-laws babysat and we had a proper night out dancing to 1990s indie! I’ve missed live music.</li>\n<li>And, through looking back at my previous gigs in <a href=\"http://Last.fm\">Last.fm</a>, I realised we had seen The Bluetones at the same venue together in <a href=\"https://www.last.fm/event/1448553+The+Bluetones+at+HMV+Forum+on+08+May+2010/attendance/going\">May 2010</a> not long after starting dating. Yes, we are old now.</li>\n</ul>",
+			"text": "I want to write more, so I’m going to try posting weeknotes.\nI’ve started reading weeknotes from a mix of people I know and don’t (Jamie, Phil, Alice, Nat and Rowan). Each has their own style and voice which develop each week.\nI don’t know who my audience will be, but I’m going to write for myself and see where this takes me. Let’s see if the habit sticks.\nWe drove home from a week’s holiday in Wirksworth, Derbyshire on Friday. No laptop, no work email on my phone, just a nice, solid week of family time in the Peak District.\nOur two boys were kept busy. They rode ponies and fed animals at Matlock Farm Park, built stone models at Carsington Water, experienced cable cars up The Heights of Abraham and enjoyed a train musical performance on Ecclesworth Valley Railway. And, of course, plenty of playgrounds and scootering.\nLaura and I ferried them around, fuelled by coffee, local beer, ice cream and cake. Our holiday was one of doubled calories and Netflix films when the children had been dispatched to bed.\nWhen travel is safe (or less at risk of lockdowns) we will reschedule Laura’s postponed 40th birthday trip to New York, but for now, this week away was perfect, and very much needed by all.\nI’ve begun disappearing down a productivity rabbit hole, watching YouTube videos on Zettelkasten, PARA, Second Brain, Obsidian, Roam and more. While I’ve not changed my habits or tools just yet, I’m enjoying learning more about how others take and organise notes.\nAnother research topic for me this week has been home networking, after reading Anna Shipman’s blog post about her Ubiquiti network. I want more control over the devices connected to our network than our Sky Q router provides.\nSaturday evening Laura and I travelled into London for Sleeper and The Bluetones at The Forum in Kentish Town. Rescheduled twice from 2020, it was my first proper gig since before Covid. The in-laws babysat and we had a proper night out dancing to 1990s indie! I’ve missed live music.\nAnd, through looking back at my previous gigs in Last.fm, I realised we had seen The Bluetones at the same venue together in May 2010 not long after starting dating. Yes, we are old now."
+		},
+		"mention-of": "https://rowanmanning.com",
+		"wm-property": "mention-of",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://barryfrost.com/2021/08/weeknotes-001"
+		}
 	}
 }

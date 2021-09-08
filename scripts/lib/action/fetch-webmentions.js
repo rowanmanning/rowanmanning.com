@@ -39,7 +39,8 @@ module.exports = async function fetchWebmentions(apiKey) {
 
 		// Calculate a slug and file path for the mention
 		let slug = webmention['wm-target']
-			.replace(`https://${site.domain}/`, '')
+			.replace(`https://${site.domain}`, '')
+			.replace(/^\//, '')
 			.replace(/[#?].*$/, '')
 			.replace(/\/\.*$/, '')
 			.replace(/\//g, '--');
