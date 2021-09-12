@@ -11,7 +11,7 @@ tags: ["Work", "House", "Social", "TV", "Food", "Holiday", "American Horror Stor
 highlight: "lime"
 ---
 
-  * I spent two days in the office this week and got to hang out with a lot of lovely people. I spent a bunch of time collaborating on architecture diagrams for some future work – I think that this is where being in a shared physical space really works for me. Two days in the office is _exhausting_ though, I'm going to have to slowly build up to being in for longer periods.
+  * I spent two days in the office this week and got to hang out with a lot of lovely people. I spent a bunch of time [collaborating on architecture diagrams](https://alicebartlett.co.uk/blog/weaknotes-158) for some future work – I think that this is where being in a shared physical space really works for me. Two days in the office is _exhausting_ though, I'm going to have to slowly build up to being in for longer periods.
   
   * We finally booked a countryside trip with some friends and will be staying in a big house later in September. I was originally going to work for some of it, but have treated myself to a full week off. I'm excited about having a break but rapidly running out of annual leave.
 
