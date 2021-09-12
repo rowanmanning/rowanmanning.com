@@ -1,0 +1,42 @@
+{
+	"3a292c304098fa347ed1a6015be36da3": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Oliver",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/bb6054dd4e7cdd1650eabe48cb06ec5c9617e2878b15fd9abc26296b0b754c37.jpg",
+			"url": "https://twitter.com/oliverturner"
+		},
+		"url": "https://twitter.com/oliverturner/status/1437137962148446214",
+		"published": "2021-09-12T19:36:05+00:00",
+		"wm-received": "2021-09-12T19:52:17Z",
+		"wm-id": 1267858,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1437132320461426689/1437137962148446214",
+		"wm-target": "https://rowanmanning.com/weeknotes/46/",
+		"content": {
+			"html": "Awesome to see that you're getting into Architect: such a great framework (shortly to be my gateway to Deno shenanigans I think) and a really lovely team\n\nif you fancy rubber ducking the env vars thing, just ping away on the usual channels 😀\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Awesome to see that you're getting into Architect: such a great framework (shortly to be my gateway to Deno shenanigans I think) and a really lovely team\n\nif you fancy rubber ducking the env vars thing, just ping away on the usual channels 😀"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/46/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"b50e7962a31dda32e472d5edfd450b1d": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "lee",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/884ce9795988c7accf3459433122c00acdf8f47433efc87ec81fb5fb5dd571dd.jpg",
+			"url": "https://twitter.com/notleemoody"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1437132320461426689#favorited-by-170236447",
+		"published": null,
+		"wm-received": "2021-09-12T19:52:18Z",
+		"wm-id": 1267859,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1437132320461426689/170236447",
+		"wm-target": "https://rowanmanning.com/weeknotes/46/",
+		"like-of": "https://rowanmanning.com/weeknotes/46/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
