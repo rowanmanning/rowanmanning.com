@@ -16,5 +16,27 @@
 		"like-of": "https://rowanmanning.com/weeknotes/7/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"5fd1147e8a9d9f8b31b9442acc451bd4": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "arjun",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg",
+			"url": "https://twitter.com/adgad"
+		},
+		"url": "https://twitter.com/adgad/status/1439482576553529347",
+		"published": "2021-09-19T06:52:45+00:00",
+		"wm-received": "2021-09-19T06:57:50Z",
+		"wm-id": 1272081,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/1439482576553529347",
+		"wm-target": "https://rowanmanning.com/weeknotes/7/",
+		"content": {
+			"html": "Happy 13.7th software-engineeriversary <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a>!! 🥳\n\n(source: <a href=\"https://rowanmanning.com/weeknotes/7/\">rowanmanning.com/weeknotes/7/</a>)",
+			"text": "Happy 13.7th software-engineeriversary @rowanmanning!! 🥳\n\n(source: rowanmanning.com/weeknotes/7/)"
+		},
+		"mention-of": "https://rowanmanning.com/weeknotes/7/",
+		"wm-property": "mention-of",
+		"wm-private": false
 	}
 }
