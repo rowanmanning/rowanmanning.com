@@ -150,5 +150,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/47/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"ac6c181e243f94719741aafb56a07c2a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "lee",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/884ce9795988c7accf3459433122c00acdf8f47433efc87ec81fb5fb5dd571dd.jpg",
+			"url": "https://twitter.com/notleemoody"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1439558310714396673#favorited-by-170236447",
+		"published": null,
+		"wm-received": "2021-09-19T21:53:12Z",
+		"wm-id": 1272335,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1439558310714396673/170236447",
+		"wm-target": "https://rowanmanning.com/weeknotes/47/",
+		"like-of": "https://rowanmanning.com/weeknotes/47/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
