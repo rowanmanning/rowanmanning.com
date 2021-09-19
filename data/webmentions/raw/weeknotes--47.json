@@ -132,5 +132,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/47/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"abe05a1149ece6db7107a076b4eb4c77": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Glynn Phillips",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d2faa425fbf06ad8f64f8b3b58708da89abc04a4b1f62aadd19f04e0bb650b22.jpg",
+			"url": "https://twitter.com/GlynnPhillips"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1439558310714396673#favorited-by-39274235",
+		"published": null,
+		"wm-received": "2021-09-19T18:59:23Z",
+		"wm-id": 1272286,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1439558310714396673/39274235",
+		"wm-target": "https://rowanmanning.com/weeknotes/47/",
+		"like-of": "https://rowanmanning.com/weeknotes/47/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
