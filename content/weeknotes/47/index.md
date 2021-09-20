@@ -36,7 +36,7 @@ resources:
 
   * I've been a professional software engineer for 13.7 years as of today! [Thanks Arjun for the reminder](https://twitter.com/adgad/status/1439482576553529347) – I forgot to add it to my calendar.
 
-  * I'm getting a real hankering to play Minecraft again, and play a bit while I'm away and have more time. [The first 1.18 snapshot](https://www.minecraft.net/en-us/article/minecraft-snapshot-21w37a) was released and the new caves and mountains look amazing.
+  * I'm getting a real hankering to play Minecraft again, and might play a bit while I'm away and have more time. [The first 1.18 snapshot](https://www.minecraft.net/en-us/article/minecraft-snapshot-21w37a) was released and the new caves and mountains look amazing.
 
     {{< gallery >}}
       {{< image "lush-cave.jpg" >}}
