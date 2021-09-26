@@ -1,0 +1,150 @@
+{
+	"3ed713523775c9251005bebfe3471f3e": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Ed Kendall",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/86335b3ccca3027d5483b2e11c8fc48e412ee9c3beb7c6a8c45854fc682c7395.jpg",
+			"url": "https://twitter.com/Ed_Kend"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1442209185136095237#favorited-by-175033490",
+		"published": null,
+		"wm-received": "2021-09-26T21:35:59Z",
+		"wm-id": 1276391,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1442209185136095237/175033490",
+		"wm-target": "https://rowanmanning.com/weeknotes/48/",
+		"like-of": "https://rowanmanning.com/weeknotes/48/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"cca000b316d1b403c8cb281edef5519e": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1442209185136095237#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2021-09-26T21:35:59Z",
+		"wm-id": 1276390,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1442209185136095237/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/48/",
+		"like-of": "https://rowanmanning.com/weeknotes/48/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"8859a1a9f9185081daa63ae5d157ccb2": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1442209185136095237#favorited-by-55784559",
+		"published": null,
+		"wm-received": "2021-09-26T21:36:00Z",
+		"wm-id": 1276393,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1442209185136095237/55784559",
+		"wm-target": "https://rowanmanning.com/weeknotes/48/",
+		"like-of": "https://rowanmanning.com/weeknotes/48/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"3438c0d80801ef7c97f59d7915d99536": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Ania",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/e0a26b4bf9f94a0eeba568534804de9aa8559c05030996ad9e22f26ca2637234.jpg",
+			"url": "https://twitter.com/AniaMakes"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1442209185136095237#favorited-by-897912409784025090",
+		"published": null,
+		"wm-received": "2021-09-26T21:36:00Z",
+		"wm-id": 1276392,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1442209185136095237/897912409784025090",
+		"wm-target": "https://rowanmanning.com/weeknotes/48/",
+		"like-of": "https://rowanmanning.com/weeknotes/48/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"fb65f0273c52ec523c63f61393d74a9f": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Andrew Walker",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/77ceb4604e68ec4eec61cbb303e8a19dfdd3cdf97b79024b41e2a0b81aa984de.gif",
+			"url": "https://twitter.com/moddular"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1442209185136095237#favorited-by-16433622",
+		"published": null,
+		"wm-received": "2021-09-26T21:36:02Z",
+		"wm-id": 1276394,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1442209185136095237/16433622",
+		"wm-target": "https://rowanmanning.com/weeknotes/48/",
+		"like-of": "https://rowanmanning.com/weeknotes/48/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"71bf39d21c0e1dd4f59cd17b444cfd09": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/lucas42/status/1442210320399814665",
+		"published": "2021-09-26T19:31:50+00:00",
+		"wm-received": "2021-09-26T21:36:28Z",
+		"wm-id": 1276395,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1442209185136095237/1442210320399814665",
+		"wm-target": "https://rowanmanning.com/weeknotes/48/",
+		"content": {
+			"html": "You missed Charlotte's amazing Yorkshire puddings!\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "You missed Charlotte's amazing Yorkshire puddings!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/48/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"91657cff482c9b109af119b3cfc95362": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Tricia O",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/561c9d34f8ef4c878d79c25f8992ea894e666004c8735b81a82985d76053ec8a.jpg",
+			"url": "https://twitter.com/avisualtinker"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1442209185136095237#favorited-by-311923445",
+		"published": null,
+		"wm-received": "2021-09-26T21:36:29Z",
+		"wm-id": 1276396,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1442209185136095237/311923445",
+		"wm-target": "https://rowanmanning.com/weeknotes/48/",
+		"like-of": "https://rowanmanning.com/weeknotes/48/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"94d6ffcedb9f513d94b1d96397c06493": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Kinnoha",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/7f661e1f3486b462b77da6008b4787db1aea0cf36a9421b5f3e6c6399f5e07f8.jpg",
+			"url": "https://twitter.com/kinnoha"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1442209185136095237#favorited-by-96442598",
+		"published": null,
+		"wm-received": "2021-09-26T21:36:31Z",
+		"wm-id": 1276397,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1442209185136095237/96442598",
+		"wm-target": "https://rowanmanning.com/weeknotes/48/",
+		"like-of": "https://rowanmanning.com/weeknotes/48/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
