@@ -1,0 +1,38 @@
+{
+	"ad8e908b86a134a69bfc95a01c24b47e": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1444578643645276161#favorited-by-127856293",
+		"published": null,
+		"wm-received": "2021-10-03T10:49:07Z",
+		"wm-id": 1280627,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1444578643645276161/127856293",
+		"wm-target": "https://rowanmanning.com/weeknotes/49/",
+		"like-of": "https://rowanmanning.com/weeknotes/49/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"c39a3057513243c3fbb3b4366b3b44e8": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Laura Carvajal",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg",
+			"url": "https://twitter.com/lc512k"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1444578643645276161#favorited-by-741506154",
+		"published": null,
+		"wm-received": "2021-10-03T10:49:07Z",
+		"wm-id": 1280626,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1444578643645276161/741506154",
+		"wm-target": "https://rowanmanning.com/weeknotes/49/",
+		"like-of": "https://rowanmanning.com/weeknotes/49/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
