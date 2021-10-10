@@ -1,0 +1,140 @@
+{
+	"3a9f1abf30f959f761f500b110a11216": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "kirsty",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/73b98dc77ab98ada2e8a449d085a1d0020c042781ad032cd8f1a855431ca7038.jpg",
+			"url": "https://twitter.com/keinegurke_"
+		},
+		"url": "https://twitter.com/keinegurke_/status/1447133582334611461",
+		"published": "2021-10-10T09:35:07+00:00",
+		"wm-received": "2021-10-10T09:52:02Z",
+		"wm-id": 1285779,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1447133455112937478/1447133582334611461",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"content": {
+			"html": "Yayyy!!!\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Yayyy!!!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"0dc30ef21cc7f57d8f4ad4d3dc0edc46": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg",
+			"url": "https://twitter.com/apaleslimghost"
+		},
+		"url": "https://twitter.com/apaleslimghost/status/1447134779191828481",
+		"published": "2021-10-10T09:39:52+00:00",
+		"wm-received": "2021-10-10T09:52:02Z",
+		"wm-id": 1285778,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1447133455112937478/1447134779191828481",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"content": {
+			"html": "congrats!\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "congrats!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"7d6ceff739d72bf6064507e86bd76845": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Laura Carvajal",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg",
+			"url": "https://twitter.com/lc512k"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1447133455112937478#favorited-by-741506154",
+		"published": null,
+		"wm-received": "2021-10-10T09:52:03Z",
+		"wm-id": 1285780,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1447133455112937478/741506154",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"like-of": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"c949939bacb15bdda09ec474e4d881ec": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg",
+			"url": "https://twitter.com/apaleslimghost"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1447133455112937478#favorited-by-20815869",
+		"published": null,
+		"wm-received": "2021-10-10T09:52:04Z",
+		"wm-id": 1285781,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1447133455112937478/20815869",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"like-of": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"1a6cb52c6792a1e9e13169fc18a1b2c7": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1447133455112937478#favorited-by-55784559",
+		"published": null,
+		"wm-received": "2021-10-10T09:52:05Z",
+		"wm-id": 1285783,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1447133455112937478/55784559",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"like-of": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"7720fcef0881acf9db886a494b084d24": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "kirsty",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/73b98dc77ab98ada2e8a449d085a1d0020c042781ad032cd8f1a855431ca7038.jpg",
+			"url": "https://twitter.com/keinegurke_"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1447133455112937478#favorited-by-717722083216719872",
+		"published": null,
+		"wm-received": "2021-10-10T09:52:05Z",
+		"wm-id": 1285782,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1447133455112937478/717722083216719872",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"like-of": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"4373a297b504f4d0b1f06f92766cd588": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/AlexWilsonV1/status/1447135912899534849",
+		"published": "2021-10-10T09:44:22+00:00",
+		"wm-received": "2021-10-10T09:52:31Z",
+		"wm-id": 1285784,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1447133455112937478/1447135912899534849",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"content": {
+			"html": "🥳🎉🥳👏🎉🥳🎉👏🥳🎉🥳👏🎉\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "🥳🎉🥳👏🎉🥳🎉👏🥳🎉🥳👏🎉"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	}
+}
