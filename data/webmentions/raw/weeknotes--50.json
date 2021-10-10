@@ -136,5 +136,41 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/50/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"8383cda394813249bb69cd5e859abc62": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Nathan Curtis",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/361a61b6422d92a337036fa70a28f9d4313382e3336581fcf6c086a07f78761d.jpg",
+			"url": "https://twitter.com/nathanacurtis"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1447133455112937478#favorited-by-9125002",
+		"published": null,
+		"wm-received": "2021-10-10T10:39:30Z",
+		"wm-id": 1285791,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1447133455112937478/9125002",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"like-of": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"8876afe2c1a780da2e972785330ef290": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "arjun",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg",
+			"url": "https://twitter.com/adgad"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1447133455112937478#favorited-by-24541114",
+		"published": null,
+		"wm-received": "2021-10-10T10:39:58Z",
+		"wm-id": 1285792,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1447133455112937478/24541114",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"like-of": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
