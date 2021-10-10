@@ -226,5 +226,30 @@
 		"like-of": "https://rowanmanning.com/weeknotes/50/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"d11f9087c9b2fb19e8654e8e8f8bb91e": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "chee",
+			"photo": "https://webmention.io/avatar/secure.gravatar.com/c628d1c7dc99f983697423f2b191652fdb747cb0919c5bd326d70ad0ba772662.jpg",
+			"url": "https://chee.snoot.club/author/chee/"
+		},
+		"url": "https://chee.snoot.club/2021/10/10/2035/",
+		"published": "2021-10-10T14:07:38+01:00",
+		"wm-received": "2021-10-10T13:42:57Z",
+		"wm-id": 1285845,
+		"wm-source": "https://chee.snoot.club/2021/10/10/2035/?preview=true&frame-nonce=711ec60dfc",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"content": {
+			"html": "in reply to <a href=\"https://rowanmanning.com/weeknotes/50/\" class=\"p-name u-url\">Exchange! | Rowan Manning</a>\n\t    \n\t<blockquote class=\"e-summary\">I exchanged contracts on my flat! I’m finally legally locked into buying this flat and I’m really excited. I’ll be collecting the keys on the 19th of October 🎉</blockquote>\n    <p>congrats 🙂</p>",
+			"text": "in reply to Exchange! | Rowan Manning\n\t    \n\tI exchanged contracts on my flat! I’m finally legally locked into buying this flat and I’m really excited. I’ll be collecting the keys on the 19th of October 🎉\n    congrats 🙂"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "in-reply-to",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://chee.snoot.club/2021/10/10/2035/"
+		}
 	}
 }
