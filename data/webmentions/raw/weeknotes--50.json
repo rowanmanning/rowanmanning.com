@@ -251,5 +251,23 @@
 		"rels": {
 			"canonical": "https://chee.snoot.club/2021/10/10/2035/"
 		}
+	},
+	"bf68a663233bb771dbbd1eba4959fda0": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Lily",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/2a2e63e98c493279264564c46275ecba152bab957c824eaaeff4271770c00db0.jpg",
+			"url": "https://twitter.com/Lily_2point0"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1447133455112937478#favorited-by-622712612",
+		"published": null,
+		"wm-received": "2021-10-10T14:22:06Z",
+		"wm-id": 1285854,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1447133455112937478/622712612",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"like-of": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
