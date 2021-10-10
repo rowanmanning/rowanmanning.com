@@ -269,5 +269,63 @@
 		"like-of": "https://rowanmanning.com/weeknotes/50/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"1392b8a1c275310babf2cefe6e7274f7": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Amir TG",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/08c5a88f759a139905747a8c8c136919dd4f331ae8a69219da1dbeb8f7167609.jpg",
+			"url": "https://twitter.com/AmirTG1"
+		},
+		"url": "https://twitter.com/AmirTG1/status/1447233833204600835",
+		"published": "2021-10-10T16:13:28+00:00",
+		"wm-received": "2021-10-10T16:36:30Z",
+		"wm-id": 1285903,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1447133455112937478/1447233833204600835",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"content": {
+			"html": "Congrats 🎉🎉\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Congrats 🎉🎉"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"60cc03dc66d2a371246f7ecc1cab1cb8": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Amir TG",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/08c5a88f759a139905747a8c8c136919dd4f331ae8a69219da1dbeb8f7167609.jpg",
+			"url": "https://twitter.com/AmirTG1"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1447133455112937478#favorited-by-1321129416",
+		"published": null,
+		"wm-received": "2021-10-10T16:36:31Z",
+		"wm-id": 1285904,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1447133455112937478/1321129416",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"like-of": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"0bbe3ecd295f8e73fa3ef22168d16e65": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Oliver",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/bb6054dd4e7cdd1650eabe48cb06ec5c9617e2878b15fd9abc26296b0b754c37.jpg",
+			"url": "https://twitter.com/oliverturner"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1447133455112937478#favorited-by-14652753",
+		"published": null,
+		"wm-received": "2021-10-10T16:36:32Z",
+		"wm-id": 1285905,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1447133455112937478/14652753",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"like-of": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
