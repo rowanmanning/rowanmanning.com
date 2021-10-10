@@ -327,5 +327,41 @@
 		"like-of": "https://rowanmanning.com/weeknotes/50/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"e38bae5b4c7cbac4bf39c95ca6077b48": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Cait O'Riordan",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/67afe95fbe55c4f5ae23456fb986ca10dca41f9e213ced4abd7b39b8bc60d168.jpg",
+			"url": "https://twitter.com/caitoriordan"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1447133455112937478#favorited-by-15579595",
+		"published": null,
+		"wm-received": "2021-10-10T17:43:40Z",
+		"wm-id": 1285922,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1447133455112937478/15579595",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"like-of": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"bd6238398beed57dae3b481f4bbaa176": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Joanna Walker 🇵🇱🇬🇧",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/1a2cb9455981faf9004b964bbd5bda3936ec1524aa71d2c2a24721c8084c2c87.jpg",
+			"url": "https://twitter.com/yi5h"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1447133455112937478#favorited-by-17367779",
+		"published": null,
+		"wm-received": "2021-10-10T17:43:42Z",
+		"wm-id": 1285923,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1447133455112937478/17367779",
+		"wm-target": "https://rowanmanning.com/weeknotes/50/",
+		"like-of": "https://rowanmanning.com/weeknotes/50/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
