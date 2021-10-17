@@ -96,5 +96,34 @@
 		"like-of": "https://rowanmanning.com/weeknotes/51/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"53f7c951f974c6d81c732fd44c2be8f4": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "chee",
+			"photo": "https://webmention.io/avatar/secure.gravatar.com/c628d1c7dc99f983697423f2b191652fdb747cb0919c5bd326d70ad0ba772662.jpg",
+			"url": "https://chee.snoot.club/author/chee/"
+		},
+		"url": "https://chee.snoot.club/2021/10/17/2086/",
+		"published": "2021-10-17T21:08:34+01:00",
+		"wm-received": "2021-10-17T20:08:40Z",
+		"wm-id": 1291926,
+		"wm-source": "https://chee.snoot.club/2021/10/17/2086/",
+		"wm-target": "https://rowanmanning.com/weeknotes/51/",
+		"summary": {
+			"content-type": "text/plain",
+			"value": "⭐ https://rowanmanning.com/weeknotes/51/"
+		},
+		"content": {
+			"html": "<p class=\"p-summary\">\n\t  ⭐ <a class=\"u-like-of\" href=\"https://rowanmanning.com/weeknotes/51/\">\n\t  https://rowanmanning.com/weeknotes/51/\n\t  </a>\n\t</p>\n    \n\n\n\n<p>😀</p>",
+			"text": "⭐ \n\t  https://rowanmanning.com/weeknotes/51/\n\t  \n\t\n    \n\n\n\n😀"
+		},
+		"like-of": "https://rowanmanning.com/weeknotes/51/",
+		"wm-property": "like-of",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://chee.snoot.club/2021/10/17/2086/"
+		}
 	}
 }
