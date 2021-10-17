@@ -1,0 +1,82 @@
+{
+	"d091e406a0ef32f64fa147bfe29a6a07": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1449669028033794048#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2021-10-17T10:10:05Z",
+		"wm-id": 1291757,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1449669028033794048/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/51/",
+		"like-of": "https://rowanmanning.com/weeknotes/51/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"adfe73690f9602d364e313ffa85fe3ef": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg",
+			"url": "https://twitter.com/apaleslimghost"
+		},
+		"url": "https://twitter.com/apaleslimghost/status/1449673857502167044",
+		"published": "2021-10-17T09:49:15+00:00",
+		"wm-received": "2021-10-17T10:10:05Z",
+		"wm-id": 1291756,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1449669028033794048/1449673857502167044",
+		"wm-target": "https://rowanmanning.com/weeknotes/51/",
+		"content": {
+			"html": "F\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "F"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/51/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"74dbc1876b788d9b405c697752329cad": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg",
+			"url": "https://twitter.com/apaleslimghost"
+		},
+		"url": "https://twitter.com/apaleslimghost/status/1449674255428460549",
+		"published": "2021-10-17T09:50:50+00:00",
+		"wm-received": "2021-10-17T10:10:05Z",
+		"wm-id": 1291755,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1449669028033794048/1449674255428460549",
+		"wm-target": "https://rowanmanning.com/weeknotes/51/",
+		"content": {
+			"html": "hey, i just finished the CTC Classic app! there was a point when something clicked and it felt like i was Neo saying \"i know swordfishes\"\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "hey, i just finished the CTC Classic app! there was a point when something clicked and it felt like i was Neo saying \"i know swordfishes\""
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/51/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"956b53e932a686e1ee86f4f2ab719084": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg",
+			"url": "https://twitter.com/apaleslimghost"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1449669028033794048#favorited-by-20815869",
+		"published": null,
+		"wm-received": "2021-10-17T10:10:06Z",
+		"wm-id": 1291758,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1449669028033794048/20815869",
+		"wm-target": "https://rowanmanning.com/weeknotes/51/",
+		"like-of": "https://rowanmanning.com/weeknotes/51/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
