@@ -125,5 +125,27 @@
 		"rels": {
 			"canonical": "https://chee.snoot.club/2021/10/17/2086/"
 		}
+	},
+	"caacf2d38c38751bd410b8c9cef0be2d": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan Beentje",
+			"photo": "https://pbs.twimg.com/profile_images/1168052490/rowan-beentje-2_bigger.png",
+			"url": "https://twitter.com/rowanbeentje"
+		},
+		"url": "https://twitter.com/rowanbeentje/status/1449832870844014593",
+		"published": "2021-10-17T20:21:07+00:00",
+		"wm-received": "2021-10-17T21:11:04Z",
+		"wm-id": 1291948,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1449669028033794048/1449832870844014593",
+		"wm-target": "https://rowanmanning.com/weeknotes/51/",
+		"content": {
+			"html": "Just remember a *mug* of Prosecco is the traditional moving celebration\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Just remember a *mug* of Prosecco is the traditional moving celebration"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/51/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
