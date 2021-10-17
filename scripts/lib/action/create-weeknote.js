@@ -18,7 +18,8 @@ module.exports = async function createWeeknote() {
 	// Read existing weeknotes to work out the next number in sequence
 	const existingWeeknotes = (await fs.readdir(weeknotesDirectory))
 		.filter(weeknote => !weeknote.includes('.'))
-		.map(weeknote => Number(weeknote));
+		.map(weeknote => Number(weeknote))
+		.filter(number => !isNaN(number));
 	const lastWeeknote = (existingWeeknotes.length ? Math.max(...existingWeeknotes) : 0);
 	const nextWeeknote = lastWeeknote + 1;
 

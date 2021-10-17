@@ -38,7 +38,8 @@ module.exports = async function createNote(type, url) {
 	// Read existing notes to work out the next number in sequence
 	const existingNotes = (await fs.readdir(notesDirectory))
 		.filter(note => !note.includes('.'))
-		.map(note => Number(note));
+		.map(note => Number(note))
+		.filter(number => !isNaN(number));
 	const lastNote = (existingNotes.length ? Math.max(...existingNotes) : 0);
 	const nextNote = lastNote + 1;
 
