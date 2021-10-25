@@ -558,5 +558,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/52/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"1e4b496e9841e249c5ea68954a2c08df": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Andrew Lawson",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/1859e97706e41c87e9a8d8dac681f929799f4ced8b32fc12d90a86735b7ba8a1.jpg",
+			"url": "https://twitter.com/adlawsxn"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1452217835929878528#favorited-by-250872153",
+		"published": null,
+		"wm-received": "2021-10-25T13:39:43Z",
+		"wm-id": 1295770,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1452217835929878528/250872153",
+		"wm-target": "https://rowanmanning.com/weeknotes/52/",
+		"like-of": "https://rowanmanning.com/weeknotes/52/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
