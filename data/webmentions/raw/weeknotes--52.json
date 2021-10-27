@@ -576,5 +576,45 @@
 		"like-of": "https://rowanmanning.com/weeknotes/52/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"aa03e59d711238c911506feea84c275a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Oliver",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/bb6054dd4e7cdd1650eabe48cb06ec5c9617e2878b15fd9abc26296b0b754c37.jpg",
+			"url": "https://twitter.com/oliverturner"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1452217835929878528#favorited-by-14652753",
+		"published": null,
+		"wm-received": "2021-10-27T20:48:26Z",
+		"wm-id": 1296797,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1452217835929878528/14652753",
+		"wm-target": "https://rowanmanning.com/weeknotes/52/",
+		"like-of": "https://rowanmanning.com/weeknotes/52/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"1691195e4d3132bc7f7df8bb956b7776": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Matt Hinchliffe",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/099bf742e185a768915d52f0a6926e16b8b6bdf332d4668912834c4793dc62c3.jpg",
+			"url": "https://twitter.com/i_like_robots"
+		},
+		"url": "https://twitter.com/i_like_robots/status/1453446605768642563",
+		"published": "2021-10-27T19:40:49+00:00",
+		"wm-received": "2021-10-27T20:48:27Z",
+		"wm-id": 1296798,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1452217835929878528/1453446605768642563",
+		"wm-target": "https://rowanmanning.com/weeknotes/52/",
+		"content": {
+			"html": "Woo! Big congrats on finally getting the keys, I hope your parents send you a big box of paint brushes like mine did 😄\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Woo! Big congrats on finally getting the keys, I hope your parents send you a big box of paint brushes like mine did 😄"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/52/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
