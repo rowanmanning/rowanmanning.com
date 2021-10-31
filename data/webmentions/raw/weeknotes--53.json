@@ -56,5 +56,45 @@
 		"like-of": "https://rowanmanning.com/weeknotes/53/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"1912349a9d65f912a417ff591073857f": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "lee",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/884ce9795988c7accf3459433122c00acdf8f47433efc87ec81fb5fb5dd571dd.jpg",
+			"url": "https://twitter.com/notleemoody"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1454771809828626432#favorited-by-170236447",
+		"published": null,
+		"wm-received": "2021-10-31T17:27:23Z",
+		"wm-id": 1298006,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1454771809828626432/170236447",
+		"wm-target": "https://rowanmanning.com/weeknotes/53/",
+		"like-of": "https://rowanmanning.com/weeknotes/53/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"3446f6b0abc86e5f4e3998755f42c749": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "lee",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/884ce9795988c7accf3459433122c00acdf8f47433efc87ec81fb5fb5dd571dd.jpg",
+			"url": "https://twitter.com/notleemoody"
+		},
+		"url": "https://twitter.com/notleemoody/status/1454840548326612993",
+		"published": "2021-10-31T15:59:51+00:00",
+		"wm-received": "2021-10-31T17:27:52Z",
+		"wm-id": 1298007,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1454771809828626432/1454840548326612993",
+		"wm-target": "https://rowanmanning.com/weeknotes/53/",
+		"content": {
+			"html": "Oh no, the key situation must have been a nightmare!😱😅 Glad you’re settling in. Love the cat lamp too. Looking forward to a Rowan year note!\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Oh no, the key situation must have been a nightmare!😱😅 Glad you’re settling in. Love the cat lamp too. Looking forward to a Rowan year note!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/53/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
