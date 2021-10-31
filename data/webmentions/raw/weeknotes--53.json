@@ -96,5 +96,23 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/53/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"6df0d37f82c10f0d84937908852aa51a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Mags Allen",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/08a436ad19e650672b1e3745f182ed861b4481c6eadc4f2c8b4f71b2e4559b04.jpg",
+			"url": "https://twitter.com/mgr_allen"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1454771809828626432#favorited-by-928016316",
+		"published": null,
+		"wm-received": "2021-10-31T19:56:03Z",
+		"wm-id": 1298025,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1454771809828626432/928016316",
+		"wm-target": "https://rowanmanning.com/weeknotes/53/",
+		"like-of": "https://rowanmanning.com/weeknotes/53/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
