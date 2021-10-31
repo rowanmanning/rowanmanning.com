@@ -16,5 +16,45 @@
 		"like-of": "https://rowanmanning.com/weeknotes/53/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"b2265c4931b7f687a96b934e2a13d55d": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/perryharlock/status/1454798510411423744",
+		"published": "2021-10-31T13:12:48+00:00",
+		"wm-received": "2021-10-31T15:15:21Z",
+		"wm-id": 1297977,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1454771809828626432/1454798510411423744",
+		"wm-target": "https://rowanmanning.com/weeknotes/53/",
+		"content": {
+			"html": "SDS drills for the win!! I got one for Christmas last year and it has been a godsend!!! Glad you are settling in!!!!!\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "SDS drills for the win!! I got one for Christmas last year and it has been a godsend!!! Glad you are settling in!!!!!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/53/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"8f3023dac5b972afd04c9437034434b9": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1454771809828626432#favorited-by-127856293",
+		"published": null,
+		"wm-received": "2021-10-31T15:15:21Z",
+		"wm-id": 1297978,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1454771809828626432/127856293",
+		"wm-target": "https://rowanmanning.com/weeknotes/53/",
+		"like-of": "https://rowanmanning.com/weeknotes/53/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
