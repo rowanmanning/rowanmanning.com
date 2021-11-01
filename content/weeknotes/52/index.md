@@ -4,7 +4,7 @@
 title: "Week 52: Whitechapel"
 date: 2021-10-24T11:05:00+01:00
 description: "A week of moving house, fast internet, assembling furniture, lots of new shopping options, fake prosecco, and some fun hardware tinkering."
-tags: ["House", "Social", "Open Source", "Champagne"]
+tags: ["House", "Social", "Open Source", "Champagne", "Side Projects", "Home Automation"]
 
 # Weeknote display
 # ----------------
