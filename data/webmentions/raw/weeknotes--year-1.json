@@ -16,5 +16,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/year-1/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"416741e59115d64034a980957441b2d9": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "lee",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/884ce9795988c7accf3459433122c00acdf8f47433efc87ec81fb5fb5dd571dd.jpg",
+			"url": "https://twitter.com/notleemoody"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1455131252810412032#favorited-by-170236447",
+		"published": null,
+		"wm-received": "2021-11-01T20:48:03Z",
+		"wm-id": 1298407,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1455131252810412032/170236447",
+		"wm-target": "https://rowanmanning.com/weeknotes/year-1/",
+		"like-of": "https://rowanmanning.com/weeknotes/year-1/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
