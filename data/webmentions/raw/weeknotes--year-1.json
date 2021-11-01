@@ -34,5 +34,26 @@
 		"like-of": "https://rowanmanning.com/weeknotes/year-1/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"966d481afb444dc1b2efa75c5cfbd3e9": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Barry Frost",
+			"photo": "https://webmention.io/avatar/barryfrost.com/f14d57ed2a3d82873ea65bc43217bacb3241414afdd99657c4dbde872e85afe0.jpg",
+			"url": "https://barryfrost.com/"
+		},
+		"url": "https://barryfrost.com/2021/11/ub5len6kzye",
+		"published": "2021-11-01T21:31:51",
+		"wm-received": "2021-11-01T21:31:56Z",
+		"wm-id": 1298411,
+		"wm-source": "https://barryfrost.com/2021/11/ub5len6kzye",
+		"wm-target": "https://rowanmanning.com/weeknotes/year-1/",
+		"like-of": "https://rowanmanning.com/weeknotes/year-1/",
+		"wm-property": "like-of",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://barryfrost.com/2021/11/ub5len6kzye"
+		}
 	}
 }
