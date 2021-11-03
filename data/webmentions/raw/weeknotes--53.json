@@ -132,5 +132,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/53/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"c6d267398fabfceb404533e894059f2d": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Dora",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/43a12c0ad1b4ccd3cc1f69da71f30fc2f390c80058fd030eeed970d69fee4142.jpg",
+			"url": "https://twitter.com/doramilitaru"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1454771809828626432#favorited-by-14115979",
+		"published": null,
+		"wm-received": "2021-11-02T23:44:54Z",
+		"wm-id": 1299124,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1454771809828626432/14115979",
+		"wm-target": "https://rowanmanning.com/weeknotes/53/",
+		"like-of": "https://rowanmanning.com/weeknotes/53/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
