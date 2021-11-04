@@ -67,5 +67,27 @@
 		"rels": {
 			"canonical": "https://barryfrost.com/2021/08/weeknotes-001"
 		}
+	},
+	"d5bada9898cace06e1d7a614a0fc2a55": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "joe jenett",
+			"photo": "https://webmention.io/avatar/secure.gravatar.com/f86b0f0c77866ee40b79aeb93fd9716806b51bfa2486fd4e56e4307199e3c21d.png",
+			"url": "https://pointers.dailywebthing.com/author/admin/"
+		},
+		"url": "https://pointers.dailywebthing.com/11-04-21/",
+		"published": "2021-11-04T09:54:59+00:00",
+		"wm-received": "2021-11-04T09:57:03Z",
+		"wm-id": 1299625,
+		"wm-source": "https://pointers.dailywebthing.com/11-04-21/",
+		"wm-target": "https://rowanmanning.com/",
+		"content": {
+			"html": "<ul><li><a title=\"Mel Nguyễn\" href=\"https://mel-nguyen.com/\">Mel Nguyễn</a> (new) <a title=\"source\" href=\"https://gossipsweb.net/personal-websites\"><img src=\"/images/left-arrow.png\" alt=\"\" width=\"18\" /></a></li>\n<li><a title=\"Rowan Manning\" href=\"https://rowanmanning.com/\">Rowan Manning</a></li>\n<li><a title=\"Duncan Moran\" href=\"https://blog.duncanmoran.net/\">Duncan Moran</a></li>\n</ul><p><a href=\"https://fed.brid.gy/\"></a>\n</p><p></p><p><a href=\"https://pointers.dailywebthing.com/11-04-21/\">https://pointers.dailywebthing.com/11-04-21/</a></p>",
+			"text": "Mel Nguyễn (new) \nRowan Manning\nDuncan Moran\n\nhttps://pointers.dailywebthing.com/11-04-21/"
+		},
+		"mention-of": "https://rowanmanning.com/",
+		"wm-property": "mention-of",
+		"wm-private": false
 	}
 }
