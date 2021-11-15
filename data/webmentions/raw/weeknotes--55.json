@@ -1,0 +1,104 @@
+{
+	"ad66b4789d1170414ca405eea4caee5a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Matt Hinchliffe",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/099bf742e185a768915d52f0a6926e16b8b6bdf332d4668912834c4793dc62c3.jpg",
+			"url": "https://twitter.com/i_like_robots"
+		},
+		"url": "https://twitter.com/i_like_robots/status/1460207262539075587",
+		"published": "2021-11-15T11:25:15+00:00",
+		"wm-received": "2021-11-15T14:26:23Z",
+		"wm-id": 1305284,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1460185812759367686/1460207262539075587",
+		"wm-target": "https://rowanmanning.com/weeknotes/55/",
+		"content": {
+			"html": "Also yay to Epping Forest. I spent so much time there last year. Very fond memories of getting off the tube at Loughton and working my way back home along following the trails.\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Also yay to Epping Forest. I spent so much time there last year. Very fond memories of getting off the tube at Loughton and working my way back home along following the trails."
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/55/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"072e09db134106e84bd4978de7ecd6fc": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Matt Hinchliffe",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/099bf742e185a768915d52f0a6926e16b8b6bdf332d4668912834c4793dc62c3.jpg",
+			"url": "https://twitter.com/i_like_robots"
+		},
+		"url": "https://twitter.com/i_like_robots/status/1460197895668441093",
+		"published": "2021-11-15T10:48:02+00:00",
+		"wm-received": "2021-11-15T14:26:23Z",
+		"wm-id": 1305283,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1460185812759367686/1460197895668441093",
+		"wm-target": "https://rowanmanning.com/weeknotes/55/",
+		"content": {
+			"html": "If it's of any interest, in my week notes this week I've actually written some paint reviews 😄\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "If it's of any interest, in my week notes this week I've actually written some paint reviews 😄"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/55/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"709f2aba3a64ed519260e1ac644e3de9": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/AlexWilsonV1/status/1460187282548432896",
+		"published": "2021-11-15T10:05:51+00:00",
+		"wm-received": "2021-11-15T14:26:24Z",
+		"wm-id": 1305285,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1460185812759367686/1460187282548432896",
+		"wm-target": "https://rowanmanning.com/weeknotes/55/",
+		"content": {
+			"html": "Mondays, right? 😹\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Mondays, right? 😹"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/55/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"7f1a480ae128288f0442c9fcfdd59cf7": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1460185812759367686#favorited-by-55784559",
+		"published": null,
+		"wm-received": "2021-11-15T14:26:25Z",
+		"wm-id": 1305287,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1460185812759367686/55784559",
+		"wm-target": "https://rowanmanning.com/weeknotes/55/",
+		"like-of": "https://rowanmanning.com/weeknotes/55/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"7419b25237408c26d2bd4f032a8ddc18": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1460185812759367686#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2021-11-15T14:26:25Z",
+		"wm-id": 1305286,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1460185812759367686/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/55/",
+		"like-of": "https://rowanmanning.com/weeknotes/55/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
