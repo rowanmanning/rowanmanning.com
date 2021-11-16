@@ -100,5 +100,27 @@
 		"like-of": "https://rowanmanning.com/weeknotes/55/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"f71f884fc07712754a3d952f8e1bcba6": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan Manning",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/fe9141fc44359aa8af294baf11d39e9fd0026e802ff4b43904fe0a3dac3d10f5.jpg",
+			"url": "https://twitter.com/rowanmanning"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1460388206864740353",
+		"published": "2021-11-15T23:24:15+00:00",
+		"wm-received": "2021-11-15T23:59:30Z",
+		"wm-id": 1305636,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1460185812759367686/1460388206864740353",
+		"wm-target": "https://rowanmanning.com/weeknotes/55/",
+		"content": {
+			"html": "Thanks for that, it was useful! I just ordered a few samples from Victory Colours\n<a class=\"u-mention\" href=\"https://twitter.com/i_like_robots\"></a>",
+			"text": "Thanks for that, it was useful! I just ordered a few samples from Victory Colours"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/55/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
