@@ -140,5 +140,27 @@
 		"like-of": "https://rowanmanning.com/weeknotes/55/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"fb7f5f793434d5941f25363680a1aa45": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Matt Hinchliffe",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/099bf742e185a768915d52f0a6926e16b8b6bdf332d4668912834c4793dc62c3.jpg",
+			"url": "https://twitter.com/i_like_robots"
+		},
+		"url": "https://twitter.com/i_like_robots/status/1460657097826254852",
+		"published": "2021-11-16T17:12:44+00:00",
+		"wm-received": "2021-11-16T17:56:13Z",
+		"wm-id": 1305942,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1460185812759367686/1460657097826254852",
+		"wm-target": "https://rowanmanning.com/weeknotes/55/",
+		"content": {
+			"html": "I'm glad! Just sorry we didn't keep all the samples to send on, Faye must have spent so much £££ gathering them all 🤦\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "I'm glad! Just sorry we didn't keep all the samples to send on, Faye must have spent so much £££ gathering them all 🤦"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/55/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
