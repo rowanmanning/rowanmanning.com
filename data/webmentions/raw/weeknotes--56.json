@@ -56,5 +56,27 @@
 		"like-of": "https://rowanmanning.com/weeknotes/56/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"deae435a154a4f69f6d93098547733b8": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan Manning",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/fe9141fc44359aa8af294baf11d39e9fd0026e802ff4b43904fe0a3dac3d10f5.jpg",
+			"url": "https://twitter.com/rowanmanning"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1463154372267941893",
+		"published": "2021-11-23T14:36:01+00:00",
+		"wm-received": "2021-11-23T16:40:20Z",
+		"wm-id": 1308739,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1462726297885499392/1463154372267941893",
+		"wm-target": "https://rowanmanning.com/weeknotes/56/",
+		"content": {
+			"html": "Thanks! Always happy to chat about this, work Slack might be the easiest or happy if you want to pop a little coffee/smart home chat in my calendar 🙂\n<a class=\"u-mention\" href=\"https://twitter.com/AmirTG1\"></a>",
+			"text": "Thanks! Always happy to chat about this, work Slack might be the easiest or happy if you want to pop a little coffee/smart home chat in my calendar 🙂"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/56/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
