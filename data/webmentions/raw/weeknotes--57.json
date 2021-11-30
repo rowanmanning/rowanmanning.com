@@ -34,5 +34,45 @@
 		"like-of": "https://rowanmanning.com/weeknotes/57/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"7cabb4eb8a415cf07c3a2dbfd0d7af3e": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/perryharlock/status/1465568661427662851",
+		"published": "2021-11-30T06:29:32+00:00",
+		"wm-received": "2021-11-30T07:50:26Z",
+		"wm-id": 1310682,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1465272194645245956/1465568661427662851",
+		"wm-target": "https://rowanmanning.com/weeknotes/57/",
+		"content": {
+			"html": "Ha ha I love the rating system. Four places of worship 😂\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Ha ha I love the rating system. Four places of worship 😂"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/57/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"17b0a1757d3c651a55541118b4dd5851": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1465272194645245956#favorited-by-127856293",
+		"published": null,
+		"wm-received": "2021-11-30T07:50:26Z",
+		"wm-id": 1310683,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1465272194645245956/127856293",
+		"wm-target": "https://rowanmanning.com/weeknotes/57/",
+		"like-of": "https://rowanmanning.com/weeknotes/57/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
