@@ -8,7 +8,7 @@ tags: ["Holiday", "House", "Work", "DIY", "Home Automation"]
 
 # Weeknote display
 # ----------------
-# highlight: "lime"
+highlight: "orange"
 
 # Images and resources
 # --------------------
