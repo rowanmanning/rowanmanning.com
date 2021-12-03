@@ -16,5 +16,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/58/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"d9aaf7d9a6f5f5891ed5951b75c08210": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Ashoor Namrood",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/10c0ae43efdb5093ac075df16287c69f3e6fc380e32bf33aec3addc31c611a97.jpg",
+			"url": "https://twitter.com/namroodinc"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1466854466821533700#favorited-by-16041001",
+		"published": null,
+		"wm-received": "2021-12-03T21:07:59Z",
+		"wm-id": 1312238,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1466854466821533700/16041001",
+		"wm-target": "https://rowanmanning.com/weeknotes/58/",
+		"like-of": "https://rowanmanning.com/weeknotes/58/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
