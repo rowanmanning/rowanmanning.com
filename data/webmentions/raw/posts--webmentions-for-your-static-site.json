@@ -524,5 +524,55 @@
 		"mention-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
 		"wm-property": "mention-of",
 		"wm-private": false
+	},
+	"548d44a1046a8dad5d0bc572bfb4d9c9": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Christian Olivier",
+			"photo": "https://webmention.io/avatar/forevercurious.be/ec00b993eef54a3e887257386ef6d65a554be62ce711322265d5be890ee45cd1.png",
+			"url": "https://forevercurious.be/"
+		},
+		"url": "https://forevercurious.be/test/",
+		"published": null,
+		"wm-received": "2021-12-11T19:39:27Z",
+		"wm-id": 1315445,
+		"wm-source": "https://forevercurious.be/test/",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"content": {
+			"html": "<br />\n\nThanks!",
+			"text": "Thanks!"
+		},
+		"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "like-of",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://forevercurious.be/test/"
+		}
+	},
+	"56df0d2133e31e3e28a6e51dd03afafc": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Christian Olivier",
+			"photo": "https://webmention.io/avatar/forevercurious.be/ec00b993eef54a3e887257386ef6d65a554be62ce711322265d5be890ee45cd1.png",
+			"url": "https://forevercurious.be/"
+		},
+		"url": "https://forevercurious.be/test/",
+		"published": null,
+		"wm-received": "2021-12-11T19:40:15Z",
+		"wm-id": 1315446,
+		"wm-source": "https://forevercurious.be/test",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"content": {
+			"html": "<br />\n\nThanks!",
+			"text": "Thanks!"
+		},
+		"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "like-of",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://forevercurious.be/test/"
+		}
 	}
 }
