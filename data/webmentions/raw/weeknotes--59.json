@@ -34,5 +34,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/59/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"d8dbdac2eb555d465a7b80fe9c79bf18": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Tobias Bieniek",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/945214ca558c9b79fee2628c93cb993136476ce1e00cde4f3b966c4bf345d523.jpg",
+			"url": "https://twitter.com/TobiasBieniek"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1470356471137325056#favorited-by-623190454",
+		"published": null,
+		"wm-received": "2021-12-13T16:46:16Z",
+		"wm-id": 1315979,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1470356471137325056/623190454",
+		"wm-target": "https://rowanmanning.com/weeknotes/59/",
+		"like-of": "https://rowanmanning.com/weeknotes/59/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
