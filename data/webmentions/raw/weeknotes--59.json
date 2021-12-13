@@ -1,0 +1,38 @@
+{
+	"6edb1fc3003f0747434f3de609ff6884": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Nicky Wrightson",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8d38801ff4ee5f915ca7fc84fda9f4f5af3796943d6a52cb465d45508fd28bd3.jpg",
+			"url": "https://twitter.com/NickyWrightson"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1470356471137325056#favorited-by-4177393036",
+		"published": null,
+		"wm-received": "2021-12-13T13:19:59Z",
+		"wm-id": 1315904,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1470356471137325056/4177393036",
+		"wm-target": "https://rowanmanning.com/weeknotes/59/",
+		"like-of": "https://rowanmanning.com/weeknotes/59/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"60ea264f976ac152fb3fe6db767e9ebf": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Cait O'Riordan",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/67afe95fbe55c4f5ae23456fb986ca10dca41f9e213ced4abd7b39b8bc60d168.jpg",
+			"url": "https://twitter.com/caitoriordan"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1470356471137325056#favorited-by-15579595",
+		"published": null,
+		"wm-received": "2021-12-13T13:19:59Z",
+		"wm-id": 1315905,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1470356471137325056/15579595",
+		"wm-target": "https://rowanmanning.com/weeknotes/59/",
+		"like-of": "https://rowanmanning.com/weeknotes/59/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
