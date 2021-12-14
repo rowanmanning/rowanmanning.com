@@ -88,5 +88,63 @@
 		"like-of": "https://rowanmanning.com/weeknotes/59/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"02c1220459b86c7b78d3790b914385a7": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1470356471137325056#favorited-by-127856293",
+		"published": null,
+		"wm-received": "2021-12-14T07:30:22Z",
+		"wm-id": 1316234,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1470356471137325056/127856293",
+		"wm-target": "https://rowanmanning.com/weeknotes/59/",
+		"like-of": "https://rowanmanning.com/weeknotes/59/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"483ddb8765345f406fe759ebe0e501c3": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/perryharlock/status/1470643020936753153",
+		"published": "2021-12-14T06:33:14+00:00",
+		"wm-received": "2021-12-14T07:30:22Z",
+		"wm-id": 1316233,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1470356471137325056/1470643020936753153",
+		"wm-target": "https://rowanmanning.com/weeknotes/59/",
+		"content": {
+			"html": "That looks amazing!! Glad you had such a great time!\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "That looks amazing!! Glad you had such a great time!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/59/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"f93a90d2aedce08504c1057f78a779ff": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Hung Lee",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ddd2013a8e88a58a13c1621b8e272b819a92e407bad5b53c6723072e95d685fb.jpg",
+			"url": "https://twitter.com/HungLee"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1470356471137325056#favorited-by-39993480",
+		"published": null,
+		"wm-received": "2021-12-14T07:30:23Z",
+		"wm-id": 1316235,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1470356471137325056/39993480",
+		"wm-target": "https://rowanmanning.com/weeknotes/59/",
+		"like-of": "https://rowanmanning.com/weeknotes/59/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
