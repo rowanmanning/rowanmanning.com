@@ -182,5 +182,27 @@
 		"like-of": "https://rowanmanning.com/weeknotes/59/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"38ecb5b2f135213eedf7f7bd61dc725c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Matt Hinchliffe",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/099bf742e185a768915d52f0a6926e16b8b6bdf332d4668912834c4793dc62c3.jpg",
+			"url": "https://twitter.com/i_like_robots"
+		},
+		"url": "https://twitter.com/i_like_robots/status/1471072872651272199",
+		"published": "2021-12-15T11:01:18+00:00",
+		"wm-received": "2021-12-15T11:05:42Z",
+		"wm-id": 1317696,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1470356471137325056/1471072872651272199",
+		"wm-target": "https://rowanmanning.com/weeknotes/59/",
+		"content": {
+			"html": "This is now on my list of places I really want to go to, hummus for days sounds like a total dream.\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "This is now on my list of places I really want to go to, hummus for days sounds like a total dream."
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/59/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
