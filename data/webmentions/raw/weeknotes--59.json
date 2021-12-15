@@ -204,5 +204,41 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/59/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"02bf876d4a6b6a5e03c14eb4edfa4bba": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "ændra",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/0eaa546737774fd952443c783bcdc9094e42746baecc0b12c0e81e0772466ea5.jpg",
+			"url": "https://twitter.com/aendra"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1470356471137325056#favorited-by-16163053",
+		"published": null,
+		"wm-received": "2021-12-15T12:21:42Z",
+		"wm-id": 1317765,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1470356471137325056/16163053",
+		"wm-target": "https://rowanmanning.com/weeknotes/59/",
+		"like-of": "https://rowanmanning.com/weeknotes/59/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"25c09b2b4eb0e320b13ed71ee2d6dca5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "arjun",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg",
+			"url": "https://twitter.com/adgad"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1470356471137325056#favorited-by-24541114",
+		"published": null,
+		"wm-received": "2021-12-15T12:21:42Z",
+		"wm-id": 1317766,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1470356471137325056/24541114",
+		"wm-target": "https://rowanmanning.com/weeknotes/59/",
+		"like-of": "https://rowanmanning.com/weeknotes/59/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
