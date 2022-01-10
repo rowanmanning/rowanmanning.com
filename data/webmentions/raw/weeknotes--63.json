@@ -52,5 +52,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/63/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"7693a33e60516581f6f9d4caab50bd65": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jennifer",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/87a946285c4c07c0229d1f561dad65d6708839b3e034010081edbafc8f34a96e.jpg",
+			"url": "https://twitter.com/teachlearncode"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1480244890462269443#favorited-by-874552327251906560",
+		"published": null,
+		"wm-received": "2022-01-10T10:41:06Z",
+		"wm-id": 1329192,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1480244890462269443/874552327251906560",
+		"wm-target": "https://rowanmanning.com/weeknotes/63/",
+		"like-of": "https://rowanmanning.com/weeknotes/63/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
