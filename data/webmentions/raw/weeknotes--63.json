@@ -70,5 +70,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/63/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"47a4ebe3beae6aa96934640136cbb0df": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Nayana Shetty",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/157177723bd5e844f0139ed25eb806ce9121b4669e0bf207058204a027bde56a.png",
+			"url": "https://twitter.com/ShettyNy"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1480244890462269443#favorited-by-958645696323874816",
+		"published": null,
+		"wm-received": "2022-01-10T19:17:17Z",
+		"wm-id": 1329410,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1480244890462269443/958645696323874816",
+		"wm-target": "https://rowanmanning.com/weeknotes/63/",
+		"like-of": "https://rowanmanning.com/weeknotes/63/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
