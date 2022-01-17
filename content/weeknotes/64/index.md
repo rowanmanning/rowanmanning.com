@@ -30,6 +30,8 @@ resources:
 
   * I'm seeing mum and my sister this week as well, I'm glad we've finally arranged for them to come and visit my flat and I haven't seen them this side of Christmas yet due to various isolations and COVID scares.
 
+  * I fixed my lack of sleep with drugs! Thanks for the heads up, [Alex](https://alexwilson.tech/), Nytol is magic and I've been using it a bit short-term while my brain won't stop talking at me.
+
   * While we were not doing anything, we painted one of the walls in the living room. Just the one because we couldn't be bothered to move any furniture and it also became apparent that I didn't order enough paint. It's so hard to capture the colour properly in a photo, this is _kind_ of how it looks now (needs some touching up):
 
     {{< image "wall.jpg" >}}
