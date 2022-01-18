@@ -1,0 +1,20 @@
+{
+	"e701c6b0cee7e1ac26ffc27fb4268fca": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1483371083445145601#favorited-by-55784559",
+		"published": null,
+		"wm-received": "2022-01-18T10:23:56Z",
+		"wm-id": 1334263,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1483371083445145601/55784559",
+		"wm-target": "https://rowanmanning.com/weeknotes/64/",
+		"like-of": "https://rowanmanning.com/weeknotes/64/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
