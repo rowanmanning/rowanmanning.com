@@ -16,5 +16,45 @@
 		"like-of": "https://rowanmanning.com/weeknotes/64/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"1fe2d25beaa709b2d7aa24f0571b58bf": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1483371083445145601#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2022-01-18T11:16:18Z",
+		"wm-id": 1334279,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1483371083445145601/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/64/",
+		"like-of": "https://rowanmanning.com/weeknotes/64/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"af38db4a0c5b927e35fc0a08d9d87822": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/lucas42/status/1483391278905798660",
+		"published": "2022-01-18T10:50:15+00:00",
+		"wm-received": "2022-01-18T11:16:45Z",
+		"wm-id": 1334280,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1483371083445145601/1483391278905798660",
+		"wm-target": "https://rowanmanning.com/weeknotes/64/",
+		"content": {
+			"html": "No mention of the 2.99 cocktails?!  Or does that go in next week's one?  😉\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "No mention of the 2.99 cocktails?!  Or does that go in next week's one?  😉"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/64/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
