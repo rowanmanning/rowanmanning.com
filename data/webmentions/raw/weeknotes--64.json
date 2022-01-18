@@ -56,5 +56,27 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/64/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"19ec0f1bdafb1793331b26a4ca127084": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jennifer",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/87a946285c4c07c0229d1f561dad65d6708839b3e034010081edbafc8f34a96e.jpg",
+			"url": "https://twitter.com/teachlearncode"
+		},
+		"url": "https://twitter.com/teachlearncode/status/1483494891657531394",
+		"published": "2022-01-18T17:41:58+00:00",
+		"wm-received": "2022-01-18T18:09:01Z",
+		"wm-id": 1334461,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1483371083445145601/1483494891657531394",
+		"wm-target": "https://rowanmanning.com/weeknotes/64/",
+		"content": {
+			"html": "Really pleased with the last paragraph 💛\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Really pleased with the last paragraph 💛"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/64/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
