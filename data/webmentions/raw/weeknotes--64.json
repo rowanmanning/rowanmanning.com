@@ -96,5 +96,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/64/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"e5f9255c67d6d089d1fb3e6656b4897c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Cait O'Riordan",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/67afe95fbe55c4f5ae23456fb986ca10dca41f9e213ced4abd7b39b8bc60d168.jpg",
+			"url": "https://twitter.com/caitoriordan"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1483371083445145601#favorited-by-15579595",
+		"published": null,
+		"wm-received": "2022-01-20T11:51:30Z",
+		"wm-id": 1335321,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1483371083445145601/15579595",
+		"wm-target": "https://rowanmanning.com/weeknotes/64/",
+		"like-of": "https://rowanmanning.com/weeknotes/64/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
