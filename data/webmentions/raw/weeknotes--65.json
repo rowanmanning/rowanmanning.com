@@ -1,0 +1,42 @@
+{
+	"939b956d0eeed24fea364c79da304efd": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Andrew Walker",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/77ceb4604e68ec4eec61cbb303e8a19dfdd3cdf97b79024b41e2a0b81aa984de.gif",
+			"url": "https://twitter.com/moddular"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1485541633965760512#favorited-by-16433622",
+		"published": null,
+		"wm-received": "2022-01-24T11:26:22Z",
+		"wm-id": 1336939,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1485541633965760512/16433622",
+		"wm-target": "https://rowanmanning.com/weeknotes/65/",
+		"like-of": "https://rowanmanning.com/weeknotes/65/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"4cf483d3a4feeddd0ccf4e234bb555eb": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/AlexWilsonV1/status/1485559506784423937",
+		"published": "2022-01-24T10:26:01+00:00",
+		"wm-received": "2022-01-24T11:26:22Z",
+		"wm-id": 1336940,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1485541633965760512/1485559506784423937",
+		"wm-target": "https://rowanmanning.com/weeknotes/65/",
+		"content": {
+			"html": "Banker lamps aren’t exactly hyggelig but goddamn do they look cool.\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Banker lamps aren’t exactly hyggelig but goddamn do they look cool."
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/65/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	}
+}
