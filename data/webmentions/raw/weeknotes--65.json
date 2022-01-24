@@ -114,5 +114,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/65/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"189c5e1bff7cbbaaed71974dcb98b01a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Simon Legg",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/55ad869b5b37881f8975abb68faa6daee0715b57a16337e1c5391953fe9c08a1.jpg",
+			"url": "https://twitter.com/simonleggsays"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1485541633965760512#favorited-by-373065378",
+		"published": null,
+		"wm-received": "2022-01-24T17:06:35Z",
+		"wm-id": 1337112,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1485541633965760512/373065378",
+		"wm-target": "https://rowanmanning.com/weeknotes/65/",
+		"like-of": "https://rowanmanning.com/weeknotes/65/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
