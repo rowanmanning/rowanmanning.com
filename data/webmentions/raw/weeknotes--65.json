@@ -132,5 +132,27 @@
 		"like-of": "https://rowanmanning.com/weeknotes/65/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"c9c1ff6aaacc6373765f80323f2f66ac": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Mags Allen",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/08a436ad19e650672b1e3745f182ed861b4481c6eadc4f2c8b4f71b2e4559b04.jpg",
+			"url": "https://twitter.com/mgr_allen"
+		},
+		"url": "https://twitter.com/mgr_allen/status/1486018389550276611",
+		"published": "2022-01-25T16:49:27+00:00",
+		"wm-received": "2022-01-25T17:23:14Z",
+		"wm-id": 1337796,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1485541633965760512/1486018389550276611",
+		"wm-target": "https://rowanmanning.com/weeknotes/65/",
+		"content": {
+			"html": "Loved this one. More lamp news please!!\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Loved this one. More lamp news please!!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/65/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
