@@ -1,0 +1,82 @@
+{
+	"bd691b4fd858ebef8e53186c97333073": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg",
+			"url": "https://twitter.com/apaleslimghost"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1487723194530385925#favorited-by-20815869",
+		"published": null,
+		"wm-received": "2022-01-30T10:54:50Z",
+		"wm-id": 1342261,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1487723194530385925/20815869",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"like-of": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"fdd249c90b90df76065e647c9f60b45f": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1487723194530385925#favorited-by-55784559",
+		"published": null,
+		"wm-received": "2022-01-30T10:54:50Z",
+		"wm-id": 1342260,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1487723194530385925/55784559",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"like-of": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"9c31bede89bd11a85a65c729fbe7caed": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan Manning",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/fe9141fc44359aa8af294baf11d39e9fd0026e802ff4b43904fe0a3dac3d10f5.jpg",
+			"url": "https://twitter.com/rowanmanning"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1487734505091837952",
+		"published": "2022-01-30T10:28:41+00:00",
+		"wm-received": "2022-01-30T10:55:19Z",
+		"wm-id": 1342263,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1487723194530385925/1487734505091837952",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"content": {
+			"html": "Ha 😄 not you this time\n<a class=\"u-mention\" href=\"https://twitter.com/AlexWilsonV1\"></a>",
+			"text": "Ha 😄 not you this time"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"063ffffc896b9013ebcd059f649ce72c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/AlexWilsonV1/status/1487725064414023682",
+		"published": "2022-01-30T09:51:10+00:00",
+		"wm-received": "2022-01-30T10:55:19Z",
+		"wm-id": 1342262,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1487723194530385925/1487725064414023682",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"content": {
+			"html": "Which Alex? 😇\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Which Alex? 😇"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	}
+}
