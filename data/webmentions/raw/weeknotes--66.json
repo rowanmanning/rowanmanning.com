@@ -186,5 +186,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/66/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"74c221b307f936c51be4695709863b37": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Amir",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/08c5a88f759a139905747a8c8c136919dd4f331ae8a69219da1dbeb8f7167609.jpg",
+			"url": "https://twitter.com/AmirTG1"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1487723194530385925#favorited-by-1321129416",
+		"published": null,
+		"wm-received": "2022-01-30T22:57:52Z",
+		"wm-id": 1342444,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1487723194530385925/1321129416",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"like-of": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
