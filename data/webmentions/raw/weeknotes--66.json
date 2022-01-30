@@ -150,5 +150,41 @@
 		"like-of": "https://rowanmanning.com/weeknotes/66/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"473b5eff2bf22d6ad86ffbff92dd8bda": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Nayana Shetty",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/157177723bd5e844f0139ed25eb806ce9121b4669e0bf207058204a027bde56a.png",
+			"url": "https://twitter.com/ShettyNy"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1487723194530385925#favorited-by-958645696323874816",
+		"published": null,
+		"wm-received": "2022-01-30T18:51:47Z",
+		"wm-id": 1342393,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1487723194530385925/958645696323874816",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"like-of": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"53b616f277a76b6bc37eb0a3f521e445": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1487723194530385925#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2022-01-30T18:51:48Z",
+		"wm-id": 1342394,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1487723194530385925/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"like-of": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
