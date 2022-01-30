@@ -96,5 +96,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/66/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"6dc896d13406ef600255c6704633c27b": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Ania",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/e0a26b4bf9f94a0eeba568534804de9aa8559c05030996ad9e22f26ca2637234.jpg",
+			"url": "https://twitter.com/AniaMakes"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1487723194530385925#favorited-by-897912409784025090",
+		"published": null,
+		"wm-received": "2022-01-30T13:44:14Z",
+		"wm-id": 1342320,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1487723194530385925/897912409784025090",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"like-of": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
