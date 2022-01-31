@@ -310,5 +310,27 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/66/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"b244564f593bb5479c022d2488139a10": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Matt Hinchliffe",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/099bf742e185a768915d52f0a6926e16b8b6bdf332d4668912834c4793dc62c3.jpg",
+			"url": "https://twitter.com/i_like_robots"
+		},
+		"url": "https://twitter.com/i_like_robots/status/1488244115821240325",
+		"published": "2022-01-31T20:13:42+00:00",
+		"wm-received": "2022-01-31T20:15:34Z",
+		"wm-id": 1343154,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1487723194530385925/1488244115821240325",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"content": {
+			"html": "Well, shit.\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/AlexWilsonV1\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/lucas42\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/simonleggsays\"></a>",
+			"text": "Well, shit."
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
