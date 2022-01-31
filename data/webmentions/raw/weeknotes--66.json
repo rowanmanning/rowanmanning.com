@@ -332,5 +332,136 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/66/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"1058e786a7532120ec64b6a7c7700281": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/AlexWilsonV1/status/1488244494424322049",
+		"published": "2022-01-31T20:15:12+00:00",
+		"wm-received": "2022-01-31T21:27:54Z",
+		"wm-id": 1343180,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1487723194530385925/1488244494424322049",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"content": {
+			"html": "That’s either a major complement or an acknowledgment that we have a severe shortage of Matts &amp; Simons.\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/i_like_robots\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/lucas42\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/simonleggsays\"></a>",
+			"text": "That’s either a major complement or an acknowledgment that we have a severe shortage of Matts & Simons."
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"5ffc954bf0a20d70ab1f25f73bef8625": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan Manning",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/fe9141fc44359aa8af294baf11d39e9fd0026e802ff4b43904fe0a3dac3d10f5.jpg",
+			"url": "https://twitter.com/rowanmanning"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1488246889963307009",
+		"published": "2022-01-31T20:24:43+00:00",
+		"wm-received": "2022-01-31T21:27:58Z",
+		"wm-id": 1343182,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1487723194530385925/1488246889963307009",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"photo": [
+			"https://pbs.twimg.com/media/FKdQpcrXsAIDM8P.png"
+		],
+		"content": {
+			"html": "Very much enjoying that this conversation is just being immortalised on my website in the background. The internet is magic ✨\n<a class=\"u-mention\" href=\"https://twitter.com/AlexWilsonV1\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/i_like_robots\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/lucas42\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/simonleggsays\"></a>",
+			"text": "Very much enjoying that this conversation is just being immortalised on my website in the background. The internet is magic ✨"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"1696a108020229e9bf483110d2c29e00": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Simon Legg",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/55ad869b5b37881f8975abb68faa6daee0715b57a16337e1c5391953fe9c08a1.jpg",
+			"url": "https://twitter.com/simonleggsays"
+		},
+		"url": "https://twitter.com/simonleggsays/status/1488246238818488329",
+		"published": "2022-01-31T20:22:08+00:00",
+		"wm-received": "2022-01-31T21:27:58Z",
+		"wm-id": 1343181,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1487723194530385925/1488246238818488329",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"content": {
+			"html": "I fear it’s the latter\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/AlexWilsonV1\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/i_like_robots\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/lucas42\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "I fear it’s the latter"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"760621caa9ce0d63b610bd2888686fd3": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Simon Legg",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/55ad869b5b37881f8975abb68faa6daee0715b57a16337e1c5391953fe9c08a1.jpg",
+			"url": "https://twitter.com/simonleggsays"
+		},
+		"url": "https://twitter.com/simonleggsays/status/1488252933523361795",
+		"published": "2022-01-31T20:48:44+00:00",
+		"wm-received": "2022-01-31T21:27:59Z",
+		"wm-id": 1343184,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1487723194530385925/1488252933523361795",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"content": {
+			"html": "I’m happy for you Arj, I wish I felt that when subjected to other Simons\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/AlexWilsonV1\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/adgad\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/i_like_robots\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/lucas42\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "I’m happy for you Arj, I wish I felt that when subjected to other Simons"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"542fb6ed26bde255e265fdb867ff8db5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "arjun",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg",
+			"url": "https://twitter.com/adgad"
+		},
+		"url": "https://twitter.com/adgad/status/1488252389626949637",
+		"published": "2022-01-31T20:46:34+00:00",
+		"wm-received": "2022-01-31T21:27:59Z",
+		"wm-id": 1343183,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1487723194530385925/1488252389626949637",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"content": {
+			"html": "I'd like to chime in to say I've been in meetings with another Arjun recently and I'm fucking loving it.\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/AlexWilsonV1\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/i_like_robots\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/lucas42\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/simonleggsays\"></a>",
+			"text": "I'd like to chime in to say I've been in meetings with another Arjun recently and I'm fucking loving it."
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"92b1d3fbafc3815c2565ac9d6abee5a4": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Cait O'Riordan",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/67afe95fbe55c4f5ae23456fb986ca10dca41f9e213ced4abd7b39b8bc60d168.jpg",
+			"url": "https://twitter.com/caitoriordan"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1487723194530385925#favorited-by-15579595",
+		"published": null,
+		"wm-received": "2022-01-31T21:28:00Z",
+		"wm-id": 1343185,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1487723194530385925/15579595",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"like-of": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
