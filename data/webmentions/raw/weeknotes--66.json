@@ -244,5 +244,27 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/66/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"41a1c7804e672aa01213bd9a808d26f1": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/AlexWilsonV1/status/1488193105232904198",
+		"published": "2022-01-31T16:51:00+00:00",
+		"wm-received": "2022-01-31T16:56:14Z",
+		"wm-id": 1343048,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1487723194530385925/1488193105232904198",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"content": {
+			"html": "Yeah but Simon there’s like 40 Alexes at the FT now, and 10 in Customer Products\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/simonleggsays\"></a>",
+			"text": "Yeah but Simon there’s like 40 Alexes at the FT now, and 10 in Customer Products"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
