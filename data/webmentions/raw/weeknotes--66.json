@@ -222,5 +222,27 @@
 		"like-of": "https://rowanmanning.com/weeknotes/66/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"3ae106cc1a271b30c39e2d25d119fd0d": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Simon Legg",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/55ad869b5b37881f8975abb68faa6daee0715b57a16337e1c5391953fe9c08a1.jpg",
+			"url": "https://twitter.com/simonleggsays"
+		},
+		"url": "https://twitter.com/simonleggsays/status/1488166169953591296",
+		"published": "2022-01-31T15:03:58+00:00",
+		"wm-received": "2022-01-31T15:07:14Z",
+		"wm-id": 1342979,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1487723194530385925/1488166169953591296",
+		"wm-target": "https://rowanmanning.com/weeknotes/66/",
+		"content": {
+			"html": "Yeah which Alex Rowan? Why so coy, hmm? Which Alex Rowan? Rowan? Which Alex?!\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/AlexWilsonV1\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Yeah which Alex Rowan? Why so coy, hmm? Which Alex Rowan? Rowan? Which Alex?!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/66/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
