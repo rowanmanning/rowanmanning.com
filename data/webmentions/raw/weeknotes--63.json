@@ -88,5 +88,45 @@
 		"like-of": "https://rowanmanning.com/weeknotes/63/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"a120dff6393159d07325b8d1a627e40c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Composability",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8c58a02ebd9d00b598f46fef78f28f8545f22749f83800950585e8b11d6f9bd9.png",
+			"url": "https://twitter.com/Composability"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1480244890462269443#favorited-by-1143236369541734400",
+		"published": null,
+		"wm-received": "2022-02-08T13:41:23Z",
+		"wm-id": 1348337,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1480244890462269443/1143236369541734400",
+		"wm-target": "https://rowanmanning.com/weeknotes/63/",
+		"like-of": "https://rowanmanning.com/weeknotes/63/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"627aca53d594599453e24592320e5020": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Composability",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8c58a02ebd9d00b598f46fef78f28f8545f22749f83800950585e8b11d6f9bd9.png",
+			"url": "https://twitter.com/Composability"
+		},
+		"url": "https://twitter.com/Composability/status/1490993016244674561",
+		"published": "2022-02-08T10:16:51+00:00",
+		"wm-received": "2022-02-08T13:41:23Z",
+		"wm-id": 1348338,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1480244890462269443/1490993016244674561",
+		"wm-target": "https://rowanmanning.com/weeknotes/63/",
+		"content": {
+			"html": "Hi @rowanmanning, I play <a href=\"https://twitter.com/wordle\">@Wordle</a> defensively, not an English native. Discarding difficult words to guess it's a must for me.\nFirst 3 rows I use all the vowels. \nBy the 4th I know about -y ending, repeated vowel, or 1 vowel word.\nAlso, I use s,r,l &amp; n,g &amp; double d.\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Hi @rowanmanning, I play @Wordle defensively, not an English native. Discarding difficult words to guess it's a must for me.\nFirst 3 rows I use all the vowels. \nBy the 4th I know about -y ending, repeated vowel, or 1 vowel word.\nAlso, I use s,r,l & n,g & double d."
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/63/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
