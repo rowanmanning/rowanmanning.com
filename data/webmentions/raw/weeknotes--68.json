@@ -1,0 +1,38 @@
+{
+	"dfcda3f41b66c95ce709fa24a888a0b0": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "",
+			"photo": "",
+			"url": ""
+		},
+		"url": "https://alexwilson.tech/content/593c46e0-c017-422f-b3e4-6538d7d6ebe9/",
+		"published": null,
+		"wm-received": "2022-02-13T23:59:59Z",
+		"wm-id": 1351413,
+		"wm-source": "https://alexwilson.tech/content/593c46e0-c017-422f-b3e4-6538d7d6ebe9/",
+		"wm-target": "https://rowanmanning.com/weeknotes/68/",
+		"mention-of": "https://rowanmanning.com/weeknotes/68/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"5ebcef7dbe069d645b49fd54503192ed": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "",
+			"photo": "",
+			"url": ""
+		},
+		"url": "https://alexwilson.tech/content/593c46e0-c017-422f-b3e4-6538d7d6ebe9",
+		"published": null,
+		"wm-received": "2022-02-14T00:00:36Z",
+		"wm-id": 1351418,
+		"wm-source": "https://alexwilson.tech/content/593c46e0-c017-422f-b3e4-6538d7d6ebe9",
+		"wm-target": "https://rowanmanning.com/weeknotes/68/",
+		"mention-of": "https://rowanmanning.com/weeknotes/68/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	}
+}
