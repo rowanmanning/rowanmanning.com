@@ -74,5 +74,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/57/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"35e0ce0abbe93e0804254044bcafafed": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "",
+			"photo": "",
+			"url": ""
+		},
+		"url": "https://leemoody.co.uk/blog/weeknotes/62/",
+		"published": null,
+		"wm-received": "2022-02-14T16:19:22Z",
+		"wm-id": 1351768,
+		"wm-source": "https://leemoody.co.uk/blog/weeknotes/62/",
+		"wm-target": "https://rowanmanning.com/weeknotes/57/",
+		"mention-of": "https://rowanmanning.com/weeknotes/57/",
+		"wm-property": "mention-of",
+		"wm-private": false
 	}
 }
