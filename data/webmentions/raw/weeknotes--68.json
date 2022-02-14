@@ -70,5 +70,45 @@
 		"like-of": "https://rowanmanning.com/weeknotes/68/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"f1428cade13008ab766c0d5e85319aed": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jennifer",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/87a946285c4c07c0229d1f561dad65d6708839b3e034010081edbafc8f34a96e.jpg",
+			"url": "https://twitter.com/teachlearncode"
+		},
+		"url": "https://twitter.com/teachlearncode/status/1493256299034951685",
+		"published": "2022-02-14T16:10:19+00:00",
+		"wm-received": "2022-02-14T17:22:11Z",
+		"wm-id": 1351778,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1493151779218870272/1493256299034951685",
+		"wm-target": "https://rowanmanning.com/weeknotes/68/",
+		"content": {
+			"html": "Yessss my golfing skills are famous!!!! ⛳️\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Yessss my golfing skills are famous!!!! ⛳️"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/68/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"4585eb40e277028316be12cc5e83a526": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg",
+			"url": "https://twitter.com/apaleslimghost"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1493151779218870272#favorited-by-20815869",
+		"published": null,
+		"wm-received": "2022-02-14T17:22:11Z",
+		"wm-id": 1351779,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1493151779218870272/20815869",
+		"wm-target": "https://rowanmanning.com/weeknotes/68/",
+		"like-of": "https://rowanmanning.com/weeknotes/68/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
