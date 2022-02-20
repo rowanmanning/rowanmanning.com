@@ -1,0 +1,78 @@
+{
+	"f2a1541543e5a4121c4cef6f946032d2": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/lucas42/status/1495350989305663493",
+		"published": "2022-02-20T10:53:52+00:00",
+		"wm-received": "2022-02-20T12:36:29Z",
+		"wm-id": 1353877,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1495336709181124611/1495350989305663493",
+		"wm-target": "https://rowanmanning.com/weeknotes/69/",
+		"content": {
+			"html": "Nice\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Nice"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/69/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"561d40c24808e188487f839d9df4319f": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg",
+			"url": "https://twitter.com/apaleslimghost"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1495336709181124611#favorited-by-20815869",
+		"published": null,
+		"wm-received": "2022-02-20T12:36:30Z",
+		"wm-id": 1353879,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1495336709181124611/20815869",
+		"wm-target": "https://rowanmanning.com/weeknotes/69/",
+		"like-of": "https://rowanmanning.com/weeknotes/69/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"41d5c50e18d672f6b9c2bacc7309e7f4": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1495336709181124611#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2022-02-20T12:36:30Z",
+		"wm-id": 1353878,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1495336709181124611/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/69/",
+		"like-of": "https://rowanmanning.com/weeknotes/69/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"8b98c36a35851617d3f29610aebd2bc0": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Andrew Walker",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/77ceb4604e68ec4eec61cbb303e8a19dfdd3cdf97b79024b41e2a0b81aa984de.gif",
+			"url": "https://twitter.com/moddular"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1495336709181124611#favorited-by-16433622",
+		"published": null,
+		"wm-received": "2022-02-20T12:36:31Z",
+		"wm-id": 1353880,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1495336709181124611/16433622",
+		"wm-target": "https://rowanmanning.com/weeknotes/69/",
+		"like-of": "https://rowanmanning.com/weeknotes/69/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
