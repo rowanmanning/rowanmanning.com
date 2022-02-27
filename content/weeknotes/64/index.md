@@ -4,7 +4,7 @@
 title: "Week 64: Adjourned"
 date: 2022-01-17T21:30:00Z
 description: "A week of infuriating cancellations, great vegetarian food, painting walls, winter coats, nighttime walks, and a new direction at work."
-tags: ["Family", "Food", "House", "Walking", "Work", "Vegetarianism", "DIY"]
+tags: ["Family", "Food", "House", "Walking", "Sleep", "Work", "Vegetarianism", "DIY"]
 
 # Weeknote display
 # ----------------

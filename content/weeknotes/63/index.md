@@ -4,7 +4,7 @@
 title: "Week 63: Wordle"
 date: 2022-01-09T18:18:00Z
 description: "A week of Wordle, ideal starting words, kitchen upgrades, bedroom upgrades, worrying about the trial, a slightly different role, and a lot of Minecraft."
-tags: ["Games", "House", "Work", "Health", "Wordle", "Minecraft"]
+tags: ["Games", "House", "Work", "Health", "Sleep", "Wordle", "Minecraft"]
 
 # Weeknote display
 # ----------------

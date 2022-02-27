@@ -4,7 +4,7 @@
 title: "Week 53: Settling"
 date: 2021-10-31T11:10:00Z
 description: "A week of settling in nicely, some satisfying DIY, sampling a lot of champagne, even more super-fast internet, and a farewell at work."
-tags: ["House", "DIY", "Social", "Champagne", "Mistakes", "Work"]
+tags: ["House", "DIY", "Social", "Sleep", "Champagne", "Mistakes", "Work"]
 
 # Weeknote display
 # ----------------
