@@ -1,0 +1,60 @@
+{
+	"f7319a9a61c1bd57aed786669f4d3b7c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1497945255110340617#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2022-02-27T19:17:19Z",
+		"wm-id": 1356563,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1497945255110340617/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/70/",
+		"like-of": "https://rowanmanning.com/weeknotes/70/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"3fc65e34cc9ca7087bb6d7ef4899c3a6": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1497945255110340617#favorited-by-55784559",
+		"published": null,
+		"wm-received": "2022-02-27T19:17:20Z",
+		"wm-id": 1356565,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1497945255110340617/55784559",
+		"wm-target": "https://rowanmanning.com/weeknotes/70/",
+		"like-of": "https://rowanmanning.com/weeknotes/70/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"46a0b85444f8cc75f0903263bee0cd2e": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/AlexWilsonV1/status/1497950231882829832",
+		"published": "2022-02-27T15:02:20+00:00",
+		"wm-received": "2022-02-27T19:17:20Z",
+		"wm-id": 1356564,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1497945255110340617/1497950231882829832",
+		"wm-target": "https://rowanmanning.com/weeknotes/70/",
+		"content": {
+			"html": "Thanks for the words Rowan - and the gentle reminder to fix webmentions. \nGitHub Actions &amp; Karaoke really are the best medicine: A good reminder to always channel our inner Kelsier.\n(that CLI is legitimately so dope - major OBT vibes!)\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Thanks for the words Rowan - and the gentle reminder to fix webmentions. \nGitHub Actions & Karaoke really are the best medicine: A good reminder to always channel our inner Kelsier.\n(that CLI is legitimately so dope - major OBT vibes!)"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/70/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	}
+}
