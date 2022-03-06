@@ -1,20 +1,20 @@
 
 {{- /* Get the song track id param */ -}}
-{{- $trackId := cond .IsNamedParams (.Get "id") (.Get 0) -}}
+{{- $playlistId := cond .IsNamedParams (.Get "id") (.Get 0) -}}
 
 {{- /* Get the song caption param */ -}}
 {{- $caption := cond .IsNamedParams (.Get "caption") (.Get 1) | default "Listen on Spotify" -}}
 
 {{- /* Error if we don't have correct params */ -}}
-{{- if not $trackId -}}
+{{- if not $playlistId -}}
 	{{- errorf "ID parameter is required for song shortcode: %s" .Position -}}
 {{- end -}}
 
 <figure class="embed">
 	<iframe
-		class="embed__spotify-track"
-		src="https://open.spotify.com/embed/track/{{ $trackId }}"
-		frameborder="0"
+		class="embed__spotify-playlist"
+		src="https://open.spotify.com/embed/playlist/2QIibS6ZNXYlyNPBWMnHV4"
+		frameBorder="0"
 		allowfullscreen=""
 		allowtransparency="true"
 		allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
