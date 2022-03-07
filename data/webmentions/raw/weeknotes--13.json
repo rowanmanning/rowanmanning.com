@@ -178,5 +178,35 @@
 		"like-of": "https://rowanmanning.com/weeknotes/13/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"60afc0c0a5d823e17d57f83f0b7533e2": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan Manning",
+			"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png",
+			"url": "https://rowanmanning.com/"
+		},
+		"url": "https://rowanmanning.com/weeknotes/71/",
+		"published": "2022-03-06T23:55:00",
+		"wm-received": "2022-03-07T00:08:39Z",
+		"wm-id": 1359475,
+		"wm-source": "https://rowanmanning.com/weeknotes/71/",
+		"wm-target": "https://rowanmanning.com/weeknotes/13/",
+		"name": "Week 71: Butt Text",
+		"summary": {
+			"content-type": "text/plain",
+			"value": "A week of office bribery, AI-based horoscopes, lots of good TV, late night karaoke, a visit to grandma, and a strong earworm."
+		},
+		"content": {
+			"html": "<ul><li>\n<p>Failing at not doom-scrolling and watching horrible videos.</p>\n</li>\n<li>\n<p>In a blatant attempt to get us back to the office, my employer made our canteen free for March and April.</p>\n</li>\n<li>\n<p>In unrelated news, I’ve been in the office 2.5 days this week.</p>\n</li>\n<li>\n<p>Charlotte found an AI-based horoscope app (<a href=\"https://www.costarastrology.com/\">Co – Star</a>) which we’ve both installed. It’s utterly ridiculous, but also I kind of love the daily Do/Don’t list. Today:</p>\n<ul><li>\n<p><strong>Do:</strong> Learning curve, WikiHow, and Books on tape.</p>\n</li>\n<li>\n<p><strong>Don’t:</strong> Espionage, Message in a bottle, Butt text.</p>\n</li>\n</ul><p>Did anyone else have to read that last one twice?</p>\n</li>\n<li>\n\n<a href=\"https://rowanmanning.com/weeknotes/71/sadness.jpg\">\n<img src=\"https://rowanmanning.com/weeknotes/71/sadness.jpg\" alt=\"Aquarius Mercury 464 asks: 'how do i make this sadness go away'\" width=\"903\" height=\"950\" /></a>\n\n<p>There’s also a feature where you can chat to people with the same signs as you which is just an infinite pool of quite depressing content.</p>\n</li>\n<li>\n<p>We went to see Jennifer and Chris for some gentle wine drinking. It was very nice, Riley decided to snuggle up on my chest which I needed. Riley is a cat btw.</p>\n</li>\n<li>\n<p>We finished watching <a href=\"https://en.wikipedia.org/wiki/One_of_Us_Is_Lying_(TV_series)\">One of Us Is Lying</a>, I think it slightly tailed off for me towards the end and maybe we should have just binged it all in one.</p>\n</li>\n<li>\n<p>We a couple of episodes away from finishing <a href=\"https://www.bbc.co.uk/programmes/p0b7pwbp\">Cheaters</a> which I’m enjoying quite a lot. Big fan of the 10-minute episodes. I think it handles some tough relationship topics pretty well and it’s also funny.</p>\n</li>\n<li>\n<p>I’m down to 93 Dependabot PRs <a href=\"https://rowanmanning.com/weeknotes/70/\">from 500</a> on my various open-source projects. I think the last leg is gonna be tough, I’m hitting a few nasty major version bumps.</p>\n</li>\n<li>\n<p>On Saturday we went to Charlotte’s brother’s girlfriend’s 30th. It’s our first proper time going to a thing where we had to chat to proper strangers, I think I did pretty well after some initial awkward small talk. We went to the karaoke after and got home at 5 am 😬</p>\n</li>\n<li>\n<p>I visited my grandma for the first time in ages and had a lovely time catching up. She’s doing quite well now that it’s been a full year <a href=\"https://rowanmanning.com/weeknotes/13/\">since my grandad died</a>, and she’s planning a trip to Yorkshire with my mum – something she just couldn’t do with my grandad’s mobility issues and care needs. I introduced her to Wordle (she loves word games and somehow hadn’t heard of it).</p>\n</li>\n<li>\n<p>I got <a href=\"https://en.wikipedia.org/wiki/The_Letter_(Box_Tops_song)\">The Letter</a> stuck in my head somehow and made a playlist based around it which I’ve been listening to non-stop.</p>\n\nGive me a Ticket - a playlist on Spotify<p>(Yeah I know I haven’t had the mental energy to find an alternative to Spotify yet after all the Joe Rogan and Not Paying Artists stuff. I will get to it soon)</p>\n</li>\n</ul>",
+			"text": "Failing at not doom-scrolling and watching horrible videos.\n\n\nIn a blatant attempt to get us back to the office, my employer made our canteen free for March and April.\n\n\nIn unrelated news, I’ve been in the office 2.5 days this week.\n\n\nCharlotte found an AI-based horoscope app (Co – Star) which we’ve both installed. It’s utterly ridiculous, but also I kind of love the daily Do/Don’t list. Today:\n\nDo: Learning curve, WikiHow, and Books on tape.\n\n\nDon’t: Espionage, Message in a bottle, Butt text.\n\nDid anyone else have to read that last one twice?\n\n\n\n\n\n\nThere’s also a feature where you can chat to people with the same signs as you which is just an infinite pool of quite depressing content.\n\n\nWe went to see Jennifer and Chris for some gentle wine drinking. It was very nice, Riley decided to snuggle up on my chest which I needed. Riley is a cat btw.\n\n\nWe finished watching One of Us Is Lying, I think it slightly tailed off for me towards the end and maybe we should have just binged it all in one.\n\n\nWe a couple of episodes away from finishing Cheaters which I’m enjoying quite a lot. Big fan of the 10-minute episodes. I think it handles some tough relationship topics pretty well and it’s also funny.\n\n\nI’m down to 93 Dependabot PRs from 500 on my various open-source projects. I think the last leg is gonna be tough, I’m hitting a few nasty major version bumps.\n\n\nOn Saturday we went to Charlotte’s brother’s girlfriend’s 30th. It’s our first proper time going to a thing where we had to chat to proper strangers, I think I did pretty well after some initial awkward small talk. We went to the karaoke after and got home at 5 am 😬\n\n\nI visited my grandma for the first time in ages and had a lovely time catching up. She’s doing quite well now that it’s been a full year since my grandad died, and she’s planning a trip to Yorkshire with my mum – something she just couldn’t do with my grandad’s mobility issues and care needs. I introduced her to Wordle (she loves word games and somehow hadn’t heard of it).\n\n\nI got The Letter stuck in my head somehow and made a playlist based around it which I’ve been listening to non-stop.\n\nGive me a Ticket - a playlist on Spotify(Yeah I know I haven’t had the mental energy to find an alternative to Spotify yet after all the Joe Rogan and Not Paying Artists stuff. I will get to it soon)"
+		},
+		"mention-of": "https://rowanmanning.com/weeknotes/13/",
+		"wm-property": "mention-of",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://rowanmanning.com/weeknotes/71/"
+		}
 	}
 }
