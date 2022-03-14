@@ -52,5 +52,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/72/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"2fdd79eed3fec32b2f8ed2f1e05fc235": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Andrew Walker",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/77ceb4604e68ec4eec61cbb303e8a19dfdd3cdf97b79024b41e2a0b81aa984de.gif",
+			"url": "https://twitter.com/moddular"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1503142013012692993#favorited-by-16433622",
+		"published": null,
+		"wm-received": "2022-03-14T08:43:44Z",
+		"wm-id": 1362931,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1503142013012692993/16433622",
+		"wm-target": "https://rowanmanning.com/weeknotes/72/",
+		"like-of": "https://rowanmanning.com/weeknotes/72/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
