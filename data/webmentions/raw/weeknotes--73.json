@@ -1,0 +1,82 @@
+{
+	"3a33a5c832b94cd4aad09cc781ebf507": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/lucas42/status/1504811240589303862",
+		"published": "2022-03-18T13:25:32+00:00",
+		"wm-received": "2022-03-18T14:30:11Z",
+		"wm-id": 1365400,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1504794248029290497/1504811240589303862",
+		"wm-target": "https://rowanmanning.com/weeknotes/73/",
+		"content": {
+			"html": "Has your taste gone completely?  When I had covid I just started drinking boiled water, because I couldn't taste the difference between that and tea.\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Has your taste gone completely?  When I had covid I just started drinking boiled water, because I couldn't taste the difference between that and tea."
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/73/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"97e601314ff9d629d61e6a40e7c2092c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan Manning",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/fe9141fc44359aa8af294baf11d39e9fd0026e802ff4b43904fe0a3dac3d10f5.jpg",
+			"url": "https://twitter.com/rowanmanning"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1504813903737462807",
+		"published": "2022-03-18T13:36:07+00:00",
+		"wm-received": "2022-03-18T14:30:11Z",
+		"wm-id": 1365399,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1504794248029290497/1504813903737462807",
+		"wm-target": "https://rowanmanning.com/weeknotes/73/",
+		"content": {
+			"html": "No I’ve still got taste luckily, just that tea was a bit rank earlier in the week. Think I just don’t like milk?\n<a class=\"u-mention\" href=\"https://twitter.com/lucas42\"></a>",
+			"text": "No I’ve still got taste luckily, just that tea was a bit rank earlier in the week. Think I just don’t like milk?"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/73/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"f5af878b3cc824c446c0660bd54f2156": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Behnaz aka Suspicious Frog 🐸",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8d72382eb4bbfc9e9f83eb4bb436c4136f0cb233cea0d33ea7ec9c9057f0c4d5.jpg",
+			"url": "https://twitter.com/Behnnaazz"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1504794248029290497#favorited-by-963254340",
+		"published": null,
+		"wm-received": "2022-03-18T14:30:12Z",
+		"wm-id": 1365401,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1504794248029290497/963254340",
+		"wm-target": "https://rowanmanning.com/weeknotes/73/",
+		"like-of": "https://rowanmanning.com/weeknotes/73/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"34c50d0fedd4f6a93234271960ad1dc7": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1504794248029290497#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2022-03-18T14:30:13Z",
+		"wm-id": 1365402,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1504794248029290497/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/73/",
+		"like-of": "https://rowanmanning.com/weeknotes/73/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
