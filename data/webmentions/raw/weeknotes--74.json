@@ -1,0 +1,42 @@
+{
+	"107c9ae36c6f30bda38deaf0da9ee55d": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d36afa40f7c475920d5ae592a60f12605b98454531ce303dbb35247e58502e42.jpg",
+			"url": "https://twitter.com/apaleslimghost"
+		},
+		"url": "https://twitter.com/apaleslimghost/status/1508039459211821061",
+		"published": "2022-03-27T11:13:19+00:00",
+		"wm-received": "2022-03-27T11:41:14Z",
+		"wm-id": 1369928,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1508038587975147521/1508039459211821061",
+		"wm-target": "https://rowanmanning.com/weeknotes/74/",
+		"content": {
+			"html": "i did AWS training about five years ago. i remember basically none of it\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "i did AWS training about five years ago. i remember basically none of it"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/74/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"badd61d63fc4e02cdad9505f17165176": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1508038587975147521#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2022-03-27T11:41:43Z",
+		"wm-id": 1369931,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1508038587975147521/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/74/",
+		"like-of": "https://rowanmanning.com/weeknotes/74/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
