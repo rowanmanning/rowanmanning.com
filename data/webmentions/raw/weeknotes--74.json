@@ -38,5 +38,59 @@
 		"like-of": "https://rowanmanning.com/weeknotes/74/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"65213630e01099ffc5c7ae01ea60b60e": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Ania",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/e0a26b4bf9f94a0eeba568534804de9aa8559c05030996ad9e22f26ca2637234.jpg",
+			"url": "https://twitter.com/AniaMakes"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1508038587975147521#favorited-by-897912409784025090",
+		"published": null,
+		"wm-received": "2022-03-27T19:26:16Z",
+		"wm-id": 1370208,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1508038587975147521/897912409784025090",
+		"wm-target": "https://rowanmanning.com/weeknotes/74/",
+		"like-of": "https://rowanmanning.com/weeknotes/74/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"1e4d9435f9148bfb10f72b44930248d9": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Behnaz aka Suspicious Frog 🐸",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8d72382eb4bbfc9e9f83eb4bb436c4136f0cb233cea0d33ea7ec9c9057f0c4d5.jpg",
+			"url": "https://twitter.com/Behnnaazz"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1508038587975147521#favorited-by-963254340",
+		"published": null,
+		"wm-received": "2022-03-27T19:26:43Z",
+		"wm-id": 1370209,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1508038587975147521/963254340",
+		"wm-target": "https://rowanmanning.com/weeknotes/74/",
+		"like-of": "https://rowanmanning.com/weeknotes/74/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"c838b269791d23c885202713a0451f15": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Joanna Walker 🇵🇱🇬🇧",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/355b634ed086301444ffe33d7e7bc6ede65d2a7f6f674458faa3676ab04074c1.jpg",
+			"url": "https://twitter.com/yi5h"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1508038587975147521#favorited-by-17367779",
+		"published": null,
+		"wm-received": "2022-03-27T19:26:46Z",
+		"wm-id": 1370210,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1508038587975147521/17367779",
+		"wm-target": "https://rowanmanning.com/weeknotes/74/",
+		"like-of": "https://rowanmanning.com/weeknotes/74/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
