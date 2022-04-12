@@ -16,5 +16,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/76/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"05b35700e6cb03978a963199364730a9": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1513464373980778502#favorited-by-127856293",
+		"published": null,
+		"wm-received": "2022-04-12T08:22:11Z",
+		"wm-id": 1379080,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1513464373980778502/127856293",
+		"wm-target": "https://rowanmanning.com/weeknotes/76/",
+		"like-of": "https://rowanmanning.com/weeknotes/76/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
