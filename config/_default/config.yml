@@ -101,3 +101,10 @@ params:
     - notes
     - posts
     - weeknotes
+
+# Security config
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - NOTE_REF_URL
