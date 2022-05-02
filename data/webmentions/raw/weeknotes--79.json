@@ -1,0 +1,74 @@
+{
+	"62ed55dd9259cc14ae5870829aa63138": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jermila Dhas",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg",
+			"url": "https://twitter.com/JermilaD"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1521137237232177154#favorited-by-1008287622865747968",
+		"published": null,
+		"wm-received": "2022-05-02T20:37:58Z",
+		"wm-id": 1390574,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1521137237232177154/1008287622865747968",
+		"wm-target": "https://rowanmanning.com/weeknotes/79/",
+		"like-of": "https://rowanmanning.com/weeknotes/79/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"5e91b0e44fa3b3f7add7d217d450ef8d": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1521137237232177154#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2022-05-02T20:37:58Z",
+		"wm-id": 1390573,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1521137237232177154/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/79/",
+		"like-of": "https://rowanmanning.com/weeknotes/79/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"3894ccdcad5391008dc3c6f6e7ba4970": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Simon Plenderleith",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/81e3d5432eb04c5eacff1d5961366994fd513aca4fb227a1f875aaa35e264003.jpg",
+			"url": "https://twitter.com/simonplend"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1521137237232177154#favorited-by-34583",
+		"published": null,
+		"wm-received": "2022-05-02T20:37:59Z",
+		"wm-id": 1390576,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1521137237232177154/34583",
+		"wm-target": "https://rowanmanning.com/weeknotes/79/",
+		"like-of": "https://rowanmanning.com/weeknotes/79/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"b96011fe6285b208d7133ebe83242224": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Joanna Walker 🇵🇱🇬🇧",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/355b634ed086301444ffe33d7e7bc6ede65d2a7f6f674458faa3676ab04074c1.jpg",
+			"url": "https://twitter.com/yi5h"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1521137237232177154#favorited-by-17367779",
+		"published": null,
+		"wm-received": "2022-05-02T20:37:59Z",
+		"wm-id": 1390575,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1521137237232177154/17367779",
+		"wm-target": "https://rowanmanning.com/weeknotes/79/",
+		"like-of": "https://rowanmanning.com/weeknotes/79/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
