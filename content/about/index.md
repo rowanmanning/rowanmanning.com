@@ -20,6 +20,6 @@ I’m Rowan Manning, a Principal Engineer at the Financial Times, where I overse
 
 Before the FT I worked at Nature Publishing Group (now [Springer Nature](https://www.springernature.com/)) as a front end engineer, and various small companies before Nature.
 
-I mostly write HTML, CSS, and JavaScript (client-side and Node.js) and people have been paying me to do this for ~12 years. I think websites should be progressively enhanced and accessible to everyone.
+I mostly write HTML, CSS, and JavaScript (client-side and Node.js) and people have been paying me to do this for ~14 years. I think websites should be progressively enhanced and accessible to everyone.
 
 I maintained [Pa11y](https://pa11y.org/), an accessibility testing tool, and other free software projects until I got super burned out by open source. Now I use my spare time to play {{< abbr "Dungeons & Dragons" >}}D&amp;D{{< /abbr >}} (I love the world-building) or Minecraft (I love the world-building).
