@@ -34,5 +34,26 @@
 		"like-of": "https://rowanmanning.com/weeknotes/78/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"7a9739b70073c00c40ddbe28f7e27130": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "",
+			"photo": "",
+			"url": ""
+		},
+		"url": "https://alicebartlett.co.uk/blog/weaknotes-191",
+		"published": null,
+		"wm-received": "2022-05-02T13:10:31Z",
+		"wm-id": 1390381,
+		"wm-source": "https://alicebartlett.co.uk/blog/weaknotes-191",
+		"wm-target": "https://rowanmanning.com/weeknotes/78/",
+		"mention-of": "https://rowanmanning.com/weeknotes/78/",
+		"wm-property": "mention-of",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://alicebartlett.co.uk/blog/weaknotes-191"
+		}
 	}
 }
