@@ -88,5 +88,41 @@
 		"like-of": "https://rowanmanning.com/weeknotes/79/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"73c822f6a05ea4883c183b5dc6a0eceb": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Behnaz aka Suspicious Frog 🐸",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8d72382eb4bbfc9e9f83eb4bb436c4136f0cb233cea0d33ea7ec9c9057f0c4d5.jpg",
+			"url": "https://twitter.com/Behnnaazz"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1521137237232177154#favorited-by-963254340",
+		"published": null,
+		"wm-received": "2022-05-03T11:42:42Z",
+		"wm-id": 1390949,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1521137237232177154/963254340",
+		"wm-target": "https://rowanmanning.com/weeknotes/79/",
+		"like-of": "https://rowanmanning.com/weeknotes/79/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"5cf325988610cbd0f3f72229dd3df939": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jennifer",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/87a946285c4c07c0229d1f561dad65d6708839b3e034010081edbafc8f34a96e.jpg",
+			"url": "https://twitter.com/teachlearncode"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1521137237232177154#favorited-by-874552327251906560",
+		"published": null,
+		"wm-received": "2022-05-03T11:42:42Z",
+		"wm-id": 1390950,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1521137237232177154/874552327251906560",
+		"wm-target": "https://rowanmanning.com/weeknotes/79/",
+		"like-of": "https://rowanmanning.com/weeknotes/79/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
