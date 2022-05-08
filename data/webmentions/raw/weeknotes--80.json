@@ -1,0 +1,20 @@
+{
+	"d7c03616772e2ee636dcd450ebd767a9": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Simon Legg",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/55ad869b5b37881f8975abb68faa6daee0715b57a16337e1c5391953fe9c08a1.jpg",
+			"url": "https://twitter.com/simonleggsays"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1523266948141924353#favorited-by-373065378",
+		"published": null,
+		"wm-received": "2022-05-08T14:37:36Z",
+		"wm-id": 1394227,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1523266948141924353/373065378",
+		"wm-target": "https://rowanmanning.com/weeknotes/80/",
+		"like-of": "https://rowanmanning.com/weeknotes/80/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
