@@ -875,8 +875,8 @@ describe('simple website', () => {
 			});
 
 			it('contains the page content', () => {
-				const subject = findTestElements(document.body, 'content-body')[0]?.textContent.trim();
-				assert.strictEqual(subject, 'Mock Content Term');
+				const subject = findTestElements(document.body, 'content-body')[0]?.textContent.trim().replace(/\s+/g, ' ');
+				assert.strictEqual(subject, 'Listing 2 pieces of content with the “Mock Title Term” Tag. Mock Content Term');
 			});
 
 			it('contains a representation of each piece of content in the term', () => {
