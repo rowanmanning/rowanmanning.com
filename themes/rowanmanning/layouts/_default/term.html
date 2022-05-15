@@ -13,11 +13,12 @@
 	</header>
 
 	{{/* Main page content body */}}
-	{{ with .Content }}
-		<div class="content-body" data-test="content-body">
-			{{ . }}
-		</div>
-	{{ end }}
+	<div class="content-body" data-test="content-body">
+		<p>
+			Listing {{ len .Pages }} pieces of content with the &ldquo;{{ .Title }}&rdquo; {{ .Data.Singular | title }}.
+		</p>
+		{{ with .Content }}{{ . }}{{ end }}
+	</div>
 
 	{{/* List of content */}}
 	<ol class="h-feed content-list">
