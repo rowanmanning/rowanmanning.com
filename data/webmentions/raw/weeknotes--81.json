@@ -1,0 +1,20 @@
+{
+	"ac2378aa5d49219e82c99ad21dfa6303": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Ania",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/e0a26b4bf9f94a0eeba568534804de9aa8559c05030996ad9e22f26ca2637234.jpg",
+			"url": "https://twitter.com/AniaMakes"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1525803651624841216#favorited-by-897912409784025090",
+		"published": null,
+		"wm-received": "2022-05-15T13:09:38Z",
+		"wm-id": 1398819,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1525803651624841216/897912409784025090",
+		"wm-target": "https://rowanmanning.com/weeknotes/81/",
+		"like-of": "https://rowanmanning.com/weeknotes/81/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
