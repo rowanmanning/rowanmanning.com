@@ -74,5 +74,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/81/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"869f81e508bcc74de6589ea096f652d1": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Laura Carvajal",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/435fb6f2eb3286a5222e35117b3243e6f8dba72f161dd9e2ee55b799654d7efb.jpg",
+			"url": "https://twitter.com/lc512k"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1525803651624841216#favorited-by-741506154",
+		"published": null,
+		"wm-received": "2022-05-16T11:49:04Z",
+		"wm-id": 1399223,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1525803651624841216/741506154",
+		"wm-target": "https://rowanmanning.com/weeknotes/81/",
+		"like-of": "https://rowanmanning.com/weeknotes/81/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
