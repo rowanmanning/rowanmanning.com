@@ -1,0 +1,125 @@
+{
+	"7ee9507011a4674af9ee222928df1cdd": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ea16e04aebf7e621d0928b6c2c059aaa6ae255f61366c22cf76d24fcf52fd619.jpg",
+			"url": "https://twitter.com/AlexWilsonV1"
+		},
+		"url": "https://twitter.com/AlexWilsonV1/status/1528413235761790979",
+		"published": "2022-05-22T16:31:26+00:00",
+		"wm-received": "2022-05-22T16:41:20Z",
+		"wm-id": 1402097,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1528394788793421824/1528413235761790979",
+		"wm-target": "https://rowanmanning.com/weeknotes/82/",
+		"photo": [
+			"https://pbs.twimg.com/media/FTYDvI8XsAE2N4Z.jpg"
+		],
+		"content": {
+			"html": "I’m not even sure I understand what’s going on anymore!\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "I’m not even sure I understand what’s going on anymore!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/82/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"e3a32ce446ed74db4a915e5ab7897915": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jennifer",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/87a946285c4c07c0229d1f561dad65d6708839b3e034010081edbafc8f34a96e.jpg",
+			"url": "https://twitter.com/teachlearncode"
+		},
+		"url": "https://twitter.com/teachlearncode/status/1528404270739083266",
+		"published": "2022-05-22T15:55:49+00:00",
+		"wm-received": "2022-05-22T16:41:20Z",
+		"wm-id": 1402096,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1528394788793421824/1528404270739083266",
+		"wm-target": "https://rowanmanning.com/weeknotes/82/",
+		"content": {
+			"html": "Budget Glynn 🤣\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Budget Glynn 🤣"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/82/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"78a5c5d7fa95f128d31bf3e494368d4b": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Oliver",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/9a89080a1093439b0278dada5c12ba9bbd4d785ae5d8850e9c067dcabf03c902.jpg",
+			"url": "https://twitter.com/oliverturner"
+		},
+		"url": "https://twitter.com/oliverturner/status/1528410104927764483",
+		"published": "2022-05-22T16:19:00+00:00",
+		"wm-received": "2022-05-22T16:41:21Z",
+		"wm-id": 1402098,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1528394788793421824/1528410104927764483",
+		"wm-target": "https://rowanmanning.com/weeknotes/82/",
+		"content": {
+			"html": "I now realise that my recent summer wardrobe purchases are pure Glynnspo…\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/teachlearncode\"></a>",
+			"text": "I now realise that my recent summer wardrobe purchases are pure Glynnspo…"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/82/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"7f0cd23f81814a4329a0cf1955b4a0c5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jennifer",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/87a946285c4c07c0229d1f561dad65d6708839b3e034010081edbafc8f34a96e.jpg",
+			"url": "https://twitter.com/teachlearncode"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1528394788793421824#favorited-by-874552327251906560",
+		"published": null,
+		"wm-received": "2022-05-22T16:41:22Z",
+		"wm-id": 1402100,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1528394788793421824/874552327251906560",
+		"wm-target": "https://rowanmanning.com/weeknotes/82/",
+		"like-of": "https://rowanmanning.com/weeknotes/82/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"aa5d69ffcb078916b582242cca647b47": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1528394788793421824#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2022-05-22T16:41:22Z",
+		"wm-id": 1402099,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1528394788793421824/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/82/",
+		"like-of": "https://rowanmanning.com/weeknotes/82/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"3b8e2cd15bfa06e8d111e8f7fe8db5c5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Ania",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/e0a26b4bf9f94a0eeba568534804de9aa8559c05030996ad9e22f26ca2637234.jpg",
+			"url": "https://twitter.com/AniaMakes"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1528394788793421824#favorited-by-897912409784025090",
+		"published": null,
+		"wm-received": "2022-05-22T16:41:24Z",
+		"wm-id": 1402101,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1528394788793421824/897912409784025090",
+		"wm-target": "https://rowanmanning.com/weeknotes/82/",
+		"like-of": "https://rowanmanning.com/weeknotes/82/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
