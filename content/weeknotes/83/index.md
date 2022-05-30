@@ -4,7 +4,7 @@
 title: "Week 83: Double Rainbow"
 date: 2022-05-30T17:40:00+01:00
 description: "A week of TV binges, a stag weekend in Scotland, whisky tastings, highland games, zorb football, airsoft, lovely friends, and good coffee."
-tags: []
+tags: ["TV", "Social", "Health", "Holiday", "The Ultimatum", "The Circle", "Obi-Wan Kenobi"]
 
 # Weeknote display
 # ----------------
