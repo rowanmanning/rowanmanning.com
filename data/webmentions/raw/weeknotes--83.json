@@ -96,5 +96,89 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/83/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"7e0aacedf630c56181ba3ed126e37ccf": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan Manning",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/fe9141fc44359aa8af294baf11d39e9fd0026e802ff4b43904fe0a3dac3d10f5.jpg",
+			"url": "https://twitter.com/rowanmanning"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1531571233141268480",
+		"published": "2022-05-31T09:40:11+00:00",
+		"wm-received": "2022-05-31T10:30:17Z",
+		"wm-id": 1407482,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1531321608496943107/1531571233141268480",
+		"wm-target": "https://rowanmanning.com/weeknotes/83/",
+		"content": {
+			"html": "I did, I’ve only used it twice so not sure how much you can trust my review but it seems good 👍 it’s way faster and less effort than I expected to grind enough coffee for one cup\n<a class=\"u-mention\" href=\"https://twitter.com/JakeDChampion\"></a>",
+			"text": "I did, I’ve only used it twice so not sure how much you can trust my review but it seems good 👍 it’s way faster and less effort than I expected to grind enough coffee for one cup"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/83/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"00053997194d6e14db862897e0163002": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1531321608496943107#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2022-05-31T10:30:19Z",
+		"wm-id": 1407484,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1531321608496943107/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/83/",
+		"like-of": "https://rowanmanning.com/weeknotes/83/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"e10ca3430d3bdffb080eb8d9dcbaaa6f": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jake",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/55452fdbb1b010495f28472fab8127f5c5d5ed7aa4f83162020af3774bb163a8.jpg",
+			"url": "https://twitter.com/JakeDChampion"
+		},
+		"url": "https://twitter.com/JakeDChampion/status/1531572197151612928",
+		"published": "2022-05-31T09:44:01+00:00",
+		"wm-received": "2022-05-31T10:30:19Z",
+		"wm-id": 1407483,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1531321608496943107/1531572197151612928",
+		"wm-target": "https://rowanmanning.com/weeknotes/83/",
+		"content": {
+			"html": "I once timed how long my grinder took compared to <a href=\"https://twitter.com/notleemoody\">@notleemoody</a> and it was like 2 minutes longer 😔\nBased on your review and this guide for the Timemore from <a href=\"https://twitter.com/WorkshopCoffee\">@WorkshopCoffee</a> I reckon I'll get it 😁\n<a href=\"https://workshopcoffee.com/blogs/journal/timemore-s-chestnut-c2-hand-grinder\">workshopcoffee.com/blogs/journal/…</a>\n\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "I once timed how long my grinder took compared to @notleemoody and it was like 2 minutes longer 😔\nBased on your review and this guide for the Timemore from @WorkshopCoffee I reckon I'll get it 😁\nworkshopcoffee.com/blogs/journal/…"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/83/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"66d724afe0862d59de8cae5917442aaa": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jake",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/55452fdbb1b010495f28472fab8127f5c5d5ed7aa4f83162020af3774bb163a8.jpg",
+			"url": "https://twitter.com/JakeDChampion"
+		},
+		"url": "https://twitter.com/JakeDChampion/status/1531569830469541888",
+		"published": "2022-05-31T09:34:37+00:00",
+		"wm-received": "2022-05-31T10:30:47Z",
+		"wm-id": 1407485,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1531321608496943107/1531569830469541888",
+		"wm-target": "https://rowanmanning.com/weeknotes/83/",
+		"content": {
+			"html": "Zorb football sounds so good, good tip about wearing walking boots! Did you get the Timemore grinder in the end? I'm currently looking to get a better grinder as I think mine is wanting to retire\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Zorb football sounds so good, good tip about wearing walking boots! Did you get the Timemore grinder in the end? I'm currently looking to get a better grinder as I think mine is wanting to retire"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/83/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
