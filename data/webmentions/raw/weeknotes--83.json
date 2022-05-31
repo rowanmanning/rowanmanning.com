@@ -34,5 +34,67 @@
 		"like-of": "https://rowanmanning.com/weeknotes/83/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"4781eebb52369e57a52ef04f41e9d851": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/perryharlock/status/1531511390326124544",
+		"published": "2022-05-31T05:42:24+00:00",
+		"wm-received": "2022-05-31T06:21:39Z",
+		"wm-id": 1407394,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1531321608496943107/1531511390326124544",
+		"wm-target": "https://rowanmanning.com/weeknotes/83/",
+		"content": {
+			"html": "Yep, if it wasn’t for those trainers I definitely would have taken you out 😁\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Yep, if it wasn’t for those trainers I definitely would have taken you out 😁"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/83/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"431bf5114d7c60e7a7a24f6b3c339586": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1531321608496943107#favorited-by-127856293",
+		"published": null,
+		"wm-received": "2022-05-31T06:21:40Z",
+		"wm-id": 1407395,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1531321608496943107/127856293",
+		"wm-target": "https://rowanmanning.com/weeknotes/83/",
+		"like-of": "https://rowanmanning.com/weeknotes/83/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"c37d8374a21cece1f9ab4b7d2b08df55": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/perryharlock/status/1531512887960797184",
+		"published": "2022-05-31T05:48:21+00:00",
+		"wm-received": "2022-05-31T06:22:08Z",
+		"wm-id": 1407396,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1531321608496943107/1531512887960797184",
+		"wm-target": "https://rowanmanning.com/weeknotes/83/",
+		"content": {
+			"html": "Also, you don’t know how excited I have been to appear in your weeknote 🎉\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Also, you don’t know how excited I have been to appear in your weeknote 🎉"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/83/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
