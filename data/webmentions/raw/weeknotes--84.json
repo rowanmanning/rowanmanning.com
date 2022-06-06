@@ -92,5 +92,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/84/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"b13fe4d7e8f32fea02430bb87438730c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Mel",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/36fc36127bcb42dd70ccc319e1fe42a74579a9a9cbeadacd802ac4c2e525cc42.jpg",
+			"url": "https://twitter.com/Mellywellington"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1533766098109308930#favorited-by-22151589",
+		"published": null,
+		"wm-received": "2022-06-06T17:33:42Z",
+		"wm-id": 1410548,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1533766098109308930/22151589",
+		"wm-target": "https://rowanmanning.com/weeknotes/84/",
+		"like-of": "https://rowanmanning.com/weeknotes/84/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
