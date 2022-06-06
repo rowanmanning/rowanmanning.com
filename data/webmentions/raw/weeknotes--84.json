@@ -1,0 +1,96 @@
+{
+	"142cc845bd60025d9613b0112a7ec153": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/lucas42/status/1533772365666082817",
+		"published": "2022-06-06T11:26:42+00:00",
+		"wm-received": "2022-06-06T14:00:47Z",
+		"wm-id": 1410445,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1533766098109308930/1533772365666082817",
+		"wm-target": "https://rowanmanning.com/weeknotes/84/",
+		"content": {
+			"html": "That's sounds fun!  Hope you've managed to avoid too much chat about work...\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "That's sounds fun!  Hope you've managed to avoid too much chat about work..."
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/84/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"cf78f5455e4462655c8a12cda8a216e8": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Behnaz aka Suspicious Frog 🐸",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8d72382eb4bbfc9e9f83eb4bb436c4136f0cb233cea0d33ea7ec9c9057f0c4d5.jpg",
+			"url": "https://twitter.com/Behnnaazz"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1533766098109308930#favorited-by-963254340",
+		"published": null,
+		"wm-received": "2022-06-06T14:00:49Z",
+		"wm-id": 1410446,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1533766098109308930/963254340",
+		"wm-target": "https://rowanmanning.com/weeknotes/84/",
+		"like-of": "https://rowanmanning.com/weeknotes/84/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"638aa3239038b446bd70f770a921d302": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1533766098109308930#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2022-06-06T14:00:50Z",
+		"wm-id": 1410447,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1533766098109308930/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/84/",
+		"like-of": "https://rowanmanning.com/weeknotes/84/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"10667f96192d82e88a9b6b22e1cd53e0": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1533766098109308930#favorited-by-127856293",
+		"published": null,
+		"wm-received": "2022-06-06T14:00:51Z",
+		"wm-id": 1410448,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1533766098109308930/127856293",
+		"wm-target": "https://rowanmanning.com/weeknotes/84/",
+		"like-of": "https://rowanmanning.com/weeknotes/84/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"7dea66ae0bf7974384abb08d547b063a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Ania",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/e0a26b4bf9f94a0eeba568534804de9aa8559c05030996ad9e22f26ca2637234.jpg",
+			"url": "https://twitter.com/AniaMakes"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1533766098109308930#favorited-by-897912409784025090",
+		"published": null,
+		"wm-received": "2022-06-06T14:00:54Z",
+		"wm-id": 1410449,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1533766098109308930/897912409784025090",
+		"wm-target": "https://rowanmanning.com/weeknotes/84/",
+		"like-of": "https://rowanmanning.com/weeknotes/84/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
