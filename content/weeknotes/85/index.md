@@ -2,7 +2,7 @@
 # Weeknote title and metadata
 # ---------------------------
 title: "Week 85: Two-Day Week"
-date: 2022-06-13T12:30:00+00:00
+date: 2022-06-13T12:30:00+01:00
 description: "A week of being back in London, birthday drinks, great food, ultimatums, Costa Rica preparations, and Adam."
 tags: ["Holiday", "Social", "Food", "TV", "The Ultimatum"]
 
