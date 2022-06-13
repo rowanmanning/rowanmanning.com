@@ -96,5 +96,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/85/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"acd79a9ab04e204dcbe0bff1a874b5f5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Behnaz aka Suspicious Frog 🐸",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8d72382eb4bbfc9e9f83eb4bb436c4136f0cb233cea0d33ea7ec9c9057f0c4d5.jpg",
+			"url": "https://twitter.com/Behnnaazz"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1536366074958061568#favorited-by-963254340",
+		"published": null,
+		"wm-received": "2022-06-13T20:24:15Z",
+		"wm-id": 1415801,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1536366074958061568/963254340",
+		"wm-target": "https://rowanmanning.com/weeknotes/85/",
+		"like-of": "https://rowanmanning.com/weeknotes/85/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
