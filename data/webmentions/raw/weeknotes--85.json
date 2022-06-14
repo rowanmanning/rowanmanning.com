@@ -114,5 +114,27 @@
 		"like-of": "https://rowanmanning.com/weeknotes/85/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"ed2054119593055cd26b20fd6e923244": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "w://hancock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ed0a06905b71712efc181d1c471d18d9056eea70e04a0609c31a8fa3da06bec0.jpg",
+			"url": "https://twitter.com/will_hancock"
+		},
+		"url": "https://twitter.com/will_hancock/status/1536593958574383105",
+		"published": "2022-06-14T06:18:42+00:00",
+		"wm-received": "2022-06-14T10:29:54Z",
+		"wm-id": 1416529,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1536366074958061568/1536593958574383105",
+		"wm-target": "https://rowanmanning.com/weeknotes/85/",
+		"content": {
+			"html": "Adios!\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Adios!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/85/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
