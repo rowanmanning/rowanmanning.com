@@ -29,3 +29,5 @@ resources:
   * Hummingbirds and geckos are everywhere here, we managed to not get bitten by bullet ants or the many other interesting-looking bugs. Cicadas are ridiculously noisy.
 
   * Everyone is very friendly and willing to put up with how little Spanish we all know. Pura Vida!
+
+{{< image "rain.jpeg" >}}
