@@ -24,11 +24,11 @@ resources:
 
   * We travelled loads over the last week, staying in each place for a couple of nights. Monteverde has been my favourite, it's a little cooler and the scenery is beautiful.
 
-  {{< image "volcano.jpeg" >}}
+    {{< image "volcano.jpeg" >}}
 
   * I threw myself down some rapids in a rubber ring which was super fun. I also threw myself off a small cage in the sky with a rope attached to my feet which was incredible. It's actually quite difficult to force yourself to step out into nothing, you can hear me say "oh my god, I can't" just before I drop 😂
 
-  {{< video "muGajNyuZTE" >}}
+    {{< video "muGajNyuZTE" >}}
 
   * We did a lot of rainforest walking, most of the trails outside of reservations have been closed by the government so it was all pretty well paved but still exciting. We saw some agouti, monkeys, tiny tree frogs, plenty of hummingbirds, and many many insects.
 
