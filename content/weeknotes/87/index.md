@@ -2,7 +2,7 @@
 # Weeknote title and metadata
 # ---------------------------
 title: "Week 87: Full of Beans"
-date: 2022-06-26T12:00:00-06:00
+date: 2022-06-26T09:00:00-06:00
 description: "A week of many beans, ripe avocado, lots of travelling, rainforest walks, tubing, bungee jumps, bad news, and nice people."
 tags: ["Holiday", "Food", "Walking"]
 
