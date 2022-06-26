@@ -12,10 +12,10 @@ highlight: "blue"
 
 # Images and resources
 # --------------------
-# mainImage: "example.jpg"
-# resources:
-#   - src: "example.jpg"
-#     title: "TODO: alt text goes here"
+mainImage: "volcano.jpeg"
+resources:
+  - src: "volcano.jpeg"
+    title: "A volcano surrounded by rainforest"
 ---
 
   * I'm full of beans, both figuratively and literally. I've had at least one bean-based dish every day for nearly two weeks and I don't intend on stopping when I get home.
@@ -23,6 +23,8 @@ highlight: "blue"
   * Gallo Pinto for every meal please. Pico de Gallo is always delicious, and every single avocado is perfectly ripe. I'm going to miss Patacones quite a lot.
 
   * We travelled loads over the last week, staying in each place for a couple of nights. Monteverde has been my favourite, it's a little cooler and the scenery is beautiful.
+
+  {{< image "volcano.jpeg" >}}
 
   * I threw myself down some rapids in a rubber ring which was super fun. I also threw myself off a small cage in the sky with a rope attached to my feet which was incredible. It's actually quite difficult to force yourself to step out into nothing, you can hear me say "oh my god, I can't" just before I drop 😂
 
