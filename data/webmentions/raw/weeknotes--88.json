@@ -1,0 +1,136 @@
+{
+	"515469c7bc3246500bd50b95cad64fb6": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Nick",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/1e7b37e8256351286cbdb7387f378c0c29be8124014f14bf54dffbba8b73fbb7.jpg",
+			"url": "https://twitter.com/NickColley"
+		},
+		"url": "https://twitter.com/NickColley/status/1543861974685155330",
+		"published": "2022-07-04T07:39:12+00:00",
+		"wm-received": "2022-07-04T12:26:41Z",
+		"wm-id": 1427166,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1543858755997138946/1543861974685155330",
+		"wm-target": "https://rowanmanning.com/weeknotes/88/",
+		"content": {
+			"html": "So cute! Loved that you felt so relaxed. 😊\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "So cute! Loved that you felt so relaxed. 😊"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/88/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"2d0bf0c4fe70de33ddeb7c2d62223357": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Andrew Brough",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/dde162d6aa0a70adb058f9ffdae348183f9083f5c7726c87edbc2dfccc0af055.jpg",
+			"url": "https://twitter.com/digital__zen"
+		},
+		"url": "https://twitter.com/digital__zen/status/1543873802081390592",
+		"published": "2022-07-04T08:26:12+00:00",
+		"wm-received": "2022-07-04T12:26:41Z",
+		"wm-id": 1427165,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1543858755997138946/1543873802081390592",
+		"wm-target": "https://rowanmanning.com/weeknotes/88/",
+		"content": {
+			"html": "A lovely day. Finished too fast!🌞\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "A lovely day. Finished too fast!🌞"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/88/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"2803e543974220fe9fd72fe83fbce348": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Andrew Brough",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/dde162d6aa0a70adb058f9ffdae348183f9083f5c7726c87edbc2dfccc0af055.jpg",
+			"url": "https://twitter.com/digital__zen"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1543858755997138946#favorited-by-35815251",
+		"published": null,
+		"wm-received": "2022-07-04T12:26:42Z",
+		"wm-id": 1427167,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1543858755997138946/35815251",
+		"wm-target": "https://rowanmanning.com/weeknotes/88/",
+		"like-of": "https://rowanmanning.com/weeknotes/88/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"8c3252016185c285353ef93148d19e5e": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Ania",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/e0a26b4bf9f94a0eeba568534804de9aa8559c05030996ad9e22f26ca2637234.jpg",
+			"url": "https://twitter.com/AniaMakes"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1543858755997138946#favorited-by-897912409784025090",
+		"published": null,
+		"wm-received": "2022-07-04T12:26:43Z",
+		"wm-id": 1427168,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1543858755997138946/897912409784025090",
+		"wm-target": "https://rowanmanning.com/weeknotes/88/",
+		"like-of": "https://rowanmanning.com/weeknotes/88/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"cc12daab8c3172735dd9baa633f83cde": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Nick",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/1e7b37e8256351286cbdb7387f378c0c29be8124014f14bf54dffbba8b73fbb7.jpg",
+			"url": "https://twitter.com/NickColley"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1543858755997138946#favorited-by-20692536",
+		"published": null,
+		"wm-received": "2022-07-04T12:26:44Z",
+		"wm-id": 1427169,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1543858755997138946/20692536",
+		"wm-target": "https://rowanmanning.com/weeknotes/88/",
+		"like-of": "https://rowanmanning.com/weeknotes/88/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"817fa88c4896b903de8006b8318a3a8b": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Andrew Walker",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/77ceb4604e68ec4eec61cbb303e8a19dfdd3cdf97b79024b41e2a0b81aa984de.gif",
+			"url": "https://twitter.com/moddular"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1543858755997138946#favorited-by-16433622",
+		"published": null,
+		"wm-received": "2022-07-04T12:26:45Z",
+		"wm-id": 1427170,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1543858755997138946/16433622",
+		"wm-target": "https://rowanmanning.com/weeknotes/88/",
+		"like-of": "https://rowanmanning.com/weeknotes/88/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"b0e62dd28931c12083b2b6c4e2d3106a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Simon Legg",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/65cf8b43ddff72bdf3f08847e573587066938716da22309dd07eae2cdf6f0309.jpg",
+			"url": "https://twitter.com/simonleggsays"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1543858755997138946#favorited-by-373065378",
+		"published": null,
+		"wm-received": "2022-07-04T12:26:46Z",
+		"wm-id": 1427171,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1543858755997138946/373065378",
+		"wm-target": "https://rowanmanning.com/weeknotes/88/",
+		"like-of": "https://rowanmanning.com/weeknotes/88/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
