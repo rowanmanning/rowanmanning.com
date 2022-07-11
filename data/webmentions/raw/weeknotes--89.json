@@ -16,5 +16,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/89/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"9c8daa2b92380b5cff9eb5190e450584": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "arjun",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg",
+			"url": "https://twitter.com/adgad"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1546490959785037824#favorited-by-24541114",
+		"published": null,
+		"wm-received": "2022-07-11T14:48:07Z",
+		"wm-id": 1431942,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1546490959785037824/24541114",
+		"wm-target": "https://rowanmanning.com/weeknotes/89/",
+		"like-of": "https://rowanmanning.com/weeknotes/89/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
