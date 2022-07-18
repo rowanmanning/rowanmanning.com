@@ -34,7 +34,7 @@ resources:
 
   * Later in the week I finally went to Al Kahf, an East African restaurant nearby. Gallal and Kim had already been and it's been on my list of places to go for ages, we got a huge rice and meat platter and it was delicious.
 
-  * Charlotte and visited [Dopamine Land](https://dopaminelandexperience.com/london/) which was fun! Some particularly nice light and sound installations, and we went relatively early in the evening so we didn't have to share many of the rooms with strangers. The staff felt _slightly_ too chirpy and I'm unsure whether they a) like their jobs, b) have been told to be like that, or c) have unnaturally high dopamine levels from hanging around all the installations.
+  * Charlotte and I visited [Dopamine Land](https://dopaminelandexperience.com/london/) which was fun! Some particularly nice light and sound installations, and we went relatively early in the evening so we didn't have to share many of the rooms with strangers. The staff felt _slightly_ too chirpy and I'm unsure whether they a) like their jobs, b) have been told to be like that, or c) have unnaturally high dopamine levels from hanging around all the installations.
 
   * We went out in Soho with Charlotte's mum, it was less horribly busy than I remember. We had dinner in Hawksmoor and then on to Shitfaced Shakespeare at Leicester Square Theatre (a Christmas present).
 
