@@ -1875,5 +1875,27 @@
 		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 		"wm-property": "mention-of",
 		"wm-private": false
+	},
+	"2be629f781cb46cde4d2c7d893feaa32": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "James Ashmore",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/7ebce13c0bc9d188aba958bd47d5f933dcdc980f18113cb630fff655e23ae30a.jpg",
+			"url": "https://twitter.com/jma1991"
+		},
+		"url": "https://twitter.com/jma1991/status/1550098573081165824",
+		"published": "2022-07-21T12:41:13+00:00",
+		"wm-received": "2022-07-21T12:58:33Z",
+		"wm-id": 1438190,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1550098573081165824/1550098573081165824",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"content": {
+			"html": "Found this really helpful: <a href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\">rowanmanning.com/posts/writing-…</a>\n<a class=\"u-mention\" href=\"https://twitter.com/GKountourides\"></a>",
+			"text": "Found this really helpful: rowanmanning.com/posts/writing-…"
+		},
+		"in-reply-to": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
