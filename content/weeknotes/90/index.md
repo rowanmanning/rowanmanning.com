@@ -4,7 +4,7 @@
 title: "Week 90: Dopamine"
 date: 2022-07-17T08:30:00+01:00
 description: "A week of wall painting, shelf buying, mid-year reviews, wedding celebrations, Somali food, dopamine, the theatre, and a country walk."
-tags: ["Social", "House", "Food", "Work", "Health", "Walking"]
+tags: ["Social", "House", "Food", "Work", "Health", "Walking", "Wedding"]
 
 # Weeknote display
 # ----------------
