@@ -21,7 +21,7 @@ resources:
 
   * We finished watching Lucifer because of sunk cost. It was predictably cringey.
 
-  * I've had a whale of a time implementing [Webmentions](https://indieweb.org/Webmention) on this website. Thank you [chee](https://chee.snoot.club/) for introducing me to them! So far I've only implemented _receiving_ mentions, but publishing is on its way. Here are some dull technical details (I might write a long-form post later):
+  * I've had a whale of a time implementing [Webmentions](https://indieweb.org/Webmention) on this website. Thank you [chee](https://chee.party/) for introducing me to them! So far I've only implemented _receiving_ mentions, but publishing is on its way. Here are some dull technical details (I might write a long-form post later):
 
     * This is a static site built with [Hugo](https://gohugo.io/) and hosted on GitHub Pages, so it'd be difficult to implement my own `/webmention` endpoint. I set up [Webmention.io](https://webmention.io/) as a receiver for now.
 

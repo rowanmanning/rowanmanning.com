@@ -30,7 +30,7 @@ resources:
 
   * {{< pin left >}}{{< image "cables.jpg" >}}{{< /pin >}}
   
-    A couple of weeks ago, [Chee shared a great idea](https://chee.snoot.club/2021/09/26/sunday-26th-september-2021/). I have now rolled up my cables and put them in labelled bags. This pleased me. I mean I probably don't need most of these still, but :shrug:
+    A couple of weeks ago, [Chee shared a great idea](https://chee.party/2021/09/26/sunday-26th-september-2021/). I have now rolled up my cables and put them in labelled bags. This pleased me. I mean I probably don't need most of these still, but :shrug:
 
     I'm excited for the first time somebody asks me for a very specific cable and I can hand them a little bag.
   

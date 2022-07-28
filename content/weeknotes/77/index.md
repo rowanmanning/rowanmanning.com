@@ -28,7 +28,7 @@ resources:
   
     We got chatting to some lawyers who work nearby, I'm unsure what we spoke about but I found a business card in my pocket the next morning :shrug:
 
-    Once the pub closed, [Chee and I](https://chee.baby/2022/04/17/week-15-2022/) went for a nice sobering-up walk down to London Bridge and talked a lot, which was nice. We wandered around for a good couple of hours before I realised I should really go to bed and got a taxi home.
+    Once the pub closed, [Chee and I](https://chee.party/2022/04/17/week-15-2022/) went for a nice sobering-up walk down to London Bridge and talked a lot, which was nice. We wandered around for a good couple of hours before I realised I should really go to bed and got a taxi home.
 
   * Thursday wasn't good but could have been _much_ worse. I made my 9:30 standup which is heroic even when I'm feeling 100% tbh.
 

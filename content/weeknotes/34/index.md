@@ -43,4 +43,4 @@ resources:
 
     * All of this is the first JavaScript I've added to this website, and everything still works without it :thumbs_up:
 
-  * I started working on a longer-form blog post about implementing [Webmention](https://indieweb.org/Webmention), it's going to be quite a big read I think :grimacing: - [hopefully chee is OK waiting for a while](https://chee.snoot.club/2021/06/15/1328/).
+  * I started working on a longer-form blog post about implementing [Webmention](https://indieweb.org/Webmention), it's going to be quite a big read I think :grimacing: - [hopefully chee is OK waiting for a while](https://chee.party/2021/06/15/1328/).

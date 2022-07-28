@@ -34,12 +34,12 @@ syndication:
     name: IndieNews
 reviewers:
   - name: "Chee Rabbits"
-    website: "https://chee.snoot.club/"
+    website: "https://chee.party/"
   - name: "Oliver Turner"
     website: "https://www.oliverturner.cloud/"
 ---
 
-Some time ago, my friend and colleague chee [told me about Webmentions](https://chee.snoot.club/2021/05/16/sunday-16th-may-2021/). I'll be honest, I didn't fully understand what they were. It took me about a month to actually look into them, and wow it's been a while since I've been this excited about a technology!
+Some time ago, my friend and colleague chee [told me about Webmentions](https://chee.party/2021/05/16/sunday-16th-may-2021/). I'll be honest, I didn't fully understand what they were. It took me about a month to actually look into them, and wow it's been a while since I've been this excited about a technology!
 
 I'm very late to the party, [which started back in 2012](https://indieweb.org/Webmention#History), but now I've arrived I'm ready to fully commit (whatever the web dev equivalent of drinking {{< abbr "White Wine and Monster Ultra White" >}}Kalimotxo Blondes{{< /abbr >}} and dancing to Old Town Road is). After reading this post, I'm hoping that you will:
 

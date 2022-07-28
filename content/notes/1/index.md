@@ -8,7 +8,7 @@ tags: ["Music"]
 
 # Like target
 # -----------
-likeOf: "https://chee.snoot.club/2021/07/26/out-of-ones-element-in-ones-cups/"
+likeOf: "https://chee.party/2021/07/26/out-of-ones-element-in-ones-cups/"
 ---
 
-I like a lot of [Chee's music](https://chee.snoot.club/music/) but this track is particularly great! I especially love the little section 0:21–0:42.
+I like a lot of [Chee's music](https://chee.party/tag/music/) but this track is particularly great! I especially love the little section 0:21–0:42.

@@ -26,7 +26,7 @@ resources:
 
   * [Coming from solid last into second recently](/weeknotes/65/), I now have a strong lead in [My City](https://boardgamegeek.com/boardgame/295486/my-city) after playing this week. I feel a lot more energised after work lately and so I _actually_ have the mental capacity for board games.
 
-  * I went into the office twice this week, and it was excellent hanging out with a bunch of the nicest people. There were also a couple of pub trips (Old Change Happy Hour is always a bad idea), one of them being leaving drinks for [Mel](https://twitter.com/Mellywellington) (:cry:). Just so good to see everyone though! [chee got the goofs](https://chee.snoot.club/2022/02/17/ok-i-have-the-goofs/) and tequila appeared.
+  * I went into the office twice this week, and it was excellent hanging out with a bunch of the nicest people. There were also a couple of pub trips (Old Change Happy Hour is always a bad idea), one of them being leaving drinks for [Mel](https://twitter.com/Mellywellington) (:cry:). Just so good to see everyone though! [chee got the goofs](https://chee.party/2022/02/17/ok-i-have-the-goofs/) and tequila appeared.
 
   * There's been a lot of great TV.
 

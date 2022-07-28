@@ -8,7 +8,7 @@ tags: ["Food"]
 
 # Bookmark target
 # ---------------
-bookmarkOf: "https://chee.snoot.club/2021/08/09/4am-chili/"
+bookmarkOf: "https://chee.party/2021/08/09/4am-chili/"
 ---
 
 These are some excellent tips for cooking spicy food 🧑‍🍳
