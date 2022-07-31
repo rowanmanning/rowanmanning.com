@@ -1,0 +1,20 @@
+{
+	"47e150d2d44a3bea11bbc67dae5dcb99": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8bf2ab39a461d509df35e9f12010a73fed38711cf7d2edb7a292e1ee386ae5ed.jpg",
+			"url": "https://twitter.com/apaleslimghost"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1553834686555848706#favorited-by-20815869",
+		"published": null,
+		"wm-received": "2022-07-31T20:33:11Z",
+		"wm-id": 1446644,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1553834686555848706/20815869",
+		"wm-target": "https://rowanmanning.com/weeknotes/92/",
+		"like-of": "https://rowanmanning.com/weeknotes/92/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
