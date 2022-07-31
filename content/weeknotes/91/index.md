@@ -4,7 +4,7 @@
 title: "Week 91: Huddersfield"
 date: 2022-07-24T16:50:00+01:00
 description: "A week of birthdays, aircon, pizza, unexpected visitors, quirky accommodation, weddings in Huddersfield, Torn by Natalie Imbruglia"
-tags: ["Social", "Holiday", "Food", "Champagne", "Wedding"]
+tags: ["Social", "Holiday", "Food", "Champagne", "Wedding", "Jägerbomb"]
 
 # Weeknote display
 # ----------------

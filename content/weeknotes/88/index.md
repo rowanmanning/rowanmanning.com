@@ -3,8 +3,8 @@
 # ---------------------------
 title: "Week 88: Emma & Perry"
 date: 2022-07-04T07:45:00+01:00
-description: "A week of jet lag, sunsets and rainbows, kayaking, 30th birthdays, jäger bombs, happy couples, glitter beards, and returning to work."
-tags: ["Holiday", "Social", "Wedding"]
+description: "A week of jet lag, sunsets and rainbows, kayaking, 30th birthdays, Jägerbombs, happy couples, glitter beards, and returning to work."
+tags: ["Holiday", "Social", "Wedding", "Jägerbomb"]
 
 # Weeknote display
 # ----------------
@@ -32,7 +32,7 @@ resources:
 
     Congrats again you two :heart:
 
-  * A wedding face paint / glitter station is a great idea, especially after a jäger bomb or two has made you forget what a pain in the ass it is to remove it all.
+  * A wedding face paint / glitter station is a great idea, especially after a Jägerbomb or two has made you forget what a pain in the ass it is to remove it all.
 
     {{< image "glitter.jpg" >}}
 

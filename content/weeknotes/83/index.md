@@ -4,7 +4,7 @@
 title: "Week 83: Double Rainbow"
 date: 2022-05-30T17:40:00+01:00
 description: "A week of TV binges, a stag weekend in Scotland, whisky tastings, highland games, zorb football, airsoft, lovely friends, and good coffee."
-tags: ["TV", "Social", "Health", "Holiday", "The Ultimatum", "The Circle", "Obi-Wan Kenobi"]
+tags: ["TV", "Social", "Health", "Holiday", "The Ultimatum", "The Circle", "Obi-Wan Kenobi", "Jägerbomb"]
 
 # Weeknote display
 # ----------------
@@ -38,7 +38,7 @@ resources:
 
     * It was so nice to see Perry (who I haven't seen since god knows when), catch up with [Andrew](https://adlawson.com/) and [Linus](https://www.linusnorton.co.uk/), and meet a few of his other friends. We drove from Edinburgh via [Aberfeldy Distillery](https://www.dewars.com/gl/en/aberfeldydistillery/) which was a lot of fun.
 
-    * We drank a _lot_. I was somehow still coherent on Friday after 5 beers, ~150ml of whisky, 2 jäger bombs, and 4 double vodka-irn-brus :grimacing: maybe it's time to have a break? Oh, wait, I'm at an all-inclusive next week :grimacing:
+    * We drank a _lot_. I was somehow still coherent on Friday after 5 beers, ~150ml of whisky, 2 Jägerbombs, and 4 double vodka-irn-brus :grimacing: maybe it's time to have a break? Oh, wait, I'm at an all-inclusive next week :grimacing:
 
     * Zero hangover which was incredible. We did a lot of stag activities. I absolutely suck at log throwing, no upper body strength (or lower body strength let's be honest).
     

@@ -4,7 +4,7 @@
 title: "Week 89: Secret Bar"
 date: 2022-07-11T12:40:00+01:00
 description: "A week of being back to reality, remembering to code, FT rounders, birthdays, marvel, small horses, good food, and small humans."
-tags: ["Work", "Family", "Social", "Films", "Food", "Rounders"]
+tags: ["Work", "Family", "Social", "Films", "Food", "Rounders", "Jägerbomb"]
 
 # Weeknote display
 # ----------------
@@ -15,7 +15,7 @@ highlight: "yellow"
 mainImage: "secret-bar.jpg"
 resources:
   - src: "secret-bar.jpg"
-    title: "Arjun and I cheersing Jäger bombs"
+    title: "Arjun and I cheersing Jägerbombs"
   - src: "horses.jpg"
     title: "Grandma and I standing by a fence in the sunshine, saying hi to some Shetland ponies"
 ---
@@ -24,7 +24,7 @@ resources:
 
   * {{< pin right >}}{{< image "secret-bar.jpg" >}}{{< /pin >}}
   
-    It was the FT Product & Tech Department's annual rounders tournament in Regents Park. I normally spectate, this year was no different, sitting in the sun and chatting is more my speed. It was so great seeing so many people and meeting some of my newer colleagues in person! Arjun and I found a secret jäger bomb bar in the trees nearby and a good crowd ended up going for drinks afterwards in Camden. I love rounders day :heart:
+    It was the FT Product & Tech Department's annual rounders tournament in Regents Park. I normally spectate, this year was no different, sitting in the sun and chatting is more my speed. It was so great seeing so many people and meeting some of my newer colleagues in person! Arjun and I found a secret Jägerbomb bar in the trees nearby and a good crowd ended up going for drinks afterwards in Camden. I love rounders day :heart:
 
   * We went for a meal for Charlotte's dad's birthday. She carried on the tradition of making him a giant-sized snack with an excellent (and challenging to carry) giant Curly Wurly.
 
