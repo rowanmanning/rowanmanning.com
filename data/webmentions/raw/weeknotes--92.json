@@ -34,5 +34,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/92/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"912b62e75ea3341411fd1fa71506308d": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "",
+			"photo": "",
+			"url": ""
+		},
+		"url": "https://alexwilson.tech/content/dba70898-ee94-4ec8-b852-926630ce18f8/",
+		"published": null,
+		"wm-received": "2022-07-31T23:41:21Z",
+		"wm-id": 1446731,
+		"wm-source": "https://alexwilson.tech/content/dba70898-ee94-4ec8-b852-926630ce18f8/",
+		"wm-target": "https://rowanmanning.com/weeknotes/92/",
+		"mention-of": "https://rowanmanning.com/weeknotes/92/",
+		"wm-property": "mention-of",
+		"wm-private": false
 	}
 }
