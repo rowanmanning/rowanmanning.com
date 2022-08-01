@@ -52,5 +52,49 @@
 		"mention-of": "https://rowanmanning.com/weeknotes/92/",
 		"wm-property": "mention-of",
 		"wm-private": false
+	},
+	"5686330cf29f44e661bee8fa15ced4b3": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Tatiana Stantonian",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/a4d4fbfb1cb8afbfcf81cd01dd606537d767d30faf0d1382ebe24778669bb23d.jpg",
+			"url": "https://twitter.com/binaryberry"
+		},
+		"url": "https://twitter.com/binaryberry/status/1554068805596463105",
+		"published": "2022-08-01T11:37:31+00:00",
+		"wm-received": "2022-08-01T11:54:15Z",
+		"wm-id": 1447015,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1553834686555848706/1554068805596463105",
+		"wm-target": "https://rowanmanning.com/weeknotes/92/",
+		"content": {
+			"html": "Thanks for an interesting read! We tried humane traps with cheese, and no joy. Then crackers and that worked for several mice! Worth trying different things.\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Thanks for an interesting read! We tried humane traps with cheese, and no joy. Then crackers and that worked for several mice! Worth trying different things."
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/92/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"18184b61444416690472eaa267d5c504": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan Manning",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/fe9141fc44359aa8af294baf11d39e9fd0026e802ff4b43904fe0a3dac3d10f5.jpg",
+			"url": "https://twitter.com/rowanmanning"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1554069005476020227",
+		"published": "2022-08-01T11:38:18+00:00",
+		"wm-received": "2022-08-01T11:54:16Z",
+		"wm-id": 1447016,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1553834686555848706/1554069005476020227",
+		"wm-target": "https://rowanmanning.com/weeknotes/92/",
+		"content": {
+			"html": "Ooh thanks for the tip!\n<a class=\"u-mention\" href=\"https://twitter.com/binaryberry\"></a>",
+			"text": "Ooh thanks for the tip!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/92/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
