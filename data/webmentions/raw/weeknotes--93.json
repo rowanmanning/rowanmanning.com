@@ -1,0 +1,38 @@
+{
+	"97aed8e9a06c1c80439d4040caf97157": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1556216208206270465#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2022-08-07T10:28:55Z",
+		"wm-id": 1452876,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1556216208206270465/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/93/",
+		"like-of": "https://rowanmanning.com/weeknotes/93/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"92ffafc8c83b9fb400d8202aa488d45f": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8bf2ab39a461d509df35e9f12010a73fed38711cf7d2edb7a292e1ee386ae5ed.jpg",
+			"url": "https://twitter.com/apaleslimghost"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1556216208206270465#favorited-by-20815869",
+		"published": null,
+		"wm-received": "2022-08-07T10:28:55Z",
+		"wm-id": 1452877,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1556216208206270465/20815869",
+		"wm-target": "https://rowanmanning.com/weeknotes/93/",
+		"like-of": "https://rowanmanning.com/weeknotes/93/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
