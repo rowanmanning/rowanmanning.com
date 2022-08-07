@@ -3,7 +3,7 @@
 # ---------------------------
 title: "Week 92: Unwelcome Guests"
 date: 2022-07-31T19:55:00+01:00
-description: "A week of book clubs, reading again, new team members, learning to code, summer birthdays, Kalimotxo Blondes, and a new housemate"
+description: "A week of book clubs, reading again, new team members, learning to code, summer birthdays, Kalimotxo Blondes, and a new housemate."
 tags: ["Books", "Social", "Work", "House", "Rust"]
 
 # Weeknote display
