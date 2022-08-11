@@ -1,14 +1,11 @@
 
 name: Publish to GitHub Pages
 
+# Run when the main branch is pushed
 on:
-
-  # Run on pushes targeting the default branch
   push:
     branches:
       - main
-  
-  # Run after webmentions have been fetched
   workflow_run:
     workflows:
       - Fetch webmentions
@@ -16,22 +13,6 @@ on:
       - main
     types:
       - completed
-
-  # Allow manual workflow dispatch
-  workflow_dispatch:
-
-
-# Set the GITHUB_TOKEN permissions to allow deployment
-# to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow one concurrent deployment
-concurrency:
-  group: pages
-  cancel-in-progress: true
 
 # Jobs
 jobs:
@@ -41,12 +22,10 @@ jobs:
     name: Verify code
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: 14.x
       - uses: actions/cache@v2
         env:
           cache-version: v2
@@ -58,8 +37,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-version }}-
             ${{ runner.os }}-
-      - name: Install npm dependencies
-        run: npm install
+      - run: npm install
       - run: make verify
 
   # Run theme tests
@@ -68,12 +46,10 @@ jobs:
     needs: verify
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: 14.x
       - uses: actions/cache@v2
         env:
           cache-version: v2
@@ -85,8 +61,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-version }}-
             ${{ runner.os }}-
-      - name: Install npm dependencies
-        run: npm install
+      - run: npm install
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -101,8 +76,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v2
         with:
           submodules: true # To install themes
           fetch-depth: 0 # We need all history for .GitInfo and .Lastmod
@@ -113,10 +87,9 @@ jobs:
           timezone: Europe/London
 
       # Set up Node.js and install dependencies
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: 14.x
       - uses: actions/cache@v2
         env:
           cache-version: v2
@@ -128,8 +101,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-version }}-
             ${{ runner.os }}-
-      - name: Install npm dependencies
-        run: npm install
+      - run: npm install
 
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
@@ -140,11 +112,12 @@ jobs:
       - name: Build
         run: make build
 
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v1
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: ./build
+          personal_token: ${{ secrets.DEPLOY_KEY }}
+          user_name: 'RowBot'
+          user_email: '48598026+rowanbot@users.noreply.github.com'
+          publish_dir: ./build
+          publish_branch: build
+          cname: rowanmanning.com
