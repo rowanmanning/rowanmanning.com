@@ -20,7 +20,7 @@
     "npm": "8.x"
   },
   "dependencies": {
-    "accessible-autocomplete": "^2.0.3",
+    "accessible-autocomplete": "^2.0.4",
     "commander": "^8.0.0",
     "dompurify": "^2.2.9",
     "got": "^11.8.5",
