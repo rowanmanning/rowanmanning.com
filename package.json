@@ -24,7 +24,7 @@
     "commander": "^8.0.0",
     "dompurify": "^2.2.9",
     "got": "^11.8.5",
-    "hotkeys-js": "^3.8.7",
+    "hotkeys-js": "^3.9.4",
     "jsdom": "^16.6.0",
     "lunr": "^2.3.9",
     "microformats-parser": "^1.4.0",
@@ -34,7 +34,7 @@
     "@rowanmanning/eslint-config": "^3.1.0",
     "@rowanmanning/make": "^2.1.0",
     "chai": "^4.3.4",
-    "eslint": "^7.30.0",
+    "eslint": "^8.22.0",
     "jsdom": "^16.6.0",
     "mocha": "^9.0.2"
   },
