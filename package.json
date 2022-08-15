@@ -27,7 +27,7 @@
     "hotkeys-js": "^3.9.4",
     "jsdom": "^16.6.0",
     "lunr": "^2.3.9",
-    "microformats-parser": "^1.4.0",
+    "microformats-parser": "^1.4.1",
     "text-clipper": "^2.1.0"
   },
   "devDependencies": {
