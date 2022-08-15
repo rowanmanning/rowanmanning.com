@@ -24,7 +24,7 @@
     "commander": "^8.0.0",
     "dompurify": "^2.2.9",
     "got": "^11.8.5",
-    "hotkeys-js": "^3.8.7",
+    "hotkeys-js": "^3.9.4",
     "jsdom": "^16.6.0",
     "lunr": "^2.3.9",
     "microformats-parser": "^1.4.0",
