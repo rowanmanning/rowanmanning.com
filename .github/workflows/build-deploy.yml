@@ -4,6 +4,12 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 on:
 
   # Run when the main branch is pushed or a pull request is made
@@ -98,6 +104,10 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
+      - name: Setup GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v1
+
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -116,6 +126,11 @@ jobs:
 
       - name: Build the website
         run: make build
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./build
 
   # Verify code
   verify:
@@ -191,6 +206,9 @@ jobs:
   deploy-production:
     name: Deploy to production
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     if: github.ref == 'refs/heads/main'
     needs:
       - build
@@ -212,12 +230,6 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          personal_token: ${{ secrets.DEPLOY_KEY }}
-          user_name: 'RowBot'
-          user_email: '48598026+rowanbot@users.noreply.github.com'
-          publish_dir: ./build
-          publish_branch: build
-          cname: rowanmanning.com
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
