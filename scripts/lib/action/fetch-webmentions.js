@@ -11,9 +11,9 @@ module.exports = async function fetchWebmentions(apiKey) {
 
 	// Webmention query parameters
 	const searchParams = {
-		domain: site.domain,
+		'domain': site.domain,
 		'per-page': 1000,
-		token: apiKey
+		'token': apiKey
 	};
 
 	// Get posts since the last refresh

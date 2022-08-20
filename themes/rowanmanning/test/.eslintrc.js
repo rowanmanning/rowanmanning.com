@@ -14,7 +14,8 @@ module.exports = {
 		parseTwitterMeta: 'readonly'
 	},
 	rules: {
-		camelcase: 'off',
+		'camelcase': 'off',
+		'jsdoc/require-jsdoc': 'off',
 		'max-len': 'off'
 	}
 };

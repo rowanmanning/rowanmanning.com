@@ -53,21 +53,21 @@ describe('authored website', () => {
 				assert.deepEqual(subject, [
 					{
 						'@type': 'Person',
-						image: 'https://site.author.local/photo.png',
-						name: 'Mock Site Author',
-						url: 'https://site.author.local/'
+						'image': 'https://site.author.local/photo.png',
+						'name': 'Mock Site Author',
+						'url': 'https://site.author.local/'
 					},
 					{
 						'@type': 'Person',
-						image: 'https://page.author.local/photo.png',
-						name: 'Mock Page Author',
-						url: 'https://page.author.local/'
+						'image': 'https://page.author.local/photo.png',
+						'name': 'Mock Page Author',
+						'url': 'https://page.author.local/'
 					},
 					{
 						'@type': 'Person',
-						image: null,
-						name: 'Mock Incomplete Author',
-						url: null
+						'image': null,
+						'name': 'Mock Incomplete Author',
+						'url': null
 					}
 				]);
 			});
