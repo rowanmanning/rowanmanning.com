@@ -132,7 +132,7 @@ Setting up [Bridgy](https://brid.gy/) was relatively quick, and it can connect t
 
 So now you're receiving webmentions, it's time to store them alongside your website code so that we can move onto the next step, displaying them. For this, you'll need for your website to include a build step, which is already needed for many Static Site generators.
 
-My website is built with [Hugo](https://gohugo.io/) and is hosted on GitHub Pages, so I already have a [build step](https://github.com/rowanmanning/rowanmanning.com/blob/main/.github/workflows/gh-pages.yml) that uses GitHub Actions to automatically generate the static HTML and deploy it via the `build` branch.
+My website is built with [Hugo](https://gohugo.io/) and is hosted on GitHub Pages, so I already have a [build step](https://github.com/rowanmanning/rowanmanning.com/blob/main/.github/workflows/build-deploy.yml) that uses GitHub Actions to automatically generate the static HTML and deploy it via the `build` branch.
 
 Hugo allows for your website to access JSON files in the `data` folder so, for me, it makes sense for my build step to fetch webmentions from Webmention.io via their API and store them in this folder for use later.
 
