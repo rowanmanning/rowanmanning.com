@@ -28,11 +28,12 @@ jobs:
           node-version: 14.x
       - uses: actions/cache@v2
         env:
-          cache-version: v2
+          cache-version: v3
         with:
           path: |
             ~/.npm
             /tmp/hugo_cache
+            resources/_gen
           key: ${{ runner.os }}-${{ env.cache-version }}-${{ hashFiles('**/go.sum') }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-version }}-
@@ -52,11 +53,12 @@ jobs:
           node-version: 14.x
       - uses: actions/cache@v2
         env:
-          cache-version: v2
+          cache-version: v3
         with:
           path: |
             ~/.npm
             /tmp/hugo_cache
+            resources/_gen
           key: ${{ runner.os }}-${{ env.cache-version }}-${{ hashFiles('**/go.sum') }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-version }}-
@@ -92,11 +94,12 @@ jobs:
           node-version: 14.x
       - uses: actions/cache@v2
         env:
-          cache-version: v2
+          cache-version: v3
         with:
           path: |
             ~/.npm
             /tmp/hugo_cache
+            resources/_gen
           key: ${{ runner.os }}-${{ env.cache-version }}-${{ hashFiles('**/go.sum') }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-version }}-
