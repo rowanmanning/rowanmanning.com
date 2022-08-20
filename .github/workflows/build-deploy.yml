@@ -67,6 +67,7 @@ jobs:
   build:
     name: Build the website
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
     needs: install
     steps:
 
@@ -215,20 +216,6 @@ jobs:
       - verify
       - test-themes
     steps:
-
-      - name: Restore built website
-        uses: actions/cache@v3
-        env:
-          cache-name: cache-website-v1
-        with:
-          path: |
-            build
-            resources/_gen
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('config', 'content', 'data', 'themes') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
 
       - name: Deploy to GitHub Pages
         id: deployment
