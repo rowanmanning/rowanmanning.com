@@ -14,13 +14,14 @@ on:
     branches:
       - main
 
-  # workflow_run:
-  #   workflows:
-  #     - Fetch webmentions
-  #   branches:
-  #     - main
-  #   types:
-  #     - completed
+  # Run when webmentions are fetched
+  workflow_run:
+    workflows:
+      - Fetch webmentions
+    branches:
+      - main
+    types:
+      - completed
 
 # Jobs
 jobs:
