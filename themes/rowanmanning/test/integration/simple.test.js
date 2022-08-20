@@ -204,46 +204,46 @@ describe('simple website', () => {
 					{
 						'@context': 'https://schema.org/',
 						'@type': 'BlogPosting',
-						author: {
+						'author': {
 							'@type': 'Person',
-							image: null,
-							name: 'Unknown',
-							url: null
+							'image': null,
+							'name': 'Unknown',
+							'url': null
 						},
-						dateModified: '2021-01-02T08:00:00Z',
-						datePublished: '2021-01-02T08:00:00Z',
-						description: 'Mock Description Single Page In Section',
-						headline: 'Mock Title Single Page In Section',
-						image: '',
-						keywords: ['tag001', 'tag002'],
-						mainEntityOfPage: {
+						'dateModified': '2021-01-02T08:00:00Z',
+						'datePublished': '2021-01-02T08:00:00Z',
+						'description': 'Mock Description Single Page In Section',
+						'headline': 'Mock Title Single Page In Section',
+						'image': '',
+						'keywords': ['tag001', 'tag002'],
+						'mainEntityOfPage': {
 							'@id': 'https://simple.mock.local/section001s/item001/',
 							'@type': 'WebPage'
 						},
-						thumbnailUrl: '',
-						url: 'https://simple.mock.local/section001s/item001/'
+						'thumbnailUrl': '',
+						'url': 'https://simple.mock.local/section001s/item001/'
 					},
 					{
 						'@context': 'https://schema.org/',
 						'@type': 'BlogPosting',
-						author: {
+						'author': {
 							'@type': 'Person',
-							image: null,
-							name: 'Unknown',
-							url: null
+							'image': null,
+							'name': 'Unknown',
+							'url': null
 						},
-						dateModified: '2021-01-02T08:00:00Z',
-						datePublished: '2021-01-02T08:00:00Z',
-						description: 'Mock Content Single Page In Section',
-						headline: 'Untitled Section001',
-						image: '',
-						keywords: null,
-						mainEntityOfPage: {
+						'dateModified': '2021-01-02T08:00:00Z',
+						'datePublished': '2021-01-02T08:00:00Z',
+						'description': 'Mock Content Single Page In Section',
+						'headline': 'Untitled Section001',
+						'image': '',
+						'keywords': null,
+						'mainEntityOfPage': {
 							'@id': 'https://simple.mock.local/section001s/item002/',
 							'@type': 'WebPage'
 						},
-						thumbnailUrl: '',
-						url: 'https://simple.mock.local/section001s/item002/'
+						'thumbnailUrl': '',
+						'url': 'https://simple.mock.local/section001s/item002/'
 					}
 				]);
 			});
@@ -522,11 +522,11 @@ describe('simple website', () => {
 						'tag001',
 						'tag002'
 					],
-					type: 'article',
-					site_name: 'Mock Title Home',
-					title: 'Mock Title Single Page In Section',
-					url: 'https://simple.mock.local/section001s/item001/',
-					description: 'Mock Description Single Page In Section'
+					'type': 'article',
+					'site_name': 'Mock Title Home',
+					'title': 'Mock Title Single Page In Section',
+					'url': 'https://simple.mock.local/section001s/item001/',
+					'description': 'Mock Description Single Page In Section'
 				});
 			});
 
@@ -559,24 +559,24 @@ describe('simple website', () => {
 				assert.deepEqual(data, {
 					'@context': 'https://schema.org/',
 					'@type': 'BlogPosting',
-					author: {
+					'author': {
 						'@type': 'Person',
-						image: null,
-						name: 'Unknown',
-						url: null
+						'image': null,
+						'name': 'Unknown',
+						'url': null
 					},
-					dateModified: '2021-01-02T08:00:00Z',
-					datePublished: '2021-01-02T08:00:00Z',
-					description: 'Mock Description Single Page In Section',
-					headline: 'Mock Title Single Page In Section',
-					image: '',
-					keywords: ['tag001', 'tag002'],
-					mainEntityOfPage: {
+					'dateModified': '2021-01-02T08:00:00Z',
+					'datePublished': '2021-01-02T08:00:00Z',
+					'description': 'Mock Description Single Page In Section',
+					'headline': 'Mock Title Single Page In Section',
+					'image': '',
+					'keywords': ['tag001', 'tag002'],
+					'mainEntityOfPage': {
 						'@id': 'https://simple.mock.local/section001s/item001/',
 						'@type': 'WebPage'
 					},
-					thumbnailUrl: '',
-					url: 'https://simple.mock.local/section001s/item001/'
+					'thumbnailUrl': '',
+					'url': 'https://simple.mock.local/section001s/item001/'
 				});
 			});
 

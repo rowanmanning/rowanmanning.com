@@ -5,10 +5,11 @@ module.exports = {
 		'@rowanmanning/eslint-config'
 	],
 	rules: {
+		'jsdoc/require-jsdoc': 'off',
+		'max-depth': 'off',
 		'no-continue': 'off',
 		'no-invalid-this': 'off',
-		'require-atomic-updates': 'off',
-		'max-depth': 'off',
-		'no-new': 'off'
+		'no-new': 'off',
+		'require-atomic-updates': 'off'
 	}
 };

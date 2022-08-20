@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	// Set up shortcuts
 	hotkeys.filter = ({target}) => {
 		const {tagName} = target;
-		return !(tagName == 'INPUT' || tagName == 'SELECT' || tagName == 'TEXTAREA');
+		return !(tagName === 'INPUT' || tagName === 'SELECT' || tagName === 'TEXTAREA');
 	};
 	hotkeys('/, s, cmd+k, ctrl+k', event => {
 		siteSearchBoxes[0].focus();
