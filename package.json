@@ -31,7 +31,7 @@
     "text-clipper": "^2.2.0"
   },
   "devDependencies": {
-    "@rowanmanning/eslint-config": "^3.1.0",
+    "@rowanmanning/eslint-config": "^4.0.5",
     "@rowanmanning/make": "^2.3.0",
     "chai": "^4.3.6",
     "eslint": "^8.22.0",
