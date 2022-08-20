@@ -5,6 +5,7 @@ const clip = require('text-clipper').default;
 const createDOMPurify = require('dompurify');
 const fs = require('fs/promises');
 const {JSDOM} = require('jsdom');
+const mkdir = require('../util/mkdir');
 const saveJSON = require('../util/save-json');
 const {trusted, blocked} = require('../../../data/webmentions/config/trust.json');
 
@@ -16,7 +17,6 @@ const maxContentLines = 6;
 const {window} = new JSDOM('');
 const {document} = window;
 const DOMPurify = createDOMPurify(window);
-const mkdir = require('../util/mkdir');
 
 module.exports = async function processWebmentions() {
 

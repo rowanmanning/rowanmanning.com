@@ -22,10 +22,10 @@
   "dependencies": {
     "accessible-autocomplete": "^2.0.4",
     "commander": "^8.0.0",
-    "dompurify": "^2.3.10",
+    "dompurify": "^2.3.4",
     "got": "^11.8.5",
     "hotkeys-js": "^3.9.4",
-    "jsdom": "^16.6.0",
+    "jsdom": "^20.0.0",
     "lunr": "^2.3.9",
     "microformats-parser": "^1.4.1",
     "text-clipper": "^2.2.0"
@@ -35,7 +35,6 @@
     "@rowanmanning/make": "^2.3.0",
     "chai": "^4.3.6",
     "eslint": "^8.22.0",
-    "jsdom": "^16.6.0",
     "mocha": "^10.0.0"
   },
   "scripts": {
