@@ -16,5 +16,27 @@
 		"like-of": "https://rowanmanning.com/weeknotes/95/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"b8882dcce15f94d2da39789300787939": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Simon Legg",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/65cf8b43ddff72bdf3f08847e573587066938716da22309dd07eae2cdf6f0309.jpg",
+			"url": "https://twitter.com/simonleggsays"
+		},
+		"url": "https://twitter.com/simonleggsays/status/1561316772292300801",
+		"published": "2022-08-21T11:38:21+00:00",
+		"wm-received": "2022-08-21T12:14:19Z",
+		"wm-id": 1464709,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1561294415859224582/1561316772292300801",
+		"wm-target": "https://rowanmanning.com/weeknotes/95/",
+		"content": {
+			"html": "Erm, excuse me what JPD and David got married?!!!?!\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Erm, excuse me what JPD and David got married?!!!?!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/95/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
