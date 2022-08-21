@@ -2,7 +2,7 @@
 # Post title and metadata
 # -----------------------
 title: "Halving my GitHub Pages Build Time"
-date: 2022-08-10T10:09:00+01:00
+date: 2022-08-21T10:35:00+01:00
 description: "An explanation of how I halved my website's build/deploy process using a mix of actions optimisations and the new GitHub Pages Custom Actions beta."
 cta: "Read about the optimisations"
 tags: ["Hugo", "GitHub", "Side Projects"]
