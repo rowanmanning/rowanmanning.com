@@ -207,6 +207,9 @@ jobs:
       - test-themes
     steps:
 
+      - name: Checkout
+        uses: actions/checkout@v2
+
       - name: Restore built website
         uses: actions/cache@v3
         env:
