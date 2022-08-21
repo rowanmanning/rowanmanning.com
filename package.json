@@ -32,13 +32,29 @@
   },
   "devDependencies": {
     "@rowanmanning/eslint-config": "^4.0.5",
-    "@rowanmanning/make": "^2.3.0",
     "chai": "^4.3.6",
     "eslint": "^8.22.0",
     "mocha": "^10.0.0"
   },
   "scripts": {
-    "start": "hugo server -D"
+    "build": "npm run wm:process && hugo --minify --environment production",
+    "build-staging": "npm run wm:process && hugo --minify --environment staging",
+    "wm:fetch": "./scripts/site.js wm:fetch --api-key $(WEBMENTION_API_KEY)",
+    "wm:process": "./scripts/site.js wm:process",
+    "verify": "npm run verify:eslint",
+    "verify:eslint": "eslint .",
+    "test": "npm run test:theme",
+    "test:theme": "mocha 'themes/rowanmanning/test/integration/**/*.test.js'",
+    "start": "hugo server -D",
+    "create:bookmark": "./scripts/site.js note:create --type bookmark",
+    "create:like": "./scripts/site.js note:create --type like",
+    "create:note": "./scripts/site.js note:create --type note",
+    "create:reply": "./scripts/site.js note:create --type reply",
+    "create:repost": "./scripts/site.js note:create --type repost",
+    "create:weeknote": "./scripts/site.js weeknote:create"
+  },
+  "mocha": {
+    "timeout": 10000
   },
   "volta": {
     "node": "16.16.0",

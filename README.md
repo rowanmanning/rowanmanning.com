@@ -16,9 +16,9 @@ The source code for [rowanmanning.com](https://rowanmanning.com/).
 
   3. Install npm dependencies with `npm install`
 
-  4. Generate processed webmentions with `make process-webmentions`
+  4. Generate processed webmentions with `npm run wm:process`
 
-  5. Run `make start-dev`
+  5. Run `npm start`
 
   6. Visit [http://localhost:1313/](http://localhost:1313/)
 
@@ -36,25 +36,25 @@ Use Hugo archetypes to write new content:
   * To write a weeknote:
 
     ```bash
-    make new-weeknote
+    npm run create:weeknote
     ```
 
   * To write a note:
 
     ```bash
-    make new-note
+    npm run create:note
     ```
 
     ```bash
-    make new-like URL=https://example.com/
+    npm run create:like https://example.com/
     ```
 
     ```bash
-    make new-reply URL=https://example.com/
+    npm run create:reply https://example.com/
     ```
 
     ```bash
-    make new-repost URL=https://example.com/
+    npm run create:repost https://example.com/
     ```
 
 

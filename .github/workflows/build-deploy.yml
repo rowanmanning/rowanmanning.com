@@ -121,7 +121,7 @@ jobs:
           timezone: Europe/London
 
       - name: Build the website
-        run: make build
+        run: npm run build
 
   # Verify code
   verify:
@@ -153,7 +153,7 @@ jobs:
           node-version: 16
 
       - name: Verify code
-        run: make verify
+        run: npm run verify
 
   # Run theme tests
   test-themes:
@@ -191,7 +191,7 @@ jobs:
           node-version: 16
 
       - name: Run tests
-        run: make test-theme
+        run: npm run test
 
   # Deploy to GitHub Pages production (only on main branch)
   deploy-production:

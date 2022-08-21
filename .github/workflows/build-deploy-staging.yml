@@ -83,7 +83,7 @@ jobs:
           timezone: Europe/London
 
       - name: Build the staging website
-        run: make build-staging
+        run: npm run build-staging
 
   # Deploy to GitHub Pages staging (only on main branch)
   deploy-production:
