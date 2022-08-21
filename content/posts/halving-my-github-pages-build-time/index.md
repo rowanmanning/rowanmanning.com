@@ -23,7 +23,7 @@ resources:
 
 Recently I spent some time overhauling the build process for this website because it was _really_ slow. After [nearly 100 weeknotes](/weeknotes/) (including a lot of images to resize) my build/deploy process was taking 6–7 minutes. Locally my entire site builds in 500–800ms so I decided to investigate where my performance issues were.
 
-The TL;DR here is that my builds have dropped to ~3 minutes, more than half the average. I've also removed some uncertainty about exactly _when_ my site will get deployed. Here are the steps I went through:
+The TL;DR here is that my builds have dropped to ~3 minutes, more than half my original times. I've also removed some uncertainty about exactly _when_ my site will get deployed. Here are the steps I went through:
 
   1. I realised that I wasn't caching [Hugo](https://gohugo.io/)'s build or `resources/_gen` folders in CI, which meant that the entire site had to be built every time. No wonder this was slow! Caching these folders based on a hash of the `config`, `content`, `data`, and `themes` folder reduced build times by a lot and I'm now taking full advantage of how fast Hugo is. Here's the step I defined:
 
