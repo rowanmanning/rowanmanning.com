@@ -49,7 +49,7 @@ The TL;DR here is that my builds have dropped to ~3 minutes, more than half my o
 
       {{< image "workflow-in-parallel.png" >}}
 
-  3. One large bottleneck was the way I was deploying. Until very recently the only way to build GitHub pages was to push to a separate branch or folder then a _separate_ GitHub action would do the deploy under the hood. So, no matter how fast my own workflow was, I was still having to wait for a second one to trigger.
+  3. One large bottleneck was the way I was deploying. Until very recently the only way to build GitHub pages with Hugo was to push to a separate branch or folder then a _separate_ GitHub action would do the deploy under the hood. So, no matter how fast my own workflow was, I was still having to wait for a second one to trigger.
   
       Very recently [GitHub launched a beta for deploying to GitHub Pages from your _own_ GitHub Action](https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/). This is game-changing for me because I have full control over the zipped artefact that gets deployed. No more waiting for GitHub to decide when to deploy my pages, I can trigger it myself immediately after the build :tada:
 
