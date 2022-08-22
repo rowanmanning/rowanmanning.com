@@ -1,0 +1,38 @@
+{
+	"f41bc518a81c502c83136dea42f9aaa7": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "arjun",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg",
+			"url": "https://twitter.com/adgad"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1561685932251684864#favorited-by-24541114",
+		"published": null,
+		"wm-received": "2022-08-22T12:39:51Z",
+		"wm-id": 1465082,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1561685932251684864/24541114",
+		"wm-target": "https://rowanmanning.com/posts/halving-my-github-pages-build-time/",
+		"like-of": "https://rowanmanning.com/posts/halving-my-github-pages-build-time/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"b810202d3d1831fbf238e4343b439e48": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Cristiano Rastelli",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/e782fa90761f64384ea3da11976cfef047678ad162d2db803e8adb201c52c8c5.jpg",
+			"url": "https://twitter.com/areaweb"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1561685932251684864#favorited-by-53359864",
+		"published": null,
+		"wm-received": "2022-08-22T12:39:51Z",
+		"wm-id": 1465083,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1561685932251684864/53359864",
+		"wm-target": "https://rowanmanning.com/posts/halving-my-github-pages-build-time/",
+		"like-of": "https://rowanmanning.com/posts/halving-my-github-pages-build-time/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
