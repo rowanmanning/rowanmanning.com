@@ -56,5 +56,48 @@
 		"like-of": "https://rowanmanning.com/weeknotes/95/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"957338b4f235d67966f849ebd4483b23": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jermila Dhas",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg",
+			"url": "https://twitter.com/JermilaD"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1561294415859224582#favorited-by-1008287622865747968",
+		"published": null,
+		"wm-received": "2022-08-28T20:20:49Z",
+		"wm-id": 1497592,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1561294415859224582/1008287622865747968",
+		"wm-target": "https://rowanmanning.com/weeknotes/95/",
+		"like-of": "https://rowanmanning.com/weeknotes/95/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"c025d0096c43898cd06d6a7e88a1178c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jermila Dhas",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg",
+			"url": "https://twitter.com/JermilaD"
+		},
+		"url": "https://twitter.com/JermilaD/status/1563984194711207937",
+		"published": "2022-08-28T20:17:44+00:00",
+		"wm-received": "2022-08-28T20:20:49Z",
+		"wm-id": 1497593,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1561294415859224582/1563984194711207937",
+		"wm-target": "https://rowanmanning.com/weeknotes/95/",
+		"photo": [
+			"https://pbs.twimg.com/media/FbRjQwsX0AAUcuh.jpg"
+		],
+		"content": {
+			"html": "We did 😀\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/simonleggsays\"></a>",
+			"text": "We did 😀"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/95/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
