@@ -99,5 +99,27 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/95/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"6080779ebc9340d8b4369ca5232cd773": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Simon Legg",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/65cf8b43ddff72bdf3f08847e573587066938716da22309dd07eae2cdf6f0309.jpg",
+			"url": "https://twitter.com/simonleggsays"
+		},
+		"url": "https://twitter.com/simonleggsays/status/1564143788431446016",
+		"published": "2022-08-29T06:51:54+00:00",
+		"wm-received": "2022-08-29T07:25:15Z",
+		"wm-id": 1498229,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1561294415859224582/1564143788431446016",
+		"wm-target": "https://rowanmanning.com/weeknotes/95/",
+		"content": {
+			"html": "🥰🥰🥰 I’m so happy for you both!!\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/JermilaD\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "🥰🥰🥰 I’m so happy for you both!!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/95/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
