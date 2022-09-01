@@ -26,30 +26,31 @@
 
 {{/* Define resized resources */}}
 {{- $resized := false -}}
-{{- if $resource -}}
-	{{-
-		$resized = (dict
-			"onex" (cond (gt $resource.Width 720) ($resource.Resize "720x").Permalink $imagePermalink)
-			"onepointfivex" (cond (gt $resource.Width 1080) ($resource.Resize "1080x").Permalink $imagePermalink)
-			"twox" (cond (gt $resource.Width 1440) ($resource.Resize "1440x").Permalink $imagePermalink)
-		)
-	-}}
-{{- end -}}
 
 {{/* Check if the image is in a gallery shortcode */}}
 {{ $imageInGallery := false }}
-{{- with .Parent -}}
-	{{- if eq .Name "gallery" -}}
-		{{- $imageInGallery = true -}}
+
+{{- if $resource -}}
+	{{- if and .Parent (eq .Parent.Name "gallery") -}}
+		{{- with .Parent -}}
+			{{- $imageInGallery = true -}}
+			{{-
+				$resized = (dict
+					"onex" ($resource.Fill "720x720").Permalink
+					"onepointfivex" ($resource.Fill "1080x1080").Permalink
+					"twox" ($resource.Fill "1440x1440").Permalink
+				)
+			-}}
+			{{- $imagePermalink = $resized.onepointfivex -}}
+		{{- end -}}
+	{{- else -}}
 		{{-
 			$resized = (dict
-				"onex" ($resource.Fill "720x720").Permalink
-				"onepointfivex" ($resource.Fill "1080x1080").Permalink
-				"twox" ($resource.Fill "1440x1440").Permalink
+				"onex" (cond (gt $resource.Width 720) ($resource.Resize "720x").Permalink $imagePermalink)
+				"onepointfivex" (cond (gt $resource.Width 1080) ($resource.Resize "1080x").Permalink $imagePermalink)
+				"twox" (cond (gt $resource.Width 1440) ($resource.Resize "1440x").Permalink $imagePermalink)
 			)
 		-}}
-		{{- $resource = $resource.Fill "1080x1080" -}}
-		{{- $imagePermalink = $resource.Permalink -}}
 	{{- end -}}
 {{- end -}}
 
