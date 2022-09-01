@@ -37,8 +37,8 @@
     "mocha": "^10.0.0"
   },
   "scripts": {
-    "build": "npm run wm:process && hugo --minify --environment production",
-    "build-staging": "npm run wm:process && hugo --minify --environment staging",
+    "build": "npm run wm:process && hugo --minify --cleanDestinationDir --environment production",
+    "build-staging": "npm run wm:process && hugo --minify --cleanDestinationDir --environment staging",
     "wm:fetch": "./scripts/site.js wm:fetch --api-key ${WEBMENTION_API_KEY}",
     "wm:process": "./scripts/site.js wm:process",
     "verify": "npm run verify:eslint",
