@@ -27,22 +27,30 @@
 {{/* Define resized resources */}}
 {{- $resized := false -}}
 
-{{/* Check if the image is in a gallery shortcode */}}
+{{/* Resize the image based on its context */}}
 {{ $imageInGallery := false }}
+{{ $imageInPin := false }}
 
 {{- if $resource -}}
 	{{- if and .Parent (eq .Parent.Name "gallery") -}}
-		{{- with .Parent -}}
-			{{- $imageInGallery = true -}}
-			{{-
-				$resized = (dict
-					"onex" ($resource.Fill "720x720").Permalink
-					"onepointfivex" ($resource.Fill "1080x1080").Permalink
-					"twox" ($resource.Fill "1440x1440").Permalink
-				)
-			-}}
-			{{- $imagePermalink = $resized.onepointfivex -}}
-		{{- end -}}
+		{{- $imageInGallery = true -}}
+		{{-
+			$resized = (dict
+				"onex" ($resource.Fill "720x720").Permalink
+				"onepointfivex" ($resource.Fill "1080x1080").Permalink
+				"twox" ($resource.Fill "1440x1440").Permalink
+			)
+		-}}
+		{{- $imagePermalink = $resized.onepointfivex -}}
+	{{- else if and .Parent (eq .Parent.Name "pin") -}}
+		{{- $imageInPin = true -}}
+		{{-
+			$resized = (dict
+				"onex" (cond (gt $resource.Width 240) ($resource.Resize "240x").Permalink $imagePermalink)
+				"onepointfivex" (cond (gt $resource.Width 360) ($resource.Resize "360x").Permalink $imagePermalink)
+				"twox" (cond (gt $resource.Width 720) ($resource.Resize "720x").Permalink $imagePermalink)
+			)
+		-}}
 	{{- else -}}
 		{{-
 			$resized = (dict
