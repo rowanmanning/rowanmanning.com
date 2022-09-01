@@ -43,10 +43,10 @@ describe('website with images', () => {
 				});
 
 				assert.strictEqual(subject[0].image, 'https://images.mock.local/section001s/item001/image-b.jpg');
-				assert.match(subject[0].thumbnailUrl, /^https:\/\/images\.mock\.local\/section001s\/item001\/image-b_.*_160x160_.*\.jpg$/);
+				assert.match(subject[0].thumbnailUrl, /^https:\/\/images\.mock\.local\/section001s\/item001\/image-b_.*_256x256_.*\.jpg$/);
 
 				assert.strictEqual(subject[1].image, 'https://images.mock.local/section001s/item002/image-a.png');
-				assert.match(subject[1].thumbnailUrl, /^https:\/\/images\.mock\.local\/section001s\/item002\/image-a_.*_160x160_.*\.png$/);
+				assert.match(subject[1].thumbnailUrl, /^https:\/\/images\.mock\.local\/section001s\/item002\/image-a_.*_256x256_.*\.png$/);
 			});
 
 		});
@@ -129,7 +129,7 @@ describe('website with images', () => {
 				const data = parseStructuredData(findTestElements(document, 'content-full')[0]);
 
 				assert.strictEqual(data.image, 'https://images.mock.local/section001s/item001/image-b.jpg');
-				assert.match(data.thumbnailUrl, /^https:\/\/images\.mock\.local\/section001s\/item001\/image-b_.*_160x160_.*\.jpg$/);
+				assert.match(data.thumbnailUrl, /^https:\/\/images\.mock\.local\/section001s\/item001\/image-b_.*_256x256_.*\.jpg$/);
 			});
 
 		});
@@ -162,7 +162,7 @@ describe('website with images', () => {
 					const data = parseStructuredData(findTestElements(document, 'content-full')[0]);
 
 					assert.strictEqual(data.image, 'https://images.mock.local/section001s/item002/image-a.png');
-					assert.match(data.thumbnailUrl, /^https:\/\/images\.mock\.local\/section001s\/item002\/image-a_.*_160x160_.*\.png$/);
+					assert.match(data.thumbnailUrl, /^https:\/\/images\.mock\.local\/section001s\/item002\/image-a_.*_256x256_.*\.png$/);
 				});
 
 			});
