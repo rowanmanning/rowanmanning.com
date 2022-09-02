@@ -20,6 +20,7 @@
     "npm": "8.x"
   },
   "dependencies": {
+    "@rowanmanning/list-all-files": "^2.2.1",
     "accessible-autocomplete": "^2.0.4",
     "commander": "^9.4.0",
     "dompurify": "^2.3.4",
@@ -28,6 +29,7 @@
     "jsdom": "^20.0.0",
     "lunr": "^2.3.9",
     "microformats-parser": "^1.4.1",
+    "sharp": "^0.30.7",
     "text-clipper": "^2.2.0"
   },
   "devDependencies": {
@@ -51,7 +53,8 @@
     "create:note": "./scripts/site.js note:create --type note",
     "create:reply": "./scripts/site.js note:create --type reply",
     "create:repost": "./scripts/site.js note:create --type repost",
-    "create:weeknote": "./scripts/site.js weeknote:create"
+    "create:weeknote": "./scripts/site.js weeknote:create",
+    "image:clamp": "./scripts/site.js image:clamp"
   },
   "mocha": {
     "timeout": 10000

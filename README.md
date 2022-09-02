@@ -58,6 +58,15 @@ Use Hugo archetypes to write new content:
     ```
 
 
+## Resizing images
+
+Source images should have a max width or height of 1800px, this can be ensured by running:
+
+```bash
+npm run image:clamp
+```
+
+
 ## Licence
 
 Site content is copyright Rowan Manning. You may not use any of the page content, posts, or images without permission.

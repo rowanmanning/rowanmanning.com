@@ -6,6 +6,9 @@ const {program} = require('commander');
 
 program
 	.version(manifest.version)
+	.command('image:clamp', 'clamp images to the site maximum dimensions', {
+		executableFile: 'site-image-clamp'
+	})
 	.command('weeknote:create', 'create a new weeknote', {
 		executableFile: 'site-weeknote-create'
 	})
