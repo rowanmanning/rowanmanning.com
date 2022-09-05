@@ -1,0 +1,20 @@
+{
+	"8733fdf35245a8c7883a58264de1e046": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1566508518609457155#favorited-by-127856293",
+		"published": null,
+		"wm-received": "2022-09-05T06:41:10Z",
+		"wm-id": 1510977,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1566508518609457155/127856293",
+		"wm-target": "https://rowanmanning.com/weeknotes/97/",
+		"like-of": "https://rowanmanning.com/weeknotes/97/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
