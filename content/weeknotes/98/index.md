@@ -3,8 +3,8 @@
 # ---------------------------
 title: "Week 98: Dark Void"
 date: 2022-09-11T18:30:00+01:00
-description: "A week of new prime ministers, new monarchs, birthday drinks, AI-generated images, a holiday in Wales, and long walks."
-tags: ["Work", "Social", "Holiday", "Walking"]
+description: "A week of new prime ministers, new monarchs, new leaks, birthday drinks, AI-generated images, a holiday in Wales, and long walks."
+tags: ["Work", "Social", "Holiday", "Walking", "House"]
 
 # Weeknote display
 # ----------------
@@ -25,6 +25,8 @@ resources:
   * Later in the week, the queen died. It's interesting to work for a newspaper when this stuff happens because we get a lot more traffic and we're all slightly more on-edge in case the website falls over.
 
   * I don't feel particularly impacted by the news. It'll be slightly odd, because she's been a feature of British society for so long, but also abolish the monarchy.
+
+  * The flat above ours started leaking water through the kitchen and bathroom ceilings :grimacing: on the plus side I met my upstairs neighbour finally.
 
   * Mara was in town and hosted some birthday drinks near our flat, so we went along and drank a bit much for a weekday.
 
