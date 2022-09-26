@@ -1,0 +1,20 @@
+{
+	"1dbc0df81c489eefc24d4c7a35041f69": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Hobby.J",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/da651ecc7b5898f1ee017b8c2e23c5bb7b712a362e1570d3e8c19f7691988feb.jpg",
+			"url": "https://twitter.com/Hobby_J_ch"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1574347640661327874#favorited-by-1470915855198584833",
+		"published": null,
+		"wm-received": "2022-09-26T11:13:26Z",
+		"wm-id": 1526633,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1574347640661327874/1470915855198584833",
+		"wm-target": "https://rowanmanning.com/weeknotes/100/",
+		"like-of": "https://rowanmanning.com/weeknotes/100/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
