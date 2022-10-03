@@ -1,0 +1,38 @@
+{
+	"34b0cc576a59121918620a69e6f7fc3d": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1576904404170526720#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2022-10-03T12:21:21Z",
+		"wm-id": 1532186,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1576904404170526720/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/101/",
+		"like-of": "https://rowanmanning.com/weeknotes/101/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"0284327b78c887f3d712c57645475a0b": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Mel",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/36fc36127bcb42dd70ccc319e1fe42a74579a9a9cbeadacd802ac4c2e525cc42.jpg",
+			"url": "https://twitter.com/Mellywellington"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1576904404170526720#favorited-by-22151589",
+		"published": null,
+		"wm-received": "2022-10-03T12:21:22Z",
+		"wm-id": 1532187,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1576904404170526720/22151589",
+		"wm-target": "https://rowanmanning.com/weeknotes/101/",
+		"like-of": "https://rowanmanning.com/weeknotes/101/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
