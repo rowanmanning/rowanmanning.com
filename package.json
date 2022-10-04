@@ -33,7 +33,7 @@
     "text-clipper": "^2.2.0"
   },
   "devDependencies": {
-    "@rowanmanning/eslint-config": "^4.0.6",
+    "@rowanmanning/eslint-config": "^4.0.7",
     "chai": "^4.3.6",
     "eslint": "^8.24.0",
     "mocha": "^10.0.0"
