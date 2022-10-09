@@ -2,7 +2,7 @@
 # Weeknote title and metadata
 # ---------------------------
 title: "Week 102: Roundhouse"
-date: 2022-10-09T21:27:05+01:00
+date: 2022-10-09T22:55:00+01:00
 description: "A week of incidents, nice pairing sessions, Eurovision planning, 60th birthday parties, ladders, matching outfits, and shiny new dotfiles."
 tags: ["Family", "Work", "Social", "Side Projects", "Eurovision"]
 
