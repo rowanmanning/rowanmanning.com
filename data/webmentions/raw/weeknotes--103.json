@@ -1,0 +1,20 @@
+{
+	"2ef7058d92321659c595c548b4f8950c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jermila Dhas",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg",
+			"url": "https://twitter.com/JermilaD"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1581934098464980992#favorited-by-1008287622865747968",
+		"published": null,
+		"wm-received": "2022-10-17T16:34:07Z",
+		"wm-id": 1540350,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1581934098464980992/1008287622865747968",
+		"wm-target": "https://rowanmanning.com/weeknotes/103/",
+		"like-of": "https://rowanmanning.com/weeknotes/103/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
