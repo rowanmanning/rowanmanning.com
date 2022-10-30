@@ -19,6 +19,14 @@ resources:
     title: "A screenshot of the parallel jobs on GitHub: install flows into build, verify, and test jobs"
     params:
       link: "https://github.com/rowanmanning/rowanmanning.com/actions/runs/2897812350"
+
+# Links
+# -----
+syndication:
+  - url: https://mastodon.social/@rowanmanning/109256948757155313
+    name: Mastodon
+  - url: https://twitter.com/rowanmanning/status/1561685932251684864
+    name: Twitter
 ---
 
 Recently I spent some time overhauling the build process for this website because it was _really_ slow. After [nearly 100 weeknotes](/weeknotes/) (including a lot of images to resize) my build/deploy process was taking 6–7 minutes. Locally my entire site builds in 500–800ms so I decided to investigate where my performance issues were.

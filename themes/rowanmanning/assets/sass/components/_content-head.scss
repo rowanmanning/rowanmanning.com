@@ -99,6 +99,11 @@
 	background-image: url("#{$site-base-url}icons/link-inverted.svg");
 }
 
+// Content head social icon element, "mastodon" modifier
+.content-head__social-icon--mastodon {
+	background-image: url("#{$site-base-url}icons/mastodon-inverted.svg");
+}
+
 // Content head social icon element, "twitter" modifier
 .content-head__social-icon--twitter {
 	background-image: url("#{$site-base-url}icons/twitter-inverted.svg");

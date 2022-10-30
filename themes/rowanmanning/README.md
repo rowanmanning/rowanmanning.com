@@ -17,6 +17,7 @@ author:
   name: "Rowan Manning"             # The author name
   url: "https://rowanmanning.com/"  # The author's website
   github: "rowanmanning"            # The author's GitHub username
+  mastodon: "https://..."           # The author's Mastodon URL
   twitter: "rowanmanning"           # The author's Twitter handle
 ```
 
