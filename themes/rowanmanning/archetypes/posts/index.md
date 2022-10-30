@@ -26,10 +26,7 @@ tags: []
 #   url: "https://example.com/post"
 # syndication:
 #   - url: https://example.com/
-#     label: Example
-#   - url: https://twitter.com/...
-#     label: Example
-#     type: twitter
+#     name: Example
 # reviewers:
 #   - name: "Full Name"
 #     website: "https://example.com/"
