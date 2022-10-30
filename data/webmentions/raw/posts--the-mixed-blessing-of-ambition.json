@@ -20,5 +20,23 @@
 		"mention-of": "https://rowanmanning.com/posts/the-mixed-blessing-of-ambition/",
 		"wm-property": "mention-of",
 		"wm-private": false
+	},
+	"cb433e22cdb0250be4777cc1d706c4b6": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Watts 🇪🇺",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8c70f718e4406bff7054ed72048c5642dff4717708a98391bacae712e2aea6b5.jpg",
+			"url": "https://twitter.com/thisislawatts"
+		},
+		"url": "https://twitter.com/rowanmanning/status/276319490353012736#favorited-by-179058002",
+		"published": null,
+		"wm-received": "2022-10-30T15:12:55Z",
+		"wm-id": 1547255,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/276319490353012736/179058002",
+		"wm-target": "https://rowanmanning.com/posts/the-mixed-blessing-of-ambition/",
+		"like-of": "https://rowanmanning.com/posts/the-mixed-blessing-of-ambition/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }

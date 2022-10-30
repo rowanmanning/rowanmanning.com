@@ -1,0 +1,59 @@
+{
+	"6827b5631b3b272e8ffda80cae76c43f": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Harry Roberts",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d8845f0181965cb7c09beb2bc1ba37fc32c4e7aa964db1aab6d6206713ca9b20.jpg",
+			"url": "https://twitter.com/csswizardry"
+		},
+		"url": "https://twitter.com/rowanmanning/status/228021978072764417#favorited-by-24765829",
+		"published": null,
+		"wm-received": "2022-10-30T15:08:58Z",
+		"wm-id": 1547247,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/228021978072764417/24765829",
+		"wm-target": "https://rowanmanning.com/posts/why-another-css-grid/",
+		"like-of": "https://rowanmanning.com/posts/why-another-css-grid/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"b372556988beb14fb528dc0d32188598": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Tanc",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/0a03db2bfca31fee3adc7c16fcbda39547ac97932c0d31bc234e260b747e7ddf.jpg",
+			"url": "https://twitter.com/tancdev"
+		},
+		"url": "https://twitter.com/rowanmanning/status/228021978072764417#favorited-by-245946879",
+		"published": null,
+		"wm-received": "2022-10-30T15:08:58Z",
+		"wm-id": 1547246,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/228021978072764417/245946879",
+		"wm-target": "https://rowanmanning.com/posts/why-another-css-grid/",
+		"like-of": "https://rowanmanning.com/posts/why-another-css-grid/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"2a35b486a2993d9dd802d19c657e9d89": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jamie Mason",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/b91a52bcb7aba05f10d82983042e4ac855d204706c16ffe5eb1d9b5c8b3c32a1.jpg",
+			"url": "https://twitter.com/fold_left"
+		},
+		"url": "https://twitter.com/fold_left/status/228031485872054272",
+		"published": "2012-07-25T07:38:37+00:00",
+		"wm-received": "2022-10-30T15:09:00Z",
+		"wm-id": 1547248,
+		"wm-source": "https://brid.gy/repost/twitter/rowanmanning/228021978072764417/228031485872054272",
+		"wm-target": "https://rowanmanning.com/posts/why-another-css-grid/",
+		"content": {
+			"text": "Blogged yesterday, for those who missed it :) “Why I Built Another CSS Grid” rowanmanning.co.uk/posts/why-anot… #CSS #opensource"
+		},
+		"repost-of": "https://rowanmanning.com/posts/why-another-css-grid/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	}
+}

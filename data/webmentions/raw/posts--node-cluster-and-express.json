@@ -1692,5 +1692,23 @@
 		"mention-of": "https://rowanmanning.com/posts/node-cluster-and-express/",
 		"wm-property": "mention-of",
 		"wm-private": false
+	},
+	"d98b44b686d97672b75d69af32806914": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "James Ibbotson",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/8def9aef106c90e9fba1d75e4d0f15739856dd408520fa08e62f7695b35cf21e.jpg",
+			"url": "https://twitter.com/ibbo401"
+		},
+		"url": "https://twitter.com/rowanmanning/status/289643542429696001#favorited-by-133189481",
+		"published": null,
+		"wm-received": "2022-10-30T15:17:09Z",
+		"wm-id": 1547257,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/289643542429696001/133189481",
+		"wm-target": "https://rowanmanning.com/posts/node-cluster-and-express/",
+		"like-of": "https://rowanmanning.com/posts/node-cluster-and-express/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }

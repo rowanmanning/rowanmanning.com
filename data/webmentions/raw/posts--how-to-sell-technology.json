@@ -1,0 +1,42 @@
+{
+	"6d21cdd5546c20fede0dbfecadfcf5f9": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Sam Hicks",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/b1b8f456c3ab74b561773df0cce8f1c7b9c19aefe0c7e6f89c6944b521cd39fd.jpg",
+			"url": "https://twitter.com/samhicks1985"
+		},
+		"url": "https://twitter.com/rowanmanning/status/267926413099802624#favorited-by-54899061",
+		"published": null,
+		"wm-received": "2022-10-30T15:10:13Z",
+		"wm-id": 1547250,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/267926413099802624/54899061",
+		"wm-target": "https://rowanmanning.com/posts/how-to-sell-technology/",
+		"like-of": "https://rowanmanning.com/posts/how-to-sell-technology/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"6a8cfd0181d8aa5eadb7ffcc31321c63": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Hung Lee",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ddd2013a8e88a58a13c1621b8e272b819a92e407bad5b53c6723072e95d685fb.jpg",
+			"url": "https://twitter.com/HungLee"
+		},
+		"url": "https://twitter.com/HungLee/status/267941966287876097",
+		"published": "2012-11-12T10:48:37+00:00",
+		"wm-received": "2022-10-30T15:14:08Z",
+		"wm-id": 1547256,
+		"wm-source": "https://brid.gy/post/twitter/rowanmanning/267941966287876097",
+		"wm-target": "https://rowanmanning.com/posts/how-to-sell-technology/",
+		"content": {
+			"html": "\"How To Sell Technology\" <a href=\"http://rowanmanning.co.uk/posts/how-to-sell-technology\">rowanmanning.co.uk/posts/how-to-s…</a> &lt;--- <a href=\"https://twitter.com/rowanmanning\">@rowanmanning</a> on a rant? That gets a RT\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/how-to-sell-technology/\"></a>",
+			"text": "\"How To Sell Technology\" rowanmanning.co.uk/posts/how-to-s… <--- @rowanmanning on a rant? That gets a RT"
+		},
+		"mention-of": "https://rowanmanning.com/posts/how-to-sell-technology/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	}
+}
