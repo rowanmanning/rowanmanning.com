@@ -52,5 +52,27 @@
 		"like-of": "https://rowanmanning.com/posts/halving-my-github-pages-build-time/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"114cad1a78ef7f413e2be243adac4484": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan",
+			"photo": "https://webmention.io/avatar/files.mastodon.social/83ec3a1e6e0db558ec669d32b6dda20feab53cc3435122167809c9a6df99bc1f.png",
+			"url": "https://mastodon.social/@rowanmanning"
+		},
+		"url": "https://mastodon.social/@rowanmanning/109257011091594949",
+		"published": "2022-10-30T11:34:45",
+		"wm-received": "2022-10-30T12:09:17Z",
+		"wm-id": 1547192,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowanmanning@mastodon.social/109256948757155313/109257011091594949",
+		"wm-target": "https://rowanmanning.com/posts/halving-my-github-pages-build-time/",
+		"content": {
+			"html": "<p>Yay Mastodon -&gt; Webmention is working 🎉</p>",
+			"text": "Yay Mastodon -> Webmention is working 🎉"
+		},
+		"in-reply-to": "https://rowanmanning.com/posts/halving-my-github-pages-build-time/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
