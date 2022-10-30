@@ -1,16 +1,24 @@
 ---
+# Post title and metadata
+# -----------------------
 title: "Organising a virtual treasure hunt as a team social"
 aliases:
   - /posts/organising-a-virtual-treasure-hunt-as-a-team-social/
-date: 2021-05-10 14:00:00
+date: 2021-05-10T14:00:00
 description: "The real treasures were the friends we made along the way."
 crossPost:
   siteName: "FT Product & Technology"
   siteUrl: "https://medium.com/ft-product-technology"
   url: "https://medium.com/ft-product-technology/organising-a-virtual-treasure-hunt-as-a-team-social-ab689e700fc"
 cta: "Read about how we built a fun virtual treasure hunt"
-highlight: "yellow"
 tags: ["Social", "Team Building", "Treasure"]
+
+# Post display
+# ------------
+highlight: "yellow"
+
+# Images and resources
+# --------------------
 mainImage: "treasure-hunt-slide.png"
 resources:
   - src: "hype-01.png"
@@ -37,6 +45,9 @@ resources:
     title: "A screenshot of a Twilio Studio, with lines connecting an incoming SMS trigger to various automated responses"
   - src: "treasure-hunt-slide.png"
     title: "A slide from our presentation, it contains an image of a treasure chest and the words “We’re going to take you on a treasure hunt to commemorate a pretty tough 365 days”"
+
+# Links
+# -----
 reviewers:
   - name: Emma Lewis
     website: https://www.ft.com/emma-lewis

@@ -33,6 +33,8 @@ syndication:
   links:
     - url: https://news.indieweb.org/en/rowanmanning.com/posts/webmentions-for-your-static-site/
       name: IndieNews
+    - url: https://twitter.com/rowanmanning/status/1412687742543273988
+      name: Twitter
 reviewers:
   - name: "Chee Rabbits"
     website: "https://chee.party/"

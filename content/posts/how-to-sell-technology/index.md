@@ -1,9 +1,19 @@
 ---
 title: "How to Sell Technology"
-date: 2012-11-10 16:15:00
+date: 2012-11-10T16:15:00
 description: "The dressing up of technology in advertising doesn't work for me. I like to know how the product looks, feels and works in as short a time as possible. The same applies to web design."
 cta: "Read about selling technology"
+
+# Post display
+# ------------
 highlight: "cyan"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: https://twitter.com/rowanmanning/status/267926413099802624
+      name: Twitter
 ---
 
 

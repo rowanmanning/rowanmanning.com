@@ -1,14 +1,29 @@
 ---
+# Post title and metadata
+# -----------------------
 title: "A New Home For Pa11y"
-date: 2016-05-23 18:30:00
+date: 2016-05-23T18:30:00
 description: "Pa11y has moved to a new organisation on GitHub. It's a time of change for the project, and the team is extremely excited about the future."
 cta: "Read about Pa11y's move"
-highlight: "blue"
 tags: ["Accessibility", "Pa11y"]
+
+# Post display
+# ------------
+highlight: "blue"
+
+# Images and resources
+# --------------------
 mainImage: "pa11y-logo.png"
 resources:
   - src: "pa11y-logo.png"
     title: "The Pa11y logo, a P character in multiple colours"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: https://twitter.com/rowanmanning/status/735070525299429377
+      name: Twitter
 ---
 
 

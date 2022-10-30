@@ -1,12 +1,17 @@
 ---
+# Post title and metadata
+# -----------------------
 title: "Jekyll Site Redesign/Build"
 aliases:
   - /posts/jekyll-site-redesign/build/
-date: 2013-02-11 00:16:00
+date: 2013-02-11T00:16:00
 description: "I rebuilt my site with Jekyll, along with a small design refresh; it went so smoothly I thought I'd blog about it. Definitely something to consider if you're building a small site."
 cta: "Read about my site rebuild"
-highlight: "orange"
 tags: ["Design", "Jekyll"]
+
+# Post display
+# ------------
+highlight: "orange"
 ---
 
 

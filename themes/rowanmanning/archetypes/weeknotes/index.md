@@ -16,6 +16,13 @@ tags: []
 # resources:
 #   - src: "example.jpg"
 #     title: "TODO: alt text goes here"
+
+# Links
+# -----
+# syndication:
+#   links:
+#     - url: https://example.com/
+#       name: Example
 ---
 
   * TODO: Content goes here.

@@ -1,13 +1,25 @@
 ---
+# Post title and metadata
+# -----------------------
 title: "Node.js Cluster and Express"
 aliases:
   - /posts/node.js-cluster-and-express/
-date: 2013-01-10 20:18:00
-lastmod: 2013-09-21 13:54:00
+date: 2013-01-10T20:18:00
+lastmod: 2013-09-21T13:54:00
 description: "A simple tutorial on using Node.js 0.8+'s Cluster module with Express to dramatically improve app performance."
 cta: "Learn about clustering and express"
-highlight: "lime"
 tags: ["Node.js", "JavaScript", "Express", "Cluster"]
+
+# Post display
+# ------------
+highlight: "lime"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: https://twitter.com/rowanmanning/status/289643542429696001
+      name: Twitter
 ---
 
 

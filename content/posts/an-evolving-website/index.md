@@ -1,10 +1,18 @@
 ---
+# Post title and metadata
+# -----------------------
 title: "An Evolving Website"
-date: 2016-03-07 20:15:00
+date: 2016-03-07T20:15:00
 description: "A short journey through iterations of my website, from 2010–2016, and all of the odd decisions I've made along the way."
 cta: "Come with me now on a journey through time and space"
-highlight: "orange"
 tags: ["Design"]
+
+# Post display
+# ------------
+highlight: "orange"
+
+# Images and resources
+# --------------------
 resources:
   - src: "2010.jpg"
     title: "2010 Design"
@@ -20,6 +28,13 @@ resources:
     title: "2015 Design"
   - src: "2016.jpg"
     title: "2016 Design"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: https://twitter.com/rowanmanning/status/707540216030965760
+      name: Twitter
 ---
 
 

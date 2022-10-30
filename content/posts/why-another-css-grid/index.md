@@ -1,17 +1,33 @@
 ---
+# Post title and metadata
+# -----------------------
 title: "Why I Built Another CSS Grid"
 aliases:
   - /posts/why-i-built-another-css-grid/
-date: 2012-07-24 21:34:00
+date: 2012-07-24T21:34:00
 description: "Building yet another grid system could be seen as bloating an already-bloated landscape; but sometimes, rolling your own tools is one of the best things you can do."
 cta: "Read about Frag"
-highlight: "purple"
 tags: ["CSS"]
+
+# Post display
+# ------------
+highlight: "purple"
+
+# Images and resources
+# --------------------
+mainImage: "frag-website-screengrab.jpg"
 resources:
   - src: "frag-website-screengrab.jpg"
     title: "A screen-grab of the Frag website"
     params:
       link: "http://fragcss.com/"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: https://twitter.com/rowanmanning/status/228021978072764417
+      name: Twitter
 ---
 
 

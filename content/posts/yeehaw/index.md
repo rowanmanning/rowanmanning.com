@@ -1,16 +1,31 @@
 ---
+# Post title and metadata
+# -----------------------
 title: "Yeehaw!"
-date: 2020-11-20 11:50:00
-lastmod: 2020-11-21 09:10:00
+date: 2020-11-20T11:50:00
+lastmod: 2020-11-21T09:10:00
 description: "Way back in March this year, early on in lockdown, I had a burst of inspiration and built a silly game which you can play on Slack. I wanted to talk through the process I go through on the rare occasion when I start a side project."
 cta: "Saddle up"
-highlight: "pink"
 tags: ["Side Projects", "Yeehaw"]
+
+# Post display
+# ------------
+highlight: "pink"
+
+# Images and resources
+# --------------------
 resources:
   - src: "demo.gif"
     title: "Four horse racing emoji race across the screen from right to left, reaching the finish line in turn"
     params:
       link: "https://github.com/rowanmanning/yeehaw#readme"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: https://twitter.com/rowanmanning/status/1329754039291142144
+      name: Twitter
 reviewers:
   - name: Jennifer Johnson
     website: https://medium.com/@jkerr321

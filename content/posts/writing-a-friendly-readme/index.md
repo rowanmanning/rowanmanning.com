@@ -1,10 +1,18 @@
 ---
+# Post title and metadata
+# -----------------------
 title: "Writing a Friendly README"
-date: 2016-03-14 17:25:00
+date: 2016-03-14T17:25:00
 description: "A README is one of the first things people see when they find your open source project. It should be helpful, welcoming, and friendly."
 cta: "Learn how to write a loveable README"
-highlight: "pink"
 tags: ["Open-Source", "Writing", "Documentation"]
+
+# Post display
+# ------------
+highlight: "pink"
+
+# Images and resources
+# --------------------
 mainImage: false
 resources:
   - src: "heading-01.png"
@@ -62,6 +70,13 @@ resources:
     params:
       link: "https://gist.github.com/rowanmanning/77f31b2392dda1b58674#file-license-01-md"
       caption: "License and copyright information"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: https://twitter.com/rowanmanning/status/709709511074840576
+      name: Twitter
 ---
 
 

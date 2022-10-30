@@ -1,14 +1,22 @@
 ---
+# Post title and metadata
+# -----------------------
 title: "Accessibility Testing with pa11y"
-date: 2014-03-11 09:10:00
+date: 2014-03-11T09:10:00
 description: "An overview of using the pa11y accessibility testing tool to find issues with your web pages."
 crossPost:
   siteName: "Cruft"
   siteUrl: "http://cruft.io/"
   url: "http://cruft.io/posts/accessibility-testing-with-pa11y/"
 cta: "Learn how to use pa11y"
-highlight: "blue"
 tags: ["Accessibility", "Pa11y"]
+
+# Post display
+# ------------
+highlight: "blue"
+
+# Images and resources
+# --------------------
 mainImage: "pa11y-logo.png"
 resources:
   - src: "cli-report.png"

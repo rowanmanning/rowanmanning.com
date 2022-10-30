@@ -1,11 +1,23 @@
 ---
+# Post title and metadata
+# -----------------------
 title: "Building CSSDB"
-date: 2013-03-30 00:38:00
-lastmod: 2013-04-04 20:59:00
+date: 2013-03-30T00:38:00
+lastmod: 2013-04-04T20:59:00
 description: "How I tackled the build of CSSDB over a weekend. Outlining my technological decisions, and how the site kept nice and snappy under heavy load."
 cta: "Read about CSSDB"
-highlight: "purple"
 tags: ["CSS", "JavaScript", "Node.js", "Express"]
+
+# Post display
+# ------------
+highlight: "purple"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: https://twitter.com/rowanmanning/status/317934893378195456
+      name: Twitter
 ---
 
 

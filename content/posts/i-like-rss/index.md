@@ -1,11 +1,19 @@
 ---
+# Post title and metadata
+# -----------------------
 title: "I Like RSS"
-date: 2020-12-04 12:35:00
-lastmod: 2012-12-07 13:45:00
+date: 2020-12-04T12:35:00
+lastmod: 2012-12-07T13:45:00
 description: "An explainer on RSS and feed readers, a history of my reading habits over the years, and Audrey – a new open source project that will hopefully encourage me to read more."
 cta: "Read a bit about web feeds"
-highlight: "orange"
 tags: ["Side Projects", "RSS", "Audrey"]
+
+# Post display
+# ------------
+highlight: "orange"
+
+# Images and resources
+# --------------------
 mainImage: "audrey.png"
 resources:
   - src: "audrey.png"
@@ -30,6 +38,13 @@ resources:
     title: "A screenshot of the Stringer interface"
     params:
       caption: "The Stringer interface is really simple and stripped back compared to my previous readers"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: https://twitter.com/rowanmanning/status/1334841646446415872
+      name: Twitter
 reviewers:
   - name: Arjun Gadhia
     website: https://www.thegadhian.com/

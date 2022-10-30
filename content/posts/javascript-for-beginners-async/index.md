@@ -1,10 +1,22 @@
 ---
+# Post title and metadata
+# -----------------------
 title: "JavaScript for Beginners: Async"
-date: 2013-06-27 20:15:00
+date: 2013-06-27T20:15:00
 description: "An introduction to asynchronous JavaScript, part of a series on JavaScript for Beginners."
 cta: "Learn about async"
-highlight: "yellow"
 tags: ["JavaScript", "Tutorial"]
+
+# Post display
+# ------------
+highlight: "yellow"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: https://twitter.com/rowanmanning/status/350513421663485953
+      name: Twitter
 ---
 
 
