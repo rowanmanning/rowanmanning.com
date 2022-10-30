@@ -89,12 +89,14 @@
 						</li>
 					{{ end }}
 					{{ with .Params.syndication }}
-						{{ range . }}
-							<li>
-								<a href="{{ .url }}" class="content-head__social-icon content-head__social-icon--syndication {{ with .name }}content-head__social-icon--{{ . | urlize }}{{ end }} u-syndication">
-									Syndicated to {{ .name }}
-								</a>
-							</li>
+						{{ if .links }}
+							{{ range .links }}
+								<li>
+									<a href="{{ .url }}" class="content-head__social-icon content-head__social-icon--syndication {{ with .name }}content-head__social-icon--{{ . | urlize }}{{ end }} u-syndication">
+										Syndicated to {{ .name }}
+									</a>
+								</li>
+							{{ end }}
 						{{ end }}
 					{{ end }}
 				</ul>

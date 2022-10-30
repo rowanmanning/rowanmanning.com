@@ -30,8 +30,9 @@ resources:
 # Links
 # -----
 syndication:
-  - url: https://news.indieweb.org/en
-    name: IndieNews
+  links:
+    - url: https://news.indieweb.org/en/rowanmanning.com/posts/webmentions-for-your-static-site/
+      name: IndieNews
 reviewers:
   - name: "Chee Rabbits"
     website: "https://chee.party/"

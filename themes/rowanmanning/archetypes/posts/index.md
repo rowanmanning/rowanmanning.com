@@ -25,8 +25,9 @@ tags: []
 #   siteUrl: "https://example.com/"
 #   url: "https://example.com/post"
 # syndication:
-#   - url: https://example.com/
-#     name: Example
+#   links:
+#     - url: https://example.com/
+#       name: Example
 # reviewers:
 #   - name: "Full Name"
 #     website: "https://example.com/"
