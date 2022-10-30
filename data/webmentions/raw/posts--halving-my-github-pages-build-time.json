@@ -74,5 +74,23 @@
 		"in-reply-to": "https://rowanmanning.com/posts/halving-my-github-pages-build-time/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"6e1689e5f328288be9cd8a82dfd352cb": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/files.mastodon.social/7ab0977f14194bbe7dbec21a3488321e53bf372b9fc5dc3610a87017c801cff9.jpg",
+			"url": "https://mastodon.social/@apaleslimghost"
+		},
+		"url": "https://mastodon.social/@rowanmanning/109256948757155313#favorited-by-108194252602674964",
+		"published": null,
+		"wm-received": "2022-10-30T12:56:55Z",
+		"wm-id": 1547202,
+		"wm-source": "https://brid.gy/like/mastodon/@rowanmanning@mastodon.social/109256948757155313/108194252602674964",
+		"wm-target": "https://rowanmanning.com/posts/halving-my-github-pages-build-time/",
+		"like-of": "https://rowanmanning.com/posts/halving-my-github-pages-build-time/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
