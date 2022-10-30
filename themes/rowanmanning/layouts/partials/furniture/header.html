@@ -40,6 +40,14 @@
 					</li>
 				{{ end }}
 
+				{{ if $siteAuthor.mastodon }}
+					<li class="header__navigation-item">
+						<a href="{{ $siteAuthor.mastodon }}" {{ if $contentAuthor.isSiteAuthor }}rel="me"{{ end }} title="Mastodon" class="header__icon header__icon--mastodon" data-test="header-mastodon">
+							Mastodon
+						</a>
+					</li>
+				{{ end }}
+
 				{{ if $siteAuthor.twitter }}
 					<li class="header__navigation-item">
 						<a href="https://twitter.com/{{ $siteAuthor.twitter }}" {{ if $contentAuthor.isSiteAuthor }}rel="me"{{ end }} title="Twitter" class="header__icon header__icon--twitter" data-test="header-twitter">

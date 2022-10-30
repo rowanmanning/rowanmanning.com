@@ -9,6 +9,7 @@ author:
   url: "https://site.author.local/"
   image: "https://site.author.local/photo.png"
   github: "mocksiteauthor_github"
+  mastodon: "mocksiteauthor_mastodon"
   twitter: "mocksiteauthor_twitter"
 
 params:

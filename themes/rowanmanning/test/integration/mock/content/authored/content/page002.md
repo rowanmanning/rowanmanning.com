@@ -8,6 +8,7 @@ author:
   url: "https://page.author.local/"
   image: "https://page.author.local/photo.png"
   github: "mockpageauthor_github"
+  mastodon: "mockpageauthor_mastodon"
   twitter: "mockpageauthor_twitter"
 ---
 

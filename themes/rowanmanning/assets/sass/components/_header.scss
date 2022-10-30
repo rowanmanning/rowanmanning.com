@@ -126,6 +126,11 @@
 	background-image: url("#{$site-base-url}icons/github.svg");
 }
 
+// Header icon element, "mastodon" modifier
+.header__icon--mastodon {
+	background-image: url("#{$site-base-url}icons/mastodon.svg");
+}
+
 // Header icon element, "twitter" modifier
 .header__icon--twitter {
 	background-image: url("#{$site-base-url}icons/twitter.svg");

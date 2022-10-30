@@ -506,6 +506,16 @@ describe('authored website', () => {
 				assert.strictEqual(subject, 'me');
 			});
 
+			it('contains a link to the site author Mastodon', () => {
+				const subject = findTestElements(header, 'header-mastodon')[0]?.getAttribute('href');
+				assert.strictEqual(subject, 'mocksiteauthor_mastodon');
+			});
+
+			it('contains a rel="me" link to the site author Mastodon', () => {
+				const subject = findTestElements(header, 'header-mastodon')[0]?.getAttribute('rel');
+				assert.strictEqual(subject, 'me');
+			});
+
 			it('contains a link to the site author Twitter', () => {
 				const subject = findTestElements(header, 'header-twitter')[0]?.getAttribute('href');
 				assert.strictEqual(subject, 'https://twitter.com/mocksiteauthor_twitter');
@@ -530,6 +540,16 @@ describe('authored website', () => {
 
 				it('does not contain a rel="me" link to the site author GitHub', () => {
 					const subject = findTestElements(header, 'header-github')[0]?.getAttribute('rel');
+					assert.isNull(subject);
+				});
+
+				it('contains a link to the site author Mastodon', () => {
+					const subject = findTestElements(header, 'header-mastodon')[0]?.getAttribute('href');
+					assert.strictEqual(subject, 'mocksiteauthor_mastodon');
+				});
+
+				it('does not contain a rel="me" link to the site author Mastodon', () => {
+					const subject = findTestElements(header, 'header-mastodon')[0]?.getAttribute('rel');
 					assert.isNull(subject);
 				});
 

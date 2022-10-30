@@ -8,6 +8,7 @@
 {{ $authorEmail := .Site.Author.email | default nil }}
 {{ $authorImage := .Site.Author.image | default nil }}
 {{ $authorTwitter := .Site.Author.twitter | default nil }}
+{{ $authorMastodon := .Site.Author.mastodon | default nil }}
 {{ $authorGitHub := .Site.Author.github | default nil }}
 {{
 	return (dict
@@ -16,6 +17,7 @@
 		"email" $authorEmail
 		"image" $authorImage
 		"twitter" $authorTwitter
+		"mastodon" $authorMastodon
 		"github" $authorGitHub
 		"isSiteAuthor" true
 	)
