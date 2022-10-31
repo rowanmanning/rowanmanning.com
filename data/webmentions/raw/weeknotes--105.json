@@ -34,5 +34,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/105/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"861e3718363218c6c147176db22b9b80": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1587025523913408513#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2022-10-31T18:29:35Z",
+		"wm-id": 1548257,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1587025523913408513/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/105/",
+		"like-of": "https://rowanmanning.com/weeknotes/105/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
