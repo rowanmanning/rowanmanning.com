@@ -21,6 +21,8 @@ resources:
 # -----
 syndication:
   links:
+    - url: "https://mastodon.social/@rowanmanning/109262343388979744"
+      name: "Mastodon"
     - url: "https://twitter.com/rowanmanning/status/1587025523913408513"
       name: "Twitter"
 ---
