@@ -9,6 +9,13 @@ resources:
     title: "Rowan kneeling down and putting a daisy chain around Charlotte's neck, they're sat on a picnic blanket in a sunny park"
     params:
       caption: "I think we look cute here"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1401485020594900997"
+      name: "Twitter"
 ---
 
   * {{< pin right >}}{{< image daisy-chain.jpg >}}{{< /pin >}}

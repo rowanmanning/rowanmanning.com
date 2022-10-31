@@ -7,6 +7,13 @@ description: "A week of driving in the country, a funeral, some shitty news, and
 resources:
   - src: "tootsie-cocktail.jpg"
     title: "Tootsie looking unimpressed at my cocktail-making skills"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1361236290465902593"
+      name: "Twitter"
 ---
 
   * I hired a car and got out of London for the first time in months. It wasn't for a fun reason, I went to my [grandad](/weeknotes/13)'s funeral, but I'd be lying if I said I didn't enjoy being out in the countryside again. The service was all outdoors at a green burial place so it felt safe, and the sun shone for most of it.

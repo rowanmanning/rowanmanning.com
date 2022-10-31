@@ -16,6 +16,13 @@ mainImage: "waterfall.jpg"
 resources:
   - src: "waterfall.jpg"
     title: "A short waterfall with frothing water"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1533766098109308930"
+      name: "Twitter"
 ---
 
   * We escaped all the bootlicking in London and flew to Turkey for a week with a few friends. We're staying in an all-inclusive (my first time) and I'm a big fan.

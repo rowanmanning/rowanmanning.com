@@ -16,6 +16,13 @@ mainImage: "sadness.jpg"
 resources:
   - src: "sadness.jpg"
     title: "Aquarius Mercury 464 asks: 'how do i make this sadness go away'"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1500765015061766144"
+      name: "Twitter"
 ---
 
   * Failing at not doom-scrolling and watching horrible videos.

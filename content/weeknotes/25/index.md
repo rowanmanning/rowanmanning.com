@@ -4,6 +4,13 @@ date: 2021-04-20T09:40:00+0100
 tags: ["Games", "Holiday", "Walking", "Mistakes", "Crosswords"]
 highlight: "yellow"
 description: "A week of haircuts, COVID tests, time with friends, a forbidden hug, and doing an awful lot of crosswords."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1384428586271223810"
+      name: "Twitter"
 ---
 
   * I got a haircut, got myself a negative COVID test result, and spent a bunch of time with friends. I really needed that.

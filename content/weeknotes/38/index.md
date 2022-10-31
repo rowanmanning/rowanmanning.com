@@ -9,6 +9,13 @@ tags: ["Family", "Work", "House", "Social", "Games", "Rounders", "Hugo"]
 # Weeknote display
 # ----------------
 highlight: "yellow"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1416720113781329922"
+      name: "Twitter"
 ---
 
   * I'm still pretty exhausted. We did very little this week – we're being a little more careful after our COVID scare and isolation. We _really_ don't want to have to cancel our trip to Scotland in August :grimacing_face:

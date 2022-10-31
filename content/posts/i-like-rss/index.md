@@ -43,8 +43,8 @@ resources:
 # -----
 syndication:
   links:
-    - url: https://twitter.com/rowanmanning/status/1334841646446415872
-      name: Twitter
+    - url: "https://twitter.com/rowanmanning/status/1334841646446415872"
+      name: "Twitter"
 reviewers:
   - name: Arjun Gadhia
     website: https://www.thegadhian.com/

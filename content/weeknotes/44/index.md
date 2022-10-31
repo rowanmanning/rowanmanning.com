@@ -18,6 +18,13 @@ resources:
     title: "Six sheets of A4 grid paper laid out with city walls drawn in a large circle across all of them."
   - src: "spelling-bee-genius.jpg"
     title: "A screenshot of the Spelling Bee screen, it says: Genius, you've reached the highest rank, with 52 words and 313 points."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1431927467648987139"
+      name: "Twitter"
 ---
 
   * We're no longer isolating, which is great! Leigh-Ann popped round with her baby, he's very cute – all smiles and laughter. It was nice to talk to another human in person. On Saturday Charlotte and I did a circuit of Archbishop's Park which really tired her out, I think full recovery might take quite a while.

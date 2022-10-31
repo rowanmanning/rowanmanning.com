@@ -7,6 +7,13 @@ description: "A week of cancelled plans, breakfast champagne, excessive TV, and 
 resources:
   - src: "christmas-yeehaw.png"
     title: "Five emoji horses lined up in Slack, waiting to race. Their new more Christmas-themed names are Seasonal Gold, Frosty December, Bethlehem Miracle, Party Star, and Happy Vixen."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1340401908515745795"
+      name: "Twitter"
 ---
 
   * What even is time? I'm very firmly in holiday mode, where I've forgotten what day of the week it is and I have no routine. The only constant is Tootsie waking me up at 7:30 to be fed and Tootsie meowing to be given his dinner.

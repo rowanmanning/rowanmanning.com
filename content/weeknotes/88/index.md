@@ -18,6 +18,13 @@ resources:
     title: "Me with a beard full of pink glitter and Charlotte with a glittery flower painted on her face"
   - src: "sunset.jpg"
     title: "A panorama of a beach with an orange sunset on one side and a large rainbow on the other"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1543858755997138946"
+      name: "Twitter"
 ---
 
   * We're back in the UK! Jet lag was no joke despite managing to stay awake for more than 30 hours. Flying really messes with my sinuses nowadays and I have an ear infection which might be related. Fun!

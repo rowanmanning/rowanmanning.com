@@ -18,6 +18,13 @@ resources:
     title: "Me lounging on the bed instead of doing something interesting."
   - src: "reliability-kit-logo.png"
     title: "A cute rock with a determined face."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1556216208206270465"
+      name: "Twitter"
 ---
 
   * The last time I spoke about the trial (I'm supposed to be a witness) was [in January this year](/weeknotes/64/) when it got pushed to August. The time before that was [February 2021](/weeknotes/16/) when it got pushed to January. Well, it's now looming and I'm finding myself in the now-familiar pattern of worry. Re-reading my witness statement and wondering whether it'll get rescheduled at the last minute again.

@@ -17,6 +17,13 @@ resources:
     title: "Simon Legg + Cillian Murphy = Cam from Too Hot to Handle"
     params:
       caption: "Don't you think?"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1411364342067613697"
+      name: "Twitter"
 ---
 
   * We got contact traced. We saw a friend after work and they got a positive test result the next day, which means we have to isolate for 10 days. We had a big shop delivered.

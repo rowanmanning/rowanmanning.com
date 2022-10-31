@@ -7,6 +7,13 @@ description: "A week of being a more technical principal, celebrating with champ
 resources:
   - src: "champagne.jpg"
     title: "Two boxes of champagne"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1376450729397923841"
+      name: "Twitter"
 ---
 
   * I've felt a bit more technical at work this week and getting a bit closer to the code. [There are three aspects to the role of Principal Engineer on FT.com](https://www.annashipman.co.uk/jfdi/delegating-to-a-team.html#colour-coding-types-of-work) and, due to some shuffling of tech leads, I'm focusing more on technical oversight at the moment to make sure that our new tech leads feel supported. I'm feeling less fraudulent in this role as a result.

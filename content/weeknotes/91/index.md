@@ -16,6 +16,13 @@ mainImage: "photo-booth.jpg"
 resources:
   - src: "photo-booth.jpg"
     title: "Me, Charlotte, Jenn, and Chris in a photo booth. I'm wearing a poop-shaped hat and beer glasses, Chris is wearing a tiara, Jenn is wearing a mask, and Charlotte has a shark hat on"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1551239604635836417"
+      name: "Twitter"
 ---
 
   * I'm a bit hungover and my heart really isn't in writing these, so it's a bit matter-of-fact. 91 straight weeks in I'm unable to even consider skipping weeknotes.

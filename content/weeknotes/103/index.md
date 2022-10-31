@@ -18,6 +18,13 @@ resources:
     title: "Me and Harry standing bravely in the very cold October sea"
   - src: "the-needles.jpg"
     title: "Charlotte and Harry walking towards The Needles backed by an orange sunset"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1581934098464980992"
+      name: "Twitter"
 ---
 
   * Work was quite intense this week but in kind of a good way. My team was pairing with our Platforms team for a lot of it, trying to better understand and stabilise one of our more errant APIs. It was a lot of fun but pairing is _always_ exhausting.

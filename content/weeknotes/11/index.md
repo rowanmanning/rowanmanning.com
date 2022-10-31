@@ -9,6 +9,13 @@ resources:
     title: "A map of the main continent from my D&D games, Tide, which includes mountain ranges and forests. The map is scattered with pins that link to further descriptions of map locations."
     params:
       link: "https://kanka.io/en/campaign/10848/maps/8030/explore"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1348576295093993473"
+      name: "Twitter"
 ---
 
   * We're doing our first COVID tests. We're both fine, but have been coughing enough that it seems sensible to avoid leaving the house and make sure we're not infected.

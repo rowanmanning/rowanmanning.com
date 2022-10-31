@@ -9,6 +9,13 @@ resources:
     title: "A picture of me and my grandad when I was about 18 months old, we're outside and I'm laughing."
     params:
       caption: "A picture of me and my grandad when I was about 18 months old"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1353780371079516161"
+      name: "Twitter"
 ---
 
   * On Thursday my grandad died. [It was expected](/weeknotes/12), but I'm very sad about it nonetheless. His name's Wilfred (or Bill), but I've only ever known him as David – when they met my grandma decided she didn't like the name Wilfred and so has always called him by his middle name.

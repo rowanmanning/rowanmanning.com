@@ -9,6 +9,13 @@ tags: ["Health", "House", "Work", "Side Projects", "Express"]
 # Weeknote display
 # ----------------
 highlight: "purple"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1508038587975147521"
+      name: "Twitter"
 ---
 
   * It was another relatively slow week. I finally tested negative for COVID a few times but I'm still producing horrible amounts of snot and phlegm.

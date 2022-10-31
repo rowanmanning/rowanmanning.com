@@ -24,8 +24,8 @@ resources:
 # -----
 syndication:
   links:
-    - url: https://twitter.com/rowanmanning/status/1329754039291142144
-      name: Twitter
+    - url: "https://twitter.com/rowanmanning/status/1329754039291142144"
+      name: "Twitter"
 reviewers:
   - name: Jennifer Johnson
     website: https://medium.com/@jkerr321

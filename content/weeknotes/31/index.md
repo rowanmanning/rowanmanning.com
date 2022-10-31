@@ -4,6 +4,13 @@ date: 2021-05-30T14:00:00+0100
 tags: ["Work", "Games", "Food", "Minecraft", "Social", "Health", "Pfizer"]
 highlight: "orange"
 description: "A week of sore arms, feeling useless, an awful lot of Minecraft, and delicious blended banana."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1398990006971158530"
+      name: "Twitter"
 ---
 
   * I had my first jab, I'm part-vaccinated! As a kid, I was super scared of needles, which I told the person injecting me, but it was fine :tada: The St Thomas' vaccination centre was so efficient – I'm pretty impressed. It's also nice being able to pop across the road for it. My arm aches but no other side effects.

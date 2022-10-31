@@ -20,6 +20,13 @@ resources:
     title: "Lots of different cables neatly rolled up in small bags"
   - src: "horses.jpg"
     title: "Me, Chris, and Luke on horseback in Minecraft"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1449669028033794048"
+      name: "Twitter"
 ---
 
   * I think I've won the war against [the moths](/weeknotes/50/). It was really important that no larvae survive the purge and get a free ride to my new flat. My victory wasn't without losses: I said goodbye to a couple of old cushions that I didn't like; one of my favourite scarves is quite moth-eaten now, but maybe I'll lean into the elderly librarian look this winter.

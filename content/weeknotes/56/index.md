@@ -20,6 +20,13 @@ resources:
     title: "My flat's temperature and humidity displayed as room-by-room graphs"
   - src: "temperature-humidity-graphs.png"
     title: "My flat's temperature and humidity displayed as graphs in Grafana"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1462726297885499392"
+      name: "Twitter"
 ---
 
   * Choosing paint is hard! [Thanks, Matt for the ranking](https://notes.matthinchliffe.dev/052.html#matt-s-paint-ranking-2021), it gave me even more colours to choose from :see_no_evil: The living room mess of patches is growing at an alarming rate. I think I currently light the rightmost brighter green in the middle, but who knows how I'll feel by next week.

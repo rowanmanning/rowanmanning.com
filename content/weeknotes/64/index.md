@@ -18,6 +18,13 @@ resources:
     title: "A heron standing at the edge of a canal at night"
   - src: "wall.jpg"
     title: "A wall painted in a nice deep green"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1483371083445145601"
+      name: "Twitter"
 ---
 
   * Remember [back in February 2021](/weeknotes/16/) when I wrote:

@@ -40,6 +40,13 @@ resources:
     title: "Charlotte standing on a tall rock looking over the desert"
   - src: "view-from-burdah-rock-bridge.jpg"
     title: "A view across miles of desert from the top of a mountain"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1470356471137325056"
+      name: "Twitter"
 ---
 
   * Jordan was amazing, I loved every minute of it.

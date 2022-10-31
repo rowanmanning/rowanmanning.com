@@ -16,6 +16,13 @@ mainImage: "rain.jpeg"
 resources:
   - src: "rain.jpeg"
     title: "Charlotte standing on a bridge in the rain"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1538522250936197120"
+      name: "Twitter"
 ---
 
   * I lied, I'm absolutely gonna try and write weeknotes [via VS Code](https://vscode.dev/) in my mobile browser. Apologies in advance for any typos.

@@ -18,6 +18,13 @@ resources:
     title: "a girl named Charlotte but instead of a brain there's a dark void"
   - src: "moon.jpg"
     title: "A bright full moon shining over fields. Trees are silhouetted in rolling mist."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1569017748356845569"
+      name: "Twitter"
 ---
 
   * We started the week with a new prime minister. Hooray. It's interesting to work for a newspaper when this stuff happens because we get a lot more traffic and we're all slightly more on-edge in case the website falls over.

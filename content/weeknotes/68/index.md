@@ -16,6 +16,13 @@ mainImage: "chair.jpg"
 resources:
   - src: "chair.jpg"
     title: "A new desk chair and a messy desk"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1493151779218870272"
+      name: "Twitter"
 ---
 
   * {{< pin right >}}{{< image "chair.jpg" >}}{{< /pin >}}

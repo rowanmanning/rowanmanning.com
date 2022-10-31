@@ -16,6 +16,13 @@ mainImage: "movie-posters.jpg"
 resources:
   - src: "movie-posters.jpg"
     title: "Movie posters for the four new film's I've watches so far this year"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1465272194645245956"
+      name: "Twitter"
 ---
 
   * Our house has a high risk of mould at the moment, which we're still trying to sort with dehumidifiers. There's a calculation I don't fully understand (which I'm now graphing in my home hub, of course) which does something with the average temperature, the coldest temperature in the house, and the average indoor vs outdoor humidity. Who knows _exactly_ what 77% mould risk means? Not me, but it seems too high.

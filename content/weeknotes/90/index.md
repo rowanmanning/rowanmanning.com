@@ -16,6 +16,13 @@ mainImage: "painted-walls.jpg"
 resources:
   - src: "painted-walls.jpg"
     title: "My living room with three walls painted a rich dark green and looking a lot more like a home"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1548593155129442305"
+      name: "Twitter"
 ---
 
   * Wow, what a busy week.

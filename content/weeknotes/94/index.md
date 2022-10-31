@@ -16,6 +16,13 @@ mainImage: "deptford-bridge.jpg"
 resources:
   - src: "deptford-bridge.jpg"
     title: "A view of the sunrise behind Deptford Bridge station"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1558758223267729408"
+      name: "Twitter"
 ---
 
   * [As predicted](/weeknotes/93/), the trial has been cancelled again, I'm getting very good at reliving past trauma for a couple of months and then immediately pushing it back down again. Healthy. I've been asked to provide a list of all the dates I can't make for the next 12 months which bodes well for it being rescheduled any time soon. Once again it was moved because the defendant fell very conveniently ill. Shall we talk about something less depressing?

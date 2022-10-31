@@ -9,6 +9,13 @@ tags: ["Work", "House", "Side Projects", "TV", "Social", "Castle", "Bones"]
 # Weeknote display
 # ----------------
 highlight: "yellow"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1434481431351332865"
+      name: "Twitter"
 ---
 
   * I popped into the office on Wednesday, I miss seeing people and now that I've stopped isolating I might try and head in weekly. I caught up with [Kara](https://ghost.computer/) and it was lovely.

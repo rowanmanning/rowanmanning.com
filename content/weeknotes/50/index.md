@@ -9,6 +9,13 @@ tags: ["House", "Social", "TV", "Lucifer", "Bones"]
 # Weeknote display
 # ----------------
 highlight: "purple"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1447133455112937478"
+      name: "Twitter"
 ---
 
   * I exchanged contracts on my flat! I'm finally legally locked into buying this flat and I'm really excited. I'll be collecting the keys on the 19th of October :tada: I'm not sure if it's properly hit me yet. I booked a moving van and have spent a bunch of time clearing out stuff and packing.

@@ -16,6 +16,13 @@ mainImage: "wordle-pyramid.png"
 resources:
   - src: "wordle-pyramid.png"
     title: "My wordle guess distribution. one guess: 0 times, two guesses: 3 times, three guesses: 26 times, four guesses: 60 times, five guesses: 26 times, six guesses: 3 times"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1523266948141924353"
+      name: "Twitter"
 ---
 
   * Work was fun this week. I got [Reliability Kit](https://github.com/financial-Times/dotcom-reliability-kit), a new project I'm working on, to the point where we're ready to start building and releasing packages. Release Please is just so magical. This is my first time building and working on a monorepo and it feels great learning a load of new stuff every day. I find myself reading a lot more and actually caring about what's going on in tech.

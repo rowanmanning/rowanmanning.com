@@ -9,6 +9,13 @@ resources:
     title: "The lemon meringue pie that Charlotte baked for me, with a single lit candle."
   - src: "tootsie-in-bed.jpg"
     title: "Tootsie, my cat, curled up under the duvet and looking extremely cute."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1356233282686431233"
+      name: "Twitter"
 ---
 
   * It was my Birthday on Tuesday, I turned 33. I didn't make any plans, but ended up having a few nice chats with family. Charlotte baked me an _amazing_ lemon meringue pie which I ate most of over the course of the week.

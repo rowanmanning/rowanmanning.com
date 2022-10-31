@@ -22,6 +22,13 @@ resources:
       link: https://crossword.rowanmanning.com/
   - src: "tootsie-in-the-park.jpg"
     title: "Tootsie sat in his cat carrier peeking out at the park. We're sat on a checked blanked in the sun."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1409208096195555330"
+      name: "Twitter"
 ---
 
   * Charlotte's birthday was nice, we ate and drank a lot and ended up doing some slightly drunk shopping on Oxford Street.

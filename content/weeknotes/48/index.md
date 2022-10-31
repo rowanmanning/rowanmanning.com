@@ -16,6 +16,13 @@ mainImage: "tree-tunnel.jpg"
 resources:
   - src: "tree-tunnel.jpg"
     title: "Me, Charlotte, and Luke looking out over some rolling hills full of sheep"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1442209185136095237"
+      name: "Twitter"
 ---
 
   * I'm going to exchange on my flat next week! I'm excited but it still doesn't quite feel real, I'm almost waiting for another issue to crop up. Hopefully, we'll complete a week or two into September :fingers_crossed:

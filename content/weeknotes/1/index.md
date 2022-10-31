@@ -7,6 +7,13 @@ description: "A week without running water, finding a new favourite board game, 
 resources:
   - src: "minecraft-build.jpg"
     title: "Several skyscrapers, a pub, and some terraced houses built in Minecraft"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1324281206230392832"
+      name: "Twitter"
 ---
 
 Hello :wave: I'm going to try publishing weeknotes.

@@ -20,6 +20,13 @@ resources:
     title: "A bottle of gin next to a carton of prune juice"
   - src: "armchair.jpg"
     title: "A cosy-looking tweed armchair lit by a tall lamp"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1487723194530385925"
+      name: "Twitter"
 ---
 
   * {{< pin right >}}{{< image "cheesecake.jpg" >}}{{< /pin >}}

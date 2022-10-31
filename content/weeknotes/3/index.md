@@ -4,6 +4,13 @@ date: 2020-11-15T22:30:00+0000
 tags: ["Books", "Tootsie", "TV", "Work", "Fleabag", "Plumbing"]
 highlight: "yellow"
 description: "A week of being more technical at work, fun treasure hunts across London, and opening a book for a change."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1328271793593970689"
+      name: "Twitter"
 ---
 
   * Tootsie (our cat) has been super cuddly and clingy this week, like squeezing between us in the night and purring loudly in my ear or persistently trying to sit on us while we're working. Behaviour changes like this always worry me a bit because of his conditions, but after observing him more I think he's just stealing our body heat.

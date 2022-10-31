@@ -16,6 +16,13 @@ mainImage: "heart-shaped-food.jpg"
 resources:
   - src: "heart-shaped-food.jpg"
     title: "Ravioli, a parmesan crisp, and butternut squash cut into heart shapes"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1495336709181124611"
+      name: "Twitter"
 ---
 
   * {{< pin right >}}{{< image "heart-shaped-food.jpg" >}}{{< /pin >}}

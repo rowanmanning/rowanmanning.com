@@ -16,6 +16,13 @@ mainImage: "lederhosen-wario.jpg"
 resources:
   - src: "lederhosen-wario.jpg"
     title: "Me sat looking at the TV in black dungarees over a yellow T-shirt"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1525803651624841216"
+      name: "Twitter"
 ---
 
   * My week started suddenly and unexpectedly at 4 am on Monday when I got an out-of-hours call because the FT home page was down. I've been on the rota for ages and this was my first time being called. It was weirdly quite fun, but it has absolutely ruined my sleep for the week because I took some accidental early evening naps.

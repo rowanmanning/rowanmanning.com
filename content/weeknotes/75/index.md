@@ -16,6 +16,13 @@ mainImage: "medals.jpg"
 resources:
   - src: "medals.jpg"
     title: "A small pile of 8 tooth-related medals"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1510684328195502082"
+      name: "Twitter"
 ---
 
   * I'm finally feeling more normal, far less snotty and my cough's pretty much gone :tada:

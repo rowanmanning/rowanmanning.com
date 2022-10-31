@@ -20,6 +20,13 @@ resources:
     title: "Rowan holding a revolver and aiming down a shooting range."
     params:
       caption: "Here I am shooting at pretend zombies"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1419582009291296771"
+      name: "Twitter"
 ---
 
   * I went to play Rounders with the Product & Tech department at the Financial Times. It was lovely, it's been _so_ long since I've seen many of my colleagues in person. I also got to meet some of the people who have joined since Lockdown began (they're all just as nice in person as online), and I met Anna's baby, she's very cute.

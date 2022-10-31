@@ -9,6 +9,13 @@ resources:
     title: "A large cave system in Minecraft, with pillars of rock and water and lava falls cascading from the ceiling."
     params:
       caption: "Annoyed I forgot to hide the debug text"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1393978298204663815"
+      name: "Twitter"
 ---
 
   * I finished and published my [blog post on the treasure hunt that Glynn and I ran](/posts/organising-a-virtual-treasure-hunt/). I'm pleased with how it came out and I've had some nice feedback. I definitely find it easier to get into the flow of writing after getting into the habit of writing weeknotes.

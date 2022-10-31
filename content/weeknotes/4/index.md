@@ -4,6 +4,13 @@ date: 2020-11-23T02:00:00+0000
 tags: ["Christmas", "D&D", "Films", "Food", "Games", "Christmas Films", "The Princess Switch", "Writing", "Blogging", "Crash Bandicoot", "Toasties", "Yeehaw"]
 highlight: "purple"
 description: "A week of writing a blog post, eating far too many toasties, and watching the sequel to one of the best films ever made: The Princess Switch."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1330813962217267200"
+      name: "Twitter"
 ---
 
   * I wrote a blog post for the first time in nearly 5 years, it was kind of spur of the moment and I enjoyed writing it. It's about how I manage time spent on side projects. I think it could touch more on mental health and how having time to spend on side projects is a privilege, but maybe I can save that for a follow-up. [You can read the post here](/posts/yeehaw)

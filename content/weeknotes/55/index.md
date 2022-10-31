@@ -16,6 +16,13 @@ mainImage: "lasagna.jpg"
 resources:
   - src: "lasagna.jpg"
     title: "A delicious-looking lasagna with a crispy top and lots of fried sage"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1460185812759367686"
+      name: "Twitter"
 ---
 
   * We went to the pub with Charlotte's dad and had a nice catch-up. Nothing beats a home Sunday roast, but [The White Hart](https://www.thewhitehart.london/)'s one is pretty great!

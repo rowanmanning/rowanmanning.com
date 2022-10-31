@@ -9,6 +9,13 @@ resources:
     title: "Rowan and Charlotte dressed as takeaway items. Rowan is dressed as McDonalds fries, wearing a yellow T-Shirt with chips drawn onto it and a large red box. Charlotte is dressed as a tub of ketchup in a painted box."
     params:
       caption: "My lockdown hair and beard are looking particularly good I think"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1366372147778756613"
+      name: "Twitter"
 ---
 
   * We went to an online takeaway-themed celebration of a friend's pregnancy (not allowed to call it a baby shower as she didn't want one). Charlotte and I dressed up as fries and ketchup, I think the costumes were a success.

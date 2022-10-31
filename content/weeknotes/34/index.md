@@ -17,6 +17,13 @@ resources:
     title: "My dad standing amongst trees and holding me as a baby"
     params:
       caption: Dad and me back in 1988
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1406180396988051467"
+      name: "Twitter"
 ---
 
   * I'm posting this early because it's Charlotte's birthday on Sunday and I'm gonna be pretty busy all weekend. Today (Saturday) we're going to see her dad and brother for a meal, and then tomorrow we'll be drinking a lot of Champagne and playing mini-golf.

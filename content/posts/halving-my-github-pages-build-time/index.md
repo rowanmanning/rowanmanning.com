@@ -24,10 +24,10 @@ resources:
 # -----
 syndication:
   links:
-    - url: https://mastodon.social/@rowanmanning/109256948757155313
+    - url: "https://mastodon.social/@rowanmanning/109256948757155313"
       name: Mastodon
-    - url: https://twitter.com/rowanmanning/status/1561685932251684864
-      name: Twitter
+    - url: "https://twitter.com/rowanmanning/status/1561685932251684864"
+      name: "Twitter"
 ---
 
 Recently I spent some time overhauling the build process for this website because it was _really_ slow. After [nearly 100 weeknotes](/weeknotes/) (including a lot of images to resize) my build/deploy process was taking 6–7 minutes. Locally my entire site builds in 500–800ms so I decided to investigate where my performance issues were.

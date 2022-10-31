@@ -20,6 +20,13 @@ resources:
     title: "My matching shorts and shoes"
   - src: "kettricken.jpg"
     title: "A small black cat poking her head through some curtains"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1528394788793421824"
+      name: "Twitter"
 ---
 
   * What a week. We're dealing with an ongoing incident at work and a fair few engineers (including me) have mobilised to fix some things. It's been non-stop. I'm managing to be mostly quite chill about it, but the stress did get to me a little by the end of the week.

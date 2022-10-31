@@ -9,6 +9,13 @@ resources:
     title: "A Christmas tree, half of the height of it is above the topmost branches, it's very pointy"
     params:
       caption: "That's a lot of point"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1335539180311638016"
+      name: "Twitter"
 ---
 
   * We started making a Christmas cake! Yes I know it's a bit late, but really it already smells delicious. Also when you feed a Christmas cake it's wrong not to have a little bit of the brandy.

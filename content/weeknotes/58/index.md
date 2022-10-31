@@ -18,6 +18,13 @@ resources:
     title: "Two beautiful wooden desks set up in our office space"
   - src: "wires.jpg"
     title: "A mess of cables wired into an old thermostat"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1466854466821533700"
+      name: "Twitter"
 ---
 
   * Early weeknote this week, as I'm going away and I will _not_ be taking a laptop with me. I'm looking forward to a slightly less-connected ~10 days.

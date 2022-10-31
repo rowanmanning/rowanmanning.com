@@ -20,6 +20,13 @@ resources:
     title: "An empty badlands biome in Minecraft"
   - src: "base-after.png"
     title: "The same badlands biome but with clay houses build into the cliffs"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1480244890462269443"
+      name: "Twitter"
 ---
 
   * I've been playing Wordle every day for the last week. It's pretty addictive and I've managed to stay at a 100% solve rate.

@@ -9,6 +9,13 @@ tags: ["Work", "House", "Social", "TV", "Food", "Holiday", "American Horror Stor
 # Weeknote display
 # ----------------
 highlight: "lime"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1437132320461426689"
+      name: "Twitter"
 ---
 
   * I spent two days in the office this week and got to hang out with a lot of lovely people. I spent a bunch of time [collaborating on architecture diagrams](https://alicebartlett.co.uk/blog/weaknotes-158) for some future work – I think that this is where being in a shared physical space really works for me. Two days in the office is _exhausting_ though, I'm going to have to slowly build up to being in for longer periods.

@@ -16,6 +16,13 @@ mainImage: "number-10.jpg"
 resources:
   - src: "number-10.jpg"
     title: "Me wearing all black with a silver number 10, a lion door knocker, a golden letterbox, and a doornob stuck to my T-shirt"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1587025523913408513"
+      name: "Twitter"
 ---
 
   * [Concordia](https://boardgamegeek.com/boardgame/124361/concordia) is a fun board game. We've played before but I got into it a lot more this time around. All the mechanics feel quite neat and polished.

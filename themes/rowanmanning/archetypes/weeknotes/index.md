@@ -21,8 +21,8 @@ tags: []
 # -----
 # syndication:
 #   links:
-#     - url: https://example.com/
-#       name: Example
+#     - url: "https://example.com/"
+#       name: "Example"
 ---
 
   * TODO: Content goes here.

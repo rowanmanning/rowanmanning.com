@@ -7,6 +7,13 @@ description: "A week of surprise rent reductions, impulse-buying, Denethor being
 resources:
   - src: "137-miles.jpg"
     title: "Leo McGarry, a character in The West Wing, asking 'We missed it by 137 miles?' and looking angry"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1345762824161812480"
+      name: "Twitter"
 ---
 
   * Happy New Year! I drank too much on New Year's Eve and fell asleep, but not before drunkenly buying myself a new duvet in the sales. I was already vaguely thinking about investing in better sleep, but the impulse buy was after learning that…

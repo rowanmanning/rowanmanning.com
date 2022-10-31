@@ -22,6 +22,13 @@ resources:
     title: "Me running into Perry and knocking him over, both of us are wearing zorbs"
     params:
       caption: "Me taking Perry down"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1531321608496943107"
+      name: "Twitter"
 ---
 
   * I had quite a quiet week because I didn't want to get COVID before a stag do and holiday, this meant we caught up on a lot of TV.

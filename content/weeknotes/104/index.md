@@ -9,6 +9,13 @@ tags: ["Social", "Games", "Music", "TV", "Love is Blind"]
 # Weeknote display
 # ----------------
 highlight: "purple"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1584482334161928198"
+      name: "Twitter"
 ---
 
   * It's been a busy and very tiring week 😴 gonna keep this one short because I want to just go to bed tbh.

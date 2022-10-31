@@ -7,6 +7,13 @@ description: "A week of no boardgames, getting drunk along to average TV, surpri
 resources:
   - src: "jackie-weaver.jpg"
     title: "Jackie Weaver"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1358458825469222914"
+      name: "Twitter"
 ---
 
   * I'm having a break from boardgames through the first couple of weeks of February. I've been playing with the same group weekly for ~4 years, and while I enjoy it a lot, lately I just haven't had the brainpower to learn new rules or get myself into the state of mind where I can be competitive. I'm hoping a small break will resolve this.

@@ -16,6 +16,13 @@ mainImage: "year-in-thumbnails.jpg"
 resources:
   - src: "year-in-thumbnails.jpg"
     title: "A full year of weeknotes represented as a grid of thumbnails"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1455131252810412032"
+      name: "Twitter"
 ---
 
 Today marks a whole year of weeknotes, my first year doing this went quickly! I'm going to write these "yearnotes" digests to look back over the year and introspect a bit. I think I'll stick with my offset weeknotes year (1st November) rather than a calendar year because December is way too busy already.

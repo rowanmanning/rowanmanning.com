@@ -7,6 +7,13 @@ description: "A week of useful feedback, a new (and nearly finished) RSS reader,
 resources:
   - src: "tootsie-in-a-box.jpg"
     title: "Tootsie laying in his new favourite cardboard box. He's a black and white cat, with a very distinctive moustache. A discarded toy mouse is laying beside him"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1333351546566963200"
+      name: "Twitter"
 ---
 
   * Because I just kicked back and had [toasties](/weeknotes/4/) served to me last week, it's my turn to cook for the foreseeable future. I made carbonara on Tuesday and it was _so_ delicious, we rarely cook meat at home which makes it a bit of a treat when we do. I always had this impression that the "don't scramble the egg" part of carbonara was really difficult; either it's not, or we can put down this success to beginner's luck

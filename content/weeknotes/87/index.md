@@ -16,6 +16,13 @@ mainImage: "volcano.jpeg"
 resources:
   - src: "volcano.jpeg"
     title: "A volcano surrounded by rainforest"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1541086253302546433"
+      name: "Twitter"
 ---
 
   * I'm full of beans, both figuratively and literally. I've had at least one bean-based dish every day for nearly two weeks and I don't intend on stopping when I get home.

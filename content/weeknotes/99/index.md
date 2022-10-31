@@ -24,6 +24,13 @@ resources:
     title: "Liz The Haunted Doll: The Movie"
   - src: "liz-the-haunted-scarecrow.jpg"
     title: "Liz the Haunted Scarecrow"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1571942916213571585"
+      name: "Twitter"
 ---
 
   * I'm back from Wales, we extended the trip by a few days when we got an extra Bank Holiday. The extra few days out of London meant that we never got to witness [The Queue](https://en.wikipedia.org/wiki/The_Queue).

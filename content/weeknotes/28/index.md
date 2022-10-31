@@ -4,6 +4,13 @@ date: 2021-05-10T08:50:00+0100
 tags: ["Family", "House", "Social", "Eating Out", "Cladding", "Allergies"]
 highlight: "blue"
 description: "A week of fish tacos, simplified communication, very painful ears (thanks Apple), and my rule-breaking family."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1391667959270158337"
+      name: "Twitter"
 ---
 
   * We went to Wahaca with Leigh-Ann and Andy and met their baby, Arthur. He's very small and squished up and looks like an old man. The South Bank is _rammed_ nowadays and I'm kind of glad to be moving somewhere less touristy.

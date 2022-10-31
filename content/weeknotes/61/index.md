@@ -9,6 +9,13 @@ tags: ["Christmas", "Health", "Films", "Food", "Games", "Minecraft"]
 # Weeknote display
 # ----------------
 highlight: "blue"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1475127366934581250"
+      name: "Twitter"
 ---
 
   * Merry Christmas!

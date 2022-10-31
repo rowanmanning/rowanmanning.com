@@ -16,6 +16,13 @@ mainImage: "tree.jpg"
 resources:
   - src: "tree.jpg"
     title: "A series of paint patches gathered together to form the shape of a Christmas tree"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1472861834206015492"
+      name: "Twitter"
 ---
 
   * This was a long and pretty stressful work week, feeling really happy that the year's nearly over. I'm working all of next week but most people aren't, so fingers crossed it's nice and quiet and I can focus a bit. On the plus side, our surprise bonus arrived in my December pay packet :tada:

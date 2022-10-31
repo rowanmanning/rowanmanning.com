@@ -20,6 +20,13 @@ resources:
     title: "The corner of a living room with green on one wall and beige cream on the other"
   - src: "highley-manor.jpg"
     title: "A red-brick manor house in the country backed by a blue sky"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1561294415859224582"
+      name: "Twitter"
 ---
 
   * {{< pin right >}}{{< image "highley-manor.jpg" >}}{{< /pin >}}

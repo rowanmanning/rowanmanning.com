@@ -18,6 +18,13 @@ resources:
     title: "Heavy rain falling on the road outside The Sea Horse."
   - src: "heat.jpg"
     title: "Rowan and Charlotte in blues, greens, and reds. Picture taken by a thermographic camera."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1421774089115549698"
+      name: "Twitter"
 ---
 
   * I'm fully vaccinated! I got my second shot of Pfizer on Monday with no side effects. St Thomas' was super efficient again, I was jabbed within 3 minutes of arriving.

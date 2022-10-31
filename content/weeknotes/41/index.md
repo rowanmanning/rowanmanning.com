@@ -56,6 +56,13 @@ resources:
     title: "Rowan walking along the rocky shore of Loch Lubnaig"
     params:
       caption: "It was hot enough to wear shorts most days"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1424343519204884489"
+      name: "Twitter"
 ---
 
   * This is going to be a long weeknote because I haven't crammed this much into a week since before COVID hit. Buckle up.

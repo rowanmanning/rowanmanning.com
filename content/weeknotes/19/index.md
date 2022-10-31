@@ -7,6 +7,13 @@ description: "A week of Grace Dent, mouth-numbing noodles, giving stuff away, an
 resources:
   - src: "siblings.jpg"
     title: "A selfie taken from the front seat of a car. Rowan's sister is holding the camera, and on the back seat there's Rowan with his arms around his two brothers. They're all smiling, and Rowan's wearing a Christmas jumper."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1368500672518361088"
+      name: "Twitter"
 ---
 
   * Masterchef is back, so that's something to do a few evenings a week (also good to see Grace Dent in the first quarter-final, we love her). I'm _so_ ready for some easing of lockdown restrictions this time around, I'm bored of routine but lacking the inspiration to make any changes so we sit and alternate between evenings of watching TV or playing Two Point Hospital.

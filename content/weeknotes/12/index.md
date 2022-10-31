@@ -4,6 +4,13 @@ date: 2021-01-17T09:20:00+0000
 tags: ["Family", "Grandad", "Trial"]
 highlight: "purple"
 description: "A week of bad news."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1350832912082595840"
+      name: "Twitter"
 ---
 
   * It's been a really rough week. I'm feeling pretty useless and helpless.

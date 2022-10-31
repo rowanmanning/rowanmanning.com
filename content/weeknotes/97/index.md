@@ -16,6 +16,13 @@ mainImage: "scrabble.jpg"
 resources:
   - src: "scrabble.jpg"
     title: "A scrabble board with the word 'equal' played on a triple word score"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1566508518609457155"
+      name: "Twitter"
 ---
 
   * There was a lot of hanging out with Charlotte's family this week, as her brother is moving to Iraq for a year. We went out to visit her dad's new house, which needs a _lot_ of work but has "good bones". We had a BBQ from paper plates which was lovely.

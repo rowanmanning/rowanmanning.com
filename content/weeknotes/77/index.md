@@ -16,6 +16,13 @@ mainImage: "magnus.jpg"
 resources:
   - src: "magnus.jpg"
     title: "A cute dog resting his head on a pillow"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1515972808932835332"
+      name: "Twitter"
 ---
 
   * Charlotte got back from her trip on Monday and we spent a couple of days together early in the week before she was off to visit her granny. It's nice to spend time apart but I'm being a little needy.

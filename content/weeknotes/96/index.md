@@ -9,6 +9,13 @@ tags: ["Books", "Social", "Games", "TV", "Board Games", "Work", "Side Projects",
 # Weeknote display
 # ----------------
 highlight: "lime"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1564271992991252480"
+      name: "Twitter"
 ---
 
   * What a ridiculously busy week. I'm exhausted and really needed the extra day off this weekend.

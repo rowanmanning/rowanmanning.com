@@ -7,6 +7,13 @@ description: "A week of office visits, successful speedruns, tetris-like cities,
 resources:
   - src: "eurovision.jpg"
     title: "A picture of our TV screen, with Eurovision playing. The running order is pinned to the TV cabinet, and lots of european flags hang across the wall."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1396482456061104129"
+      name: "Twitter"
 ---
 
   * I went into the office for the first time in over a year. The day started really well, I got loads done and felt really productive, but by the end of the day I was exhausted, overstimulated, and barely able to think. I'm going to try and go in once a week to ease myself back into office work, I really enjoyed seeing a few familiar faces.

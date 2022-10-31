@@ -16,6 +16,13 @@ mainImage: "coverage.jpg"
 resources:
   - src: "coverage.jpg"
     title: "A screen grab of a terminal window displaying 100% coverage across 163 passing tests"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1513464373980778502"
+      name: "Twitter"
 ---
 
   * Charlotte's been away and so I've been by myself for longer than I have in ages. I hung out with a few friends on Saturday. Otherwise, I’ve been a bit… lonely?

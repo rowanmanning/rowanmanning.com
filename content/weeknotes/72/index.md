@@ -16,6 +16,13 @@ mainImage: "horse.jpg"
 resources:
   - src: "horse.jpg"
     title: "A horse statue with a very good face"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1503142013012692993"
+      name: "Twitter"
 ---
 
   * It's mostly been a quiet week because we were trying to not get COVID ahead of our weekend trip to Bordeaux. I kinda missed seeing people in the office for one of the days (especially as my new team member was in on Friday).

@@ -16,6 +16,13 @@ mainImage: "cat-lamp.jpg"
 resources:
   - src: "cat-lamp.jpg"
     title: "A bright little lamp in the shape of a cute cat"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1454771809828626432"
+      name: "Twitter"
 ---
 
   * I'm feeling very settled already and excited to make the new flat homier. It's so quiet, I'm sleeping like a baby (weird expression based on what I hear from my babied-up friends - they do _not_ sleep well) now that I can't hear constant train screeching.

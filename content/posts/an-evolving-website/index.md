@@ -33,8 +33,8 @@ resources:
 # -----
 syndication:
   links:
-    - url: https://twitter.com/rowanmanning/status/707540216030965760
-      name: Twitter
+    - url: "https://twitter.com/rowanmanning/status/707540216030965760"
+      name: "Twitter"
 ---
 
 

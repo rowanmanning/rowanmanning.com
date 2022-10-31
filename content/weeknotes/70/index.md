@@ -9,6 +9,13 @@ tags: ["Social", "Sleep", "Open Source", "Side Projects", "Work", "JavaScript"]
 # Weeknote display
 # ----------------
 highlight: "blue"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1497945255110340617"
+      name: "Twitter"
 ---
 
   * I don't know what to say about Ukraine. I'm flitting between avoiding news, just to be able to get things done, and doom-scrolling. [Alex covered this better than I could](https://alexwilson.tech/content/256730a2-c09e-4319-ae77-239d05eaf15a). I try to keep these weeknotes relatively news-light because they're mostly there to help me process what's going on in my life, but it'd be weird not to highlight the impact this is having. As with [Alice's note](https://alicebartlett.co.uk/blog/weaknotes-182), there's a definite vibe shift below.

@@ -9,6 +9,13 @@ resources:
     title: "A very messy head of hair"
     params:
       caption: "Look at this mess"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1381274413287493638"
+      name: "Twitter"
 ---
 
   * Some good news on the house front! The work to remedy the [cladding issues](/weeknotes/21/) on the flat I like is going to start this month. It's not clear how long this is going to add to the process and they still need to get an EWS1 form after it's done, but fingers crossed. I'm still viewing other places at a slower pace, but nothing has wowed me yet.

@@ -7,6 +7,13 @@ description: "A week of better sleep, better holiday, some very impressive show-
 resources:
   - src: "toilet-roll-wall.jpg"
     title: "A wall of toilet roll"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1379177073755979781"
+      name: "Twitter"
 ---
 
   * Tootsie's new feeding schedule is working! I'm so well rested! The only compromise is that he has his breakfast in our bedroom so that he can see that we're nearby while he's eating (yeah we need to resolve his separation anxiety too, but one thing at a time).

@@ -7,6 +7,13 @@ description: "A week of exciting treasure hunts, exciting house hunts, and organ
 resources:
   - src: "treasure-chest.png"
     title: "A locked treasure chest"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1371406164878102531"
+      name: "Twitter"
 ---
 
   * My week has been dominated by house viewings. In ~10 days I've gone from not being sure whether I can afford to buy, to having an offer accepted on a two-bed flat near Whitechapel 😬 I'm fully expecting something to go wrong and this is maybe far too fast, but I love the place.

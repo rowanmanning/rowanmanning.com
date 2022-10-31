@@ -16,6 +16,13 @@ mainImage: "tart.jpg"
 resources:
   - src: "tart.jpg"
     title: "A tart cooling on top of the cooker"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1521137237232177154"
+      name: "Twitter"
 ---
 
   * This week has been jam-packed, strap yourselves in for a few words.

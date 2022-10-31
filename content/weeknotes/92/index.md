@@ -9,6 +9,13 @@ tags: ["Books", "Social", "Work", "House", "Rust"]
 # Weeknote display
 # ----------------
 highlight: "pink"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1553834686555848706"
+      name: "Twitter"
 ---
 
   * I've been reading a lot this week. "A lot" for me is "any reading at all", I picked up The Invisible Man because it was free and I knew I liked The War of the Worlds. I've since moved on to The Book of Dust and am very close to the end of book 1, I'm enjoying being in Philip Pullman's world again. It's been a really nice change of pace away from just binging TV and I hope I can sustain it. A lot's been released since I last had a big fiction stint.

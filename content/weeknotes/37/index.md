@@ -9,6 +9,13 @@ tags: ["Health", "Work", "Games", "Sleep", "Side Projects", "Writing", "Blogging
 # Weeknote display
 # ----------------
 highlight: "blue"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1414495996503937025"
+      name: "Twitter"
 ---
 
   * It was a very uneventful week, mostly due to [isolation](/weeknotes/36/).

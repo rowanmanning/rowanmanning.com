@@ -9,6 +9,13 @@ resources:
     title: "A Christmas cake, decorated with heaps of royal icing that looks like snow. Small green trees made from pistachio paste are scattered across the top, with two wooden stags peeking around them"
     params:
       caption: "My brother says the trees look like poos, and I'm worried about his diet now"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1343489696031244290"
+      name: "Twitter"
 ---
 
   * I really enjoyed Christmas, we woke up late and spent most of the day cooking. We had a spreadsheet for all the meal timings which was very helpful, and I wasn't even the one to instigate it. We spent the evening on a bunch of different video calls with friends and family, and I ate and drank too much which is exactly how I intended on spending my day.

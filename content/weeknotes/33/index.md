@@ -7,6 +7,13 @@ description: "A week of house buying progress, new characters, sun and champagne
 resources:
   - src: "webmentions.png"
     title: "A screenshot of the \"Responses\" section of one of my blog posts, showing social interactions with the post and a form to submit your own mentions of the page."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1404064475167199235"
+      name: "Twitter"
 ---
 
   * I'm applying for a mortgage! I never thought I'd be so happy to see a fire safety form, but the flat I'd like to buy now has an EWS1 form and I might print it and frame it. I've instructed a solicitor and I'm finally beginning the long process of handing over all my personal details ready to be scrutinised.

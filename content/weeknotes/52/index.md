@@ -22,6 +22,13 @@ resources:
     title: "An empty kitchen with green tiles and a wooden worktop"
   - src: "living-room-empty.jpg"
     title: "An empty living room with pale green walls and dark wooden floors"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1452217835929878528"
+      name: "Twitter"
 ---
 
   * I moved into my new flat! I feel like a whole new person – youthful and rejuvenated. What did I do before I was perpetually stressed about this purchase?

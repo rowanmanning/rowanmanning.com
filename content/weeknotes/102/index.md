@@ -16,6 +16,13 @@ mainImage: "matching.jpg"
 resources:
   - src: "matching.jpg"
     title: "Me wearing a yellow coat with a green jumper next to Charlotte wearing a green coat and a yellow jumper"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1579395374409998338"
+      name: "Twitter"
 ---
 
   * Incidents come in waves and we seem to be at the peak of one :grimacing: ["I really enjoy incidents"](/weeknotes/101/) FFS Rowan don't tempt fate like that again.

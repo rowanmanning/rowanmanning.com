@@ -22,8 +22,8 @@ resources:
 # -----
 syndication:
   links:
-    - url: https://twitter.com/rowanmanning/status/735070525299429377
-      name: Twitter
+    - url: "https://twitter.com/rowanmanning/status/735070525299429377"
+      name: "Twitter"
 ---
 
 

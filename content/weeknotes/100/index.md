@@ -9,6 +9,13 @@ tags: ["Work", "Films", "Books", "Social", "Games", "Side Projects", "House", "M
 # Weeknote display
 # ----------------
 highlight: "orange"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1574347640661327874"
+      name: "Twitter"
 ---
 
   * It's week 100! I'm into triple figures. I should probably start working out if I'm gonna do anything special for week 137.

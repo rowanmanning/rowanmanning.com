@@ -18,6 +18,13 @@ resources:
     title: "Arjun and I cheersing Jägerbombs"
   - src: "horses.jpg"
     title: "Grandma and I standing by a fence in the sunshine, saying hi to some Shetland ponies"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1546490959785037824"
+      name: "Twitter"
 ---
 
   * Feeling like we're very much back to reality over the past week. It's not horrible really, I'm still enjoying work a lot and am feeling pretty productive already. I haven't forgotten how to code :tada:

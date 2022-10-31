@@ -4,6 +4,13 @@ date: 2020-11-08T21:00:00+0000
 tags: ["Food", "Music", "Games", "Vegetarianism", "Hugo", "Board Games", "Gloomhaven", "Cinnamon Buns"]
 highlight: "lime"
 description: "A week of compulsively checking election results, craving cinnamon buns, and having one song on repeat."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1325748226159501318"
+      name: "Twitter"
 ---
 
   * I rebuilt this website in [Hugo](https://gohugo.io/) earlier in the week. It's been ages since I've done a significant amount of programming, and it was a lot of fun learning how to use something new. Hugo is super fast and super flexible. I also modernised [the CSS](https://github.com/rowanmanning/rowanmanning.com/tree/main/themes/rowanmanning/assets/sass) a lot and I didn't realise how much I've missed styling websites.

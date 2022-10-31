@@ -50,6 +50,13 @@ resources:
     title: "Me, Charlotte, and Tootsie all posing for a selfie"
     params:
       caption: "I love this photo of the three of us"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1426841859687686146"
+      name: "Twitter"
 ---
 
 {{< content-warning >}}illness and death{{< /content-warning >}}

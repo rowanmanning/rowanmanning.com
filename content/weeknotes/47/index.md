@@ -20,6 +20,13 @@ resources:
     title: "Three mountain peaks poking out of a jungle"
   - src: "lava-cave.jpg"
     title: "A dark cave with a stream of lava pouring from the roof"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1439558310714396673"
+      name: "Twitter"
 ---
 
   * I finally have an actual mortgage offer! I started applying [back in June](/weeknotes/33/). It's taken this long due to several failed attempts ([deck access](/weeknotes/35/)), some very inefficient people, and the lender checking all the fire safety docs _extremely_ fastidiously. I did a little dance around the flat when I heard.

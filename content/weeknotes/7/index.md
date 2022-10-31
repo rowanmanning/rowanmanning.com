@@ -4,6 +4,13 @@ date: 2020-12-13T19:10:00+0000
 tags: ["Christmas", "Food", "Work", "Soup", "Health", "Eating Out"]
 highlight: "orange"
 description: "A week of truffle oil, Christmas gin tasting, tasting menus, and trousers that no longer fit."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1338455398383312896"
+      name: "Twitter"
 ---
 
   * The title of this weeknote refers to me. Yes, I'm the culinary genius, because on Tuesday I added a dash of truffle oil to my Heinz cream of mushroom soup and it really lifted the dish. I've never thought of myself as the kind of person who owns truffle oil, but I bought the tiny bottle a few months ago on a whim – I really was craving [La Tua](https://www.latuapasta.com/)'s black truffle and ricotta tortelloni in the first lockdown.

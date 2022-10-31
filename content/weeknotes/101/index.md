@@ -16,6 +16,13 @@ mainImage: "ziggy.jpg"
 resources:
   - src: "ziggy.jpg"
     title: "Ziggy, a very cute and angry-looking cat"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1576904404170526720"
+      name: "Twitter"
 ---
 
   * It feels like a super busy week, I haven't really had time to stop and think!

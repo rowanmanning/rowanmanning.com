@@ -16,6 +16,13 @@ mainImage: "living-room.jpg"
 resources:
   - src: "living-room.jpg"
     title: "A view of my living room, with a corner sofa now positioned by the window"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1457332938962522176"
+      name: "Twitter"
 ---
 
   * It's been a relatively quiet week, Charlotte's been out quite a lot of and I've been pootling around doing stuff around the house.

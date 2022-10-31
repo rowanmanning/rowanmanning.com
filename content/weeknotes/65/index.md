@@ -18,6 +18,13 @@ resources:
     title: "A Tiffany style floor lamp with a brass stand."
   - src: "lamp-2.jpg"
     title: "A green and brass bankers lamp."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1485541633965760512"
+      name: "Twitter"
 ---
 
   * It felt like quite an uneventful week. I spent a fair bit of work time digging into our Grafana dashboards, which was fun.

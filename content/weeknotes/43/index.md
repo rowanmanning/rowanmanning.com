@@ -24,6 +24,13 @@ resources:
     params:
       caption: "The town of Toidric"
       link: "https://kanka.io/en/campaign/10848/maps/21761/explore"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1429381241388810244"
+      name: "Twitter"
 ---
 
   * I'm still very sad about [Tootsie](/weeknotes/42/) and probably will be for the foreseeable, thanks for all your kind words :heart:

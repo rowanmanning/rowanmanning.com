@@ -4,6 +4,13 @@ date: 2021-03-22T08:45:00+0000
 tags: ["Food", "House", "Tootsie", "Vegetarianism", "Cladding", "3D Printing"]
 highlight: "red"
 description: "A week of boring mortgage calls, thai green curry, rum tasting with strangers, and a food-obsessed cat."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1373922063778512896"
+      name: "Twitter"
 ---
 
   * My transformation into the boring person who only talks about their house buying process is nearly complete. I can feel it happening but it's really hard to stop.

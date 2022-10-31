@@ -9,6 +9,13 @@ tags: ["Holiday", "Social", "Food", "TV", "The Ultimatum"]
 # Weeknote display
 # ----------------
 highlight: "pink"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1536366074958061568"
+      name: "Twitter"
 ---
 
   * I'm back in London for a few days, feeling very relaxed. Actually looking forward to working for a couple of days, but not looking forward to mountains of Slack messages and emails to sort through.

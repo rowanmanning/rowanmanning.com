@@ -16,6 +16,13 @@ mainImage: "cats.jpg"
 resources:
   - src: "cats.jpg"
     title: "Two very large and very fluffy cats eating treats"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1490635725313880066"
+      name: "Twitter"
 ---
 
   * It's been a busy week! We had dinner with [Gallal](https://twitter.com/gallal_sharaf) after writing last week's note and met his and [Euan](https://twitter.com/efinlay24)'s new housemate who seems nice. Gallal made vegan chilli, it was delicious.

@@ -7,6 +7,13 @@ description: "A week of cute birthday boys, blogging again, many crosswords, and
 resources:
   - src: "tootsie-cake.jpg"
     title: "A cake made of tuna and whole small fish, surrounded by a ring of dreamies, and topped with a candle. Tootsie is being held back from eating the cake while the candle is lit."
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1388923064956633091"
+      name: "Twitter"
 ---
 
   * I finished the first draft of my blog post about the [virtual treasure hunt](/weeknotes/20/) that [Glynn](https://twitter.com/glynnphillips) and I ran. Hopefully, with some feedback, it'll be published in the next week or so. I'm mostly pleased I got a draft finished – I'd definitely been procrastinating to avoid it.

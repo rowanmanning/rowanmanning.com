@@ -15,8 +15,8 @@ highlight: "yellow"
 # -----
 syndication:
   links:
-    - url: https://twitter.com/rowanmanning/status/350513421663485953
-      name: Twitter
+    - url: "https://twitter.com/rowanmanning/status/350513421663485953"
+      name: "Twitter"
 ---
 
 

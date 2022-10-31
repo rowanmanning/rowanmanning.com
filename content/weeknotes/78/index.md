@@ -16,6 +16,13 @@ mainImage: "wedding-polaroid.jpg"
 resources:
   - src: "wedding-polaroid.jpg"
     title: "A polaroid picture of Rowan and Charlotte in wedding attire, holding a bouquet and smiling"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1518514468560543745"
+      name: "Twitter"
 ---
 
   * We binged Bridgerton season 2 over two evenings this week. I loved it, not _quite_ as much as S1, but pretty close.

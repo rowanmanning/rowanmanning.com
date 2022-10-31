@@ -9,6 +9,13 @@ tags: ["Health", "Food", "Work", "TV"]
 # Weeknote display
 # ----------------
 highlight: "red"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1504794248029290497"
+      name: "Twitter"
 ---
 
   * Early weeknote this week, because nothing is gonna happen over the weekend.

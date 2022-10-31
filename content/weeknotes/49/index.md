@@ -18,6 +18,13 @@ resources:
     title: "Me sipping a cold Stella in a hot tub"
   - src: "riley.jpg"
     title: "Riley chilling under a chair"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://twitter.com/rowanmanning/status/1444578643645276161"
+      name: "Twitter"
 ---
 
   * I didn't exchange on my flat this week despite [saying I would last week](/weeknotes/48/). My solicitor hasn't been contactable at all. Maybe I'll be able to get in touch with them this week? Who knows. This probably means I need to pay an extra unnecessary month of central London rent :tada:
