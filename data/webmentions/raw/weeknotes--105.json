@@ -1,0 +1,20 @@
+{
+	"ddc084d37f7774090ae95882d716aea6": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/files.mastodon.social/7ab0977f14194bbe7dbec21a3488321e53bf372b9fc5dc3610a87017c801cff9.jpg",
+			"url": "https://mastodon.social/@apaleslimghost"
+		},
+		"url": "https://mastodon.social/@rowanmanning/109262343388979744#favorited-by-108194252602674964",
+		"published": null,
+		"wm-received": "2022-10-31T12:01:46Z",
+		"wm-id": 1547703,
+		"wm-source": "https://brid.gy/like/mastodon/@rowanmanning@mastodon.social/109262343388979744/108194252602674964",
+		"wm-target": "https://rowanmanning.com/weeknotes/105/",
+		"like-of": "https://rowanmanning.com/weeknotes/105/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
