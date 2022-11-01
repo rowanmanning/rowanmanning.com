@@ -20,5 +20,23 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/year-2/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"96ff4b3860c7f48d62e5fc5f4f8317bd": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jermila Dhas",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg",
+			"url": "https://twitter.com/JermilaD"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1587389326123483137#favorited-by-1008287622865747968",
+		"published": null,
+		"wm-received": "2022-11-01T23:00:35Z",
+		"wm-id": 1548958,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1587389326123483137/1008287622865747968",
+		"wm-target": "https://rowanmanning.com/weeknotes/year-2/",
+		"like-of": "https://rowanmanning.com/weeknotes/year-2/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
