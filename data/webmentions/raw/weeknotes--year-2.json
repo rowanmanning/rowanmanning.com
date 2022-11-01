@@ -1,0 +1,24 @@
+{
+	"224b1ec1469efaeb2e74c2b82f25e2ee": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "arjun",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/375093eb9cf3616b135b656a2011a5d33a95d547381704557961e733eef4a7c2.jpg",
+			"url": "https://twitter.com/adgad"
+		},
+		"url": "https://twitter.com/adgad/status/1587424757217116160",
+		"published": "2022-11-01T12:42:09+00:00",
+		"wm-received": "2022-11-01T12:55:45Z",
+		"wm-id": 1548580,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1587389326123483137/1587424757217116160",
+		"wm-target": "https://rowanmanning.com/weeknotes/year-2/",
+		"content": {
+			"html": "What an awesomely wholesome/wholesomely awesome year! 🙌\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "What an awesomely wholesome/wholesomely awesome year! 🙌"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/year-2/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	}
+}
