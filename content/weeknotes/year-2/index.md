@@ -16,6 +16,15 @@ mainImage: "year-in-thumbnails.jpg"
 resources:
   - src: "year-in-thumbnails.jpg"
     title: "A full year of weeknotes represented as a grid of thumbnails"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://mastodon.social/@rowanmanning/109268063682475257"
+      name: "Mastodon"
+    - url: "https://twitter.com/rowanmanning/status/1587389326123483137"
+      name: "Twitter"
 ---
 
 Has it been two years already!? Weird. There's been a lot of change over the last year, post house move I focused on sorting out my work life. Despite the world burning around us, I'm a considerably more happy person than the guy from 12 months ago.
