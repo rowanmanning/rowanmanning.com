@@ -1,0 +1,24 @@
+{
+	"6377485caf05f5aa2f8b530662081dd5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex Wilson",
+			"photo": "https://webmention.io/avatar/files.mastodon.social/c00f23381b46d058276352269c8458e77084cb3978d5ddb4e82fa94a4025c71b.jpg",
+			"url": "https://mastodon.social/@alexwilson"
+		},
+		"url": "https://mastodon.social/@alexwilson/109307414311426748",
+		"published": "2022-11-08T09:12:57",
+		"wm-received": "2022-11-08T09:19:20Z",
+		"wm-id": 1553138,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowanmanning@mastodon.social/109302911847923924/109307414311426748",
+		"wm-target": "https://rowanmanning.com/weeknotes/106/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://mastodon.social/@rowanmanning\" class=\"u-url\">@<span>rowanmanning</span></a></span> That overrides tip is *dope* - and seconded on Mastodon, although I haven’t yet found the right mobile client for me.</p>",
+			"text": "@rowanmanning That overrides tip is *dope* - and seconded on Mastodon, although I haven’t yet found the right mobile client for me."
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/106/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	}
+}
