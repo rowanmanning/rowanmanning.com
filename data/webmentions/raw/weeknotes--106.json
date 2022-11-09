@@ -20,5 +20,23 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/106/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"ba386f29e7e7225aa38def7368aefc19": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Oliver",
+			"photo": "https://webmention.io/avatar/files.mastodon.social/7b434ad535e8358f3e12b5f3a1739380efdb2a1424896bfd33d8d1bfed27fd88.jpg",
+			"url": "https://toot.cafe/@oliverturner"
+		},
+		"url": "https://mastodon.social/@rowanmanning/109302911847923924#favorited-by-62502",
+		"published": null,
+		"wm-received": "2022-11-09T10:35:53Z",
+		"wm-id": 1554217,
+		"wm-source": "https://brid.gy/like/mastodon/@rowanmanning@mastodon.social/109302911847923924/62502",
+		"wm-target": "https://rowanmanning.com/weeknotes/106/",
+		"like-of": "https://rowanmanning.com/weeknotes/106/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
