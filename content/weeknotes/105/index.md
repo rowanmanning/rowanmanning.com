@@ -43,4 +43,4 @@ syndication:
 
   * We started watching Love is Blind season 3. I _think_ it's maybe getting a little over-produced and I'm not as attached to anyone as in the previous seasons. There are some disaster people and plenty of walking red flags.
 
-  * I'm switching more of my online social stuff to Mastodon now that Musk owns Twitter. I don't think it's gonna be a nice place to be. It's probs not been that nice for a long time and Mastodon seems quite chill and friendly. I'm [@rowanmanning@mastodon.social](https://mastodon.social/@rowanmanning).
+  * I'm switching more of my online social stuff to Mastodon now that Musk owns Twitter. I don't think it's gonna be a nice place to be. It's probs not been that nice for a long time and Mastodon seems quite chill and friendly. I'm [@rowan@hachyderm.io](https://hachyderm.io/@rowan).

@@ -23,7 +23,7 @@ highlight: "yellow"
     }
     ```
 
-  * I think I'm very much a [Mastodon](https://joinmastodon.org/) convert now, and I've noticed my anxiety and stress levels have been lower after going cold turkey on Twitter. I decided that Twitter is just for broadcasting and ignoring, and all my actual social interactions will be on Mastodon which is so much more chill. [Say hi if you're on there](https://mastodon.social/@rowanmanning).
+  * I think I'm very much a [Mastodon](https://joinmastodon.org/) convert now, and I've noticed my anxiety and stress levels have been lower after going cold turkey on Twitter. I decided that Twitter is just for broadcasting and ignoring, and all my actual social interactions will be on Mastodon which is so much more chill. [Say hi if you're on there](https://hachyderm.io/@rowan).
 
     I fully removed Twitter from my home screen, it took a little bit of effort not to return to doom-scrolling but I think the habit's gone. I've also moved Twitter notifications into my scheduled summary.
 
