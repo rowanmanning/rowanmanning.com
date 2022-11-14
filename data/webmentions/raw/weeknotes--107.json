@@ -1,0 +1,20 @@
+{
+	"6ec2bbbeeb9e08c50139fb9e936caba3": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Adam Onishi",
+			"photo": "https://webmention.io/avatar/hachyderm.io/8c6d22faffcf1309de4e5622704f44dd24a91ebd1c78d8626ae2938e342083fe.jpg",
+			"url": "https://mastodon.social/@onishiweb"
+		},
+		"url": "https://hachyderm.io/@rowan/109341754732952040#favorited-by-109333590328750937",
+		"published": null,
+		"wm-received": "2022-11-14T11:43:27Z",
+		"wm-id": 1559234,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/109341754732952040/109333590328750937",
+		"wm-target": "https://rowanmanning.com/weeknotes/107/",
+		"like-of": "https://rowanmanning.com/weeknotes/107/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
