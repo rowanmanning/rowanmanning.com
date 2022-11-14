@@ -16,5 +16,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/107/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"2b9194d37284449ef0e44d891ecff737": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Oliver",
+			"photo": "https://webmention.io/avatar/hachyderm.io/7b434ad535e8358f3e12b5f3a1739380efdb2a1424896bfd33d8d1bfed27fd88.jpg",
+			"url": "https://toot.cafe/@oliverturner"
+		},
+		"url": "https://hachyderm.io/@rowan/109341754732952040#favorited-by-109309328746571053",
+		"published": null,
+		"wm-received": "2022-11-14T12:57:48Z",
+		"wm-id": 1559258,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/109341754732952040/109309328746571053",
+		"wm-target": "https://rowanmanning.com/weeknotes/107/",
+		"like-of": "https://rowanmanning.com/weeknotes/107/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
