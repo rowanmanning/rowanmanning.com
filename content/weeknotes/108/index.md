@@ -16,6 +16,15 @@ mainImage: "the-sun.jpg"
 resources:
   - src: "the-sun.jpg"
     title: "Charlotte and I sheltering under a bridge. We're wet from the rain and we're pointing at a large model of the sun at the end of the solar system walk"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://hachyderm.io/@rowan/109384251335371540"
+      name: "Mastodon"
+    - url: "https://twitter.com/rowanmanning/status/1594826880779264018"
+      name: "Twitter"
 ---
 
   * I got a new phone. It's purple, fast, and lasts for a whole day of use. I used to be the guy who got a new iPhone every time they launched and I'm quite pleased to be out of that phase, I had my previous one for _years_ before upgrading.
