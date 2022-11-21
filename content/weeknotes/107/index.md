@@ -9,6 +9,15 @@ tags: []
 # Weeknote display
 # ----------------
 highlight: "orange"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://hachyderm.io/@rowan/109341754732952040"
+      name: "Mastodon"
+    - url: "https://twitter.com/rowanmanning/status/1592106934173569026"
+      name: "Twitter"
 ---
 
   * I started the week off well by coming second in [Lords of Waterdeep](https://boardgamegeek.com/boardgame/110327/lords-waterdeep). It's a classic that my board game group play every now and then

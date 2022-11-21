@@ -9,6 +9,15 @@ tags: ["Work", "Social", "Champagne", "TV"]
 # Weeknote display
 # ----------------
 highlight: "yellow"
+
+# Links
+# -----
+syndication:
+  links:
+    - url: "https://mastodon.social/@rowanmanning/109302911847923924"
+      name: "Mastodon"
+    - url: "https://twitter.com/rowanmanning/status/1589620843671605248"
+      name: "Twitter"
 ---
 
   * [Kara](https://ghost.computer/) introduced me to an npm feature this week that I had absolutely no clue existed: the [`overrides` property](https://docs.npmjs.com/cli/v8/configuring-npm/package-json#overrides) of `package.json`. My team was puzzling over how to trial switching out our logging library _and_ how we might be able to easily experiment with the [Express v5 beta](https://expressjs.com/en/guide/migrating-5.html), this is the answer to both!
