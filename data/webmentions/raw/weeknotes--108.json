@@ -34,5 +34,63 @@
 		"like-of": "https://rowanmanning.com/weeknotes/108/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"de1faa42c9cbe1b6068ac9c480924ab6": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Ged",
+			"photo": "https://webmention.io/avatar/hachyderm.io/31ee77746f6653f71494230c1d044d4802eda8ee8908bca1f62c269bf3462a93.jpg",
+			"url": "https://hachyderm.io/@ged"
+		},
+		"url": "https://hachyderm.io/@rowan/109384251335371540#favorited-by-109367199428157210",
+		"published": null,
+		"wm-received": "2022-11-22T08:34:38Z",
+		"wm-id": 1566192,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/109384251335371540/109367199428157210",
+		"wm-target": "https://rowanmanning.com/weeknotes/108/",
+		"like-of": "https://rowanmanning.com/weeknotes/108/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"0c89af6260e4e091df60072b01f1a6d5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex Wilson",
+			"photo": "https://webmention.io/avatar/hachyderm.io/d59ba91a15d9bcdf2a51cbc4c24d3790ac60e2115fb9e14b494b3d873e962b29.jpg",
+			"url": "https://mastodon.social/@alexwilson"
+		},
+		"url": "https://hachyderm.io/@rowan/109384251335371540#favorited-by-109310454920793384",
+		"published": null,
+		"wm-received": "2022-11-22T08:35:08Z",
+		"wm-id": 1566194,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/109384251335371540/109310454920793384",
+		"wm-target": "https://rowanmanning.com/weeknotes/108/",
+		"like-of": "https://rowanmanning.com/weeknotes/108/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"d3769f09cdbf2206fde53bce4468cbf7": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex Wilson",
+			"photo": "https://webmention.io/avatar/hachyderm.io/d59ba91a15d9bcdf2a51cbc4c24d3790ac60e2115fb9e14b494b3d873e962b29.jpg",
+			"url": "https://mastodon.social/@alexwilson"
+		},
+		"url": "https://mastodon.social/@alexwilson/109386371049956852",
+		"published": "2022-11-22T07:52:42",
+		"wm-received": "2022-11-22T08:35:08Z",
+		"wm-id": 1566193,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/109384251335371540/109386371259038077",
+		"wm-target": "https://rowanmanning.com/weeknotes/108/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> Dr Belda comes highly recommended and can definitely help you answer the question.</p>",
+			"text": "@rowan Dr Belda comes highly recommended and can definitely help you answer the question."
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/108/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
