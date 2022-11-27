@@ -4,7 +4,7 @@
 title: "Week 106: Champagne Show"
 date: 2022-11-06T23:00:00Z
 description: "A week of useful npm features, going cold turkey on Twitter, enjoying Mastodon, drinking a lot of champagne, and dancing to 2000's bangers until 4 am."
-tags: ["Work", "Social", "Champagne", "TV"]
+tags: ["Work", "Social", "Champagne", "TV", "Andor"]
 
 # Weeknote display
 # ----------------
