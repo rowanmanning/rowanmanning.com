@@ -1,0 +1,38 @@
+{
+	"3be0ddb13c7dffb829b18c46ca23b35e": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Mel Rogan",
+			"photo": "https://webmention.io/avatar/hachyderm.io/32cee33c16791a37f63281d26adaecc2163b60c58e7d05aa35339059aa8139af.jpg",
+			"url": "https://hachyderm.io/@itsmero"
+		},
+		"url": "https://hachyderm.io/@rowan/109421312054053861#favorited-by-109381052365152302",
+		"published": null,
+		"wm-received": "2022-11-28T13:10:14Z",
+		"wm-id": 1570249,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/109421312054053861/109381052365152302",
+		"wm-target": "https://rowanmanning.com/weeknotes/109/",
+		"like-of": "https://rowanmanning.com/weeknotes/109/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"267cd17e90e464e1e206106f486a6ed5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Simon Plenderleith",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/81e3d5432eb04c5eacff1d5961366994fd513aca4fb227a1f875aaa35e264003.jpg",
+			"url": "https://twitter.com/simonplend"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1597198447102558209#favorited-by-34583",
+		"published": null,
+		"wm-received": "2022-11-28T13:29:32Z",
+		"wm-id": 1570252,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1597198447102558209/34583",
+		"wm-target": "https://rowanmanning.com/weeknotes/109/",
+		"like-of": "https://rowanmanning.com/weeknotes/109/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
