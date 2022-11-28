@@ -34,5 +34,41 @@
 		"like-of": "https://rowanmanning.com/weeknotes/109/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"de356467cf17c3fff9be06257cd762c4": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "dötcöde",
+			"photo": "https://webmention.io/avatar/hachyderm.io/4210e393d10a4a143ee77d1c8dc134482f8c78252d7a88676d4cbeafe85a57fd.gif",
+			"url": "https://mastodon.social/@dotcode"
+		},
+		"url": "https://hachyderm.io/@rowan/109421312054053861#favorited-by-109290511876209982",
+		"published": null,
+		"wm-received": "2022-11-28T14:22:50Z",
+		"wm-id": 1570315,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/109421312054053861/109290511876209982",
+		"wm-target": "https://rowanmanning.com/weeknotes/109/",
+		"like-of": "https://rowanmanning.com/weeknotes/109/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"f053b0b32fb7e1a13cf47793bbb2e644": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "haikushane 🎲",
+			"photo": "https://webmention.io/avatar/hachyderm.io/58de302724652320dcccd911ddee1c7f53acf9b4f72d40bbaee3c3040e786b73.jpg",
+			"url": "https://d20.social/@shane"
+		},
+		"url": "https://hachyderm.io/@rowan/109421312054053861#favorited-by-109299427348264210",
+		"published": null,
+		"wm-received": "2022-11-28T14:22:51Z",
+		"wm-id": 1570316,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/109421312054053861/109299427348264210",
+		"wm-target": "https://rowanmanning.com/weeknotes/109/",
+		"like-of": "https://rowanmanning.com/weeknotes/109/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
