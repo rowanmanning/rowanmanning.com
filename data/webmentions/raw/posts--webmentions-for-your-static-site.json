@@ -670,5 +670,23 @@
 		"rels": {
 			"canonical": "https://www.reddit.com/r/indieweb/comments/ousolr/webmentions_for_your_static_site/"
 		}
+	},
+	"acb7a47bc3e237749cc3240cdcbfbe49": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Tomáš Jakl",
+			"photo": "https://nest.jakl.one/assets/fotka-se-strojem-ctvercova.webp",
+			"url": "https://nest.jakl.one/"
+		},
+		"url": "https://nest.jakl.one/likes/2022-11-20-lv10y/",
+		"published": "2022-11-20T00:12:57+00:00",
+		"wm-received": "2022-11-30T10:44:59Z",
+		"wm-id": 1571866,
+		"wm-source": "https://nest.jakl.one/likes/2022-11-20-lv10y/",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
