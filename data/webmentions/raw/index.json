@@ -112,5 +112,23 @@
 		"mention-of": "https://rowanmanning.com",
 		"wm-property": "mention-of",
 		"wm-private": false
+	},
+	"943d3058ac54c423e41faffc36a39ed2": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "",
+			"photo": "",
+			"url": ""
+		},
+		"url": "https://alexwilson.tech/content/ccc31a35-8676-4ee2-8e87-e75e0e2b28ef/",
+		"published": null,
+		"wm-received": "2022-12-04T16:46:48Z",
+		"wm-id": 1574554,
+		"wm-source": "https://alexwilson.tech/content/ccc31a35-8676-4ee2-8e87-e75e0e2b28ef/",
+		"wm-target": "https://rowanmanning.com/",
+		"mention-of": "https://rowanmanning.com/",
+		"wm-property": "mention-of",
+		"wm-private": false
 	}
 }
