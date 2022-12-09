@@ -106,5 +106,35 @@
 		"like-of": "https://rowanmanning.com/weeknotes/109/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"0ce01c67b12adbe2b64517a07e6e828c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan Manning",
+			"photo": "https://webmention.io/avatar/rowanmanning.com/7e3fc708e033a6bc9368df7540d9bf26759118fcb7bf87ca72dafcc454249780.png",
+			"url": "https://rowanmanning.com/"
+		},
+		"url": "https://rowanmanning.com/weeknotes/109/",
+		"published": "2022-11-27T19:05:00",
+		"wm-received": "2022-12-09T07:29:28Z",
+		"wm-id": 1577641,
+		"wm-source": "https://rowanmanning.com/weeknotes/109",
+		"wm-target": "https://rowanmanning.com/weeknotes/109/",
+		"name": "Week 109: Nuvole Bianche",
+		"summary": {
+			"content-type": "text/plain",
+			"value": "A week of trial news, low motivation, great TV, sickness, fun Christmas parties, more sickness, and piano music in Central Hall."
+		},
+		"content": {
+			"html": "<ul><li>\n<p>There was some heavy news this week relating to the trial I was going to be a witness for. Whacking it behind a content warning because… well.</p>\nContent warning: death / abuse / justice system\nMy ex-stepdad, who was the person that my sister and I were taking to court, has died. We started the process in early 2018, so that's nearly five years worth of reliving what a shitty human being he was. Still not sure how I feel about it all. There's an interesting mix of anger that we didn't get justice, sadness for my brothers (who had nothing to do with him anymore but this is weird for them), and a selfish relief that he's dead and I don't have to relive some of my fun childhood trauma in a courtroom.</li>\n<li><p>Funnily enough, my motivation hasn’t been at an all-time high this week. I’ve been letting myself do very little in the evenings and doing <em>kind of</em> the bare minimum at work, soz friends/colleagues.</p></li>\n<li><p>It meant I had time to finish watching Andor which is, by far, the best thing to come out of Lucasfilm since Rogue One. The Empire actually felt evil and tyrannical in a meaningful and occasionally gut-wrenching way, every performance was <em>so</em> on point, and I really enjoy anything set in the period between Episodes 3 and 4. Absolutely loved it.</p></li>\n<li><p>Charlotte’s been quite ill this week so I’ve been playing nurse a bit. Eating’s making her feel sick and she’s having a generally horrible time. Send sympathy.</p></li>\n<li><p>We had our Product &amp; Tech party at work on Wednesday at Winter Wonderland. It was a fun time, which I wasn’t expecting given how my week’s been. It felt festive, I ate a lot of pretzels and definitely drank too much because I thought it was a good idea to follow people to another venue once it was done. It wasn’t a good idea.</p></li>\n<li><p>I took Thursday off sick, which is very embarrassing. How old am I now?</p></li>\n<li><p>On Saturday we went out to eat for Charlotte’s mum’s birthday and then on to a candlelit Einaudi tribute which was lovely and ticks off the culture box for this week.</p></li>\n</ul><a href=\"https://rowanmanning.com/weeknotes/109/candlelight.jpg\"><img src=\"https://rowanmanning.com/weeknotes/109/candlelight.jpg\" alt=\"A view of a round stage covered in candles, with a grand piano in the center. Framed by a large pipe organ and candles covering the stepped choir seating.\" width=\"1200\" height=\"1200\" /></a>",
+			"text": "There was some heavy news this week relating to the trial I was going to be a witness for. Whacking it behind a content warning because… well.\nContent warning: death / abuse / justice system\nMy ex-stepdad, who was the person that my sister and I were taking to court, has died. We started the process in early 2018, so that's nearly five years worth of reliving what a shitty human being he was. Still not sure how I feel about it all. There's an interesting mix of anger that we didn't get justice, sadness for my brothers (who had nothing to do with him anymore but this is weird for them), and a selfish relief that he's dead and I don't have to relive some of my fun childhood trauma in a courtroom.\nFunnily enough, my motivation hasn’t been at an all-time high this week. I’ve been letting myself do very little in the evenings and doing kind of the bare minimum at work, soz friends/colleagues.\nIt meant I had time to finish watching Andor which is, by far, the best thing to come out of Lucasfilm since Rogue One. The Empire actually felt evil and tyrannical in a meaningful and occasionally gut-wrenching way, every performance was so on point, and I really enjoy anything set in the period between Episodes 3 and 4. Absolutely loved it.\nCharlotte’s been quite ill this week so I’ve been playing nurse a bit. Eating’s making her feel sick and she’s having a generally horrible time. Send sympathy.\nWe had our Product & Tech party at work on Wednesday at Winter Wonderland. It was a fun time, which I wasn’t expecting given how my week’s been. It felt festive, I ate a lot of pretzels and definitely drank too much because I thought it was a good idea to follow people to another venue once it was done. It wasn’t a good idea.\nI took Thursday off sick, which is very embarrassing. How old am I now?\nOn Saturday we went out to eat for Charlotte’s mum’s birthday and then on to a candlelit Einaudi tribute which was lovely and ticks off the culture box for this week."
+		},
+		"mention-of": "https://rowanmanning.com/weeknotes/109/",
+		"wm-property": "mention-of",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://rowanmanning.com/weeknotes/109/"
+		}
 	}
 }
