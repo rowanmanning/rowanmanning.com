@@ -1,0 +1,42 @@
+{
+	"954ec4bc2073f0ffa3bcaeb29beb54b5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Carlos Saltos",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/2a4c4fc5f1e506c9e16b8831fdfd733b2fa90c9cb27ecc5e02f37244b17ba5ae.jpg",
+			"url": "https://twitter.com/csaltos"
+		},
+		"url": "https://twitter.com/csaltos/status/1602049137628831746",
+		"published": "2022-12-11T21:14:13+00:00",
+		"wm-received": "2022-12-11T21:20:50Z",
+		"wm-id": 1579111,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1602048206648799233/1602049137628831746",
+		"wm-target": "https://rowanmanning.com/weeknotes/111/",
+		"content": {
+			"html": "Have a nice time !! 👍😎\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Have a nice time !! 👍😎"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/111/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"c98acc536a3c38a5992b4951e107fc1f": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Carlos Saltos",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/2a4c4fc5f1e506c9e16b8831fdfd733b2fa90c9cb27ecc5e02f37244b17ba5ae.jpg",
+			"url": "https://twitter.com/csaltos"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1602048206648799233#favorited-by-16257582",
+		"published": null,
+		"wm-received": "2022-12-11T21:20:51Z",
+		"wm-id": 1579112,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1602048206648799233/16257582",
+		"wm-target": "https://rowanmanning.com/weeknotes/111/",
+		"like-of": "https://rowanmanning.com/weeknotes/111/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
