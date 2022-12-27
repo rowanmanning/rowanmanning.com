@@ -1,0 +1,38 @@
+{
+	"3431d35f9afe3e204f6d25b74494d193": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Oliver",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/7b434ad535e8358f3e12b5f3a1739380efdb2a1424896bfd33d8d1bfed27fd88.jpg",
+			"url": "https://toot.cafe/@oliverturner"
+		},
+		"url": "https://hachyderm.io/@rowan/109587583719725774#favorited-by-109309328746571053",
+		"published": null,
+		"wm-received": "2022-12-27T23:17:40Z",
+		"wm-id": 1587954,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/109587583719725774/109309328746571053",
+		"wm-target": "https://rowanmanning.com/weeknotes/113/",
+		"like-of": "https://rowanmanning.com/weeknotes/113/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"292f787c52676990aa6f44bce45bea0b": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Matt Edgar",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/8fb52fb6f4d4cf35c67e9e8d1d4fc64d45f2a2875dfe6911c1d07ce16908ccfd.png",
+			"url": "https://mastodon.me.uk/@mattedgar"
+		},
+		"url": "https://hachyderm.io/@rowan/109587583719725774#favorited-by-108225153734957395",
+		"published": null,
+		"wm-received": "2022-12-27T23:18:17Z",
+		"wm-id": 1587955,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/109587583719725774/108225153734957395",
+		"wm-target": "https://rowanmanning.com/weeknotes/113/",
+		"like-of": "https://rowanmanning.com/weeknotes/113/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
