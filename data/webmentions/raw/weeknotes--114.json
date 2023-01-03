@@ -1,0 +1,20 @@
+{
+	"a820a3584eee5e027cf5d3dd4aaf42b0": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1610029209547870209#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2023-01-03T00:04:04Z",
+		"wm-id": 1591527,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1610029209547870209/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/114/",
+		"like-of": "https://rowanmanning.com/weeknotes/114/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
