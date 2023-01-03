@@ -16,5 +16,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/114/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"40fd00a7520692a5f39929140b3354d4": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "haikushane 🎲",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/58de302724652320dcccd911ddee1c7f53acf9b4f72d40bbaee3c3040e786b73.jpg",
+			"url": "https://d20.social/@shane"
+		},
+		"url": "https://hachyderm.io/@rowan/109621793234585009#favorited-by-109299427348264210",
+		"published": null,
+		"wm-received": "2023-01-03T01:11:05Z",
+		"wm-id": 1591589,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/109621793234585009/109299427348264210",
+		"wm-target": "https://rowanmanning.com/weeknotes/114/",
+		"like-of": "https://rowanmanning.com/weeknotes/114/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
