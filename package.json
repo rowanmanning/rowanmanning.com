@@ -36,7 +36,7 @@
     "@rowanmanning/eslint-config": "^5.0.2",
     "chai": "^4.3.7",
     "eslint": "^8.30.0",
-    "mocha": "^10.1.0"
+    "mocha": "^10.2.0"
   },
   "scripts": {
     "build": "npm run wm:process && hugo --minify --cleanDestinationDir --environment production",
