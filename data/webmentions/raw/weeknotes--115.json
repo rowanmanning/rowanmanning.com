@@ -1,0 +1,24 @@
+{
+	"a12a62a9b49647f6aac48df13604f9e5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/f1bebab046f7560c8aef58ea607167d41b7f362e28ed97ce3f39ff8dc9a10d4c.jpg",
+			"url": "https://cathode.church/@apaleslimghost"
+		},
+		"url": "https://cathode.church/@apaleslimghost/109660080450904287",
+		"published": "2023-01-09T16:00:36",
+		"wm-received": "2023-01-09T16:14:48Z",
+		"wm-id": 1596262,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/109660068323425939/109660080507652660",
+		"wm-target": "https://rowanmanning.com/weeknotes/115/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> i may regret asking this what is the difference between an \"ordinary\" wardrobe and a \"freestanding\" one</p>",
+			"text": "@rowan i may regret asking this what is the difference between an \"ordinary\" wardrobe and a \"freestanding\" one"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/115/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	}
+}
