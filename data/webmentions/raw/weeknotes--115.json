@@ -20,5 +20,67 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/115/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"bb7feed63c3958db9a765ca5ace8a742": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke B",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/d6a552dbe861f172c77b48235d619b822cb7eceb21623db2b6b4bfae15d07a80.jpg",
+			"url": "https://hachyderm.io/@lucas42"
+		},
+		"url": "https://hachyderm.io/@lucas42/109661102887178725",
+		"published": "2023-01-09T20:20:37",
+		"wm-received": "2023-01-09T20:39:32Z",
+		"wm-id": 1596477,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/109660068323425939/109661102887178725",
+		"wm-target": "https://rowanmanning.com/weeknotes/115/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> why doesn't liking your toot/tweet appear in the responses section any more?</p>",
+			"text": "@rowan why doesn't liking your toot/tweet appear in the responses section any more?"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/115/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"198a914fea4278538bd0b099684dbb58": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke B",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/d6a552dbe861f172c77b48235d619b822cb7eceb21623db2b6b4bfae15d07a80.jpg",
+			"url": "https://hachyderm.io/@lucas42"
+		},
+		"url": "https://hachyderm.io/@rowan/109660068323425939#favorited-by-109650731945561645",
+		"published": null,
+		"wm-received": "2023-01-09T20:39:33Z",
+		"wm-id": 1596478,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/109660068323425939/109650731945561645",
+		"wm-target": "https://rowanmanning.com/weeknotes/115/",
+		"like-of": "https://rowanmanning.com/weeknotes/115/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"b4439d75e34441904bc50a1a27e63656": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/8133fd9e5556718c38927699868809c5c2fd976f548de7dccaf9d23a556a8818.png",
+			"url": "https://hachyderm.io/@rowan"
+		},
+		"url": "https://hachyderm.io/@rowan/109660343304762888",
+		"published": "2023-01-09T17:07:27",
+		"wm-received": "2023-01-09T20:40:01Z",
+		"wm-id": 1596479,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/109660068323425939/109660343304762888",
+		"wm-target": "https://rowanmanning.com/weeknotes/115/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://cathode.church/@apaleslimghost\" class=\"u-url\">@<span>apaleslimghost</span></a></span> ha oh “ordinary fitted”, just a typo I cba to fix rn</p>",
+			"text": "@apaleslimghost ha oh “ordinary fitted”, just a typo I cba to fix rn"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/115/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
