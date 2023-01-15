@@ -13,7 +13,7 @@ highlight: "purple"
 
   * Coming back to work was tough enough without the [LastPass](https://blog.lastpass.com/2022/12/notice-of-recent-security-incident/) and [CircleCI](https://circleci.com/blog/january-4-2023-security-alert/) security incidents. Following the Heroku one last year, I'm beginning to wonder whether it's worth us maintaining a large website. Does anyone fancy moving back to print-only newspapers?
 
-  * A man came over and gave us a quote for some built-in wardrobes. It's expensive but did you know we could gain 40% more space than ordinary wardrobes and twice as much as freestanding?
+  * A man came over and gave us a quote for some built-in wardrobes. It's expensive but did you know we could gain 40% more space than ordinary fitted wardrobes and twice as much as freestanding?
 
   * My mum and sister came over for lunch on Saturday. I haven't seen Rebecca since before Christmas and it was lovely. I made a couple of different curries, onion bhajis, raita, and roti. It was all vegan and delicious.
 
