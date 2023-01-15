@@ -3,7 +3,7 @@
 # ---------------------------
 title: "Week 116: Taskmaster House"
 date: 2023-01-15T19:30:00Z
-description: "TODO: page description goes here."
+description: "A week of incident management, new tooling, vegetarianism, drinking champagne, long dog walks, and the Taskmaster house."
 tags: ["Work", "Social", "Walking", "Food", "TV", "Champagne", "The Circle"]
 
 # Weeknote display
