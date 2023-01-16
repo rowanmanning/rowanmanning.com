@@ -1,0 +1,20 @@
+{
+	"3a2b80e3a1ee8c4c06aad662ee585ea9": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "a pale slim ghost",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/f1bebab046f7560c8aef58ea607167d41b7f362e28ed97ce3f39ff8dc9a10d4c.jpg",
+			"url": "https://cathode.church/@apaleslimghost"
+		},
+		"url": "https://hachyderm.io/@rowan/109699291473561532#favorited-by-109354419605324362",
+		"published": null,
+		"wm-received": "2023-01-16T15:37:16Z",
+		"wm-id": 1600330,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/109699291473561532/109354419605324362",
+		"wm-target": "https://rowanmanning.com/weeknotes/116/",
+		"like-of": "https://rowanmanning.com/weeknotes/116/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
