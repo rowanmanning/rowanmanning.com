@@ -1,0 +1,60 @@
+{
+	"195cc8b5dc7552ef8b4db5da301aed80": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1617486927476953088#favorited-by-127856293",
+		"published": null,
+		"wm-received": "2023-01-23T12:08:56Z",
+		"wm-id": 1604498,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1617486927476953088/127856293",
+		"wm-target": "https://rowanmanning.com/weeknotes/117/",
+		"like-of": "https://rowanmanning.com/weeknotes/117/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"a95df59f1c2fffaa582deaf89c37f6b6": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "haikushane 🎲",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/58de302724652320dcccd911ddee1c7f53acf9b4f72d40bbaee3c3040e786b73.jpg",
+			"url": "https://d20.social/@shane"
+		},
+		"url": "https://hachyderm.io/@rowan/109738319875892667#favorited-by-109299427348264210",
+		"published": null,
+		"wm-received": "2023-01-23T12:13:46Z",
+		"wm-id": 1604505,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/109738319875892667/109299427348264210",
+		"wm-target": "https://rowanmanning.com/weeknotes/117/",
+		"like-of": "https://rowanmanning.com/weeknotes/117/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"676e086f195d7c7a619afcb56a251d09": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "walter scott",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/38c2e69e40c217eba6703bec686866134fa88a40b556882e3a19708546b58a01.png",
+			"url": "https://mastodon.scot/@walterscott"
+		},
+		"url": "https://mastodon.scot/@walterscott/109738323697829303",
+		"published": "2023-01-23T11:38:53",
+		"wm-received": "2023-01-23T12:13:46Z",
+		"wm-id": 1604504,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/109738319875892667/109738323910403630",
+		"wm-target": "https://rowanmanning.com/weeknotes/117/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> Stuff that!🤡</p>",
+			"text": "@rowan Stuff that!🤡"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/117/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	}
+}
