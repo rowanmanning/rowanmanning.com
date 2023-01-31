@@ -688,5 +688,23 @@
 		"like-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"5873f3a1979cf7c2672b21ed678ff4e5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "",
+			"photo": "",
+			"url": ""
+		},
+		"url": "https://rknight.me/additional-webmention-resources/",
+		"published": null,
+		"wm-received": "2023-01-31T13:33:16Z",
+		"wm-id": 1612116,
+		"wm-source": "https://rknight.me/additional-webmention-resources/",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"mention-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "mention-of",
+		"wm-private": false
 	}
 }
