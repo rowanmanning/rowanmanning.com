@@ -706,5 +706,27 @@
 		"mention-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
 		"wm-property": "mention-of",
 		"wm-private": false
+	},
+	"109803d50a32cd6a52882b989242e2f5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Greg",
+			"photo": "",
+			"url": "https://gregmakes.xyz"
+		},
+		"url": "https://gregmakes.xyz/notes/202301250019/",
+		"published": "2023-01-25T00:19:50-07:00",
+		"wm-received": "2023-02-01T07:02:38Z",
+		"wm-id": 1613067,
+		"wm-source": "https://gregmakes.xyz/notes/202301250019/",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"content": {
+			"html": "<p>Todo list for this website:</p>\n<ul><li>Setup webmentions <a href=\"https://rowanmanning.com/posts/webmentions-for-your-static-site/\">like this site</a> (this would be a good first webmention 😉)</li>\n<li>Replace Slick theme with extremely minimal hand-rolled theme\n<ul><li>Remove any remaining javascript</li>\n<li>Dark mode</li>\n<li>Audit accessibility &amp; adjust</li>\n</ul></li>\n<li>Figure our hero images for posts &amp; notes</li>\n</ul>",
+			"text": "Todo list for this website:\nSetup webmentions like this site (this would be a good first webmention 😉)\nReplace Slick theme with extremely minimal hand-rolled theme\nRemove any remaining javascript\nDark mode\nAudit accessibility & adjust\n\nFigure our hero images for posts & notes"
+		},
+		"mention-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "mention-of",
+		"wm-private": false
 	}
 }
