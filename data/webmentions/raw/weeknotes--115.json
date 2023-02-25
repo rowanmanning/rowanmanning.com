@@ -100,5 +100,27 @@
 		"like-of": "https://rowanmanning.com/weeknotes/115/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"6c15e41fa68f110d2d754e2f5e33e8e1": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/8133fd9e5556718c38927699868809c5c2fd976f548de7dccaf9d23a556a8818.png",
+			"url": "https://hachyderm.io/@rowan"
+		},
+		"url": "https://hachyderm.io/@rowan/109661212376823101",
+		"published": "2023-01-09T20:48:27",
+		"wm-received": "2023-02-25T15:02:26Z",
+		"wm-id": 1630237,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/109660068323425939/109661212376823101",
+		"wm-target": "https://rowanmanning.com/weeknotes/115/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@lucas42\" class=\"u-url\">@<span>lucas42</span></a></span> the GitHub action runs every 30 mins and sometimes <a href=\"https://brid.gy/\"><span>https://</span><span>brid.gy/</span><span></span></a> is a bit slow to update so it takes longer. Still working though</p>\n<a href=\"https://brid.gy/\">Bridgy</a>",
+			"text": "@lucas42 the GitHub action runs every 30 mins and sometimes https://brid.gy/ is a bit slow to update so it takes longer. Still working though\nBridgy"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/115/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
