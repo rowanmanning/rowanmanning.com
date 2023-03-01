@@ -77,7 +77,7 @@ I could use some recommendations for authors who aren't white men if you have an
 
 ## Writing
 
-I've been writing _so much_. While most of it is in my team's internal work blog, I also managed to squeeze out [one blog post on this website](http://localhost:1313/posts/halving-my-github-pages-build-time/).
+I've been writing _so much_. While most of it is in my team's internal work blog, I also managed to squeeze out [one blog post on this website](/posts/halving-my-github-pages-build-time/).
 
 This is very likely underselling it because I can't be bothered to trawl old Google Docs, but I've definitely written at least 48,500 words over the course of the year (not including the actual code).
 

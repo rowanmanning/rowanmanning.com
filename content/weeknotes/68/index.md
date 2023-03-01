@@ -35,7 +35,7 @@ syndication:
 
   * I've had my first couple of challenges juggling my current role vs my previous role at work. While I'm working directly in a team, I'm supposed to be dropping most of my Principal Engineer responsibilities but:
 
-    1. I got more involved than I probably should have in some tech strategy stuff. My excuse is that [I spent a bunch of time last year helping to define this piece of work](http://localhost:1313/weeknotes/40/) and I have a bunch of useful context.
+    1. I got more involved than I probably should have in some tech strategy stuff. My excuse is that [I spent a bunch of time last year helping to define this piece of work](/weeknotes/40/) and I have a bunch of useful context.
 
     2. I maybe gave too much thought to the upcoming promotion round while pointing [Alex](https://alexwilson.tech/) to the right docs etc – I ran the last two rounds and it's difficult not to have it in the back of my mind.
 
