@@ -19,8 +19,9 @@
 	{{ range $feed.entries }}
 	<entry>
 		{{ printf `<title type="html"><![CDATA[%s]]></title>` .title | safeHTML }}
-		<link href="{{ .link }}" rel="alternate" type="text/html" />{{ with .id }}
-		<id>{{ . | plainify }}</id>{{ end }}{{ with .author -}}
+		<link href="{{ .link }}" rel="alternate" type="text/html" />{{ if .image.full }}
+		<link href="{{ .image.full.Permalink }}" rel="enclosure" type="{{ .image.full.MediaType }}" title="{{ .image.full.Title }}" />{{ end }}{{ with .id }}
+		<id>{{ . | plainify }}</id>{{ end }}{{ with .author }}
 		<author>
 			<name>{{ .name }}</name>{{ with .email }}
 			<email>{{ . }}</email>{{ end }}{{ with .url }}
