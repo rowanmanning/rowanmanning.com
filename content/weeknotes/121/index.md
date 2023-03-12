@@ -4,7 +4,7 @@
 title: "Week 121: Floorboards"
 date: 2023-02-19T18:15:00Z
 description: "A week of snot, heart-shaped halloumi, deconstructing bedrooms, being energy magnates, trips to Faversham, and missing the office again."
-tags: ["Food", "Health", "House", "Games", "Social", "Boardgames"]
+tags: ["Food", "Health", "House", "Games", "Social", "Board Games"]
 
 # Weeknote display
 # ----------------
