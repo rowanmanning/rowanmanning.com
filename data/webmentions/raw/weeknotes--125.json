@@ -1,0 +1,20 @@
+{
+	"d7d15bb0d9aee8f022bc452819dbbbbc": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Short Reads",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/467d47ef4d56878975fe36c9ae49a592d5c3c791f7a54c47f98108329887d405.jpg",
+			"url": "https://mastodon.social/@shortreads"
+		},
+		"url": "https://hachyderm.io/@rowan/110062674130111756#favorited-by-110062546752284633",
+		"published": null,
+		"wm-received": "2023-03-21T18:46:04Z",
+		"wm-id": 1645982,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/110062674130111756/110062546752284633",
+		"wm-target": "https://rowanmanning.com/weeknotes/125/",
+		"like-of": "https://rowanmanning.com/weeknotes/125/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
