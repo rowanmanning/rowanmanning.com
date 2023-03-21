@@ -16,5 +16,41 @@
 		"like-of": "https://rowanmanning.com/weeknotes/125/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"970b9135837eb944902d69e1e894c1cb": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Henrik Nyh",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/548aa6cd5c49ada579df69e6c58be817f33397ce5f3422abfa26564bfd514f11.png",
+			"url": "https://ruby.social/@henrik"
+		},
+		"url": "https://hachyderm.io/@rowan/110062674130111756#favorited-by-109392058254589587",
+		"published": null,
+		"wm-received": "2023-03-21T20:43:40Z",
+		"wm-id": 1646019,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/110062674130111756/109392058254589587",
+		"wm-target": "https://rowanmanning.com/weeknotes/125/",
+		"like-of": "https://rowanmanning.com/weeknotes/125/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"ebb7f26cc73edbf5c518b24d8d9b6279": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke B",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/d6a552dbe861f172c77b48235d619b822cb7eceb21623db2b6b4bfae15d07a80.jpg",
+			"url": "https://hachyderm.io/@lucas42"
+		},
+		"url": "https://hachyderm.io/@rowan/110062674130111756#favorited-by-109650731945561645",
+		"published": null,
+		"wm-received": "2023-03-21T20:43:40Z",
+		"wm-id": 1646020,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/110062674130111756/109650731945561645",
+		"wm-target": "https://rowanmanning.com/weeknotes/125/",
+		"like-of": "https://rowanmanning.com/weeknotes/125/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
