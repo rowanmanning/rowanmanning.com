@@ -38,5 +38,71 @@
 		"like-of": "https://rowanmanning.com/weeknotes/126/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"d118605abd4362660bef29a85081f87c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "George Crawford",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/fca67ae92e408d12198cea5dffae1c42771d00b9bbfe7b27b7cb5e5d7af98d56.png",
+			"url": "https://mastodon.social/@georgecrawford"
+		},
+		"url": "https://mastodon.social/@georgecrawford/110090656251346022",
+		"published": "2023-03-26T17:01:41",
+		"wm-received": "2023-03-26T17:18:39Z",
+		"wm-id": 1651267,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/110090095319859340/110090656285487335",
+		"wm-target": "https://rowanmanning.com/weeknotes/126/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> Quality junk though. I like that you only store Rubik’s cubes in their solved state.</p>",
+			"text": "@rowan Quality junk though. I like that you only store Rubik’s cubes in their solved state."
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/126/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"5a44477d869bfed1c16ececea399ee98": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "George Crawford",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/fca67ae92e408d12198cea5dffae1c42771d00b9bbfe7b27b7cb5e5d7af98d56.png",
+			"url": "https://mastodon.social/@georgecrawford"
+		},
+		"url": "https://mastodon.social/@georgecrawford/110090647367315020",
+		"published": "2023-03-26T16:59:25",
+		"wm-received": "2023-03-26T17:18:39Z",
+		"wm-id": 1651266,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/110090095319859340/110090647400626405",
+		"wm-target": "https://rowanmanning.com/weeknotes/126/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> You’re such a tease: “Please sign the back of your card before you use it”, but no address, or long card number? How are we supposed to socially engineer you now?</p>",
+			"text": "@rowan You’re such a tease: “Please sign the back of your card before you use it”, but no address, or long card number? How are we supposed to socially engineer you now?"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/126/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"fe8c7deb4b79916a2b03b90c94bb8cc5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/8133fd9e5556718c38927699868809c5c2fd976f548de7dccaf9d23a556a8818.png",
+			"url": "https://hachyderm.io/@rowan"
+		},
+		"url": "https://hachyderm.io/@rowan/110090667723386068",
+		"published": "2023-03-26T17:04:36",
+		"wm-received": "2023-03-26T17:18:41Z",
+		"wm-id": 1651268,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/110090095319859340/110090667723386068",
+		"wm-target": "https://rowanmanning.com/weeknotes/126/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://mastodon.social/@georgecrawford\" class=\"u-url\">@<span>georgecrawford</span></a></span> ha 😁 two of these cubes are gonna be placed surreptitiously in the office because I really don’t need three but would feel bad throwing them away</p>",
+			"text": "@georgecrawford ha 😁 two of these cubes are gonna be placed surreptitiously in the office because I really don’t need three but would feel bad throwing them away"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/126/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
