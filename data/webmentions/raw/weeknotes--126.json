@@ -104,5 +104,23 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/126/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"c9216f469491c9afbbdcbae99b9a3a34": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke Blaney",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/6b765eb2c3151af655e704c173b4ce2d764195d027002aace7cdf0e796d94620.jpg",
+			"url": "https://twitter.com/lucas42"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1640000574249639936#favorited-by-17844917",
+		"published": null,
+		"wm-received": "2023-03-26T18:05:30Z",
+		"wm-id": 1651321,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1640000574249639936/17844917",
+		"wm-target": "https://rowanmanning.com/weeknotes/126/",
+		"like-of": "https://rowanmanning.com/weeknotes/126/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
