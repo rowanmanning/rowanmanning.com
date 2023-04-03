@@ -324,5 +324,41 @@
 		"like-of": "https://rowanmanning.com/weeknotes/127/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"4a879e3e5dddded2c150e185db10b3e0": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Jermila Dhas",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/ced897bd275c78f9339a74210faae7fa2bde4f5d4c09de639880c49e11814ad3.jpg",
+			"url": "https://twitter.com/JermilaD"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1642628033478574081#favorited-by-1008287622865747968",
+		"published": null,
+		"wm-received": "2023-04-03T08:08:19Z",
+		"wm-id": 1656943,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1642628033478574081/1008287622865747968",
+		"wm-target": "https://rowanmanning.com/weeknotes/127/",
+		"like-of": "https://rowanmanning.com/weeknotes/127/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"87ef79ab74ad115e75261dbb12c518aa": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "h2g2bob",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/f3cbd7356ac4909f2ec851eeb19fad7e750dc29ab9364b0609144ad5a4cc1345.jpg",
+			"url": "https://mastodon.dbatley.com/@h2g2bob"
+		},
+		"url": "https://hachyderm.io/@rowan/110131147381290828#reblogged-by-109404077530458853",
+		"published": null,
+		"wm-received": "2023-04-03T08:18:38Z",
+		"wm-id": 1656949,
+		"wm-source": "https://brid.gy/repost/mastodon/@rowan@hachyderm.io/110131147381290828/109404077530458853",
+		"wm-target": "https://rowanmanning.com/weeknotes/127/",
+		"repost-of": "https://rowanmanning.com/weeknotes/127/",
+		"wm-property": "repost-of",
+		"wm-private": false
 	}
 }
