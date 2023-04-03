@@ -360,5 +360,45 @@
 		"repost-of": "https://rowanmanning.com/weeknotes/127/",
 		"wm-property": "repost-of",
 		"wm-private": false
+	},
+	"add59e5f2c95fe89eeea64a62c400438": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/perryharlock/status/1642802115197247492",
+		"published": "2023-04-03T08:12:00+00:00",
+		"wm-received": "2023-04-03T08:40:29Z",
+		"wm-id": 1656960,
+		"wm-source": "https://brid.gy/comment/twitter/rowanmanning/1642628033478574081/1642802115197247492",
+		"wm-target": "https://rowanmanning.com/weeknotes/127/",
+		"content": {
+			"html": "Oh my god. I’m still laughing at the pics 😂\nWhat a fantastic idea. I’d like to volunteer to be indoctrinated. Not so sure about Emma\n<a class=\"u-mention\" href=\"https://rowanmanning.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/rowanmanning\"></a>",
+			"text": "Oh my god. I’m still laughing at the pics 😂\nWhat a fantastic idea. I’d like to volunteer to be indoctrinated. Not so sure about Emma"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/127/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"05702725f8da8da11d987fe73ce61a8a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Perry Harlock",
+			"photo": "https://webmention.io/avatar/pbs.twimg.com/d9339120b447fdf0ce6801ddc659d7f9aecee04af46a9006e9faeef8b7ccd5a3.png",
+			"url": "https://twitter.com/perryharlock"
+		},
+		"url": "https://twitter.com/rowanmanning/status/1642628033478574081#favorited-by-127856293",
+		"published": null,
+		"wm-received": "2023-04-03T08:40:29Z",
+		"wm-id": 1656961,
+		"wm-source": "https://brid.gy/like/twitter/rowanmanning/1642628033478574081/127856293",
+		"wm-target": "https://rowanmanning.com/weeknotes/127/",
+		"like-of": "https://rowanmanning.com/weeknotes/127/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
