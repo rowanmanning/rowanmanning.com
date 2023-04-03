@@ -270,5 +270,41 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/127/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"2cd537f449f03bebd14b4f028c267e55": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Joel Chippindale",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/c30669b86c5d09c259c8576995c65e9392c5a31cc43f4c1c02b84e92a3917203.png",
+			"url": "https://social.monkeysthumb.co.uk/@joel"
+		},
+		"url": "https://hachyderm.io/@rowan/110131147381290828#favorited-by-109539272263785040",
+		"published": null,
+		"wm-received": "2023-04-03T06:14:11Z",
+		"wm-id": 1656803,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/110131147381290828/109539272263785040",
+		"wm-target": "https://rowanmanning.com/weeknotes/127/",
+		"like-of": "https://rowanmanning.com/weeknotes/127/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"412ad37923b1c50a4c8449b22d2b2071": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "CTD",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/dac004b07dce6357387dfe314d0f962cc5b8017109816a484f798c8a3dbbed8b.jpg",
+			"url": "https://mastodon.social/@CTD"
+		},
+		"url": "https://hachyderm.io/@rowan/110131147381290828#favorited-by-109301026401838677",
+		"published": null,
+		"wm-received": "2023-04-03T06:14:40Z",
+		"wm-id": 1656804,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/110131147381290828/109301026401838677",
+		"wm-target": "https://rowanmanning.com/weeknotes/127/",
+		"like-of": "https://rowanmanning.com/weeknotes/127/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
