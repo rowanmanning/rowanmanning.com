@@ -306,5 +306,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/127/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"b7f3f7d35251f17643c5a93024bbf271": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "prehensile",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/2f9d161f6fdc7087591b6048b1cbdc4d8deb9efb3df1636fe608d53ac78240fd.png",
+			"url": "https://mastodon.me.uk/@prehensile"
+		},
+		"url": "https://hachyderm.io/@rowan/110131147381290828#favorited-by-109285521136022279",
+		"published": null,
+		"wm-received": "2023-04-03T07:17:03Z",
+		"wm-id": 1656928,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/110131147381290828/109285521136022279",
+		"wm-target": "https://rowanmanning.com/weeknotes/127/",
+		"like-of": "https://rowanmanning.com/weeknotes/127/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
