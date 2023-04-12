@@ -728,5 +728,49 @@
 		"mention-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
 		"wm-property": "mention-of",
 		"wm-private": false
+	},
+	"80ed3278cd5b47c4c624941c77a8d7b3": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex Wilson",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/d59ba91a15d9bcdf2a51cbc4c24d3790ac60e2115fb9e14b494b3d873e962b29.jpg",
+			"url": "https://mastodon.social/@alexwilson"
+		},
+		"url": "https://mastodon.social/@alexwilson/110187935212375046",
+		"published": "2023-04-12T21:21:00",
+		"wm-received": "2023-04-12T21:40:58Z",
+		"wm-id": 1661324,
+		"wm-source": "https://brid.gy/comment/mastodon/@notlee@hachyderm.io/110187807477469740/110187935305454251",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@notlee\" class=\"u-url\">@<span>notlee</span></a></span> I left them off for exactly this reason.</p>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/webmentions-for-your-static-site/\"></a>",
+			"text": "@notlee I left them off for exactly this reason."
+		},
+		"in-reply-to": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"f13ce0080f7fcadcfadf38d5a19ebcee": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "notlee",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/3de04dda3645fa20cc1069a9ad5e9f7d20cccc2b0d3d942d7d60cca7240dda63.png",
+			"url": "https://hachyderm.io/@notlee"
+		},
+		"url": "https://hachyderm.io/@notlee/110187883008003363",
+		"published": "2023-04-12T21:07:44",
+		"wm-received": "2023-04-12T21:41:01Z",
+		"wm-id": 1661326,
+		"wm-source": "https://brid.gy/comment/mastodon/@notlee@hachyderm.io/110187807477469740/110187883008003363",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"content": {
+			"html": "<p>Cool or a bit weird? I don’t know I’d like my social media reply showing up on someone’s site</p>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/webmentions-for-your-static-site/\"></a>",
+			"text": "Cool or a bit weird? I don’t know I’d like my social media reply showing up on someone’s site"
+		},
+		"in-reply-to": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
