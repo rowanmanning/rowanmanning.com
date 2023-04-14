@@ -74,5 +74,24 @@
 		"like-of": "https://rowanmanning.com/weeknotes/60/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"765617385db0c5958b4572040c411497": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "James' Coffee Blog",
+			"photo": "https://webmention.io/avatar/jamesg.coffee/44a4b81d3ad1303a2acd54e82a33c5333b80a611e540f4971bcb5fd93096c352.jpg",
+			"url": "https://jamesg.coffee/profile/capjamesg"
+		},
+		"url": "https://jamesg.coffee/2023/liked-week-60-wings-of-east-rowan-manning",
+		"published": "2023-04-14T15:54:36+00:00",
+		"wm-received": "2023-04-14T15:54:38Z",
+		"wm-id": 1662040,
+		"wm-source": "https://jamesg.coffee/2023/liked-week-60-wings-of-east-rowan-manning",
+		"wm-target": "https://rowanmanning.com/weeknotes/60/",
+		"name": "Liked Week 60: Wings of East | Rowan Manning",
+		"like-of": "https://rowanmanning.com/weeknotes/60/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
