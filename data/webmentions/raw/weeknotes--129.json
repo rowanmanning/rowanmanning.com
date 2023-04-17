@@ -1,0 +1,20 @@
+{
+	"4320e4e113d67778ebedc6dc0d474d89": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "The Secretbatcave",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/7cd9e3fd1cc3110510cc407b59fc56d7f513b8c2467b265ec91d4764feebc088.png",
+			"url": "https://don.secretbatcave.co.uk/@secretbatcave"
+		},
+		"url": "https://hachyderm.io/@rowan/110216166503790188#favorited-by-109337251112535200",
+		"published": null,
+		"wm-received": "2023-04-17T22:24:55Z",
+		"wm-id": 1663380,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/110216166503790188/109337251112535200",
+		"wm-target": "https://rowanmanning.com/weeknotes/129/",
+		"like-of": "https://rowanmanning.com/weeknotes/129/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
