@@ -16,5 +16,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/129/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"1cccf2b59379724c6da4c5410afa994a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke B",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/d6a552dbe861f172c77b48235d619b822cb7eceb21623db2b6b4bfae15d07a80.jpg",
+			"url": "https://hachyderm.io/@lucas42"
+		},
+		"url": "https://hachyderm.io/@rowan/110216166503790188#favorited-by-109650731945561645",
+		"published": null,
+		"wm-received": "2023-04-18T00:06:19Z",
+		"wm-id": 1663415,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/110216166503790188/109650731945561645",
+		"wm-target": "https://rowanmanning.com/weeknotes/129/",
+		"like-of": "https://rowanmanning.com/weeknotes/129/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
