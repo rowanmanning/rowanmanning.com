@@ -20,7 +20,7 @@
     "npm": "8.x"
   },
   "dependencies": {
-    "@rowanmanning/list-all-files": "^3.0.0",
+    "@rowanmanning/list-all-files": "^3.0.1",
     "accessible-autocomplete": "^2.0.4",
     "commander": "^10.0.1",
     "dompurify": "^2.3.4",
