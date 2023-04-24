@@ -74,5 +74,23 @@
 		"like-of": "https://rowanmanning.com/weeknotes/130/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"e29eb383ab7f39969d0dff96d1f4f761": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "notlee",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/3de04dda3645fa20cc1069a9ad5e9f7d20cccc2b0d3d942d7d60cca7240dda63.png",
+			"url": "https://hachyderm.io/@notlee"
+		},
+		"url": "https://hachyderm.io/@rowan/110252698522546371#favorited-by-109369891147354286",
+		"published": null,
+		"wm-received": "2023-04-24T21:08:13Z",
+		"wm-id": 1666293,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/110252698522546371/109369891147354286",
+		"wm-target": "https://rowanmanning.com/weeknotes/130/",
+		"like-of": "https://rowanmanning.com/weeknotes/130/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
