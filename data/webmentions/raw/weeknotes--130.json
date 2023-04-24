@@ -16,5 +16,45 @@
 		"like-of": "https://rowanmanning.com/weeknotes/130/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"23b534c814f7c4263ca5c482e6ef8ef3": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "The Secretbatcave",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/7cd9e3fd1cc3110510cc407b59fc56d7f513b8c2467b265ec91d4764feebc088.png",
+			"url": "https://don.secretbatcave.co.uk/@secretbatcave"
+		},
+		"url": "https://hachyderm.io/@rowan/110252698522546371#favorited-by-109337251112535200",
+		"published": null,
+		"wm-received": "2023-04-24T09:52:49Z",
+		"wm-id": 1666082,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/110252698522546371/109337251112535200",
+		"wm-target": "https://rowanmanning.com/weeknotes/130/",
+		"like-of": "https://rowanmanning.com/weeknotes/130/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"a341592c99341c5ba7476fb346c0cd2a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "The Secretbatcave",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/7cd9e3fd1cc3110510cc407b59fc56d7f513b8c2467b265ec91d4764feebc088.png",
+			"url": "https://don.secretbatcave.co.uk/@secretbatcave"
+		},
+		"url": "https://don.secretbatcave.co.uk/@secretbatcave/110253129424796401",
+		"published": "2023-04-24T09:40:45",
+		"wm-received": "2023-04-24T09:52:49Z",
+		"wm-id": 1666083,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/110252698522546371/110253129576259174",
+		"wm-target": "https://rowanmanning.com/weeknotes/130/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> very much so!</p>",
+			"text": "@rowan very much so!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/130/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
