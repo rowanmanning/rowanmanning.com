@@ -23,7 +23,7 @@
     "@rowanmanning/list-all-files": "^3.0.1",
     "accessible-autocomplete": "^2.0.4",
     "commander": "^10.0.1",
-    "dompurify": "^2.3.4",
+    "dompurify": "^3.0.2",
     "got": "^11.8.6",
     "hotkeys-js": "^3.10.2",
     "jsdom": "^21.1.1",
