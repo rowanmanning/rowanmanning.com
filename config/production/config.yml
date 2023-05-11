@@ -10,7 +10,7 @@ params:
   # Analytics configuration
   fathom:
     siteId: "LZDRDPSO"
-    siteHostname: "falcon.rowanmanning.com"
+    siteHostname: "cdn.usefathom.com"
     goalIds:
       feedView: "BPV3BBHK"
       search: "BQDXHKN1"
