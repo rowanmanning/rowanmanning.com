@@ -4,7 +4,7 @@
 title: "Week 132: Princess Royale with Cheese"
 date: 2023-05-06T21:30:00+01:00
 description: "A week of more high stress, escapism at work, three-hour tech support sessions, more leaving drinks, and copious amounts of boot-licking."
-tags: ["Health", "Family", "Work", "Social", "TV"]
+tags: ["Health", "Family", "Work", "Social", "TV", "Eurovision"]
 
 # Weeknote display
 # ----------------

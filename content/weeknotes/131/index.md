@@ -4,7 +4,7 @@
 title: "Week 131: Salicylic Acid"
 date: 2023-05-01T13:40:00+01:00
 description: "A week of saying goodbye to Euan, strategic days off, great standup, family visits, summery weather, dreading future plans, and managing skin conditions."
-tags: ["Social", "Family", "Health"]
+tags: ["Social", "Family", "Health", "Eurovision"]
 
 # Weeknote display
 # ----------------
