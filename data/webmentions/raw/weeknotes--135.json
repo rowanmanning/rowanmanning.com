@@ -34,5 +34,27 @@
 		"like-of": "https://rowanmanning.com/weeknotes/135/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"82edc6010f1908fb5d1b7cb6f53ba6cc": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan Beentje",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/1e0e72b6473bf08104168b1a60a9cc9cc83d974fc8fca5c2d8d309678c8d97b1.png",
+			"url": "https://octodon.social/@rowanbeentje"
+		},
+		"url": "https://octodon.social/@rowanbeentje/110453578304495709",
+		"published": "2023-05-29T19:17:32",
+		"wm-received": "2023-05-29T19:48:32Z",
+		"wm-id": 1680235,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/110453194824826112/110453578334922945",
+		"wm-target": "https://rowanmanning.com/weeknotes/135/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> if you want to try terraform instead of cloud formation now you’ve done that, have you thought about something like <a href=\"https://lowendbox.com/blog/luxvps-launches-awesome-sale-4gb-vps-for-2-85e-month-in-germany/\"><span>https://</span><span>lowendbox.com/blog/luxvps-laun</span><span>ches-awesome-sale-4gb-vps-for-2-85e-month-in-germany/</span></a> instead of ec2? 😁</p>\n<a href=\"https://lowendbox.com/blog/luxvps-launches-awesome-sale-4gb-vps-for-2-85e-month-in-germany/\">LuxVPS Launches Awesome Sale: 4GB VPS for 2.85€/month in Germany!</a>",
+			"text": "@rowan if you want to try terraform instead of cloud formation now you’ve done that, have you thought about something like https://lowendbox.com/blog/luxvps-launches-awesome-sale-4gb-vps-for-2-85e-month-in-germany/ instead of ec2? 😁\nLuxVPS Launches Awesome Sale: 4GB VPS for 2.85€/month in Germany!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/135/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
