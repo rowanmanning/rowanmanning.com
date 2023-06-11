@@ -4,7 +4,7 @@
 title: "Week 34: £137,000"
 date: 2021-06-19T10:00:00+01:00
 description: "A week of thinking about dad, second flat viewings, paying London rent for 7 years, and making my static website searchable."
-tags: ["Family", "House", "Side Projects", "Games", "Social", "Champagne", "Board Games", "Catan", "Writing"]
+tags: ["Family", "House", "Side Projects", "Games", "Social", "Champagne", "Board Games", "Catan", "Writing", "13.7"]
 
 # Weeknote display
 # ----------------

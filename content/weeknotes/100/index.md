@@ -4,7 +4,7 @@
 title: "Week 100: Skyblock"
 date: 2022-09-25T22:30:00+01:00
 description: "A week of great films, sweet books, birthday drinks, lots of Minecraft, thousands of pull requests, messing up but enjoying it, and a smart meter installation."
-tags: ["Work", "Films", "Books", "Social", "Games", "Side Projects", "House", "Minecraft"]
+tags: ["Work", "Films", "Books", "Social", "Games", "Side Projects", "House", "Minecraft", "13.7"]
 
 # Weeknote display
 # ----------------
