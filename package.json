@@ -22,7 +22,7 @@
   "dependencies": {
     "@rowanmanning/list-all-files": "^3.0.1",
     "accessible-autocomplete": "^2.0.4",
-    "commander": "^10.0.1",
+    "commander": "^11.0.0",
     "dompurify": "^2.3.4",
     "got": "^11.8.6",
     "hotkeys-js": "^3.10.2",
