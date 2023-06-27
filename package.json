@@ -24,7 +24,7 @@
     "accessible-autocomplete": "^2.0.4",
     "commander": "^11.0.0",
     "dompurify": "^2.3.4",
-    "got": "^11.8.6",
+    "got": "^13.0.0",
     "hotkeys-js": "^3.10.3",
     "jsdom": "^22.1.0",
     "lunr": "^2.3.9",
