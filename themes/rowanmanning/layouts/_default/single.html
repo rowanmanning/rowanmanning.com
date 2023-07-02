@@ -161,11 +161,6 @@
 						<li>
 					{{ end }}
 				{{ end }}
-				{{ if $author.twitter }}
-					<li>
-						<a href="https://twitter.com/share?url={{ safeURL .Permalink }}&amp;via={{ safeURL $author.twitter }}&amp;text={{ safeURL .Title }}" target="_blank" rel="noopener" class="content-foot__icon content-foot__icon--twitter">Tweet about this {{ $pageType }}</a>
-					</li>
-				{{ end }}
 				{{ if $webmentionConfig.enabled }}
 					<li>
 						<a href="#responses" class="content-foot__icon content-foot__icon--responses">{{ len $webmentions.all }} responses</a>
