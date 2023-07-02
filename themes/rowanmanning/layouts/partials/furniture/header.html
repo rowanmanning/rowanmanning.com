@@ -49,7 +49,7 @@
 				{{ end }}
 
 				{{ if $siteAuthor.twitter }}
-					<li class="header__navigation-item">
+					<li class="header__navigation-item hidden">
 						<a href="https://twitter.com/{{ $siteAuthor.twitter }}" {{ if $contentAuthor.isSiteAuthor }}rel="me"{{ end }} title="Twitter" class="header__icon header__icon--twitter" data-test="header-twitter">
 							Twitter
 						</a>
