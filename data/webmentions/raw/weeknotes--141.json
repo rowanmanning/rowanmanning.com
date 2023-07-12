@@ -1,0 +1,24 @@
+{
+	"59857e5ffbec63c0da529449aa0c2691": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Piers Beckley",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/3fc11ec1f8a2e26ff0b748ce95a1e751978da91bb1ec9179e92a9e068c751ad9.jpg",
+			"url": "https://wandering.shop/@piersb"
+		},
+		"url": "https://wandering.shop/@piersb/110700279139171095",
+		"published": "2023-07-12T08:56:48",
+		"wm-received": "2023-07-12T09:20:30Z",
+		"wm-id": 1694573,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/110699959335177894/110700279192834334",
+		"wm-target": "https://rowanmanning.com/weeknotes/141/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> …until morale improves?</p>",
+			"text": "@rowan …until morale improves?"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/141/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	}
+}
