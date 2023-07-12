@@ -20,5 +20,23 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/141/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"e828b9552270798bad826bad19267c83": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Henrik Nyh",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/548aa6cd5c49ada579df69e6c58be817f33397ce5f3422abfa26564bfd514f11.png",
+			"url": "https://ruby.social/@henrik"
+		},
+		"url": "https://hachyderm.io/@rowan/110699959335177894#favorited-by-109392058254589587",
+		"published": null,
+		"wm-received": "2023-07-12T09:53:04Z",
+		"wm-id": 1694578,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/110699959335177894/109392058254589587",
+		"wm-target": "https://rowanmanning.com/weeknotes/141/",
+		"like-of": "https://rowanmanning.com/weeknotes/141/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
