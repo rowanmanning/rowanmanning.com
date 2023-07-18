@@ -1,0 +1,20 @@
+{
+	"7553f00874ba37d44cbaeadcb8eb6d99": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Matt Edgar",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/8fb52fb6f4d4cf35c67e9e8d1d4fc64d45f2a2875dfe6911c1d07ce16908ccfd.png",
+			"url": "https://mastodon.me.uk/@mattedgar"
+		},
+		"url": "https://hachyderm.io/@rowan/110733914637559169#favorited-by-108225153734957395",
+		"published": null,
+		"wm-received": "2023-07-18T08:17:09Z",
+		"wm-id": 1696118,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/110733914637559169/108225153734957395",
+		"wm-target": "https://rowanmanning.com/weeknotes/142/",
+		"like-of": "https://rowanmanning.com/weeknotes/142/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
