@@ -16,5 +16,27 @@
 		"like-of": "https://rowanmanning.com/weeknotes/142/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"4fab90a007ef8dfa36be2dda21e0e86a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "CTD",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/dac004b07dce6357387dfe314d0f962cc5b8017109816a484f798c8a3dbbed8b.jpg",
+			"url": "https://mastodon.social/@CTD"
+		},
+		"url": "https://mastodon.social/@CTD/110734144367291592",
+		"published": "2023-07-18T08:29:10",
+		"wm-received": "2023-07-18T08:41:19Z",
+		"wm-id": 1696124,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/110733914637559169/110734144406875743",
+		"wm-target": "https://rowanmanning.com/weeknotes/142/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> but how many toilets do you have in your Space Base?</p>",
+			"text": "@rowan but how many toilets do you have in your Space Base?"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/142/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
