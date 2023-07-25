@@ -16,5 +16,27 @@
 		"like-of": "https://rowanmanning.com/weeknotes/143/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"3c4c36b527e2b1629f902b04b4d98195": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/8133fd9e5556718c38927699868809c5c2fd976f548de7dccaf9d23a556a8818.png",
+			"url": "https://hachyderm.io/@rowan"
+		},
+		"url": "https://hachyderm.io/@rowan/110773670099879932",
+		"published": "2023-07-25T08:01:05",
+		"wm-received": "2023-07-25T08:08:43Z",
+		"wm-id": 1697812,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/110768691583309005/110773670099879932",
+		"wm-target": "https://rowanmanning.com/weeknotes/143/",
+		"content": {
+			"html": "<p>Guess who accidentally deleted 21 of his repositories with Terraform this morning 😂😭 <a href=\"https://github.com/rowanmanning/terraform-github/commit/5448cc5f819c7cef0c42fab8ebc0145a8d8de3dc\"><span>https://</span><span>github.com/rowanmanning/terraf</span><span>orm-github/commit/5448cc5f819c7cef0c42fab8ebc0145a8d8de3dc</span></a></p>\n<a href=\"https://github.com/rowanmanning/terraform-github/commit/5448cc5f819c7cef0c42fab8ebc0145a8d8de3dc\">fix: archive repos on destroy 🤦‍♂️ · rowanmanning/terraform-github@5448cc5</a>",
+			"text": "Guess who accidentally deleted 21 of his repositories with Terraform this morning 😂😭 https://github.com/rowanmanning/terraform-github/commit/5448cc5f819c7cef0c42fab8ebc0145a8d8de3dc\nfix: archive repos on destroy 🤦‍♂️ · rowanmanning/terraform-github@5448cc5"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/143/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
