@@ -100,5 +100,23 @@
 		"in-reply-to": "https://rowanmanning.com/weeknotes/135/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"a89ef127ceeff1395a4ae6956d27100e": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "caleb",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/2a6ee744c69aec44ae197ac44e9512f542795db6ffd7efb420f42f92291cb03f.png",
+			"url": "https://mas.to/@calebjasik"
+		},
+		"url": "https://hachyderm.io/@rowan/110453194824826112#favorited-by-109265781188886540",
+		"published": null,
+		"wm-received": "2023-08-02T08:32:16Z",
+		"wm-id": 1700476,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/110453194824826112/109265781188886540",
+		"wm-target": "https://rowanmanning.com/weeknotes/135/",
+		"like-of": "https://rowanmanning.com/weeknotes/135/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
