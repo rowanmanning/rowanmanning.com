@@ -34,5 +34,45 @@
 		"like-of": "https://rowanmanning.com/weeknotes/145/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"b0bf581e4b7f16f105fba4697c6ca57a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "notlee",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/3de04dda3645fa20cc1069a9ad5e9f7d20cccc2b0d3d942d7d60cca7240dda63.png",
+			"url": "https://hachyderm.io/@notlee"
+		},
+		"url": "https://hachyderm.io/@notlee/110849566049881146",
+		"published": "2023-08-07T17:42:26",
+		"wm-received": "2023-08-07T17:56:14Z",
+		"wm-id": 1702595,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/110847488181494171/110849566049881146",
+		"wm-target": "https://rowanmanning.com/weeknotes/145/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> Now I’m really looking forward to getting to episode 6. And your artwork looks as awesome as the Fiskars Fingertip Detail Knife seems terrifying (very)</p>",
+			"text": "@rowan Now I’m really looking forward to getting to episode 6. And your artwork looks as awesome as the Fiskars Fingertip Detail Knife seems terrifying (very)"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/145/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"fb97a6e110d3ecde6aa3c5c74ec8c1ba": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "notlee",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/3de04dda3645fa20cc1069a9ad5e9f7d20cccc2b0d3d942d7d60cca7240dda63.png",
+			"url": "https://hachyderm.io/@notlee"
+		},
+		"url": "https://hachyderm.io/@rowan/110847488181494171#favorited-by-109369891147354286",
+		"published": null,
+		"wm-received": "2023-08-07T17:56:14Z",
+		"wm-id": 1702596,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/110847488181494171/109369891147354286",
+		"wm-target": "https://rowanmanning.com/weeknotes/145/",
+		"like-of": "https://rowanmanning.com/weeknotes/145/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
