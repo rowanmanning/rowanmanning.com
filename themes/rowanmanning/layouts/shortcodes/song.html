@@ -1,24 +1,44 @@
 
+{{- /* Get the song type param */ -}}
+{{- $type := cond .IsNamedParams (.Get "type") (.Get 0) -}}
+
 {{- /* Get the song track id param */ -}}
-{{- $trackId := cond .IsNamedParams (.Get "id") (.Get 0) -}}
+{{- $trackId := cond .IsNamedParams (.Get "id") (.Get 1) -}}
 
 {{- /* Get the song caption param */ -}}
-{{- $caption := cond .IsNamedParams (.Get "caption") (.Get 1) | default "Listen on Spotify" -}}
+{{- $caption := cond .IsNamedParams (.Get "caption") (.Get 2) | default "Listen on Spotify" -}}
 
 {{- /* Error if we don't have correct params */ -}}
+{{- if not (in (slice "spotify" "soundcloud") $type) -}}
+	{{- errorf "Type parameter must be 'spotify' or 'soundcloud': %s" .Position -}}
+{{- end -}}
 {{- if not $trackId -}}
 	{{- errorf "ID parameter is required for song shortcode: %s" .Position -}}
 {{- end -}}
 
 <figure class="embed">
-	<iframe
-		class="embed__spotify-track"
-		src="https://open.spotify.com/embed/track/{{ $trackId }}"
-		frameborder="0"
-		allowfullscreen=""
-		allowtransparency="true"
-		allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-		title="{{ $caption }}"
-	></iframe>
+
+	{{- if eq $type "spotify" -}}
+		<iframe
+			class="embed__spotify-track"
+			src="https://open.spotify.com/embed/track/{{ $trackId }}"
+			frameborder="0"
+			allowfullscreen=""
+			allowtransparency="true"
+			allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+			title="{{ $caption }}"
+		></iframe>
+	{{- else -}}
+		<iframe
+			class="embed__soundcloud-track"
+			src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ $trackId }}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+			frameborder="0"
+			allowfullscreen=""
+			allowtransparency="true"
+			allow="autoplay"
+			title="{{ $caption }}"
+		></iframe>
+	{{- end -}}
+
 	<figcaption class="embed__caption">{{ $caption }}</figcaption>
 </figure>

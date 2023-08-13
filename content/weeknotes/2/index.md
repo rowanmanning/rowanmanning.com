@@ -25,7 +25,7 @@ syndication:
 
   * Occasionally I get far too into a song and it's pretty much all I listen to for a week or more. Right now that song is Islands in the Stream by Dolly Parton and Kenny Rogers. I think it might be that my subconscious mind is still sad we didn't get a Dolly Parton remix of Old Town Road.
 
-    {{< song "4dqEzdFAYkj1rjYLVDuTlN" "Islands in the Stream by Dolly Parton and Kenny Rogers" >}}
+    {{< song type="spotify" id="4dqEzdFAYkj1rjYLVDuTlN" caption="Islands in the Stream by Dolly Parton and Kenny Rogers" >}}
 
     Charlotte has made several threats about what will happen if I keep singing it. I probably shouldn't push my luck now that we're less able to leave the house.
 

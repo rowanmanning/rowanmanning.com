@@ -34,4 +34,4 @@ resources:
 
   * I've been obsessed with Padam Padam by Kylie for a couple of weeks. I can't get it out of my head, and why would I want to?
 
-    {{< song "7nj9YAw6lzK3sDyRADj9Ez" "Padam Padam by Kylie Minogue" >}}
+    {{< song type="spotify" id="7nj9YAw6lzK3sDyRADj9Ez" caption="Padam Padam by Kylie Minogue" >}}
