@@ -1,0 +1,42 @@
+{
+	"2f512738f9a11d0849f26213fb2da033": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Henrik Nyh",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/548aa6cd5c49ada579df69e6c58be817f33397ce5f3422abfa26564bfd514f11.png",
+			"url": "https://ruby.social/@henrik"
+		},
+		"url": "https://ruby.social/@henrik/110901259627397876",
+		"published": "2023-08-16T20:48:47+00:00",
+		"wm-received": "2023-08-16T21:59:46Z",
+		"wm-id": 1705640,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/110887270701225724/110901259675209794",
+		"wm-target": "https://rowanmanning.com/weeknotes/146/",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> How do you make your pico de gallo? I’ve discovered it through Wetherspoon’s breakfast muffins of all things. I’ve made it twice at home but it hasn’t turned out amazing yet.</p>",
+			"text": "@rowan How do you make your pico de gallo? I’ve discovered it through Wetherspoon’s breakfast muffins of all things. I’ve made it twice at home but it hasn’t turned out amazing yet."
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/146/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"009934e3e564aac37deb2c9a568e6140": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Henrik Nyh",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/548aa6cd5c49ada579df69e6c58be817f33397ce5f3422abfa26564bfd514f11.png",
+			"url": "https://ruby.social/@henrik"
+		},
+		"url": "https://hachyderm.io/@rowan/110887270701225724#favorited-by-109392058254589587",
+		"published": null,
+		"wm-received": "2023-08-16T21:59:46Z",
+		"wm-id": 1705641,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/110887270701225724/109392058254589587",
+		"wm-target": "https://rowanmanning.com/weeknotes/146/",
+		"like-of": "https://rowanmanning.com/weeknotes/146/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
