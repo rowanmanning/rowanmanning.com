@@ -4,7 +4,7 @@
 title: "Week 148: Friendly Cows"
 date: 2023-08-27T20:42:10+01:00
 description: "A week of not thinking, milk stations, beach art, very sweet cows, an appearance from COVID, driving in London, wet cupboards, and some custom medals."
-tags: ["Holiday", "Food", "Health", "Social", "House", "Work"]
+tags: ["Holiday", "Food", "Health", "Social", "House", "Work", "Art"]
 
 # Weeknote display
 # ----------------
