@@ -34,7 +34,7 @@ resources:
 
   * Thursday pub was delightful, glad I put sunscreen on.
 
-  * On Friday we went to our only wedding of the year, Lou & Char got married down in Kent, on the grounds of a country house which was lovely. The ceremony was really sweet despite us baking in the sun, the brides seemed to have the best time.
+  * On Saturday we went to our only wedding of the year, Lou & Char got married down in Kent, on the grounds of a country house which was lovely. The ceremony was really sweet despite us baking in the sun, the brides seemed to have the best time.
 
     Despite not knowing a lot of people outside of Charlotte's family (Lou is her cousin), it was a lot of fun. Various other family members are also considering moving to Brighton; the list of people to visit when we go down just keeps growing :heart:
 
