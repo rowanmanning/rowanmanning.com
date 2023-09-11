@@ -1,0 +1,21 @@
+{
+	"48b0c2d6f8b8afbabd2acdaafba4f5f0": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Henrik Nyh",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/548aa6cd5c49ada579df69e6c58be817f33397ce5f3422abfa26564bfd514f11.png",
+			"url": "https://ruby.social/@henrik"
+		},
+		"url": "https://hachyderm.io/@rowan/111046556117746523#favorited-by-109392058254589587",
+		"published": null,
+		"wm-received": "2023-09-11T17:53:55Z",
+		"wm-id": 1715401,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/111046556117746523/109392058254589587",
+		"wm-target": "https://rowanmanning.com/weeknotes/150/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/150/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
