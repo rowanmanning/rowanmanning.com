@@ -3,32 +3,31 @@
 
 const crypto = require('crypto');
 const fs = require('fs/promises');
-const got = require('got');
 const site = require('../../../data/webmentions/config/site.json');
 const mkdir = require('../util/mkdir');
 
 module.exports = async function fetchWebmentions(apiKey) {
+	const webmentionUrl = new URL('https://webmention.io/api/mentions.jf2');
 
-	// Webmention query parameters
-	const searchParams = {
-		'domain': site.domain,
-		'per-page': 1000,
-		'token': apiKey
+	// Webmention query parameters and headers
+	webmentionUrl.searchParams.append('domain', site.domain);
+	webmentionUrl.searchParams.append('per-page', 1000);
+	webmentionUrl.searchParams.append('token', apiKey);
+	const headers = {
+		'Content-Type': 'application/json'
 	};
 
 	// Get posts since the last refresh
 	if (site.lastSync) {
-		searchParams.since = site.lastSync;
+		webmentionUrl.searchParams.append('since', site.lastSync);
 	}
 
 	// Fetch webmentions based on query params defined above
-	const response = await got('https://webmention.io/api/mentions.jf2', {
-		responseType: 'json',
-		searchParams
-	});
+	const response = await fetch(webmentionUrl, {headers});
+	const body = await response.json();
 
 	// Get webmentions
-	const webmentions = response.body.children.reverse();
+	const webmentions = body.children.reverse();
 	console.log(`Found ${webmentions.length} new webmentions`);
 
 	// Cache for existing webmention files

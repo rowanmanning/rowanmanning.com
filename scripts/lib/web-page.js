@@ -1,6 +1,5 @@
 'use strict';
 
-const got = require('got');
 const {JSDOM} = require('jsdom');
 const manifest = require('../../package.json');
 const {mf2} = require('microformats-parser');
@@ -8,9 +7,9 @@ const extractMicroformatProperty = require('./util/extract-microformat-property'
 
 module.exports = class WebPage {
 
-	constructor(response) {
-		this.url = response.url;
-		this.html = response.body;
+	constructor(url, body) {
+		this.url = url;
+		this.html = body;
 	}
 
 	get window() {
@@ -128,11 +127,13 @@ module.exports = class WebPage {
 	}
 
 	static async get(url) {
-		return new this(await got.get(url, {
+		const response = await fetch(url, {
 			headers: {
 				'User-Agent': `${manifest.author.name} (${manifest.author.url})`
 			}
-		}));
+		});
+		const body = await response.text();
+		return new this(response.url, body);
 	}
 
 };
