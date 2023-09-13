@@ -16,8 +16,8 @@
   "bugs": "https://github.com/rowanmanning/rowanmanning.com/issues",
   "license": "CC-BY-NC-SA-3.0",
   "engines": {
-    "node": "16.x",
-    "npm": "8.x"
+    "node": "18.x",
+    "npm": "9.x"
   },
   "dependencies": {
     "@rowanmanning/list-all-files": "^3.0.3",
@@ -60,7 +60,7 @@
     "timeout": 10000
   },
   "volta": {
-    "node": "16.16.0",
-    "npm": "8.17.0"
+    "node": "18.17.0",
+    "npm": "9.8.1"
   }
 }
