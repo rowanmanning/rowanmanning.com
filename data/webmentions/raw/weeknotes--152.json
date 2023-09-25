@@ -1,0 +1,63 @@
+{
+	"c469b705ec9dca23e870e7ecb94d28a6": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Henrik Nyh",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/548aa6cd5c49ada579df69e6c58be817f33397ce5f3422abfa26564bfd514f11.png",
+			"url": "https://ruby.social/@henrik"
+		},
+		"url": "https://ruby.social/@henrik/111125449033636100",
+		"published": "2023-09-25T11:03:06",
+		"wm-received": "2023-09-25T11:51:54Z",
+		"wm-id": 1720347,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/111122828374528716/111125449060981371",
+		"wm-target": "https://rowanmanning.com/weeknotes/152/",
+		"wm-protocol": "webmention",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> How exciting! We plan on going in about a year. Are you going to DisneySea?</p>",
+			"text": "@rowan How exciting! We plan on going in about a year. Are you going to DisneySea?"
+		},
+		"mention-of": "https://rowanmanning.com/weeknotes/152/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"373e67bc45a67957767444670ac91e66": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Henrik Nyh",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/548aa6cd5c49ada579df69e6c58be817f33397ce5f3422abfa26564bfd514f11.png",
+			"url": "https://ruby.social/@henrik"
+		},
+		"url": "https://hachyderm.io/@rowan/111122828374528716#favorited-by-109392058254589587",
+		"published": null,
+		"wm-received": "2023-09-25T11:51:54Z",
+		"wm-id": 1720346,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/111122828374528716/109392058254589587",
+		"wm-target": "https://rowanmanning.com/weeknotes/152/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/152/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"4bbe8c472421cbd540b071384ffe5995": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "notlee",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/3de04dda3645fa20cc1069a9ad5e9f7d20cccc2b0d3d942d7d60cca7240dda63.png",
+			"url": "https://hachyderm.io/@notlee"
+		},
+		"url": "https://hachyderm.io/@rowan/111122828374528716#favorited-by-109369891147354286",
+		"published": null,
+		"wm-received": "2023-09-25T11:51:57Z",
+		"wm-id": 1720348,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/111122828374528716/109369891147354286",
+		"wm-target": "https://rowanmanning.com/weeknotes/152/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/152/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
