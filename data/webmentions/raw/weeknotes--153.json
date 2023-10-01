@@ -17,5 +17,24 @@
 		"like-of": "https://rowanmanning.com/weeknotes/153/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"ca0a3460170b05f59483504078bb35f6": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "The Secretbatcave",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/7cd9e3fd1cc3110510cc407b59fc56d7f513b8c2467b265ec91d4764feebc088.png",
+			"url": "https://don.secretbatcave.co.uk/@secretbatcave"
+		},
+		"url": "https://hachyderm.io/@rowan/111159582018377807#favorited-by-109337251112535200",
+		"published": null,
+		"wm-received": "2023-10-01T21:50:50Z",
+		"wm-id": 1722358,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/111159582018377807/109337251112535200",
+		"wm-target": "https://rowanmanning.com/weeknotes/153/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/153/",
+		"wm-property": "like-of",
+		"wm-private": false
 	}
 }
