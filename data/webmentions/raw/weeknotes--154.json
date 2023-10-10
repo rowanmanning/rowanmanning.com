@@ -1,0 +1,21 @@
+{
+	"0ab1e8bcbe1233fb7949a6108a5a3046": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "notlee",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/3de04dda3645fa20cc1069a9ad5e9f7d20cccc2b0d3d942d7d60cca7240dda63.png",
+			"url": "https://hachyderm.io/@notlee"
+		},
+		"url": "https://hachyderm.io/@rowan/111206960230837963#favorited-by-109369891147354286",
+		"published": null,
+		"wm-received": "2023-10-10T07:59:32Z",
+		"wm-id": 1725300,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/111206960230837963/109369891147354286",
+		"wm-target": "https://rowanmanning.com/weeknotes/154/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/154/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
