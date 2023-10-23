@@ -1,0 +1,21 @@
+{
+	"3c0fabd63d082fc909b1b468e16de70a": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Charlie Owen",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/c61461bb06b9790ebb4e3ea624c7f8b976dd91419d0ad3a2165b8cdbe27223e4.jpg",
+			"url": "https://indieweb.social/@whalecoiner"
+		},
+		"url": "https://hachyderm.io/@rowan/111280595141690098#favorited-by-108232985534821204",
+		"published": null,
+		"wm-received": "2023-10-23T08:01:19Z",
+		"wm-id": 1729044,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/111280595141690098/108232985534821204",
+		"wm-target": "https://rowanmanning.com/weeknotes/156/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/156/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
