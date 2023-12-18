@@ -4,7 +4,7 @@
 title: "Week 111: Festive Nepotism"
 date: 2022-12-11T20:35:00Z
 description: "A week of Christmas parties, bottomless brunch, festive nepotism, Freddy Prince Junior, Lindsay Lohan, over-explained magic, and coming down with something."
-tags: ["Christmas", "Films", "Social", "Health", "The Princess Switch"]
+tags: ["Christmas", "Films", "Social", "Health", "Christmas Films", "The Princess Switch"]
 
 # Weeknote display
 # ----------------

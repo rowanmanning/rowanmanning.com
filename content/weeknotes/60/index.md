@@ -4,7 +4,7 @@
 title: "Week 60: Wings of East"
 date: 2021-12-19T22:50:00Z
 description: "A week of ups and downs at work, an awful lot of Minecraft, some Christmas films, delicious fried chicken, and some paint decisions."
-tags: ["Food", "Christmas", "Games", "Work", "House", "Minecraft", "Christmas Films"]
+tags: ["Food", "Christmas", "Games", "Work", "House", "Films", "Minecraft", "Christmas Films"]
 
 # Weeknote display
 # ----------------
