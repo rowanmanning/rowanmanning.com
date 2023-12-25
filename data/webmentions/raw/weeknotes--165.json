@@ -1,0 +1,21 @@
+{
+	"a3080c2b08bb3b122c366c87d632cdc7": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "dötcöde",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/4210e393d10a4a143ee77d1c8dc134482f8c78252d7a88676d4cbeafe85a57fd.gif",
+			"url": "https://mastodon.social/@dotcode"
+		},
+		"url": "https://hachyderm.io/@rowan/111638109055154944#favorited-by-109290511876209982",
+		"published": null,
+		"wm-received": "2023-12-25T14:53:29Z",
+		"wm-id": 1758254,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/111638109055154944/109290511876209982",
+		"wm-target": "https://rowanmanning.com/weeknotes/165/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/165/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
