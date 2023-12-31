@@ -16,7 +16,7 @@ mainImage: "sosmix.jpg"
 resources:
   - src: "sosmix.jpg"
     title: "A bag of Sosmix which looks like stuffing mix"
-  - src: "gallery-wall-planning.jpg"
+  - src: "gallery-wall-planning.png"
     title: "Labelled rectangles in a Google drawing, placed to plan out a gallery wall"
 ---
 
