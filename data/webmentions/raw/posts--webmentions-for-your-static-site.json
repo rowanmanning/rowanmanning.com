@@ -772,5 +772,27 @@
 		"in-reply-to": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"66c938db426aa64a712779374db62cbe": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Miho",
+			"photo": "https://webmention.io/avatar/sekai-writer.my.id/90b85f33af3787fb724399f0a3b001ddd188100e56ee6e47ccef7e46f68b4d15.jpg",
+			"url": "https://sekai-writer.my.id/"
+		},
+		"url": "https://sekai-writer.my.id",
+		"published": null,
+		"wm-received": "2023-12-31T06:51:57Z",
+		"wm-id": 1760656,
+		"wm-source": "https://sekai-writer.my.id",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-protocol": "webmention",
+		"content": {
+			"text": "I guess hi"
+		},
+		"in-reply-to": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
