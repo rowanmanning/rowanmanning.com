@@ -36,5 +36,24 @@
 		"like-of": "https://rowanmanning.com/weeknotes/166/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"1ff2b8abaad1bbccafc95307a263c27e": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Piers Beckley",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/156107237aa500f5d94d7fb040ad8faeb3004c6dc441ab41a5aa2a90c7ac44cc.jpg",
+			"url": "https://wandering.shop/@piersb"
+		},
+		"url": "https://hachyderm.io/@rowan/111675104100114512#reblogged-by-109602493510673929",
+		"published": null,
+		"wm-received": "2023-12-31T14:53:26Z",
+		"wm-id": 1760883,
+		"wm-source": "https://brid.gy/repost/mastodon/@rowan@hachyderm.io/111675104100114512/109602493510673929",
+		"wm-target": "https://rowanmanning.com/weeknotes/166/",
+		"wm-protocol": "webmention",
+		"repost-of": "https://rowanmanning.com/weeknotes/166/",
+		"wm-property": "repost-of",
+		"wm-private": false
 	}
 }
