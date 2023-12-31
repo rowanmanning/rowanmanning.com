@@ -1,0 +1,40 @@
+{
+	"4c47425dc3b0a2cca9386b17485816ac": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Anders Eknert",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/ede34ae137334cb4213f3afc4a88d42fd4a9db9e68b5351114e50b2f46c0a058.jpg",
+			"url": "https://hachyderm.io/@anderseknert"
+		},
+		"url": "https://hachyderm.io/@rowan/111675104100114512#favorited-by-109354095046006140",
+		"published": null,
+		"wm-received": "2023-12-31T14:02:22Z",
+		"wm-id": 1760860,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/111675104100114512/109354095046006140",
+		"wm-target": "https://rowanmanning.com/weeknotes/166/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/166/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"0587539126738da8103feaece5f3f554": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Piers Beckley",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/156107237aa500f5d94d7fb040ad8faeb3004c6dc441ab41a5aa2a90c7ac44cc.jpg",
+			"url": "https://wandering.shop/@piersb"
+		},
+		"url": "https://hachyderm.io/@rowan/111675104100114512#favorited-by-109602493510673929",
+		"published": null,
+		"wm-received": "2023-12-31T14:26:30Z",
+		"wm-id": 1760873,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/111675104100114512/109602493510673929",
+		"wm-target": "https://rowanmanning.com/weeknotes/166/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/166/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
