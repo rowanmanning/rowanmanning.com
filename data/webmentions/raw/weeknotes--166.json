@@ -55,5 +55,66 @@
 		"repost-of": "https://rowanmanning.com/weeknotes/166/",
 		"wm-property": "repost-of",
 		"wm-private": false
+	},
+	"d984012ab6d07e0df49db5efb2635f93": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "greg ????????",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/54e223e3f1d3d75fd315a7da01a2bfa913e106e902d9e8daefbcb283b60bc1d7.png",
+			"url": "https://hachyderm.io/@sk44p"
+		},
+		"url": "https://hachyderm.io/@rowan/111675104100114512#favorited-by-109404255777867239",
+		"published": null,
+		"wm-received": "2023-12-31T16:52:44Z",
+		"wm-id": 1760928,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/111675104100114512/109404255777867239",
+		"wm-target": "https://rowanmanning.com/weeknotes/166/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/166/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"a83bee52af46a7aaea5a0ff4090c37f7": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "greg ????????",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/54e223e3f1d3d75fd315a7da01a2bfa913e106e902d9e8daefbcb283b60bc1d7.png",
+			"url": "https://hachyderm.io/@sk44p"
+		},
+		"url": "https://hachyderm.io/@sk44p/111676023751727367",
+		"published": "2023-12-31T16:41:29+00:00",
+		"wm-received": "2023-12-31T16:52:45Z",
+		"wm-id": 1760929,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/111675104100114512/111676023751727367",
+		"wm-target": "https://rowanmanning.com/weeknotes/166/",
+		"wm-protocol": "webmention",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> love your chocolate box selection rating spreadsheet!! Is your Christmas dinner timing spreadsheet publicly available? Would love to take a pookc!</p>",
+			"text": "@rowan love your chocolate box selection rating spreadsheet!! Is your Christmas dinner timing spreadsheet publicly available? Would love to take a pookc!"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/166/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"7e12b26bf1a8deef049ca21b1fa9a082": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "greg ????????",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/54e223e3f1d3d75fd315a7da01a2bfa913e106e902d9e8daefbcb283b60bc1d7.png",
+			"url": "https://hachyderm.io/@sk44p"
+		},
+		"url": "https://hachyderm.io/@rowan/111675104100114512#reblogged-by-109404255777867239",
+		"published": null,
+		"wm-received": "2023-12-31T16:52:46Z",
+		"wm-id": 1760930,
+		"wm-source": "https://brid.gy/repost/mastodon/@rowan@hachyderm.io/111675104100114512/109404255777867239",
+		"wm-target": "https://rowanmanning.com/weeknotes/166/",
+		"wm-protocol": "webmention",
+		"repost-of": "https://rowanmanning.com/weeknotes/166/",
+		"wm-property": "repost-of",
+		"wm-private": false
 	}
 }
