@@ -22,7 +22,7 @@ resources:
 
   * Back to work! I'm actually quite sickeningly pleased to be back. I feel refreshed and some of the stuff we have planned for this quarter is exciting. I've got a small hit-list of new things to delete and I'm very excited to do it. #DeleteMore2024
 
-  * A lot of sceptical writing about AI keeps cropping up in my various feeds which I'm pleased to see :+1: The [New York Times suing OpenAI](https://www.bbc.co.uk/news/technology-67826601) is music to my ears, and there have been some really great papers on the dangers of AI-driven code generation:
+  * A lot of skeptical writing about AI keeps cropping up in my various feeds which I'm pleased to see :+1: The [New York Times suing OpenAI](https://www.bbc.co.uk/news/technology-67826601) is music to my ears, and there have been some really great papers on the dangers of AI-driven code generation:
 
     * [Lost in Translation: A Study of Bugs Introduced by Large Language Models while Translating Code](https://arxiv.org/abs/2308.03109) has a couple of very quote-worthy paragraphs.
 
