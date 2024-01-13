@@ -294,6 +294,7 @@ function getCleanDOM(html) {
 			'blockquote',
 			'code',
 			'dd',
+			'div',
 			'dl',
 			'dt',
 			'em',
