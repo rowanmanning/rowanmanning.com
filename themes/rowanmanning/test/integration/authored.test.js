@@ -21,7 +21,7 @@ describe('authored website', () => {
 
 			it('does not have an author link element', () => {
 				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
-				assert.isUndefined(subject);
+				assert.equal(subject, undefined);
 			});
 
 		});
@@ -38,7 +38,7 @@ describe('authored website', () => {
 
 			it('has an author link element with the site author URL', () => {
 				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
-				assert.strictEqual(subject, 'https://site.author.local/');
+				assert.equal(subject, 'https://site.author.local/');
 			});
 
 		});
@@ -141,12 +141,12 @@ describe('authored website', () => {
 
 			it('has an author link element with the site author URL', () => {
 				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
-				assert.strictEqual(subject, 'https://site.author.local/');
+				assert.equal(subject, 'https://site.author.local/');
 			});
 
 			it('has twitter meta elements containing the site author Twitter handle', () => {
 				const twitter = parseTwitterMeta(document);
-				assert.strictEqual(twitter.site, '@mocksiteauthor_twitter');
+				assert.equal(twitter.site, '@mocksiteauthor_twitter');
 			});
 
 		});
@@ -155,7 +155,7 @@ describe('authored website', () => {
 
 			it('does not contain a link to the author', () => {
 				const subject = findTestElements(document.body, 'content-author-url')[0]?.getAttribute('href');
-				assert.isUndefined(subject);
+				assert.equal(subject, undefined);
 			});
 
 		});
@@ -170,12 +170,12 @@ describe('authored website', () => {
 
 				it('has an author link element with the page author URL', () => {
 					const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
-					assert.strictEqual(subject, 'https://page.author.local/');
+					assert.equal(subject, 'https://page.author.local/');
 				});
 
 				it('has twitter meta elements containing the page author Twitter handle', () => {
 					const twitter = parseTwitterMeta(document);
-					assert.strictEqual(twitter.site, '@mockpageauthor_twitter');
+					assert.equal(twitter.site, '@mockpageauthor_twitter');
 				});
 
 			});
@@ -184,7 +184,7 @@ describe('authored website', () => {
 
 				it('does not contain a link to the author', () => {
 					const subject = findTestElements(document.body, 'content-author-url')[0]?.getAttribute('href');
-					assert.isUndefined(subject);
+					assert.equal(subject, undefined);
 				});
 
 			});
@@ -201,12 +201,12 @@ describe('authored website', () => {
 
 				it('does not have an author link element', () => {
 					const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
-					assert.isUndefined(subject);
+					assert.equal(subject, undefined);
 				});
 
 				it('does not have twitter meta elements for the site', () => {
 					const twitter = parseTwitterMeta(document);
-					assert.isUndefined(twitter.site);
+					assert.equal(twitter.site, undefined);
 				});
 
 			});
@@ -215,7 +215,7 @@ describe('authored website', () => {
 
 				it('does not contain a link to the author', () => {
 					const subject = findTestElements(document.body, 'content-author-url')[0]?.getAttribute('href');
-					assert.isUndefined(subject);
+					assert.equal(subject, undefined);
 				});
 
 			});
@@ -234,17 +234,17 @@ describe('authored website', () => {
 
 			it('has an author link element with the site author URL', () => {
 				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
-				assert.strictEqual(subject, 'https://site.author.local/');
+				assert.equal(subject, 'https://site.author.local/');
 			});
 
 			it('has opengraph meta elements containing the site author URL', () => {
 				const og = parseOpenGraphMeta(document);
-				assert.strictEqual(og['article:author'], 'https://site.author.local/');
+				assert.equal(og['article:author'], 'https://site.author.local/');
 			});
 
 			it('has twitter meta elements containing the site author Twitter handle', () => {
 				const twitter = parseTwitterMeta(document);
-				assert.strictEqual(twitter.site, '@mocksiteauthor_twitter');
+				assert.equal(twitter.site, '@mocksiteauthor_twitter');
 			});
 
 		});
@@ -253,7 +253,7 @@ describe('authored website', () => {
 
 			it('contains a link to the site author URL', () => {
 				const subject = findTestElements(document.body, 'content-author-url')[0]?.getAttribute('href');
-				assert.strictEqual(subject, 'https://site.author.local/');
+				assert.equal(subject, 'https://site.author.local/');
 			});
 
 			it('contains author microformats for the site author', () => {
@@ -293,17 +293,17 @@ describe('authored website', () => {
 
 				it('has an author link element with the page author URL', () => {
 					const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
-					assert.strictEqual(subject, 'https://page.author.local/');
+					assert.equal(subject, 'https://page.author.local/');
 				});
 
 				it('has opengraph meta elements containing the page author URL', () => {
 					const og = parseOpenGraphMeta(document);
-					assert.strictEqual(og['article:author'], 'https://page.author.local/');
+					assert.equal(og['article:author'], 'https://page.author.local/');
 				});
 
 				it('has twitter meta elements containing the page author Twitter handle', () => {
 					const twitter = parseTwitterMeta(document);
-					assert.strictEqual(twitter.site, '@mockpageauthor_twitter');
+					assert.equal(twitter.site, '@mockpageauthor_twitter');
 				});
 
 			});
@@ -312,7 +312,7 @@ describe('authored website', () => {
 
 				it('contains a link to the page author URL', () => {
 					const subject = findTestElements(document.body, 'content-author-url')[0]?.getAttribute('href');
-					assert.strictEqual(subject, 'https://page.author.local/');
+					assert.equal(subject, 'https://page.author.local/');
 				});
 
 				it('contains author microformats for the page author', () => {
@@ -354,17 +354,17 @@ describe('authored website', () => {
 
 				it('does not have an author link element', () => {
 					const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
-					assert.isUndefined(subject);
+					assert.equal(subject, undefined);
 				});
 
 				it('does not have opengraph meta elements for the author', () => {
 					const og = parseOpenGraphMeta(document);
-					assert.isUndefined(og['article:author']);
+					assert.equal(og['article:author'], undefined);
 				});
 
 				it('does not have twitter meta elements for the site', () => {
 					const twitter = parseTwitterMeta(document);
-					assert.isUndefined(twitter.site);
+					assert.equal(twitter.site, undefined);
 				});
 
 			});
@@ -373,7 +373,7 @@ describe('authored website', () => {
 
 				it('does not contain a link to the author', () => {
 					const subject = findTestElements(document.body, 'content-author-url')[0]?.getAttribute('href');
-					assert.isUndefined(subject);
+					assert.equal(subject, undefined);
 				});
 
 			});
@@ -392,7 +392,7 @@ describe('authored website', () => {
 
 			it('has an author link element with the site author URL', () => {
 				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
-				assert.strictEqual(subject, 'https://site.author.local/');
+				assert.equal(subject, 'https://site.author.local/');
 			});
 
 		});
@@ -409,7 +409,7 @@ describe('authored website', () => {
 
 			it('has an author link element with the site author URL', () => {
 				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
-				assert.strictEqual(subject, 'https://site.author.local/');
+				assert.equal(subject, 'https://site.author.local/');
 			});
 
 		});
@@ -426,7 +426,7 @@ describe('authored website', () => {
 
 			it('does not have an author link element', () => {
 				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
-				assert.isUndefined(subject);
+				assert.equal(subject, undefined);
 			});
 
 		});
@@ -440,13 +440,13 @@ describe('authored website', () => {
 		});
 
 		it('has author information in the channel', () => {
-			assert.strictEqual(document.querySelector('channel > managingEditor')?.textContent, 'mock@site.author.local (Mock Site Author)');
-			assert.strictEqual(document.querySelector('channel > webMaster')?.textContent, 'mock@site.author.local (Mock Site Author)');
+			assert.equal(document.querySelector('channel > managingEditor')?.textContent, 'mock@site.author.local (Mock Site Author)');
+			assert.equal(document.querySelector('channel > webMaster')?.textContent, 'mock@site.author.local (Mock Site Author)');
 		});
 
 		it('has author information in each item', () => {
 			const items = document.querySelectorAll('channel > item');
-			assert.lengthOf(items, 6);
+			assert.equal(items.length, 6);
 			const itemData = [...items].map(item => {
 				return {
 					title: item.querySelector('title')?.textContent,
@@ -498,32 +498,32 @@ describe('authored website', () => {
 
 			it('contains a link to the site author GitHub', () => {
 				const subject = findTestElements(header, 'header-github')[0]?.getAttribute('href');
-				assert.strictEqual(subject, 'https://github.com/mocksiteauthor_github');
+				assert.equal(subject, 'https://github.com/mocksiteauthor_github');
 			});
 
 			it('contains a rel="me" link to the site author GitHub', () => {
 				const subject = findTestElements(header, 'header-github')[0]?.getAttribute('rel');
-				assert.strictEqual(subject, 'me');
+				assert.equal(subject, 'me');
 			});
 
 			it('contains a link to the site author Mastodon', () => {
 				const subject = findTestElements(header, 'header-mastodon')[0]?.getAttribute('href');
-				assert.strictEqual(subject, 'mocksiteauthor_mastodon');
+				assert.equal(subject, 'mocksiteauthor_mastodon');
 			});
 
 			it('contains a rel="me" link to the site author Mastodon', () => {
 				const subject = findTestElements(header, 'header-mastodon')[0]?.getAttribute('rel');
-				assert.strictEqual(subject, 'me');
+				assert.equal(subject, 'me');
 			});
 
 			it('contains a link to the site author Twitter', () => {
 				const subject = findTestElements(header, 'header-twitter')[0]?.getAttribute('href');
-				assert.strictEqual(subject, 'https://twitter.com/mocksiteauthor_twitter');
+				assert.equal(subject, 'https://twitter.com/mocksiteauthor_twitter');
 			});
 
 			it('contains a rel="me" link to the site author Twitter', () => {
 				const subject = findTestElements(header, 'header-twitter')[0]?.getAttribute('rel');
-				assert.strictEqual(subject, 'me');
+				assert.equal(subject, 'me');
 			});
 
 			describe('when the page has an author', () => {
@@ -535,32 +535,32 @@ describe('authored website', () => {
 
 				it('contains a link to the site author GitHub', () => {
 					const subject = findTestElements(header, 'header-github')[0]?.getAttribute('href');
-					assert.strictEqual(subject, 'https://github.com/mocksiteauthor_github');
+					assert.equal(subject, 'https://github.com/mocksiteauthor_github');
 				});
 
 				it('does not contain a rel="me" link to the site author GitHub', () => {
 					const subject = findTestElements(header, 'header-github')[0]?.getAttribute('rel');
-					assert.isNull(subject);
+					assert.equal(subject, null);
 				});
 
 				it('contains a link to the site author Mastodon', () => {
 					const subject = findTestElements(header, 'header-mastodon')[0]?.getAttribute('href');
-					assert.strictEqual(subject, 'mocksiteauthor_mastodon');
+					assert.equal(subject, 'mocksiteauthor_mastodon');
 				});
 
 				it('does not contain a rel="me" link to the site author Mastodon', () => {
 					const subject = findTestElements(header, 'header-mastodon')[0]?.getAttribute('rel');
-					assert.isNull(subject);
+					assert.equal(subject, null);
 				});
 
 				it('contains a link to the site author Twitter', () => {
 					const subject = findTestElements(header, 'header-twitter')[0]?.getAttribute('href');
-					assert.strictEqual(subject, 'https://twitter.com/mocksiteauthor_twitter');
+					assert.equal(subject, 'https://twitter.com/mocksiteauthor_twitter');
 				});
 
 				it('does not contain a rel="me" link to the site author Twitter', () => {
 					const subject = findTestElements(header, 'header-twitter')[0]?.getAttribute('rel');
-					assert.isNull(subject);
+					assert.equal(subject, null);
 				});
 
 			});
@@ -576,7 +576,7 @@ describe('authored website', () => {
 
 			it('contains a copyright notice which includes the author name', () => {
 				const subject = findTestElements(footer, 'footer-copyright')[0]?.textContent.trim();
-				assert.strictEqual(subject, `Copyright © ${new Date().getFullYear()}, Mock Site Author`);
+				assert.equal(subject, `Copyright © ${new Date().getFullYear()}, Mock Site Author`);
 			});
 
 		});

@@ -17,7 +17,7 @@ describe('website with custom copyright', () => {
 		});
 
 		it('has a channel with copyright information included', () => {
-			assert.strictEqual(document.querySelector('channel > copyright')?.textContent, 'Mock Site Copyright');
+			assert.equal(document.querySelector('channel > copyright')?.textContent, 'Mock Site Copyright');
 		});
 
 	});
@@ -29,7 +29,7 @@ describe('website with custom copyright', () => {
 		});
 
 		it('has a channel with copyright information included', () => {
-			assert.strictEqual(document.querySelector('channel > copyright')?.textContent, 'Mock Site Copyright');
+			assert.equal(document.querySelector('channel > copyright')?.textContent, 'Mock Site Copyright');
 		});
 
 	});
@@ -41,7 +41,7 @@ describe('website with custom copyright', () => {
 		});
 
 		it('has a channel with copyright information included', () => {
-			assert.strictEqual(document.querySelector('channel > copyright')?.textContent, 'Mock Site Copyright');
+			assert.equal(document.querySelector('channel > copyright')?.textContent, 'Mock Site Copyright');
 		});
 
 	});
@@ -53,7 +53,7 @@ describe('website with custom copyright', () => {
 		});
 
 		it('has a channel with copyright information included', () => {
-			assert.strictEqual(document.querySelector('channel > copyright')?.textContent, 'Mock Site Copyright');
+			assert.equal(document.querySelector('channel > copyright')?.textContent, 'Mock Site Copyright');
 		});
 
 	});
@@ -73,7 +73,7 @@ describe('website with custom copyright', () => {
 
 			it('contains a copyright notice', () => {
 				const subject = findTestElements(footer, 'footer-copyright')[0]?.textContent.trim();
-				assert.strictEqual(subject, 'Mock Site Copyright');
+				assert.equal(subject, 'Mock Site Copyright');
 			});
 
 		});

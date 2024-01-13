@@ -18,7 +18,7 @@ describe('website with feed limit', () => {
 
 		it('limits items based on the configured value', () => {
 			const items = document.querySelectorAll('channel > item');
-			assert.lengthOf(items, 1);
+			assert.equal(items.length, 1);
 			const itemData = [...items].map(item => {
 				return {
 					title: item.querySelector('title')?.textContent,
@@ -43,7 +43,7 @@ describe('website with feed limit', () => {
 
 		it('limits items based on the configured value', () => {
 			const items = document.querySelectorAll('channel > item');
-			assert.lengthOf(items, 1);
+			assert.equal(items.length, 1);
 			const itemData = [...items].map(item => {
 				return {
 					title: item.querySelector('title')?.textContent,
@@ -68,7 +68,7 @@ describe('website with feed limit', () => {
 
 		it('limits items based on the configured value', () => {
 			const items = document.querySelectorAll('channel > item');
-			assert.lengthOf(items, 1);
+			assert.equal(items.length, 1);
 			const itemData = [...items].map(item => {
 				return {
 					title: item.querySelector('title')?.textContent,
@@ -93,7 +93,7 @@ describe('website with feed limit', () => {
 
 		it('limits items based on the configured value', () => {
 			const items = document.querySelectorAll('channel > item');
-			assert.lengthOf(items, 1);
+			assert.equal(items.length, 1);
 			const itemData = [...items].map(item => {
 				return {
 					title: item.querySelector('title')?.textContent,
@@ -130,7 +130,7 @@ describe('website with main sections configured', () => {
 
 		it('has an item element representing each page in the configured main sections', () => {
 			const items = document.querySelectorAll('channel > item');
-			assert.lengthOf(items, 2);
+			assert.equal(items.length, 2);
 			const itemData = [...items].map(item => {
 				return {
 					title: item.querySelector('title')?.textContent,
@@ -171,7 +171,7 @@ describe('website with feed sections configured', () => {
 
 		it('has an item element representing each page in the configured feed sections', () => {
 			const items = document.querySelectorAll('channel > item');
-			assert.lengthOf(items, 2);
+			assert.equal(items.length, 2);
 			const itemData = [...items].map(item => {
 				return {
 					title: item.querySelector('title')?.textContent,

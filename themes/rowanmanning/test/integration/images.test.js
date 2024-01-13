@@ -24,13 +24,13 @@ describe('website with images', () => {
 						url: findTestElements(summary, 'content-summary-link')[0]?.getAttribute('href')
 					};
 				});
-				assert.lengthOf(subject, 2);
+				assert.equal(subject.length, 2);
 
-				assert.strictEqual(subject[0].title, 'Mock Title Single Page In Section');
-				assert.isNotNull(subject[0].url, '/section001s/item001/');
+				assert.equal(subject[0].title, 'Mock Title Single Page In Section');
+				assert.notEqual(subject[0].url, null, '/section001s/item001/');
 
-				assert.strictEqual(subject[1].title, 'Untitled Section001');
-				assert.isNotNull(subject[1].url, '/section001s/item002/');
+				assert.equal(subject[1].title, 'Untitled Section001');
+				assert.notEqual(subject[1].url, null, '/section001s/item002/');
 			});
 
 			it('contains structured image data for each piece of content in the section', () => {
@@ -42,10 +42,10 @@ describe('website with images', () => {
 					};
 				});
 
-				assert.strictEqual(subject[0].image, 'https://images.mock.local/section001s/item001/image-b.jpg');
+				assert.equal(subject[0].image, 'https://images.mock.local/section001s/item001/image-b.jpg');
 				assert.match(subject[0].thumbnailUrl, /^https:\/\/images\.mock\.local\/section001s\/item001\/image-b_.*_256x256_.*\.jpg$/);
 
-				assert.strictEqual(subject[1].image, 'https://images.mock.local/section001s/item002/image-a.png');
+				assert.equal(subject[1].image, 'https://images.mock.local/section001s/item002/image-a.png');
 				assert.match(subject[1].thumbnailUrl, /^https:\/\/images\.mock\.local\/section001s\/item002\/image-a_.*_256x256_.*\.png$/);
 			});
 
@@ -63,14 +63,14 @@ describe('website with images', () => {
 
 			it('has an opengraph meta image element set to the page main image', () => {
 				const og = parseOpenGraphMeta(document);
-				assert.strictEqual(og.image, 'https://images.mock.local/page001/image-b.jpg');
-				assert.strictEqual(og['image:alt'], 'Mock Image Alt B');
+				assert.equal(og.image, 'https://images.mock.local/page001/image-b.jpg');
+				assert.equal(og['image:alt'], 'Mock Image Alt B');
 			});
 
 			it('has a twitter meta image element set to the page main image', () => {
 				const twitter = parseTwitterMeta(document);
-				assert.strictEqual(twitter.image, 'https://images.mock.local/page001/image-b.jpg');
-				assert.strictEqual(twitter['image:alt'], 'Mock Image Alt B');
+				assert.equal(twitter.image, 'https://images.mock.local/page001/image-b.jpg');
+				assert.equal(twitter['image:alt'], 'Mock Image Alt B');
 			});
 
 		});
@@ -85,14 +85,14 @@ describe('website with images', () => {
 
 				it('has an opengraph meta image element set to the first image found', () => {
 					const og = parseOpenGraphMeta(document);
-					assert.strictEqual(og.image, 'https://images.mock.local/page002/image-a.png');
-					assert.strictEqual(og['image:alt'], 'image-a.png');
+					assert.equal(og.image, 'https://images.mock.local/page002/image-a.png');
+					assert.equal(og['image:alt'], 'image-a.png');
 				});
 
 				it('has a twitter meta image element set to the first image found', () => {
 					const twitter = parseTwitterMeta(document);
-					assert.strictEqual(twitter.image, 'https://images.mock.local/page002/image-a.png');
-					assert.strictEqual(twitter['image:alt'], 'image-a.png');
+					assert.equal(twitter.image, 'https://images.mock.local/page002/image-a.png');
+					assert.equal(twitter['image:alt'], 'image-a.png');
 				});
 
 			});
@@ -111,14 +111,14 @@ describe('website with images', () => {
 
 			it('has an opengraph meta image element set to the page main image', () => {
 				const og = parseOpenGraphMeta(document);
-				assert.strictEqual(og.image, 'https://images.mock.local/section001s/item001/image-b.jpg');
-				assert.strictEqual(og['image:alt'], 'Mock Image Alt B');
+				assert.equal(og.image, 'https://images.mock.local/section001s/item001/image-b.jpg');
+				assert.equal(og['image:alt'], 'Mock Image Alt B');
 			});
 
 			it('has a twitter meta image element set to the page main image', () => {
 				const twitter = parseTwitterMeta(document);
-				assert.strictEqual(twitter.image, 'https://images.mock.local/section001s/item001/image-b.jpg');
-				assert.strictEqual(twitter['image:alt'], 'Mock Image Alt B');
+				assert.equal(twitter.image, 'https://images.mock.local/section001s/item001/image-b.jpg');
+				assert.equal(twitter['image:alt'], 'Mock Image Alt B');
 			});
 
 		});
@@ -128,7 +128,7 @@ describe('website with images', () => {
 			it('contains structured data for the page main image and thumbnail', () => {
 				const data = parseStructuredData(findTestElements(document, 'content-full')[0]);
 
-				assert.strictEqual(data.image, 'https://images.mock.local/section001s/item001/image-b.jpg');
+				assert.equal(data.image, 'https://images.mock.local/section001s/item001/image-b.jpg');
 				assert.match(data.thumbnailUrl, /^https:\/\/images\.mock\.local\/section001s\/item001\/image-b_.*_256x256_.*\.jpg$/);
 			});
 
@@ -144,14 +144,14 @@ describe('website with images', () => {
 
 				it('has an opengraph meta image element set to the first image found', () => {
 					const og = parseOpenGraphMeta(document);
-					assert.strictEqual(og.image, 'https://images.mock.local/section001s/item002/image-a.png');
-					assert.strictEqual(og['image:alt'], 'image-a.png');
+					assert.equal(og.image, 'https://images.mock.local/section001s/item002/image-a.png');
+					assert.equal(og['image:alt'], 'image-a.png');
 				});
 
 				it('has a twitter meta image element set to the first image found', () => {
 					const twitter = parseTwitterMeta(document);
-					assert.strictEqual(twitter.image, 'https://images.mock.local/section001s/item002/image-a.png');
-					assert.strictEqual(twitter['image:alt'], 'image-a.png');
+					assert.equal(twitter.image, 'https://images.mock.local/section001s/item002/image-a.png');
+					assert.equal(twitter['image:alt'], 'image-a.png');
 				});
 
 			});
@@ -161,7 +161,7 @@ describe('website with images', () => {
 				it('contains structured data for the page main image and thumbnail', () => {
 					const data = parseStructuredData(findTestElements(document, 'content-full')[0]);
 
-					assert.strictEqual(data.image, 'https://images.mock.local/section001s/item002/image-a.png');
+					assert.equal(data.image, 'https://images.mock.local/section001s/item002/image-a.png');
 					assert.match(data.thumbnailUrl, /^https:\/\/images\.mock\.local\/section001s\/item002\/image-a_.*_256x256_.*\.png$/);
 				});
 

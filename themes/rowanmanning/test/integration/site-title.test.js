@@ -20,7 +20,7 @@ describe('website with site title', () => {
 
 			it('has a title element', () => {
 				const subject = document.querySelector('title')?.textContent.trim();
-				assert.strictEqual(subject, 'Mock Site Title');
+				assert.equal(subject, 'Mock Site Title');
 			});
 
 		});
@@ -29,7 +29,7 @@ describe('website with site title', () => {
 
 			it('contains a level 1 heading element with the page title', () => {
 				const subject = findTestElements(document.body, 'content-title')[0]?.textContent.trim();
-				assert.strictEqual(subject, 'Mock Site Title');
+				assert.equal(subject, 'Mock Site Title');
 			});
 
 		});
@@ -46,7 +46,7 @@ describe('website with site title', () => {
 
 			it('has a title element', () => {
 				const subject = document.querySelector('title')?.textContent.trim();
-				assert.strictEqual(subject, 'Mock Title Section | Mock Site Title');
+				assert.equal(subject, 'Mock Title Section | Mock Site Title');
 			});
 
 		});
@@ -55,7 +55,7 @@ describe('website with site title', () => {
 
 			it('contains a level 1 heading element with the page title', () => {
 				const subject = findTestElements(document.body, 'content-title')[0]?.textContent.trim();
-				assert.strictEqual(subject, 'Mock Title Section');
+				assert.equal(subject, 'Mock Title Section');
 			});
 
 		});
@@ -72,12 +72,12 @@ describe('website with site title', () => {
 
 			it('has a title element', () => {
 				const subject = document.querySelector('title')?.textContent.trim();
-				assert.strictEqual(subject, 'Mock Title Single Page | Mock Site Title');
+				assert.equal(subject, 'Mock Title Single Page | Mock Site Title');
 			});
 
 			it('has opengraph meta elements containing the site name', () => {
 				const og = parseOpenGraphMeta(document);
-				assert.strictEqual(og.site_name, 'Mock Site Title');
+				assert.equal(og.site_name, 'Mock Site Title');
 			});
 
 		});
@@ -86,7 +86,7 @@ describe('website with site title', () => {
 
 			it('contains a level 1 heading element with the page title', () => {
 				const subject = findTestElements(document.body, 'content-title')[0]?.textContent.trim();
-				assert.strictEqual(subject, 'Mock Title Single Page');
+				assert.equal(subject, 'Mock Title Single Page');
 			});
 
 		});
@@ -103,12 +103,12 @@ describe('website with site title', () => {
 
 			it('has a title element', () => {
 				const subject = document.querySelector('title')?.textContent.trim();
-				assert.strictEqual(subject, 'Mock Title Single Page In Section | Mock Site Title');
+				assert.equal(subject, 'Mock Title Single Page In Section | Mock Site Title');
 			});
 
 			it('has opengraph meta elements containing the site name', () => {
 				const og = parseOpenGraphMeta(document);
-				assert.strictEqual(og.site_name, 'Mock Site Title');
+				assert.equal(og.site_name, 'Mock Site Title');
 			});
 
 		});
@@ -117,7 +117,7 @@ describe('website with site title', () => {
 
 			it('contains a level 1 heading element with the page title', () => {
 				const subject = findTestElements(document.body, 'content-title')[0]?.textContent.trim();
-				assert.strictEqual(subject, 'Mock Title Single Page In Section');
+				assert.equal(subject, 'Mock Title Single Page In Section');
 			});
 
 		});
@@ -134,7 +134,7 @@ describe('website with site title', () => {
 
 			it('has a title element', () => {
 				const subject = document.querySelector('title')?.textContent.trim();
-				assert.strictEqual(subject, 'Mock Title Taxonomy | Mock Site Title');
+				assert.equal(subject, 'Mock Title Taxonomy | Mock Site Title');
 			});
 
 		});
@@ -143,7 +143,7 @@ describe('website with site title', () => {
 
 			it('contains a level 1 heading element with the page title', () => {
 				const subject = findTestElements(document.body, 'content-title')[0]?.textContent.trim();
-				assert.strictEqual(subject, 'Mock Title Taxonomy');
+				assert.equal(subject, 'Mock Title Taxonomy');
 			});
 
 		});
@@ -160,7 +160,7 @@ describe('website with site title', () => {
 
 			it('has a title element', () => {
 				const subject = document.querySelector('title')?.textContent.trim();
-				assert.strictEqual(subject, 'Mock Title Term | Mock Site Title');
+				assert.equal(subject, 'Mock Title Term | Mock Site Title');
 			});
 
 		});
@@ -169,7 +169,7 @@ describe('website with site title', () => {
 
 			it('contains a level 1 heading element with the page title', () => {
 				const subject = findTestElements(document.body, 'content-title')[0]?.textContent.trim();
-				assert.strictEqual(subject, 'Mock Title Term');
+				assert.equal(subject, 'Mock Title Term');
 			});
 
 		});
@@ -186,7 +186,7 @@ describe('website with site title', () => {
 
 			it('has a title element', () => {
 				const subject = document.querySelector('title')?.textContent.trim();
-				assert.strictEqual(subject, '404 | Mock Site Title');
+				assert.equal(subject, '404 | Mock Site Title');
 			});
 
 		});
@@ -195,7 +195,7 @@ describe('website with site title', () => {
 
 			it('contains a level 1 heading element with the page title', () => {
 				const subject = findTestElements(document.body, 'content-title')[0]?.textContent.trim();
-				assert.strictEqual(subject, 'Error 404: Page Not Found');
+				assert.equal(subject, 'Error 404: Page Not Found');
 			});
 
 		});
@@ -217,7 +217,7 @@ describe('website with site title', () => {
 
 			it('contains the home page title', () => {
 				const subject = findTestElements(header, 'header-site-name')[0]?.textContent.trim();
-				assert.strictEqual(subject, 'Mock Site Title');
+				assert.equal(subject, 'Mock Site Title');
 			});
 
 		});

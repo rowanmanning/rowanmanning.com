@@ -20,12 +20,12 @@ describe('website with a staging redirect', () => {
 
 			it('has a robots meta element set to "noindex"', () => {
 				const subject = document.querySelector('meta[name=robots]')?.getAttribute('content');
-				assert.strictEqual(subject, 'noindex');
+				assert.equal(subject, 'noindex');
 			});
 
 			it('has a refresh meta element', () => {
 				const subject = document.querySelector('meta[http-equiv=refresh]')?.getAttribute('content');
-				assert.strictEqual(subject, `0;URL='https://staging-redirect.mock.local/page001/'`);
+				assert.equal(subject, `0;URL='https://staging-redirect.mock.local/page001/'`);
 			});
 
 		});
@@ -42,12 +42,12 @@ describe('website with a staging redirect', () => {
 
 			it('has a robots meta element set to "noindex"', () => {
 				const subject = document.querySelector('meta[name=robots]')?.getAttribute('content');
-				assert.strictEqual(subject, 'noindex');
+				assert.equal(subject, 'noindex');
 			});
 
 			it('does not have a refresh meta element', () => {
 				const subject = document.querySelector('meta[http-equiv=refresh]')?.getAttribute('content');
-				assert.isUndefined(subject);
+				assert.equal(subject, undefined);
 			});
 
 		});

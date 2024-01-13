@@ -19,7 +19,7 @@ describe('website with draft and private content', () => {
 
 			it('does not have a robots meta element', () => {
 				const subject = document.querySelector('meta[name=robots]')?.getAttribute('content');
-				assert.isUndefined(subject);
+				assert.equal(subject, undefined);
 			});
 
 		});
@@ -36,7 +36,7 @@ describe('website with draft and private content', () => {
 
 			it('has a robots meta element set to "noindex"', () => {
 				const subject = document.querySelector('meta[name=robots]')?.getAttribute('content');
-				assert.strictEqual(subject, 'noindex');
+				assert.equal(subject, 'noindex');
 			});
 
 		});
@@ -53,7 +53,7 @@ describe('website with draft and private content', () => {
 
 			it('has a robots meta element set to "noindex"', () => {
 				const subject = document.querySelector('meta[name=robots]')?.getAttribute('content');
-				assert.strictEqual(subject, 'noindex');
+				assert.equal(subject, 'noindex');
 			});
 
 		});
@@ -68,7 +68,7 @@ describe('website with draft and private content', () => {
 
 		it('does not include draft and private content', () => {
 			const subject = document.querySelectorAll('url');
-			assert.lengthOf(subject, 4);
+			assert.equal(subject.length, 4);
 			const urls = [...subject].map(url => url.querySelector('loc')?.textContent);
 			assert.deepEqual(urls, [
 				'https://visibility.mock.local/categories/',
@@ -88,7 +88,7 @@ describe('website with draft and private content', () => {
 
 		it('does not include pages with the private parameter', () => {
 			const items = document.querySelectorAll('channel > item');
-			assert.lengthOf(items, 2);
+			assert.equal(items.length, 2);
 			const itemData = [...items].map(item => {
 				return {
 					title: item.querySelector('title')?.textContent,
