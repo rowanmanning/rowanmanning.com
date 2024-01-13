@@ -18,7 +18,7 @@ program
 		try {
 			await createNote(type, url);
 		} catch (error) {
-			console.error(error.message);
+			console.error(error.stack);
 			process.exitCode = 1;
 		}
 	})

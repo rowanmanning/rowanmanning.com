@@ -12,7 +12,7 @@ program
 		try {
 			await createWeeknote();
 		} catch (error) {
-			console.error(error.message);
+			console.error(error.stack);
 			process.exitCode = 1;
 		}
 	})
