@@ -52,7 +52,8 @@
     "create:reply": "./scripts/site.js note:create --type reply",
     "create:repost": "./scripts/site.js note:create --type repost",
     "create:weeknote": "./scripts/site.js weeknote:create",
-    "image:clamp": "./scripts/site.js image:clamp"
+    "image:clamp": "./scripts/site.js image:clamp",
+    "postinstall": "./scripts/download-hugo.sh"
   },
   "mocha": {
     "timeout": 10000
