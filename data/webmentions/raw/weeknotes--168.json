@@ -1,0 +1,21 @@
+{
+	"41e4c698366fa3afe7ede91ebc05c2b1": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Tim Kellogg",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/a306c237077dc1b84c690bea9efedddd8bc6ce5bc40a4fe06f994791beb460dc.jpg",
+			"url": "https://hachyderm.io/@kellogh"
+		},
+		"url": "https://hachyderm.io/@rowan/111773368624708712#favorited-by-109328234708858533",
+		"published": null,
+		"wm-received": "2024-01-17T21:20:31Z",
+		"wm-id": 1768598,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/111773368624708712/109328234708858533",
+		"wm-target": "https://rowanmanning.com/weeknotes/168/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/168/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
