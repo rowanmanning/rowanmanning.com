@@ -36,7 +36,7 @@ jobs:
           fetch-depth: 0 # We need all history for .GitInfo and .Lastmod
 
       - name: Cache node modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         env:
           cache-name: cache-node-modules-v1
         with:
@@ -50,7 +50,7 @@ jobs:
             ${{ runner.os }}-
 
       - name: Cache built website
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         env:
           cache-name: cache-staging-website-v1
         with:
@@ -93,7 +93,7 @@ jobs:
     steps:
 
       - name: Restore built website
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         env:
           cache-name: cache-staging-website-v1
         with:
