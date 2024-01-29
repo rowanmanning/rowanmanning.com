@@ -1,0 +1,40 @@
+{
+	"1b3c25ed9be9521e3cff2a1724242f88": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Henrik Nyh",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/548aa6cd5c49ada579df69e6c58be817f33397ce5f3422abfa26564bfd514f11.png",
+			"url": "https://ruby.social/@henrik"
+		},
+		"url": "https://hachyderm.io/@rowan/111838615953379861#favorited-by-109392058254589587",
+		"published": null,
+		"wm-received": "2024-01-29T13:51:45Z",
+		"wm-id": 1774345,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/111838615953379861/109392058254589587",
+		"wm-target": "https://rowanmanning.com/weeknotes/170/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/170/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"170098d18fe99c262ca7dfab2d60425c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "haikushane :d20:",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/58de302724652320dcccd911ddee1c7f53acf9b4f72d40bbaee3c3040e786b73.jpg",
+			"url": "https://d20.social/@shane"
+		},
+		"url": "https://hachyderm.io/@rowan/111838615953379861#favorited-by-109299427348264210",
+		"published": null,
+		"wm-received": "2024-01-29T13:51:51Z",
+		"wm-id": 1774346,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/111838615953379861/109299427348264210",
+		"wm-target": "https://rowanmanning.com/weeknotes/170/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/170/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
