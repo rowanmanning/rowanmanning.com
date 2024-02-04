@@ -794,5 +794,27 @@
 		"in-reply-to": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"d71f6e0f868e534cd01629cb5ae66855": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "",
+			"photo": "",
+			"url": ""
+		},
+		"url": "https://ghost.computer/posts/74/",
+		"published": null,
+		"wm-received": "2024-02-04T17:22:17Z",
+		"wm-id": 1777090,
+		"wm-source": "https://ghost.computer/posts/74/",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-protocol": "webmention",
+		"mention-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "mention-of",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://ghost.computer/posts/74/"
+		}
 	}
 }
