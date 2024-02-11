@@ -15,7 +15,7 @@ highlight: "pink"
 mainImage: "charlotte-and-bertie.jpg"
 resources:
   - src: "charlotte-and-bertie.jpg"
-    title: "TODO: alt text goes here"
+    title: "Charlotte sat on an armchair with a spaniel (Bertie) in her lap"
 ---
 
   * It was a pretty ordinary work week aside from having a minor debate with our CTO about the use of generative AI in programming.
