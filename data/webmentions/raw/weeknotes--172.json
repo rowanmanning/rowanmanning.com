@@ -17,5 +17,28 @@
 		"like-of": "https://rowanmanning.com/weeknotes/172/",
 		"wm-property": "like-of",
 		"wm-private": false
+	},
+	"3adf2ce9a514aef9f53f9f632bcb72cf": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Rowan",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/8133fd9e5556718c38927699868809c5c2fd976f548de7dccaf9d23a556a8818.png",
+			"url": "https://hachyderm.io/@rowan"
+		},
+		"url": "https://hachyderm.io/@rowan/111918659300670363",
+		"published": "2024-02-12T13:06:54+00:00",
+		"wm-received": "2024-02-12T13:16:40Z",
+		"wm-id": 1780144,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/111917884825582219/111918659300670363",
+		"wm-target": "https://rowanmanning.com/weeknotes/172/",
+		"wm-protocol": "webmention",
+		"content": {
+			"html": "<p>There's a delightful irony in that I can get Copilot for free because I maintain some large open source projects. It's like \"sorry we stole all your code, here's a toy to play with\"</p>",
+			"text": "There's a delightful irony in that I can get Copilot for free because I maintain some large open source projects. It's like \"sorry we stole all your code, here's a toy to play with\""
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/172/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
 	}
 }
