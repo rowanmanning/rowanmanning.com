@@ -1,0 +1,21 @@
+{
+	"ab08a7b106468cbe0b65ef48b8fa7a01": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Elena Tănăsoiu",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/40eebc3d04a687dde7a54f01151cb448a8bc1197c00f432175ffe983bcce2182.jpg",
+			"url": "https://ruby.social/@elenatanasoiu"
+		},
+		"url": "https://hachyderm.io/@rowan/111962826411135171#favorited-by-109296234371473888",
+		"published": null,
+		"wm-received": "2024-02-20T08:58:31Z",
+		"wm-id": 1783226,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/111962826411135171/109296234371473888",
+		"wm-target": "https://rowanmanning.com/weeknotes/173/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/173/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
