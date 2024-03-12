@@ -1,0 +1,63 @@
+{
+	"6f344ec2099173b248755f1e2f6b13b9": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "kir5ty",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/83ae32b341c667e51d38f647d359a5f6d153efd17c8acea06121a50e4a595ad9.jpg",
+			"url": "https://infosec.exchange/@kir5ty"
+		},
+		"url": "https://infosec.exchange/@kir5ty/112079400933585593",
+		"published": "2024-03-11T22:25:37+00:00",
+		"wm-received": "2024-03-11T23:34:05Z",
+		"wm-id": 1791850,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/112079378323088136/112079400949651361",
+		"wm-target": "https://rowanmanning.com/weeknotes/176/",
+		"wm-protocol": "webmention",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> oh my god oh my god</p>",
+			"text": "@rowan oh my god oh my god"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/176/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	},
+	"b41edb6241b48c65b8d5ffc5620377d5": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "kir5ty",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/83ae32b341c667e51d38f647d359a5f6d153efd17c8acea06121a50e4a595ad9.jpg",
+			"url": "https://infosec.exchange/@kir5ty"
+		},
+		"url": "https://hachyderm.io/@rowan/112079378323088136#favorited-by-111687342046827706",
+		"published": null,
+		"wm-received": "2024-03-11T23:34:05Z",
+		"wm-id": 1791851,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/112079378323088136/111687342046827706",
+		"wm-target": "https://rowanmanning.com/weeknotes/176/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/176/",
+		"wm-property": "like-of",
+		"wm-private": false
+	},
+	"539f5b7b528c39c988f9c1b81eccf291": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Pets Feed",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/2a355e8ebe7968eff2c0f472b2ddf0e673bb20294c43adc29145fbe2c2a358e9.png",
+			"url": "https://newsmast.community/@pets"
+		},
+		"url": "https://hachyderm.io/@rowan/112079378323088136#reblogged-by-111654087146620894",
+		"published": null,
+		"wm-received": "2024-03-11T23:34:08Z",
+		"wm-id": 1791852,
+		"wm-source": "https://brid.gy/repost/mastodon/@rowan@hachyderm.io/112079378323088136/111654087146620894",
+		"wm-target": "https://rowanmanning.com/weeknotes/176/",
+		"wm-protocol": "webmention",
+		"repost-of": "https://rowanmanning.com/weeknotes/176/",
+		"wm-property": "repost-of",
+		"wm-private": false
+	}
+}
