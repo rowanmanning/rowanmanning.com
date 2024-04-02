@@ -1,0 +1,21 @@
+{
+	"01edd5c792278ae13a9c07b1c903d9ef": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Luke B",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/d6a552dbe861f172c77b48235d619b822cb7eceb21623db2b6b4bfae15d07a80.jpg",
+			"url": "https://hachyderm.io/@lucas42"
+		},
+		"url": "https://hachyderm.io/@rowan/112201387617470029#favorited-by-109650731945561645",
+		"published": null,
+		"wm-received": "2024-04-02T19:49:46Z",
+		"wm-id": 1800747,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/112201387617470029/109650731945561645",
+		"wm-target": "https://rowanmanning.com/weeknotes/179/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/179/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
