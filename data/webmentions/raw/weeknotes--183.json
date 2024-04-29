@@ -1,0 +1,21 @@
+{
+	"7dd142aba7fd13e61454e572ae33dd8c": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Alex Wilson",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/d59ba91a15d9bcdf2a51cbc4c24d3790ac60e2115fb9e14b494b3d873e962b29.jpg",
+			"url": "https://mastodon.social/@alexwilson"
+		},
+		"url": "https://hachyderm.io/@rowan/112353416750888936#favorited-by-109310454920793384",
+		"published": null,
+		"wm-received": "2024-04-29T14:38:43Z",
+		"wm-id": 1817221,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/112353416750888936/109310454920793384",
+		"wm-target": "https://rowanmanning.com/weeknotes/183/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/183/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
