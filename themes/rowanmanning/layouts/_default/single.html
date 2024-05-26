@@ -75,7 +75,7 @@
 						<span>
 							{{- range $key, $tag := .Params.tags -}}
 								{{- if ne $key 0 }}<span class="hidden">, </span>{{ end -}}
-								<a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}/" class="tag tag--{{ replace ($tag | urlize) "." "-" }} p-category">{{ $tag }}</a>
+								<a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}/" class="tag tag--{{ replace ($tag | anchorize) "." "-" }} p-category">{{ $tag }}</a>
 							{{- end -}}
 						</span>
 					{{- end }}

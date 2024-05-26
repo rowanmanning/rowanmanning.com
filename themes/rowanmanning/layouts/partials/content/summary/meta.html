@@ -33,7 +33,7 @@
 		<span>
 			{{- range $key, $tag := $tags -}}
 				{{- if ne $key 0 }}<span class="hidden">, </span>{{ end -}}
-				<a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}/" class="p-category tag tag--{{ replace ($tag | urlize) "." "-" }} {{ if (and (gt $key 2) (gt $tagCount 4)) }}hidden-fully{{ end }}">{{ $tag }}</a>
+				<a href="{{ "/tags/" | relLangURL }}{{ $tag | urlize }}/" class="p-category tag tag--{{ replace ($tag | anchorize) "." "-" }} {{ if (and (gt $key 2) (gt $tagCount 4)) }}hidden-fully{{ end }}">{{ $tag }}</a>
 			{{- end -}}
 		</span>
 
