@@ -20,3 +20,9 @@
 		--image-width: 50%;
 	}
 }
+
+// Galleries with only two images
+.gallery__image:first-child:nth-last-child(2),
+.gallery__image ~ .gallery__image:nth-child(2):last-child {
+	--image-width: 50%;
+}
