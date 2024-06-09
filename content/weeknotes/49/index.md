@@ -37,7 +37,7 @@ syndication:
 
   * {{< pin left >}}{{< image "riley.jpg" >}}{{< /pin >}}
   
-    Riley ([Jenn](https://twitter.com/teachlearncode) and [Chris](https://twitter.com/mowjj)'s cat) came with us. It was bittersweet spending a week with a cat.
+    Riley (Jenn and Chris's cat) came with us. It was bittersweet spending a week with a cat.
     
     I played with him in boxes a lot, which I used to do with [Tootsie](/tags/tootsie/). By the end of the week, he was pretty chill with all of us and he's a cute little lad.
 

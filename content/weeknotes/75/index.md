@@ -35,7 +35,7 @@ syndication:
   
     Oh, ages ago we got new toothbrushes with an app. I think [I'm very susceptible to a bit of gamification](https://crossword.rowanmanning.com/), and I'm consistently getting 100% scores (complete coverage and the correct pressure for >2 minutes). Why am I like this? Look at my medals though.
 
-  * We went to a practice bottomless brunch with [Jenn](https://twitter.com/teachlearncode) & [Chris](https://twitter.com/mowjj) which was delightful. It was a practice for when we go and do another bottomless brunch another time. I was very happy and fun to be around if I say so myself, but then later on I sent some embarrassing text messages and fell asleep in the corner of the bar. The Lord giveth and the Lord taketh away.
+  * We went to a practice bottomless brunch with Jenn & Chris which was delightful. It was a practice for when we go and do another bottomless brunch another time. I was very happy and fun to be around if I say so myself, but then later on I sent some embarrassing text messages and fell asleep in the corner of the bar. The Lord giveth and the Lord taketh away.
 
   * Guess what, friends, I found myself getting legitimately excited during my team's Q2 OKR session. What a dweeb. I've not done loads of [{{< abbr "Site Reliability Engineering" >}}SRE{{< /abbr >}}](https://en.wikipedia.org/wiki/Site_reliability_engineering)-type work throughout my career so far and I'm not sure why, it's rewarding.
 

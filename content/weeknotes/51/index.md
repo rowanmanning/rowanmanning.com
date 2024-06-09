@@ -43,7 +43,7 @@ syndication:
   
   * {{< pin right >}}{{< image "horses.jpg" >}}{{< /pin >}}
   
-    I played two Minecraft "speedrun"s this week, thanks to [Chris](https://twitter.com/mowjj) for suggesting. The first was a pretty standard one with just me, Chris, and [Luke](https://twitter.com/lucas42) - some highlights include 3x desert temples, 3x saddles, and riding to the stronghold on horseback. I also pulled off an [MLG water](https://www.urbandictionary.com/define.php?term=MLG%20Water%20Bucket) while fighting the dragon which was exciting.
+    I played two Minecraft "speedrun"s this week, thanks to Chris for suggesting. The first was a pretty standard one with just me, Chris, and [Luke](https://twitter.com/lucas42) - some highlights include 3x desert temples, 3x saddles, and riding to the stronghold on horseback. I also pulled off an [MLG water](https://www.urbandictionary.com/define.php?term=MLG%20Water%20Bucket) while fighting the dragon which was exciting.
     
     The second "speedrun" never got completed, we tried starting in the Nether and spawned in a Crimson forest. As well as being really difficult, it feels like a massive grind having to find gold to barter with.
 

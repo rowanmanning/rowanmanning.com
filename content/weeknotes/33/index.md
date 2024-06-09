@@ -24,7 +24,7 @@ syndication:
 
   * It's still a bit tough getting excited about work, but I've pushed myself to be a bit more technical over the last week or so and I think it's helping (slowly).
 
-  * Hasn't the sun been amazing? We went and drank champagne on [Jenn](https://twitter.com/teachlearncode) and [Chris](https://twitter.com/mowjj)'s balcony and it was delightful.
+  * Hasn't the sun been amazing? We went and drank champagne on Jenn and Chris's balcony and it was delightful.
 
   * We finished watching Lucifer because of sunk cost. It was predictably cringey.
 

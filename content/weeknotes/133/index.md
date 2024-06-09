@@ -40,7 +40,7 @@ resources:
 
   * Sunday night was quite chill, we went along to the [big welcome](https://eurovision.tv/story/acts-announced-big-eurovision-welcome) party by the town hall and saw loads of great bands. I can now say I've seen Atomic Kitten live twice after [Butlins](/weeknotes/125/).
 
-  * Monday was our big day. We did a little bit of touristy stuff and then a bottomless brunch for [Jenn](https://twitter.com/teachlearncode)'s birthday. Vodka Revs does the _best_ bottomless brunch :eyes: they leave a prosecco on the table for when you're waiting for cocktails to arrive and it's _two hours_!
+  * Monday was our big day. We did a little bit of touristy stuff and then a bottomless brunch for Jenn's birthday. Vodka Revs does the _best_ bottomless brunch :eyes: they leave a prosecco on the table for when you're waiting for cocktails to arrive and it's _two hours_!
 
   * {{< pin "right" >}}{{< image "countdown.jpg" >}}{{< /pin >}}
 

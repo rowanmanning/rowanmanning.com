@@ -51,6 +51,6 @@ syndication:
   
     [Alex W has COVID](https://alexwilson.tech/content/02ceb85c-8e28-4c60-a530-8c0d3b3c9af2) which is notable not just because it's sad that he missed a party, but also because [Co – Star](/weeknotes/71/) specifically told me to avoid him. Maybe there's something to this horoscope bullshit after all :eyes:
 
-  * We finished the week with a fun party for [Jenn](https://twitter.com/teachlearncode)'s birthday. I had an incredible vegan Korean burger made with battered and deep-fried hen of the woods mushrooms. I drank pretty good margaritas, espresso martinis, and piña coladas.
+  * We finished the week with a fun party for Jenn's birthday. I had an incredible vegan Korean burger made with battered and deep-fried hen of the woods mushrooms. I drank pretty good margaritas, espresso martinis, and piña coladas.
 
     The people were nice, the dancing was fun, and the hour-long walk home was sobering and I maybe feel kinda fine this morning? I'm still gonna eat a lot of takeaway.

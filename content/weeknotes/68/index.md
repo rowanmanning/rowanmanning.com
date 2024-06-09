@@ -31,7 +31,7 @@ syndication:
 
   * Please excuse the messy desk and also the terrible cropping in the photo of my chair. I was scared by [this thread on Twitter](https://twitter.com/amateuradam/status/1490394034900197388) and had to crop my bank card out of it.
 
-  * On Thursday I went to Puttshack in Bank with a group of friends. The actual golfing was fun! I enjoyed nerding out about how the technology works, it's really slick, and I came second (after [Jenn](https://twitter.com/teachlearncode), who smashed everyone). What wasn't fun was being surrounded by drunk city boys :grimacing: probs the only downside to our office's proximity to the city.
+  * On Thursday I went to Puttshack in Bank with a group of friends. The actual golfing was fun! I enjoyed nerding out about how the technology works, it's really slick, and I came second (after Jenn, who smashed everyone). What wasn't fun was being surrounded by drunk city boys :grimacing: probs the only downside to our office's proximity to the city.
 
   * I've had my first couple of challenges juggling my current role vs my previous role at work. While I'm working directly in a team, I'm supposed to be dropping most of my Principal Engineer responsibilities but:
 

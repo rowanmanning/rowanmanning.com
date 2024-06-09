@@ -24,7 +24,7 @@ syndication:
 
   * It's been interesting to see Basecamp implode over the last week. These snowflake CEOs eh?
 
-  * I'm still going strong on the crosswords, and I'm finally able to beat [Jenn](https://twitter.com/teachlearncode) _relatively_ regularly on the [NYT Mini](https://www.nytimes.com/crosswords). I made a Slack channel at work to discuss clues and it feels like a nice little group.
+  * I'm still going strong on the crosswords, and I'm finally able to beat Jenn _relatively_ regularly on the [NYT Mini](https://www.nytimes.com/crosswords). I made a Slack channel at work to discuss clues and it feels like a nice little group.
 
   * I've been doing more socially, which is lovely but exhausting.
   

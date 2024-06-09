@@ -32,7 +32,7 @@ resources:
 
   * I'm on day 15 of being a vegetarian now. I was feeling weird about eating meat through December and I'm giving vegetarianism a go again. Too soon to call it permanent but, after a couple of weeks, there's nothing I'm missing terribly.
 
-  * On Friday we went to Chiswick where [Jenn](https://twitter.com/teachlearncode) is house/dog-sitting. We chatted, drank champagne, and made experimental toasties all evening. It was lovely to hang out and [Rowan](https://octodon.social/@rowanbeentje) even made an appearance – what a treat!
+  * On Friday we went to Chiswick where Jenn is house/dog-sitting. We chatted, drank champagne, and made experimental toasties all evening. It was lovely to hang out and [Rowan](https://octodon.social/@rowanbeentje) even made an appearance – what a treat!
 
   * We stayed over and went on a nice long dog walk around Chiswick, across the river and back. Spaniels just have endless energy – we were a lot more tired than him. We diverted the walk home past the Taskmaster house, and Chris snuck a picture under the gate.
 
