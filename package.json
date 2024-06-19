@@ -32,17 +32,16 @@
     "text-clipper": "^2.2.0"
   },
   "devDependencies": {
-    "@rowanmanning/eslint-config": "^8.1.0",
-    "eslint": "^8.57.0",
+    "@rowanmanning/biome-config": "^1.3.0",
     "mocha": "^10.3.0"
   },
   "scripts": {
+    "verify": "npm run verify:biome",
+    "verify:biome": "biome check",
     "build": "npm run wm:process && hugo --minify --cleanDestinationDir --environment production",
     "build-staging": "npm run wm:process && hugo --minify --cleanDestinationDir --environment staging",
     "wm:fetch": "./scripts/site.js wm:fetch --api-key ${WEBMENTION_API_KEY}",
     "wm:process": "./scripts/site.js wm:process",
-    "verify": "npm run verify:eslint",
-    "verify:eslint": "eslint .",
     "test": "npm run test:theme",
     "test:theme": "mocha 'themes/rowanmanning/test/integration/**/*.test.js'",
     "start": "hugo server -D",

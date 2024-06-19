@@ -1,0 +1,37 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"extends": ["./node_modules/@rowanmanning/biome-config/config.json"],
+	"files": {
+		"ignore": ["build", "data/**/*.json", "resources/_gen/**/*", "themes/**/*.json"]
+	},
+	"linter": {
+		"rules": {
+			"nursery": {
+				"noConsole": "off",
+				"noUndeclaredDependencies": "off"
+			}
+		}
+	},
+	"overrides": [
+		{
+			"include": ["**/test/**/*.js"],
+			"javascript": {
+				"globals": [
+					"after",
+					"afterEach",
+					"assert",
+					"before",
+					"beforeEach",
+					"describe",
+					"findTestElements",
+					"hugoBuild",
+					"it",
+					"loadBuiltHTML",
+					"parseOpenGraphMeta",
+					"parseStructuredData",
+					"parseTwitterMeta"
+				]
+			}
+		}
+	]
+}
