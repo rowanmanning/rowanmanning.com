@@ -1,8 +1,6 @@
-
-import {fathomConfig} from '@params';
+import { fathomConfig } from '@params';
 
 export default class WebmentionForm {
-
 	// Construct a single webmention form
 	constructor(rootElement) {
 		this.rootElement = rootElement;
@@ -21,5 +19,4 @@ export default class WebmentionForm {
 	static init(...args) {
 		return new this(...args);
 	}
-
 }

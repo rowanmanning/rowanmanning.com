@@ -2,21 +2,20 @@
 'use strict';
 
 const listAllFiles = require('@rowanmanning/list-all-files');
-const {readFile} = require('fs/promises');
-const path = require('path');
+const { readFile } = require('node:fs/promises');
+const path = require('node:path');
 const sharp = require('sharp');
 
 const CONTENT_DIRECTORY = path.resolve(__dirname, '../../../content');
 const MAX_SIZE = 1800;
 
 module.exports = async function clampImages() {
-
 	// Load the image paths
 	const imagePaths = await listAllImages(CONTENT_DIRECTORY);
 
 	for (const imagePath of imagePaths) {
 		const image = sharp(await readFile(imagePath));
-		const {width, height} = await image.metadata();
+		const { width, height } = await image.metadata();
 
 		let resizeOptions = null;
 		if (width > height && width > MAX_SIZE) {
@@ -46,8 +45,5 @@ async function listAllImages(directoryPath) {
 
 function isImagePath(filePath) {
 	const lowerCaseFilePath = filePath.toLowerCase();
-	return (
-		lowerCaseFilePath.toLowerCase().endsWith('.jpg') ||
-		lowerCaseFilePath.endsWith('.jpeg')
-	);
+	return lowerCaseFilePath.toLowerCase().endsWith('.jpg') || lowerCaseFilePath.endsWith('.jpeg');
 }

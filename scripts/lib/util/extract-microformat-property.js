@@ -2,13 +2,13 @@
 
 module.exports = function extractMicroformatProperty(item, property) {
 	const properties = item?.properties;
-	if (properties && properties[property]) {
+	if (properties?.[property]) {
 		let subject = properties[property];
 		if (Array.isArray(subject)) {
 			subject = subject[0];
 		}
 		if (property === 'author') {
-			if (subject && subject.properties) {
+			if (subject?.properties) {
 				subject = {
 					name: extractMicroformatProperty(subject, 'name'),
 					url: extractMicroformatProperty(subject, 'url')
@@ -21,7 +21,7 @@ module.exports = function extractMicroformatProperty(item, property) {
 				};
 			}
 		}
-		if (subject && subject.value) {
+		if (subject?.value) {
 			subject = subject.value;
 		}
 		return subject || null;

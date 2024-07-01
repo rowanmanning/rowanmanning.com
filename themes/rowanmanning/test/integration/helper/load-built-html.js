@@ -1,9 +1,9 @@
 'use strict';
 
-const fs = require('fs/promises');
-const {JSDOM} = require('jsdom');
+const fs = require('node:fs/promises');
+const { JSDOM } = require('jsdom');
 
-module.exports = async function loadBuiltHTML(filePath, {xml = false} = {}) {
+module.exports = async function loadBuiltHTML(filePath, { xml = false } = {}) {
 	const baseDirectory = `${__dirname}/../build`;
 	const htmlFile = `${baseDirectory}/${filePath}`;
 
@@ -13,7 +13,7 @@ module.exports = async function loadBuiltHTML(filePath, {xml = false} = {}) {
 
 	const content = await fs.readFile(htmlFile, 'utf-8');
 	const dom = new JSDOM(content, {
-		contentType: (xml ? 'application/xhtml+xml' : 'text/html')
+		contentType: xml ? 'application/xhtml+xml' : 'text/html'
 	}).window;
 	return dom;
 };
@@ -22,7 +22,7 @@ async function isFile(path) {
 	try {
 		await fs.stat(path);
 		return fs.stat.isFile();
-	} catch (error) {
+	} catch (_error) {
 		return false;
 	}
 }

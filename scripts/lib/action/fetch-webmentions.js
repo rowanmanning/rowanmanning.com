@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 'use strict';
 
-const crypto = require('crypto');
-const fs = require('fs/promises');
+const crypto = require('node:crypto');
+const fs = require('node:fs/promises');
 const site = require('../../../data/webmentions/config/site.json');
 const mkdir = require('../util/mkdir');
 
@@ -23,7 +23,7 @@ module.exports = async function fetchWebmentions(apiKey) {
 	}
 
 	// Fetch webmentions based on query params defined above
-	const response = await fetch(webmentionUrl, {headers});
+	const response = await fetch(webmentionUrl, { headers });
 	const body = await response.json();
 
 	// Get webmentions
@@ -35,7 +35,6 @@ module.exports = async function fetchWebmentions(apiKey) {
 
 	// Loop over and save webmentions on a per-page basis
 	for (const webmention of webmentions) {
-
 		// Calculate a slug and file path for the mention
 		let slug = webmention['wm-target']
 			.replace(`https://${site.domain}`, '')
@@ -64,7 +63,7 @@ module.exports = async function fetchWebmentions(apiKey) {
 			try {
 				await fs.access(filePath);
 				fileCache[filePath] = JSON.parse(await fs.readFile(filePath, 'utf-8'));
-			} catch (error) {
+			} catch (_error) {
 				fileCache[filePath] = {};
 			}
 		}
@@ -73,7 +72,6 @@ module.exports = async function fetchWebmentions(apiKey) {
 		const uniqueId = crypto.createHash('md5').update(uniqueIdData).digest('hex');
 
 		fileCache[filePath][uniqueId] = webmention;
-
 	}
 
 	// Save all the webmention files
@@ -91,5 +89,4 @@ module.exports = async function fetchWebmentions(apiKey) {
 			JSON.stringify(site, null, '\t')
 		);
 	}
-
 };

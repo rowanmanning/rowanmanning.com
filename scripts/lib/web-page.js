@@ -1,12 +1,11 @@
 'use strict';
 
-const {JSDOM} = require('jsdom');
+const { JSDOM } = require('jsdom');
 const manifest = require('../../package.json');
-const {mf2} = require('microformats-parser');
+const { mf2 } = require('microformats-parser');
 const extractMicroformatProperty = require('./util/extract-microformat-property');
 
 module.exports = class WebPage {
-
 	constructor(url, body) {
 		this.url = url;
 		this.html = body;
@@ -42,15 +41,17 @@ module.exports = class WebPage {
 	get openGraph() {
 		if (!this._openGraph) {
 			const openGraphSelectors = 'meta[property^="og:"], meta[property^="article:"]';
-			const properties = [...this.document.querySelectorAll(openGraphSelectors)]
-				.reduce((og, meta) => {
+			const properties = [...this.document.querySelectorAll(openGraphSelectors)].reduce(
+				(og, meta) => {
 					const key = meta
 						?.getAttribute('property')
-						?.replace(/^(og|article):/ig, '')
+						?.replace(/^(og|article):/gi, '')
 						?.toLowerCase();
 					og[key] = meta?.getAttribute('content');
 					return og;
-				}, {});
+				},
+				{}
+			);
 			this._openGraph = properties;
 		}
 		return this._openGraph;
@@ -58,53 +59,41 @@ module.exports = class WebPage {
 
 	get title() {
 		if (!this._title) {
-			const name = extractMicroformatProperty(
-				this.firstMicroformatRoot,
-				'name'
-			);
-			this._title = (
+			const name = extractMicroformatProperty(this.firstMicroformatRoot, 'name');
+			this._title =
 				name ||
 				this.openGraph.title ||
-				this.document.head?.querySelector('title')?.textContent
-			);
+				this.document.head?.querySelector('title')?.textContent;
 		}
 		return this._title;
 	}
 
 	get description() {
 		if (!this._description) {
-			const summary = extractMicroformatProperty(
-				this.firstMicroformatRoot,
-				'summary'
-			);
-			this._description = (
+			const summary = extractMicroformatProperty(this.firstMicroformatRoot, 'summary');
+			this._description =
 				summary ||
 				this.openGraph.description ||
-				this.document.head?.querySelector('meta[name=description]')?.getAttribute('content')
-			);
+				this.document.head
+					?.querySelector('meta[name=description]')
+					?.getAttribute('content');
 		}
 		return this._description;
 	}
 
 	get published() {
 		if (!this._published) {
-			const published = (
-				extractMicroformatProperty(
-					this.firstMicroformatRoot,
-					'published'
-				) || this.openGraph.published_time
-			);
-			this._published = (published ? new Date(published) : published);
+			const published =
+				extractMicroformatProperty(this.firstMicroformatRoot, 'published') ||
+				this.openGraph.published_time;
+			this._published = published ? new Date(published) : published;
 		}
 		return this._published;
 	}
 
 	get author() {
 		if (!this._author) {
-			let author = extractMicroformatProperty(
-				this.firstMicroformatRoot,
-				'author'
-			);
+			let author = extractMicroformatProperty(this.firstMicroformatRoot, 'author');
 			if (!author && this.openGraph.site_name) {
 				author = {
 					name: this.openGraph.site_name,
@@ -135,5 +124,4 @@ module.exports = class WebPage {
 		const body = await response.text();
 		return new this(response.url, body);
 	}
-
 };
