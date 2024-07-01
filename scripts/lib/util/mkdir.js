@@ -1,7 +1,7 @@
 'use strict';
 
-const fs = require('fs/promises');
+const fs = require('node:fs/promises');
 
 module.exports = function mkdir(path) {
-	return fs.mkdir(path, {recursive: true});
+	return fs.mkdir(path, { recursive: true });
 };

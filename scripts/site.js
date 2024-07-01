@@ -2,7 +2,7 @@
 'use strict';
 
 const manifest = require('../package.json');
-const {program} = require('commander');
+const { program } = require('commander');
 
 program
 	.version(manifest.version)

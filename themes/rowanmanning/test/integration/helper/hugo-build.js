@@ -1,14 +1,20 @@
 'use strict';
 
-const {promisify} = require('util');
-const exec = promisify(require('child_process').exec);
-const fs = require('fs/promises');
+const { promisify } = require('node:util');
+const exec = promisify(require('node:child_process').exec);
+const fs = require('node:fs/promises');
 
 const buildDirectory = `${__dirname}/../build`;
 
-module.exports = async function hugoBuild({name, config = null, environment = 'production'} = {}) {
+module.exports = async function hugoBuild({
+	name,
+	config = null,
+	environment = 'production'
+} = {}) {
 	const sourceDirectory = `${__dirname}/../mock/content/${name}`;
-	const configPath = config ? `${__dirname}/../mock/config/${config}.yml` : `${sourceDirectory}/config.yml`;
+	const configPath = config
+		? `${__dirname}/../mock/config/${config}.yml`
+		: `${sourceDirectory}/config.yml`;
 
 	// Remove the build directory
 	if (await isDirectory(buildDirectory)) {
@@ -16,7 +22,8 @@ module.exports = async function hugoBuild({name, config = null, environment = 'p
 	}
 
 	// Build the site
-	await exec(`
+	await exec(
+		`
 		hugo
 			--environment="${environment}"
 			--config="${configPath}"
@@ -26,14 +33,15 @@ module.exports = async function hugoBuild({name, config = null, environment = 'p
 			--buildDrafts
 			--ignoreCache
 			--gc
-	`.replace(/[\t\r\n]+/g, ' '));
+	`.replace(/[\t\r\n]+/g, ' ')
+	);
 };
 
 async function isDirectory(path) {
 	try {
 		const stat = await fs.stat(path);
 		return stat.isDirectory();
-	} catch (error) {
+	} catch (_error) {
 		return false;
 	}
 }

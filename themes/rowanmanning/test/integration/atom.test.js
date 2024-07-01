@@ -11,142 +11,133 @@ describe('website with atom feeds instead of RSS', () => {
 	});
 
 	describe('home page', () => {
-
 		before(async () => {
 			document = (await loadBuiltHTML('index.html')).document;
 		});
 
 		describe('head', () => {
-
 			it('does not have an alternate link element pointing to the site RSS feed', () => {
-				const subject = document.querySelector('link[rel=alternate][type="application/rss+xml"]');
+				const subject = document.querySelector(
+					'link[rel=alternate][type="application/rss+xml"]'
+				);
 				assert.equal(subject, null);
 			});
 
 			it('has an alternate link element pointing to the site Atom feed', () => {
-				const subject = document.querySelector('link[rel=alternate][type="application/atom+xml"]');
+				const subject = document.querySelector(
+					'link[rel=alternate][type="application/atom+xml"]'
+				);
 				assert.equal(subject?.getAttribute('href'), '/feed.xml');
 				assert.equal(subject?.getAttribute('title'), 'Atom feed for Mock Title Home');
 			});
-
 		});
-
 	});
 
 	describe('section page', () => {
-
 		before(async () => {
 			document = (await loadBuiltHTML('section001s/index.html')).document;
 		});
 
 		describe('head', () => {
-
 			it('does not have an alternate link element pointing to the site RSS feed', () => {
-				const subject = document.querySelector('link[rel=alternate][type="application/rss+xml"]');
+				const subject = document.querySelector(
+					'link[rel=alternate][type="application/rss+xml"]'
+				);
 				assert.equal(subject, null);
 			});
 
 			it('has an alternate link element pointing to the site Atom feed', () => {
-				const subject = document.querySelector('link[rel=alternate][type="application/atom+xml"]');
+				const subject = document.querySelector(
+					'link[rel=alternate][type="application/atom+xml"]'
+				);
 				assert.equal(subject?.getAttribute('href'), '/section001s/feed.xml');
 				assert.equal(subject?.getAttribute('title'), 'Atom feed for Mock Title Section');
 			});
-
 		});
 
 		describe('body', () => {
-
 			it('contains a link to the section Atom feed', () => {
 				assert.notEqual(document.querySelector('a[href="/section001s/feed.xml"]'), null);
 			});
-
 		});
-
 	});
 
 	describe('single page', () => {
-
 		before(async () => {
 			document = (await loadBuiltHTML('page001/index.html')).document;
 		});
 
 		describe('head', () => {
-
 			it('does not have an alternate link element pointing to the site Atom feed', () => {
-				const subject = document.querySelector('link[rel=alternate][type="application/atom+xml"]');
+				const subject = document.querySelector(
+					'link[rel=alternate][type="application/atom+xml"]'
+				);
 				assert.equal(subject, null);
 			});
-
 		});
-
 	});
 
 	describe('single page in section', () => {
-
 		before(async () => {
 			document = (await loadBuiltHTML('section001s/item001/index.html')).document;
 		});
 
 		describe('body', () => {
-
 			it('contains a link to the section Atom feed', () => {
 				assert.notEqual(document.querySelector('a[href="/section001s/feed.xml"]'), null);
 			});
-
 		});
-
 	});
 
 	describe('taxonomy page', () => {
-
 		before(async () => {
 			document = (await loadBuiltHTML('tags/index.html')).document;
 		});
 
 		describe('head', () => {
-
 			it('does not have an alternate link element pointing to the site RSS feed', () => {
-				const subject = document.querySelector('link[rel=alternate][type="application/rss+xml"]');
+				const subject = document.querySelector(
+					'link[rel=alternate][type="application/rss+xml"]'
+				);
 				assert.equal(subject, null);
 			});
 
 			it('has an alternate link element pointing to the site Atom feed', () => {
-				const subject = document.querySelector('link[rel=alternate][type="application/atom+xml"]');
+				const subject = document.querySelector(
+					'link[rel=alternate][type="application/atom+xml"]'
+				);
 				assert.equal(subject?.getAttribute('href'), '/tags/feed.xml');
 				assert.equal(subject?.getAttribute('title'), 'Atom feed for Mock Title Taxonomy');
 			});
-
 		});
-
 	});
 
 	describe('term page', () => {
-
 		before(async () => {
 			document = (await loadBuiltHTML('tags/tag001/index.html')).document;
 		});
 
 		describe('head', () => {
-
 			it('does not have an alternate link element pointing to the site RSS feed', () => {
-				const subject = document.querySelector('link[rel=alternate][type="application/rss+xml"]');
+				const subject = document.querySelector(
+					'link[rel=alternate][type="application/rss+xml"]'
+				);
 				assert.equal(subject, null);
 			});
 
 			it('has an alternate link element pointing to the site Atom feed', () => {
-				const subject = document.querySelector('link[rel=alternate][type="application/atom+xml"]');
+				const subject = document.querySelector(
+					'link[rel=alternate][type="application/atom+xml"]'
+				);
 				assert.equal(subject?.getAttribute('href'), '/tags/tag001/feed.xml');
 				assert.equal(subject?.getAttribute('title'), 'Atom feed for Mock Title Term');
 			});
-
 		});
-
 	});
 
 	describe('home page Atom', () => {
-
 		before(async () => {
-			document = (await loadBuiltHTML('feed.xml', {xml: true})).document;
+			document = (await loadBuiltHTML('feed.xml', { xml: true })).document;
 		});
 
 		it('has a feed element', () => {
@@ -177,15 +168,24 @@ describe('website with atom feeds instead of RSS', () => {
 			assert.equal(author?.querySelector('uri')?.textContent, undefined);
 			assert.equal(author?.querySelector('email')?.textContent, undefined);
 
-			assert.equal(document.querySelector('feed > id')?.textContent, 'https://atom-simple.mock.local/');
-			assert.equal(document.querySelector('feed > rights')?.textContent, `Copyright © ${new Date().getFullYear()}`);
-			assert.equal(document.querySelector('feed > updated')?.textContent, '2021-01-02T08:00:00+00:00');
+			assert.equal(
+				document.querySelector('feed > id')?.textContent,
+				'https://atom-simple.mock.local/'
+			);
+			assert.equal(
+				document.querySelector('feed > rights')?.textContent,
+				`Copyright © ${new Date().getFullYear()}`
+			);
+			assert.equal(
+				document.querySelector('feed > updated')?.textContent,
+				'2021-01-02T08:00:00+00:00'
+			);
 		});
 
 		it('has an entry element representing each regular page in the site', () => {
 			const entries = document.querySelectorAll('feed > entry');
 			assert.equal(entries.length, 6);
-			const entryData = [...entries].map(item => {
+			const entryData = [...entries].map((item) => {
 				return {
 					id: item.querySelector('id')?.textContent,
 					title: item.querySelector('title')?.textContent,
@@ -200,7 +200,7 @@ describe('website with atom feeds instead of RSS', () => {
 					updated: item.querySelector('updated')?.textContent,
 					content: item.querySelector('content')?.textContent,
 					contentType: item.querySelector('content')?.getAttribute('type'),
-					categories: [...item.querySelectorAll('category')].map(category => {
+					categories: [...item.querySelectorAll('category')].map((category) => {
 						return {
 							scheme: category.getAttribute('scheme'),
 							term: category.getAttribute('term'),
@@ -340,13 +340,11 @@ describe('website with atom feeds instead of RSS', () => {
 				}
 			]);
 		});
-
 	});
 
 	describe('section page Atom', () => {
-
 		before(async () => {
-			document = (await loadBuiltHTML('section001s/feed.xml', {xml: true})).document;
+			document = (await loadBuiltHTML('section001s/feed.xml', { xml: true })).document;
 		});
 
 		it('has a feed element', () => {
@@ -365,11 +363,17 @@ describe('website with atom feeds instead of RSS', () => {
 			assert.equal(title?.textContent, 'Mock Title Section');
 			assert.equal(title?.getAttribute('type'), 'html');
 
-			assert.equal(altLink?.getAttribute('href'), 'https://atom-simple.mock.local/section001s/');
+			assert.equal(
+				altLink?.getAttribute('href'),
+				'https://atom-simple.mock.local/section001s/'
+			);
 			assert.equal(altLink?.getAttribute('rel'), 'alternate');
 			assert.equal(altLink?.getAttribute('type'), 'text/html');
 
-			assert.equal(selfLink?.getAttribute('href'), 'https://atom-simple.mock.local/section001s/feed.xml');
+			assert.equal(
+				selfLink?.getAttribute('href'),
+				'https://atom-simple.mock.local/section001s/feed.xml'
+			);
 			assert.equal(selfLink?.getAttribute('rel'), 'self');
 			assert.equal(selfLink?.getAttribute('type'), 'application/atom+xml');
 
@@ -377,15 +381,24 @@ describe('website with atom feeds instead of RSS', () => {
 			assert.equal(author?.querySelector('uri')?.textContent, undefined);
 			assert.equal(author?.querySelector('email')?.textContent, undefined);
 
-			assert.equal(document.querySelector('feed > id')?.textContent, 'https://atom-simple.mock.local/section001s/');
-			assert.equal(document.querySelector('feed > rights')?.textContent, `Copyright © ${new Date().getFullYear()}`);
-			assert.equal(document.querySelector('feed > updated')?.textContent, '2021-01-02T08:00:00+00:00');
+			assert.equal(
+				document.querySelector('feed > id')?.textContent,
+				'https://atom-simple.mock.local/section001s/'
+			);
+			assert.equal(
+				document.querySelector('feed > rights')?.textContent,
+				`Copyright © ${new Date().getFullYear()}`
+			);
+			assert.equal(
+				document.querySelector('feed > updated')?.textContent,
+				'2021-01-02T08:00:00+00:00'
+			);
 		});
 
 		it('has an entry element representing each page in the section', () => {
 			const entries = document.querySelectorAll('feed > entry');
 			assert.equal(entries.length, 2);
-			const entryData = [...entries].map(item => {
+			const entryData = [...entries].map((item) => {
 				return {
 					id: item.querySelector('id')?.textContent,
 					title: item.querySelector('title')?.textContent,
@@ -400,7 +413,7 @@ describe('website with atom feeds instead of RSS', () => {
 					updated: item.querySelector('updated')?.textContent,
 					content: item.querySelector('content')?.textContent,
 					contentType: item.querySelector('content')?.getAttribute('type'),
-					categories: [...item.querySelectorAll('category')].map(category => {
+					categories: [...item.querySelectorAll('category')].map((category) => {
 						return {
 							scheme: category.getAttribute('scheme'),
 							term: category.getAttribute('term'),
@@ -462,23 +475,22 @@ describe('website with atom feeds instead of RSS', () => {
 		});
 
 		describe('when the section has no index page', () => {
-
 			before(async () => {
-				document = (await loadBuiltHTML('section002s/feed.xml', {xml: true})).document;
+				document = (await loadBuiltHTML('section002s/feed.xml', { xml: true })).document;
 			});
 
 			it('has defaulted feed information', () => {
-				assert.equal(document.querySelector('feed > title')?.textContent, 'All Section002s');
+				assert.equal(
+					document.querySelector('feed > title')?.textContent,
+					'All Section002s'
+				);
 			});
-
 		});
-
 	});
 
 	describe('taxonomy page Atom', () => {
-
 		before(async () => {
-			document = (await loadBuiltHTML('tags/feed.xml', {xml: true})).document;
+			document = (await loadBuiltHTML('tags/feed.xml', { xml: true })).document;
 		});
 
 		it('has a feed element', () => {
@@ -501,7 +513,10 @@ describe('website with atom feeds instead of RSS', () => {
 			assert.equal(altLink?.getAttribute('rel'), 'alternate');
 			assert.equal(altLink?.getAttribute('type'), 'text/html');
 
-			assert.equal(selfLink?.getAttribute('href'), 'https://atom-simple.mock.local/tags/feed.xml');
+			assert.equal(
+				selfLink?.getAttribute('href'),
+				'https://atom-simple.mock.local/tags/feed.xml'
+			);
 			assert.equal(selfLink?.getAttribute('rel'), 'self');
 			assert.equal(selfLink?.getAttribute('type'), 'application/atom+xml');
 
@@ -509,15 +524,24 @@ describe('website with atom feeds instead of RSS', () => {
 			assert.equal(author?.querySelector('uri')?.textContent, undefined);
 			assert.equal(author?.querySelector('email')?.textContent, undefined);
 
-			assert.equal(document.querySelector('feed > id')?.textContent, 'https://atom-simple.mock.local/tags/');
-			assert.equal(document.querySelector('feed > rights')?.textContent, `Copyright © ${new Date().getFullYear()}`);
-			assert.equal(document.querySelector('feed > updated')?.textContent, '2021-01-02T08:00:00+00:00');
+			assert.equal(
+				document.querySelector('feed > id')?.textContent,
+				'https://atom-simple.mock.local/tags/'
+			);
+			assert.equal(
+				document.querySelector('feed > rights')?.textContent,
+				`Copyright © ${new Date().getFullYear()}`
+			);
+			assert.equal(
+				document.querySelector('feed > updated')?.textContent,
+				'2021-01-02T08:00:00+00:00'
+			);
 		});
 
 		it('has an entry element representing each term in the taxonomy', () => {
 			const entries = document.querySelectorAll('feed > entry');
 			assert.equal(entries.length, 2);
-			const entryData = [...entries].map(item => {
+			const entryData = [...entries].map((item) => {
 				return {
 					id: item.querySelector('id')?.textContent,
 					title: item.querySelector('title')?.textContent,
@@ -532,7 +556,7 @@ describe('website with atom feeds instead of RSS', () => {
 					updated: item.querySelector('updated')?.textContent,
 					content: item.querySelector('content')?.textContent,
 					contentType: item.querySelector('content')?.getAttribute('type'),
-					categories: [...item.querySelectorAll('category')].map(category => {
+					categories: [...item.querySelectorAll('category')].map((category) => {
 						return {
 							scheme: category.getAttribute('scheme'),
 							term: category.getAttribute('term'),
@@ -578,23 +602,19 @@ describe('website with atom feeds instead of RSS', () => {
 		});
 
 		describe('when the taxonomy has no index page', () => {
-
 			before(async () => {
-				document = (await loadBuiltHTML('categories/feed.xml', {xml: true})).document;
+				document = (await loadBuiltHTML('categories/feed.xml', { xml: true })).document;
 			});
 
 			it('has defaulted feed information', () => {
 				assert.equal(document.querySelector('feed > title')?.textContent, 'All Categories');
 			});
-
 		});
-
 	});
 
 	describe('term page Atom', () => {
-
 		before(async () => {
-			document = (await loadBuiltHTML('tags/tag001/feed.xml', {xml: true})).document;
+			document = (await loadBuiltHTML('tags/tag001/feed.xml', { xml: true })).document;
 		});
 
 		it('has a feed element', () => {
@@ -613,11 +633,17 @@ describe('website with atom feeds instead of RSS', () => {
 			assert.equal(title?.textContent, 'Mock Title Term');
 			assert.equal(title?.getAttribute('type'), 'html');
 
-			assert.equal(altLink?.getAttribute('href'), 'https://atom-simple.mock.local/tags/tag001/');
+			assert.equal(
+				altLink?.getAttribute('href'),
+				'https://atom-simple.mock.local/tags/tag001/'
+			);
 			assert.equal(altLink?.getAttribute('rel'), 'alternate');
 			assert.equal(altLink?.getAttribute('type'), 'text/html');
 
-			assert.equal(selfLink?.getAttribute('href'), 'https://atom-simple.mock.local/tags/tag001/feed.xml');
+			assert.equal(
+				selfLink?.getAttribute('href'),
+				'https://atom-simple.mock.local/tags/tag001/feed.xml'
+			);
 			assert.equal(selfLink?.getAttribute('rel'), 'self');
 			assert.equal(selfLink?.getAttribute('type'), 'application/atom+xml');
 
@@ -626,15 +652,24 @@ describe('website with atom feeds instead of RSS', () => {
 
 			assert.equal(author?.querySelector('email')?.textContent, undefined);
 
-			assert.equal(document.querySelector('feed > id')?.textContent, 'https://atom-simple.mock.local/tags/tag001/');
-			assert.equal(document.querySelector('feed > rights')?.textContent, `Copyright © ${new Date().getFullYear()}`);
-			assert.equal(document.querySelector('feed > updated')?.textContent, '2021-01-02T08:00:00+00:00');
+			assert.equal(
+				document.querySelector('feed > id')?.textContent,
+				'https://atom-simple.mock.local/tags/tag001/'
+			);
+			assert.equal(
+				document.querySelector('feed > rights')?.textContent,
+				`Copyright © ${new Date().getFullYear()}`
+			);
+			assert.equal(
+				document.querySelector('feed > updated')?.textContent,
+				'2021-01-02T08:00:00+00:00'
+			);
 		});
 
 		it('has an entry element representing each page with the term', () => {
 			const entries = document.querySelectorAll('feed > entry');
 			assert.equal(entries.length, 2);
-			const entryData = [...entries].map(item => {
+			const entryData = [...entries].map((item) => {
 				return {
 					id: item.querySelector('id')?.textContent,
 					title: item.querySelector('title')?.textContent,
@@ -649,7 +684,7 @@ describe('website with atom feeds instead of RSS', () => {
 					updated: item.querySelector('updated')?.textContent,
 					content: item.querySelector('content')?.textContent,
 					contentType: item.querySelector('content')?.getAttribute('type'),
-					categories: [...item.querySelectorAll('category')].map(category => {
+					categories: [...item.querySelectorAll('category')].map((category) => {
 						return {
 							scheme: category.getAttribute('scheme'),
 							term: category.getAttribute('term'),
@@ -727,17 +762,13 @@ describe('website with atom feeds instead of RSS', () => {
 		});
 
 		describe('when the term has no index page', () => {
-
 			before(async () => {
-				document = (await loadBuiltHTML('tags/tag002/feed.xml', {xml: true})).document;
+				document = (await loadBuiltHTML('tags/tag002/feed.xml', { xml: true })).document;
 			});
 
 			it('has defaulted feed information', () => {
 				assert.equal(document.querySelector('feed > title')?.textContent, '“tag002” Tag');
 			});
-
 		});
-
 	});
-
 });

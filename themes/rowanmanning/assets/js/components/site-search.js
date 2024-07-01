@@ -1,12 +1,10 @@
-
+import { fathomConfig } from '@params';
 import accessibleAutocomplete from 'accessible-autocomplete';
-import {fathomConfig} from '@params';
 import search from '../utils/search';
 
 const maxContentLength = 280;
 
 export default class SiteSearch {
-
 	// Construct a single site search
 	constructor(rootElement) {
 		this.rootElement = rootElement;
@@ -37,7 +35,7 @@ export default class SiteSearch {
 			},
 
 			// When a result is selected, go to that page
-			onConfirm: result => {
+			onConfirm: (result) => {
 				if (window.fathom && fathomConfig.goalIds.search) {
 					window.fathom.trackGoal(fathomConfig.goalIds.search, 0);
 				}
@@ -47,18 +45,17 @@ export default class SiteSearch {
 			},
 
 			templates: {
-
 				// The value that gets added into the input when a result is selected
-				inputValue: result => {
+				inputValue: (result) => {
 					if (result) {
 						return result.page.title;
 					}
 				},
 
 				// How suggestions are displayed
-				suggestion: result => {
+				suggestion: (result) => {
 					if (result) {
-						let {title, description, content} = result.page;
+						let { title, description, content } = result.page;
 						const metadata = Object.values(result.matchData.metadata);
 
 						// The snippet can either be the description or content
@@ -83,7 +80,7 @@ export default class SiteSearch {
 								);
 								snippet = description;
 
-							// Otherwise mark occurrences in the content
+								// Otherwise mark occurrences in the content
 							} else if (match.content) {
 								const [firstIndex, firstLength] = match.content.position[0];
 
@@ -95,10 +92,7 @@ export default class SiteSearch {
 
 								// Trim to the first occurence
 								content = content.substr(
-									Math.max(
-										0,
-										firstIndex - (maxContentLength / 2)
-									),
+									Math.max(0, firstIndex - maxContentLength / 2),
 									firstLength + maxContentLength
 								);
 
@@ -115,13 +109,11 @@ export default class SiteSearch {
 						`;
 					}
 				}
-
 			}
 		});
 
 		const idSelector = `#${this.labelElement.getAttribute('for')}`;
 		this.inputElement = this.rootElement.querySelector(idSelector);
-
 	}
 
 	// Focus the search box
@@ -142,5 +134,4 @@ export default class SiteSearch {
 		];
 		return `${chunks[0]}<mark>${chunks[1]}</mark>${chunks[2]}`;
 	}
-
 }

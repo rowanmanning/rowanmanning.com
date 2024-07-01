@@ -3,23 +3,22 @@
 
 const clip = require('text-clipper').default;
 const createDOMPurify = require('dompurify');
-const fs = require('fs/promises');
-const {JSDOM} = require('jsdom');
+const fs = require('node:fs/promises');
+const { JSDOM } = require('jsdom');
 const mkdir = require('../util/mkdir');
 const saveJSON = require('../util/save-json');
-const {trusted, blocked} = require('../../../data/webmentions/config/trust.json');
+const { trusted, blocked } = require('../../../data/webmentions/config/trust.json');
 
 // The ideal character limit and number of lines for webmentions
 const maxContentCharacterLength = 280;
 const maxContentLines = 6;
 
 // Set up DOMPurify
-const {window} = new JSDOM('');
-const {document} = window;
+const { window } = new JSDOM('');
+const { document } = window;
 const DOMPurify = createDOMPurify(window);
 
 module.exports = async function processWebmentions() {
-
 	// Load all raw webmention files
 	const rawDataPath = `${__dirname}/../../../data/webmentions/raw`;
 	const files = await fs.readdir(rawDataPath);
@@ -33,7 +32,7 @@ module.exports = async function processWebmentions() {
 		const rawWebmentions = await loadJSON(`${rawDataPath}/${file}`);
 		const processedWebmentions = Object.entries(rawWebmentions)
 			.map(processWebmention)
-			.filter(webmention => webmention)
+			.filter((webmention) => webmention)
 			.sort((wm1, wm2) => new Date(wm1.date) - new Date(wm2.date));
 		counter += processedWebmentions.length;
 		saveJSON(`${processedDataPath}/${file}`, processedWebmentions);
@@ -55,7 +54,7 @@ function processWebmention([md5, webmention]) {
 		const isTrustedSource = getMentionTrustStatus(md5, author, webmention);
 
 		// Only parse content for response type webmentions
-		const {content, isTruncated} = (type === 'response' ? getMentionContent(webmention) : {});
+		const { content, isTruncated } = type === 'response' ? getMentionContent(webmention) : {};
 
 		return {
 			md5,
@@ -89,15 +88,13 @@ function getMentionType(webmention) {
 }
 
 function getMentionAuthor(webmention) {
-	if (webmention.author && webmention.author.name) {
-
+	if (webmention.author?.name) {
 		// Get the author's Twitter username if the webmention is a tweet
 		const twitterRegExp = /^https?:\/\/(www\.)?twitter\.com\/([^/]+)\/?/;
-		const twitterUsername = (
-			webmention.author.url && twitterRegExp.test(webmention.author.url) ?
-				webmention.author.url.replace(twitterRegExp, '$2') :
-				null
-		);
+		const twitterUsername =
+			webmention.author.url && twitterRegExp.test(webmention.author.url)
+				? webmention.author.url.replace(twitterRegExp, '$2')
+				: null;
 
 		return {
 			name: webmention.author.name,
@@ -113,22 +110,26 @@ function getMentionTrustStatus(md5, author, webmention) {
 	const potentialTrust = [];
 
 	// Trust webmention hashes
-	potentialTrust.push(trusted.webmentionHashes.some(trustedHash => trustedHash === md5));
+	potentialTrust.push(trusted.webmentionHashes.some((trustedHash) => trustedHash === md5));
 
 	// Trust Twitter users
-	if (author && author.isTwitterUser) {
-		potentialTrust.push(trusted.twitterUsers.some(trustedUserName => {
-			return trustedUserName.toLowerCase() === author.twitterUsername.toLowerCase();
-		}));
+	if (author?.isTwitterUser) {
+		potentialTrust.push(
+			trusted.twitterUsers.some((trustedUserName) => {
+				return trustedUserName.toLowerCase() === author.twitterUsername.toLowerCase();
+			})
+		);
 	}
 
 	// Trust domains
 	try {
 		const url = new URL(webmention.url);
-		potentialTrust.push(trusted.domains.some(trustedDomain => {
-			return trustedDomain.toLowerCase() === url.hostname.toLowerCase();
-		}));
-	} catch (error) {}
+		potentialTrust.push(
+			trusted.domains.some((trustedDomain) => {
+				return trustedDomain.toLowerCase() === url.hostname.toLowerCase();
+			})
+		);
+	} catch (_error) {}
 
 	// If one of the trust statuses is true, we trust this webmention
 	return potentialTrust.includes(true);
@@ -138,22 +139,26 @@ function getMentionBlockStatus(md5, author, webmention) {
 	const potentialBlocks = [];
 
 	// Block webmention hashes
-	potentialBlocks.push(blocked.webmentionHashes.some(blockedHash => blockedHash === md5));
+	potentialBlocks.push(blocked.webmentionHashes.some((blockedHash) => blockedHash === md5));
 
 	// Block Twitter users
-	if (author && author.isTwitterUser) {
-		potentialBlocks.push(blocked.twitterUsers.some(blockedUserName => {
-			return blockedUserName.toLowerCase() === author.twitterUsername.toLowerCase();
-		}));
+	if (author?.isTwitterUser) {
+		potentialBlocks.push(
+			blocked.twitterUsers.some((blockedUserName) => {
+				return blockedUserName.toLowerCase() === author.twitterUsername.toLowerCase();
+			})
+		);
 	}
 
 	// Block domains
 	try {
 		const url = new URL(webmention.url);
-		potentialBlocks.push(blocked.domains.some(blockedDomain => {
-			return blockedDomain.toLowerCase() === url.hostname.toLowerCase();
-		}));
-	} catch (error) {}
+		potentialBlocks.push(
+			blocked.domains.some((blockedDomain) => {
+				return blockedDomain.toLowerCase() === url.hostname.toLowerCase();
+			})
+		);
+	} catch (_error) {}
 
 	// If one of the blocks is true, we block
 	return potentialBlocks.includes(true);
@@ -165,16 +170,10 @@ function getMentionContent(webmention) {
 		isTruncated: false
 	};
 
-	const summary = (
-		webmention.summary ?
-			webmention.summary.value :
-			null
-	);
-	const content = (
-		webmention.content ?
-			webmention.content.html || webmention.content.text || null :
-			summary
-	);
+	const summary = webmention.summary ? webmention.summary.value : null;
+	const content = webmention.content
+		? webmention.content.html || webmention.content.text || null
+		: summary;
 
 	if (content) {
 		const cleanDOM = getCleanDOM(content);
@@ -191,7 +190,7 @@ function getMentionContent(webmention) {
 			}
 			const link = document.createElement('a');
 			link.setAttribute('href', image.getAttribute('src'));
-			const imageAlt = (image.getAttribute('alt') ? ` "${image.getAttribute('alt')}"` : '');
+			const imageAlt = image.getAttribute('alt') ? ` "${image.getAttribute('alt')}"` : '';
 			link.textContent = `[image${imageAlt}]`;
 			image.parentElement.replaceChild(link, image);
 		}
@@ -212,7 +211,7 @@ function getMentionContent(webmention) {
 		}
 
 		// Find the actual target link
-		const targetLink = [...cleanDOM.querySelectorAll('a')].find(link => {
+		const targetLink = [...cleanDOM.querySelectorAll('a')].find((link) => {
 			// Ignore protocol, as http redirects to https
 			const protocol = /^https?:\/\//;
 			const href = link.getAttribute('href').replace(protocol, 'https://');
@@ -226,7 +225,6 @@ function getMentionContent(webmention) {
 
 		// If the content is too long, we try a few things
 		if (cleanDOM.textContent.length > maxContentCharacterLength) {
-
 			// If we have a target link in the content, then we only want the link and its siblings
 			if (targetLink) {
 				const targetLinkParent = targetLink.parentElement;
@@ -255,11 +253,11 @@ function getMentionContent(webmention) {
 		}
 
 		result.content = cleanHTML;
-		result.isTruncated = (cleanHTML !== fullHTML);
+		result.isTruncated = cleanHTML !== fullHTML;
 	}
 
 	// If there are photos, append to the content
-	if (webmention.photo && webmention.photo.length) {
+	if (webmention.photo?.length) {
 		result.content = `
 				${result.content ? result.content : ''}
 				<a href="${webmention.url.replace(/"/g, '&quot;')}" nofollow>[image]</a>
@@ -267,7 +265,7 @@ function getMentionContent(webmention) {
 	}
 
 	// If there are videos, append to the content
-	if (webmention.video && webmention.video.length) {
+	if (webmention.video?.length) {
 		result.content = `
 				${result.content ? result.content : ''}
 				<a href="${webmention.url.replace(/"/g, '&quot;')}" nofollow>[video]</a>
@@ -283,7 +281,6 @@ function getCleanDOM(html) {
 
 	// Sanitize the created DOM
 	const cleanDOM = DOMPurify.sanitize(wrapper, {
-
 		// Sanitize the DOM in-place so that we can make changes afterwards
 		IN_PLACE: true,
 
@@ -319,12 +316,7 @@ function getCleanDOM(html) {
 		],
 
 		// Allow only a few required attributes
-		ALLOWED_ATTR: [
-			'alt',
-			'href',
-			'src'
-		]
-
+		ALLOWED_ATTR: ['alt', 'href', 'src']
 	});
 
 	return cleanDOM;

@@ -1,6 +1,6 @@
 'use strict';
 
-const {mf2} = require('microformats-parser');
+const { mf2 } = require('microformats-parser');
 
 describe('authored website', () => {
 	let document;
@@ -12,62 +12,54 @@ describe('authored website', () => {
 	});
 
 	describe('home page', () => {
-
 		before(async () => {
 			document = (await loadBuiltHTML('index.html')).document;
 		});
 
 		describe('head', () => {
-
 			it('does not have an author link element', () => {
 				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
 				assert.equal(subject, undefined);
 			});
-
 		});
-
 	});
 
 	describe('section page', () => {
-
 		before(async () => {
 			document = (await loadBuiltHTML('section001s/index.html')).document;
 		});
 
 		describe('head', () => {
-
 			it('has an author link element with the site author URL', () => {
 				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
 				assert.equal(subject, 'https://site.author.local/');
 			});
-
 		});
 
 		describe('body', () => {
-
 			it('contains structured author data for each piece of content in the section', () => {
-				const subject = findTestElements(document, 'content-summary').map(summary => {
+				const subject = findTestElements(document, 'content-summary').map((summary) => {
 					return parseStructuredData(summary).author;
 				});
 
 				assert.deepEqual(subject, [
 					{
 						'@type': 'Person',
-						'image': 'https://site.author.local/photo.png',
-						'name': 'Mock Site Author',
-						'url': 'https://site.author.local/'
+						image: 'https://site.author.local/photo.png',
+						name: 'Mock Site Author',
+						url: 'https://site.author.local/'
 					},
 					{
 						'@type': 'Person',
-						'image': 'https://page.author.local/photo.png',
-						'name': 'Mock Page Author',
-						'url': 'https://page.author.local/'
+						image: 'https://page.author.local/photo.png',
+						name: 'Mock Page Author',
+						url: 'https://page.author.local/'
 					},
 					{
 						'@type': 'Person',
-						'image': null,
-						'name': 'Mock Incomplete Author',
-						'url': null
+						image: null,
+						name: 'Mock Incomplete Author',
+						url: null
 					}
 				]);
 			});
@@ -77,68 +69,44 @@ describe('authored website', () => {
 					baseUrl: 'https://authored.mock.local/'
 				});
 				const feed = microformats.items[0].children;
-				const authors = feed.map(item => item.properties.author[0]);
+				const authors = feed.map((item) => item.properties.author[0]);
 				assert.deepEqual(authors, [
 					{
-						type: [
-							'h-card'
-						],
+						type: ['h-card'],
 						properties: {
-							url: [
-								'https://site.author.local/'
-							],
-							photo: [
-								'https://site.author.local/photo.png'
-							],
-							name: [
-								'Mock Site Author'
-							]
+							url: ['https://site.author.local/'],
+							photo: ['https://site.author.local/photo.png'],
+							name: ['Mock Site Author']
 						},
 						value: 'Mock Site Author'
 					},
 					{
-						type: [
-							'h-card'
-						],
+						type: ['h-card'],
 						properties: {
-							url: [
-								'https://page.author.local/'
-							],
-							photo: [
-								'https://page.author.local/photo.png'
-							],
-							name: [
-								'Mock Page Author'
-							]
+							url: ['https://page.author.local/'],
+							photo: ['https://page.author.local/photo.png'],
+							name: ['Mock Page Author']
 						},
 						value: 'Mock Page Author'
 					},
 					{
-						type: [
-							'h-card'
-						],
+						type: ['h-card'],
 						properties: {
-							name: [
-								'Mock Incomplete Author'
-							]
+							name: ['Mock Incomplete Author']
 						},
 						value: 'Mock Incomplete Author'
 					}
 				]);
 			});
-
 		});
-
 	});
 
 	describe('single page', () => {
-
 		before(async () => {
 			document = (await loadBuiltHTML('page001/index.html')).document;
 		});
 
 		describe('head', () => {
-
 			it('has an author link element with the site author URL', () => {
 				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
 				assert.equal(subject, 'https://site.author.local/');
@@ -148,28 +116,28 @@ describe('authored website', () => {
 				const twitter = parseTwitterMeta(document);
 				assert.equal(twitter.site, '@mocksiteauthor_twitter');
 			});
-
 		});
 
 		describe('body', () => {
-
 			it('does not contain a link to the author', () => {
-				const subject = findTestElements(document.body, 'content-author-url')[0]?.getAttribute('href');
+				const subject = findTestElements(
+					document.body,
+					'content-author-url'
+				)[0]?.getAttribute('href');
 				assert.equal(subject, undefined);
 			});
-
 		});
 
 		describe('when the page has an author', () => {
-
 			before(async () => {
 				document = (await loadBuiltHTML('page002/index.html')).document;
 			});
 
 			describe('head', () => {
-
 				it('has an author link element with the page author URL', () => {
-					const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
+					const subject = document
+						.querySelector('link[rel=author]')
+						?.getAttribute('href');
 					assert.equal(subject, 'https://page.author.local/');
 				});
 
@@ -177,30 +145,29 @@ describe('authored website', () => {
 					const twitter = parseTwitterMeta(document);
 					assert.equal(twitter.site, '@mockpageauthor_twitter');
 				});
-
 			});
 
 			describe('body', () => {
-
 				it('does not contain a link to the author', () => {
-					const subject = findTestElements(document.body, 'content-author-url')[0]?.getAttribute('href');
+					const subject = findTestElements(
+						document.body,
+						'content-author-url'
+					)[0]?.getAttribute('href');
 					assert.equal(subject, undefined);
 				});
-
 			});
-
 		});
 
 		describe('when the page has an author without Twitter or URL properties', () => {
-
 			before(async () => {
 				document = (await loadBuiltHTML('page003/index.html')).document;
 			});
 
 			describe('head', () => {
-
 				it('does not have an author link element', () => {
-					const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
+					const subject = document
+						.querySelector('link[rel=author]')
+						?.getAttribute('href');
 					assert.equal(subject, undefined);
 				});
 
@@ -208,30 +175,26 @@ describe('authored website', () => {
 					const twitter = parseTwitterMeta(document);
 					assert.equal(twitter.site, undefined);
 				});
-
 			});
 
 			describe('body', () => {
-
 				it('does not contain a link to the author', () => {
-					const subject = findTestElements(document.body, 'content-author-url')[0]?.getAttribute('href');
+					const subject = findTestElements(
+						document.body,
+						'content-author-url'
+					)[0]?.getAttribute('href');
 					assert.equal(subject, undefined);
 				});
-
 			});
-
 		});
-
 	});
 
 	describe('single page in section', () => {
-
 		before(async () => {
 			document = (await loadBuiltHTML('section001s/item001/index.html')).document;
 		});
 
 		describe('head', () => {
-
 			it('has an author link element with the site author URL', () => {
 				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
 				assert.equal(subject, 'https://site.author.local/');
@@ -246,13 +209,14 @@ describe('authored website', () => {
 				const twitter = parseTwitterMeta(document);
 				assert.equal(twitter.site, '@mocksiteauthor_twitter');
 			});
-
 		});
 
 		describe('body', () => {
-
 			it('contains a link to the site author URL', () => {
-				const subject = findTestElements(document.body, 'content-author-url')[0]?.getAttribute('href');
+				const subject = findTestElements(
+					document.body,
+					'content-author-url'
+				)[0]?.getAttribute('href');
 				assert.equal(subject, 'https://site.author.local/');
 			});
 
@@ -263,36 +227,27 @@ describe('authored website', () => {
 				const entry = microformats.items[0];
 				const author = entry.properties.author[0];
 				assert.deepEqual(author, {
-					type: [
-						'h-card'
-					],
+					type: ['h-card'],
 					properties: {
-						url: [
-							'https://site.author.local/'
-						],
-						photo: [
-							'https://site.author.local/photo.png'
-						],
-						name: [
-							'Mock Site Author'
-						]
+						url: ['https://site.author.local/'],
+						photo: ['https://site.author.local/photo.png'],
+						name: ['Mock Site Author']
 					},
 					value: 'Mock Site Author'
 				});
 			});
-
 		});
 
 		describe('when the page has an author', () => {
-
 			before(async () => {
 				document = (await loadBuiltHTML('section001s/item002/index.html')).document;
 			});
 
 			describe('head', () => {
-
 				it('has an author link element with the page author URL', () => {
-					const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
+					const subject = document
+						.querySelector('link[rel=author]')
+						?.getAttribute('href');
 					assert.equal(subject, 'https://page.author.local/');
 				});
 
@@ -305,13 +260,14 @@ describe('authored website', () => {
 					const twitter = parseTwitterMeta(document);
 					assert.equal(twitter.site, '@mockpageauthor_twitter');
 				});
-
 			});
 
 			describe('body', () => {
-
 				it('contains a link to the page author URL', () => {
-					const subject = findTestElements(document.body, 'content-author-url')[0]?.getAttribute('href');
+					const subject = findTestElements(
+						document.body,
+						'content-author-url'
+					)[0]?.getAttribute('href');
 					assert.equal(subject, 'https://page.author.local/');
 				});
 
@@ -322,38 +278,28 @@ describe('authored website', () => {
 					const entry = microformats.items[0];
 					const author = entry.properties.author[0];
 					assert.deepEqual(author, {
-						type: [
-							'h-card'
-						],
+						type: ['h-card'],
 						properties: {
-							url: [
-								'https://page.author.local/'
-							],
-							photo: [
-								'https://page.author.local/photo.png'
-							],
-							name: [
-								'Mock Page Author'
-							]
+							url: ['https://page.author.local/'],
+							photo: ['https://page.author.local/photo.png'],
+							name: ['Mock Page Author']
 						},
 						value: 'Mock Page Author'
 					});
 				});
-
 			});
-
 		});
 
 		describe('when the page has an author without Twitter or URL properties', () => {
-
 			before(async () => {
 				document = (await loadBuiltHTML('section001s/item003/index.html')).document;
 			});
 
 			describe('head', () => {
-
 				it('does not have an author link element', () => {
-					const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
+					const subject = document
+						.querySelector('link[rel=author]')
+						?.getAttribute('href');
 					assert.equal(subject, undefined);
 				});
 
@@ -366,88 +312,79 @@ describe('authored website', () => {
 					const twitter = parseTwitterMeta(document);
 					assert.equal(twitter.site, undefined);
 				});
-
 			});
 
 			describe('body', () => {
-
 				it('does not contain a link to the author', () => {
-					const subject = findTestElements(document.body, 'content-author-url')[0]?.getAttribute('href');
+					const subject = findTestElements(
+						document.body,
+						'content-author-url'
+					)[0]?.getAttribute('href');
 					assert.equal(subject, undefined);
 				});
-
 			});
-
 		});
-
 	});
 
 	describe('taxonomy page', () => {
-
 		before(async () => {
 			document = (await loadBuiltHTML('tags/index.html')).document;
 		});
 
 		describe('head', () => {
-
 			it('has an author link element with the site author URL', () => {
 				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
 				assert.equal(subject, 'https://site.author.local/');
 			});
-
 		});
-
 	});
 
 	describe('term page', () => {
-
 		before(async () => {
 			document = (await loadBuiltHTML('tags/tag001/index.html')).document;
 		});
 
 		describe('head', () => {
-
 			it('has an author link element with the site author URL', () => {
 				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
 				assert.equal(subject, 'https://site.author.local/');
 			});
-
 		});
-
 	});
 
 	describe('404 page', () => {
-
 		before(async () => {
 			document = (await loadBuiltHTML('404.html')).document;
 		});
 
 		describe('head', () => {
-
 			it('does not have an author link element', () => {
 				const subject = document.querySelector('link[rel=author]')?.getAttribute('href');
 				assert.equal(subject, undefined);
 			});
-
 		});
-
 	});
 
 	describe('home page RSS', () => {
-
 		before(async () => {
-			document = (await loadBuiltHTML('index.xml', {xml: true})).document;
+			document = (await loadBuiltHTML('index.xml', { xml: true })).document;
 		});
 
 		it('has author information in the channel', () => {
-			assert.equal(document.querySelector('channel > managingEditor')?.textContent, 'mock@site.author.local (Mock Site Author)');
-			assert.equal(document.querySelector('channel > webMaster')?.textContent, 'mock@site.author.local (Mock Site Author)');
+			assert.equal(
+				document.querySelector('channel > managingEditor')?.textContent,
+				'mock@site.author.local (Mock Site Author)'
+			);
+			assert.equal(
+				document.querySelector('channel > webMaster')?.textContent,
+				'mock@site.author.local (Mock Site Author)'
+			);
 		});
 
 		it('has author information in each item', () => {
 			const items = document.querySelectorAll('channel > item');
 			assert.equal(items.length, 6);
-			const itemData = [...items].map(item => {
+			const itemData = [...items].map((item) => {
 				return {
 					title: item.querySelector('title')?.textContent,
 					author: item.querySelector('author')?.textContent
@@ -480,11 +417,9 @@ describe('authored website', () => {
 				}
 			]);
 		});
-
 	});
 
 	describe('page furniture', () => {
-
 		before(async () => {
 			document = (await loadBuiltHTML('index.html')).document;
 		});
@@ -507,7 +442,9 @@ describe('authored website', () => {
 			});
 
 			it('contains a link to the site author Mastodon', () => {
-				const subject = findTestElements(header, 'header-mastodon')[0]?.getAttribute('href');
+				const subject = findTestElements(header, 'header-mastodon')[0]?.getAttribute(
+					'href'
+				);
 				assert.equal(subject, 'mocksiteauthor_mastodon');
 			});
 
@@ -527,44 +464,53 @@ describe('authored website', () => {
 			});
 
 			describe('when the page has an author', () => {
-
 				before(async () => {
 					document = (await loadBuiltHTML('section001s/item002/index.html')).document;
 					header = findTestElements(document.body, 'header')[0];
 				});
 
 				it('contains a link to the site author GitHub', () => {
-					const subject = findTestElements(header, 'header-github')[0]?.getAttribute('href');
+					const subject = findTestElements(header, 'header-github')[0]?.getAttribute(
+						'href'
+					);
 					assert.equal(subject, 'https://github.com/mocksiteauthor_github');
 				});
 
 				it('does not contain a rel="me" link to the site author GitHub', () => {
-					const subject = findTestElements(header, 'header-github')[0]?.getAttribute('rel');
+					const subject = findTestElements(header, 'header-github')[0]?.getAttribute(
+						'rel'
+					);
 					assert.equal(subject, null);
 				});
 
 				it('contains a link to the site author Mastodon', () => {
-					const subject = findTestElements(header, 'header-mastodon')[0]?.getAttribute('href');
+					const subject = findTestElements(header, 'header-mastodon')[0]?.getAttribute(
+						'href'
+					);
 					assert.equal(subject, 'mocksiteauthor_mastodon');
 				});
 
 				it('does not contain a rel="me" link to the site author Mastodon', () => {
-					const subject = findTestElements(header, 'header-mastodon')[0]?.getAttribute('rel');
+					const subject = findTestElements(header, 'header-mastodon')[0]?.getAttribute(
+						'rel'
+					);
 					assert.equal(subject, null);
 				});
 
 				it('contains a link to the site author Twitter', () => {
-					const subject = findTestElements(header, 'header-twitter')[0]?.getAttribute('href');
+					const subject = findTestElements(header, 'header-twitter')[0]?.getAttribute(
+						'href'
+					);
 					assert.equal(subject, 'https://twitter.com/mocksiteauthor_twitter');
 				});
 
 				it('does not contain a rel="me" link to the site author Twitter', () => {
-					const subject = findTestElements(header, 'header-twitter')[0]?.getAttribute('rel');
+					const subject = findTestElements(header, 'header-twitter')[0]?.getAttribute(
+						'rel'
+					);
 					assert.equal(subject, null);
 				});
-
 			});
-
 		});
 
 		describe('footer', () => {
@@ -578,9 +524,6 @@ describe('authored website', () => {
 				const subject = findTestElements(footer, 'footer-copyright')[0]?.textContent.trim();
 				assert.equal(subject, `Copyright © ${new Date().getFullYear()}, Mock Site Author`);
 			});
-
 		});
-
 	});
-
 });

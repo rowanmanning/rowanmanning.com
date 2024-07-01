@@ -1,20 +1,16 @@
 #!/usr/bin/env node
 'use strict';
 
-const {program} = require('commander');
+const { program } = require('commander');
 const createNote = require('./lib/action/create-note');
 
 // Program options
 program
 	.name('site note:create')
 	.argument('[url]', 'the URL that the note references')
-	.option(
-		'-t, --type <type>',
-		'the type of note to create',
-		'note'
-	)
+	.option('-t, --type <type>', 'the type of note to create', 'note')
 	.description('create a new note')
-	.action(async (url, {type}) => {
+	.action(async (url, { type }) => {
 		try {
 			await createNote(type, url);
 		} catch (error) {

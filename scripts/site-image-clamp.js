@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 
-const {program} = require('commander');
+const { program } = require('commander');
 const clampImages = require('./lib/action/clamp-images');
 
 // Program options

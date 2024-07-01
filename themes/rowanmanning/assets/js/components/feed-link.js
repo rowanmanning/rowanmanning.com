@@ -1,8 +1,6 @@
-
-import {fathomConfig} from '@params';
+import { fathomConfig } from '@params';
 
 export default class FeedLink {
-
 	// Construct a single feed link
 	constructor(rootElement) {
 		this.rootElement = rootElement;
@@ -21,5 +19,4 @@ export default class FeedLink {
 	static init(...args) {
 		return new this(...args);
 	}
-
 }
