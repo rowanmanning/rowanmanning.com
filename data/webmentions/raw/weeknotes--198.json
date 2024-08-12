@@ -1,0 +1,25 @@
+{
+	"89bbe3b1da5d1c0235c1b74196e1ef5e": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "notlee",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/9d94f0a40ce97a930d97103765ce5362fea79c5e5ae0049406aa94bed5559823.png",
+			"url": "https://hachyderm.io/@notlee"
+		},
+		"url": "https://hachyderm.io/@notlee/112943893968098316",
+		"published": "2024-08-11T14:37:33+00:00",
+		"wm-received": "2024-08-12T04:07:04Z",
+		"wm-id": 1842831,
+		"wm-source": "https://brid.gy/comment/mastodon/@rowan@hachyderm.io/112943265491833506/112943893968098316",
+		"wm-target": "https://rowanmanning.com/weeknotes/198/",
+		"wm-protocol": "webmention",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> ???? Tom Barnaby, I believe in you</p>",
+			"text": "@rowan ???? Tom Barnaby, I believe in you"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/198/",
+		"wm-property": "in-reply-to",
+		"wm-private": false
+	}
+}
