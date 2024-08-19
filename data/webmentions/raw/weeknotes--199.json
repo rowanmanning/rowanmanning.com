@@ -1,0 +1,21 @@
+{
+	"8a4946ee19439a5458262127bc03a507": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "IBBoard",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/aef390c1919c53526dc95fb834bd21be8459272ddbf30666ec6ffe2e0363a373.jpg",
+			"url": "https://hachyderm.io/@ibboard"
+		},
+		"url": "https://hachyderm.io/@rowan/112987712736159072#favorited-by-109338453594408520",
+		"published": null,
+		"wm-received": "2024-08-19T15:20:09Z",
+		"wm-id": 1843756,
+		"wm-source": "https://brid.gy/like/mastodon/@rowan@hachyderm.io/112987712736159072/109338453594408520",
+		"wm-target": "https://rowanmanning.com/weeknotes/199/",
+		"wm-protocol": "webmention",
+		"like-of": "https://rowanmanning.com/weeknotes/199/",
+		"wm-property": "like-of",
+		"wm-private": false
+	}
+}
