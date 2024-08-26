@@ -40,7 +40,7 @@
 		{{- end }}
 
 		{{- /* Render previous and next page links */ -}}
-		{{ if or .PrevInSection .NextInSection }}
+		{{ if and (or .PrevInSection .NextInSection) (not .Parent.IsHome) }}
 
 			{{ with .PrevInSection }}
 				<a href="{{ .RelPermalink }}" rel="prev" class="in-page-nav__button" data-component="page-turner" role="button" aria-label="View the previous page ({{ .Title }})">
