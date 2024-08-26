@@ -1,0 +1,20 @@
+
+{{- /* Get the section name param */ -}}
+{{- $sectionName := cond .IsNamedParams (.Get "section") (.Get 0) -}}
+
+{{- /* Error if we don't have correct params */ -}}
+{{- if not $sectionName -}}
+	{{- errorf "Section name parameter is required for section-years shortcode: %s" .Position -}}
+{{- end -}}
+
+{{- $pages := (where $.Site.RegularPages.ByDate "Section" $sectionName ) -}}
+
+<span class="year-range">
+	{{- range first 1 $pages -}}
+		{{- dateFormat "2006" .Date -}}
+	{{- end -}}
+	–
+	{{- range last 1 $pages -}}
+		{{- dateFormat "2006" .Date -}}
+	{{- end -}}
+</span>

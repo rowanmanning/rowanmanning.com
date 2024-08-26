@@ -1,0 +1,17 @@
+
+{{- /* Get the section name param */ -}}
+{{- $sectionName := cond .IsNamedParams (.Get "section") (.Get 0) -}}
+
+{{- /* Error if we don't have correct params */ -}}
+{{- if not $sectionName -}}
+	{{- errorf "Section name parameter is required for section-wordcount shortcode: %s" .Position -}}
+{{- end -}}
+
+{{- $pages := (where $.Site.RegularPages "Section" $sectionName ) -}}
+
+{{- $counter := 0 -}}
+{{- range $pages -}}
+	{{- $counter = add $counter .WordCount -}}
+{{- end -}}
+
+<span class="wordcount">{{ $counter | lang.FormatNumber 0 }}</span>
