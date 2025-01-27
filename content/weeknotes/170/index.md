@@ -4,7 +4,7 @@
 title: "Week 170: Choux"
 date: 2024-01-28T23:10:00Z
 description: "A week of phone calls, many family visits, a leaking light fitting, incredible choux buns, leaving drinks, pretend Guinness, 36th birthdays, and website admin."
-tags: ["Family", "House", "Food", "Side Projects", "Games", "Birthday"]
+tags: ["Birthday", "Family", "House", "Food", "Side Projects", "Games"]
 
 # Weeknote display
 # ----------------
