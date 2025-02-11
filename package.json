@@ -38,7 +38,6 @@
     "verify": "npm run verify:biome",
     "verify:biome": "biome check",
     "build": "npm run wm:process && hugo --minify --cleanDestinationDir --environment production",
-    "build-staging": "npm run wm:process && hugo --minify --cleanDestinationDir --environment staging",
     "wm:fetch": "./scripts/site.js wm:fetch --api-key ${WEBMENTION_API_KEY}",
     "wm:process": "./scripts/site.js wm:process",
     "test": "npm run test:theme",
