@@ -1,0 +1,11 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  ci:
+    uses: rowanmanning/actions/.github/workflows/hugo-website.yml@v1
+    with:
+      hugo-version: v0.101.0
