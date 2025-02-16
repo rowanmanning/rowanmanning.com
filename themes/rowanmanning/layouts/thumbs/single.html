@@ -1,0 +1,29 @@
+{{- $year := .Params.year -}}
+<html>
+	<head>
+		<style>
+			body { margin: 0; padding: 0; }
+			ol { display: block; list-style: none; margin: 0; padding: 0; width: 1750px; display: flex; flex-wrap: wrap; }
+			li { display: block; margin: 0; padding: 0; }
+			img { display: block; width: 250px; }
+		</style>
+	</head>
+	<body>
+		<ol>
+			{{- range (where .Site.Pages "Section" "weeknotes") -}}
+				{{- if (eq (.PublishDate.Format "2006") $year) -}}
+					{{- range (where .Resources "ResourceType" "image") -}}
+						{{- $image := (.Fill "720x720").Permalink -}}
+						<li><img src="{{ $image }}" /></li>
+					{{- end -}}
+				{{- end -}}
+				{{- if (or (eq .Title "Week 219: January Dread") (eq .Title "Week 220: Uncovered Coughing")) -}}
+					{{- range (where .Resources "ResourceType" "image") -}}
+						{{- $image := (.Fill "720x720").Permalink -}}
+						<li><img src="{{ $image }}" /></li>
+					{{- end -}}
+				{{- end -}}
+			{{- end -}}
+		</ol>
+	</body>
+</html>
