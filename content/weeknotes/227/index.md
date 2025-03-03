@@ -19,6 +19,6 @@ highlight: "purple"
 
   * Smashing it at work at the moment lxds, having a good time with several different projects at once and being very productive
 
-  * Also being more active with Unite, seing increased membership and we have an outside-of-work communication channel now 👍 I think we have it on semi-easy-mode because Unite is already recognised and the business has a productive relationship with the {{< abbr title="National Union of Journalists" >}}NUJ{{< /abbr >}} already. Maybe I'll become a rep?
+  * Also being more active with Unite, seeing increased membership and we have an outside-of-work communication channel now 👍 I think we have it on semi-easy-mode because Unite is already recognised and the business has a productive relationship with the {{< abbr title="National Union of Journalists" >}}NUJ{{< /abbr >}} already. Maybe I'll become a rep?
 
   * We got tickets for Pitbull, Mr. Worldwide himself, at the O2 😎 buying a bald cap
