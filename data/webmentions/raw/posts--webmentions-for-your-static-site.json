@@ -874,5 +874,51 @@
 		"rels": {
 			"canonical": "https://starbreaker.org/blog/tech/has-indieweb-become-irrelevant/index.html"
 		}
+	},
+	"deecf7c2d514e19efd6a3e71f869a0f3": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "TerraGloba :goose_hacker:",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/1df4f966ba509167ff0293c2cc8c6fe86a307eac4e0ef1c69c516bdce007dbe8.png",
+			"url": "https://mastodon-belgium.be/@TerraGloba"
+		},
+		"url": "https://mastodon-belgium.be/@TerraGloba/113585453358856939",
+		"published": "2024-12-02T21:54:33+00:00",
+		"wm-received": "2025-04-05T22:01:03Z",
+		"wm-id": 1901722,
+		"wm-source": "https://brid.gy/post/mastodon/@rowan@hachyderm.io/113585453426536797",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-protocol": "webmention",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> I read your blog post on adding <a href=\"https://mastodon-belgium.be/tags/WebMentions\">#<span>WebMentions</span></a> on a static <a href=\"https://mastodon-belgium.be/tags/hugo\">#<span>hugo</span></a> website. I would love to do the same for my site. Any pointers? Things you changed or updated since that blog post?<br /><a href=\"https://rowanmanning.com/posts/webmentions-for-your-static-site/\"><span>https://</span><span>rowanmanning.com/posts/webment</span><span>ions-for-your-static-site/</span></a></p>\n<a class=\"p-category\" href=\"https://hachyderm.io/tags/hugo\">hugo</a>\n<a class=\"p-category\" href=\"https://hachyderm.io/tags/webmentions\">webmentions</a>\n<a class=\"u-mention\" href=\"https://mastodon-belgium.be/tags/WebMentions\"></a>\n<a class=\"u-mention\" href=\"https://mastodon-belgium.be/tags/hugo\"></a>\n<a href=\"https://rowanmanning.com/posts/webmentions-for-your-static-site/\">Webmentions for your Static Site</a>",
+			"text": "@rowan I read your blog post on adding #WebMentions on a static #hugo website. I would love to do the same for my site. Any pointers? Things you changed or updated since that blog post?\nhttps://rowanmanning.com/posts/webmentions-for-your-static-site/\nhugo\nwebmentions\n\n\nWebmentions for your Static Site"
+		},
+		"mention-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"6915bb6987ebb5cabc150f1314f473dd": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "Ruben Borg Nielsen",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/cb305b114debaa72c0f10fe9993f4d99f2919005cc0dc831f952e0dff0a126be.jpg",
+			"url": "https://hachyderm.io/@eldamir"
+		},
+		"url": "https://hachyderm.io/@eldamir/111690770340720767",
+		"published": "2024-01-03T07:11:44+00:00",
+		"wm-received": "2025-04-05T22:01:08Z",
+		"wm-id": 1901723,
+		"wm-source": "https://brid.gy/post/mastodon/@rowan@hachyderm.io/111690770340720767",
+		"wm-target": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-protocol": "webmention",
+		"content": {
+			"html": "<p>I've heard the term \"webmentions\", but not really cared about it before.<br />Then I read this post from <span class=\"h-card\"><a href=\"https://mastodon.social/@matthiasott\" class=\"u-url\">@<span>matthiasott</span></a></span> (<a href=\"https://matthiasott.com/notes/best-comment-section-on-the-internet\"><span>https://</span><span>matthiasott.com/notes/best-com</span><span>ment-section-on-the-internet</span></a>) followed by reading this post from <span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> (<a href=\"https://rowanmanning.com/posts/webmentions-for-your-static-site/\"><span>https://</span><span>rowanmanning.com/posts/webment</span><span>ions-for-your-static-site/</span></a>).</p><p>Now I'm hooked... I gotta get that set up for my website. I currently use Giscuss, which is fine, but it is also limited to users wanting to sign in with Github to comment. Adding <a href=\"https://hachyderm.io/tags/webmentions\">#<span>webmentions</span></a> would be something else ????</p>\n<a class=\"p-category\" href=\"https://hachyderm.io/tags/webmentions\">webmentions</a>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/webmentions-for-your-static-site/\"></a>\n<a href=\"https://matthiasott.com/notes/best-comment-section-on-the-internet\">The Best Comment Section on the Internet · Matthias Ott – User Experience Designer</a>",
+			"text": "I've heard the term \"webmentions\", but not really cared about it before.\nThen I read this post from @matthiasott (https://matthiasott.com/notes/best-comment-section-on-the-internet) followed by reading this post from @rowan (https://rowanmanning.com/posts/webmentions-for-your-static-site/).\n\nNow I'm hooked... I gotta get that set up for my website. I currently use Giscuss, which is fine, but it is also limited to users wanting to sign in with Github to comment. Adding #webmentions would be something else ????\nwebmentions\n\nThe Best Comment Section on the Internet · Matthias Ott – User Experience Designer"
+		},
+		"mention-of": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
+		"wm-property": "mention-of",
+		"wm-private": false
 	}
 }

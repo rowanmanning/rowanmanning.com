@@ -1897,5 +1897,51 @@
 		"in-reply-to": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
 		"wm-property": "in-reply-to",
 		"wm-private": false
+	},
+	"be82e3f3ba143e9242e97c79abb835a7": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "mudge",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/90ca162c8117217b2b8f3df3b57bcb95e4ded1a25a71aa4b476b27eaa41fe21f.jpg",
+			"url": "https://ruby.social/@mudge"
+		},
+		"url": "https://ruby.social/@mudge/111529729254781240",
+		"published": "2023-12-05T20:36:52+00:00",
+		"wm-received": "2025-04-05T22:01:11Z",
+		"wm-id": 1901724,
+		"wm-source": "https://brid.gy/post/mastodon/@rowan@hachyderm.io/111529729285615626",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-protocol": "webmention",
+		"content": {
+			"html": "<p>I've just released re2 2.5.0 which features a new matching interface with `full_match?` and `partial_match?` to more closely match the underlying RE2 library's API and completely overhauled documentation to better explain the gem and highlight the most important parts of its API: see <a href=\"https://github.com/mudge/re2/tree/v2.5.0#readme\"><span>https://</span><span>github.com/mudge/re2/tree/v2.5</span><span>.0#readme</span></a></p><p>Thanks to all who helped give feedback on the new README especially <span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> for his advice in <a href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"><span>https://</span><span>rowanmanning.com/posts/writing</span><span>-a-friendly-readme/</span></a></p><p>See <a href=\"https://github.com/mudge/re2/releases/tag/v2.5.0\"><span>https://</span><span>github.com/mudge/re2/releases/</span><span>tag/v2.5.0</span></a> for the release notes.</p>\n<a class=\"u-mention\" href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"></a>\n<a href=\"https://github.com/mudge/re2/tree/v2.5.0\">GitHub - mudge/re2 at v2.5.0</a>",
+			"text": "I've just released re2 2.5.0 which features a new matching interface with `full_match?` and `partial_match?` to more closely match the underlying RE2 library's API and completely overhauled documentation to better explain the gem and highlight the most important parts of its API: see https://github.com/mudge/re2/tree/v2.5.0#readme\n\nThanks to all who helped give feedback on the new README especially @rowan for his advice in https://rowanmanning.com/posts/writing-a-friendly-readme/\n\nSee https://github.com/mudge/re2/releases/tag/v2.5.0 for the release notes.\n\nGitHub - mudge/re2 at v2.5.0"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
+	},
+	"3d565ec203661156b6f3e79f55ee989b": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "mudge",
+			"photo": "https://webmention.io/avatar/media.hachyderm.io/90ca162c8117217b2b8f3df3b57bcb95e4ded1a25a71aa4b476b27eaa41fe21f.jpg",
+			"url": "https://ruby.social/@mudge"
+		},
+		"url": "https://ruby.social/@mudge/111506154262618777",
+		"published": "2023-12-01T16:41:27+00:00",
+		"wm-received": "2025-04-05T22:01:12Z",
+		"wm-id": 1901725,
+		"wm-source": "https://brid.gy/post/mastodon/@rowan@hachyderm.io/111506154286826399",
+		"wm-target": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-protocol": "webmention",
+		"content": {
+			"html": "<p><span class=\"h-card\"><a href=\"https://hachyderm.io/@rowan\" class=\"u-url\">@<span>rowan</span></a></span> is there anything you’d change about <a href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\"><span>https://</span><span>rowanmanning.com/posts/writing</span><span>-a-friendly-readme/</span></a> 7 years on? I’m revamping a project’s documentation and I continue to use your post as a template.</p>\n<a href=\"https://rowanmanning.com/posts/writing-a-friendly-readme/\">Writing a Friendly README</a>",
+			"text": "@rowan is there anything you’d change about https://rowanmanning.com/posts/writing-a-friendly-readme/ 7 years on? I’m revamping a project’s documentation and I continue to use your post as a template.\nWriting a Friendly README"
+		},
+		"mention-of": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
+		"wm-property": "mention-of",
+		"wm-private": false
 	}
 }
