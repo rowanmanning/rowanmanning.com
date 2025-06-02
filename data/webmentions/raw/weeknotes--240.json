@@ -1,0 +1,29 @@
+{
+	"49f3b9f85deead37a7e0302b43d44fda": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "",
+			"photo": "",
+			"url": ""
+		},
+		"url": "https://fundor333.com/micro/2025/06/taxidermy/",
+		"published": "2025-06-02T19:34:45+02:00",
+		"wm-received": "2025-06-02T17:46:05Z",
+		"wm-id": 1915381,
+		"wm-source": "https://fundor333.com/micro/2025/06/taxidermy/",
+		"wm-target": "https://rowanmanning.com/weeknotes/240/",
+		"wm-protocol": "webmention",
+		"name": "Taxidermy",
+		"content": {
+			"html": "<p><a href=\"https://rowanmanning.com/weeknotes/240/\" class=\"u-in-reply-to u-in-reply-to\"><i></i> In replay of <span>https://rowanmanning.com/weeknotes/240/</span></a></p><a href=\"https://brid.gy/publish/mastodon\"></a><a href=\"https://brid.gy/publish/bluesky\"></a><p>Why not share the taxidermy??? Why not?</p><p>Why not share the taxidermy??? Why not?</p>",
+			"text": "In replay of https://rowanmanning.com/weeknotes/240/Why not share the taxidermy??? Why not?\n\nWhy not share the taxidermy??? Why not?"
+		},
+		"in-reply-to": "https://rowanmanning.com/weeknotes/240/",
+		"wm-property": "in-reply-to",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://fundor333.com/micro/2025/06/taxidermy/"
+		}
+	}
+}
