@@ -3,7 +3,7 @@
 # ---------------------------
 title: "Week 249: Herd Mentality"
 date: 2025-08-04T17:30:00+01:00
-description: "A week of nice lunches, great BBQ food, curdled cocktails, following the herd, bottomless brunches, and some excellent RPGing"
+description: "A week of nice lunches, great BBQ food, curdled cocktails, following the herd, bottomless brunches, and some excellent RPGing."
 tags: ["Social", "Food", "Games", "Board Games"]
 
 # Weeknote display
