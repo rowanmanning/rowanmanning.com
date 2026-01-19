@@ -4,7 +4,7 @@
 title: "Week 239: Standoff"
 date: 2025-05-26T14:10:00+01:00
 description: "A week of racing boardgames, cowboys, new RPGs, multiple birthday drinks, summer time, and crying at cakes."
-tags: ["Games", "Boardgames", "Social", "Family", "Kittens"]
+tags: ["Games", "Board Games", "Social", "Family", "Kittens"]
 
 # Weeknote display
 # ----------------
