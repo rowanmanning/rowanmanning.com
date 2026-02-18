@@ -2,7 +2,7 @@
 # Weeknote title and metadata
 # ---------------------------
 title: "Week 277: Frosch"
-date: 2026-02-17T23:36:26Z
+date: 2026-02-18T00:05:00Z
 description: "A week of D&D planning, learning Rust, escaping AI, a meat and carb diet, dressing as eggs, and lots of inflatable frog adventures."
 tags: ["Holiday", "D&D", "Food", "Social", "Health", "Rust"]
 
