@@ -21,6 +21,6 @@ highlight: "purple"
 
   * Over the weekend we popped down to Kent and joined a birthday walk from Faversham to Whitstable. It was really fun and the perfect walking weather – cold but sunny. We didn't get meningitis as far as I can tell.
 
-  * After a work friend has talked about it a few times, Charlotte and I are trying out [Kagi](https://kagi.com/) as a DuckDuckGo replacement and I'm impressed so far. It feels a bit like old Google in that it's actually quite good and useful. We've mostly been using it over the weekend so we'll see how it really performs for work.
+  * After [Ivo](https://cherry.computer/) has talked about it a few times, Charlotte and I are trying out [Kagi](https://kagi.com/) as a DuckDuckGo replacement and I'm impressed so far. It feels a bit like old Google in that it's actually quite good and useful. We've mostly been using it over the weekend so we'll see how it really performs for work.
 
   * Following the theme of noodling around with "new" tech, I'm trying [Obsidian](https://obsidian.md/) for note taking. Of _course_ I got carried away with organisation but I've settled on something fairly basic making use of tags and categories instead of millions of folders. I migrated sixteen years of scrappy notes from IA Writer, Bear, Notion, and Apple Notes and there are probably a bunch of random Markdown files scattered around my Mac that need moving in. Seems good, the real question is whether I'll use it.
