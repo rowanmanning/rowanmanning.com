@@ -1,0 +1,24 @@
+{
+	"360ad456f2610d253d25681276076cbf": {
+		"type": "entry",
+		"author": {
+			"type": "card",
+			"name": "",
+			"photo": "",
+			"url": ""
+		},
+		"url": "https://lemmy.world/post/44976943",
+		"published": null,
+		"wm-received": "2026-03-31T07:54:21Z",
+		"wm-id": 1987504,
+		"wm-source": "https://lemmy.world/post/44976943",
+		"wm-target": "https://rowanmanning.com/weeknotes/283/",
+		"wm-protocol": "webmention",
+		"mention-of": "https://rowanmanning.com/weeknotes/283/",
+		"wm-property": "mention-of",
+		"wm-private": false,
+		"rels": {
+			"canonical": "https://lemmy.world/post/44976943"
+		}
+	}
+}
