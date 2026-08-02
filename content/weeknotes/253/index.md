@@ -4,7 +4,7 @@
 title: "Week 253: Hop Festival"
 date: 2025-09-01T17:12:00+01:00
 description: "A week of lounging around, conquering India, holding Cornwall, lots of festival drinks, and a trip up north."
-tags: ["Games", "Social", "Holiday", "Kittens", "Hop Festival"]
+tags: ["Games", "Social", "Holiday", "Cats", "Tom Barnaby", "Douglas Fir", "Hop Festival"]
 
 # Weeknote display
 # ----------------

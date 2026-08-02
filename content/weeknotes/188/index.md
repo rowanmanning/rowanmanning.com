@@ -4,7 +4,7 @@
 title: "Week 188: Beaching Off"
 date: 2024-06-04T14:45:00+03:00
 description: "A week of holiday shopping, hanging out with friends, lots of pairing, dependency bumps, cuddly lads, cat-sitters, and a flight to sunny Türkiye."
-tags: ["Work", "Social", "Holiday", "Kittens", "Food"]
+tags: ["Work", "Social", "Holiday", "Kittens", "Tom Barnaby", "Douglas Fir", "Food"]
 
 # Weeknote display
 # ----------------

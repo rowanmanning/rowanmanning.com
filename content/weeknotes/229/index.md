@@ -4,7 +4,7 @@
 title: "Week 229: Two Point Museum"
 date: 2025-03-17T21:00:00Z
 description: "A week of fun hack days, writing PHP, sickness in the house, sickness in the family, building museums together, and new cat games."
-tags: ["Work", "Health", "Family", "Games", "Kittens"]
+tags: ["Work", "Health", "Family", "Games", "Cats", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

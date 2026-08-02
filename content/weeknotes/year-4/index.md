@@ -4,7 +4,7 @@
 title: "Year 4: Lads"
 date: 2025-02-16T22:50:00Z
 description: "A year of two very sweet kittens, getting my reading ability back, still writing weeknotes, plans for my health, and thinking about the future of my work."
-tags: ["Yearnote", "Kittens", "Books", "Writing", "Health", "Work"]
+tags: ["Yearnote", "Kittens", "Tom Barnaby", "Douglas Fir", "Books", "Writing", "Health", "Work"]
 
 # Weeknote display
 # ----------------

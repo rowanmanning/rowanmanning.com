@@ -4,7 +4,7 @@
 title: "Week 241: Fur Flying"
 date: 2025-06-09T09:30:00+01:00
 description: "A week of setting up appointments, cat fights, planning days, work drinks, country shows, looking at vegetables, caribbean food, and prepping for Pitbull."
-tags: ["Health", "Kittens", "Work", "Social", "Food", "Music"]
+tags: ["Health", "Cats", "Tom Barnaby", "Work", "Social", "Food", "Music"]
 
 # Weeknote display
 # ----------------

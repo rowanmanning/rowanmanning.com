@@ -4,7 +4,7 @@
 title: "Week 251: £2 Pints"
 date: 2025-08-18T12:45:00+01:00
 description: "A week of renewed motivation, cheap pub crawls, historical figures, becoming obsessed, needy little lads, and a birthday party."
-tags: ["Work", "Social", "Games", "Kittens", "Food"]
+tags: ["Work", "Social", "Games", "Cats", "Tom Barnaby", "Douglas Fir", "Food"]
 
 # Weeknote display
 # ----------------

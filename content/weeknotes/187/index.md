@@ -4,7 +4,7 @@
 title: "Week 187: New Menu"
 date: 2024-05-26T22:50:00+01:00
 description: "A week of solo vet trips, catching up in pubs, expensive pints, outdoor cats, pitchers, Jägerbombs, bouncy castles, and good reads."
-tags: ["Social", "Work", "Kittens", "Books", "Jägerbomb", "Politics"]
+tags: ["Social", "Work", "Kittens", "Tom Barnaby", "Douglas Fir", "Books", "Jägerbomb", "Politics"]
 
 # Weeknote display
 # ----------------

@@ -4,7 +4,7 @@
 title: "Week 299: Bins"
 date: 2026-07-20T13:15:00+01:00
 description: "A week of new kitchen bins, meeting neighbours, new cat sitters, walking past pubs, Australian visitors, 40ths, and missing Critical Role."
-tags: ["House", "Kittens", "Social", "D&D"]
+tags: ["House", "Cats", "Tom Barnaby", "Douglas Fir", "Social", "D&D"]
 
 # Weeknote display
 # ----------------

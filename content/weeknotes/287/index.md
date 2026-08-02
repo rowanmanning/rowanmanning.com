@@ -4,7 +4,7 @@
 title: "Week 287: Spice Rack"
 date: 2026-04-26T22:05:00+01:00
 description: "A week of organising the house, relocating our spices, getting distracted, purging litter trays, lots of drinks, sunny balconies, and some of the absolute best noodles."
-tags: ["Food", "House", "Kittens", "Social"]
+tags: ["Food", "House", "Cats", "Tom Barnaby", "Douglas Fir", "Social"]
 
 # Weeknote display
 # ----------------

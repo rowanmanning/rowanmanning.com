@@ -4,7 +4,7 @@
 title: "Week 194: Pissy Lads"
 date: 2024-07-14T21:55:00+01:00
 description: "A week of building cities, reading about rebirth, free music, house parties, sambuca, wet beds, cats in the bath, and a family day in the park."
-tags: ["Games", "Books", "Social", "Kittens", "Family", "Champagne"]
+tags: ["Games", "Books", "Social", "Kittens", "Tom Barnaby", "Douglas Fir", "Family", "Champagne"]
 
 # Weeknote display
 # ----------------

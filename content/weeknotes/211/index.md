@@ -4,7 +4,7 @@
 title: "Week 211: Jane McDonald"
 date: 2024-11-11T23:45:00Z
 description: "A week of election coverage, long-standing bugs, wholesome weekend days, fridge adjustments, concerts in Brighton, and trying to curb my current obsession."
-tags: ["Work", "Social", "Games", "Kittens", "Music", "Food", "Factorio"]
+tags: ["Work", "Social", "Games", "Kittens", "Tom Barnaby", "Douglas Fir", "Music", "Food", "Factorio"]
 
 # Weeknote display
 # ----------------

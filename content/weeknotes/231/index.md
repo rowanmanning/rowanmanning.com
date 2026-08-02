@@ -4,7 +4,7 @@
 title: "Week 231: The Residence"
 date: 2025-03-30T23:05:00+01:00
 description: "A week of great pub quizzes, drawing rounds, leaving drinks, heartburn, good TV, fusion food, booking flights, and adventurous lads."
-tags: ["Social", "TV", "Food", "Holiday", "Kittens"]
+tags: ["Social", "TV", "Food", "Holiday", "Cats", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

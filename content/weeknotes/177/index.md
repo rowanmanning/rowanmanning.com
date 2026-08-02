@@ -4,7 +4,7 @@
 title: "Week 177: Dermatology"
 date: 2024-03-18T08:50:00Z
 description: "A week of kittens settling in, gas leaks, engineers, hospital appointments, annoying skin, streams of visitors, and visits to Kent."
-tags: ["House", "Health", "Social", "Kittens"]
+tags: ["House", "Health", "Social", "Kittens", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

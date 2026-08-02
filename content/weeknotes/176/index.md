@@ -4,7 +4,7 @@
 title: "Week 176: Kittens"
 date: 2024-03-11T22:10:00Z
 description: "A week of drives to Faversham, cute new kittens, play fights, being off sick, cute purring, gentle lads, derpy paper-eaters, and giving up on my armchair."
-tags: ["Kittens", "Health"]
+tags: ["Kittens", "Tom Barnaby", "Douglas Fir", "Health"]
 
 # Weeknote display
 # ----------------

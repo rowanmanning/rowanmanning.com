@@ -4,7 +4,7 @@
 title: "Week 301: Big Fan"
 date: 2026-08-02T21:35:00+01:00
 description: "A week of lazy days, inexpensive drinks, finally buying a fan, tagging the lads, picking up a book, and using pen and paper again."
-tags: ["Social", "Kittens", "House", "Books", "D&D"]
+tags: ["Social", "Cats", "Tom Barnaby", "Douglas Fir", "House", "Books", "D&D"]
 
 # Weeknote display
 # ----------------

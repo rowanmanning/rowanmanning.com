@@ -4,7 +4,7 @@
 title: "Week 184: Copenhagen & Malmö"
 date: 2024-05-06T15:20:00+02:00
 description: "A week of election results, outdated consumer units, electricians, cooking pasta, Copenhagen, Malmö, spring weather, and prepping for Eurovision."
-tags: ["House", "Holiday", "Eurovision", "Food", "Politics", "Kittens"]
+tags: ["House", "Holiday", "Eurovision", "Food", "Politics", "Kittens", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

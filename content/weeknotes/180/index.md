@@ -4,7 +4,7 @@
 title: "Week 180: Adult Refresher"
 date: 2024-04-08T21:05:00+01:00
 description: "A week of illness, a pub trip, wine, London Eurovision Parties, Long John Silver, Morlocks, smashing my reading target, and a cat backpack."
-tags: ["Social", "Health", "Eurovision", "Books", "Kittens"]
+tags: ["Social", "Health", "Eurovision", "Books", "Kittens", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

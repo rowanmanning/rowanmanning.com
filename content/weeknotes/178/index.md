@@ -4,7 +4,7 @@
 title: "Week 178: Humble"
 date: 2024-03-25T08:45:00Z
 description: "A week of relaxing, reading classic horror, birthday cocktails, the big light, shopping, wine flights, crumbles, and a couple of tiny purring lads."
-tags: ["Books", "Social", "House", "Kittens"]
+tags: ["Books", "Social", "House", "Kittens", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

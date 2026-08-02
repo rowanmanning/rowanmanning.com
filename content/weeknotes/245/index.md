@@ -4,7 +4,7 @@
 title: "Week 245: Satan's Whiskers"
 date: 2025-07-07T12:30:00+01:00
 description: "A week of members meetings, prepping for holiday, more foot injuries, excellent cocktails, delicious pizza, and some fresh cat grass."
-tags: ["Work", "Health", "Holiday", "Food", "Kittens"]
+tags: ["Work", "Health", "Holiday", "Food", "Cats", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

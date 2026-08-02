@@ -4,7 +4,7 @@
 title: "Week 185: Dune"
 date: 2024-05-12T23:00:00+01:00
 description: "A week of booing, protests, guilt donations, unhappy fans, a happy welcome home, a planned loss of balls, a good reading streak, and enjoying sci-fi."
-tags: ["Music", "Books", "Holiday", "Eurovision", "Kittens"]
+tags: ["Music", "Books", "Holiday", "Eurovision", "Kittens", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

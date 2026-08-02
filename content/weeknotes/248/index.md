@@ -4,7 +4,7 @@
 title: "Week 248: Hail Mary"
 date: 2025-07-28T17:30:00+01:00
 description: "A week of massive journeys, grateful and friendly cats, a very quiet week, birthday drinks, and trying to read some more."
-tags: ["Social", "Books", "Kittens"]
+tags: ["Social", "Books", "Cats", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

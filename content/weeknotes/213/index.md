@@ -4,7 +4,7 @@
 title: "Week 213: Stairs"
 date: 2024-11-24T23:40:00Z
 description: "A week of grandparent visits, kittens in a car, leaving drinks, another leak, showering in the dark, gigs with family, holograms, roast dinners, and mormon wives."
-tags: ["Holiday", "Family", "Kittens", "Social", "Music", "House", "TV"]
+tags: ["Holiday", "Family", "Kittens", "Tom Barnaby", "Douglas Fir", "Social", "Music", "House", "TV"]
 
 # Weeknote display
 # ----------------

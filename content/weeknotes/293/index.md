@@ -4,7 +4,7 @@
 title: "Week 293: Worktop"
 date: 2026-06-07T21:50:00+01:00
 description: "A week of very fast new internet, moving routers, nice chill cats, a lack of yowling, lots of sanding, lots of silicone removal, oiling, hoovering, and some fun Dungeons and Dragons."
-tags: ["House", "Kittens", "D&D", "DIY"]
+tags: ["House", "Cats", "Tom Barnaby", "Douglas Fir", "D&D", "DIY"]
 
 # Weeknote display
 # ----------------

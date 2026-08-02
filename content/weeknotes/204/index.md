@@ -4,7 +4,7 @@
 title: "Week 204: Lincou"
 date: 2024-09-22T21:40:00+02:00
 description: "A week of meeting cat sitters, time in Toulouse, excellent brunches, long drives on the right, cheese diets, and overdoing it on the wine."
-tags: ["Holiday", "Kittens", "Food", "Social"]
+tags: ["Holiday", "Kittens", "Tom Barnaby", "Douglas Fir", "Food", "Social"]
 
 # Weeknote display
 # ----------------

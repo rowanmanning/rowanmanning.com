@@ -4,7 +4,7 @@
 title: "Week 274: Potatoes"
 date: 2026-01-26T17:45:00Z
 description: "A week of birthdays, eating potatoes, running D&D sessions, looking forward to more D&D, new cat sitters, and getting stuck."
-tags: ["Birthday", "Food", "Social", "D&D", "Games", "Kittens"]
+tags: ["Birthday", "Food", "Social", "D&D", "Games", "Cats", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

@@ -4,7 +4,7 @@
 title: "Week 254: Thor's Cave"
 date: 2025-09-08T08:45:00+01:00
 description: "A week of long walks, cosy cottages, impressive caves, tea rooms, country pubs, wet rollercoasters, being bad at weekly shops, and some relaxed lads."
-tags: ["Holiday", "Walking", "Social", "Kittens", "Food", "Work"]
+tags: ["Holiday", "Walking", "Social", "Cats", "Tom Barnaby", "Douglas Fir", "Food", "Work"]
 
 # Weeknote display
 # ----------------

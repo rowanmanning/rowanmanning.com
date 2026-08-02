@@ -4,7 +4,7 @@
 title: "Week 218: Tinsel Eating"
 date: 2024-12-30T21:15:00Z
 description: "A week of many obligations, lots of cooking, cats being a pain, tinsel consumption, driving around, and being ready for a proper rest."
-tags: ["Christmas", "Family", "Kittens", "Food", "Social"]
+tags: ["Christmas", "Family", "Cats", "Tom Barnaby", "Douglas Fir", "Food", "Social"]
 
 # Weeknote display
 # ----------------

@@ -4,7 +4,7 @@
 title: "Week 237: Picnic"
 date: 2025-05-11T22:35:00+01:00
 description: "A week of good family news, relief, creeping burnout, booking holidays, lovely picnics, summer drinks, cute dogs, and climbing experts."
-tags: ["Family", "Work", "Social", "Kittens", "Holiday"]
+tags: ["Family", "Work", "Social", "Cats", "Tom Barnaby", "Holiday"]
 
 # Weeknote display
 # ----------------

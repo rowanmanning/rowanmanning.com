@@ -4,7 +4,7 @@
 title: "Week 235: Wetlands"
 date: 2025-04-27T22:50:00+01:00
 description: "A week of quiet evenings, healthier lifestyle choices, long walks to Walthamstow, London parks, marathons, museums, and sleeping lads."
-tags: ["Health", "Walking", "Games", "Kittens"]
+tags: ["Health", "Walking", "Games", "Cats", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

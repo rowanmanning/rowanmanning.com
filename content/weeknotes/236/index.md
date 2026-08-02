@@ -4,7 +4,7 @@
 title: "Week 236: Dans le Noir"
 date: 2025-05-05T22:30:30+01:00
 description: "A week of beautiful weather, more leaks, some union activity, International Workers' Day, treasure hunts, eating in the dark, vaccinations, and a long walk."
-tags: ["House", "Work", "Kittens", "Social", "Family", "Walking"]
+tags: ["House", "Work", "Cats", "Tom Barnaby", "Douglas Fir", "Social", "Family", "Walking"]
 
 # Weeknote display
 # ----------------

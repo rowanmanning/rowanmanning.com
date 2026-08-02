@@ -4,7 +4,7 @@
 title: "Week 259: 14-Core"
 date: 2025-10-12T21:10:00+01:00
 description: "A week of alcohol-free cocktails, cancelled plans, treating myself, meeting babies, extravagant engagements, and some cozy lads."
-tags: ["Food", "Health", "Social", "Kittens"]
+tags: ["Food", "Health", "Social", "Cats", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

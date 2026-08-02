@@ -4,7 +4,7 @@
 title: "Week 205: The Tarn"
 date: 2024-09-30T00:05:00+01:00
 description: "A week of river living, quaint little villages, excellent food, kayaking, big bridges, dinosaurs, cuddly kittens, and an exciting new leak."
-tags: ["Holiday", "Food", "Kittens", "House"]
+tags: ["Holiday", "Food", "Kittens", "Tom Barnaby", "Douglas Fir", "House"]
 
 # Weeknote display
 # ----------------

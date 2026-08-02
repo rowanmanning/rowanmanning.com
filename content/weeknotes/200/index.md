@@ -4,7 +4,7 @@
 title: "Week 200: Cognac"
 date: 2024-08-26T23:42:00+01:00
 description: "A week of arbitrary milestones, obsessive gaming, fun quiz nights, making cocktails, eating lots, drinking lots, pissy beds, and bad cat owners."
-tags: ["Writing", "Social", "Food", "Kittens", "Games"]
+tags: ["Writing", "Social", "Food", "Kittens", "Douglas Fir", "Games"]
 
 # Weeknote display
 # ----------------

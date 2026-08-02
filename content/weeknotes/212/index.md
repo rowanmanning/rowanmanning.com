@@ -4,7 +4,7 @@
 title: "Week 212: Sherborne"
 date: 2024-11-18T23:05:00Z
 description: "A week of fun new board games, well-behaved lads, short work weeks, weekends in the countryside, and baked goods."
-tags: ["Games", "Social", "Work", "Holiday", "Food", "Kittens", "Family", "Board Games"]
+tags: ["Games", "Social", "Work", "Holiday", "Food", "Kittens", "Tom Barnaby", "Douglas Fir", "Family", "Board Games"]
 
 # Weeknote display
 # ----------------

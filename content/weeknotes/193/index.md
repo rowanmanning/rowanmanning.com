@@ -4,7 +4,7 @@
 title: "Week 193: Election"
 date: 2024-07-07T22:50:00+01:00
 description: "A week of landslides, visiting sisters, Minecraft RPGs, all-nighters, morning shots, fictional pandemics, and reusable workflows."
-tags: ["Politics", "Family", "Games", "Social", "Minecraft", "Books", "Kittens", "Jägerbomb"]
+tags: ["Politics", "Family", "Games", "Social", "Minecraft", "Books", "Kittens", "Tom Barnaby", "Douglas Fir", "Jägerbomb"]
 
 # Weeknote display
 # ----------------

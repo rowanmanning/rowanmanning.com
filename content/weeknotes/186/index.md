@@ -4,7 +4,7 @@
 title: "Week 186: Snip"
 date: 2024-05-20T08:55:00+01:00
 description: "A week of minor operations, microchips, poo trails, little sunflowers, reading on Hampstead Heath, multiple books, and a fun house party."
-tags: ["Walking", "Books", "Social", "Kittens"]
+tags: ["Walking", "Books", "Social", "Kittens", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

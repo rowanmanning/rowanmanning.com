@@ -4,7 +4,7 @@
 title: "Week 198: Drying"
 date: 2024-08-11T09:00:00+01:00
 description: "A week of laziness, replacing old systems, building insurance, industrial dryers, innovative kittens, trash TV, and a trip to the countryside."
-tags: ["Work", "House", "Kittens", "Holiday", "Walking", "TV", "Love is Blind"]
+tags: ["Work", "House", "Kittens", "Tom Barnaby", "Douglas Fir", "Holiday", "Walking", "TV", "Love is Blind"]
 
 # Weeknote display
 # ----------------

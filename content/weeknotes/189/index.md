@@ -4,7 +4,7 @@
 title: "Week 189: Dark Water"
 date: 2024-06-09T22:50:00+01:00
 description: "A week of relaxing by the pool, swim-up bars, super hot temperatures, injuries, swimming in the sea, lots of reading, and reuniting with the lads."
-tags: ["Holiday", "Health", "Books", "Food", "Kittens"]
+tags: ["Holiday", "Health", "Books", "Food", "Kittens", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

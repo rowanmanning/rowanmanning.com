@@ -4,7 +4,7 @@
 title: "Week 232: Biscuit"
 date: 2025-04-06T22:40:00+01:00
 description: "A week of brandless socials, new catsitters, fun with our neighbours, cooking and baking, drives to Canterbury, family visits, cute dogs, traffic, and horse riding."
-tags: ["Kittens", "Social", "Food", "Family"]
+tags: ["Cats", "Tom Barnaby", "Douglas Fir", "Social", "Food", "Family"]
 
 # Weeknote display
 # ----------------

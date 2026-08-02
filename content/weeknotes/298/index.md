@@ -4,7 +4,7 @@
 title: "Week 298: Roof Cat"
 date: 2026-07-12T16:55:00+01:00
 description: "A week of pub quizzes, hot weeks, last-minute holiday, eating outdoors, cats in the garden, cats on a roof, steam cleaning, scrubbing, and wholesome local events."
-tags: ["Social", "House", "Kittens", "Food"]
+tags: ["Social", "House", "Cats", "Tom Barnaby", "Douglas Fir", "Food"]
 
 # Weeknote display
 # ----------------

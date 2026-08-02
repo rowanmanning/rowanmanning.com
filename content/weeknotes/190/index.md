@@ -4,7 +4,7 @@
 title: "Week 190: Lads' Weekend"
 date: 2024-06-16T23:10:00+01:00
 description: "A week of post-holiday quietness, photos of the cats, exploring outdoors, working with OpenTelemetry, a solo weekend, Yemeni food, and a couple of new books."
-tags: ["Work", "Books", "Food", "Social", "Kittens"]
+tags: ["Work", "Books", "Food", "Social", "Kittens", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

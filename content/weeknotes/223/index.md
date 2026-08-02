@@ -4,7 +4,7 @@
 title: "Week 223: Harry Styles"
 date: 2025-02-03T22:45:00Z
 description: "A week of feeling less grumpy, a lack of yearnotes, interesting work, disappointing lights, strangers, short walks, many cocktails, and some angry lads."
-tags: ["Writing", "Health", "Work", "Social", "Walking", "Kittens"]
+tags: ["Writing", "Health", "Work", "Social", "Walking", "Cats", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

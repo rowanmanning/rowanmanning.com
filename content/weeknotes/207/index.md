@@ -4,7 +4,7 @@
 title: "Week 207: Wonderful World"
 date: 2024-10-13T22:00:00+01:00
 description: "A week of multiple meals out, multiple drinks, fun new board games, parental birthdays, great vegan food, the winter video game season, cuddly kittens, and enjoying fantasy."
-tags: ["Social", "Food", "Games", "Family", "Board Games", "Kittens", "TV"]
+tags: ["Social", "Food", "Games", "Family", "Board Games", "Kittens", "Tom Barnaby", "Douglas Fir", "TV"]
 
 # Weeknote display
 # ----------------

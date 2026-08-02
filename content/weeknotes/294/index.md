@@ -4,7 +4,7 @@
 title: "Week 294: Flyers"
 date: 2026-06-14T10:30:00+01:00
 description: "A week of flyer deliveries, flyer distributions, new members, playing with lego, architecture diagrams, curtains, Bakewell puddings, boxes, and calm lads."
-tags: ["Work", "House", "Food", "DIY", "Walking", "Kittens"]
+tags: ["Work", "House", "Food", "DIY", "Walking", "Cats", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

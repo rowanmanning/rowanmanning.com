@@ -4,7 +4,7 @@
 title: "Week 202: Ramlets"
 date: 2024-09-08T22:50:00+01:00
 description: "A week of painted walls, stain removal, bonus paint, new rugs, work reminders, winning Wingspan, making Ramen Omelettes, and silly musicals."
-tags: ["House", "Games", "Food", "Social", "Kittens", "Board games"]
+tags: ["House", "Games", "Food", "Social", "Kittens", "Tom Barnaby", "Board games"]
 
 # Weeknote display
 # ----------------

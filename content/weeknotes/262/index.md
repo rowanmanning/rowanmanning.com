@@ -4,7 +4,7 @@
 title: "Week 262: Blue Prince"
 date: 2025-11-03T18:10:00Z
 description: "A week excellent puzzles, scribbling notes, murderous stage shows, curry, fireworks, union activity, delicious tinned fish, and a new bed."
-tags: ["Games", "Social", "TV", "Food", "Kittens"]
+tags: ["Games", "Social", "TV", "Food", "Cats", "Tom Barnaby"]
 
 # Weeknote display
 # ----------------

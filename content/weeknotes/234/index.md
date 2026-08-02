@@ -4,7 +4,7 @@
 title: "Week 234: Morecambe"
 date: 2025-04-21T21:30:00+01:00
 description: "A week of illustrations, long weekends, long drives, nights out in Blackpool, long walks, mud flats, pavlovas, and roast dinners."
-tags: ["Art", "Social", "Walking", "Food", "Kittens"]
+tags: ["Art", "Social", "Walking", "Food", "Cats", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

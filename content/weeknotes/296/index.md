@@ -4,7 +4,7 @@
 title: "Week 296: Lebanese"
 date: 2026-06-28T22:00:00+01:00
 description: "A week of incredibly hot flats, incredibly hot cats, a reasonable number of drinks, time on a balcony, overplanning in D&D, and a cry for Lebanese help."
-tags: ["Social", "Work", "D&D", "Food", "Kittens"]
+tags: ["Social", "Work", "D&D", "Food", "Cats", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

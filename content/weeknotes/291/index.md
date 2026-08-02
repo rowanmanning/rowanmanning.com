@@ -4,7 +4,7 @@
 title: "Week 291: FrIKEA"
 date: 2026-05-25T23:55:00+01:00
 description: "A week of in-person boardgames, shooting the shit, union tables, Friday IKEA trips, plant balls, doubling up possessions, picnics in the park, and weeks in Derbyshire."
-tags: ["Social", "Work", "House", "Health", "Food", "Walking", "Kittens"]
+tags: ["Social", "Work", "House", "Health", "Food", "Walking", "Cats", "Tom Barnaby", "Douglas Fir"]
 
 # Weeknote display
 # ----------------

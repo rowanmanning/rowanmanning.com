@@ -4,7 +4,7 @@
 title: "Week 217: Growing Lads"
 date: 2024-12-23T22:30:00Z
 description: "A week of mending injuries, Christmas shopping, Kitten birthdays, Christmas trees, emergency vet visits, and many hours of Factorio."
-tags: ["Christmas", "Kittens", "Health", "Games", "Factorio"]
+tags: ["Christmas", "Kittens", "Tom Barnaby", "Douglas Fir", "Health", "Games", "Factorio"]
 
 # Weeknote display
 # ----------------

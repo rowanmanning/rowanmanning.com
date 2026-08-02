@@ -4,7 +4,7 @@
 title: "Week 270: Christmas Nap"
 date: 2025-12-28T19:50:00Z
 description: "A week of being tired, multiple long drives, cat birthdays, Christmas Carols, vegetable prep, family visits, and new drinking vessels."
-tags: ["Christmas", "Kittens", "Food", "Games", "Family"]
+tags: ["Christmas", "Cats", "Tom Barnaby", "Douglas Fir", "Food", "Games", "Family"]
 
 # Weeknote display
 # ----------------
