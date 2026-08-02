@@ -26,7 +26,7 @@ resources:
 
     It's hot again. Our flat is hot again. I finally caved and bought a fan, we've been living without any real cooling but I'm fed up. It arrives tomorrow and I'm excited. The cats have _finally_ learned that it's cooler in the shade, here they are chilling in the entrance to our flat and enjoying the breeze without the sun for once.
 
-  * Ivo tells me I should rename the ["Kittens" tag](http://localhost:1313/tags/kittens/) to "Cats" which _is_ more correct but then all the old kitten posts will be tagged less correctly and I'll also have to set up redirects and stuff which I cba with. I went back and had a look and [Tootsie had his own tag](http://localhost:1313/tags/tootsie/) which feels a bit unfair. Would it be better to tag each post with both "Tom Barnaby" and "Douglas Fir"? Maybe? Let me have a think after this weeknote.
+  * Ivo tells me I should rename the ["Kittens" tag](https://rowanmanning.com/tags/kittens/) to "Cats" which _is_ more correct but then all the old kitten posts will be tagged less correctly and I'll also have to set up redirects and stuff which I cba with. I went back and had a look and [Tootsie had his own tag](https://rowanmanning.com/tags/tootsie/) which feels a bit unfair. Would it be better to tag each post with both "Tom Barnaby" and "Douglas Fir"? Maybe? Let me have a think after this weeknote.
 
   * I started reading [Mistborn](https://en.wikipedia.org/wiki/Mistborn:_The_Final_Empire) today and I'm 25% of the way through book one already. I enjoy it. I haven't read any Brandon Sanderson and there's a lot available which is good!
 
